@@ -2,6 +2,7 @@
 title: "El I Chingón"
 description: "Filosofía, Sincronismo, Matemáticas y Ciencias de la Computación."
 layout: "hero"
+translationKey: "homepage"
 ---
 
 Este espacio nace con el propósito de analizar el I Ching como el primer protocolo de información descentralizado de la historia. 
