@@ -19,20 +19,46 @@ defaultContentLanguageInSubdir = true
   showCopyright = true
   showThemeAttribution = false
 
-# 3. La Estrategia de Idiomas
+# 3. La Estrategia de Idiomas e Internacionalización con Menús
 [languages]
   [languages.es]
     languageName = "Español"
-    contentDir = "content"
     weight = 1
     title = "El I Chingón"
     [languages.es.params]
-      description = "Filosofía, Ciencia de Sistemas y Tecnología"
+      description = "El I Ching visto como un protocolo de información descentralizado. Una intersección de la filosofía, el sincronismo, las matemáticas y las ciencias de la computación."
+    
+    # Menú en Español
+    [[languages.es.menu.main]]
+      name = "Hexagramas"
+      pageRef = "hexagramas"
+      weight = 1
+    [[languages.es.menu.main]]
+      name = "Filosofía"
+      pageRef = "filosofia"
+      weight = 2
+    [[languages.es.menu.main]]
+      name = "YouTube"
+      url = "https://www.youtube.com/@ElIChingon"
+      weight = 3
 
   [languages.en]
     languageName = "English"
-    contentDir = "content"
     weight = 2
     title = "I Chingon"
     [languages.en.params]
-      description = "Philosophy, Systems Science, and Technology"
+      description = "The I Ching as a decentralized information protocol. An intersection of philosophy, synchronicity, mathematics, and computer science."
+    
+    # Menú en Inglés
+    [[languages.en.menu.main]]
+      name = "Hexagrams"
+      pageRef = "hexagrams"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Philosophy"
+      pageRef = "philosophy"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "YouTube"
+      url = "https://www.youtube.com/@ElIChingon"
+      weight = 3
