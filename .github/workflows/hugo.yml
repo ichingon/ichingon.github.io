@@ -1,0 +1,55 @@
+name: Desplegar Hugo en GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # O master, según tu rama principal
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive # 👈 CRUCIAL: Esto le dice al robot que descargue Blowfish
+          fetch-depth: 0
+
+      - name: Configurar Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Instalar Hugo Extended
+        uses: actions/configure-hugo@v1
+        with:
+          hugo-version: '0.161.1' # 👈 Tu versión exacta actual
+          extended: true
+
+      - name: Compilar con Hugo
+        run: |
+          hugo --gc --minify
+
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Publicar en internet
+        id: deployment
+        uses: actions/deploy-pages@v4

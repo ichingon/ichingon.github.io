@@ -3,36 +3,36 @@ theme = "blowfish"
 
 # 1. Configuración del Núcleo y Modos
 defaultContentLanguage = "es"
-defaultContentLanguageInSubdir = true # Mantiene limpio el SEO (/es/ y /en/)
+defaultContentLanguageInSubdir = true
 
 [params]
-  # Forzamos el modo oscuro por defecto para todo el mundo
   defaultAppearance = "dark" 
-  # Permite que el usuario cambie a claro si quiere (pon false si quieres bloquearlo en oscuro)
   allowAppearanceChange = true 
+  logo = "logo.png" # 👈 ¡AQUÍ ES DONDE VA! Raíz de params.
 
-# 2. Personalización Visual Básica (Logo y Fondo)
+# 2. Personalización Visual del Menú
 [params.header]
-  layout = "basic" # Estilo de menú limpio
-  logo = "img/dailingna/site-logo.png" # Ruta relativa a la carpeta static
-  showLogo = true
+  layout = "basic"
+  # (Borramos la línea del logo de aquí adentro)
 
 [params.footer]
   showCopyright = true
-  showThemeAttribution = false # Oculta el "Powered by Hugo" si prefieres soberanía total
+  showThemeAttribution = false
 
-# 3. La Estrategia de Idiomas e Internacionalización
+# 3. La Estrategia de Idiomas
 [languages]
   [languages.es]
     languageName = "Español"
     contentDir = "content"
     weight = 1
     title = "El I Chingón"
-    description = "Filosofía, Ciencia de Sistemas y Tecnología"
+    [languages.es.params]
+      description = "Filosofía, Ciencia de Sistemas y Tecnología"
 
   [languages.en]
     languageName = "English"
     contentDir = "content"
     weight = 2
     title = "I Chingon"
-    description = "Philosophy, Systems Science, and Technology"
+    [languages.en.params]
+      description = "Philosophy, Systems Science, and Technology"
