@@ -2,7 +2,6 @@
 title: "I Chingon"
 description: "Philosophy, Synchronicity, Mathematics, and Computer Science."
 layout: "hero"
-translationKey: "homepage"
 ---
 
 This space was created to analyze the I Ching as the first decentralized information protocol in history.

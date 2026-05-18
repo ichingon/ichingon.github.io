@@ -3,7 +3,7 @@ theme = "blowfish"
 
 # 1. Configuración del Núcleo y Modos
 defaultContentLanguage = "es"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 [params]
   defaultAppearance = "dark" 
