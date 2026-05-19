@@ -1,6 +1,6 @@
 ---
 title: "Tabla Avanzada de Correspondencias de los Hexagramas"
-description: "Matriz detallada de 64 filas que cruza el ordenamiento King Wen con estructuras nucleares, descriptores metafísicos y el Cielo Anterior."
+description: "Matriz detallada de 64 filas para cada hexagrama en el ordenamiento del Rey Wen, con sus hexagramas nucleares, descriptores breves y el Cielo Anterior."
 date: 2026-05-19
 draft: false
 layout: "page"
@@ -14,7 +14,7 @@ showWordCount: false
 
 # Correspondencias Avanzadas de los 64 Hexagramas
 
-Esta tabla cruza el ordenamiento clásico de King Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su **Hexagrama Nuclear** interno y su correspondencia arquetípica en el **Cielo Anterior** (calculada a través de la transposición de ejes y direcciones de sus trigramas componentes).
+Esta tabla cruza el ordenamiento clásico de King Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su **Hexagrama Nuclear** interno y su correspondencia arquetípica en el **Cielo Anterior** (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).
 
 ---
 
@@ -28,7 +28,7 @@ Esta tabla cruza el ordenamiento clásico de King Wen con sus nombres en castell
 | **6** | El Conflicto / Sòng / 讼 | Litigio, detenerse a mitad del camino para evitar el caos. | 37 | 23 |
 | **7** | El Ejército / Shī / 师 | Organización, disciplina y liderazgo legítimo. | 24 | 20 |
 | **8** | La Unión / Bǐ / 比 | Solidaridad, alianza y cohesión con un propósito común. | 23 | 46 |
-| **9** | El Cuidado Pequeño / Xiǎo Chù / 小畜 | Fuerza acumulada en pequeña escala, paciencia. | 38 | 41 |
+| **9** | El Cuidado Pequeño / Xiǎo Chù / 小畜 | Fuerza acumulada en pequeña escala, paciencia. | 38 | 31 |
 | **10** | El Porte / Lǚ / 履 | Pisar con cuidado, conducta correcta ante el peligro. | 37 | 4 |
 | **11** | La Paz / Tài / 泰 | Armonía, florecimiento y equilibrio perfecto. | 54 | 53 |
 | **12** | El Estancamiento / Pǐ / 否 | Bloqueo, falta de comunicación y repliegue interior. | 53 | 18 |

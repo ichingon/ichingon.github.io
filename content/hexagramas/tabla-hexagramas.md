@@ -1,6 +1,6 @@
 ---
 title: "Matriz de Hexagramas"
-description: "Tabla de consulta rápida indexada por trigramas superiores e inferiores según el orden de Wilhelm."
+description: "Tabla de consulta rápida indexada por trigramas superiores e inferiores según la secuencia del Rey Wen."
 date: 2026-05-18
 layout: "page"
 showDate: false
