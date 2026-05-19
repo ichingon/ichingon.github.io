@@ -63,3 +63,8 @@ defaultContentLanguageInSubdir = false
       name = "YouTube"
       url = "https://www.youtube.com/@ElIChingon"
       weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
