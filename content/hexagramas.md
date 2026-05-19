@@ -17,7 +17,7 @@ Esta tabla te permite identificar el número de cualquiera de los 64 hexagramas 
 ---
 <div class="tabla-iching">
 
-| Inferior \ Superior | ☰ <br>Cielo | ☳ <br>Trueno | ☵ <br>Agua | ☶ <br>Montaña | ☷ <br>Tierra | ☴ <br>Viento | ☲ <br>Fuego | ☱ <br>Lago |
+| Superior<br>/Inferior | ☰ <br>Cielo | ☳ <br>Trueno | ☵ <br>Agua | ☶ <br>Montaña | ☷ <br>Tierra | ☴ <br>Viento | ☲ <br>Fuego | ☱ <br>Lago |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **☰ Cielo** | **1** | **34** | **5** | **26** | **11** | **9** | **14** | **43** |
 | **☳ Trueno** | **25** | **51** | **3** | **27** | **24** | **42** | **21** | **17** |
