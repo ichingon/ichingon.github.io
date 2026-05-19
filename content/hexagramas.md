@@ -8,11 +8,11 @@ showReadingTime: false
 showWordCount: false
 ---
 
-Esta tabla te permite identificar el número de cualquiera de los 64 hexagramas del I Ching cruzando sus dos componentes dinámicos. 
+Esta tabla te permite identificar el número de cualquiera de los 64 hexagramas del I Ching cruzando sus dos trigramas constituyentes. 
 
 * Busca el **Trigrama Superior** en las columnas horizontales de arriba.
 * Busca el **Trigrama Inferior** en las filas verticales de la izquierda.
-* El punto de intersección te dará el número del hexagrama según el ordenamiento tradicional del Rey Wen (cielo posterior, o mundo de los sentidos).
+* El punto de intersección te dará el número del hexagrama según el ordenamiento tradicional del Rey Wen (後天八卦 - Hòutiān Bāguà; Cielo Posterior, o Mundo de los Sentidos).
 
 ---
 <div class="tabla-iching">
