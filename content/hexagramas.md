@@ -15,6 +15,7 @@ Esta tabla te permite identificar el número de cualquiera de los 64 hexagramas 
 * El punto de intersección te dará el número del hexagrama según el ordenamiento tradicional del Rey Wen (cielo posterior, o mundo de los sentidos).
 
 ---
+<div class="tabla-iching">
 
 | Inferior \ Superior | ☰ <br>Cielo | ☳ <br>Trueno | ☵ <br>Agua | ☶ <br>Montaña | ☷ <br>Tierra | ☴ <br>Viento | ☲ <br>Fuego | ☱ <br>Lago |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -27,3 +28,4 @@ Esta tabla te permite identificar el número de cualquiera de los 64 hexagramas 
 | **☲ Fuego** | **13** | **55** | **63** | **22** | **36** | **37** | **30** | **49** |
 | **☱ Lago** | **10** | **54** | **60** | **41** | **19** | **61** | **38** | **58** |
 
+</div>
