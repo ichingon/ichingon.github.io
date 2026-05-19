@@ -8,7 +8,8 @@ defaultContentLanguageInSubdir = false
 [params]
   defaultAppearance = "dark" 
   allowAppearanceChange = true 
-  logo = "logo.png" # 👈 ¡AQUÍ ES DONDE VA! Raíz de params.
+  logo = "logo.png" # 👈 ¡AQUÍ ES DONDE VA! Raíz de params
+  customCSS = ["css/custom.css"]
 
 # 2. Personalización Visual del Menú
 [params.header]

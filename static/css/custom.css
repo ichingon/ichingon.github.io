@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Estilos para Tablas Adaptables (I Ching)
+   ========================================================================== */
+
+/* Contenedor principal de la tabla */
+.tabla-iching {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    overflow-x: auto; /* Activa el scroll horizontal si la tabla es más ancha que la pantalla */
+    -webkit-overflow-scrolling: touch; /* Suaviza el scroll en dispositivos iOS (iPhone/iPad) */
+}
+
+/* Estilos aplicados a la tabla dentro de este contenedor */
+.tabla-iching table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Control de la primera columna (Encabezados de trigramas inferiores) */
+.tabla-iching table th:first-child,
+.tabla-iching table td:first-child {
+    white-space: nowrap; /* Evita que el texto de la primera columna se rompa en dos líneas */
+    padding-right: 15px; /* Espacio de cortesía para que el texto no quede pegado a la línea divisoria */
+}
