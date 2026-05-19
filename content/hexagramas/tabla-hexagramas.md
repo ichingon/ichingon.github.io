@@ -2,7 +2,7 @@
 title: "Matriz de Hexagramas"
 description: "Tabla de consulta rápida indexada por trigramas superiores e inferiores según el orden de Wilhelm."
 date: 2026-05-18
-layout: "single"
+layout: "page"
 showDate: false
 showReadingTime: false
 showWordCount: false

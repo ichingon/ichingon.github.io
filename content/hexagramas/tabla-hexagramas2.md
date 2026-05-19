@@ -6,6 +6,10 @@ draft: false
 layout: "page"
 showTableOfContents: true
 showTaxonomies: false
+showDate: false
+showReadingTime: false
+showWordCount: false
+
 ---
 
 # Correspondencias Avanzadas de los 64 Hexagramas
