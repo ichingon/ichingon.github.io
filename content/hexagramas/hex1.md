@@ -42,7 +42,7 @@ Otra especulación va todavía más allá con la separación de las palabras "el
 
 Estas especulaciónes, que ya se sugieren en el tratado Wen Yen en la segunda parte del Libro de las Mutaciones, formaron luego el puente sobre el cual se combinó la filosofía de las cinco fases de cambio (elementos), que está anclada en el Libro de los Documentos, con la filosofía del Libro de las Mutaciones, la cual se basa puramente en la dualidad polar de los principios positivo y negativo, abriendo así, con el curso del tiempo, la puerta a una simbología numérica cada vez más extensa.[^3]
 
-## El Bild
+## La Imagen
 
 > El movimiento del cielo es lleno de fuerza.
 > Así el noble se hace fuerte e incansable.

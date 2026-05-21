@@ -1,5 +1,5 @@
 ---
-title: "Hexagrama 2 坤 - 2. KUN / LO RECEPTIVO"
+title: "Hexagrama 2 坤 - Kun / Lo Receptivo"
 draft: false
 description: "Traducción completa y análisis del Hexagrama 2 (Kun) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 2", "Kun", "Lo Receptivo", "Richard Wilhelm", "坤"]
@@ -19,7 +19,7 @@ showAuthor: false
 
 El signo consta de puros trazos partidos. El trazo partido corresponde a la fuerza primordial sombría, blanda y receptiva del Yin. La cualidad del signo es la entrega, su imagen es la tierra. Es la contraparte perfecta de lo Creativo; la contraparte, no la oposición; un complemento, ningún combate. Es la naturaleza frente al espíritu, la tierra frente al cielo, lo espacial frente a lo temporal, lo femenino-materno frente a lo masculino-paterno. El principio de esta contraparte se encuentra, sin embargo, transferido a las relaciones humanas, no solo en las relaciones entre hombre y mujer, sino también de príncipe y ministro o padre e hijo; sí, incluso en los individuos mismos está esta dualidad en la convivencia de lo espiritual y lo sensual.
 
-Sin embargo, no se puede hablar de un verdadero dualismo, pues existe entre ambos signos la relación de una clara jerarquía. En sí, naturalmente, lo Receptivo es tan importante como lo Creativo. Pero a través de la cualidad de la entrega, la posición de esta fuerza primordial queda designada frente a lo Creativo. Debe estar bajo la guía y el estímulo de lo Creativo; entonces actúa de manera saludable. Solo cuando sale de esta posición y quiere colocarse al lado de lo Creativo en igualdad de condiciones, se vuelve mala. De ahí resulta entonces oposición y combate contra lo Creativo, el cual actúa de forma funesta para ambas partes.
+Sin embargo, no se puede hablar de un verdadero dualismo, pues existe entre ambos signos la relación de una clara jerarquía. En sí, naturalmente, lo Receptivo es tan importante como lo Creativo. Pero a través de la cualidad de la entrega, la posición de esta fuerza primordial queda designada frente a lo Creativo. Debe estar bajo la guía y el estímulo de lo Creativo; entonces actúa de manera saludable. Solo cuando sale de esta posición y quiere colocarse al lado de lo Creativo in igualdad de condiciones, se vuelve mala. De ahí resulta entonces oposición y combate contra lo Creativo, el cual actúa de forma funesta para ambas partes.
 
 ## El Dictamen
 
@@ -38,6 +38,11 @@ La naturaleza puede, solo porque está a la altura de la esencia de lo Creativo,
 Transferido a las relaciones humanas, se trata de comportarse de acuerdo con la situación. Uno no se encuentra en una posición independiente, sino que actúa como ayudante. Allí lo importante es rendir algo. La tarea consiste en no querer guiar - por lo cual uno solo se extraviaría -, sino en dejarse guiar. Si uno sabe comportarse con entrega frente al destino, encontrará con seguridad una guía adecuada. El noble se deja guiar. Él no avanza a ciegas, sino que extrae de las circunstancias lo que se exige de él y sigue esta indicación del destino.
 
 Como uno debe rendir algo, necesita de los ayudantes y amigos en el tiempo del trabajo y el esfuerzo, cuando los pensamientos que se han de ejecutar ya están fijados. El tiempo del trabajo y el esfuerzo se expresa a través del oeste y el sur. Pues el sur y el oeste son el símbolo del lugar donde lo Receptivo trabaja para lo Creativo - como la naturaleza en verano y otoño -; si allí no se concentran todas las fuerzas, uno no termina con el trabajo que tiene que rendir. Por lo tanto, conseguir amigos aquí significa precisamente encontrar rendimiento. Pero además del trabajo y el esfuerzo, hay también un tiempo para planificar y ordenar; allí se necesita la soledad. El este simboliza el lugar donde uno recibe los encargos de su señor, y el norte el lugar donde uno informa sobre lo realizado. Allí se requiere estar solo y ser objetivo. En esta hora sagrada se debe prescindir de los compañeros, para que la pureza no se enturbie por el odio y el favor de los partidos.
+
+## La Imagen
+
+> El estado de la Tierra es la receptiva entrega.
+> El noble, de naturaleza amplia, sostiene al mundo externo.
 
 Del mismo modo que solo hay un cielo, también hay solo una tierra. Pero mientras que en el cielo la duplicación del signo significa duración temporal, en la tierra significa extensión espacial y firmeza con la que sostiene y conserva a todo lo que allí vive y se mueve. La tierra en su entrega sostiene sin excepción el bien y el mal. Así, el noble hace su carácter amplio, sólido y resistente, de modo que sea capaz de sostener y soportar a los hombres y las cosas.
 
@@ -71,7 +76,7 @@ Si uno está libre de vanidad, es capaz de ocultar sus ventajas de modo que no a
 
 Lo sombrío se abre cuando se mueve, y se cierra cuando descansa. Aquí está dibujada la más estricta clausura. El tiempo es peligroso: cualquier paso al frente conduce, o bien a la enemistad si se quisiera combatir, o bien a un reconocimiento malinterpretado si uno se mostrara descuidado. Por lo tanto, es necesario cerrarse, ya sea en la soledad o en el engranaje del mundo: pues también allí uno puede ocultarse tan bien que nadie lo conozca.
 
-### Sechs en el quinto puesto significa:
+### Seis en el quinto puesto significa:
 
 > La prenda interior amarilla trae elevada bienaventuranza.
 
@@ -79,7 +84,7 @@ El amarillo es el color de la tierra y del centro, el símbolo de lo confiable y
 
 ### Seis arriba significa:
 
-> Los dragones luchan en la pradera. Su sangre es negra y amarilla. [[^2]]
+> Los dragones luchan en la pradera. Su sangre es negra y amarilla.[^2]
 
 En el puesto supremo, lo sombrío debería ceder ante lo luminoso. Si quiere mantenerse firme en el puesto que no le corresponde y, en lugar de servir, gobernar, atrae hacia sí la ira del fuerte. Se llega al combate en el que es derrocado, en el cual, sin embargo, ambas partes resultan dañadas.
 
@@ -93,21 +98,10 @@ Cuando aparecen puros seises, el signo de lo Receptivo se transforma en el signo
 
 ---
 
-[^1]: Se encuentra aquí una concepción similar a la que Goethe expresa en los versos:
-    
-    Así contempla con mirada modesta
-    La obra maestra de la eterna tejedora,
-    Cómo el pedal mueve mil hilos;
-    Las lanzaderas se cruzan de un lado a otro,
-    Los hilos fluyen encontrándose,
-    Un golpe da mil conexiones;
-    Esto no lo ha mendigado juntándolo,
-    Ella lo ha urdido desde la eternidad,
-    Para que el eterno maestro
-    Con confianza pueda introducir la trama.
+[^1]: Se encuentra aquí una concepción similar a la que Goethe expresa en los versos: / Así contempla con mirada modesta / La obra maestra de la eterna tejedora, / Cómo el pedal mueve mil hilos; / Las lanzaderas se cruzan de un lado a otro, / Los hilos fluyen encontrándose, / Un golpe da mil conexiones; / Esto no lo ha mendigado juntándolo, / Ella lo ha urdido desde la eternidad, / Para que el eterno maestro / Con confianza pueda introducir la trama.
 
 [^2]: Mientras que la línea superior de lo Creativo muestra orgullo titánico y forma un paralelo con la leyenda griega de Ícaro, en la línea superior de lo Receptivo hay un paralelo con el mito de Lucifer, que se rebela contra la deidad suprema, o con la lucha de las potencias oscuras contra los dioses del Valhalla, que termina con el crepúsculo de los dioses.
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](./hex2.de.md)
-* [Volver a la Tabla de Hexagramas](https://elichingon.com/hexagramas/tabla-hexagramas/)
+* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)

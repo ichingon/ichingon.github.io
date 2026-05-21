@@ -29,9 +29,9 @@ Dennoch kann von einem eigentlichen Dualismus nicht geredet werden denn es beste
 > so geht er irre; doch folgt er nach, so findet er Leitung.
 > Fördernd ist es, im Westen und Süden Freunde zu finden,
 > im Osten und Norden der Freunde zu entraten.
-> Ruhige Beharrlichkeit bringt Heil.
+> Ruhige Beharrlichkeit brings Heil.
 
-Die vier Grundrichtungen des Schöpferischen: "erhabenes Gelingen, fördernd durch Beharrlichkeit" finden sich auch als Bezeichnung des Empfangenden. Nur ist die Beharrlichkeit näher definiert als die Beharrlichkeit einer Stute. Das Empfangende bezeichnet die räumliche Wirklichkeit gegenüber der geistigen Möglichkeit des Schöpferischen. Wenn das Mögliche wirklich wird, das Geistige räumlich, so geschieht das immer durch eine einschränkende, individuelle Bestimmung. Das ist bezeichnet dadurch, daß hier dem Ausdruck "Beharrlichkeit" die nähere Bestimmung "einer Stute" beigefugt ist. Das Pferd gehört zur Erde wie der Drache zum Himmel, it symbolisiert durch seine unermeßliche Bewegung über die Ebene hin die Weiträumigkeit der Erde. Der Ausdruck "Stute" ist gewählt, weil die Stute die Kraft und Schnelligkeit des Pferdes mit der Sanftheit und Hingebung der Kuh vereinigt.
+Die vier Grundrichtungen des Schöpferischen: "erhabenes Gelingen, fördernd durch Beharrlichkeit" finden sich auch als Bezeichnung des Empfangenden. Nur ist die Beharrlichkeit näher definiert als die Beharrlichkeit einer Stute. Das Empfangende bezeichnet die räumliche Wirklichkeit gegenüber der geistigen Möglichkeit des Schöpferischen. Wenn das Mögliche wirklich wird, das Geistige räumlich, so geschieht das immer durch eine einschränkende, individuelle Bestimmung. Das ist bezeichnet dadurch, daß hier dem Ausdruck "Beharrlichkeit" die nähere Bestimmung "einer Stute" beigefügt ist. Das Pferd gehört zur Erde wie der Drache zum Himmel, es symbolisiert durch seine unermeßliche Bewegung über die Ebene hin die Weiträumigkeit der Erde. Der Ausdruck "Stute" ist gewählt, weil die Stute die Kraft und Schnelligkeit des Pferdes mit der Sanftheit und Hingebung der Kuh vereinigt.
 
 Die Natur kann nur darum, weil sie dem Wesen des Schöpferischen gewachsen ist, dessen Anregungen verwirklichen. Ihr Reichtum besteht darin, daß sie alle Wesen ernährt, und ihre Größe, daß sie alles verschönt und herrlich macht. So schafft sie Gedeihen für alles Lebendige. Während das Schöpferische die Dinge zeugt, werden sie vom Empfangenden geboren.[^1]
 
@@ -41,12 +41,8 @@ Da man etwas leisten soll, bedarf man der Gehilfen und Freunde zu Zeit der Arbei
 
 ## Das Bild
 
-Himmel und Erde vereinigen sich: das Bild des Friedens.
-
-> So teilt und vollendet der Herrscher
-> den Lauf von Himmel und Erde,
-> fördert und ordnet die Gaben von Himmel und Erde
-> uns steht so dem Volke bei.
+> Der Zustand der Erde ist die empfangende Hingebung.
+> So trägt der Edle weiträumigen Wesens die Außenwelt.
 
 Ebenso wie es nur einen Himmel gibt, gibt es auch nur eine Erde. Während aber beim Himmel die Verdoppelung des Zeichens zeitliche Dauer bedeutet, bedeutet sie bei der Erde die räumliche Ausdehnung und Festigkeit, mit der sie alles, was da lebt und webt, trägt und erhält. Die Erde in ihrer Hingebung trägt ohne Ausnahme Gut und Böse. So macht der Edle seinen Charakter weiträumig, gediegen und tragfähig, so daß er Menschen und Dinge zu tragen und ertragen vermag.
 
@@ -82,7 +78,7 @@ Das Schattige öffnet sich , wenn es sich bewegt, und schließt sich , wenn es r
 
 ### Sechs auf fünftem Platz bedeutet:
 
-> Gelbes Untergewand bringt erhabenes Heil.
+> Gelbes Untergewand brings erhabenes Heil.
 
 Gelb ist die Farbe der Erde und der Mitte, das Symbol des Zuverlässigen und Echten. Das Untergewand ist unauffällig verziert, das Symbol vornehmer Zurückhaltung. Wenn jemand zu wirken berufen ist an hervorragender, doch nicht unabhängiger Stellung, so beruht der wahre Erfolg auf der höchsten Diskretion. Die Echtheit und Feinheit darf nicht direkt hervortreten, sondern nur als Wirkung von innen her sich mittelbar äußern.
 
@@ -102,12 +98,10 @@ Wenn lauter Sechsen erscheinen, verwandelt sich das Zeichen des Empfangenden in 
 
 ---
 
-[^1]: Es findet sich hier ein ähnliche Auffassung, wie Goethe sie in den Versen ausdrückt:
-    
-    So schauet mit bescheidenem Blick / Der ewigen Weberin Meisterstück, / Wie Tritt tausend Fäden regt; / Die Schifflein hinüber herüber schießen, / Die Fäden sich begegnend fließen, / Ein Schlag tausend Verbindungen schlägt; / Das hat sie nicht zusammengebettelt, / Sie hat´s von Ewigkeit angezettelt, / Damit der ewige Meistermann / Getrost den Einschlag werden kann.
+[^1]: Es findet sich hier ein ähnliche Auffassung, wie Goethe sie in den Versen ausdrückt: / So schauet mit bescheidenem Blick / Der ewigen Weberin Meisterstück, / Wie Tritt tausend Fäden regt; / Die Schifflein hinüber herüber schießen, / Die Fäden sich begegnend fließen, / Ein Schlag tausend Verbindungen schlägt; / Das hat sie nicht zusammengebettelt, / Sie hat´s von Ewigkeit angezettelt, / Damit der ewige Meistermann / Getrost den Einschlag werden kann.
 
 [^2]: Während die oberste Linie des Schöpferischen Titanenstolz zeigt und eine Parallele bildet zur griechischen Sage des Ikarus, ist in der obersten Linie das. Empfangende eine Parallele zum Mythos von Lucifer, der sich gegen die oberste Gottheit empört, oder zu dem Kampf der dunklen Mächte gegen die Götter Walhalls. der mit der Götterdämmerung endet.
 
 ### Enlaces de Consulta / Verweise
 * [Texto en Español](./hex2.md)
-* [Zurück zur Hexagrammtabelle](https://elichingon.com/hexagramas/tabla-hexagramas/)
+* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
