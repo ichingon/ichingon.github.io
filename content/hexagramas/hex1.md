@@ -1,7 +1,7 @@
 ---
 title: "Hexagrama 1 乾 - Ch'ien / El Principio Creativo"
 draft: false
-description: "Traducción y análisis del Hexagrama 1 (Ch'ien) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
+description: "Traducción completa y análisis del Hexagrama 1 (Ch'ien) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 1", "Chien", "El Principio Creativo", "Richard Wilhelm", "乾"]
 showDate: false
 showReadingTime: false
@@ -17,71 +17,97 @@ showAuthor: false
 
 ---
 
+El signo consta de seis trazos enteros. Los trazos enteros corresponden a la fuerza primordial luminosa, fuerte, espiritual y activa. El signo es completamente uniforme y fuerte en su naturaleza. Dado que no se le adhiere ninguna debilidad, es por su cualidad la fuerza. Su imagen es el cielo. La fuerza se representa como no ligada a condiciones espaciales determinadas; por lo tanto, se concibe como movimiento. Como fundamento de este movimiento se toma en consideración el tiempo. Así pues, también el poder del tiempo y el poder de la perseverancia en el tiempo, la duración, están contenidos en el signo.
+
+En la explicación del signo debe tenerse en cuenta de principio a fin una doble interpretación: la macrocósmica y el efecto en el mundo de los hombres. Aplicado a los acontecimientos del mundo, en el signo se expresa la fuerte acción creadora de la Divinidad. Aplicado al mundo humano, designa la acción creadora del santo y sabio, del gobernante y guía de los hombres, quien despierta y desarrolla la naturaleza superior de estos a través de su fuerza.[^1]
+
 ## El Dictamen
 
 > El Principio Creativo obra un éxito elevado,
 > propicio en virtud de la perseverancia.
 
-Según el sentido original, las cualidades fundamentales expresadas aquí son cuatro: lo elevado (*Yuan*), lo que logra el éxito (*Heng*), lo propicio o benéfico (*Li*), y la perseverancia firme (*Zhen*).
+Según el sentido original, las cualidades pertenecen juntas por parejas. Para quien obtiene este oráculo, esto significa que se le otorgará el éxito desde las profundidades primordiales de los acontecimientos del mundo y que todo depende de que, únicamente a través de la perseverancia en lo recto, busque su propia felicidad y la de los demás.
 
-Desde la perspectiva humana, esto indica que al hombre fuerte y con cualidades de líder le está deparado un gran éxito terrenal, el cual proviene de las profundidades de los acontecimientos cósmicos. Sin embargo, este éxito depende enteramente de que permanezca firmemente unido a la justicia y a la constancia interior.
+Muy pronto la reflexión se dirigió a las cuatro cualidades en su significado particular. La palabra china que se traduce como "elevado" significa "cabeza, origen, grande". Por eso se dice en la explicación de Kungtsé: «Grande verdaderamente es la fuerza originaria del Principio Creativo, todos los seres le deben su principio. Y esta fuerza impregna todo el cielo». Pues esta primera cualidad también atraviesa a las otras tres.
 
-El Principio Creativo es la energía pura en movimiento; su fuerza no se agota por el espacio ni se debilita por el tiempo. Es la acción del espíritu que da forma y estructura al caos primordial.
+El principio de todas las cosas se encuentra, por así decirlo, todavía en el más allá bajo la forma de ideas que primero deben llegar a su realización. Pero en el Principio Creativo reside también la fuerza para infundir forma a estos arquetipos de las ideas. Esto se designa con la palabra "éxito". Este process se representa bajo una imagen de la naturaleza.[^2]
 
-## La Imagen
+«Las nubes pasan, y la lluvia actúa, y todos los seres individuales fluyen hacia su forma». Transferido al ámbito humano, estas cualidades muestran al gran hombre el camino hacia un gran éxito: «Al contemplar con gran claridad las causas y los efectos, consuma a su debido tiempo los seis peldaños y asciende a su debido tiempo sobre ellos, como sobre seis dragones, hacia el cielo». Los seis peldaños son las seis posiciones individuales del signo, que se representan más abajo bajo la imagen de dragones. Como camino hacia el éxito se designa aquí el conocimiento y la realización del Sentido del Mundo, el cual, como ley continua a través del fin y el principio, provoca todos los fenómenos condicionados por el tiempo. Así, cada peldaño alcanzado se convierte a la vez en la preparación para el siguiente, y el tiempo ya no es un obstáculo, sino el medio para la realización de lo posible.
+
+Después de que el acto de la creación se expresara a través de las dos cualidades de elevado y éxito, se muestra la obra de la conservación como una configuración que se realiza continuamente, a continuación de los dos términos "propicio", es decir, literalmente "creando lo que corresponde a la esencia", y "perseverante", es decir, literalmente "recto y firme". «El curso del Principio Creativo altera y configura a los seres hasta que cada uno obtiene su naturaleza recta y determinada; luego los preserva en armonía con el gran equilibrio uniforme. Así se muestra propicio en virtud de la perseverancia».
+
+Transferido al ámbito humano, se deduce de aquí cómo el gran hombre, mediante su actividad ordenadora, aporta paz y seguridad al mundo: «Al elevarse con su cabeza por encima de la multitud de los seres, todas las tierras se reúnen en la quietud».
+
+Otra especulación va todavía más allá con la separación de las palabras "elevado, éxito, propicio, perseverante" y las pone en paralelo con las cuatro virtudes cardinales humanas: A la "Elevación", que al mismo tiempo incluye como principio fundamental todas las demás cualidades, se le asigna el amor. Al "Éxito" se le asignan las costumbres y normas sociales, que ordenan, organizan y por tanto hacen exitosas las manifestaciones del amor. A lo "Propicio" se le asigna la justicia, la cual crea condiciones en las que cada uno recibe lo que corresponde a su ser, lo que le es debido y constituye su felicidad. A la "Perseverancia" se le asigna la sabiduría, la cual reconoce las leyes firmes de todo acontecer y, por ende, es capaz de crear condiciones duraderas.
+
+Estas especulaciónes, que ya se sugieren en el tratado Wen Yen en la segunda parte del Libro de las Mutaciones, formaron luego el puente sobre el cual se combinó la filosofía de las cinco fases de cambio (elementos), que está anclada en el Libro de los Documentos, con la filosofía del Libro de las Mutaciones, la cual se basa puramente en la dualidad polar de los principios positivo y negativo, abriendo así, con el curso del tiempo, la puerta a una simbología numérica cada vez más extensa.[^3]
+
+## El Bild
 
 > El movimiento del cielo es lleno de fuerza.
-> Así el noble se busca fortalecer a sí mismo sin cesar.
+> Así el noble se hace fuerte e incansable.
 
-Dado que solo existe un cielo, el hecho de que este hexagrama esté compuesto por la duplicación del trigrama del Cielo indica que el movimiento celestial no se detiene nunca. Una jornada sigue a la otra en un ciclo eterno y poderoso. Esto constituye el tiempo puro.
+La duplicación del signo Kien, cuya imagen es el cielo, indica - puesto que solo hay un cielo - el movimiento del cielo. Un movimiento circular completo del cielo es un día. La duplicación del signo significa que a cada día le sigue otro. Esto genera la idea del tiempo y, al mismo tiempo - puesto que es el mismo cielo el que se mueve con fuerza infatigable -, la de la duración vigorosa dentro y por encima del tiempo; un movimiento que nunca se detiene ni desfallece, del mismo modo que un día sigue al otro continuamente. Esta duración en el tiempo es la imagen de la fuerza tal como le es propia al Principio Creativo.
 
-El ser humano superior (el noble) encuentra en este dinamismo cósmico el modelo para su propia vida. No debe permitir que las circunstancias externas quebranten su voluntad o estanquen su desarrollo. Así como el cielo se mueve con fuerza autónoma e incansable, el noble debe cultivar una disciplina interna continua, eliminando la pereza y fortaleciendo su espíritu día tras día.
+El sabio extrae de ello el modelo sobre cómo puede desarrollarse para lograr un efecto duradero. Debe hacerse fuerte de manera completamente uniforme, excluyendo conscientemente todo lo degradante y vulgar. Así obtiene la infatigabilidad que se basa en ciclos cerrados de actividad.
 
 ## Las Líneas Regentes / Móviles
 
-### Nueve en el primer puesto:
-Dragón oculto. No actúes.
+### Nueve al principio significa:
 
-En la simbología china, el dragón representa la fuerza eléctrica, estimulante y ascendente que se manifiesta en los cambios climáticos y en las fuerzas de la naturaleza. Aquí, esta fuerza creativa se encuentra todavía bajo la tierra, replegada sobre sí misma. 
+> Dragón oculto. No actúes.
 
-Esto significa que una persona de gran talento o una idea brillante se halla en una fase de incubación o en una posición inicial donde aún no es reconocida por el entorno. Forzar los acontecimientos en este momento o intentar destacar prematuramente solo conducirá al fracaso. La sabiduría dicta mantenerse en reserva, cultivando el potencial en silencio y esperando el momento cósmico adecuado para manifestarse.
+El dragón tiene en China un significado completamente diferente al de la concepción occidental. El dragón es el símbolo de la fuerza móvil-eléctrica, fuerte y estimulante que se manifiesta en la tormenta. Esta fuerza se retira a la tierra en el invierno, vuelve a actuar a principios del verano y aparece en el cielo como rayo y trueno. A consecuencia de esto, las fuerzas creadoras también se agitan de nuevo en la tierra.
 
-### Nueve en el segundo puesto:
-Aparece el dragón en el campo. Es propicio ver al gran hombre.
+Aquí, esta fuerza creadora está todavía oculta debajo de la tierra y, por lo tanto, no tiene ningún efecto. Esto significa, transferido a las relaciones humanas, que un hombre importante todavía no es reconocido. Pero, a pesar de ello, se mantiene fiel a sí mismo. No se deja influenciar por el éxito o el fracaso externos, sino que aguarda su momento de manera fuerte e imperturbable.
 
-Aquí el potencial creativo comienza a emerger a la superficie. El dragón ya no está oculto bajo tierra, sino que se hace visible en el mundo exterior, aunque todavía no ocupa un puesto de mando formal. Su influencia empieza a notarse de manera natural entre sus semejantes.
+Así pues, para quien obtiene este trazo, se trata de esperar con una paciencia tranquilamente fuerte. El tiempo ya se cumplirá. No hay que temer que una voluntad fuerte no se imponga. Sin embargo, es importante no gastar la fuerza prematuramente ni querer forzar algo que todavía no es oportuno.
 
-El texto señala que "es propicio ver al gran hombre" porque en esta etapa es vital buscar la guía, la alianza o el consejo de alguien con mayor experiencia o sabiduría. Del mismo modo, para el entorno, la aparición de esta fuerza renovadora representa un faro de guía.
+### Nueve en el segundo puesto significa:
 
-### Nueve en el tercer puesto:
-El noble es creativamente activo durante todo el día. Al anochecer, su mente todavía está llena de cuidados. Peligro. No hay culpa.
+> Dragón que aparece en el campo. Es propicio ver al gran hombre.
 
-Se llega a una esfera de transición. La esfera de la acción pública y el reconocimiento social se abre, y con ella aumentan las demandas y las presiones del entorno. El noble trabaja incansablemente durante la jornada para cumplir con sus responsabilidades de organización y creación.
+Aquí comienzan a mostrarse los efectos de la fuerza luminosa. Transferido a las condiciones humanas, esto significa que el gran hombre aparece en el campo de su actividad. Todavía no tiene una posición dominante, sino que está aún entre sus iguales. Pero lo que lo distingue de los demás es su seriedad, su absoluta confiabilidad y la influencia que ejerce sobre su entorno sin un esfuerzo consciente. Un hombre así está destinado a obtener una gran influencia y a poner el mundo en orden. Por eso es propicio verlo.
 
-Al llegar la noche, cuando los demás descansan, su mente permanece despierta, evaluando los riesgos y planificando con cautela. Es una posición expuesta y peligrosa (entre el mundo interno y el externo), pero si la actividad se realiza con plena conciencia de la dificultad, con pureza de intención y sin caer en la arrogancia, no se incurrirá en faltas ni errores.
+### Nueve en el tercer puesto significa:
 
-### Nueve en el cuarto puesto:
-Vuelo vacilante sobre las profundidades. No hay culpa.
+> El noble está creativamente activo durante todo el día.
+> Al anochecer, todavía está lleno de preocupación interna.
+> Peligro. No hay culpa.
 
-Esta línea representa el umbral de la gran ascensión. La fuerza creativa se encuentra ante una encrucijada donde debe elegir entre dar el salto definitivo hacia la cúspide de la acción pública o retirarse hacia la maduración interna en la soledad. 
+Un ámbito de actividad se abre para el hombre prominente. Su fama comienza a extenderse. Las masas acuden a él. Su fuerza interna está a la altura de la intensificada actividad externa. Hay mucho trabajo por hacer, e incluso por la noche, cuando los demás descansan, se agolpan los planes y las preocupaciones. Un peligro está presente aquí, en el lugar de la transición desde la bajeza hacia la altura. Ya muchos grandes hombres perecieron debido a que las masas acudieron a ellos de prisa y los arrastraron hacia sus propias órbitas. La ambición corrompió la pureza interior. Pero la verdadera grandeza no se ve afectada por las tentaciones. Si uno se mantiene en contacto con los gérmenes de los nuevos tiempos y sus exigencias, poseerá la precaución suficiente para guardarse de los desvíos y permanecerá sin culpa.
 
-El concepto clave es la vacilación voluntaria (*vuelo vacilante*), la cual no debe confundirse con la cobardía. Se trata de un análisis libre de la propia capacidad y del momento oportuno. Al no actuar por impulso o ambición ciega, el camino elegido (ya sea el avance o la retirada estratégica) estará libre de culpa.
+### Nueve en el cuarto puesto significa:
 
-### Nueve en el quinto puesto:
-Dragón en pleno vuelo en el cielo. Es propicio ver al gran hombre.
+> Impulso vacilante sobre la profundidad. No hay culpa.
 
-Se ha alcanzado la cúspide del hexagrama y el lugar de máxima autoridad formal y espiritual. El potencial oculto de la primera línea se despliega ahora en toda su plenitud en el plano cósmico y social. El dragón vuela libre en el firmamento.
+Aquí se ha alcanzado el lugar de la transición donde la libertad puede ejercerse. Una doble posibilidad se presenta ante el hombre prominente: o bien elevarse y ser determinante en la gran vida, o bien retirarse y cultivar su personalidad en la quietud: el camino del héroe o del santo oculto. Cuál sea el correcto no está determinado por ninguna ley general. Cada quien que se encuentre en tal situación debe decidir libremente según las leyes más íntimas de su ser. Si actúa de manera completamente verdadera y consecuente, encontrará el camino que le corresponde, y este camino será para él recto y sin culpa.
 
-Esta posición representa al líder natural, al sabio o a la obra cumbre cuyo valor es evidente para todos. La recomendación de "ver al gran hombre" adquiere aquí un doble sentido: los subordinados se benefician al seguir la visión de este líder, y el líder mismo debe apoyarse en otros hombres sabios en la tierra para mantener la cohesión de su obra. Es una influencia recíproca de claridad y orden.
+### Nueve en el quinto puesto significa:
 
-### Nueve en el sexto puesto:
-Dragón arrogante tendrá que arrepentirse.
+> Dragón volando en el cielo. Es propicio ver al gran hombre.
 
-Cuando una fuerza puramente activa, masculina y creativa (*Yang*) asciende más allá de sus límites naturales sin detenerse a considerar el equilibrio, se aísla por completo. El dragón ha subido demasiado alto, perdiendo el contacto con la tierra y con la base que lo sostenía.
+Aquí el gran hombre ha llegado a la esfera de los celestiales. Su influencia se extiende de manera ampliamente visible sobre todo el mundo. Todo aquel que lo ve puede considerarse bienaventurado. Kungtsé dice al respecto: «Lo que coincide en el tono, vibra conjuntamente. Lo que tiene afinidad electiva en la esencia más íntima, se busca mutuamente. El agua fluye hacia lo húmedo, el fuego se dirige hacia lo seco. Las nubes (el aliento del cielo) siguen al dragón, el viento (el aliento de la tierra) sigue al tigre. Así se eleva el sabio y todos los seres miran hacia él. Lo que proviene del cielo se siente emparentado con lo que está arriba. Lo que proviene de la tierra se siente emparentado con lo que está abajo. Cada uno sigue a su especie».
 
-Esto advierte contra la hybris, la ambición desmedida y la rigidez ideológica o personal. El éxito absoluto mal gestionado se convierte en aislamiento; al no haber más espacio hacia donde ascender, el único camino restante es la caída. La arrogancia inevitablemente atrae el pesar y el aislamiento.
+### Un Nueve arriba significa:
+
+> Dragón arrogante tendrá que arrepentirse.
+
+Si se quiere ascender tan alto que se pierde el contacto con los demás hombres, uno se queda aislado, y esto conduce necesariamente al fracaso. Aquí yace una advertencia contra un anhelo titánico de superación que sobrepasa las propias fuerzas. Un desplome hacia la profundidad sería la consecuencia.
+
+### Cuando aparecen puros nueves, significa:
+
+> Aparece una multitud de dragones sin cabeza. Bienaventuranza.
+
+Cuando todas las líneas son Nueves, todo el signo entra en movimiento y se transforma en el signo Kun, lo Receptivo, cuyo carácter es la entrega. La fuerza de lo Creativo y la mansedumbre de lo Receptivo se unen. La fuerza está indicada por la multitud de dragones; la mansedumbre, por la circunstancia de que sus cabezas están ocultas. Esto significa: la mansedumbre en el modo de actuar combinada con la fuerza de la decisión trae bienaventuranza.
 
 ---
+
+[^1]: El signo está asignado al cuarto mes (mayo-junio), cuando la fuerza luminosa se encuentra en su apogeo, antes de que el solsticio comience el retroceso del año.
+
+[^2]: Compárese con Génesis cap. 2, 1 y ss., donde el desarrollo de los seres individuales también se atribuye a la caída de la lluvia.
+
+[^3]: El Principio Creativo provoca el principio y la procreación de todos los seres. Por lo tanto, se le puede designar como Cielo, fuerza luminosa, Padre, Señor. Cabe preguntarse si el Principio Creativo se concibe de manera personal en el pensamiento chino, como Zeus entre los griegos. La respuesta es que este problema no es en absoluto el más importante para el pensamiento chino. Lo Divino-Creativo es, por así decirlo, suprapersonal. Solo se hace sentir y notar a través de su actividad sobrepoderosa. Ciertamente tiene, por así decirlo, un exterior, que es el cielo. Y el cielo tiene, al igual que lo viviente, una autoconciencia anímica, que es Dios (el gobernante supremo). Sin embargo, de manera completamente objetiva, se habla de todo ello como del Principio Creativo.
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](./hex1.de.md)
