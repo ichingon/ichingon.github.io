@@ -1,6 +1,6 @@
 ---
-title: "I Chingon"
-description: "Philosophy, Synchronicity, Mathematics, and Computer Science."
+title: "El I Chingón | The I Ching as a Decentralized Information Protocol"
+description: "The I Ching as history's first information protocol. Tools, hexagrams, tutorials, articles, and modern decision-making stripped of mysticism."
 layout: "hero"
 translationKey: "homepage"
 ---

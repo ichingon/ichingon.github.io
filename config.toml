@@ -5,10 +5,16 @@ theme = "blowfish"
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = false
 
+# Arreglo global requerido por el núcleo de Hugo para Open Graph
+[images]
+  images = ["img/featured.jpg"]
+
 [params]
   defaultAppearance = "dark" 
   allowAppearanceChange = true 
-  logo = "logo.png" # 👈 ¡AQUÍ ES DONDE VA! Raíz de params
+  logo = "logo.png"
+  homepageImage = "img/featured.jpg"
+  images = ["img/featured.jpg"]
   customCSS = ["css/custom.css"]
 
 # 2. Personalización Visual del Menú
