@@ -4,6 +4,10 @@ theme = "blowfish"
 # 1. Configuración del Núcleo y Modos
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+
+[author]
+  name = "José Loreto Romero"
 
 # Arreglo global requerido por el núcleo de Hugo para Open Graph
 [images]
