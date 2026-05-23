@@ -1,8 +1,8 @@
 ---
-title: "Hexagrama 1 乾 - Ch'ien / El Principio Creativo"
+title: "Hexagrama 1 乾 - Qián / El Principio Creativo"
 draft: false
-description: "Traducción completa y análisis del Hexagrama 1 (Ch'ien) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
-keywords: ["I Ching", "Hexagrama 1", "Chien", "El Principio Creativo", "Richard Wilhelm", "乾"]
+description: "Traducción completa del texto del Hexagrama 1 (Qián) del I Ching basado en la versión de Richard Wilhelm."
+keywords: ["I Ching", "Hexagrama 1", "Ch'ien", "Qián", "El Principio Creativo", "Richard Wilhelm", "乾"]
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -13,41 +13,41 @@ showAuthor: false
   &#x4DC0;
 </p>
 
-**Trigramas:** Cielo (Ch'ien, Pinyin: *Qián*) arriba, Cielo (Ch'ien, Pinyin: *Qián*) abajo.
+**Trigramas:** Cielo (Qián) arriba, Cielo (Qián) abajo.
 
 ---
 
-El signo consta de seis trazos enteros. Los trazos enteros corresponden a la fuerza primordial luminosa, fuerte, espiritual y activa. El signo es completamente uniforme y fuerte en su naturaleza. Dado que no se le adhiere ninguna debilidad, es por su cualidad la fuerza. Su imagen es el cielo. La fuerza se representa como no ligada a condiciones espaciales determinadas; por lo tanto, se concibe como movimiento. Como fundamento de este movimiento se toma en consideración el tiempo. Así pues, también el poder del tiempo y el poder de la perseverancia en el tiempo, la duración, están contenidos en el signo.
+El signo consta de seis trazos enteros. Los trazos enteros corresponden a la fuerza primordial luminosa, fuerte, espiritual y activa. El signo es completamente uniforme y fuerte en su naturaleza. Dado que no tiene ninguna debilidad, es por su cualidad la fuerza. Su imagen es el cielo. La fuerza se representa como no ligada a condiciones espaciales determinadas; por lo tanto, se concibe como movimiento. Como fundamento de este movimiento se toma en consideración el tiempo. Así pues, también el poder del tiempo y el poder de la perseverancia en el tiempo, la duración, están contenidos en el signo.
 
 En la explicación del signo debe tenerse en cuenta de principio a fin una doble interpretación: la macrocósmica y el efecto en el mundo de los hombres. Aplicado a los acontecimientos del mundo, en el signo se expresa la fuerte acción creadora de la Divinidad. Aplicado al mundo humano, designa la acción creadora del santo y sabio, del gobernante y guía de los hombres, quien despierta y desarrolla la naturaleza superior de estos a través de su fuerza.[^1]
 
 ## El Dictamen
 
 > El Principio Creativo obra un éxito elevado,
-> propicio en virtud de la perseverancia.
+> favorable mediante la perseverancia.
 
-Según el sentido original, las cualidades pertenecen juntas por parejas. Para quien obtiene este oráculo, esto significa que se le otorgará el éxito desde las profundidades primordiales de los acontecimientos del mundo y que todo depende de que, únicamente a través de la perseverancia en lo recto, busque su propia felicidad y la de los demás.
+Según el sentido original, las cualidades pertenecen juntas por parejas. Para quien obtiene este oráculo, esto significa que se le otorgará el éxito desde las profundidades primordiales de los acontecimientos del mundo y que todo depende de que busque su propia felicidad y la de los demás únicamente mediante la perseverancia en lo recto.
 
-Muy pronto la reflexión se dirigió a las cuatro cualidades en su significado particular. La palabra china que se traduce como "elevado" significa "cabeza, origen, grande". Por eso se dice en la explicación de Kungtsé: «Grande verdaderamente es la fuerza originaria del Principio Creativo, todos los seres le deben su principio. Y esta fuerza impregna todo el cielo». Pues esta primera cualidad también atraviesa a las otras tres.
+Muy pronto la reflexión se dirigió a las cuatro cualidades en su significado particular. La palabra china que se traduce como "elevado" significa "cabeza, origen, grande". Por eso se dice en la explicación de Confucio: «Grande verdaderamente es la fuerza originaria del Principio Creativo, todos los seres le deben su principio. Y esta fuerza impregna todo el cielo». Pues esta primera cualidad también atraviesa a las otras tres.
 
-El principio de todas las cosas se encuentra, por así decirlo, todavía en el más allá bajo la forma de ideas que primero deben llegar a su realización. Pero en el Principio Creativo reside también la fuerza para infundir forma a estos arquetipos de las ideas. Esto se designa con la palabra "éxito". Este process se representa bajo una imagen de la naturaleza.[^2]
+El principio de todas las cosas se encuentra, por así decirlo, todavía en el más allá bajo la forma de ideas que primero deben llegar a su realización. Pero en el Principio Creativo reside también la fuerza para infundir forma a estos arquetipos de las ideas. Esto se designa con la palabra "éxito". Este proceso se representa bajo una imagen de la naturaleza.[^2]
 
-«Las nubes pasan, y la lluvia actúa, y todos los seres individuales fluyen hacia su forma». Transferido al ámbito humano, estas cualidades muestran al gran hombre el camino hacia un gran éxito: «Al contemplar con gran claridad las causas y los efectos, consuma a su debido tiempo los seis peldaños y asciende a su debido tiempo sobre ellos, como sobre seis dragones, hacia el cielo». Los seis peldaños son las seis posiciones individuales del signo, que se representan más abajo bajo la imagen de dragones. Como camino hacia el éxito se designa aquí el conocimiento y la realización del Sentido del Mundo, el cual, como ley continua a través del fin y el principio, provoca todos los fenómenos condicionados por el tiempo. Así, cada peldaño alcanzado se convierte a la vez en la preparación para el siguiente, y el tiempo ya no es un obstáculo, sino el medio para la realización de lo posible.
+«Las nubes pasan, y la lluvia actúa, y todos los seres individuales fluyen hacia su forma». Transferidas al ámbito humano, estas cualidades muestran al gran hombre el camino hacia un gran éxito: «Al contemplar con gran claridad las causas y los efectos, consuma a su debido tiempo los seis peldaños y ascienda sobre ellos, como sobre seis dragones, hacia el cielo». Los seis peldaños son las seis posiciones individuales del signo, que se representan más abajo bajo la imagen de dragones. Como camino hacia el éxito se designa aquí el conocimiento y la realización del Sentido del Mundo, el cual, como ley continua a través del fin y el principio, provoca todos los fenómenos condicionados por el tiempo. Así, cada peldaño alcanzado se convierte a la vez en la preparación para el siguiente, y el tiempo ya no es un obstáculo, sino el medio para la realización de lo posible.
 
-Después de que el acto de la creación se expresara a través de las dos cualidades de elevado y éxito, se muestra la obra de la conservación como una configuración que se realiza continuamente, a continuación de los dos términos "propicio", es decir, literalmente "creando lo que corresponde a la esencia", y "perseverante", es decir, literalmente "recto y firme". «El curso del Principio Creativo altera y configura a los seres hasta que cada uno obtiene su naturaleza recta y determinada; luego los preserva en armonía con el gran equilibrio uniforme. Así se muestra propicio en virtud de la perseverancia».
+Después de que el acto de la creación se expresara a través de las dos cualidades de elevado y éxito, se muestra la obra de la conservación como una configuración que se realiza continuamente, a continuación de los dos términos "propicio", es decir, literalmente "creando lo que corresponde a la esencia", y "perseverante", es decir, literalmente "recto y firme". «El curso del Principio Creativo altera y configura a los seres hasta que cada uno obtiene su naturaleza recta y definida; luego los preserva en armonía con el gran equilibrio uniforme. Así se muestra propicio en virtud de la perseverancia».
 
 Transferido al ámbito humano, se deduce de aquí cómo el gran hombre, mediante su actividad ordenadora, aporta paz y seguridad al mundo: «Al elevarse con su cabeza por encima de la multitud de los seres, todas las tierras se reúnen en la quietud».
 
 Otra especulación va todavía más allá con la separación de las palabras "elevado, éxito, propicio, perseverante" y las pone en paralelo con las cuatro virtudes cardinales humanas: A la "Elevación", que al mismo tiempo incluye como principio fundamental todas las demás cualidades, se le asigna el amor. Al "Éxito" se le asignan las costumbres y normas sociales, que ordenan, organizan y por tanto hacen exitosas las manifestaciones del amor. A lo "Propicio" se le asigna la justicia, la cual crea condiciones en las que cada uno recibe lo que corresponde a su ser, lo que le es debido y constituye su felicidad. A la "Perseverancia" se le asigna la sabiduría, la cual reconoce las leyes firmes de todo acontecer y, por ende, es capaz de crear condiciones duraderas.
 
-Estas especulaciónes, que ya se sugieren en el tratado Wen Yen en la segunda parte del Libro de las Mutaciones, formaron luego el puente sobre el cual se combinó la filosofía de las cinco fases de cambio (elementos), que está anclada en el Libro de los Documentos, con la filosofía del Libro de las Mutaciones, la cual se basa puramente en la dualidad polar de los principios positivo y negativo, abriendo así, con el curso del tiempo, la puerta a una simbología numérica cada vez más extensa.[^3]
+Estas especulaciones, que ya se sugieren en el tratado Wen Yen en la segunda parte del Libro de las Mutaciones, formaron luego el puente sobre el cual se combinó la filosofía de las cinco fases de cambio (elementos), que está anclada en el Libro de los Documentos, con la filosofía del Libro de las Mutaciones, la cual se basa puramente en la dualidad polar de los principios positivo y negativo, abriendo así, con el curso del tiempo, la puerta a una simbología numérica cada vez más extensa.[^3]
 
 ## La Imagen
 
 > El movimiento del cielo es lleno de fuerza.
-> Así el noble se hace fuerte e incansable.
+> Así el noble se fortalece y se vuelve incansable.
 
-La duplicación del signo Kien, cuya imagen es el cielo, indica - puesto que solo hay un cielo - el movimiento del cielo. Un movimiento circular completo del cielo es un día. La duplicación del signo significa que a cada día le sigue otro. Esto genera la idea del tiempo y, al mismo tiempo - puesto que es el mismo cielo el que se mueve con fuerza infatigable -, la de la duración vigorosa dentro y por encima del tiempo; un movimiento que nunca se detiene ni desfallece, del mismo modo que un día sigue al otro continuamente. Esta duración en el tiempo es la imagen de la fuerza tal como le es propia al Principio Creativo.
+La duplicación del signo Qián, cuya imagen es el cielo, indica - puesto que solo hay un cielo - el movimiento del cielo. Un movimiento circular completo del cielo es un día. La duplicación del signo significa que a cada día le sigue otro. Esto genera la idea del tiempo y, al mismo tiempo - puesto que es el mismo cielo el que se mueve con fuerza infatigable -, la de la duración vigorosa dentro y por encima del tiempo; un movimiento que nunca se detiene ni desfallece, del mismo modo que un día sigue al otro continuamente. Esta duración en el tiempo es la imagen de la fuerza tal como le es propia al Principio Creativo.
 
 El sabio extrae de ello el modelo sobre cómo puede desarrollarse para lograr un efecto duradero. Debe hacerse fuerte de manera completamente uniforme, excluyendo conscientemente todo lo degradante y vulgar. Así obtiene la infatigabilidad que se basa en ciclos cerrados de actividad.
 
@@ -75,7 +75,7 @@ Aquí comienzan a mostrarse los efectos de la fuerza luminosa. Transferido a las
 > Al anochecer, todavía está lleno de preocupación interna.
 > Peligro. No hay culpa.
 
-Un ámbito de actividad se abre para el hombre prominente. Su fama comienza a extenderse. Las masas acuden a él. Su fuerza interna está a la altura de la intensificada actividad externa. Hay mucho trabajo por hacer, e incluso por la noche, cuando los demás descansan, se agolpan los planes y las preocupaciones. Un peligro está presente aquí, en el lugar de la transición desde la bajeza hacia la altura. Ya muchos grandes hombres perecieron debido a que las masas acudieron a ellos de prisa y los arrastraron hacia sus propias órbitas. La ambición corrompió la pureza interior. Pero la verdadera grandeza no se ve afectada por las tentaciones. Si uno se mantiene en contacto con los gérmenes de los nuevos tiempos y sus exigencias, poseerá la precaución suficiente para guardarse de los desvíos y permanecerá sin culpa.
+Un ámbito de actividad se abre para el hombre superior. Su fama comienza a extenderse. Las masas acuden a él. Su fuerza interna está a la altura de la intensificada actividad externa. Hay mucho trabajo por hacer, e incluso por la noche, cuando los demás descansan, se agolpan los planes y las preocupaciones. Un peligro está presente aquí, en el lugar de la transición desde la bajeza hacia la altura. Muchos grandes hombres perecieron ya porque las masas acudían a ellos presurosas y los arrastraron hacia sus propias órbitas. La ambición corrompió la pureza interior. Pero la verdadera grandeza no se ve afectada por las tentaciones. Si uno se mantiene en contacto con los gérmenes de los nuevos tiempos y sus exigencias, poseerá la precaución suficiente para guardarse de los desvíos y permanecerá sin culpa.
 
 ### Nueve en el cuarto puesto significa:
 
@@ -87,7 +87,7 @@ Aquí se ha alcanzado el lugar de la transición donde la libertad puede ejercer
 
 > Dragón volando en el cielo. Es propicio ver al gran hombre.
 
-Aquí el gran hombre ha llegado a la esfera de los celestiales. Su influencia se extiende de manera ampliamente visible sobre todo el mundo. Todo aquel que lo ve puede considerarse bienaventurado. Kungtsé dice al respecto: «Lo que coincide en el tono, vibra conjuntamente. Lo que tiene afinidad electiva en la esencia más íntima, se busca mutuamente. El agua fluye hacia lo húmedo, el fuego se dirige hacia lo seco. Las nubes (el aliento del cielo) siguen al dragón, el viento (el aliento de la tierra) sigue al tigre. Así se eleva el sabio y todos los seres miran hacia él. Lo que proviene del cielo se siente emparentado con lo que está arriba. Lo que proviene de la tierra se siente emparentado con lo que está abajo. Cada uno sigue a su especie».
+Aquí el gran hombre ha llegado a la esfera de los celestiales. Su influencia se extiende de manera ampliamente visible sobre todo el mundo. Todo aquel que lo ve puede considerarse bienaventurado. Confucio dice al respecto: «Lo que coincide en el tono, vibra conjuntamente. Lo que tiene afinidad electiva en la esencia más íntima, se busca mutuamente. El agua fluye hacia lo húmedo, el fuego se dirige hacia lo seco. Las nubes (el aliento del cielo) siguen al dragón, el viento (el aliento de la tierra) sigue al tigre. Así se eleva el sabio y todos los seres miran hacia él. Lo que proviene del cielo se siente emparentado con lo que está arriba. Lo que proviene de la tierra se siente emparentado con lo que está abajo. Cada uno sigue a su especie».
 
 ### Un Nueve arriba significa:
 

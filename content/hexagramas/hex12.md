@@ -33,7 +33,7 @@ En épocas de estancamiento, los principios inferiores toman el control y la soc
 
 > El cielo y la tierra no se unen: la imagen del estancamiento.
 > Así el noble se retira a su oculta virtud para eludir la penuria.
-> No permite que se le recompense con honores ni einkünften.
+> No permite que se le recompense con honores ni ingresos.
 
 Cuando la corriente del tiempo es adversa y el orden cósmico o social se encuentra bloqueado, el noble reconoce que no debe participar en las prebendas del poder corrupto. Se repliega sobre sí mismo y se refugia en su virtud oculta, manteniéndose incorruptible. Prefiere renunciar a las dignidades, los honores públicos y las riquezas materiales materiales antes que doblegar su carácter o comprometer su pureza interior ante los hombres comunes que dominan la época.
 

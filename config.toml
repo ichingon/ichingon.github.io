@@ -7,7 +7,7 @@ defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 
 [author]
-  name = "José Loreto Romero"
+  name = "Dailingna Romero"
 
 # Arreglo global requerido por el núcleo de Hugo para Open Graph
 [images]
