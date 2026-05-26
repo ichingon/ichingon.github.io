@@ -41,7 +41,7 @@ Cuando las nubes ascienden en el cielo, es una señal de que va a llover. En ese
 
 ### Nueve al principio significa:
 
-> Espera en el llano.
+> Espera en el prado.
 > Es propicio permanecer en lo duradero.
 > Sin tacha.
 
@@ -65,7 +65,7 @@ El lodo, que ya es bañado por el agua del río, no es un sitio propicio para la
 ### Seis en el cuarto puesto significa:
 
 > Espera en la sangre.
-> ¡Fuera del foso!
+> ¡Sal de la trampa!
 
 La situación es sumamente peligrosa. Se ha tornado enteramente seria y se debate entre la vida y la muerte. Se espera un derramamiento de sangre de forma inminente. No se puede ir hacia adelante ni hacia atrás; uno se encuentra aislado como en un foso. Allí corresponde simplemente aguantar y dejar que el destino siga su curso. Esta calma, que evita agravar el perjuicio mediante un obrar propio, constituye el único camino para salir de ese foso peligroso.
 
@@ -76,7 +76,7 @@ La situación es sumamente peligrosa. Se ha tornado enteramente seria y se debat
 
 Incluso en medio del peligro se presentan treguas en las que a uno le va relativamente bien. Si se posee la debida fortaleza interior, se aprovecharán estos intervalos de descanso para robustecerse ante una nueva lucha. Uno es capaz de disfrutar el momento presente sin dejarse desviar de su objetivo; pues la perseverancia es necesaria para mantenerse vencedor.
 
-Así sucede también en la vida pública: no se puede lograr todo de golpe. Constituye la máxima sabiduría conceder a la gente tales pausas de recreo que reaviven la alegría en el trabajo para la consumación de la obra. Aquí se encuentra oculto el secreto de todo el signo. En esto se distingue del signo "El Obstáculo" (*Kien*): en que durante la espera uno está seguro de su causa y, por ende, no permite que se le prive de la tranquilidad de su alegría interior.
+Así sucede también en la vida pública: no se puede lograr todo de golpe. Constituye la máxima sabiduría conceder a la gente tales pausas de recreo que reaviven la alegría en el trabajo para la consumación de la obra. Aquí se encuentra oculto el secreto de todo el signo. En esto se distingue del signo 'La Dificultad Inicial' (Chun): en que durante la espera uno está seguro de su causa y, por ende, no permite que se le prive de la tranquilidad de su alegría interior.
 
 ### Seis arriba significa:
 

@@ -22,7 +22,7 @@ El nombre del signo, Chun, representa propiamente una brizna de hierba que al br
 ## El Dictamen
 
 > La dificultad inicial obra un éxito elevado,
-> propicio en virtud de la perseverancia.
+> propicio mediante la perseverancia.
 > No se debe emprender nada.
 > Es propicio instituir ayudantes.
 

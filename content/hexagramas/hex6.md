@@ -46,7 +46,7 @@ La imagen alude a que las causas del pleito radican en las direcciones ya previa
 
 ### Seis al principio significa:
 
-> Si uno no eterniza la causa,
+> Si uno no prolonga el asunto,
 > habrá una pequeña murmuración.
 > Al final viene la ventura.
 
@@ -63,10 +63,10 @@ En la lucha con un adversario superior, la retirada no es una vergüenza. Si uno
 
 > Nutrirse de la antigua virtud otorga perseverancia.
 > Peligro, al final viene la ventura.
-> Si acaso sigues los servicios de un rey,
+> Si entras al servicio de un rey,
 > no busques obras.
 
-Se advierte aquí contra el peligro que trae la tendencia a expandirse o apoderarse de las cosas. Solo aquello que ha sido ganado honestamente por méritos anteriores permanece como posesión duradera. Una posesión tal puede ciertamente ser impugnada alguna vez, pero al ser una propiedad real, no puede ser arrebatada. Pues lo que a uno le pertenece en virtud de la fuerza de su propio ser, no se puede perder. Si uno entra al servicio de un superior, solo puede evitar el pleito no buscando obras para sí mismo. Puede bastar con que se realicen. El honor puede quedar para el otro.
+Se advierte aquí contra el peligro que trae la tendencia a extenderse o desbordarse. Solo aquello que ha sido ganado honestamente por méritos anteriores permanece como posesión duradera. Una posesión tal puede ciertamente ser impugnada alguna vez, pero al ser una propiedad real, no puede ser arrebatada. Pues lo que a uno le pertenece en virtud de la fuerza de su propio ser, no se puede perder. Si uno entra al servicio de un superior, solo puede evitar el pleito no buscando obras para sí mismo. Puede bastar con que se realicen. El honor puede quedar para el otro.
 
 ### Nueve en el cuarto puesto significa:
 
@@ -75,7 +75,7 @@ Se advierte aquí contra el peligro que trae la tendencia a expandirse o apodera
 > cambia y encuentra paz en la perseverancia.
 > ¡Ventura!
 
-La disposición interior es al principio pacífica. Uno no se siente a gusto en su situación y quisiera procurarse una mejor mediante el pleito. Se las tiene uno con un adversario más débil y, por lo tanto, sería bien capaz de hacerlo (a diferencia del nueve en el segundo puesto), pero uno no puede pleitear porque no encuentra la justificación interior ni la buena conciencia para ello. Por eso uno se vuelve y se somete a su destino. Cambia su mentalidad y encuentra así la paz duradera en la concordancia con la ley eterna. Esto trae ventura.
+La disposición interior es al principio conflictiva. Uno no se siente a gusto en su situación y quisiera procurarse una mejor mediante el pleito. Se las tiene uno con un adversario más débil y, por lo tanto, sería bien capaz de hacerlo (a diferencia del nueve en el segundo puesto), pero uno no puede pleitear porque no encuentra la justificación interior ni la buena conciencia para ello. Por eso uno se vuelve y se somete a su destino. Cambia su mentalidad y encuentra así la paz duradera en la concordancia con la ley eterna. Esto trae ventura.
 
 ### Nueve en el quinto puesto significa:
 
@@ -85,12 +85,14 @@ Se muestra aquí al árbitro del pleito, que es poderoso y justo y que posee la 
 
 ### Nueve arriba significa:
 
-> Si acaso a uno le es concedido un cinturón de cuero,
+> Si acaso a uno le es concedido un cinturón de cuero,[1^]
 > al cabo de una mañana le será arrebatado tres veces.
 
 Aquí se dibuja a alguien que ha llevado el pleito hasta el amargo final y ha conservado la razón. Recibe una distinción. Pero la dicha no es duradera. Es impugnada una y otra vez, y un pleito sin fin es la consecuencia.
 
 ---
+
+[^1]:  En la antigua China, un cinturón de cuero era una distinción oficial.
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](./hex6.de.md)

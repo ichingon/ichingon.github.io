@@ -14,27 +14,39 @@
 }
 
 /* ==========================================================================
-   Estilos para Tablas Adaptables (I Ching)
+   Estilos para Tablas Adaptables (I Ching) - Primera Columna Fija
    ========================================================================== */
 
 /* Contenedor principal de la tabla */
 .tabla-iching {
     width: 100%;
     margin-bottom: 1.5rem;
-    overflow-x: auto !important; /* Activa el scroll horizontal si la tabla es más ancha que la pantalla */
-    -webkit-overflow-scrolling: touch !important; /* Suaviza el scroll en dispositivos iOS (iPhone/iPad) */
+    overflow-x: auto !important; 
+    -webkit-overflow-scrolling: touch !important; 
 }
 
 /* Estilos aplicados a la tabla dentro de este contenedor */
 .tabla-iching table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate; /* ¡IMPORTANTE! Cambiado de collapse a separate para que sticky funcione bien en todos los navegadores */
+    border-spacing: 0; /* Mantiene el efecto visual de border-collapse */
 }
 
-/* Control de la primera columna (Encabezados de trigramas inferiores) */
+/* Control de la primera columna (Fijar en pantallas pequeñas) */
 .tabla-iching table th:first-child,
 .tabla-iching table td:first-child {
-    white-space: nowrap !important; /* Evita que el texto de la primera columna se rompa en dos líneas */
-    padding-right: 15px !important; /* Espacio de cortesía para que el texto no quede pegado a la línea divisoria */
+    position: -webkit-sticky; /* Soporte para navegadores antiguos de Apple */
+    position: sticky;
+    left: 0; /* Pega la columna al borde izquierdo del contenedor */
+    z-index: 2; /* Asegura que quede por encima de las celdas que se deslizan */
+    background-color: #ffffff; /* ¡CRUCIAL! Dale el color de fondo de tu tabla para que no se transparente el texto de atrás */
+    white-space: nowrap !important; 
+    padding-right: 15px !important; 
+}
+
+/* Opcional: Una sutil sombra para dar la sensación de que el contenido se esconde debajo */
+.tabla-iching table th:first-child,
+.tabla-iching table td:first-child {
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05);
 }
 
