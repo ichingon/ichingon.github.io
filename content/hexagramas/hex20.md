@@ -59,9 +59,9 @@ Se describe aquí una observación superficial y carente de comprensión desde l
 
 #### Seis en el segundo puesto significa:
 > Contemplación a través de la rendija de la puerta.  
-> Propicio para la perseverancia de una mujer.[^1]
+> Propicio para la perseverancia de una mujer.
 
-Mirar a través de la rendija de una puerta ofrece una perspectiva sumamente limitada; se observa de adentro hacia afuera, con un enfoque marcadamente subjetivo. Todo se vincula a la propia persona, mostrando incapacidad para comprender al prójimo o identificarse con sus motivos. Esta actitud es adecuada para una buena ama de casa, quien no necesita inmiscuirse en los asuntos del mundo. No obstante, para un hombre comprometido con la vida pública, una visión tan estrecha y egocéntrica resulta del todo perjudicial.
+Mirar a través de la rendija de una puerta ofrece una perspectiva sumamente limitada; se observa de adentro hacia afuera, con un enfoque marcadamente subjetivo. Todo se vincula a la propia persona, mostrando incapacidad para comprender al prójimo o identificarse con sus motivos. Esta actitud es adecuada para una buena ama de casa, quien no necesita inmiscuirse en los asuntos del mundo. No obstante, para un hombre comprometido con la vida pública, una visión tan estrecha y egocéntrica resulta del todo perjudicial.[^1]
 
 #### Seis en el tercer puesto significa:
 > La contemplación de mi propia vida determina  
@@ -79,7 +79,7 @@ Se retrata aquí a un hombre que domina los principios fundamentales que permite
 > Contemplación de mi propia vida.  
 > El noble permanece sin tacha.
 
-Un hombre en una posición de liderazgo, hacia quien los demás dirigen su mirada, debe someterse a un autoexamen riguroso y constante. La verdadera naturaleza de esta introspección no radica en una meditación pasiva sobre sí mismo, sino en evaluar las repercusiones de sus actos en los demás. Solo cuando los efectos son benéficos e infunden una guía positiva en el prójimo, la contemplación de la propia existencia deparará la satisfacción de mantenerse libre de faltas.
+Un hombre en una posición de liderazgo, hacia quien los demás dirigen su mirada, debe someterse a un autoexamen rigcoso y constante. La verdadera naturaleza de esta introspección no radica en una meditación pasiva sobre sí mismo, sino en evaluar las repercusiones de sus actos en los demás. Solo cuando los efectos son benéficos e infunden una guía positiva en el prójimo, la contemplación de la propia existencia deparará la satisfacción de mantenerse libre de faltas.
 
 #### Al final, un Nueve significa:
 > Contemplación de su propia vida.  

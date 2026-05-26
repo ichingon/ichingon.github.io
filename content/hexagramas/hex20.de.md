@@ -56,19 +56,19 @@ Das Ganze deutet auf die Macht der überlegenen Persönlichkeit. Eine solche wir
 > Für einen geringen Menschen kein Makel.  
 > Für einen Edlen beschämend.
 
-Ein verständnisloses Betrachten aus der Ferne ist hier gezeichnet. Es ist jemand da, der wirkt, aber dessen Wirkungen von den geringen Menschen nicht verstanden werden. Das tut bei der Masse nicht viel. Ob sie die Handlungen des herrschenden Weisen verstehen oder nicht: sie kommen ihnen doch zugute. Aber für den höheren Menschen ist das eine Schande. Er darf sich nicht mit törichtem, gedankenlosem Betrachten der herrschenden Einflüsse begnügen. Er muß sie im Zusammenhang betrachten und zu verstehen suchen.
+Ein verständnisloses Betrachten aus der Ferne ist hier« gezeichnet. Es ist jemand da, der wirkt, aber dessen Wirkungen von den geringen Menschen nicht verstanden werden. Das tut bei der Masse nicht viel. Ob sie die Handlungen des herrschenden Weisen verstehen oder nicht: sie kommen ihnen doch zugute. Aber für den höheren Menschen ist das eine Schande. Er darf sich nicht mit törichtem, gedankenlosem Betrachten der herrschenden Einflüsse begnügen. Er muß sie im Zusammenhang betrachten und zu verstehen suchen.
 
 #### Sechs auf zweitem Platz bedeutet:
 > Betrachtung durch die Türspalte.  
-> Fördernd für die Beharrlichkeit einer Frau.[^1]
+> Fördernd für die Beharrlichkeit einer Frau.
 
-Durch die Türspalte hat man einen beschränkten Ausblick. Man sieht von innen nach außen. Die Betrachtungsweise ist subjektiv beschränkt. Man bezieht alles auf sich. Man kann sich nicht in den andern und seine Beweggründe hineinversetzen. Das ist für eine gute Hausfrau am Platz. Sie braucht nichts zu verstehen von den Welthändeln. Für einen Mann, der im öffentlichen Leben zu wirken hat, ist solche beschränkt egoistische Betrachtungsweise natürlich vom Übel.
+Durch die Türspalte hat man einen beschränkten Ausblick. Man sieht von innen nach außen. Die Betrachtungsweise ist subjektiv beschränkt. Man bezieht alles auf sich. Man kann sich nicht in den andern und seine Beweggründe hineinversetzen. Das ist für eine gute Hausfrau am Platz. Sie braucht nichts zu verstehen von den Welthändeln. Für einen Mann, der im öffentlichen Leben zu wirken hat, ist solche beschränkt egoistische Betrachtungsweise natürlich vom Übel.[^1]
 
 #### Sechs auf drittem Platz bedeutet:
 > Betrachtung meines Lebens entscheidet  
 > über Fortschritt oder Rückzug.
 
-Es ist hier der Platz des Übergangs. Man blickt nicht mehr nach außen, um mehr oder weniger beschränkte oder verwirrte Bilder zu erhalten, sondern man richtet die Betrachtung auf sich selbst um die Richtung für seine Entschließungen zu bekommen. Diese Einkehr der Betrachtung ist gerade die Überwindung der naiven Selbstischkeit dessen, der alles nur von seinem Standpunkt aus betrachtet. Man kommt zur Reflexion und damit zur Objektivität. Die Selbsterkenntnis ist aber nicht eine Beschäftigung mit den eigenen Gedanken, sondern mit den Wirkungen, die von einem ausgehen. Nur die Lebenswirkungen geben ein Bild, das uns berechtigt, über Fortschritt oder Rückgang zu entscheiden.
+Es ist hier der Platz des Übergangs. Man blickt nicht mehr nach außen, um mehr oder weniger beschränkte oder verwirrte Bilder zu erhalten, sondern man richtet die Betrachtung auf sich selbst um die Richtung für seine Entschließungen zu bekommen. Diese Einkehr der Betrachtung is gerade die Überwindung der naiven Selbstischkeit dessen, der alles nur von seinem Standpunkt aus betrachtet. Man kommt zur Reflexion und damit zur Objektivität. Die Selbsterkenntnis is aber nicht eine Beschäftigung mit den eigenen Gedanken, sondern mit den Wirkungen, die von einem ausgehen. Nur die Lebenswirkungen geben ein Bild, das uns berechtigt, über Fortschritt oder Rückgang zu entscheiden.
 
 #### Sechs auf viertem Platz bedeutet:
 > Betrachtung des Lichtes des Reichs.  
