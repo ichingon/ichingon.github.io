@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 20 觀 - Guān / La Contemplación"
+weight: 22
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 20 (Guān) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
 keywords: ["I Ching", "Hexagrama 20", "Guān", "La Contemplación", "Richard Wilhelm", "觀"]

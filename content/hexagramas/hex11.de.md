@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 11 泰 - 11. TAI / DER FRIEDE"
+weight: 13
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 11 (TAI) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 11", "TAI", "Der Friede", "Richard Wilhelm", "泰"]

@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 3 屯 - 3. DSCHUN / DIE ANFANGSSCHWIERIGKEIT"
+weight: 5
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 3 (DSCHUN) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 3", "DSCHUN", "Die Anfangsschwierigkeit", "Richard Wilhelm", "屯"]

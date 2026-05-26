@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 24 復 - 24. FU / DIE WENDE"
+weight: 26
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 24 (FU) des I Ging."
 keywords: ["I Ching", "I Ging", "Hexagramm 24", "FU", "Die Wende", "Richard Wilhelm", "復"]

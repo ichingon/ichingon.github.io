@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 7 師 - Shih / El Ejército"
+weight: 9
 draft: false
 description: "Traducción completa y análisis del Hexagrama 7 (Shih) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 7", "Shih", "El Ejército", "Richard Wilhelm", "師"]

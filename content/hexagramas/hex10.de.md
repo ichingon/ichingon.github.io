@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 10 履 - 10. LI / DAS AUFTRETEN"
+weight: 12
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 10 (LI) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 10", "LI", "Das Auftreten", "Richard Wilhelm", "履"]

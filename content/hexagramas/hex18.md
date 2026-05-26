@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 18 蠱 - Gǔ / La Labor sobre lo Corrompido"
+weight: 20
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 18 (Gǔ) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
 keywords: ["I Ching", "Hexagrama 18", "Gǔ", "La Labor sobre lo Corrompido", "Richard Wilhelm", "蠱"]

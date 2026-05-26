@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 16 豫 - 16. YÜ / DIE BEGEISTERUNG"
+weight: 18
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 16 (YÜ) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 16", "YÜ", "Die Begeisterung", "Richard Wilhelm", "豫"]

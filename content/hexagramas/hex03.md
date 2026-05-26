@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 3 屯 - Chun / La Dificultad Inicial"
+weight: 5
 draft: false
 description: "Traducción completa y análisis del Hexagrama 3 (Chun) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 3", "Chun", "La Dificultad Inicial", "Richard Wilhelm", "屯"]

@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 10 履 - Li / El Porte (La Pisada)"
+weight: 12
 draft: false
 description: "Traducción completa y análisis del Hexagrama 10 (Li) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 10", "Li", "El Porte", "La Pisada", "Richard Wilhelm", "履"]

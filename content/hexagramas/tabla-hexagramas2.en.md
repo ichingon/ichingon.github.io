@@ -1,5 +1,6 @@
 ---
 title: "Advanced Hexagram Correspondence Table"
+weight: 2
 description: "Detailed 64-row matrix for each hexagram in King Wen's sequence, with their nuclear hexagrams, brief descriptors, and Later-to-Earlier Heaven mapping."
 date: 2026-05-19
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 16 豫 - Yü / El Entusiasmo"
+weight: 18
 draft: false
 description: "Traducción completa y análisis del Hexagrama 16 (Yü) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 16", "Yu", "El Entusiasmo", "Richard Wilhelm", "豫"]

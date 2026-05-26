@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 22 賁 - Bì / La Gracia"
+weight: 24
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 22 (Bì) del I Ching basado en la versión de Richard Wilhelm."
 keywords: ["I Ching", "Hexagrama 22", "Bì", "La Gracia", "Richard Wilhelm", "賁"]

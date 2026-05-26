@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 23 剝 - Bō / La Desintegración"
+weight: 25
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 23 (Bō) del I Ching basado en la versión de Richard Wilhelm."
 keywords: ["I Ching", "Hexagrama 23", "Bō", "La Desintegración", "Richard Wilhelm", "剝"]

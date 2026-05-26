@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 12 否 - P'i / El Estancamiento"
+weight: 14
 draft: false
 description: "Traducción completa y análisis del Hexagrama 12 (P'i) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 12", "P'i", "El Estancamiento", "Richard Wilhelm", "否"]

@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 2 坤 - Kūn / Lo Receptivo"
+weight: 4
 draft: false
 description: "Traducción completa y del texto del Hexagrama 2 (Kūn) del I Ching basado en la versión de Richard Wilhelm."
 keywords: ["I Ching", "Hexagrama 2", "Kūn", "Lo Receptivo", "Richard Wilhelm", "坤"]

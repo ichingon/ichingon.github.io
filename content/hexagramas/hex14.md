@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 14 大有 - Ta Yu / La Gran Posesión"
+weight: 16
 draft: false
 description: "Traducción completa y análisis del Hexagrama 14 (Ta Yu) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 14", "Ta Yu", "La Gran Posesión", "Richard Wilhelm", "大有"]

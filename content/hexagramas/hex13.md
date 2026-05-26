@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 13 同人 - T'ung Jen / Comunidad con los Hombres"
+weight: 15
 draft: false
 description: "Traducción completa y análisis del Hexagrama 13 (T'ung Jen) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 13", "T'ung Jen", "Comunidad con los Hombres", "Richard Wilhelm", "同人"]

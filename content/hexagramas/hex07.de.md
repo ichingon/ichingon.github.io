@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 7 師 - 7. SCHI / DAS HEER"
+weight: 9
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 7 (SCHI) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 7", "SCHI", "Das Heer", "Richard Wilhelm", "師"]

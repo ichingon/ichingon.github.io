@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 19 臨 - Lin / El Acercamiento"
+weight: 21
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 19 (Lin) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
 keywords: ["I Ching", "Hexagrama 19", "Lin", "El Acercamiento", "Richard Wilhelm", "臨"]

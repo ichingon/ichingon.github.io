@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 21 噬嗑 - Shì Hé / La Mordedura Tajante"
+weight: 23
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 21 (Shì Hé) del I Ching basado en la versión de Richard Wilhelm."
 keywords: ["I Ching", "Hexagrama 21", "Shì Hé", "La Mordedura Tajante", "Richard Wilhelm", "噬嗑"]

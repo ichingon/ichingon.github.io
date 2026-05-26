@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 22 賁 - 22. BI / DIE ANMUT"
+weight: 24
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 22 (BI) des I Ging."
 keywords: ["I Ching", "I Ging", "Hexagramm 22", "BI", "Die Anmut", "Richard Wilhelm", "賁"]

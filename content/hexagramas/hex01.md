@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 1 乾 - Qián / El Principio Creativo"
+weight: 3
 draft: false
 description: "Traducción completa del texto del Hexagrama 1 (Qián) del I Ching basado en la versión de Richard Wilhelm."
 keywords: ["I Ching", "Hexagrama 1", "Ch'ien", "Qián", "El Principio Creativo", "Richard Wilhelm", "乾"]

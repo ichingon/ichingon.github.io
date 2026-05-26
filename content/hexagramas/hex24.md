@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 24 復 - Fù / El Retorno"
+weight: 26
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 24 (Fù) del I Ching basado en la versión de Richard Wilhelm."
 keywords: ["I Ching", "Hexagrama 24", "Fù", "El Retorno", "Richard Wilhelm", "復"]

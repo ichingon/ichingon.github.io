@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 5 需 - 5. SÜ / DAS WARTEN (DIE ERNÄHRUNG)"
+weight: 7
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 5 (SÜ) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 5", "SÜ", "Das Warten", "Richard Wilhelm", "需"]

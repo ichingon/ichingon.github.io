@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 14 大有 - 14. TA YU / DER BESITZ VON GROSSEM"
+weight: 16
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 14 (TA YU) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 14", "TA YU", "Der Besitz von Großem", "Richard Wilhelm", "大有"]

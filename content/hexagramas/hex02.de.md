@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 2 坤 - 2. KUN / DAS EMPFANGENDE"
+weight: 4
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 2 (KUN) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 2", "KUN", "Das Empfangende", "Richard Wilhelm", "坤"]

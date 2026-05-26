@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 9 小畜 - Hsiao Ch'u / La Fuerza Domesticadora de lo Pequeño"
+weight: 11
 draft: false
 description: "Traducción completa y análisis del Hexagrama 9 (Hsiao Ch'u) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 9", "Hsiao Chu", "La Fuerza Domesticadora de lo Pequeño", "Richard Wilhelm", "小畜"]

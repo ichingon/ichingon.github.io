@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 15 謙 - Ch'ien / La Modestia"
+weight: 17
 draft: false
 description: "Traducción completa y análisis del Hexagrama 15 (Ch'ien) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 15", "Ch'ien", "La Modestia", "Richard Wilhelm", "謙"]

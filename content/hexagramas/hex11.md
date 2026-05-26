@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 11 泰 - T'ai / La Paz"
+weight: 13
 draft: false
 description: "Traducción completa y análisis del Hexagrama 11 (T'ai) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 11", "T'ai", "La Paz", "Richard Wilhelm", "泰"]

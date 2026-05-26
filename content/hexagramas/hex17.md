@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 17 隨 - Suí / El Seguimiento"
+weight: 19
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 17 (Suí) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
 keywords: ["I Ching", "Hexagrama 17", "Suí", "El Seguimiento", "Richard Wilhelm", "隨"]

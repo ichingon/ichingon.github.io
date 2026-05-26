@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 17 隨 - 17. SUI / DIE NACHFOLGE"
+weight: 19
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 17 (SUI) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 17", "SUI", "Die Nachfolge", "Richard Wilhelm", "隨"]

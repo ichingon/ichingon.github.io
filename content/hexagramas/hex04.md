@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 4 蒙 - Meng / El Necio Juvenil"
+weight: 6
 draft: false
 description: "Traducción completa y análisis del Hexagrama 4 (Meng) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 4", "Meng", "El Necio Juvenil", "Richard Wilhelm", "蒙"]

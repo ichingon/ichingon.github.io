@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 18 蠱 - 18. GU / DIE ARBEIT AM VERDORBENEN"
+weight: 20
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 18 (GU) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 18", "GU", "Die Arbeit am Verdorbenen", "Richard Wilhelm", "蠱"]

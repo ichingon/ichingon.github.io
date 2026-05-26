@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 12 否 - 12. PI / DIE STOCKUNG"
+weight: 14
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 12 (PI) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 12", "PI", "Die Stockung", "Richard Wilhelm", "否"]

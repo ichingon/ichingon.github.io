@@ -1,5 +1,6 @@
 ---
 title: "Hexagram Matrix"
+weight: 1
 description: "Quick reference chart indexed by upper and lower trigrams according to King Wen's sequence."
 date: 2026-05-18
 layout: "page"

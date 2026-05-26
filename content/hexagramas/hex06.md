@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 6 訟 - Sung / El Pleito"
+weight: 8
 draft: false
 description: "Traducción completa y análisis del Hexagrama 6 (Sung) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 6", "Sung", "El Pleito", "Richard Wilhelm", "訟"]

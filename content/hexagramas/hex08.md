@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 8 比 - Pi / La Solidaridad"
+weight: 10
 draft: false
 description: "Traducción completa y análisis del Hexagrama 8 (Pi) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 8", "Pi", "La Solidaridad", "Richard Wilhelm", "比"]

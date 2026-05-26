@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 20 觀 - 20. GUAN / DIE BETRACHTUNG (DER ANBLICK)"
+weight: 22
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 20 (GUAN) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 20", "GUAN", "Die Betrachtung", "Der Anblick", "Richard Wilhelm", "觀"]

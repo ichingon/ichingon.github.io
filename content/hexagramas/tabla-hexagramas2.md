@@ -1,5 +1,6 @@
 ---
 title: "Tabla Avanzada de Correspondencias de los Hexagramas"
+weight: 2
 description: "Matriz detallada de 64 filas para cada hexagrama en el ordenamiento del Rey Wen, con sus hexagramas nucleares, descriptores breves y el Cielo Anterior."
 date: 2026-05-19
 draft: false

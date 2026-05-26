@@ -1,5 +1,6 @@
 ---
 title: "Hexagrama 5 需 - Hsü / La Espera"
+weight: 7
 draft: false
 description: "Traducción completa y análisis del Hexagrama 5 (Hsü) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
 keywords: ["I Ching", "Hexagrama 5", "Hsu", "La Espera", "Richard Wilhelm", "需"]

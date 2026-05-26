@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 8 比 - 8. BI / DAS ZUSAMMENHALTEN"
+weight: 10
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 8 (BI) des I Ging mit Unicode-Zeichen und Pinyin."
 keywords: ["I Ching", "I Ging", "Hexagramm 8", "BI", "Das Zusammenhalten", "Richard Wilhelm", "比"]

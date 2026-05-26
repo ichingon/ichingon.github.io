@@ -1,5 +1,6 @@
 ---
 title: "Hexagramm 21 噬嗑 - 21. SCHI HO / DAS DURCHBEISSEN"
+weight: 23
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 21 (SCHI HO) des I Ging."
 keywords: ["I Ching", "I Ging", "Hexagramm 21", "SCHI HO", "Das Durchbeißen", "Richard Wilhelm", "噬嗑"]
