@@ -27,7 +27,7 @@ El signo representa una montaña que se desmorona sobre la tierra. Las líneas d
 > La Desintegración.  
 > No es propicio ir a ninguna parte.
 
-Cuando las fuerzas del desmoronamiento están en pleno auge, la acción individual contra la corriente resulta infructuosa y peligrosa. El proceso de decadencia es una ley del tiempo a la que no se puede oponer resistencia directa. El sabio reconoce la inevitabilidad de esta fase y se retira a la pasividad. Es un periodo de espera, de no emprender empresas, de conservar la integridad interna mientras se aguarda el cambio de ciclo.
+Cuando las fuerzas del desmoronamiento están en pleno auge, la acción individual contra la corriente resulta infructuosa y peligrosa. La desintegración ha alcanzado su punto culminante; la oposición directa es inútil. El sabio reconoce la inevitabilidad de esta fase y se retira a la pasividad. Es un periodo de espera, de no emprender empresas, de conservar la integridad interna mientras se aguarda el cambio de ciclo.
 
 ---
 
@@ -58,20 +58,20 @@ El mal se extiende y llega a la estructura misma que sostiene nuestra existencia
 #### Seis en el tercer puesto significa:
 > Él se desintegra con ellos. Sin tacha.
 
-Esta línea representa a alguien que, a pesar de estar rodeado por las fuerzas de la descomposición, mantiene una conexión interna con lo superior. Aunque es arrastrado por la corriente de la decadencia junto con los demás, su actitud no es de complicidad activa, sino de resignación ante la realidad. Al no identificarse con el mal, queda exento de falta moral.
+Esta línea representa a alguien que, a pesar de estar rodeado por las fuerzas de la descomposición, mantiene una conexión interna con lo superior. Aunque es arrastrado por la corriente de la decadencia junto con los demás, su actitud no es de complicidad activa, sino de no identificación con el mal. Al no identificarse con el mal, queda exento de falta moral.
 
 #### Seis en el cuarto puesto significa:
-> La desintegración se produce en la piel del lecho.  
+> La desintegración alcanza el forro del lecho.  
 > Desventura.
 
 La decadencia ya no es solo una amenaza al lecho, sino que ha llegado a la superficie, a la piel que nos envuelve y nos protege. El peligro es inminente y evidente. La desventura no puede ser evitada mediante la simple observación; el colapso está tocando a nuestra puerta.
 
 #### Seis en el quinto puesto significa:
-> Un grupo de pescados.  
+> Un cardumen de peces.  
 > Por el favor de las damas del palacio, el favor llega.  
 > Todo es propicio.
 
-El orden se invierte. El único fuerte que queda (la línea superior) atrae a los elementos inferiores (los cinco seises) como un grupo de peces. Al no intentar imponer su voluntad por la fuerza, sino actuando con la gracia y el favor de la receptividad, logra encauzar las fuerzas de la decadencia hacia un propósito positivo. Es una victoria de la suavidad sobre la fuerza destructiva.
+Aquí, en la inmediata proximidad del principio fuerte y luminoso superior, la naturaleza de lo oscuro se transforma. Ya no se opone al principio fuerte con intrigas, sino que se somete a su dirección. Es más, como cabeza de los débiles restantes, los conduce a todos hacia el fuerte, igual que una princesa conduce a sus sirvientas hacia su esposo, como un cardumen de peces, obteniendo así su favor. Al someterse lo inferior voluntariamente a lo superior, encuentra su felicidad, y también lo superior llega a su derecho. Por tanto, todo sale bien. [^1]
 
 #### Al final, un Nueve significa:
 > El fruto grande no es comido.  
@@ -81,6 +81,10 @@ El orden se invierte. El único fuerte que queda (la línea superior) atrae a lo
 La fuerza positiva no puede ser destruida del todo. El fruto maduro que queda en la cima representa la semilla de la regeneración. Mientras el noble, que entiende la ley del ciclo, se prepara para el nuevo inicio (la carroza), el hombre inferior, que solo busca consumir, destruye su propio sustento, quedándose sin nada al final del proceso de desintegración.
 
 ---
+
+[^1] **Los peces y las damas del palacio** representan a las líneas débiles (femeninas, inferiores) que rodean a la única línea fuerte en la cima. Al no ser forzadas, sino atraídas por el favor y la gentileza, se alinean voluntariamente con el orden superior, permitiendo que lo propicio surja incluso en medio de la desintegración.
+
+En la interpretación clásica (Wilhelm), esta línea es propicia sin reservas porque se asume que el "fuerte" al que las damas conducen al cardumen es íntegro y actúa por el bien común. Sin embargo, en la práctica oracular moderna, conviene examinar si el fuerte actúa movido por intereses particulares de quienes le conceden su "favor" (las damas, el cardumen). Si el fuerte se deja arrastrar por un grupo de presión cuyas intenciones no son rectas, entonces el resultado puede ser el contrario: la desintegración (hexagrama 23) se acelera en lugar de detenerse. Todo es propicio solo si la guía del fuerte es íntegra y las damas actúan como auténticas servidoras, no como manipuladoras.
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](./hex23.de.md)

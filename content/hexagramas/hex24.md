@@ -28,7 +28,7 @@ El signo representa el momento en que la luz comienza a regresar después de un 
 > Salida y entrada sin tacha.  
 > Los amigos vienen, no hay culpa.  
 > El camino da vueltas y vuelve.  
-> Al séptimo día llega el retorno.  
+> Tras siete jornadas se produce el retorno. [^1]  
 > Es propicio emprender algo.
 
 El retorno no es un acto forzado, sino un movimiento natural que sigue su propio ritmo. Al igual que el invierno es seguido inevitablemente por la primavera, lo positivo regresa cuando las condiciones son propicias. No hay necesidad de apresurarse; el proceso se autorregula. Es un momento excelente para reanudar proyectos, retomar el contacto con los demás y avanzar, pues el curso de los acontecimientos favorece la vida y el crecimiento.
@@ -39,9 +39,9 @@ El retorno no es un acto forzado, sino un movimiento natural que sigue su propio
 
 > El trueno en el corazón de la tierra: la imagen del Retorno.  
 > Así, los antiguos reyes cerraban las fronteras  
-> durante el solsticio.  
+> durante el solsticio de invierno.  
 > Los comerciantes y los viajeros no circulaban,  
-> y el soberano no visitaba las regiones.
+> y el soberano no viajaba por el país.
 
 En el solsticio, cuando la luz aún es débil y está en su inicio, se requiere calma y quietud para que la semilla del crecimiento no sea perturbada. Los antiguos gobernantes sabían que el cambio de ciclo exige un periodo de introspección y protección. Al cesar el movimiento externo, se permite que la nueva energía se asiente y se fortalezca de manera segura antes de volver a expandirse.
 
@@ -62,23 +62,23 @@ Un error pequeño se corrige rápidamente antes de que se convierta en una costu
 Uno se deja guiar por la compañía de personas íntegras que también buscan el bien. No se trata de un esfuerzo heroico, sino de una sintonía natural con lo correcto. La serenidad del retorno radica en la falta de egoísmo y en la disposición de seguir el camino natural.
 
 #### Seis en el tercer puesto significa:
-> Retorno repetido. Peligro. Sin tacha.
+> Retorno vacilante. Peligro. Sin tacha.
 
 La persona vacila entre el buen camino y el antiguo error. Hay un retorno constante a las viejas costumbres, lo cual genera una inestabilidad peligrosa. Sin embargo, si al final se decide por el camino correcto, la intención pura lo salva de la culpa, aunque el camino sea tortuoso.
 
 #### Seis en el cuarto puesto significa:
-> Caminando en medio, uno retorna solo.
+> Rodeado de otros, uno retorna solo.
 
 Alguien se encuentra rodeado de quienes persisten en el error, pero mantiene su propia dirección. Regresa al camino del bien por su propia voluntad, separándose de las malas influencias. Es una decisión solitaria y valiente que exige gran integridad.
 
 #### Seis en el quinto puesto significa:
-> Retorno noble. Sin remordimiento.
+> Retorno desde la reflexión interior. Sin remordimiento.
 
 Se asume la responsabilidad del propio camino con madurez. No hay dudas ni vacilaciones. Al reconocer los errores pasados con claridad, se alcanza un estado de equilibrio en el que la conciencia está tranquila y el futuro se abre con nuevas posibilidades.
 
 #### Al final, un Seis significa:
 > Retorno perdido. Desventura.  
-> Desventura externa e interna.  
+> Fracaso tanto en lo personal como en lo social.  
 > Si se envían ejércitos, al final se sufrirá una gran derrota.  
 > Esto traerá desventura al soberano del país.  
 > Por diez años no se podrá atacar.
@@ -86,6 +86,8 @@ Se asume la responsabilidad del propio camino con madurez. No hay dudas ni vacil
 Se ha perdido la conexión con el ciclo de renovación. Se persiste obstinadamente en el error, negándose a aceptar el tiempo y la verdad del cambio. Esta rigidez conduce a una ruina total, tanto en los asuntos externos como en los internos, impidiendo cualquier progreso durante un largo ciclo de tiempo.
 
 ---
+
+[^1] El número siete representa el ciclo completo de transformación de un hexagrama a su opuesto. En el sistema del I Ching, una línea que cambia de posición requiere siete fases (seis movimientos intermedios más el séptimo de retorno) para regresar a su punto de partida. De manera análoga, el número diez (que aparece en la última línea) señala el fin de un ciclo mayor: el retorno pleno después de una década simbólica.
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](./hex24.de.md)
