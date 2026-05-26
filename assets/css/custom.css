@@ -28,25 +28,43 @@
 /* Estilos aplicados a la tabla dentro de este contenedor */
 .tabla-iching table {
     width: 100%;
-    border-collapse: separate; /* ¡IMPORTANTE! Cambiado de collapse a separate para que sticky funcione bien en todos los navegadores */
-    border-spacing: 0; /* Mantiene el efecto visual de border-collapse */
+    border-collapse: separate; /* Necesario para que el comportamiento sticky sea estable */
+    border-spacing: 0; 
 }
 
-/* Control de la primera columna (Fijar en pantallas pequeñas) */
+/* --------------------------------------------------------------------------
+   Configuración base de la Primera Columna (Modo Claro / Por Defecto)
+   -------------------------------------------------------------------------- */
 .tabla-iching table th:first-child,
 .tabla-iching table td:first-child {
-    position: -webkit-sticky; /* Soporte para navegadores antiguos de Apple */
+    position: -webkit-sticky; 
     position: sticky;
-    left: 0; /* Pega la columna al borde izquierdo del contenedor */
-    z-index: 2; /* Asegura que quede por encima de las celdas que se deslizan */
-    background-color: #ffffff; /* ¡CRUCIAL! Dale el color de fondo de tu tabla para que no se transparente el texto de atrás */
+    left: 0; 
+    z-index: 2; 
+    
+    /* Modo Claro: Fondo blanco con letras oscuras */
+    background-color: #ffffff !important; 
+    color: #222222 !important; 
+    
     white-space: nowrap !important; 
+    padding-left: 10px !important; /* Espacio extra para que no pegue al borde izquierdo de la pantalla */
     padding-right: 15px !important; 
+    
+    /* Sombra sutil para el Modo Claro */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.08);
 }
 
-/* Opcional: Una sutil sombra para dar la sensación de que el contenido se esconde debajo */
-.tabla-iching table th:first-child,
-.tabla-iching table td:first-child {
-    box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+/* --------------------------------------------------------------------------
+   Adaptación estricta para el Modo Oscuro (Cuando la clase .dark está activa)
+   -------------------------------------------------------------------------- */
+.dark .tabla-iching table th:first-child,
+.dark .tabla-iching table td:first-child {
+    /* Usamos el azul oscuro base de tu 'Vacío Cuántico' para que se fusione perfectamente */
+    background-color: #080a0f !important; 
+    
+    /* Volvemos a pintar las letras de los trigramas inferiores en blanco */
+    color: #ffffff !important; 
+    
+    /* Ajustamos la sombra para que sea muy sutil o casi invisible en la oscuridad */
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.4);
 }
-
