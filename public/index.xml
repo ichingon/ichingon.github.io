@@ -1,21 +1,511 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>El I Chingón</title>
+    <title>El I Chingón | El I Ching como Protocolo de Información Descentralizado on El I Chingón</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on El I Chingón</description>
+    <description>Recent content in El I Chingón | El I Ching como Protocolo de Información Descentralizado on El I Chingón</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tabla Avanzada de Correspondencias de los Hexagramas</title>
+      <link>http://localhost:1313/hexagramas/tabla-hexagramas2/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/tabla-hexagramas2/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Correspondencias Avanzadas de los 64 Hexagramas&#xA;    &lt;div id=&#34;correspondencias-avanzadas-de-los-64-hexagramas&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#correspondencias-avanzadas-de-los-64-hexagramas&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Esta tabla cruza el ordenamiento clásico de King Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su &lt;strong&gt;Hexagrama Nuclear&lt;/strong&gt; interno y su correspondencia arquetípica en el &lt;strong&gt;Cielo Anterior&lt;/strong&gt; (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>Matriz de Hexagramas</title>
-      <link>http://localhost:1313/hexagramas/</link>
+      <link>http://localhost:1313/hexagramas/tabla-hexagramas/</link>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hexagramas/</guid>
-      <description>&lt;p&gt;Esta tabla te permite identificar el número de cualquiera de los 64 hexagramas del I Ching cruzando sus dos componentes dinámicos.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Busca el &lt;strong&gt;Trigrama Superior&lt;/strong&gt; en las columnas horizontales de arriba.&lt;/li&gt;&#xA;&lt;li&gt;Busca el &lt;strong&gt;Trigrama Inferior&lt;/strong&gt; en las filas verticales de la izquierda.&lt;/li&gt;&#xA;&lt;li&gt;El punto de intersección te dará el número del hexagrama según el ordenamiento tradicional del Rey Wen (cielo posterior, o mundo de los sentidos).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Inferior \ Superior&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☰ &lt;!-- raw HTML omitted --&gt;Cielo&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☳ &lt;!-- raw HTML omitted --&gt;Trueno&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☵ &lt;!-- raw HTML omitted --&gt;Agua&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☶ &lt;!-- raw HTML omitted --&gt;Montaña&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☷ &lt;!-- raw HTML omitted --&gt;Tierra&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☴ &lt;!-- raw HTML omitted --&gt;Viento&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☲ &lt;!-- raw HTML omitted --&gt;Fuego&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☱ &lt;!-- raw HTML omitted --&gt;Lago&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☰ Cielo&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;34&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;5&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;26&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;11&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;9&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;14&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;43&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☳ Trueno&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;25&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;51&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;27&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;24&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;42&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;21&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;17&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☵ Agua&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;6&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;40&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;29&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;4&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;7&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;59&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;64&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;47&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☶ Montaña&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;33&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;62&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;39&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;52&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;15&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;53&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;56&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;31&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☷ Tierra&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;12&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;16&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;8&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;23&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;20&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;35&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;45&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☴ Viento&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;44&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;32&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;48&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;18&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;46&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;57&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;50&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;28&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☲ Fuego&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;13&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;55&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;63&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;22&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;36&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;37&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;30&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;49&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☱ Lago&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;10&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;54&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;60&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;41&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;19&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;61&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;38&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;58&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+      <guid>http://localhost:1313/hexagramas/tabla-hexagramas/</guid>
+      <description>&lt;p&gt;Esta tabla te permite identificar el número de cualquiera de los 64 hexagramas del I Ching cruzando sus dos trigramas constituyentes.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Busca el &lt;strong&gt;Trigrama Superior&lt;/strong&gt; en las columnas horizontales de arriba.&lt;/li&gt;&#xA;&lt;li&gt;Busca el &lt;strong&gt;Trigrama Inferior&lt;/strong&gt; en las filas verticales de la izquierda.&lt;/li&gt;&#xA;&lt;li&gt;El punto de intersección te dará el número del hexagrama según el ordenamiento tradicional del Rey Wen (後天八卦 - Hòutiān Bāguà; Cielo Posterior, o Mundo de los Sentidos).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;tabla-iching&#34;&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Superior&lt;br&gt;/Inferior&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☰ &lt;br&gt;Cielo&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☳ &lt;br&gt;Trueno&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☵ &lt;br&gt;Agua&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☶ &lt;br&gt;Montaña&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☷ &lt;br&gt;Tierra&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☴ &lt;br&gt;Viento&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☲ &lt;br&gt;Fuego&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;☱ &lt;br&gt;Lago&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☰ Cielo&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex1/&#34; &gt;1&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;34&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex5/&#34; &gt;5&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;26&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex11/&#34; &gt;11&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex9/&#34; &gt;9&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex14/&#34; &gt;14&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;43&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☳ Trueno&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;25&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;51&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex3/&#34; &gt;3&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;27&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex24/&#34; &gt;24&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;42&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex21/&#34; &gt;21&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex17/&#34; &gt;17&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☵ Agua&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex6/&#34; &gt;6&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;40&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;29&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex4/&#34; &gt;4&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex7/&#34; &gt;7&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;59&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;64&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;47&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☶ Montaña&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;33&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;62&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;39&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;52&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex15/&#34; &gt;15&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;53&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;56&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;31&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☷ Tierra&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex12/&#34; &gt;12&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex16/&#34; &gt;16&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex8/&#34; &gt;8&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex23/&#34; &gt;23&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex2/&#34; &gt;2&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex20/&#34; &gt;20&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;35&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;45&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☴ Viento&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;44&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;32&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;48&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex18/&#34; &gt;18&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;46&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;57&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;50&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;28&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☲ Fuego&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex13/&#34; &gt;13&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;55&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;63&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex22/&#34; &gt;22&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;36&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;37&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;30&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;49&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;☱ Lago&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex10/&#34; &gt;10&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;54&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;60&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;41&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/hexagramas/hex19/&#34; &gt;19&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;61&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;38&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;58&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 1 乾 - Qián / El Principio Creativo</title>
+      <link>http://localhost:1313/hexagramas/hex1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex1/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC0;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Cielo (Qián) arriba, Cielo (Qián) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El signo consta de seis trazos enteros. Los trazos enteros corresponden a la fuerza primordial luminosa, fuerte, espiritual y activa. El signo es completamente uniforme y fuerte en su naturaleza. Dado que no tiene ninguna debilidad, es por su cualidad la fuerza. Su imagen es el cielo. La fuerza se representa como no ligada a condiciones espaciales determinadas; por lo tanto, se concibe como movimiento. Como fundamento de este movimiento se toma en consideración el tiempo. Así pues, también el poder del tiempo y el poder de la perseverancia en el tiempo, la duración, están contenidos en el signo.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 10 履 - Li / El Porte (La Pisada)</title>
+      <link>http://localhost:1313/hexagramas/hex10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex10/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC9;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Cielo (Ch&amp;rsquo;ien, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) arriba, Lago (Tui, Pinyin: &lt;em&gt;Duì&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El signo significa, por un lado, el pisar (el porte), y por el otro, la conducta (el comportamiento) que se observa frente a los demás. La palabra Li significa propiamente pisar con el calzado, es decir, seguir las huellas de otro; luego pasó a significar la conducta que es decente y ordenada (costumbre, rito).&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 11 泰 - T&#39;ai / La Paz</title>
+      <link>http://localhost:1313/hexagramas/hex11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex11/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Tierra (Kun, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) arriba, Cielo (Ch&amp;rsquo;ien, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El signo señala una época en la naturaleza en la que el cielo está, por así decirlo, sobre la tierra. Las dos fuerzas primordiales se encuentran en una relación de intercambio armónico. Gracias a ello, todo florece y fructifica.&lt;/p&gt;&#xA;&lt;p&gt;El trigrama superior es Kun, la tierra, lo receptivo, cuya tendencia por naturaleza es descender. El trigrama inferior es Ch&amp;rsquo;ien, el cielo, lo creativo, cuyo movimiento va hacia arriba. Puesto que lo de arriba desciende y lo de abajo asciende, las fuerzas se encuentran y se unen en perfecta armonía, dando origen a la paz. En el signo de la paz prevalece la luz, mientras que la fuerza sombría se retira. Lo pequeño se va, lo grande viene.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 12 否 - P&#39;i / El Estancamiento</title>
+      <link>http://localhost:1313/hexagramas/hex12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex12/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCB;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Cielo (Ch&amp;rsquo;ien, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) arriba, Tierra (Kun, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Este signo es el reverso exacto del anterior. Mientras que en aquel la unión de las fuerzas producía la paz y el florecimiento, aquí la falta de unión provoca el estancamiento y la confusión.&lt;/p&gt;&#xA;&lt;p&gt;El trigrama superior es Ch&amp;rsquo;ien, el cielo, cuya naturaleza lo impulsa a ascender cada vez más alto; el trigrama inferior es Kun, la tierra, cuya naturaleza la lleva a descender hacia lo profundo. Puesto que lo de arriba tiende hacia arriba y lo de abajo hacia abajo, las fuerzas se separan y se alejan mutuamente, dando lugar a una desconexión total. Es el tiempo del estancamiento: en el mundo reina la descomposición, los hombres vulgares ocupan los puestos dirigentes y los nobles se ven relegados. Lo grande se va, lo pequeño viene.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 13 同人 - T&#39;ung Jen / Comunidad con los Hombres</title>
+      <link>http://localhost:1313/hexagramas/hex13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex13/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCC;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Cielo (Ch&amp;rsquo;ien, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) arriba, Fuego (Li, Pinyin: &lt;em&gt;Lí&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;La imagen del trigrama superior, Ch&amp;rsquo;ien, es el cielo; la del inferior, Li, es la llama. La naturaleza del fuego es elevarse llameando hacia el cielo. Esto da la idea de la comunidad. La segunda línea es la que, debido a su naturaleza central, une a las cinco líneas fuertes a su alrededor. El signo es la contraparte del Nº 7, El Ejército. Allí: peligro en el interior, obediencia en el exterior, como esencia del ejército guerrero, el cual para su cohesión necesita de un solo trazo fuerte entre los muchos débiles. Aquí: claridad en el interior, fuerza en el exterior, como esencia de la unión pacífica de los hombres, la cual para su cohesión necesita de un solo trazo blando entre los muchos firmes.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 14 大有 - Ta Yu / La Gran Posesión</title>
+      <link>http://localhost:1313/hexagramas/hex14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex14/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Fuego (Li, Pinyin: &lt;em&gt;Lí&lt;/em&gt;) arriba, Cielo (Ch&amp;rsquo;ien, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El trigrama superior Li es el fuego, y el inferior Ch&amp;rsquo;ien es el cielo. El fuego en el cielo ilumina a lo lejos y hace que todas las cosas resplandezcan. Esto da la idea de una gran posesión. El trazo blando ocupa el puesto del soberano en el quinto lugar, y todos los trazos fuertes le corresponden y se le subordinan.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Es un tiempo de gran florecimiento, donde el poder se ejerce con pureza, claridad y moderación.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 15 謙 - Ch&#39;ien / La Modestia</title>
+      <link>http://localhost:1313/hexagramas/hex15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex15/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCE;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Tierra (Kun, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) arriba, Montaña (Ken, Pinyin: &lt;em&gt;Gèn&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El signo muestra la montaña, el hijo menor de lo Creativo, el representante de la tierra en un sentido elevado, que se encuentra debajo de la tierra, lo Receptivo. La montaña es una acumulación densa de masa terrestre que se eleva hacia lo alto; pero aquí se humilla y se sitúa debajo de la llanura de la tierra. Esto da la idea de la modestia.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 16 豫 - Yü / El Entusiasmo</title>
+      <link>http://localhost:1313/hexagramas/hex16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex16/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCF;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Trueno (Chen, Pinyin: &lt;em&gt;Zhèn&lt;/em&gt;) arriba, Tierra (Kun, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El trazo fuerte en el cuarto puesto, que es el lugar del ministro destacado, encuentra resonancia y disposición dócil en todas las demás líneas blandas, las cuales se subordinan a él con alegría. El trigrama superior es Chen, el movimiento, el trueno; el inferior es Kun, la tierra, la obediencia. Un movimiento que se topa con una disposición dócil y que arrastra a las masas de manera natural genera la fuerza del entusiasmo.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 17 隨 - Suí / El Seguimiento</title>
+      <link>http://localhost:1313/hexagramas/hex17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex17/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD0;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;17. Suí / El Seguimiento&#xA;    &lt;div id=&#34;17-suí--el-seguimiento&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#17-su%c3%ad--el-seguimiento&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arriba&lt;/strong&gt;: Duì (Lo Alegre, el Lago)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abajo&lt;/strong&gt;: Zhèn (Lo Conmocionante, el Trueno)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;En la región superior se despliega lo Alegre, cuyo atributo intrínseco es la alegría; en la inferior se sitúa lo Conmocionante, que se caracteriza por el movimiento. La presencia de la alegría impulsando el movimiento conduce de manera natural al seguimiento. Desde la perspectiva de los componentes familiares, lo Alegre representa a la hija menor, mientras que lo Conmocionante encarna al hijo mayor. Aquí, un hombre maduro se coloca por debajo de una joven y le manifiesta una consideración atenta; mediante este gesto de humildad y respeto, logra que ella lo siga de manera voluntaria.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 18 蠱 - Gǔ / La Labor sobre lo Corrompido</title>
+      <link>http://localhost:1313/hexagramas/hex18/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex18/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD1;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;18. Gǔ / La Labor sobre lo Corrompido&#xA;    &lt;div id=&#34;18-gǔ--la-labor-sobre-lo-corrompido&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#18-g%c7%94--la-labor-sobre-lo-corrompido&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arriba&lt;/strong&gt;: Gèn (Lo Sostenedor, la Montaña)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abajo&lt;/strong&gt;: Xùn (Lo Suave, el Viento)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;El ideograma chino Gǔ representa una vasija en cuyo interior crecen gusanos. Esto significa lo corrompido o lo echado a perder. Tal estado se ha producido porque la suave complacencia del signo inferior se ha conjugado con la rígida inercia del signo superior, provocando el estancamiento de las circunstancias. Dado que aquí subyace una negligencia o culpabilidad, estas situaciones conllevan implícito el llamado a su eliminación. Por lo tanto, el sentido del signo no es simplemente &amp;ldquo;lo corrompido&amp;rdquo;, sino &amp;ldquo;lo corrompido como tarea&amp;rdquo;, es decir, &amp;ldquo;la labor sobre lo corrompido&amp;rdquo;.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 19 臨 - Lin / El Acercamiento</title>
+      <link>http://localhost:1313/hexagramas/hex19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex19/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD2;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;19. Lín / El Acercamiento&#xA;    &lt;div id=&#34;19-lín--el-acercamiento&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#19-l%c3%adn--el-acercamiento&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arriba&lt;/strong&gt;: Kūn (Lo Receptivo, la Tierra)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abajo&lt;/strong&gt;: Duì (Lo Alegre, el Lago)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;El término chino Lín posee diversas acepciones que no pueden resumirse en una sola palabra. Las antiguas explicaciones del Libro de las Mutaciones definen su significado primordial como «crecimiento». Lo que crece son las dos líneas fuertes que ascienden desde la base, expandiendo la energía luminosa. A partir de allí, el concepto evoluciona hacia la idea de acercamiento: la aproximación de lo fuerte y superior hacia lo inferior. Esto simboliza tanto la benevolente condescendencia de un gobernante hacia su pueblo como la resuelta puesta en marcha de los asuntos públicos. En el ciclo anual, este signo se asocia con el duodécimo mes (enero-febrero), período en el que la fuerza de la luz reanuda su movimiento ascendente tras el solsticio de invierno.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 2 坤 - Kūn / Lo Receptivo</title>
+      <link>http://localhost:1313/hexagramas/hex2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex2/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC1;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Tierra (Kūn) arriba, Tierra (Kūn) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El signo consta de puros trazos partidos. El trazo partido corresponde a la fuerza primordial sombría, blanda y receptiva del Yin. La cualidad del signo es la entrega, su imagen es la tierra. Es la contraparte perfecta de lo Creativo; la contraparte, no la oposición; un complemento, ningún combate. Es la naturaleza frente al espíritu, la tierra frente al cielo, lo espacial frente a lo temporal, lo femenino-materno frente a lo masculino-paterno. El principio de esta contraparte se encuentra, sin embargo, transferido a las relaciones humanas, no solo en las relaciones entre hombre y mujer, sino también de príncipe y ministro o padre e hijo; sí, incluso en los individuos mismos está esta dualidad en la convivencia de lo espiritual y lo sensual.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 20 觀 - Guān / La Contemplación</title>
+      <link>http://localhost:1313/hexagramas/hex20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex20/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD3;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;20. Guān / La Contemplación&#xA;    &lt;div id=&#34;20-guān--la-contemplación&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#20-gu%c4%81n--la-contemplaci%c3%b3n&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arriba&lt;/strong&gt;: Xùn (Lo Suave, el Viento)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abajo&lt;/strong&gt;: Kūn (Lo Receptivo, la Tierra)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;El nombre chino del signo posee, según una leve variación en la acentuación, un doble significado. Por un lado, expresa la acción de contemplar; por el otro, la condición de ser visto como un modelo o ejemplo. Estas ideas se sugieren por el hecho de que el signo puede ser interpretado como la imagen de una torre &lt;svg viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34; height=&#34;16&#34; style=&#34;display: inline-block; vertical-align: text-bottom;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;1.2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M2 3l6-2 6 2M3 5h10&#34; /&gt;&lt;path d=&#34;M5 3v2M8 3v2M11 3v2&#34; /&gt;&lt;path d=&#34;M4 8h8&#34; /&gt;&lt;path d=&#34;M55v3M11 5v3&#34; /&gt;&lt;path d=&#34;M3 14l1-6h8l1 6Z&#34; /&gt;&lt;path d=&#34;M1 14h14&#34; /&gt;&lt;/svg&gt; como aquellas que eran frecuentes en la antigua China. Desde estas edificaciones se dominaba una amplia perspectiva de los alrededores y, a su vez, una torre emplazada sobre una montaña resultaba visible desde grandes distancias. Así, el signo representa a un soberano que contempla las leyes del cielo hacia arriba y las costumbres del pueblo hacia abajo, convirtiéndose, a través de su recto gobierno, en un modelo sublime para las masas.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 21 噬嗑 - Shì Hé / La Mordedura Tajante</title>
+      <link>http://localhost:1313/hexagramas/hex21/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex21/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD4;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;21. Shì Hé / La Mordedura Tajante&#xA;    &lt;div id=&#34;21-shì-hé--la-mordedura-tajante&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#21-sh%c3%ac-h%c3%a9--la-mordedura-tajante&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arriba&lt;/strong&gt;: Lí (Lo Adherente, el Fuego)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abajo&lt;/strong&gt;: Zhèn (Lo Conmocionante, el Trueno)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;El signo representa una boca abierta con un obstáculo entre los dientes. Como consecuencia, los labios no pueden unirse. Para lograrlo, es necesario morder con energía el impedimento hasta romperlo. Dado que el signo se compone de los trigramas del trueno y el fuego, indica cómo se eliminan los obstáculos en la vida pública. La mordedura enérgica conduce a la unión. La aplicación de castigos es necesaria para eliminar los impedimentos.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 22 賁 - Bì / La Gracia</title>
+      <link>http://localhost:1313/hexagramas/hex22/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex22/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD5;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;22. Bì / La Gracia&#xA;    &lt;div id=&#34;22-bì--la-gracia&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#22-b%c3%ac--la-gracia&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arriba&lt;/strong&gt;: Gèn (La Detención, la Montaña)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abajo&lt;/strong&gt;: Lí (Lo Adherente, el Fuego)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;El fuego, iluminando desde abajo a la montaña, realza su belleza y estructura. Esta configuración representa la unión de la luz y la forma: la gracia. La gracia embellece, pero no posee la fuerza fundamental de la esencia. Es un adorno necesario para dar forma a las instituciones humanas, pero debe mantenerse en su justo lugar; si se le otorga una importancia excesiva, se convierte en mera fachada y superficialidad.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 23 剝 - Bō / La Desintegración</title>
+      <link>http://localhost:1313/hexagramas/hex23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex23/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD6;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;23. Bō / La Desintegración&#xA;    &lt;div id=&#34;23-bō--la-desintegración&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#23-b%c5%8d--la-desintegraci%c3%b3n&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arriba&lt;/strong&gt;: Gèn (La Detención, la Montaña)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abajo&lt;/strong&gt;: Kūn (Lo Receptivo, la Tierra)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;El signo representa una montaña que se desmorona sobre la tierra. Las líneas débiles han avanzado hasta casi eliminar a la única línea fuerte que queda en la cima. Es una época en la que las fuerzas oscuras, los elementos inferiores y la decadencia predominan sobre lo positivo y lo esencial. La estructura del signo muestra cómo el proceso de descomposición asciende desde abajo, socavando los fundamentos de la estabilidad y la virtud.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 24 復 - Fù / El Retorno</title>
+      <link>http://localhost:1313/hexagramas/hex24/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex24/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD7;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;24. Fù / El Retorno&#xA;    &lt;div id=&#34;24-fù--el-retorno&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#24-f%c3%b9--el-retorno&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arriba&lt;/strong&gt;: Kūn (Lo Receptivo, la Tierra)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abajo&lt;/strong&gt;: Zhèn (Lo Conmocionante, el Trueno)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;El signo representa el momento en que la luz comienza a regresar después de un largo periodo de oscuridad. La línea fuerte aparece en la base (el trueno), simbolizando el renacimiento, el cambio de ciclo y la renovación de la energía vital. El movimiento es hacia arriba, hacia la luz. Es el tiempo del solsticio, donde el invierno cede paso a la primavera y las posibilidades de crecimiento vuelven a estar presentes.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 3 屯 - Chun / La Dificultad Inicial</title>
+      <link>http://localhost:1313/hexagramas/hex3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex3/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC2;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Agua (Kan, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) arriba, Trueno (Chen, Pinyin: &lt;em&gt;Zhèn&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El nombre del signo, Chun, representa propiamente una brizna de hierba que al brotar de la tierra tropieza con un obstáculo. De ahí surge el significado de la dificultad inicial. El signo indica cómo el Cielo y la Tierra engendran a los seres individuales. Es su primer encuentro, el cual está ligado a dificultades. El signo inferior, Chen, es lo Conmocionador; su movimiento va hacia arriba; tiene por imagen el trueno. El signo superior, Kan, es lo Abismal, lo Peligroso; su movimiento va hacia abajo; tiene por imagen la lluvia. La situación indica, por lo tanto, una plétora densa y caótica. Trueno y lluvia llenan el aire. Pero el caos se aclara. El movimiento que está dirigido hacia arriba, mientras lo abismal se hunde, sale finalmente del peligro. En la tormenta se descargan las fuerzas tensas, y todo respira aliviado.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 4 蒙 - Meng / El Necio Juvenil</title>
+      <link>http://localhost:1313/hexagramas/hex4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex4/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC3;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Montaña (Ken, Pinyin: &lt;em&gt;Gèn&lt;/em&gt;) arriba, Agua (Kan, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El signo representa arriba la montaña, abajo el agua; el brotar de un manantial al pie de la montaña es la imagen de la juventud intacta. La cualidad del signo Gen es el mantenerse quieto, la del signo Kan es lo abismal, el agua. El mantenerse quieto ante lo abismal es la imagen de la necedad juvenil. Por otra parte, el brotar del manantial es algo que finalmente conduce hacia lo grande, siempre que sea guiado correctamente. Esto expresa la tarea de la educación de la juventud torpe, la cual está contenida en el signo.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 5 需 - Hsü / La Espera</title>
+      <link>http://localhost:1313/hexagramas/hex5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex5/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC4;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Agua (Kan, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) arriba, Cielo (Ch&amp;rsquo;ien, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Todos los seres necesitan el sustento desde arriba. Pero el dispensar del alimento tiene su tiempo, el cual se debe esperar. El signo muestra las nubes en el cielo que brindan la lluvia, la cual alegra a toda la vegetación y provee al hombre de comida y bebida. Esta lluvia vendrá a su debido tiempo. No se la puede forzar, sino que se debe esperar por ella. La idea de la espera es sugerida además por las cualidades de los dos signos primordiales: adentro fuerza, delante peligro. La fuerza ante el peligro no se precipita, sino que sabe esperar, mientras que la debilidad ante el peligro se agita y carece de la paciencia para aguardar.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 6 訟 - Sung / El Pleito</title>
+      <link>http://localhost:1313/hexagramas/hex6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex6/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC5;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Cielo (Ch&amp;rsquo;ien, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) arriba, Agua (Kan, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El trigrama superior, cuya imagen es el cielo, tiene una dirección de movimiento hacia arriba; el trigrama inferior, &amp;ldquo;Agua&amp;rdquo;, está dirigido por su naturaleza hacia abajo. Las direcciones de movimiento de ambas mitades se apartan entre sí, lo cual da por resultado la idea del pleito.&lt;/p&gt;&#xA;&lt;p&gt;La cualidad de lo Creativo es la fuerza; la de lo Abismal es el peligro, la astucia. Donde la astucia se encuentra frente a la fuerza, hay pleito.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 7 師 - Shih / El Ejército</title>
+      <link>http://localhost:1313/hexagramas/hex7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex7/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC6;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Tierra (Kun, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) arriba, Agua (Kan, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El signo se compone del trigrama primordial Kan, el agua, y Kun, la tierra. Con ello se simboliza el agua subterránea que se acumula en el interior de la tierra. Del mismo modo se acumula la fuerza del ejército en el seno de la multitud de un pueblo: invisible en tiempos de paz, pero siempre disponible como fuente de poder. Las cualidades de los trigramas primordiales son: peligro en el interior y obediencia en el exterior. Esto señala la esencia del ejército, el cual en lo más íntimo es algo peligroso, mientras que hacia afuera deben reinar la disciplina y la obediencia.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 8 比 - Pi / La Solidaridad</title>
+      <link>http://localhost:1313/hexagramas/hex8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex8/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC7;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Agua (Kan, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) arriba, Tierra (Kun, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El agua sobre la tierra fluye junta, como siempre le es posible, por ejemplo en el mar, donde se juntan todos los ríos. Este es un símbolo que señala la solidaridad (el mantenerse unidos) y sus leyes. El mismo pensamiento es sugerido por el hecho de que todas las líneas son blandas, excepto el trazo firme en el quinto puesto, en el lugar del soberano. Los blandos se mantienen unidos al ser influenciados por la firme voluntad en el puesto dirigente, que es su centro de unión. Pero también esta personalidad fuerte y conductora se mantiene unida con los otros, a través de los cuales encuentra un complemento para su propio ser.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagrama 9 小畜 - Hsiao Ch&#39;u / La Fuerza Domesticadora de lo Pequeño</title>
+      <link>http://localhost:1313/hexagramas/hex9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex9/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC8;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramas:&lt;/strong&gt; Viento (Sun, Pinyin: &lt;em&gt;Xùn&lt;/em&gt;) arriba, Cielo (Ch&amp;rsquo;ien, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) abajo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;El signo significa lo pequeño, lo débil (lo que está representado por el único trazo blando en el cuarto puesto), que doma, frena o retiene a los cinco trazos fuertes.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Considerado desde los trigramas primordiales, es el viento que sopla en lo alto del cielo. Retiene a las nubes, la fuerza creativa del cielo, permitiendo que asciendan, pero aún no es lo suficientemente fuerte como para hacerlas precipitar en forma de lluvia. El signo presenta una constelación en la que las fuerzas fuertes, por el momento, se ven frenadas por una fuerza débil. Esto solo es posible mediante la amabilidad, la moderación y la adaptación sutil.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 1 乾 - 1. KIEN / DAS SCHÖPFERISCHE</title>
+      <link>http://localhost:1313/hexagramas/hex1.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex1.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC0;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) oben, Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Zeichen besteht aus sechs ungeteilten Strichen. Die ungeteilten Striche entsprechen der lichten, starken, geistigen, tätigen Urkraft. Das Zeichen ist ganz einheitlich stark in seiner Natur. Da ihm keinerlei Schwäche anhaftet, ist es seiner Eigenschaft nach die Kraft. Sein Bild ist der Himmel. Die Kraft wird dargestellt als nicht gebunden an bestimmte räumliche Verhältnisse. Darum wird sie aufgefaßt als Bewegung. Als Grundlage dieser Bewegung kommt die Zeit in Betracht. So ist denn auch die Macht der Zeit und die Macht des Beharrens in der Zeit, die Dauer, in dem Zeichen begriffen.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 10 履 - 10. LI / DAS AUFTRETEN</title>
+      <link>http://localhost:1313/hexagramas/hex10.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex10.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC9;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) oben, Tui (See, Pinyin: &lt;em&gt;Duì&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Zeichen bedeutet einerseits das Treten (Auftreten), anderseits das Betragen (Benehmen), das den anderen gegenüber beobachtet wird. Das Wort Li bedeutet eigentlich Schuhtreten, d.h. in die Fußstapfen eines anderen treten; dann bedeutet es das Betragen, das anständig und geordnet ist (Sitte, Ritus).&lt;/p&gt;&#xA;&lt;p&gt;Der Himmel, das Schöpferische, ist oben; der See, das Heitere, ist unten. Dies zeigt den Unterschied zwischen Hoch und Niedrig, worauf das geordnete Betragen in der Gesellschaft, die Sitte, beruht.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 11 泰 - 11. TAI / DER FRIEDE</title>
+      <link>http://localhost:1313/hexagramas/hex11.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex11.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kun (Erde, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) oben, Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Zeichen deutet auf eine Zeit in der Natur, da der Himmel gleichsam auf der Erde steht. Die beiden Urkräfte sind in harmonischem Austausch. Dadurch gedeiht und blüht alles.&lt;/p&gt;&#xA;&lt;p&gt;Das obere Urzeichen ist Kun, die Erde, die empfangende, deren Bewegung abwärtsgerichtet ist. Das untere Urzeichen ist Kien, der Himmel, das Schöpferische, dessen Bewegung aufwärtsgerichtet ist. Da das Obere herabsinkt und das Untere emporstrebt, begegnen sich die Kräfte und verbinden sich in vollkommener Harmonie, woraus der Friede entsteht. Im Zeichen des Friedens herrscht das Licht, die dunkle Kraft zieht sich zurück. Das Kleine geht, das Große kommt.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 12 否 - 12. PI / DIE STOCKUNG</title>
+      <link>http://localhost:1313/hexagramas/hex12.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex12.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCB;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) oben, Kun (Erde, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Zeichen ist das genaue Gegenstück des vorigen. Während dort die Verbindung der Kräfte Frieden und Blühen erzeugte, bewirkt hier der Mangel an Verbindung Stockung und Verwirrung.&lt;/p&gt;&#xA;&lt;p&gt;Das obere Urzeichen ist Kien, der Himmel, dessen Natur ihn drängt, immer höher zu steigen; das untere Urzeichen ist Kun, die Erde, deren Natur sie abwärts in die Tiefe führt. Da das Obere nach oben und das Untere nach unten strebt, trennen sich die Kräfte und entfernen sich voneinander, was zu einer völligen Entfremdung führt. Es ist die Zeit der Stockung: in der Welt herrscht Zersetzung, gemeine Menschen besetzen die leitenden Stellen, und die Edlen werden zurückgedrängt. Das Große geht, das Kleine kommt.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 13 同人 - 13. TUNG JEN / GEMEINSCHAFT MIT MENSCHEN</title>
+      <link>http://localhost:1313/hexagramas/hex13.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex13.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCC;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) oben, Li (Feuer, Pinyin: &lt;em&gt;Lí&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Bild des oberen Urzeichens, Kien, ist der Himmel, das des unteren, Li, ist die Flamme. Die Natur des Feuers ist es, emporzulodern zum Himmel. Das gibt die Idee der Gemeinschaft. Die zweite Linie ist es, die durch ihr zentrales Wesen die pfünf starken um sich vereint. Das Zeichen ist das Gegenstück zu Nr. 7, das Heer. Dort: innen Gefahr, außen Gehorsam als Wesen des kriegerischen Heeres, das zu seinem Zusammenhalt des einen Starken unter den vielen Schwachen bedarf. Hier: innen Klarheit, außen Stärke, als Wesen der friedlichen Vereinigung der Menschen, die zu ihrem Zusammenhalt des einen Weichen unter den vielen Festen bedarf.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 14 大有 - 14. TA YU / DER BESITZ VON GROSSEM</title>
+      <link>http://localhost:1313/hexagramas/hex14.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex14.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Li (Feuer, Pinyin: &lt;em&gt;Lí&lt;/em&gt;) oben, Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das obere Urzeichen Li ist das Feuer, und das untere Kien ist der Himmel. Das Feuer am Himmel leuchtet weithin und macht alle Dinge erglänzen. Das gibt die Idee des Besitzes von Großem. Die weiche Linie nimmt den Platz des Herrschers an fünfter Stelle ein, und alle starken Linien entsprechen ihr und ordnen sich ihr unter.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Es ist eine Zeit großer Blüte, in der die Macht mit Reinheit, Klarheit und Mäßigung ausgeübt wird.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 15 謙 - 15. TCHIEN / DIE BESCHEIDENHEIT</title>
+      <link>http://localhost:1313/hexagramas/hex15.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex15.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCE;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kun (Erde, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) oben, Gen (Berg, Pinyin: &lt;em&gt;Gèn&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Zeichen zeigt den Berg, den jüngsten Sohn des Schöpferischen, den Vertreter der Erde im hohen Sinn, der sich unterhalb der Erde, des Empfangenden, befindet. Der Berg ist eine dichte Anhäufung von Erdmasse, die sich in die Höhe reckt; aber hier demütigt er sich und stellt sich unter die Ebene der Erde. Das gibt die Idee der Bescheidenheit.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 16 豫 - 16. YÜ / DIE BEGEISTERUNG</title>
+      <link>http://localhost:1313/hexagramas/hex16.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex16.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DCF;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Dschen (Donner, Pinyin: &lt;em&gt;Zhèn&lt;/em&gt;) oben, Kun (Erde, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Die starke Linie auf dem vierten Platz, dem Platz des hervorragenden Ministers, findet Resonanz und willige Hingabe bei allen anderen weichen Linien, die sich ihr mit Freuden unterordnen. Das obere Urzeichen ist Dschen, die Bewegung, der Donner; das untere ist Kun, die Erde, der Gehorsam. Eine Bewegung, die auf willige Hingabe stößt und die Massen auf natürliche Weise mitreißt, erzeugt die Kraft der Begeisterung.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 17 隨 - 17. SUI / DIE NACHFOLGE</title>
+      <link>http://localhost:1313/hexagramas/hex17.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex17.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD0;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;17. SUI / DIE NACHFOLGE&#xA;    &lt;div id=&#34;17-sui--die-nachfolge&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#17-sui--die-nachfolge&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Oben&lt;/strong&gt;: Dui, das Heitere, der See&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Unten&lt;/strong&gt;: Dschen, das Erregende, der Donner&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Oben ist das Heitere, dessen Charakter die Freude ist, unten das Erregende, dessen Charakter die Bewegung ist. Freude bei der Bewegung führt zur Nachfolge. Das Heitere ist die jüngste Tochter, das Erregende der älteste Sohn. Ein älterer Mann stellt sich unter ein junges Mädchen und nimmt Rücksicht auf sie. Dadurch bewegt er sie zur Nachfolge.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 18 蠱 - 18. GU / DIE ARBEIT AM VERDORBENEN</title>
+      <link>http://localhost:1313/hexagramas/hex18.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex18.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD1;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;18. GU / DIE ARBEIT AM VERDORBENEN&#xA;    &lt;div id=&#34;18-gu--die-arbeit-am-verdorbenen&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#18-gu--die-arbeit-am-verdorbenen&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Oben&lt;/strong&gt;: Gen, das Stillehalten der Berg&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Unten&lt;/strong&gt;: Sun, das Sanfte, Der Wind&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Das chinesische Zeichen Gu stellt eine Schüssel dar, in deren Inhalt Würmer wachsen. Das bedeutet das Verdorbene. Das ist dadurch gekommen, daß die sanfte Gleichgültigkeit des unteren Urzeichens mit der starren Trägheit des oberen Urzeichens zusammengekommen ist, so daß die Verhältnisse in Stagnation gerieten. Da also eine Verschuldung vorliegt, so enthalten diese Zustände die Aufforderung zu ihrer Beseitigung. Daher ist die Bedeutung des Zeichens nicht einfach »das Verdorbene«, sondern »das Verdorbene als Aufgabe«, die »Arbeit am Verdorbenen.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 19 臨 - 19. LIN / DAS ANNÄHERN</title>
+      <link>http://localhost:1313/hexagramas/hex19.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex19.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD2;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;19. LIN / DAS ANNÄHERN&#xA;    &lt;div id=&#34;19-lin--das-annähern&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#19-lin--das-ann%c3%a4hern&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Oben&lt;/strong&gt;: Kun das Empfangende&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Unten&lt;/strong&gt;: Dui, das Heitere der See&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Das chinesische Wort Lin hat eine Reihe von Bedeutungen, die in einem einzigen deutschen Wort sich nicht erschöpfen lassen. Die alten Erklärungen des Buches der Wandlungen geben als erste Bedeutung »Großwerden« an. Was groß wird sind die beiden starken Striche, die von unten her in das Zeichen hineinwachsen. Mit ihnen dehnt sich die lichte Kraft aus. Von da aus geht der Gedanke weiter zu dem Begriff der Annäherung, und zwar der Annäherung des Starken, Höherstehenden an das Niedrige. Es bedeutet dann schließlich auch die Herablassung eines Höheren gegen das Volk, ferner die Inangriffnahme der Geschäfte. Das Zeichen ist dem zwölften Monat (Januar-Februar) zugeordnet, da nach der Sonnenwende die lichte Kraft schon wieder im Aufsteigen begriffen ist.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 2 坤 - 2. KUN / DAS EMPFANGENDE</title>
+      <link>http://localhost:1313/hexagramas/hex2.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex2.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC1;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kun (Erde, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) oben, Kun (Erde, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Zeichen besteht aus lauter geteilten Linien. Die geteilte Linie entspricht der schattigen, weichen, rezeptiven Urkraft des Yin. Die Eigenschaft des Zeichens ist die Hingebung, sein Bild ist die Erde. Es ist das vollkommene Gegenstück zu dem Schöpferischen, das Gegenstück, nicht der Gegensatz; eine Ergänzung keine Bekämpfung. Es ist die Natur gegenüber dem Geist, die Erde gegenüber dem Himmel, das Räumliche gegenüber dem Zeitlichen, das Weiblich-Mütterliche gegenüber dem Männlichen-Väterlichen. Der Grundsatz dieses Gegenstückes findet sich aber, auf menschliche Verhältnisse übertragen, nicht nur in den Beziehungen zwischen Mann und Weib, sondern auch von Fürst und Minister oder Vater und Sohn; ja selbst in den einzelnen Menschen ist diese Zweiheit in dem Zusambensein von Geistigem und Sinnlichem.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 20 觀 - 20. GUAN / DIE BETRACHTUNG (DER ANBLICK)</title>
+      <link>http://localhost:1313/hexagramas/hex20.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex20.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD3;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;20. GUAN / DIE BETRACHTUNG (DER ANBLICK)&#xA;    &lt;div id=&#34;20-guan--die-betrachtung-der-anblick&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#20-guan--die-betrachtung-der-anblick&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Oben&lt;/strong&gt;: Sun, das Sanfte, der Wind&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Unten&lt;/strong&gt;: Kun, das Empfangende, die Erde&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Der chinesische Name des Zeichens hat mit leichter Abwandlung der Betonung eine doppelte Bedeutung. Einerseits bedeutet es das Betrachten, andererseits das Gesehenwerden, das Vorbild. Diese Gedanken werden dadurch nahegelegt, daß das Zeichen aufgefaßt werden kann als das Bild eines Turmes &lt;svg viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34; height=&#34;16&#34; style=&#34;display: inline-block; vertical-align: text-bottom;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;1.2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M2 3l6-2 6 2M3 5h10&#34; /&gt;&lt;path d=&#34;M5 3v2M8 3v2M11 3v2&#34; /&gt;&lt;path d=&#34;M4 8h8&#34; /&gt;&lt;path d=&#34;M55v3M11 5v3&#34; /&gt;&lt;path d=&#34;M3 14l1-6h8l1 6Z&#34; /&gt;&lt;path d=&#34;M1 14h14&#34; /&gt;&lt;/svg&gt; wie sie im alten China häufig waren. Von solchen Türmen hatte man eine weite Aussicht ringsumher, und andererseits war ein solcher Turm auf einem Berge weithin sichtbar. So wird durch das Zeichen ein Herrscher gezeigt, der nach oben das Gesetz des Himmels und nach unten die Sitten des Volkes betrachtet und der mit seiner guten Regierung ein erhabenes Vorbild für die Massen ist.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 21 噬嗑 - 21. SCHI HO / DAS DURCHBEISSEN</title>
+      <link>http://localhost:1313/hexagramas/hex21.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex21.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD4;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;21. SCHI HO / DAS DURCHBEISSEN&#xA;    &lt;div id=&#34;21-schi-ho--das-durchbeissen&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#21-schi-ho--das-durchbeissen&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Oben&lt;/strong&gt;: Li, das Haftende, das Feuer&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Unten&lt;/strong&gt;: Dschen, das Erregende, der Donner&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Das Zeichen stellt einen offenen Mund dar, zwischen dessen Zähnen sich ein Hindernis befindet. Infolgedessen können die Lippen sich nicht vereinigen. Um sie zusammenzubringen, muß man das Hindernis energisch durchbeißen. Da das Zeichen aus den Urzeichen des Donners und des Feuers besteht, so deutet es an, wie man im öffentlichen Leben die Hindernisse durchbeißt. Das energische Durchbeißen führt zur Vereinigung. Die Anwendung von Strafen ist nötig, um die Hindernisse zu beseitigen.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 22 賁 - 22. BI / DIE ANMUT</title>
+      <link>http://localhost:1313/hexagramas/hex22.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex22.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD5;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;22. BI / DIE ANMUT&#xA;    &lt;div id=&#34;22-bi--die-anmut&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#22-bi--die-anmut&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Oben&lt;/strong&gt;: Gen, das Stillschweigen, der Berg&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Unten&lt;/strong&gt;: Li, das Haftende, das Feuer&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Das Feuer, das von unten den Berg erleuchtet, verschönert dessen Anblick. Dies ist die Vereinigung von Licht und Form: Anmut. Anmut verschönert, hat aber nicht die grundlegende Stärke des Wesentlichen. Sie ist ein notwendiger Schmuck, um menschliche Institutionen zu formen, darf aber nicht überbetont werden; wird ihr zu viel Bedeutung beigemessen, so wird sie zur bloßen Fassade und Oberflächlichkeit.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 23 剝 - 23. BO / DIE ZERFALLENHEIT</title>
+      <link>http://localhost:1313/hexagramas/hex23.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex23.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD6;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;23. BO / DIE ZERFALLENHEIT&#xA;    &lt;div id=&#34;23-bo--die-zerfallenheit&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#23-bo--die-zerfallenheit&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Oben&lt;/strong&gt;: Gen, das Stillschweigen, der Berg&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Unten&lt;/strong&gt;: Kun, das Empfangende, die Erde&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Das Zeichen zeigt einen Berg, der über der Erde zerfällt. Die schwachen Linien sind vorgerückt, bis sie fast die einzige starke Linie, die oben geblieben ist, beseitigt haben. Es ist eine Zeit, in der dunkle Kräfte, niedere Elemente und der Verfall über das Positive und Wesentliche herrschen. Die Struktur des Zeichens zeigt, wie der Prozess der Zersetzung von unten aufsteigt und die Fundamente von Stabilität und Tugend untergräbt.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 24 復 - 24. FU / DIE WENDE</title>
+      <link>http://localhost:1313/hexagramas/hex24.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex24.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DD7;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;24. FU / DIE WENDE&#xA;    &lt;div id=&#34;24-fu--die-wende&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#24-fu--die-wende&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Oben&lt;/strong&gt;: Kun, das Empfangende, die Erde&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Unten&lt;/strong&gt;: Dschen, das Erregende, der Donner&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Das Zeichen stellt den Augenblick dar, in dem das Licht nach einer langen Zeit der Dunkelheit wiederkehrt. Die starke Linie erscheint an der Basis (der Donner), was die Wiedergeburt, den Zykluswechsel und die Erneuerung der Lebensenergie symbolisiert. Die Bewegung geht aufwärts, zum Licht hin. Es ist die Zeit der Sonnenwende, in der der Winter dem Frühling weicht und die Möglichkeiten für Wachstum wieder vorhanden sind.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 3 屯 - 3. DSCHUN / DIE ANFANGSSCHWIERIGKEIT</title>
+      <link>http://localhost:1313/hexagramas/hex3.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex3.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC2;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kan (Wasser, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) oben, Dschen (Donner, Pinyin: &lt;em&gt;Zhèn&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Der Name des Zeichens, Dschun, stellt eigentlich ein Gras dar das bei seinem Hervorsprießen aus der Erde auf ein Hindernis stößt. Daraus ergibt sich die Bedeutung der Anfangsschwierigkeit. Das Zeichen deutet, wie Himmel und Erde die Einzelwesen hervorbringen. Es ist ihre erste Begegnung, die mit Schwierigkeiten verbunden ist. Das untere Zeichen, Dschen, ist das Erregende; seine Bewegung geht nach oben; zum Bild hat es den Donner. Das obere Zeichen, Kan, ist das Abgründige, Gefährliche; seine Bewegung geht nach unten; zum Bild hat es den Regen. Die Lage deutet also auf dichte, chaotische Fülle. Donner und Regen erfüllen die Luft. Aber das Chaos lichtet sich. Die Bewegung, die nach oben gerichtet ist, während das Abgründige sich senkt, kommt schließlich aus der Gefahr hinaus. Im Gewitter entladen sich die gespannten Kräfte, und alles atmet erleichtert auf.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 4 蒙 - 4. MENG / DIE JUGENDTORHEIT</title>
+      <link>http://localhost:1313/hexagramas/hex4.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex4.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC3;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Gen (Berg, Pinyin: &lt;em&gt;Gèn&lt;/em&gt;) oben, Kan (Wasser, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Zeichen stellt oben den Berg dar, unten das Wasser; das Entspringen einer Quelle am Fuße des Berges ist das Bild der unberührten Jugend. Die Eigenschaft des Zeichens Gen ist das Stillhalten, die des Zeichens Kan ist das Abgründige, das Wasser. Das Stillhalten vor dem Abgründigen ist das Bild der jugendlichen Torheit. Auf der andern Seite ist das Entspringen der Quelle etwas, das schließlich ins Große führt, wenn es nur recht geleitet wird. Das drückt die Aufgabe der Erziehung der törichten Jugend aus, die in dem Zeichen enthalten ist.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 5 需 - 5. SÜ / DAS WARTEN (DIE ERNÄHRUNG)</title>
+      <link>http://localhost:1313/hexagramas/hex5.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex5.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC4;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kan (Wasser, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) oben, Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Alle Wesen bedürfen der Nahrung von oben. Aber das Spenden der Speise hat seine Zeit, die man erwarten muß. Das Zeichen zeigt die Wolken am Himmel, die Regen spenden, der alles Gewächs erfreut und den Menschen mit Speise und Trank versieht. Dieser Regen wird kommen zu seiner Zeit. Man kann ihn nicht erzwingen, sondern muß darauf warten. Der Gedanke des Wartens wird außerdem nahegelegt durch die Eigenschaften der beiden Urzeichen: innen Stärke, davor Gefahr. Stärke vor Gefahr überstürzt sich nicht, sondern kann warten, während Schwäche vor Gefahr in Aufregung gerät und nicht die Geduld zum Warten hat.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 6 訟 - 6. SUNG / DER STREIT</title>
+      <link>http://localhost:1313/hexagramas/hex6.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex6.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC5;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) oben, Kan (Wasser, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das obere Urzeichen, dessen Bild der Himmel ist, hat die Bewegungsrichtung nach oben, das untere Urzeichen »Wasser« ist seiner Natur nach abwärts gerichtet. Die Bewegungsrichtungen der beiden Hälften gehen auseinander, das ergibt den Gedanken des Streites.&lt;/p&gt;&#xA;&lt;p&gt;Die Eigenschaft des Schöpferischen ist die Stärke, die des Abgründigen die Gefahr, Hinterlist. Wo List Gewalt vor sich hat, da gibt es Streit.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 7 師 - 7. SCHI / DAS HEER</title>
+      <link>http://localhost:1313/hexagramas/hex7.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex7.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC6;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kun (Erde, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) oben, Kan (Wasser, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Zeichen setzt sich zusammen aus dem Urzeichen Kan, das Wasser, und Kun, die Erde. Dadurch ist das Grundwasser symbolisiert, das sich innerhalb der Erde sammelt. Ebenso sammelt sich die Heerkraft innerhalb der Menge eines Volkes: im Frieden unsichtbar, aber jederzeit zur Verfügung a1s Quelle der Macht. Die Eigenschaften der Urzeichen sind: innerhalb Gefahr und außerhalb Gehorsam. Das deutet auf das Wesen des Heeres, das im Innersten etwas Gefährliches ist, während nach außen Zucht und Gehorsam herrschen muß.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 8 比 - 8. BI / DAS ZUSAMMENHALTEN</title>
+      <link>http://localhost:1313/hexagramas/hex8.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex8.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC7;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Kan (Wasser, Pinyin: &lt;em&gt;Kǎn&lt;/em&gt;) oben, Kun (Erde, Pinyin: &lt;em&gt;Kūn&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Wasser über der Erde fließt zusammen, wie es immer kann, z. B. im Meer, wo sich alle Flüsse sammeln. Dies ist ein Symbol, das auf das Zusammenhalten und auf seine Gesetze deutet. Derselbe Gedanke wird dadurch nahegelegt, daß alle Linien weich sind, bis auf den festen Strich an fünfter Stelle auf dem Platz des Herrschers. Die Weichen halten zusammen, indem sie von dem festen Willen an leitender Stelle beeinflußt werden, der ihr Vereinigungsmittelpunkt ist. Aber auch diese starke, leitende Persönlichkeit hält mit den andern zusammen, durch die sie eine Ergänzung zu ihrem eigenen Wesen findet.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexagramm 9 小畜 - 9. SIAO TCHU / DIE ZÄHMUNGSKRAFT DES KLEINEN</title>
+      <link>http://localhost:1313/hexagramas/hex9.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/hex9.de/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC8;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trigramme:&lt;/strong&gt; Sun (Wind, Pinyin: &lt;em&gt;Xùn&lt;/em&gt;) oben, Kien (Himmel, Pinyin: &lt;em&gt;Qián&lt;/em&gt;) unten.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Das Zeichen bedeutet das Kleine, Schwache (das durch die eine weiche Linie auf dem vierten Platz dargestellt ist), das die fünf starken Linien zähmt, hemmt bzw. zusammenhält.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Auf die Urzeichen hin betrachtet, ist es der Wind, der oben am Himmel weht. Er hält die Wolken, die schöpferische Kraft des Himmels, zurück, daß sie aufsteigen, aber er ist noch nicht stark genug, sie als Regen niedergehen zu lassen. Das Zeichen zeigt eine Konstellation, in der die starken Kräfte für den Moment durch eine schwache Kraft gehemmt sind. Das ist nur möglich durch Sanftmut, Mäßigung und feine Anpassung.&lt;/p&gt;</description>
       
     </item>
     

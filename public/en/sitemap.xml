@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/en/hexagramas/tabla-hexagramas2/</loc>
+    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/tabla-hexagramas2/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagramas/tabla-hexagramas2/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/en/</loc>
+    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="es"
@@ -13,6 +28,34 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/hexagramas/</loc>
+    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagramas/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/hexagramas/tabla-hexagramas/</loc>
+    <lastmod>2026-05-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/tabla-hexagramas/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagramas/tabla-hexagramas/"
     />
   </url>
 </urlset>
