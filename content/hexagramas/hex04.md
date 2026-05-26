@@ -88,5 +88,5 @@ Al corregir la ignorancia o castigar una falta, nunca se debe actuar con ira, ex
 ---
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex4.de.md)
+* [El texto original en Alemán](./hex04.de.md)
 * [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)

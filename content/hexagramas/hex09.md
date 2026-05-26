@@ -87,5 +87,5 @@ Se ha alcanzado la meta: la paciencia y el constante acumular de las fuerzas sut
 [^1]: Wilhelm añade aquí una precisión estructural: del mismo modo que el seis en el quinto puesto del signo *比* (El Sostén / La Solidaridad) representa al soberano que mantiene unidos a los blandos en virtud de su firmeza, aquí el único trazo blando domina y refrena a los cinco trazos fuertes mediante las artes de la amabilidad.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex9.de.md)
+* [El texto original en Alemán](./hex09.de.md)
 * [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)

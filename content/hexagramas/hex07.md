@@ -91,5 +91,5 @@ La guerra ha concluido victoriosamente. La victoria se ha ganado, el rey distrib
 [^1]: En los funerales y sacrificios a los difuntos era costumbre en China que el fallecido al que se ofrecía el sacrificio fuera representado por un niño de la familia, quien se sentaba en el lugar del cadáver y era honrado en sustitución del difunto. De allí extrae esta explicación el sentido de que en el carro va sentado un «niño-cadáver», es decir, que la autoridad no emana del puesto llamado a ello, sino que es usurpada por otros. Quizás toda la dificultad pueda resolverse asumiendo un error de copia (`fan` = todos, en lugar de `shih` = cadáver). En tal caso, el sentido sería directamente: si en el ejército la multitud llega a nombrarse soberana (viaja en el carro), esto resulta funesto.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex7.de.md)
+* [El texto original en Alemán](./hex07.de.md)
 * [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
