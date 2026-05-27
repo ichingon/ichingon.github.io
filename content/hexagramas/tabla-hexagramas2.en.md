@@ -17,6 +17,8 @@ showWordCount: false
 
 This matrix crosses King Wen's classical ordering with its English names, Pinyin, and Simplified Chinese, along with a brief descriptor of its essence, its internal **Nuclear Hexagram**, and its archetypal structural correspondence in the **Earlier Heaven** arrangement (先天八卦 - Xiān Tiān Bāguà, or 伏羲八卦 - Fú Xī Bāguà, the binary ordering according to Emperor Fu Xi).
 
+> 📌 **Navigation Note:** The links on each hexagram number will direct you to my Spanish translation of **Richard Wilhelm's** traditional text. Within each individual article, you will also find the link to the original German source text for academic reference.
+
 ## On the Mapping of the Later Heaven Sequence to the Earlier Heaven Sequence
 
 Unlike a conventional, flat positional index, the **Earlier Heaven** column in this table represents the hexagram number in King Wen's ordering that results from **mapping each constituent trigram** from its quadrant in the Later Heaven (*Hou Tian*) scheme to its directional equivalent in the Earlier Heaven (*Xian Tian*) arrangement. 

@@ -17,6 +17,8 @@ showWordCount: false
 
 Esta matriz cruza el ordenamiento clásico de King Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su **Hexagrama Nuclear** interno y su correspondencia arquetípica en el **Cielo Anterior** (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).
 
+> 📌 **Nota de navegación:** Los enlaces en los números de cada hexagrama te dirigirán a mi traducción al castellano del texto tradicional de **Richard Wilhelm**. Dentro de cada artículo individual, encontrarás también el enlace al texto original en alemán para su cotejo académico.
+
 ## Sobre la Correspondencia del Ordenamiento del Cielo Posterior con el Cielo Anterior
 
 A diferencia de un índice posicional plano convencional, la columna del **Cielo Anterior** en esta tabla representa el número del hexagrama en el ordenamiento King Wen que resulta al **trasladar simétricamente cada trigrama constituyente** desde su cuadrante en el esquema del Cielo Posterior (*Hou Tian*) hacia su equivalente direccional en el Cielo Anterior (*Xian Tian*). 

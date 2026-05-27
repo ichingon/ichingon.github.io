@@ -18,6 +18,8 @@ Esta tabla te permite identificar el número de cualquiera de los **64 hexagrama
 * Busca el **Trigrama Inferior** (Trigrama de Abajo) en las filas verticales de la izquierda.
 * El punto de intersección te dará el número del hexagrama según el ordenamiento tradicional del Rey Wen (**後天八卦 - Hòutiān Bāguà**; Cielo Posterior, o Mundo de los Sentidos).
 
+> 📌 **Nota de navegación:** Los enlaces en los números de cada hexagrama te dirigirán a mi traducción al castellano del texto tradicional de **Richard Wilhelm**. Dentro de cada artículo individual, encontrarás también el enlace al texto original en alemán para su cotejo académico.
+
 > 💡 **¿Buscas un análisis más profundo?** Si necesitas investigar las dinámicas ocultas del sistema, consulta nuestra **[Tabla Avanzada de Correspondencias del I Ching](/hexagramas/tabla-avanzada-correspondencias-i-ching/)**, donde encontrarás los hexagramas nucleares (*Hu Gua*) y el mapeo geométrico con el Arreglo del Cielo Anterior (*Xian Tian*).
 
 ---

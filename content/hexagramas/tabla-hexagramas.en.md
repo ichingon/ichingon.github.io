@@ -18,6 +18,8 @@ This matrix allows you to quickly identify the number of any of the 64 I Ching h
 * Look for the **Lower Trigram** (Trigram Below) in the vertical rows on the left.
 * The point of intersection will yield the hexagram number according to King Wen's traditional arrangement (後天八卦 - Hòutiān Bāguà; Later Heaven, or the Manifested World of Senses).
 
+> 📌 **Navigation Note:** The links on each hexagram number will direct you to my Spanish translation of **Richard Wilhelm's** traditional text. Within each individual article, you will also find the link to the original German source text for academic reference.
+
 > 💡 **Looking for deeper structural analysis?** If you are researching the inner dynamics of the system, explore our **[Advanced I Ching Hexagram Correspondence Table](/hexagrams/advanced-i-ching-correspondence-table/)** to access internal nuclear hexagrams (*Hu Gua*) and the precise geometric mapping to the Earlier Heaven sequence (*Xian Tian*).
 
 ---
