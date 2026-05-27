@@ -91,7 +91,8 @@ Während die vorige Linie einen Mann darstellt, der sich selbst betrachtet, ist 
 
 ---
 
-### Enlaces de Consulta
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
-
 [^1]: Die Verschiedenheit in der Bewertung des Verhaltens von Mann und Frau ist nicht auf das alte China beschränkt, Das Bild, das Schiller in der "Glocke" von der Hausfrau zeichnet, bewegt sich vollkommen in diesen Kreise.
+
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

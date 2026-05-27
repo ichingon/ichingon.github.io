@@ -91,6 +91,6 @@ Der Krieg ist siegreich beendet. Der Sieg ist gewonnen, der König verteilt unte
 
 [^1]: Bei Beerdigungen und Totenopfern war es in China Sitte, daß der Verstorbene, dem geopfert wurde, durch einen Knaben aus der Familie vertreten wurde, der am Platz der Leiche saß und an der Stelle des Verstorbenen geehrt wurde. Daraus entnimmt diese Erklärung den Sinn, daß auf dem Wagen ein »Leichenknabe« sitzt, d. h. daß die Autorität nicht von der dazu berufenen Stelle ausgeht, sondern sich von andern angemaßt wird. Vielleicht läßt sich die ganze Schwierigkeit beheben durch Annahme eines Schreibfehlers (`fan` = alle für `schi` = Leiche). Dann würde der Sinn ohne weiteres sein: Wenn im Heer etwa sich die Menge zum Herrn macht (auf dem Wagen fahrt), so ist das unheilvoll.
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex7.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

@@ -86,6 +86,6 @@ Das Ziel ist erreicht: die Geduld und das beständige Anhäufen der feinen Kräf
 
 [^1]: Vergleiche dazu die Struktur der Linien: wie die Sechs auf fünftem Platz im Zeichen *比* (Das Zusammenhalten) der Herrscher ist, der die Weichen durch Festigkeit zusammenhält, so beherrscht hier die eine weiche Linie die fünf starken Linien durch die Künste der Sanftmut.
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex9.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

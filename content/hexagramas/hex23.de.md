@@ -83,5 +83,6 @@ Die positive Kraft kann nicht vollständig zerstört werden. Die reife Frucht, d
 
 ---
 
-### Enlaces de Consulta
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

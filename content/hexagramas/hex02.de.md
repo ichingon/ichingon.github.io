@@ -103,6 +103,6 @@ Wenn lauter Sechsen erscheinen, verwandelt sich das Zeichen des Empfangenden in 
 
 [^2]: Während die oberste Linie des Schöpferischen Titanenstolz zeigt und eine Parallele bildet zur griechischen Sage des Ikarus, ist in der obersten Linie das. Empfangende eine Parallele zum Mythos von Lucifer, der sich gegen die oberste Gottheit empört, oder zu dem Kampf der dunklen Mächte gegen die Götter Walhalls. der mit der Götterdämmerung endet.
 
-### Enlaces de Consulta / Verweise
-* [Texto en Español](./hex2.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

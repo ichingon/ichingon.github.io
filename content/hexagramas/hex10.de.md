@@ -85,6 +85,6 @@ Das Werk ist vollendet. Man blickt zurück auf den Weg, den man gegangen ist. Ma
 
 ---
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex10.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

@@ -84,5 +84,6 @@ La obra de la gran posesión alcanza aquí su cumbre espiritual. Cuando un hombr
 [^1]: Wilhelm destaca la inversión de fuerzas respecto al signo anterior: mientras que en el signo *同人* (Comunidad con los Hombres) el trazo blando ocupaba una posición subordinada en el segundo lugar, aquí el Seis ocupa el puesto central de honor del soberano, gobernando las fuerzas densas del cielo mediante las artes de la claridad y la receptividad sutil.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex14.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+* [El texto original en Alemán](/hexagramas/hex14.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

@@ -79,5 +79,6 @@ Un sabio que ha superado las ambiciones mundanas y se encuentra en paz con la ex
 ---
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex19.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+* [El texto original en Alemán](/hexagramas/hex19.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

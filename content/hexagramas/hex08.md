@@ -92,5 +92,6 @@ La cabeza es el comienzo. Sin un comienzo correcto no hay un final correcto. Si 
 [^1]: Wilhelm introduce aquí una equivalencia ética citando un dístico clásico de Schiller: "Busca siempre pertenecer al Todo; y si no puedes ser un Todo por ti mismo, únete a un Todo como un miembro servicial".
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex08.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+* [El texto original en Alemán](/hexagramas/hex08.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

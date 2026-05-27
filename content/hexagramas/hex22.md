@@ -82,8 +82,9 @@ Se ha llegado al estado de la gracia pura, despojada de todo artificio. La blanc
 
 ---
 
-### Enlaces de Consulta
-* [El texto original en Alemán](./hex22.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
-
 [^1]: Nota: El signo muestra la belleza en reposo: claridad por dentro y quietud por fuera. Esta es la paz de la pura contemplación. Cuando el deseo calla y la voluntad llega al reposo, entonces el mundo aparece como representación. Y como tal, es bello y está desprendido de la lucha de la existencia. Ese es el mundo del arte. Pero mediante la mera contemplación, la voluntad no llega a un reposo definitivo. Despertará de nuevo, y todo lo bello habrá sido solo un momento pasajero de elevación. Por eso, este no es aún el camino verdadero hacia la redención. Por ello, Confucio se sintió muy incómodo cuando, al consultar el oráculo, recibió el signo de "La Gracia".
+
+### Enlaces de Consulta
+* [El texto original en Alemán](/hexagramas/hex22.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

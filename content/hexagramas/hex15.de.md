@@ -90,6 +90,6 @@ Die Bescheidenheit hat ihren höchsten Punkt erreicht, aber der äußere Einflu�
 
 [^1]: Konfuzius sagt hierzu: „Er arbeitet und rühmt sich nicht, er hat Verdienste und rechnet sie sich nicht an als Tugend. Das ist die Fülle der Großmut. Das bedeutet, daß man trotz seiner Verdienste sich unter die anderen stellt. Seine Sprache ist demütig, aber sein Betragen strahlt eine reale Ehrfurcht aus. Das ist es, was dem Edlen erlaubt, sein Werk dauerhaft zu festigen.“
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex15.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

@@ -1,52 +1,60 @@
 ---
-title: "Tabla Avanzada de Correspondencias de los Hexagramas"
+title: "Tabla Avanzada de Correspondencias del I Ching"
 weight: 2
-description: "Matriz detallada de 64 filas para cada hexagrama en el ordenamiento del Rey Wen, con sus hexagramas nucleares, descriptores breves y el Cielo Anterior."
+description: "Matriz estructural de los 64 hexagramas del I Ching. Incluye hexagramas nucleares (Hu Gua) y la proyección geométrica al Cielo Anterior de Fu Xi."
+url: "/hexagramas/tabla-avanzada-correspondencias-i-ching/"
 date: 2026-05-19
 draft: false
 layout: "page"
-showTableOfContents: true
+showTableOfContents: false
 showTaxonomies: false
 showDate: false
 showReadingTime: false
 showWordCount: false
+---
+
+## Sobre esta Tabla Estructural
+
+Esta matriz cruza el ordenamiento clásico de King Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su **Hexagrama Nuclear** interno y su correspondencia arquetípica en el **Cielo Anterior** (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).
+
+## Sobre la Correspondencia del Ordenamiento del Cielo Posterior con el Cielo Anterior
+
+A diferencia de un índice posicional plano convencional, la columna del **Cielo Anterior** en esta tabla representa el número del hexagrama en el ordenamiento King Wen que resulta al **trasladar simétricamente cada trigrama constituyente** desde su cuadrante en el esquema del Cielo Posterior (*Hou Tian*) hacia su equivalente direccional en el Cielo Anterior (*Xian Tian*). 
+
+Por ello, el **Hexagrama 1** (Qián puro, ubicado en el Noroeste en el *Hou Tian*) se proyecta armónicamente sobre el **Hexagrama 52** (Gèn puro, ubicado en el Noroeste en el *Xian Tian*).
+
+> 🔍 **¿Necesitas solo una consulta rápida?** Si lo único que buscas es identificar un hexagrama de forma simple cruzando su trigrama superior e inferior, puedes regresar a nuestra **[Tabla para buscar los hexagramas del I Ching](/hexagramas/buscador-hexagramas-i-ching/)**.
 
 ---
 
-# Correspondencias Avanzadas de los 64 Hexagramas
-
-Esta tabla cruza el ordenamiento clásico de King Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su **Hexagrama Nuclear** interno y su correspondencia arquetípica en el **Cielo Anterior** (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).
-
----
-
-<div class="tabla-iching">
+<div class="tabla-iching-avanzada">
 
 | N° (King Wen) | Nombre (Castellano / Pinyin / Chino Simplificado) | Brevísima Descripción | H. Nuclear | Cielo Anterior (Fu Xi) |
 | :---: | :--- | :--- | :---: | :---: |
-| **[1](./hex01/)** | El Cielo / Qián / 乾 | Creatividad pura, fuerza activa y persistencia. | 1 | 52 |
-| **[2](./hex02/)** | La Tierra / Kūn / 坤 | Receptividad pura, entrega y apoyo incondicional. | 2 | 57 |
-| **[3](./hex03/)** | La Dificultad Inicial / Zhūn / 屯 | El brote que se abre camino con esfuerzo. | 23 | 36 |
-| **[4](./hex04/)** | El Aprendiz / Méng / 蒙 | La inexperiencia juvenil y la necesidad de guía. | 24 | 16 |
-| **[5](./hex05/)** | La Espera / Xū / 需 | Aguardar con calma y confianza a que pase la tormenta. | 38 | 15 |
-| **[6](./hex06/)** | El Conflicto / Sòng / 讼 | Litigio, detenerse a mitad del camino para evitar el caos. | 37 | 23 |
-| **[7](./hex07/)** | El Ejército / Shī / 师 | Organización, disciplina y liderazgo legítimo. | 24 | 20 |
-| **[8](./hex08/)** | La Unión / Bǐ / 比 | Solidaridad, alianza y cohesión con un propósito común. | 23 | 46 |
-| **[9](./hex09/)** | El Cuidado Pequeño / Xiǎo Chù / 小畜 | Fuerza acumulada en pequeña escala, paciencia. | 38 | 31 |
-| **[10](./hex10/)** | El Porte / Lǚ / 履 | Pisar con cuidado, conducta correcta ante el peligro. | 37 | 4 |
-| **[11](./hex11/)** | La Paz / Tài / 泰 | Armonía, florecimiento y equilibrio perfecto. | 54 | 53 |
-| **[12](./hex12/)** | El Estancamiento / Pǐ / 否 | Bloqueo, falta de comunicación y repliegue interior. | 53 | 18 |
-| **[13](./hex13/)** | Comunidad / Tóng Rén / 同人 | Unión de los hombres en el exterior, fraternidad. | 44 | 26 |
-| **[14](./hex14/)** | Gran Posesión / Dà Yǒu / 大有 | Abundancia, claridad mental y gran riqueza espiritual. | 43 | 33 |
-| **[15](./hex15/)** | La Modestia / Qiān / 谦 | Humildad que equilibra lo que está lleno. | 40 | 42 |
-| **[16](./hex16/)** | El Entusiasmo / Yù / 豫 | Energía motivadora, música y anticipación al movimiento. | 39 | 50 |
-| **[17](./hex17/)** | El Seguimiento / Suí / 随 | Adaptarse al tiempo, descansar cuando es necesario. | 53 | 63 |
-| **[18](./hex18/)** | La Corrección / Gǔ / 蛊 | Reparar lo dañado por el descuido del pasado. | 54 | 54 |
-| **[19](./hex19/)** | El Acercamiento / Lín / 临 | El crecimiento del poder, supervisar con empatía. | 24 | 59 |
-| **[20](./hex20/)** | La Contemplación / Guān / 观 | Observar el panorama completo y ser ejemplo para otros. | 23 | 28 |
-| **[21](./hex21/)** | Morder a Fondo / Shì Shì / 噬嗑 | Eliminar obstáculos con justicia y decisión severa. | 39 | 13 |
-| **[22](./hex22/)** | La Elegancia / Bì / 贲 | Belleza formal, adorno exterior que oculta la verdad. | 40 | 34 |
-| **[23](./hex23/)** | La Desintegración / Bō / 剥 | Lo viejo cae, colapso inminente; no actúes, resiste. | 2 | 32 |
-| **[24](./hex24/)** | El Retorno / Fù / 复 | El regreso de la luz, el reinicio de un ciclo natural. | 2 | 37 |
+| **[1](/hexagramas/hex01/)** | El Cielo / Qián / 乾 | Creatividad pura, fuerza activa y persistencia. | 1 | 52 |
+| **[2](/hexagramas/hex02/)** | La Tierra / Kūn / 坤 | Receptividad pura, entrega y apoyo incondicional. | 2 | 57 |
+| **[3](/hexagramas/hex03/)** | La Dificultad Inicial / Zhūn / 屯 | El brote que se abre camino con esfuerzo. | 23 | 36 |
+| **[4](/hexagramas/hex04/)** | El Aprendiz / Méng / 蒙 | La inexperiencia juvenil y la necesidad de guía. | 24 | 16 |
+| **[5](/hexagramas/hex05/)** | La Espera / Xū / 需 | Aguardar con calma y confianza a que pase la tormenta. | 38 | 15 |
+| **[6](/hexagramas/hex06/)** | El Conflicto / Sòng / 讼 | Litigio, detenerse a mitad del camino para evitar el caos. | 37 | 23 |
+| **[7](/hexagramas/hex07/)** | El Ejército / Shī / 师 | Organización, disciplina y liderazgo legítimo. | 24 | 20 |
+| **[8](/hexagramas/hex08/)** | La Unión / Bǐ / 比 | Solidaridad, alianza y cohesión con un propósito común. | 23 | 46 |
+| **[9](/hexagramas/hex09/)** | El Cuidado Pequeño / Xiǎo Chù / 小畜 | Fuerza acumulada en pequeña escala, paciencia. | 38 | 31 |
+| **[10](/hexagramas/hex10/)** | El Porte / Lǚ / 履 | Pisar con cuidado, conducta correcta ante el peligro. | 37 | 4 |
+| **[11](/hexagramas/hex11/)** | La Paz / Tài / 泰 | Armonía, florecimiento y equilibrio perfecto. | 54 | 53 |
+| **[12](/hexagramas/hex12/)** | El Estancamiento / Pǐ / 否 | Bloqueo, falta de comunicación y repliegue interior. | 53 | 18 |
+| **[13](/hexagramas/hex13/)** | Comunidad / Tóng Rén / 同人 | Unión de los hombres en el exterior, fraternidad. | 44 | 26 |
+| **[14](/hexagramas/hex14/)** | Gran Posesión / Dà Yǒu / 大有 | Abundancia, claridad mental y gran riqueza espiritual. | 43 | 33 |
+| **[15](/hexagramas/hex15/)** | La Modestia / Qiān / 谦 | Humildad que equilibra lo que está lleno. | 40 | 42 |
+| **[16](/hexagramas/hex16/)** | El Entusiasmo / Yù / 豫 | Energía motivadora, música y anticipación al movimiento. | 39 | 50 |
+| **[17](/hexagramas/hex17/)** | El Seguimiento / Suí / 随 | Adaptarse al tiempo, descansar cuando es necesario. | 53 | 63 |
+| **[18](/hexagramas/hex18/)** | La Corrección / Gǔ / 蛊 | Reparar lo dañado por el descuido del pasado. | 54 | 54 |
+| **[19](/hexagramas/hex19/)** | El Acercamiento / Lín / 临 | El crecimiento del poder, supervisar con empatía. | 24 | 59 |
+| **[20](/hexagramas/hex20/)** | La Contemplación / Guān / 观 | Observar el panorama completo y ser ejemplo para otros. | 23 | 28 |
+| **[21](/hexagramas/hex21/)** | Morder a Fondo / Shì Shì / 噬嗑 | Eliminar obstáculos con justicia y decisión severa. | 39 | 13 |
+| **[22](/hexagramas/hex22/)** | La Elegancia / Bì / 贲 | Belleza formal, adorno exterior que oculta la verdad. | 40 | 34 |
+| **[23](/hexagramas/hex23/)** | La Desintegración / Bō / 剥 | Lo viejo cae, colapso inminente; no actúes, resiste. | 2 | 32 |
+| **[24](/hexagramas/hex24/)** | El Retorno / Fù / 复 | El regreso de la luz, el reinicio de un ciclo natural. | 2 | 37 |
 | **25** | La Inocencia / Wú Wàng / 无妄 | Acción natural y espontánea, alineada con el orden cósmico. | 53 | 22 |
 | **26** | Gran Fuerza Domesticadora / Dà Chù / 大畜 | Acumulación de gran potencial y sabiduría histórica. | 54 | 62 |
 | **27** | Las Comisuras de la Boca / Yí / 颐 | Nutrición del cuerpo, la mente y el espíritu. | 2 | 55 |
@@ -66,7 +74,7 @@ Esta tabla cruza el ordenamiento clásico de King Wen con sus nombres en castell
 | **41** | La Disminución / Sǔn / 损 | Reducir lo externo para fortalecer la base interna. | 24 | 40 |
 | **42** | El Aumento / Yì / 益 | Expansión, beneficiar a los de abajo, emprender tareas. | 23 | 49 |
 | **43** | El Desbordamiento / Guài / 夬 | Resolución firme, eliminar la negatividad con claridad. | 1 | 39 |
-| **44** | El Encuentro / Gòu / 姤 | Elemento disruptivo que entra sin ser invitado. | 1 | 41 |
+| **44** | El Encuentro / Gòu /  | Elemento disruptivo que entra sin ser invitado. | 1 | 41 |
 | **45** | La Reunión / Cuì / 萃 | Agrupación en torno a un centro sagrado, prevención. | 53 | 48 |
 | **46** | El Ascenso / Shēng / 升 | Crecimiento gradual y constante a base de esfuerzo. | 54 | 61 |
 | **47** | El Agotamiento / Kùn / 困 | Opresión y encierro; prueba de carácter mediante el silencio. | 37 | 8 |
@@ -89,6 +97,3 @@ Esta tabla cruza el ordenamiento clásico de King Wen con sus nombres en castell
 | **64** | Antes de la Realización / Wèi Jì / 未济 | La transición final, el ciclo vuelve a empezar. | 63 | 12 |
 
 </div>
-
-> **Nota sobre el cálculo de correspondencia:**
-> * La columna del **Cielo Anterior** ya no representa un índice posicional plano, sino el número del hexagrama en el ordenamiento King Wen que resulta al trasladar simétricamente cada trigrama constituyente desde su cuadrante en el esquema del Cielo Posterior (*Hou Tian*) hacia su equivalente direccional en el Cielo Anterior (*Xian Tian*). Por ello, el 1 (Qian puro, NW en Hou Tian) se proyecta armónicamente sobre el 52 (Gen puro, NW en Xian Tian).

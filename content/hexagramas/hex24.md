@@ -91,5 +91,6 @@ Se ha perdido la conexión con el ciclo de renovación. Se persiste obstinadamen
 [^1] El número siete representa el ciclo completo de transformación de un hexagrama a su opuesto. En el sistema del I Ching, una línea que cambia de posición requiere siete fases (seis movimientos intermedios más el séptimo de retorno) para regresar a su punto de partida. De manera análoga, el número diez (que aparece en la última línea) señala el fin de un ciclo mayor: el retorno pleno después de una década simbólica.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex24.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+* [El texto original en Alemán](/hexagramas/hex24.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

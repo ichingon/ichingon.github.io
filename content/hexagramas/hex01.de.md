@@ -113,6 +113,6 @@ Wenn alle Linien Neunen sind, so kommt das ganze Zeichen in Bewegung und verwand
 
 [^3]: Das Schöpferische bewirkt Anfang und Zeugung aller Wesen. Man kann es daher bezeichnen als Himmel. lichte Kraft, Vater, Herr. Es ist nun eine Frage, ob das Schöpferische im Chinesischen persönlich gedacht ist wie Zeus bei den Griechen. Die Antwort lautet, daß dieses Problem für das Chinesentum gar nicht das Wichtigste isr. Das Göttlich-Schöpferische ist sozusagen überpersönlich. Es macht sich nur fühlbar und bemerkbar durch seine übermächtige Aktivität. Wohl hat es sozusagen ein Äußeres, das ist der Himmel. Und der Himmel hat wie Das Lebende ein seelisches Selbstbewußtsein, das ist Gott (der höchste Herrscher). Allein ganz objektiv redet man von dem allen als dem Schöpferischen.
 
-### Enlaces de Consulta / Verweise
-* [Texto en Español](./hex1.md)
-* [Zurück zur Hexagrammtabelle](https://elichingon.com/hexagramas/tabla-hexagramas/)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

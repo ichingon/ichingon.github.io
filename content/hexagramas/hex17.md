@@ -89,8 +89,9 @@ Esta analogía histórica remite a las instituciones de la dinastía Zhou. Dicha
 
 ---
 
-### Enlaces de Consulta
-* [El texto original en Alemán](./hex17.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
-
 [^1]: Compárese con la máxima de Goethe: "Mientras sea de día, muévase el hombre; al caer la noche, ya nadie puede trabajar".
+
+### Enlaces de Consulta
+* [El texto original en Alemán](/hexagramas/hex17.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

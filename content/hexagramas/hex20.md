@@ -90,8 +90,10 @@ Mientras que la línea anterior mostraba a un hombre examinándose a sí mismo, 
 
 ---
 
-### Enlaces de Consulta
-* [El texto original en Alemán](./hex20.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
-
 [^1]: Esta diferenciación en la valoración de los roles no es exclusiva de la antigua China; un paralelismo notable se encuentra en la literatura clásica europea, como en la descripción de las virtudes de la esposa en *El canto de la campana* de Friedrich Schiller.
+
+### Enlaces de Consulta
+* [El texto original en Alemán](/hexagramas/hex20.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+

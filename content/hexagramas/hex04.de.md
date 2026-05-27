@@ -84,6 +84,6 @@ Bei der Korrektur der Unwissenheit oder der Bestrafung eines Fehlers darf man ni
 
 ---
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex4.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

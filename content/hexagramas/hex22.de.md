@@ -82,7 +82,8 @@ Man ist beim Zustand der reinen Anmut angelangt, frei von jedem Kunstgriff. Wei�
 
 ---
 
-### Enlaces de Consulta
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
-
 [^1]: Bemerkung: Das Zeichen zeigt die ruhende Schönheit: innen Klarheit und außen Stille. Das ist die Ruhe der reinen Betrachtung. Wenn das Begehren schweigt, der Wille zur Ruhe kommt, dann tritt die Welt als Vorstellung in die Erscheinung. Und als solche ist sie schön und dem Kampf des Daseins entnommen. Das ist die Welt der Kunst. Aber durch bloße Betrachtung wird der Wille nicht endgültig zur Ruhe gebracht. Er wird wieder erwachen, und alles Schöne war dann nur ein vorübergehender Moment der Erhebung. Darum ist dies noch nicht der eigentliche Weg zur Erlösung. Kungtse fühlte sich daher auch sehr unbehaglich, als er bei Gelegenheit einer Befragung des Orakels das Zeichen »Anmut« bekam.
+
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

@@ -91,6 +91,6 @@ Das Haupt ist der Anfang. Ohne einen rechten Anfang gibt es kein rechtes Ende. W
 
 [^1]: Vergleiche dazu das Distichon: „Immer strebe zum Ganzen, und kannst du selber kein Ganzes werden, als dienendes Glied schließ an ein Ganzes dich an.“
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex8.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

@@ -87,7 +87,8 @@ Nicht jeder Mensch ist verpflichtet, sich in die Weltgeschäfte zu mischen. Es g
 
 ---
 
-### Enlaces de Consulta
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
-
 [^1]: In Europa ist die Stellung Goethes nach den Napoleonischen Kriegen ein Beispiel dieses Handelns.
+
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

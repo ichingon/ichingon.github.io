@@ -91,6 +91,6 @@ Das Warten ist vorüber: die Gefahr läßt sich nicht mehr abwenden. Man gerät 
 
 [^1]: In „Hermann und Dorothea“ ist diese Wahrheit so ausgedrückt: „Denn die Wünsche verhüllen uns selbst das Gewünschte; die Gaben kommen von oben herab in ihren eignen Gestalten“.
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex5.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

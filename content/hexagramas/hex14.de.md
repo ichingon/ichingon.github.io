@@ -83,6 +83,6 @@ Das Werk des Besitzes von Großem erreicht hier seine geistige Spitze. Wenn ein 
 
 [^1]: Wilhelm hebt die Umkehrung der Kräfte gegenüber dem vorigen Zeichen hervor: während im Zeichen *同人* (Gemeinschaft mit Menschen) die weiche Linie eine untergeordnete Stellung auf dem zweiten Platz einnahm, besetzt das Sechs hier den zentralen Ehrenplatz des Herrschers und regiert die dichten Kräfte des Himmels durch die Künste der Klarheit und feinen Rezeptivität.
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex14.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

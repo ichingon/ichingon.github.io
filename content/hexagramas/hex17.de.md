@@ -89,7 +89,8 @@ Das Gleichnis ist gewählt von der Dschoudynastie. Diese Dynastie ehrte verdient
 
 ---
 
-### Enlaces de Consulta
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
-
 [^1]: Vgl. den Spruch von Goethe: "Noch ist es Tag, da rühre sich der Mann; Die Nacht tritt ein, wo niemand wirken kann"
+
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

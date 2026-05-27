@@ -87,6 +87,6 @@ Die Stockung dauert nicht ewig; nach natürlichem Gesetz erschöpft sie sich, we
 
 [^1]: Konfuzius sagt hierzu: „Gefahr droht dem, der sich in seinem Platze sicher fühlt. Untergang droht dem, der sein Bestehen erhalten will... Darum vergißt der Edle nicht die Gefahr in der Sicherheit, nicht den Untergang im Bestehen... So bleibt seine eigene Person erhalten, und das Reich wird bewahrt.“
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex12.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

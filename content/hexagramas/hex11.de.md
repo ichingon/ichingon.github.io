@@ -95,6 +95,6 @@ Die Zeit des Friedens ist zu Ende und der Prozess des Niedergangs beginnt. Die F
 
 [^1]: Di I war ein Herrscher der Schang-Dynastie. Seine historische Geste, seine Tochter mit einem Vasallen geringeren Ranges zu vermählen, wurde zum klassischen Symbol für eine harmonische Verbindung, die auf Demut und dem Verzicht auf den Stolz der Macht beruht.
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex11.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

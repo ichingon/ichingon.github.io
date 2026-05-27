@@ -98,5 +98,6 @@ Hay personas para quienes las dificultades iniciales resultan demasiado pesadas.
     > Diez años, entonces se compromete.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex03.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+* [El texto original en Alemán](/hexagramas/hex03.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

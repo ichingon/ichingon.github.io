@@ -96,5 +96,6 @@ La época de la paz ha tocado a su fin y comienza el proceso de declive. La mura
 [^1]: Di I fue un soberano de la dinastía Shang. Su gesto histórico de desposar a su hija con un vasallo de menor rango jerárquico se convirtió en el símbolo clásico de la unión armoniosa basada en la humildad y el renunciamiento a la soberbia del poder.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex11.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+* [El texto original en Alemán](/hexagramas/hex11.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

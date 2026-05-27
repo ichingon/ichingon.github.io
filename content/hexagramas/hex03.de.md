@@ -98,6 +98,6 @@ Es gibt Menschen, denen werden die Anfangsschwierigkeiten zu schwer. Sie bleiben
     > Das Mädchen ist treu, verspricht nicht.
     > Zehn Jahre, dann verspricht sie sich.
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex3.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

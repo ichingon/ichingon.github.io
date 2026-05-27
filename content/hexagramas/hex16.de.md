@@ -87,6 +87,6 @@ Die Zeit der Begeisterung hat ihren extremen Punkt erreicht und ist in einen bli
 
 [^1]: Konfuzius sagt hierzu: „Die Keime kennen, das ist wohl göttlich! Der Edle schmeichelt nicht nach oben, überhebt sich nicht nach unten; er kennt die Keime. Die Keime sind die erste unmerkliche Bewegung des Erfolgs bzw. des Unheils, die sich zeigt. Der Edle sieht sie und handelt sofort, ohne einen ganzen Tag zu warten... Er weiß genau, was sich ausdehnen und was sich zusammenziehen wird.“
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex16.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

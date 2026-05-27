@@ -90,6 +90,6 @@ Es fehlt hier der warme Anschluß des Herzens. Man steht eigentlich schon außer
 
 [^1]: Das innere Zeichen bedeutet Klarheit, das äußere Stärke.
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex13.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

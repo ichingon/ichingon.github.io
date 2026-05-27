@@ -91,5 +91,6 @@ La modestia ha alcanzado su punto más alto, pero la influencia externa para cor
 [^1]: Respecto a esta línea tan célebre, Confucio expresa en sus comentarios tradicionales: "Él trabaja y no se jacta; tiene méritos y no se los adjudica como una virtud personal. Esto constituye la máxima sabiduría. Significa que posee méritos tan inmensos que se sitúa por debajo de los demás. Su lenguaje es humilde, pero su conducta irradia un respeto real. Esto es lo que permite al noble consolidar su obra de manera duradera".
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex15.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+* [El texto original en Alemán](/hexagramas/hex15.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

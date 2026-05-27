@@ -93,6 +93,6 @@ Hier ist jemand gezeichnet, der den Streit bis zum bitteren Ende geführt und re
 
 ---
 
-### Verweise / Enlaces de Consulta
-* [Texto en Español](./hex6.md)
-* [Zurück zur Hexagrammtabelle](./tabla-hexagramas.md)
+### Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

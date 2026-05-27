@@ -1,19 +1,24 @@
 ---
-title: "Hexagram Matrix"
+title: "I Ching Hexagram Lookup Matrix"
 weight: 1
-description: "Quick reference chart indexed by upper and lower trigrams according to King Wen's sequence."
-date: 2026-05-18
+description: "Interactive I Ching hexagram lookup matrix. Quickly find and identify any hexagram by its upper and lower trigrams using King Wen's sequence."
+url: "/hexagrams/i-ching-lookup-chart/"
+date: 2026-05-27
 layout: "page"
 showDate: false
 showReadingTime: false
 showWordCount: false
 ---
 
+## How to Use the I Ching Hexagram Finder
+
 This matrix allows you to quickly identify the number of any of the 64 I Ching hexagrams by crossing its two component trigrams.
 
-* Look for the **Upper Trigram** in the horizontal columns at the top.
-* Look for the **Lower Trigram** in the vertical rows on the left.
+* Look for the **Upper Trigram** (Trigram Above) in the horizontal columns at the top.
+* Look for the **Lower Trigram** (Trigram Below) in the vertical rows on the left.
 * The point of intersection will yield the hexagram number according to King Wen's traditional arrangement (後天八卦 - Hòutiān Bāguà; Later Heaven, or the Manifested World of Senses).
+
+> 💡 **Looking for deeper structural analysis?** If you are researching the inner dynamics of the system, explore our **[Advanced I Ching Hexagram Correspondence Table](/hexagrams/advanced-i-ching-correspondence-table/)** to access internal nuclear hexagrams (*Hu Gua*) and the precise geometric mapping to the Earlier Heaven sequence (*Xian Tian*).
 
 ---
 

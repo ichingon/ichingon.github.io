@@ -88,5 +88,6 @@ La época del entusiasmo ha llegado a su punto extremo, degenerando en una embri
 [^1]: Kungtsé expresa en sus comentarios tradicionales sobre esta línea: «Conocer los gérmenes, ¡eso es casi divino! El noble no adula en sus relaciones hacia arriba, ni se desmarca con soberbia hacia abajo; él conoce los gérmenes. Los gérmenes son el primer movimiento sutil e imperceptible del éxito o la desventura que asoma. El noble los ve y actúa de inmediato, sin aguardar todo un día... Sabe perfectamente qué es lo que ha de expandirse y qué ha de replegarse».
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](./hex16.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+* [El texto original en Alemán](/hexagramas/hex16.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

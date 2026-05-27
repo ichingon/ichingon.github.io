@@ -87,8 +87,10 @@ No todo ser humano está obligado a mezclarse en los asuntos del mundo. Existen 
 
 ---
 
-### Enlaces de Consulta
-* [El texto original en Alemán](./hex18.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
-
 [^1]: En Europa, la postura de Goethe tras las guerras napoleónicas constituye un claro ejemplo de esta forma de actuar.
+
+### Enlaces de Consulta
+* [El texto original en Alemán](/hexagramas/hex18.de/)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
