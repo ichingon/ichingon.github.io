@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 13 同人 - 13. TUNG JEN / GEMEINSCHAFT MIT MENSCHEN"
+title: "Hexagramm 13 同人 - TUNG JEN / GEMEINSCHAFT MIT MENSCHEN"
 weight: 15
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 13 (TUNG JEN) des I Ging mit Unicode-Zeichen und Pinyin."

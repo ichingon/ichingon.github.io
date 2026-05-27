@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 9 小畜 - 9. SIAO TCHU / DIE ZÄHMUNGSKRAFT DES KLEINEN"
+title: "Hexagramm 9 小畜 - SIAO TCHU / DIE ZÄHMUNGSKRAFT DES KLEINEN"
 weight: 11
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 9 (SIAO TCHU) des I Ging mit Unicode-Zeichen und Pinyin."

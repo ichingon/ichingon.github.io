@@ -83,7 +83,8 @@ La fuerza positiva no puede ser destruida del todo. El fruto maduro que queda en
 
 ---
 
-[^1]: **Nota de Dailingna** > **Los peces y las damas del palacio** representan a las líneas débiles (femeninas, inferiores) que rodean a la única línea fuerte en la cima. Al no ser forzadas, sino atraídas por el favor y la gentileza, se alinean voluntariamente con el orden superior, permitiendo que lo propicio surja incluso en medio de la desintegración.
+[^1]: **Nota de Dailingna** 
+    > **Los peces y las damas del palacio** representan a las líneas débiles (femeninas, inferiores) que rodean a la única línea fuerte en la cima. Al no ser forzadas, sino atraídas por el favor y la gentileza, se alinean voluntariamente con el orden superior, permitiendo que lo propicio surja incluso en medio de la desintegración.
     >
     > En la interpretación clásica (Wilhelm), esta línea es propicia sin reservas porque se asume que el "fuerte" al que las damas conducen al cardumen es íntegro y actúa por el bien común. Sin embargo, en la práctica oracular moderna, conviene examinar si el fuerte actúa movido por intereses particulares de quienes le conceden su "favor" (las damas, el cardumen). Si el fuerte se deja arrastrar por un grupo de presión cuyas intenciones no son rectas, entonces el resultado puede ser el contrario: la desintegración (hexagrama 23) se acelera en lugar de detenerse. Todo es propicio solo si la guía del fuerte es íntegra y las damas actúan como auténticas servidoras, no como manipuladoras.
 

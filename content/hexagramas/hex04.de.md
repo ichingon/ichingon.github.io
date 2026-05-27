@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 4 蒙 - 4. MENG / DIE JUGENDTORHEIT"
+title: "Hexagramm 4 蒙 - MENG / DIE JUGENDTORHEIT"
 weight: 6
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 4 (MENG) des I Ging mit Unicode-Zeichen und Pinyin."

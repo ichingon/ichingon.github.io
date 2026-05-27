@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 19 臨 - 19. LIN / DAS ANNÄHERN"
+title: "Hexagramm 19 臨 - LIN / DAS ANNÄHERN"
 weight: 21
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 19 (LIN) des I Ging mit Unicode-Zeichen und Pinyin."

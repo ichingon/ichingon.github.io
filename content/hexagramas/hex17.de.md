@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 17 隨 - 17. SUI / DIE NACHFOLGE"
+title: "Hexagramm 17 隨 - SUI / DIE NACHFOLGE"
 weight: 19
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 17 (SUI) des I Ging mit Unicode-Zeichen und Pinyin."

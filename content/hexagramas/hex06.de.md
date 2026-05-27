@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 6 訟 - 6. SUNG / DER STREIT"
+title: "Hexagramm 6 訟 - SUNG / DER STREIT"
 weight: 8
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 6 (SUNG) des I Ging mit Unicode-Zeichen und Pinyin."

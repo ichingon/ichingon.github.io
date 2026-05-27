@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 15 謙 - 15. TCHIEN / DIE BESCHEIDENHEIT"
+title: "Hexagramm 15 謙 - TCHIEN / DIE BESCHEIDENHEIT"
 weight: 17
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 15 (TCHIEN) des I Ging mit Unicode-Zeichen und Pinyin."

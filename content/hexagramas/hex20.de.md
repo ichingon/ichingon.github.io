@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 20 觀 - 20. GUAN / DIE BETRACHTUNG (DER ANBLICK)"
+title: "Hexagramm 20 觀 - GUAN / DIE BETRACHTUNG (DER ANBLICK)"
 weight: 22
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 20 (GUAN) des I Ging mit Unicode-Zeichen und Pinyin."

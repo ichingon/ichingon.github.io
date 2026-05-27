@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 23 剝 - 23. BO / DIE ZERFALLENHEIT"
+title: "Hexagramm 23 剝 - BO / DIE ZERFALLENHEIT"
 weight: 25
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 23 (BO) des I Ging."

@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 11 泰 - 11. TAI / DER FRIEDE"
+title: "Hexagramm 11 泰 - TAI / DER FRIEDE"
 weight: 13
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 11 (TAI) des I Ging mit Unicode-Zeichen und Pinyin."

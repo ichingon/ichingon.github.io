@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 21 噬嗑 - 21. SCHI HO / DAS DURCHBEISSEN"
+title: "Hexagramm 21 噬嗑 - SCHI HO / DAS DURCHBEISSEN"
 weight: 23
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 21 (SCHI HO) des I Ging."

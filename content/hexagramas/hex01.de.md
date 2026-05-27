@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 1 乾 - 1. KIEN / DAS SCHÖPFERISCHE"
+title: "Hexagramm 1 乾 - KIEN / DAS SCHÖPFERISCHE"
 weight: 3
 draft: false
 description: "Richard Wilhelms vollständige Übersetzung und Analyse von Hexagramm 1 (KIEN) des I Ging mit Unicode-Zeichen und Pinyin."

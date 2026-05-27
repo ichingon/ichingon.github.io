@@ -1,5 +1,5 @@
 ---
-title: "Hexagramm 24 復 - 24. FU / DIE WENDE"
+title: "Hexagramm 24 復 - FU / DIE WENDE"
 weight: 26
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 24 (FU) des I Ging."
