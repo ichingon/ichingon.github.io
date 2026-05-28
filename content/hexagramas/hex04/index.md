@@ -88,6 +88,6 @@ Al corregir la ignorancia o castigar una falta, nunca se debe actuar con ira, ex
 ---
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](index.de/)
+* [El texto original en Alemán](index.de)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
