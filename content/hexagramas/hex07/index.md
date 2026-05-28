@@ -89,6 +89,6 @@ La guerra ha concluido victoriosamente. La victoria se ha ganado, el rey distrib
 ---
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](index.de.html)
+* [El texto original en Alemán](../hex7.de/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
