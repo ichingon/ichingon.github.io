@@ -86,6 +86,6 @@ La obra está consumada. Se mira hacia atrás, hacia el camino que se ha recorri
 ---
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](../hex10.de/)
+* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

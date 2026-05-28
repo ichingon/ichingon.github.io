@@ -111,6 +111,6 @@ Cuando todas las líneas son Nueves, todo el signo entra en movimiento y se tran
 [^3]: El Principio Creativo provoca el principio y la procreación de todos los seres. Por lo tanto, se le puede designar como Cielo, fuerza luminosa, Padre, Señor. Cabe preguntarse si el Principio Creativo se concibe de manera personal en el pensamiento chino, como Zeus entre los griegos. La respuesta es que este problema no es en absoluto el más importante para el pensamiento chino. Lo Divino-Creativo es, por así decirlo, suprapersonal. Solo se hace sentir y notar a través de su actividad sobrepoderosa. Ciertamente tiene, por así decirlo, un exterior, que es el cielo. Y el cielo tiene, al igual que lo viviente, una autoconciencia anímica, que es Dios (el gobernante supremo). Sin embargo, de manera completamente objetiva, se habla de todo ello como del Principio Creativo.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](../hex1.de/)
+* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
