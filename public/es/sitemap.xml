@@ -3,203 +3,269 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://elichingon.com/hexagramas/buscador-hexagramas-i-ching/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://elichingon.com/hexagrams/i-ching-lookup-chart/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://elichingon.com/hexagramas/buscador-hexagramas-i-ching/"
+    />
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/tabla-avanzada-correspondencias-i-ching/</loc>
     <lastmod>2026-05-19T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/"
+      href="https://elichingon.com/hexagrams/advanced-i-ching-correspondence-table/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/"
+      href="https://elichingon.com/hexagramas/tabla-avanzada-correspondencias-i-ching/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/</loc>
-    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <loc>https://elichingon.com/hexagramas/hex01/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex02/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex03/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex04/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex05/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex06/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex07/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex08/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex09/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex10/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex11/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex11.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex12/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex12.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex13/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex13.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex14/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex14.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex15/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex15.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex16/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex16.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex17/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex17.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex18/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex18.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex19/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex19.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex20/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex20.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex21/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex21.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex22/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex22.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex23/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex23.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex24/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/hexagramas/hex24.de/</loc>
+  </url>
+  <url>
+    <loc>https://elichingon.com/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/hexagramas/"
+      href="https://elichingon.com/en/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/hexagramas/"
+      href="https://elichingon.com/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/tabla-hexagramas2/</loc>
-    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <loc>https://elichingon.com/hexagramas/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/hexagramas/tabla-hexagramas2/"
+      href="https://elichingon.com/en/hexagramas/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/hexagramas/tabla-hexagramas2/"
+      href="https://elichingon.com/hexagramas/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/tabla-hexagramas/</loc>
-    <lastmod>2026-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/hexagramas/tabla-hexagramas/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/hexagramas/tabla-hexagramas/"
-    />
+    <loc>https://elichingon.com/hexagramas/hex25/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex1/</loc>
+    <loc>https://elichingon.com/hexagramas/hex26/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex10/</loc>
+    <loc>https://elichingon.com/hexagramas/hex27/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex11/</loc>
+    <loc>https://elichingon.com/hexagramas/hex28/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex12/</loc>
+    <loc>https://elichingon.com/hexagramas/hex29/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex13/</loc>
+    <loc>https://elichingon.com/hexagramas/hex30/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex14/</loc>
+    <loc>https://elichingon.com/hexagramas/hex31/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex15/</loc>
+    <loc>https://elichingon.com/hexagramas/hex32/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex16/</loc>
+    <loc>https://elichingon.com/hexagramas/hex33/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex17/</loc>
+    <loc>https://elichingon.com/hexagramas/hex34/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex18/</loc>
+    <loc>https://elichingon.com/hexagramas/hex35/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex19/</loc>
+    <loc>https://elichingon.com/hexagramas/hex36/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex2/</loc>
+    <loc>https://elichingon.com/hexagramas/hex37/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex20/</loc>
+    <loc>https://elichingon.com/hexagramas/hex38/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex21/</loc>
+    <loc>https://elichingon.com/hexagramas/hex39/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex22/</loc>
+    <loc>https://elichingon.com/hexagramas/hex40/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex23/</loc>
+    <loc>https://elichingon.com/hexagramas/hex25.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex24/</loc>
+    <loc>https://elichingon.com/hexagramas/hex26.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex3/</loc>
+    <loc>https://elichingon.com/hexagramas/hex27.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex4/</loc>
+    <loc>https://elichingon.com/hexagramas/hex28.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex5/</loc>
+    <loc>https://elichingon.com/hexagramas/hex29.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex6/</loc>
+    <loc>https://elichingon.com/hexagramas/hex30.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex7/</loc>
+    <loc>https://elichingon.com/hexagramas/hex31.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex8/</loc>
+    <loc>https://elichingon.com/hexagramas/hex32.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex9/</loc>
+    <loc>https://elichingon.com/hexagramas/hex33.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex1.de/</loc>
+    <loc>https://elichingon.com/hexagramas/hex34.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex10.de/</loc>
+    <loc>https://elichingon.com/hexagramas/hex35.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex11.de/</loc>
+    <loc>https://elichingon.com/hexagramas/hex36.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex12.de/</loc>
+    <loc>https://elichingon.com/hexagramas/hex37.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex13.de/</loc>
+    <loc>https://elichingon.com/hexagramas/hex38.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex14.de/</loc>
+    <loc>https://elichingon.com/hexagramas/hex39.de/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex15.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex16.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex17.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex18.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex19.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex2.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex20.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex21.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex22.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex23.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex24.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex3.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex4.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex5.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex6.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex7.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex8.de/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex9.de/</loc>
+    <loc>https://elichingon.com/hexagramas/hex40.de/</loc>
   </url>
 </urlset>

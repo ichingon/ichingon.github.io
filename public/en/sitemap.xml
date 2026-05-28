@@ -3,59 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/en/hexagramas/tabla-hexagramas2/</loc>
-    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <loc>https://elichingon.com/hexagrams/i-ching-lookup-chart/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/hexagramas/tabla-hexagramas2/"
+      href="https://elichingon.com/hexagramas/buscador-hexagramas-i-ching/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/hexagramas/tabla-hexagramas2/"
+      href="https://elichingon.com/hexagrams/i-ching-lookup-chart/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <loc>https://elichingon.com/hexagrams/advanced-i-ching-correspondence-table/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/"
+      href="https://elichingon.com/hexagramas/tabla-avanzada-correspondencias-i-ching/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/"
+      href="https://elichingon.com/hexagrams/advanced-i-ching-correspondence-table/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/en/hexagramas/</loc>
-    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <loc>https://elichingon.com/en/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/hexagramas/"
+      href="https://elichingon.com/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/hexagramas/"
+      href="https://elichingon.com/en/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/en/hexagramas/tabla-hexagramas/</loc>
-    <lastmod>2026-05-18T00:00:00+00:00</lastmod>
+    <loc>https://elichingon.com/en/hexagramas/</loc>
+    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/hexagramas/tabla-hexagramas/"
+      href="https://elichingon.com/hexagramas/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/hexagramas/tabla-hexagramas/"
+      href="https://elichingon.com/en/hexagramas/"
     />
   </url>
 </urlset>
