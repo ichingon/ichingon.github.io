@@ -18,14 +18,14 @@ showAuthor: false
 
 ---
 
-El signo significa lo pequeño, lo débil (lo que está representado por el único trazo blando en el cuarto puesto), que doma, frena o retiene a los cinco trazos fuertes.[^1] Considerado desde los trigramas primordiales, es el viento que sopla en lo alto del cielo. Retiene a las nubes, la fuerza creativa del cielo, permitiendo que asciendan, pero aún no es lo suficientemente fuerte como para hacerlas precipitar en forma de lluvia. El signo presenta una constelación en la que las fuerzas fuertes, por el momento, se ven frenadas por una fuerza débil. Esto solo es posible mediante la amabilidad, la moderación y la adaptación sutil.
+El signo significa lo pequeño, la fuerza de lo sombrío, lo débil (lo que está representado por el único trazo blando en el cuarto puesto), que doma, frena o retiene a los cinco trazos fuertes.[^1] Considerado desde los trigramas primordiales, es el viento que sopla en lo alto del cielo. Retiene a las nubes, la fuerza creativa del cielo, permitiendo que asciendan, pero aún no es lo suficientemente fuerte como para hacerlas precipitar en forma de lluvia. El signo presenta una constelación en la que las fuerzas fuertes, por el momento, se ven frenadas por una fuerza débil. Esto solo es posible mediante la amabilidad, la moderación y la adaptación sutil.
 
 ## El Dictamen
 
 > La fuerza domesticadora de lo pequeño tiene éxito.
 > Nubes densas, ninguna lluvia desde nuestra región occidental.
 
-Esta situación describe una época en la que las cosas marchan bien y se vislumbra el éxito, pero todavía no se puede lograr nada grande o definitivo. Solo se pueden realizar pequeñas obras y mejoras paulatinas. Para influir en el conjunto, no se dispone de un poder externo imponente, sino que se debe actuar únicamente mediante palabras suaves, amabilidad y persuasión sutil. El tiempo aún no se ha cumplido del todo. Las nubes ascienden y la atmósfera está cargada, como ocurre en la región occidental de China, pero el agua todavía no se condensa lo suficiente como para caer en forma de lluvia. Es un tiempo de preparación en el que corresponde mantenerse a la expectativa y acumular fuerzas a través de la cultura y las formas externas de la vida cotidiana.
+Esta alegoría se refiere a una época en China, en tiempos del rey Wen. Él provenía del oeste, pero se hallaba entonces en el este, en la corte del gran rey tirano Zhou Xin. El momento para una gran acción aún no había llegado; solo podía frenar al tirano mediante amables amonestaciones. De ahí la imagen: densas nubes se elevan, prometiendo humedad y bendición a la tierra, pero aún no cae la lluvia. La situación no es desfavorable; se vislumbra un éxito final. Pero aún hay obstáculos en el camino. Solo se pueden hacer trabajos preparatorios, y solo se puede actuar mediante pequeños medios de suave persuasión. Aún no es tiempo de tomar medidas en grande. Pero al menos se logra, en un ámbito limitado, ejercer una acción de freno y domesticación.
 
 ## La Imagen
 
@@ -49,7 +49,7 @@ Está en la naturaleza de la fuerza fuerte querer avanzar hacia adelante. Sin em
 > Él se deja arrastrar al retorno.
 > ¡Ventura!
 
-Aquí se muestra una situación similar a la de la primera línea, con la diferencia de que el impulso hacia adelante es compartido con otros que se encuentran en la misma condición. Al ver que el camino libre está bloqueado, no se insiste en avanzar de forma aislada, sino que uno se deja arrastrar por el movimiento común de retirada prudente junto a sus iguales. Esta concordancia y solidaridad en la moderación resulta altamente afortunada.
+Aquí se muestra una situación similar a la de la primera línea, con la diferencia de que el impulso hacia adelante es compartido con otros que se encuentran en la misma condición. Al ver que el camino libre está bloqueado, una persona razonable y decidida no se expone a un rechazo personal, sino que se retira junto a sus iguales cuando el afán de avanzar no corresponde al momento. Eso trae ventura, porque de este modo no se sacrifica a sí mismo ni pierde su dignidad.
 
 ### Nueve en el tercer puesto significa:
 
@@ -87,6 +87,6 @@ Se ha alcanzado la meta: la paciencia y el constante acumular de las fuerzas sut
 [^1]: Wilhelm añade aquí una precisión estructural: del mismo modo que el seis en el quinto puesto del signo *比* (El Sostén / La Solidaridad) representa al soberano que mantiene unidos a los blandos en virtud de su firmeza, aquí el único trazo blando domina y refrena a los cinco trazos fuertes mediante las artes de la amabilidad.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](/hexagramas/hex09.de/)
+* [El texto original en Alemán]({{< relref "index.de.md" >}})
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

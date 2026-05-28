@@ -18,7 +18,7 @@ showAuthor: false
 
 ---
 
-El signo señala una época en la naturaleza en la que el cielo está, por así decirlo, sobre la tierra. Las dos fuerzas primordiales se encuentran en una relación de intercambio armónico. Gracias a ello, todo florece y fructifica.
+El signo señala una época en la naturaleza en la que el cielo está, por así decirlo, sobre la tierra. Las dos fuerzas primordiales se encuentran en una relación de intercambio armónico. Gracias a ello, todo florece y fructifica. El signo está asociado al primer mes (febrero-marzo), en el cual las fuerzas de la naturaleza preparan la nueva primavera.
 
 El trigrama superior es Kun, la tierra, lo receptivo, cuya tendencia por naturaleza es descender. El trigrama inferior es Ch'ien, el cielo, lo creativo, cuyo movimiento va hacia arriba. Puesto que lo de arriba desciende y lo de abajo asciende, las fuerzas se encuentran y se unen en perfecta armonía, dando origen a la paz. En el signo de la paz prevalece la luz, mientras que la fuerza sombría se retira. Lo pequeño se va, lo grande viene.
 
@@ -56,7 +56,7 @@ Cuando se arranca una planta de estepa o de hierba, sus raíces están tan entre
 > no olvidar lo lejano, no tomar en cuenta a los compañeros:
 > así se logra caminar por el medio.
 
-Se describen aquí las cualidades de un conductor o consejero en tiempos de paz. Debe poseer una gran tolerancia para soportar a los rudos e incultos. Debe tener el valor y la resolución extrema para afrontar grandes peligros, simbolizado por "cruzar el Hoangho a pie". No debe perder de vista las metas lejanas ni los asuntos remotos por comodidad, y debe ser enteramente imparcial, no dejándose guiar por el favoritismo o las camarillas ("no tomar en cuenta a los compañeros"). Solo mediante esta actitud firme y desinteresada se logra mantener el equilibrio y caminar de manera justa por el medio.
+Se describen aquí las cualidades de un conductor o consejero en tiempos de paz. Debe poseer una gran tolerancia para soportar a los rudos e incultos. Debe tener el valor y la resolución extrema para afrontar grandes peligros, simbolizado por "cruzar el Hoangho a pie". No debe perder de vista las metas lejanas ni los asuntos remotos por comodidad, y debe ser enteramente imparcial, no dejándose guiar por el favoritismo o las camarillas ("no tomar en cuenta a los compañeros"). Solo mediante esta actitud firme y desinteresada se logra mantener el equilibrio y caminar de manera justa por el medio. Estas cuatro cosas son las que permiten superar el peligro oculto del paulatino relajamiento que acecha en todo tiempo de paz, y así se encuentra el justo medio de la acción.
 
 ### Nueve en el tercer puesto significa:
 
@@ -93,7 +93,7 @@ La época de la paz ha tocado a su fin y comienza el proceso de declive. La mura
 
 ---
 
-[^1]: Di I fue un soberano de la dinastía Shang. Su gesto histórico de desposar a su hija con un vasallo de menor rango jerárquico se convirtió en el símbolo clásico de la unión armoniosa basada en la humildad y el renunciamiento a la soberbia del poder.
+[^1]: El soberano I es Tang, el Consumador (Cheng Tang), fundador de la dinastía Shang. Su gesto histórico de desposar a su hija con un vasallo de menor rango se convirtió en el símbolo clásico de la unión armoniosa basada en la humildad y el renunciamiento a la soberbia del poder.
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](/hexagramas/hex11.de/)

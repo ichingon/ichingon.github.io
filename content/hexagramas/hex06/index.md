@@ -96,6 +96,6 @@ Aquí se dibuja a alguien que ha llevado el pleito hasta el amargo final y ha co
 [^1]:  En la antigua China, un cinturón de cuero era una distinción oficial.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](/hexagramas/hex06.de/)
+* [El texto original en Alemán]({{< relref "index.de.md" >}})
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

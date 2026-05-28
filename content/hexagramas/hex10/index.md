@@ -50,7 +50,7 @@ Uno comienza una carrera o una empresa. Se es todavía independiente y libre de 
 ### Nueve en el segundo puesto significa:
 
 > Transitar por un camino llano.
-> La perseverancia de un hombre oscuro trae la salvación.
+> La perseverancia de un hombre oscuro trae ventura.
 
 El camino es llano y parejo, la vía está libre. Uno se encuentra en una situación solitaria y discreta. No se busca nada en el mundo ni se permite ser descarriado por la ambición. Si uno permanece perseverante y satisfecho como un hombre "oscuro" (silencioso, solitario), obtiene la salvación porque escapa a los enredos del mundo.
 
@@ -65,7 +65,7 @@ Un tuerto cree ver, pero ve de manera incompleta; un cojo cree caminar, pero sol
 ### Nueve en el cuarto puesto significa:
 
 > Pisar la cola del tigre.
-> La cautela extrema conduce finalmente a la salvación.
+> La cautela extrema conduce finalmente a la ventura.
 
 Uno se encuentra en una situación peligrosa, muy cerca de un hombre poderoso e impredecible. Se pisa la cola del tigre. Pero uno es consciente del peligro. Se tiembla y se está lleno de extrema cautela. Esta atención cuidadosa hace que no se irrite al tigre, de modo que finalmente se alcanza la meta y se encuentra la salvación.
 
@@ -79,13 +79,13 @@ Aquí uno se encuentra en un puesto dirigente y responsable. Se debe actuar con 
 ### Nueve arriba significa:
 
 > Mira tu porte y examina las señales.
-> Si todo es perfecto, viene una elevada salvación.
+> Si todo es perfecto, viene una elevada ventura.
 
 La obra está consumada. Se mira hacia atrás, hacia el camino que se ha recorrido. Se examina el propio comportamiento y los efectos que se han producido. Si el porte fue puro, decente y consecuente, entonces todo es perfecto y sigue una elevada salvación. Es el buen ocaso de la vida tras un deber fielmente cumplido.
 
 ---
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](/hexagramas/hex10.de/)
+* [El texto original en Alemán]({{< relref "index.de.md" >}})
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

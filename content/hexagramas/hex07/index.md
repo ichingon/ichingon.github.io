@@ -60,7 +60,7 @@ El conductor debe estar en medio de su ejército. Debe tener contacto con él y 
 > El ejército lleva acaso cadáveres en el carro.
 > ¡Desventura!
 
-Una explicación señala una derrota debido a que otro distinto del conductor designado se mezcla en la dirección. La otra explicación coincide con esta en cuanto al sentido, solo que la expresión «llevar cadáveres en el carro» se interpreta a partir de las antiguas costumbres rituales de sustitución simbólica.[^1]
+Una explicación señala una derrota debido a que otro distinto del conductor designado se mezcla en la dirección. La otra explicación coincide con esta en cuanto al sentido, solo que la expresión «llevar cadáveres en el carro» se interpreta a partir de las antiguas costumbres rituales de sustitución simbólica. En los funerales y sacrificios a los difuntos era costumbre en China que el fallecido al que se ofrecía el sacrificio fuera representado por un niño de la familia, quien se sentaba en el lugar del cadáver y era honrado en sustitución del difunto. De allí extrae esta explicación el sentido de que en el carro va sentado un «niño-cadáver», es decir, que la autoridad no emana del puesto llamado a ello, sino que es usurpada por otros. Quizás toda la dificultad pueda resolverse asumiendo un error de copia (`fan` = todos, en lugar de `shih` = cadáver). En tal caso, el sentido sería directamente: si en el ejército la multitud llega a nombrarse soberana (viaja en el carro), esto resulta funesto.
 
 ### Seis en el cuarto puesto significa:
 
@@ -88,9 +88,7 @@ La guerra ha concluido victoriosamente. La victoria se ha ganado, el rey distrib
 
 ---
 
-[^1]: En los funerales y sacrificios a los difuntos era costumbre en China que el fallecido al que se ofrecía el sacrificio fuera representado por un niño de la familia, quien se sentaba en el lugar del cadáver y era honrado en sustitución del difunto. De allí extrae esta explicación el sentido de que en el carro va sentado un «niño-cadáver», es decir, que la autoridad no emana del puesto llamado a ello, sino que es usurpada por otros. Quizás toda la dificultad pueda resolverse asumiendo un error de copia (`fan` = todos, en lugar de `shih` = cadáver). En tal caso, el sentido sería directamente: si en el ejército la multitud llega a nombrarse soberana (viaja en el carro), esto resulta funesto.
-
 ### Enlaces de Consulta
-* [El texto original en Alemán](/hexagramas/hex07.de/)
+* [El texto original en Alemán]({{< relref "index.de.md" >}})
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

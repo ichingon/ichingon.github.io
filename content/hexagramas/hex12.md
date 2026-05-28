@@ -90,4 +90,5 @@ El estancamiento no dura eternamente; por ley natural, al llegar a su punto extr
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](./hex12.de.md)
-* [Volver a la Tabla de Hexagramas](./tabla-hexagramas.md)
+* [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
+* [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

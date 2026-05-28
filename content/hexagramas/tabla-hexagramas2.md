@@ -15,7 +15,7 @@ showWordCount: false
 
 ## Sobre esta Tabla Estructural
 
-Esta matriz cruza el ordenamiento clásico de King Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su **Hexagrama Nuclear** interno y su correspondencia arquetípica en el **Cielo Anterior** (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).
+Esta matriz cruza el ordenamiento clásico del rey Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su **Hexagrama Nuclear** interno y su correspondencia arquetípica en el **Cielo Anterior** (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).
 
 > 📌 **Nota de navegación:** Los enlaces en los números de cada hexagrama te dirigirán a mi traducción al castellano del texto tradicional de **Richard Wilhelm**. Dentro de cada artículo individual, encontrarás también el enlace al texto original en alemán para su cotejo académico.
 
@@ -57,22 +57,22 @@ Por ello, el **Hexagrama 1** (Qián puro, ubicado en el Noroeste en el *Hou Tian
 | **[22](/hexagramas/hex22/)** | La Elegancia / Bì / 贲 | Belleza formal, adorno exterior que oculta la verdad. | 40 | 34 |
 | **[23](/hexagramas/hex23/)** | La Desintegración / Bō / 剥 | Lo viejo cae, colapso inminente; no actúes, resiste. | 2 | 32 |
 | **[24](/hexagramas/hex24/)** | El Retorno / Fù / 复 | El regreso de la luz, el reinicio de un ciclo natural. | 2 | 37 |
-| **25** | La Inocencia / Wú Wàng / 无妄 | Acción natural y espontánea, alineada con el orden cósmico. | 53 | 22 |
-| **26** | Gran Fuerza Domesticadora / Dà Chù / 大畜 | Acumulación de gran potencial y sabiduría histórica. | 54 | 62 |
-| **27** | Las Comisuras de la Boca / Yí / 颐 | Nutrición del cuerpo, la mente y el espíritu. | 2 | 55 |
-| **28** | Gran Exceso / Dà Guò / 大过 | La viga se dobla; presión extrema que exige acción radical. | 1 | 60 |
-| **29** | Lo Abismal / Kǎn / 坎 | El agua que corre por el peligro; mantener el corazón firme. | 27 | 2 |
-| **30** | Lo Adherente / Lí / 离 | El fuego que da luz y claridad, dependencia de una fuente. | 28 | 1 |
-| **31** | La Influencia / Xián / 咸 | Atracción mutua, cortejo y receptividad afectiva. | 44 | 3 |
-| **32** | La Duración / Héng / 恒 | Constancia a través del cambio continuo, perseverancia. | 43 | 38 |
-| **33** | La Retirada / Dùn / 遁 | Retirarse estratégicamente para conservar la fuerza. | 44 | 27 |
-| **34** | El Gran Poder / Dà Zhuàng / 大壮 | Fuerza masiva; peligro de actuar con testarudez. | 43 | 56 |
-| **35** | El Progreso / Jìn / 晋 | Ascenso rápido, recibir recompensas con generosidad. | 39 | 44 |
-| **36** | El Oscurecimiento de la Luz / Míng Yí / 明夷 | Censura, ocultar el brillo propio en tiempos difíciles. | 40 | 9 |
-| **37** | El Clan / Jiā Rén / 家人 | El orden interno del hogar, roles claros y afecto. | 64 | 43 |
-| **38** | La Oposición / Kuí / 睽 | Malentendidos, polaridad que puede usarse creativamente. | 63 | 6 |
-| **39** | El Impedimento / Jiǎn / 蹇 | Obstáculo infranqueable; detenerse a buscar aliados. | 64 | 24 |
-| **40** | La Liberación / Xiè / 解 | Alivio de la tensión, perdón de errores y avance libre. | 63 | 35 |
+| **[25](/hexagramas/hex25/)** | La Inocencia / Wú Wàng / 无妄 | Acción natural y espontánea, alineada con el orden cósmico. | 53 | 22 |
+| **[26](/hexagramas/hex26/)** | Gran Fuerza Domesticadora / Dà Chù / 大畜 | Acumulación de gran potencial y sabiduría histórica. | 54 | 62 |
+| **[27](/hexagramas/hex27/)** | Las Comisuras de la Boca / Yí / 颐 | Nutrición del cuerpo, la mente y el espíritu. | 2 | 55 |
+| **[28](/hexagramas/hex28/)** | Gran Exceso / Dà Guò / 大过 | La viga se dobla; presión extrema que exige acción radical. | 1 | 60 |
+| **[29](/hexagramas/hex29/)** | Lo Abismal / Kǎn / 坎 | El agua que corre por el peligro; mantener el corazón firme. | 27 | 2 |
+| **[30](/hexagramas/hex30/)** | Lo Adherente / Lí / 离 | El fuego que da luz y claridad, dependencia de una fuente. | 28 | 1 |
+| **[31](/hexagramas/hex31/)** | La Influencia / Xián / 咸 | Atracción mutua, cortejo y receptividad afectiva. | 44 | 3 |
+| **[32](/hexagramas/hex32/)** | La Duración / Héng / 恒 | Constancia a través del cambio continuo, perseverancia. | 43 | 38 |
+| **[33](/hexagramas/hex33/)** | La Retirada / Dùn / 遁 | Retirarse estratégicamente para conservar la fuerza. | 44 | 27 |
+| **[34](/hexagramas/hex34/)** | El Gran Poder / Dà Zhuàng / 大壮 | Fuerza masiva; peligro de actuar con testarudez. | 43 | 56 |
+| **[35](/hexagramas/hex35/)** | El Progreso / Jìn / 晋 | Ascenso rápido, recibir recompensas con generosidad. | 39 | 44 |
+| **[36](/hexagramas/hex36/)** | El Oscurecimiento de la Luz / Míng Yí / 明夷 | Censura, ocultar el brillo propio en tiempos difíciles. | 40 | 9 |
+| **[37](/hexagramas/hex37/)** | El Clan / Jiā Rén / 家人 | El orden interno del hogar, roles claros y afecto. | 64 | 43 |
+| **[38](/hexagramas/hex38/)** | La Oposición / Kuí / 睽 | Malentendidos, polaridad que puede usarse creativamente. | 63 | 6 |
+| **[39](/hexagramas/hex39/)** | El Impedimento / Jiǎn / 蹇 | Obstáculo infranqueable; detenerse a buscar aliados. | 64 | 24 |
+| **[40](/hexagramas/hex40/)** | La Liberación / Xiè / 解 | Alivio de la tensión, perdón de errores y avance libre. | 63 | 35 |
 | **41** | La Disminución / Sǔn / 损 | Reducir lo externo para fortalecer la base interna. | 24 | 40 |
 | **42** | El Aumento / Yì / 益 | Expansión, beneficiar a los de abajo, emprender tareas. | 23 | 49 |
 | **43** | El Desbordamiento / Guài / 夬 | Resolución firme, eliminar la negatividad con claridad. | 1 | 39 |

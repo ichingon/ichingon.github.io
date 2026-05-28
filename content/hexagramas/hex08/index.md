@@ -59,7 +59,7 @@ Si uno responde de manera correcta y perseverante a las peticiones que desde arr
 
 ### Seis en el tercer puesto significa:
 
-> Te mantienes unido con hombres que no son los correctos.
+> Te mantienes unido con hombres que no son los que convienen.
 
 Uno se encuentra a menudo entre puros hombres que no pertenecen a la propia esfera. Allí uno no debe dejarse arrastrar a una falsa familiaridad por el poder de la costumbre. Que eso sería de mala índole, no requiere de palabras. La sociabilidad sin intimidad es lo único correcto frente a tales personas; solo así se mantiene uno libre para una relación posterior con sus semejantes.
 
@@ -74,7 +74,7 @@ Las relaciones con un hombre que es el centro de la solidaridad están aquí ya 
 
 > Manifestación de la solidaridad.
 > El rey, en la caza, solo permite batir desde tres lados
-> y renuncia al salvajismo que se desvía por delante.
+> y renuncia a los animales que se desvían por delante.
 > Los ciudadanos no necesitan de advertencia. ¡Ventura!
 
 En las batidas de caza reales en la antigua China, era costumbre que las piezas fueran conducidas desde tres lados. Por el cuarto lado, el animal acosado podía desviarse. En tanto los animales no se desviaran aquí, debían entrar por una puerta detrás de la cual el rey aguardaba listo para cazar. Solo se abatía a los animales que irrumpían allí. A los que se desviaban por delante se los dejaba correr. Esta costumbre correspondía a la disposición real, que no quería hacer de la caza una carnicería, sino que solo cobraba la pieza que, por así decirlo, se había entregado voluntariamente.
@@ -92,6 +92,6 @@ La cabeza es el comienzo. Sin un comienzo correcto no hay un final correcto. Si 
 [^1]: Wilhelm introduce aquí una equivalencia ética citando un dístico clásico de Schiller: "Busca siempre pertenecer al Todo; y si no puedes ser un Todo por ti mismo, únete a un Todo como un miembro servicial".
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](/hexagramas/hex08.de/)
+* [El texto original en Alemán]({{< relref "index.de.md" >}})
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
