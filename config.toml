@@ -30,6 +30,7 @@ enableRobotsTXT = true
   images = ["img/featured.jpg"]
   customCSS = ["css/custom.css"]
   math = true
+  showAuthor = true
 
 # 2. Personalización Visual del Menú
 [params.header]
