@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 4 蒙 - Meng / El Necio Juvenil"
 weight: 6
 draft: false

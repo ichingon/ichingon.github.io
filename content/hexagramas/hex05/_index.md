@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 5 需 - Hsü / La Espera"
 weight: 7
 draft: false

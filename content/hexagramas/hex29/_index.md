@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 29 坎 - Kan / Lo Abismal (El Agua)"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 29 (Kan) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

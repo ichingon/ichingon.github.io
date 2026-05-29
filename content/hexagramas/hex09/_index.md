@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 9 小畜 - Hsiao Ch'u / La Fuerza Domesticadora de lo Pequeño"
 weight: 11
 draft: false

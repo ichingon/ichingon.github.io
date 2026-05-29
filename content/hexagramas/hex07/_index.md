@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 7 師 - Shih / El Ejército"
 weight: 9
 draft: false

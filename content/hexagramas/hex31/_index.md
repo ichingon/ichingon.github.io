@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 31 咸 - Xian / La Influencia (La Atracción)"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 31 (Xian) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

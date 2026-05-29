@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 39 蹇 - Jian / El Hemmo"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 39 (Jian) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

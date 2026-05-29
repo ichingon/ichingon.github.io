@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 21 噬嗑 - Shì Hé / La Mordedura Tajante"
 weight: 23
 draft: false

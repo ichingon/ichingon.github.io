@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 3 屯 - Chun / La Dificultad Inicial"
 weight: 5
 draft: false

@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 14 大有 - Ta Yu / La Gran Posesión"
 weight: 16
 draft: false

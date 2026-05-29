@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 2 坤 - Kūn / Lo Receptivo"
 weight: 4
 draft: false

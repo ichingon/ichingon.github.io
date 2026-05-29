@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 24 復 - Fù / El Retorno"
 weight: 26
 draft: false

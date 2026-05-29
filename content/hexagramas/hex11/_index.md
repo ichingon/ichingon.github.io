@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 11 泰 - T'ai / La Paz"
 weight: 13
 draft: false

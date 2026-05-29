@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 8 比 - Pi / La Solidaridad"
 weight: 10
 draft: false

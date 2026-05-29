@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 35 晉 - Jin / El Progreso"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 35 (Jin) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

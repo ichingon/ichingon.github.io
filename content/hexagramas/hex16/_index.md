@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 16 豫 - Yü / El Entusiasmo"
 weight: 18
 draft: false

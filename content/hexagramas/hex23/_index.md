@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 23 剝 - Bō / La Desintegración"
 weight: 25
 draft: false

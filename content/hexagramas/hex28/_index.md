@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 28 大過 - Da Guo / El Exceso de lo Grande"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 28 (Da Guo) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

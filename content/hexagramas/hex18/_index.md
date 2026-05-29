@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 18 蠱 - Gǔ / La Labor sobre lo Corrompido"
 weight: 20
 draft: false

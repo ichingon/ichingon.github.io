@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 27 頤 - Yi / Las Comisuras de la Boca (La Nutrición)"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 27 (Yi) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

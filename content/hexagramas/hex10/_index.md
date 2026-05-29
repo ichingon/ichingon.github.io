@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 10 履 - Li / El Porte (La Pisada)"
 weight: 12
 draft: false

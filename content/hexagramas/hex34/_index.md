@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 34 大壯 - Da Zhuang / El Poder de lo Grande"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 34 (Da Zhuang) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

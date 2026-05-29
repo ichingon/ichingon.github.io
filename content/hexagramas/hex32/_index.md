@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 32 恆 - Heng / La Duración"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 32 (Heng) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

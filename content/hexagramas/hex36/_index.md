@@ -1,4 +1,8 @@
 ---
+cascade:
+  _target:
+    kind: page
+  excludeFromResults: true
 title: "Hexagrama 36 明夷 - Ming Yi / El Oscurecimiento de la Luz"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 36 (Ming Yi) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
