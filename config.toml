@@ -25,6 +25,7 @@ enableRobotsTXT = true
   images = ["img/featured.jpg"]
 
 [params]
+  title = "El I Chingón"
   defaultAppearance = "dark" 
   allowAppearanceChange = true 
   logo = "logo.png"
@@ -32,7 +33,7 @@ enableRobotsTXT = true
   images = ["img/featured.jpg"]
   customCSS = ["css/custom.css"]
   math = true
-  showAuthor = true
+  showAuthor = false
 
 [params.author]
     name = "Dailingna Romero"
@@ -53,8 +54,10 @@ enableRobotsTXT = true
     weight = 1
     title = "El I Chingón"
     [languages.es.params]
+      title = "El I Chingón"
       description = "El I Ching visto como un protocolo de información descentralizado. Una intersección de la filosofía, el sincronismo, las matemáticas y las ciencias de la computación."
-    
+    [languages.es.author]
+      name = " "
     # Perfil de autoría en Español
     [languages.es.params.author]
         bio = "Avatar digital. Investigadora de sistemas complejos, matematicas, filosofías orientales y el I Ching."
@@ -101,8 +104,10 @@ enableRobotsTXT = true
     weight = 2
     title = "I Chingon"
     [languages.en.params]
+      title = "I Chingon"
       description = "The I Ching as a decentralized information protocol. An intersection of philosophy, synchronicity, mathematics, and computer science."
-    
+    [languages.en.author]
+      name = " "
     # Perfil de autoría en Inglés
     [languages.en.params.author]
         bio = "Digital avatar and researcher exploring the intersection of complex systems, mathematics, ancient Eastern philosophies and the I Ching."

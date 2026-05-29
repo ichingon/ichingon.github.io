@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="h-full flex flex-col items-center justify-center text-center px-4 py-20">
+  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
+    <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral">
+      {{ .Title }}
+    </h1>
+  </header>
+  {{ if .Description }}
+  <p class="mt-4 text-xl text-neutral-500 dark:text-neutral-400 max-w-prose m-auto">
+    {{ .Description }}
+  </p>
+  {{ end }}
+  <section class="prose dark:prose-invert w-full mt-6">
+    {{ .Content }}
+  </section>
+</article>
+{{ end }}

@@ -1,8 +1,9 @@
 ---
-title: "El I Chingón | The I Ching as a Decentralized Information Protocol"
+title: "El I Chingón"
 description: "The I Ching as history's first information protocol. Tools, hexagrams, tutorials, articles, and modern decision-making stripped of mysticism."
-layout: "hero"
+layout: "main"
 translationKey: "homepage"
+showAuthor: false
 ---
 
 This space was created to analyze the I Ching as the first decentralized information protocol in history.
