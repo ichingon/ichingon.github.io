@@ -229,4 +229,38 @@
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}"
       crossorigin="anonymous"></script>
   {{ end }}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
+
+  <script>
+    window.addEventListener("load", function() {
+      // 1. Forzado y saneamiento drástico del DOM
+      document.querySelectorAll('p, div, span').forEach(function(el) {
+        if (el.textContent.includes('$')) {
+          el.innerHTML = el.innerHTML
+            .replace(/&amp;/g, '&')
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/“/g, '"')
+            .replace(/”/g, '"');
+        }
+      });
+
+      // 2. Ejecución controlada con retraso para ganarle al tema
+      setTimeout(function() {
+        if (typeof renderMathInElement === "function") {
+          renderMathInElement(document.body, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false}
+            ],
+            ignoredTags: ['script', 'style', 'noscript', 'pre', 'code'],
+            throwOnError : false
+          });
+        }
+      }, 250); // 250ms es el tiempo seguro para que el DOM esté asentado
+    });
+  </script>
 </head>

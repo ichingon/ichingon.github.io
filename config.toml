@@ -6,6 +6,15 @@ defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# Declaración explícita de taxonomías nativas para tus artículos
+[taxonomies]
+  tag = "tags"
+
 [author]
   name = "Dailingna Romero"
 
@@ -20,11 +29,11 @@ enableRobotsTXT = true
   homepageImage = "img/featured.jpg"
   images = ["img/featured.jpg"]
   customCSS = ["css/custom.css"]
+  math = true
 
 # 2. Personalización Visual del Menú
 [params.header]
   layout = "basic"
-  # (Borramos la línea del logo de aquí adentro)
 
 [params.footer]
   showCopyright = true
@@ -62,10 +71,10 @@ enableRobotsTXT = true
       parent = "hexagramas-parent"
       weight = 2
 
-    # 4. Sección de Ensayos (Reemplaza a Filosofía)
+    # 4. Sección de Artículos (Actualizado)
     [[languages.es.menu.main]]
-      name = "Ensayos"
-      pageRef = "ensayos"           # 👈 Apunta a la sección content/ensayos/
+      name = "Artículos"
+      pageRef = "articulos"           # 👈 Ahora apunta a content/articulos/
       weight = 2
 
     # 5. Enlace Externo
@@ -87,7 +96,7 @@ enableRobotsTXT = true
     # 1. Parent
     [[languages.en.menu.main]]
       name = "Hexagrams"
-      identifier = "hexagrams-parent"
+      identifier = "hexagramas-parent"
       url = "#"
       weight = 1
 
@@ -95,20 +104,20 @@ enableRobotsTXT = true
     [[languages.en.menu.main]]
       name = "Basic Table (8x8)"
       pageRef = "hexagramas/tabla-hexagramas"
-      parent = "hexagrams-parent"
+      parent = "hexagramas-parent"
       weight = 1
 
     # 3. Second Child
     [[languages.en.menu.main]]
       name = "Advanced Table (64 rows)"
       pageRef = "hexagramas/tabla-hexagramas2"
-      parent = "hexagrams-parent"
+      parent = "hexagramas-parent"
       weight = 2
 
-    # 4. Essays Section (Replaces Philosophy)
+    # 4. Articles Section (Actualizado)
     [[languages.en.menu.main]]
-      name = "Essays"
-      pageRef = "ensayos"           # 👈 Apunta a la versión traducida de la sección
+      name = "Articles"
+      pageRef = "articulos"           # 👈 Apunta a la versión traducida de la misma sección
       weight = 2
 
     # 5. External Link
@@ -121,3 +130,9 @@ enableRobotsTXT = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]
