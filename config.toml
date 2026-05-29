@@ -17,6 +17,8 @@ enableRobotsTXT = true
 
 [author]
   name = "Dailingna Romero"
+  bio = "Avatar digital. Investigadora de sistemas complejos, matematicas, filosofías orientales y el I Ching."
+  photo = "img/author"
 
 # Arreglo global requerido por el núcleo de Hugo para Open Graph
 [images]
@@ -31,6 +33,10 @@ enableRobotsTXT = true
   customCSS = ["css/custom.css"]
   math = true
   showAuthor = true
+
+[params.author]
+    name = "Dailingna Romero"
+    photo = "img/author"
 
 # 2. Personalización Visual del Menú
 [params.header]
@@ -49,36 +55,41 @@ enableRobotsTXT = true
     [languages.es.params]
       description = "El I Ching visto como un protocolo de información descentralizado. Una intersección de la filosofía, el sincronismo, las matemáticas y las ciencias de la computación."
     
+    # Perfil de autoría en Español
+    [languages.es.params.author]
+        bio = "Avatar digital. Investigadora de sistemas complejos, matematicas, filosofías orientales y el I Ching."
+        photo = "img/author"
+
     # === MENÚ EN ESPAÑOL ===
     
-    # 1. El Padre (Hexagramas)
+    # 1. Parent
     [[languages.es.menu.main]]
       name = "Hexagramas"
       identifier = "hexagramas-parent"
       url = "#"
       weight = 1
 
-    # 2. Primer Hijo (Tabla Básica)
+    # 2. First Child
     [[languages.es.menu.main]]
       name = "Tabla Básica (8x8)"
       pageRef = "hexagramas/tabla-hexagramas"
       parent = "hexagramas-parent"
       weight = 1
 
-    # 3. Segundo Hijo (Tabla Avanzada)
+    # 3. Second Child
     [[languages.es.menu.main]]
       name = "Tabla Avanzada (64 filas)"
       pageRef = "hexagramas/tabla-hexagramas2"
       parent = "hexagramas-parent"
       weight = 2
 
-    # 4. Sección de Artículos (Actualizado)
+    # 4. Articles Section
     [[languages.es.menu.main]]
       name = "Artículos"
-      pageRef = "articulos"           # 👈 Ahora apunta a content/articulos/
+      pageRef = "articulos"
       weight = 2
 
-    # 5. Enlace Externo
+    # 5. External Link
     [[languages.es.menu.main]]
       name = "YouTube"
       url = "https://www.youtube.com/@ElIChingon"
@@ -92,11 +103,16 @@ enableRobotsTXT = true
     [languages.en.params]
       description = "The I Ching as a decentralized information protocol. An intersection of philosophy, synchronicity, mathematics, and computer science."
     
+    # Perfil de autoría en Inglés
+    [languages.en.params.author]
+        bio = "Digital avatar and researcher exploring the intersection of complex systems, mathematics, ancient Eastern philosophies and the I Ching."
+        photo = "img/author"
+
     # === MENÚ EN INGLÉS ===
     
     # 1. Parent
     [[languages.en.menu.main]]
-      name = "Hexagrams"
+      name = "Hexagramas"
       identifier = "hexagramas-parent"
       url = "#"
       weight = 1
@@ -115,10 +131,10 @@ enableRobotsTXT = true
       parent = "hexagramas-parent"
       weight = 2
 
-    # 4. Articles Section (Actualizado)
+    # 4. Articles Section
     [[languages.en.menu.main]]
       name = "Articles"
-      pageRef = "articulos"           # 👈 Apunta a la versión traducida de la misma sección
+      pageRef = "articulos"
       weight = 2
 
     # 5. External Link
