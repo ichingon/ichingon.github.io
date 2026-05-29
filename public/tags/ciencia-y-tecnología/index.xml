@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ciencia Y Tecnología on El I Chingón</title>
+    <link>http://localhost:1313/tags/ciencia-y-tecnolog%C3%ADa/</link>
+    <description>Recent content in Ciencia Y Tecnología on El I Chingón</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ciencia-y-tecnolog%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>El azar, la ciencia y el I Ching: una convergencia en la comprensión del orden y la incertidumbre</title>
+      <link>http://localhost:1313/articulos/azar-ciencia-i-ching/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/azar-ciencia-i-ching/</guid>
+      <description>Una exploración epistemológica sobre cómo el azar, lejos de ser un obstáculo para el conocimiento, actúa como un filtro de la subjetividad y una dimensión constitutiva de la realidad, conectando la tradición milenaria china con la ciencia contemporánea.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

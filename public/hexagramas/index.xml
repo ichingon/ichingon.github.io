@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hexagramas on El I Chingón</title>
+    <link>http://localhost:1313/hexagramas/</link>
+    <description>Recent content in Hexagramas on El I Chingón</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hexagramas/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tabla para buscar los hexagramas del I Ching</title>
+      <link>http://localhost:1313/hexagramas/buscador-hexagramas-i-ching/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/buscador-hexagramas-i-ching/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Cómo usar la Tabla de Consulta&#xA;    &lt;div id=&#34;cómo-usar-la-tabla-de-consulta&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#c%c3%b3mo-usar-la-tabla-de-consulta&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Esta tabla te permite identificar el número de cualquiera de los &lt;strong&gt;64 hexagramas del I Ching&lt;/strong&gt; cruzando sus dos trigramas constituyentes.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Busca el &lt;strong&gt;Trigrama Superior&lt;/strong&gt; (Trigrama de Arriba) en las columnas horizontales de arriba.&lt;/li&gt;&#xA;&lt;li&gt;Busca el &lt;strong&gt;Trigrama Inferior&lt;/strong&gt; (Trigrama de Abajo) en las filas verticales de la izquierda.&lt;/li&gt;&#xA;&lt;li&gt;El punto de intersección te dará el número del hexagrama según el ordenamiento tradicional del Rey Wen (&lt;strong&gt;後天八卦 - Hòutiān Bāguà&lt;/strong&gt;; Cielo Posterior, o Mundo de los Sentidos).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&lt;p&gt;📌 &lt;strong&gt;Nota de navegación:&lt;/strong&gt; Los enlaces en los números de cada hexagrama te dirigirán a mi traducción al castellano del texto tradicional de &lt;strong&gt;Richard Wilhelm&lt;/strong&gt;. Dentro de cada artículo individual, encontrarás también el enlace al texto original en alemán para su cotejo académico.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Tabla Avanzada de Correspondencias del I Ching</title>
+      <link>http://localhost:1313/hexagramas/tabla-avanzada-correspondencias-i-ching/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexagramas/tabla-avanzada-correspondencias-i-ching/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Sobre esta Tabla Estructural&#xA;    &lt;div id=&#34;sobre-esta-tabla-estructural&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#sobre-esta-tabla-estructural&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Esta matriz cruza el ordenamiento clásico del rey Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su &lt;strong&gt;Hexagrama Nuclear&lt;/strong&gt; interno y su correspondencia arquetípica en el &lt;strong&gt;Cielo Anterior&lt;/strong&gt; (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
