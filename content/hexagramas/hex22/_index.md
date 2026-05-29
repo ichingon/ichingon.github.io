@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 22 賁 - Bì / La Gracia"
 weight: 24
 draft: false

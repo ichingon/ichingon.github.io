@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 13 同人 - T'ung Jen / Comunidad con los Hombres"
 weight: 15
 draft: false

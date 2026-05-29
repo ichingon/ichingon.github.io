@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 20 觀 - Guān / La Contemplación"
 weight: 22
 draft: false

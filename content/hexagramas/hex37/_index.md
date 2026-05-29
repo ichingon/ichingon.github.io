@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 37 家人 - Jia Ren / La Familia"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 37 (Jia Ren) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

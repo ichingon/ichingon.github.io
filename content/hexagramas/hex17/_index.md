@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 17 隨 - Suí / El Seguimiento"
 weight: 19
 draft: false

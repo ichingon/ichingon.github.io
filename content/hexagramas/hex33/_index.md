@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 33 遯 - Dun / El Retiro"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 33 (Dun) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

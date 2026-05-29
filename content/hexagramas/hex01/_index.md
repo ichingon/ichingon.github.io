@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 1 乾 - Qián / El Principio Creativo"
 weight: 3
 draft: false

@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 40 解 - Jie / La Liberación"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 40 (Jie) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

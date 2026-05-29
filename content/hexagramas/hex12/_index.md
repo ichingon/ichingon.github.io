@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 12 否 - P'i / El Estancamiento"
 weight: 14
 draft: false

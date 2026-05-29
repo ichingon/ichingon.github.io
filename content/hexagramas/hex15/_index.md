@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 15 謙 - Ch'ien / La Modestia"
 weight: 17
 draft: false

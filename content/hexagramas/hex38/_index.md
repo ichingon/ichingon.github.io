@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 38 睽 - Kui / El Antagonismo"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 38 (Kui) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."

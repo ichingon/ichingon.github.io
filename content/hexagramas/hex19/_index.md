@@ -1,8 +1,5 @@
 ---
-cascade:
-  _target:
-    kind: page
-  excludeFromResults: true
+layout: "simple"
 title: "Hexagrama 19 臨 - Lin / El Acercamiento"
 weight: 21
 draft: false
