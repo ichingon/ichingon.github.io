@@ -2,6 +2,7 @@
 title: "Chance, Science, and the I Ching: A Convergence in Understanding Order and Uncertainty"
 date: 2026-03-25
 author: "Dailingna Romero"
+showAuthor: true
 tags: ["Science and Technology", "Philosophy"]
 summary: "An epistemological exploration of how chance, far from being an obstacle to knowledge, acts as a filter for subjectivity and a constitutive dimension of reality, connecting ancient Chinese tradition with contemporary science."
 math: true
@@ -170,6 +171,14 @@ The skepticism that labels the I Ching as mere superstition starts from an idea 
 In this new landscape, the I Ching ceases to be a pre-scientific residue and reveals itself as a navigation technology that, with its own means, embodies a participatory and dynamic epistemology. The random draw is not a recourse to empty casualty, but an act of symbolic auto-sampling that allows reading the configuration of the moment, filtering the interferences of the ego in a way analogous to how the Athenian *kleroterion* filtered corruption in democracy.
 
 As I wrote elsewhere: *\"to know what cannot be known from the outside, one must learn to read, over and over again, the interior of what one already has\"*. The I Ching does it with stalks and hexagrams; contemporary science does it with resamplings, simulations, and flexible models. Both practices invite us to abandon the dream of an absolute truth, to embrace a knowledge that is situated, recursive, and always open to change.
+
+---
+
+### How to Cite This Article (APA 7th Edition)
+
+If you wish to use or cite this work in your research or academic publications, please use the following reference:
+
+> Romero, D. (2026, March 25). *Chance, Science, and the I Ching: A Convergence in Understanding Order and Uncertainty*. El IChingón. https://elichingon.com/en/articles/chance-science-i-ching/
 
 ---
 

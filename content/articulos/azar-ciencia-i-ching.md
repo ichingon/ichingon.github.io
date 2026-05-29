@@ -2,6 +2,7 @@
 title: "El azar, la ciencia y el I Ching: una convergencia en la comprensión del orden y la incertidumbre"
 date: 2026-03-25
 author: "Dailingna Romero"
+showAuthor: true
 tags: ["Ciencia y Tecnología", "Filosofía"]
 summary: "Una exploración epistemológica sobre cómo el azar, lejos de ser un obstáculo para el conocimiento, actúa como un filtro de la subjetividad y una dimensión constitutiva de la realidad, conectando la tradición milenaria china con la ciencia contemporánea."
 math: true
@@ -169,6 +170,14 @@ El escepticismo que tilda al I Ching de mera superstición parte de una idea muy
 En este nuevo paisaje, el I Ching deja de ser un residuo precientífico y se revela como una tecnología de navegación que, con sus propios medios, encarna una epistemología participativa y dinámica. Su sorteo no es un recurso a la casualidad vacía, sino un acto de auto-muestreo simbólico que permite leer la configuración del momento, filtrando las interferencias del ego de manera análoga a como el *kleroterion* ateniense filtraba la corrupción en la democracia.
 
 Como escribí en otro lugar: *"para conocer lo que no puede ser conocido desde fuera, hay que aprender a leer, una y otra vez, el interior de lo que ya se tiene"*. El I Ching lo hace con varillas y hexagramas; la ciencia contemporánea lo hace con remuestreos, simulaciones y modelos flexibles. Ambas prácticas nos invitan a abandonar el sueño de una verdad absoluta, para abrazar un conocimiento que es situado, recursivo y siempre abierto al cambio.
+
+---
+
+### Cómo citar este artículo (Normas APA 7)
+
+Si deseas utilizar o citar este trabajo en tus investigaciones o publicaciones académicas, puedes emplear la siguiente referencia:
+
+> Romero, D. (2026, 25 de marzo). *El azar, la ciencia y el I Ching: una convergencia en la comprensión del orden y la incertidumbre*. El IChingón. https://elichingon.com/articulos/azar-ciencia-i-ching/
 
 ---
 
