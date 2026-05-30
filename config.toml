@@ -99,9 +99,7 @@ enableRobotsTXT = true
       pre = "youtube"
       weight = 3
       [languages.es.menu.main.params]
-      # Añade un borde fino, redondeado, padding interno y una transición suave al pasar el cursor
-        class = "ml-2 px-3 py-1 rounded-md border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-all text-sm"
-
+        class = "nav-btn-youtube"
 
   [languages.en]
     languageName = "English"
@@ -121,7 +119,7 @@ enableRobotsTXT = true
     
     # 1. Parent
     [[languages.en.menu.main]]
-      name = "Hexagramas"
+      name = "Hexagrams"
       identifier = "hexagramas-parent"
       url = "#"
       weight = 1
@@ -153,8 +151,7 @@ enableRobotsTXT = true
       pre = "youtube"
       weight = 3
       [languages.en.menu.main.params]
-      # Añade un borde fino, redondeado, padding interno y una transición suave al pasar el cursor
-        class = "ml-2 px-3 py-1 rounded-md border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-all text-sm"
+        class = "nav-btn-youtube"
 
 [markup]
   [markup.goldmark]
