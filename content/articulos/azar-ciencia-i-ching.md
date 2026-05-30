@@ -62,7 +62,7 @@ Sin embargo, la relación de los griegos con el azar no fue unívoca. Junto al d
 
 Pero hay un ejemplo aún más revelador de cómo los griegos, a pesar de su teoría, utilizaban el azar como mecanismo de justicia: el *kleroterion*. Se trataba de una máquina de sorteo, una losa de piedra con ranuras donde se insertaban las fichas de los ciudadanos. Al hacer girar un mecanismo, se seleccionaba aleatoriamente a quienes ocuparían cargos públicos o formarían parte de los tribunales populares en la democracia ateniense (Hansen, 1991).
 
-{{< youtube id="ONPAHMuSEDQ" title="Kleroterion e I Ching: cuando el azar gobernaba" >}}
+{{< youtube-short "ONPAHMuSEDQ" "Kleroterion e I Ching: cuando el azar gobernaba" >}}
 
 ¿Por qué los atenienses, tan celosos del *logos* y tan desconfiados de la *doxa*, confiaban la selección de sus gobernantes y jueces al azar? Porque entendían que la elección por voto o por influencia era fácilmente corruptible: el dinero, la fama, la oratoria podían torcer la decisión. En cambio, el sorteo -*klerosis*- garantizaba que ningún interés particular pudiera corromper el proceso. El azar se convertía así en un filtro de la subjetividad, en un mecanismo para evitar que el ego, la ambición o el poder inclinaran la balanza.
 
