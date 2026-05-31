@@ -63,6 +63,8 @@ However, the relationship of the Greeks with chance was highly ambivalent. Along
 
 But there is an even more revealing example of how the Greeks, despite their theory, used chance as a mechanism of justice: the *kleroterion*. It was a lottery machine, a stone slab with slots where the tokens of citizens were inserted. By turning a mechanism, those who would occupy public office or form part of the popular tribunals in the Athenian democracy were randomly selected (Hansen, 1991).
 
+{{< youtube-short "GPkrfZLKy6c" "The I Ching and the Kleroterion" >}}
+
 Why did the Athenians, so zealous of the *logos* and so distrustful of *doxa*, trust the selection of their rulers and judges to chance? Because they understood that election by vote or by influence was easily corruptible: money, fame, and oratory could twist the decision. Instead, the draw -*klerosis*- guaranteed that no particular interest could corrupt the process. Chance became thus a filter of subjectivity, a mechanism to prevent the ego, ambition, or power from tilting the scale.
 
 This paradox is fundamental: **the Greeks theoretically relegated chance to the world of imperfection, but adopted it pragmatically as the only means to reach just decisions in the public sphere**. The Athenian democracy was not based on the "popular will" expressed in votes (that was seen as manipulable), but on the draw, which embodied equality and incorruptibility.
