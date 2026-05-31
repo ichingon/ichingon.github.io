@@ -11,7 +11,7 @@ showAuthor: false
 ---
 
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
-  &#x4DCE;
+  &#x4DE4;
 </p>
 
 ### Trigramas
