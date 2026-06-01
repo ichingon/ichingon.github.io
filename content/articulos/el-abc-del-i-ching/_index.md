@@ -31,7 +31,7 @@ Este sistema binario de dos elementos opuestos es central al pensamiento chino. 
 
 Estos polos opuestos no son antagónicos, sino más bien complementarios - su interacción da origen a toda la creación fenomenológica. Si  observamos cuidadosamente el símbolo del Taiji, nos damos cuenta que cada polo tiene la semilla de su opuesto, y que un polo se sigue al otro en una sucesión infinita, como el día sigue la noche. Esta idea de mutabilidad y sucesión cíclica de opuestos esta presente en todo el tejido del I Ching.
 
-![Dailingna in in front of the Taijitu, or Yin-Yang symbol](dailingna-with-taijitu.webp "Dailingna in the Snake Creeps Down Tai Ji pose in front of the Taijitu symbol")
+![Dailingna frente al símbolo de Taijitu, o símbolo Yin-Yang, en una postura de Tai Ji conocida como La Serpiente Desciende](dailingna-with-taijitu.webp "Dailingna frente al símbolo de Taijitu, o símbolo Yin-Yang, en una postura de Tai Ji conocida como La Serpiente Desciende")
 
 El Yin y el Yang son pues, los elementos binarios fundamentales, o las  letras, a partir de los cuales se construyen los 64 hexagramas del I Ching. El Yin, que representa lo femenino y oscuro, se representa por un trazo lineal partido en dos, así: ⚋.  El Yang, en cambio, que representa lo masculino y luminoso, se representa por un trazo lineal completo, así: ⚊.
 
