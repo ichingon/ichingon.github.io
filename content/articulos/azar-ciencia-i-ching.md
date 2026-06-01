@@ -19,7 +19,7 @@ Este artículo no pretende "validar" el I Ching con la ciencia -una operación q
 
 ---
 
-## Génesis del racionalismo occidental: Parménides contra Heráclito
+## Génesis del racionalismo occidental: Parménides contra Heráclito {#parmenides-heraclito}
 
 Para comprender por qué el azar fue durante siglos marginado como fuente de conocimiento, es necesario remontarse a la oposición fundacional entre Parménides y Heráclito.
 
