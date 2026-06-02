@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>I Ching Fundamentals on I Chingon</title>
-    <link>http://localhost:1313/en/tags/i-ching-fundamentals/</link>
+    <link>https://elichingon.com/en/tags/i-ching-fundamentals/</link>
     <description>Recent content in I Ching Fundamentals on I Chingon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dailingna Romero</copyright>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/i-ching-fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/en/tags/i-ching-fundamentals/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The ABC of the I Ching</title>
-      <link>http://localhost:1313/articles/the-abc-of-the-i-ching/</link>
+      <link>https://elichingon.com/articles/the-abc-of-the-i-ching/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articles/the-abc-of-the-i-ching/</guid>
+      <guid>https://elichingon.com/articles/the-abc-of-the-i-ching/</guid>
       <description>An introductory article for those who want to understand what the I Ching truly is.</description>
       
     </item>
