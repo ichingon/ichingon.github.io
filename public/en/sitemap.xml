@@ -35,8 +35,24 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/en/articulos/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articulos/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -48,6 +64,22 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/articles/the-abc-of-the-i-ching/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/el-abc-del-i-ching/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/articles/the-abc-of-the-i-ching/"
     />
   </url>
   <url>
@@ -64,22 +96,6 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/hexagramas/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/en/articulos/</loc>
-    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/articulos/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/articulos/"
     />
   </url>
   <url>

@@ -3,7 +3,7 @@ title: "El azar, la ciencia y el I Ching: una convergencia en la comprensión de
 date: 2026-03-25
 author: "Dailingna Romero"
 showAuthor: true
-showAuthorBottom : true
+showAuthorBottom: true
 tags: ["Ciencia y Tecnología", "Filosofía"]
 summary: "Una exploración epistemológica sobre cómo el azar, lejos de ser un obstáculo para el conocimiento, actúa como un filtro de la subjetividad y una dimensión constitutiva de la realidad, conectando la tradición milenaria china con la ciencia contemporánea."
 math: true

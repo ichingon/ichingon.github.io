@@ -3,7 +3,8 @@ title: "El ABC del I Ching"
 date: 2026-06-01
 author: "Dailingna Romero"
 showAuthor: true
-showAuthorBottom : true
+showAuthorBottom: true
+showFooterAuthor: true
 tags: ["Fundamentos del I Ching"]
 summary: "Este es un artículo introductorio para los que no saben que es el I ching."
 math: false
@@ -23,7 +24,7 @@ Pero también podriamos ver el I Ching como un lenguaje, y en este artículo vam
 
 ## El alfabeto binario del I Ching.
 
-En su origen, el I Ching es un libro sin palabras. Es una sucesión finita de signos no idiomáticos que conforman  una cosmogonía. Estos signos representan los posibles estados de la realidad y de la condición humana.  Los signos son en total 64, y se denominan hexagramas. Cada hexagrama, como veremos luego, se compone  de  6 trazos lineales.
+En su origen, el I Ching es un libro sin palabras. Es una sucesión finita de signos no idiomáticos que conforman  una cosmogonía. Estos signos representan los posibles estados de la realidad y de la condición humana.  Los signos son en total 64, y se denominan *hexagramas*. Cada hexagrama, como veremos luego, se compone  de  6 trazos lineales.
 
 El I  Ching puede ser considerado como análogo a un Automata  de Turing, en el sentido en que el I Ching nos indica bajo cales condiciones se pasa de un estado a otro. Y como las computadoras digitales de ahora,  el I Ching también se basa en un sistema binario, hecho que sorprendió bastante al Leibniz, un matemático alemán del siglo 18. Pero sobre Leibniz y el I Ching hablaremos en otro artículo...
 
@@ -33,11 +34,11 @@ Estos polos opuestos no son antagónicos, sino más bien complementarios - su in
 
 ![Dailingna frente al símbolo de Taijitu, o símbolo Yin-Yang, en una postura de Tai Ji conocida como La Serpiente Desciende](dailingna-with-taijitu.webp "Dailingna frente al símbolo de Taijitu, o símbolo Yin-Yang, en una postura de Tai Ji conocida como La Serpiente Desciende")
 
-El Yin y el Yang son pues, los elementos binarios fundamentales, o las  letras, a partir de los cuales se construyen los 64 hexagramas del I Ching. El Yin, que representa lo femenino y oscuro, se representa por un trazo lineal partido en dos, así: ⚋.  El Yang, en cambio, que representa lo masculino y luminoso, se representa por un trazo lineal completo, así: ⚊.
+El Yin y el Yang son pues, los elementos binarios fundamentales, o las  letras, a partir de los cuales se construyen los 64 hexagramas del I Ching. El *Yin*, que representa lo femenino y oscuro, se representa por un trazo lineal partido en dos, así: ⚋.  El *Yang*, en cambio, que representa lo masculino y luminoso, se representa por un trazo lineal completo, así: ⚊.
 
 ## Los trigramas (las palabras)
 
-Apilando tres trazos Yin o Yang uno encima de otro, obtenemos los 8 trigramas,  que en su conjunto se denominan los Bagua. Estos ocho trigramas son símbolos fundamentales que representan ocho aspectos fundamentales de la naturaleza. Cada trigrama tiene un nombre, esta asociado a un  genero, guarda una relación familiar con los otros trigramas, y tiene una cualidad o imagen.
+Apilando tres trazos Yin o Yang uno encima de otro, obtenemos los 8 *trigramas*,  que en su conjunto se denominan los *Bagua*. Estos ocho trigramas son símbolos fundamentales que representan ocho aspectos fundamentales de la naturaleza. Cada trigrama tiene un nombre, esta asociado a un  genero, guarda una relación familiar con los otros trigramas, y tiene una cualidad o imagen.
 
 ![Los 8 trigramas con sus nombres y propiedades](8-trigramas.webp "Los 8 trigramas con sus nombres y propiedades")
 

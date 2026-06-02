@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dailingna Romero</copyright>
-    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/articulos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/articulos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The ABC of the I Ching</title>
+      <link>http://localhost:1313/articles/the-abc-of-the-i-ching/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/the-abc-of-the-i-ching/</guid>
+      <description>An introductory article for those who want to understand what the I Ching truly is.</description>
+      
+    </item>
     
     <item>
       <title>Chance, Science, and the I Ching: A Convergence in Understanding Order and Uncertainty</title>
