@@ -66,14 +66,15 @@ Aquí, esta fuerza creadora está todavía oculta debajo de la tierra y, por lo 
 Así pues, para quien obtiene este trazo, se trata de esperar con una paciencia tranquilamente fuerte. El tiempo ya se cumplirá. No hay que temer que una voluntad fuerte no se imponga. Sin embargo, es importante no gastar la fuerza prematuramente ni querer forzar algo que todavía no es oportuno.
 
 ### Nueve en el segundo puesto significa:
-> Dragón que aparece en el campo. Es propicio ver al Gran Hombre.
+> Dragón que aparece en el campo.
+> Es propicio ver al Gran Hombre.
 
 Aquí comienzan a mostrarse los efectos de la fuerza luminosa. Transferido a las condiciones humanas, esto significa que el Gran Hombre aparece en el campo de su actividad. Todavía no tiene una posición dominante, sino que está aún entre sus iguales. Pero lo que lo distingue de los demás es su seriedad, su absoluta confiabilidad y la influencia que ejerce sobre su entorno sin un esfuerzo consciente. Un hombre así está destinado a obtener una gran influencia y a poner el mundo en orden. Por eso es propicio verlo.
 
 ### Nueve en el tercer puesto significa:
 > El Noble está creativamente activo durante todo el día.
 > Al anochecer, todavía está lleno de preocupación interna.
-> El Peligro. Sin error.
+> Peligro. Sin error.
 
 Un ámbito de actividad se abre para el hombre importante. Su fama comienza a extenderse. Las masas acuden a él. Su fuerza interna está a la altura de la intensificada actividad externa. Hay mucho trabajo por hacer, e incluso por la noche, cuando los demás descansan, se agolpan los planes y las preocupaciones. Un peligro está presente aquí, en el lugar de la transición desde la bajeza hacia la altura. Muchos grandes hombres perecieron ya porque las masas acudían a ellos presurosas y los arrastraron hacia sus propias órbitas. La ambición corrompió la pureza interior. Pero la verdadera grandeza no se ve afectada por las tentaciones. Si uno se mantiene en contacto con los gérmenes de los nuevos tiempos y sus exigencias, poseerá la precaución suficiente para guardarse de los desvíos y permanecerá sin error.
 
@@ -83,7 +84,8 @@ Un ámbito de actividad se abre para el hombre importante. Su fama comienza a ex
 Aquí se ha alcanzado el lugar de la transición donde la libertad puede ejercerse. Una doble posibilidad se presenta ante el hombre importante: o bien elevarse y ser determinante en la gran vida, o bien retirarse y cultivar su personalidad en la quietud: el camino del héroe o del santo oculto. Cuál sea el correcto no está determinado por ninguna ley general. Cada quien que se encuentre en tal situación debe decidir libremente según las leyes más íntimas de su ser. Si actúa de manera completamente verdadera y consecuente, encontrará el camino que le corresponde, y este camino será para él recto y sin error.
 
 ### Nueve en el quinto puesto significa:
-> Dragón volando en el cielo. Es propicio ver al Gran Hombre.
+> Dragón volando en el cielo.
+> Es propicio ver al Gran Hombre.
 
 Aquí el Gran Hombre ha llegado a la esfera de los celestiales. Su influencia se extiende de manera ampliamente visible sobre todo el mundo. Todo aquel que lo ve puede considerarse bienaventurado. Confucio dice al respecto: «Lo que coincide en el tono, vibra conjuntamente. Lo que tiene afinidad electiva en la esencia más íntima, se busca mutuamente. El agua fluye hacia lo húmedo, el fuego se dirige hacia lo seco. Las nubes (el aliento del cielo) siguen al dragón, el viento (el aliento de la tierra) sigue al tigre. Así se eleva el sabio y todos los seres miran hacia él. Lo que proviene del cielo se siente emparentado con lo que está arriba. Lo que proviene de la tierra se siente emparentado con lo que está abajo. Cada uno sigue a su especie».
 
@@ -93,7 +95,7 @@ Aquí el Gran Hombre ha llegado a la esfera de los celestiales. Su influencia se
 Si se quiere ascender tan alto que se pierde el contacto con los demás hombres, uno se queda aislado, y esto conduce necesariamente al fracaso. Aquí yace una advertencia contra un anhelo titánico de superación que sobrepasa las propias fuerzas. Un desplome hacia la profundidad sería la consecuencia.
 
 ### Cuando aparecen puros nueves, significa:
-> Aparece una multitud de dragones sin cabeza. Ventura.
+> Aparece una multitud de dragones sin cabeza. ¡Ventura!
 
 Cuando todas las líneas son Nueves, todo el Hexagrama entra en movimiento y se transforma en el Hexagrama Kun, Lo Receptivo, cuyo carácter es la entrega. La fuerza de Lo Creativo y la mansedumbre de Lo Receptivo se unen. La fuerza está indicada por la multitud de dragones; la mansedumbre, por la circunstancia de que sus cabezas están ocultas. Esto significa: la mansedumbre en el modo de actuar combinada con la fuerza de la decisión trae Ventura.
 

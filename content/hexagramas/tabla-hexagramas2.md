@@ -11,6 +11,7 @@ showTaxonomies: false
 showDate: false
 showReadingTime: false
 showWordCount: false
+showAuthor: false
 ---
 
 ## Sobre esta Tabla Estructural

@@ -31,8 +31,8 @@ Sin embargo, no se puede hablar de un verdadero dualismo, pues existe entre ambo
 > propicio por la perseverancia de una yegua.
 > Si el Noble tiene algo que emprender y quiere adelantarse,
 > se extravía; pero si va detrás (sigue), encuentra quien lo guíe.
-> Es propicio encontrar amigos en el oeste y el sur,
-> y prescindir de los amigos en el este y el norte.
+> Es propicio encontrar amigos en el Oeste y el Sur,
+> y prescindir de los amigos en el Este y el Norte.
 > La tranquila perseverancia trae la Ventura.
 
 Las cuatro direcciones fundamentales de Lo Creativo: "éxito elevado, propicio por la perseverancia" se encuentran también como designación de Lo Receptivo. Solo que la perseverancia se define más detalladamente como la perseverancia de una yegua. Lo Receptivo designa la realidad espacial frente a la posibilidad espiritual de Lo Creativo. Cuando lo posible se vuelve real (lo espiritual se hace espacial), esto sucede siempre mediante una determinación restrictiva e individual. Esto se señala por el hecho de que aquí se añade al término "perseverancia" la determinación más precisa "de una yegua". El caballo pertenece a la tierra así como el dragón al cielo; simboliza, a través de su inmenso movimiento por la llanura, la vastedad de la tierra. Se elige la palabra "yegua" porque esta une la fuerza y la velocidad del caballo con la mansedumbre y la entrega de la vaca.
@@ -70,7 +70,9 @@ La naturaleza genera los seres sin doblez, esa es su rectitud; es tranquila y qu
 
 ### Seis en el tercer puesto significa:
 
-> Líneas ocultas; uno es capaz de permanecer perseverante. Si sigues los servicios de un rey, no busques obras, sino termínalas.
+> Líneas ocultas; uno es capaz de permanecer perseverante.
+> Si sigues los servicios de un rey,
+> no busques obras, sino termínalas.
 
 Si uno está libre de vanidad, es capaz de ocultar sus ventajas de modo que no atraigan prematuramente la atención pública. Así se puede madurar en la quietud. Si las circunstancias lo requieren, se puede también salir a la luz pública, pero incluso entonces con reserva. El sabio dejará gustosamente la fama a los demás. No busca hechos consumados que se le cuenten como méritos; pero sí prepara las condiciones efectivas, es decir, consuma las obras de modo que sean fructíferas para el futuro.
 
@@ -88,7 +90,8 @@ El amarillo es el color de la tierra y del centro, el símbolo de lo confiable y
 
 ### Seis arriba significa:
 
-> Los dragones luchan en la pradera. Su sangre es negra y amarilla.[^2]
+> Los dragones luchan en la pradera.
+> Su sangre es negra y amarilla.[^2]
 
 En el puesto supremo, lo sombrío debería ceder ante lo luminoso. Si quiere mantenerse firme en el puesto que no le corresponde y, en lugar de servir, gobernar, atrae hacia sí la ira del fuerte. Se llega al combate en el que es derrocado, en el cual, sin embargo, ambas partes resultan dañadas.
 

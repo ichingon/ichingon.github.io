@@ -8,6 +8,7 @@ layout: "page"
 showDate: false
 showReadingTime: false
 showWordCount: false
+showAuthor: false
 ---
 
 ## Cómo usar la Tabla de Consulta
