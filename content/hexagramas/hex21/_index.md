@@ -15,78 +15,81 @@ showAuthor: false
   &#x4DD4;
 </p>
 
-## 21. Shì Hé / La Mordedura Tajante
+### Trigramas
+* **Arriba:** Lí (Lo Adherente, el Fuego)
+* **Abajo:** Zhèn (Lo excitante, el Trueno)
 
-* **Arriba**: Lí (Lo Adherente, el Fuego)
-* **Abajo**: Zhèn (Lo Conmocionante, el Trueno)
-
-El signo representa una boca abierta con un obstáculo entre los dientes. Como consecuencia, los labios no pueden unirse. Para lograrlo, es necesario morder con energía el impedimento hasta romperlo. Dado que el signo se compone de los trigramas del trueno y el fuego, indica cómo se eliminan los obstáculos en la vida pública. La mordedura enérgica conduce a la unión. La aplicación de castigos es necesaria para eliminar los impedimentos.
-
----
-
-### El Dictamen
-
-> La Mordedura Tajante tiene éxito.  
-> Es propicio aplicar la justicia.
-
-Cuando una unión no se concreta, es porque existe un obstáculo en el camino. Es necesario morder con energía para que la unión no se vea impedida permanentemente. Los castigos y los tribunales son necesarios para intimidar o eliminar a los culpables. Es fundamental que quien imparte justicia sea naturalmente bondadoso, poseyendo al mismo tiempo la fuerza necesaria por su posición oficial.
+El signo representa una boca abierta (cf. Nº 27, I) con un obstáculo entre los dientes (en el cuarto puesto). Como consecuencia, los labios no pueden unirse. Para lograr la unión, es necesario morder con energía el obstáculo hasta romperlo. El signo se compone además de los signos del trueno y el relámpago, para indicar cómo se eliminan los obstáculos en la naturaleza de manera violenta. La mordedura enérgica supera el obstáculo de la unión en la boca. La tormenta con trueno y relámpago supera la tensión perturbadora en la naturaleza. El proceso judicial y el castigo superan las perturbaciones de la vida armónica en común causadas por criminales y calumniadores. A diferencia del signo Nº 6, La Contienda, donde se trata de procesos civiles, aquí se trata del proceso penal.
 
 ---
 
-### La Imagen [^1]
+## El Dictamen
+
+> La Mordedura Tajante tiene Éxito.  
+> Es propicio dejar actuar al tribunal.
+
+Cuando un obstáculo se opone a la unión, el morder enérgicamente crea Éxito. Esto vale para todas las situaciones. Siempre que la unidad no se alcanza, es porque un intermediario y traidor, un obstaculizador y paralizador la detiene. Entonces hay que actuar con energía, para que no surja un daño permanente. Tales obstaculizaciones conscientes no desaparecen por sí mismas. El tribunal y el castigo son necesarios para intimidar o eliminar.
+
+Pero es preciso proceder de la manera correcta. El signo está compuesto por Lí, claridad, y Zhèn, excitación. Lí es suave, Zhèn es duro. La mera dureza y excitación sería demasiado violenta al castigar. La mera claridad y suavidad sería demasiado débil. Ambas unidas crean la justa medida. Es importante que el hombre decisivo, que está representado por el quinto trazo, sea por naturaleza benigno, mientras que por su posición actúa de manera imponente.
+
+---
+
+## La Imagen
 
 > Trueno y relámpago: la imagen de la Mordedura Tajante.  
 > Así, los antiguos reyes consolidaban las leyes  
 > mediante castigos claramente definidos.
 
-El rayo y el trueno son el modo en que la naturaleza realiza sus purificaciones atmosféricas. Los antiguos reyes tomaron esto como modelo y consolidaron las leyes mediante la claridad de los castigos.
+Los castigos son las aplicaciones particulares de las leyes. Las leyes contienen el registro de los castigos. Hay claridad cuando al establecer los castigos se distinguen claramente los más leves y los más graves según las faltas correspondientes. Esto es simbolizado por la claridad del relámpago. La consolidación de las leyes ocurre mediante la aplicación justa de los castigos. Esto es simbolizado por el espanto del trueno. Esta claridad y severidad tienen el propósito de que los hombres sean mantenidos en respeto; los castigos no son importantes por sí mismos. Los obstáculos en la vida en común de los hombres se vuelven todos grandes debido a la falta de claridad en las disposiciones sobre castigos y a la negligencia en su ejecución. Solo mediante la claridad y una cierta presteza en los castigos se consolidan las leyes.
 
----
+## Las Líneas Individuales [^1]
 
-### Las Líneas Individuales
-
-#### Al principio, un Nueve significa:
+### Al principio, un Nueve significa:
 > Puestos los cepos en los pies, de modo que se ocultan los dedos.  
-> Sin tacha.
+> Sin error.
 
-Si alguien sufre el castigo al primer paso hacia el mal, es una fortuna para él.
+Si alguien sufre el castigo ya en el primer intento de hacer algo malo, el castigo es solo leve. Solo los dedos de los pies son cubiertos por el cepo. Así se le impide seguir pecando y queda libre de error. Es una advertencia para detenerse a tiempo en el camino del mal.
 
-#### Seis en el segundo puesto significa:
-> Muerde en carne blanda, de modo que se hunde la nariz.  
-> Sin tacha.
+### Seis en el segundo puesto significa:
+> Muerde en carne blanda, de modo que desaparece la nariz.  
+> Sin error.
 
-Es fácil distinguir aquí entre el derecho y el revés. Uno se topa con un pecador endurecido y en la excitación puede ir demasiado lejos. Hundir la nariz significa perder de vista la medida justa en el celo del castigo. Pero como la causa en sí es justa, uno permanece sin tacha.
+En el caso presente, el derecho y la injusticia se dejan distinguir fácilmente. Es como morder carne blanda. Pero uno se topa con un pecador endurecido. Por ello, movido por la ira en la excitación, va un poco demasiado lejos. La desaparición de la nariz al morder significa que uno pierde el fino olfato a consecuencia de la indignación. Pero eso no daña mucho, porque el castigo como tal es justo.
 
-#### Seis en el tercer puesto significa:
+### Seis en el tercer puesto significa:
 > Muerde en carne vieja y seca, y encuentra algo venenoso.  
-> Pequeña humillación. Sin tacha.
+> Pequeña humillación. Sin error.
 
-Se debe ejecutar el castigo, pero no se posee el poder ni la autoridad necesaria para ello. Los castigados no se someten. Es como morder carne vieja y seca; se tropieza con viejos pecados y se suscita odio y veneno contra uno mismo. Esto trae una pequeña humillación.
+Alguien debe ejecutar un castigo para el que no posee suficiente poder ni autoridad. Por ello, los castigados no se someten. Se trata de una cosa vieja —simbolizado por carne de caza salada— y con ello uno topa con dificultades. La carne vieja está podrida. Por ocuparse de la cosa, uno atrae contra sí un odio venenoso. Con ello uno cae en una situación un poco vergonzosa. Pero como era una exigencia de la época el castigar, uno permanece sin error.
 
-#### Nueve en el cuarto puesto significa:
-> Muerde en carne seca con hueso.  
+### Nueve en el cuarto puesto significa:
+> Muerde en carne seca cartilaginosa.  
 > Recibe flechas de metal.  
-> Es propicio ser consciente de las dificultades y mantenerse perseverante. ¡Ventura!
+> Es propicio ser consciente de las dificultades y mantenerse perseverante.  
+> ¡Ventura!
 
-Aquí se debe eliminar un gran obstáculo. Los pecadores son poderosos e influyentes. Morder es difícil, como en carne con hueso. Se debe aplicar gran dureza, como flechas de metal. A través de la perseverancia en las dificultades, se logra eliminar el obstáculo y finalmente se alcanza la ventura.
+Hay que superar dificultades muy grandes. Se debe castigar a poderosos adversarios. Eso es muy penoso. Pero se logra. Sin embargo, uno debe poseer la dureza del metal y la rectitud de una flecha para superar las dificultades. Si uno conoce estas dificultades y permanece perseverante, alcanza la Ventura. Al final, la difícil tarea se logra.
 
-#### Seis en el quinto puesto significa:
-> Muerde en carne seca y grasa.  
-> Encuentra oro amarillo.  
-> Mantenerse perseverante ante el peligro nos libra de tacha. ¡Ventura!
+### Seis en el quinto puesto significa:
+> Muerde en carne muscular seca.  
+> Recibe oro amarillo.  
+> Ser perseverantemente consciente del peligro. Sin error.  
+> ¡Ventura!
 
-El asunto es difícil pero claro. Se encuentra el medio correcto en la investigación, como simboliza el oro amarillo. El amarillo es el color del centro, el oro es el metal de la fidelidad. Si uno permanece consciente de la responsabilidad y el peligro de juzgar, logra erradicar el pecado y alcanza la ventura.
+Se debe juzgar un caso que aunque no es fácil, es claro. Pero la propia naturaleza tiende a la bondad. Por ello uno debe contenerse para ser como oro amarillo, es decir, imparcial —el amarillo es el color del centro— y fiel como el oro. Solo si uno es permanentemente consciente de los peligros que surgen de la responsabilidad que ha asumido, permanece libre de errores.
 
-#### Al final, un Nueve significa: [^2]
+### Al final, un Nueve significa:
 > Lleva el cangue en el cuello, de modo que se ocultan las orejas.  
 > Desventura.
 
-A diferencia de la primera línea, se trata aquí de un pecador incorregible. No ha escuchado los castigos pequeños y ha dejado que los pecados se acumulen hasta volverse insoportables. Ahora la desventura se abate sobre él. Recibe el pesado collar de madera en el cuello, de modo que sus oídos quedan cubiertos. Se ha vuelto sordo a todas las advertencias.
+A diferencia de la línea inicial, se trata aquí de un hombre incorregible. Lleva como castigo el collar de madera en el cuello. Pero sus orejas desaparecen dentro de él. Ya no escucha las advertencias, sino que se ha vuelto sordo a ellas. Esta obstinación conduce a la Desventura.
 
 ---
 
-[^1]: Las líneas individuales se explican independientemente del sentido general del signo, de tal modo que el primero y el último sufren el castigo, mientras que los restantes están ocupados en la imposición de castigos.
-[^2]: Cabe notar que existe otra interpretación que, partiendo de la idea de "arriba la luz, es decir, el sol, abajo el movimiento", refiere el signo a un mercado que está en movimiento abajo, mientras que el sol está arriba en el cielo. Se trata de un mercado de víveres. La carne alude a los víveres; el oro y las flechas son artículos comerciales. La desaparición de la nariz significa la desaparición del olfato, es decir, el afectado no es codicioso. El veneno alude a los peligros de la riqueza, etc. Sobre: »Al principio, un Nueve« comenta Kungtse: "El hombre vulgar no se avergüenza de su falta de amor ni teme a la injusticia. Si no ve un beneficio, no se mueve. Si no se le intimida, no mejora. Pero si se le corrige en lo pequeño, se cuida en lo grande. Esto es una fortuna para el hombre vulgar". Sobre: »Al final, un Nueve« comenta Kungtse: "Si el bien no se acumula, no basta para hacer a alguien famoso. Si el mal no se acumula, no es lo suficientemente fuerte como para aniquilar a alguien. Por eso el hombre vulgar piensa: las buenas acciones pequeñas no tienen valor; por lo tanto, las omite. Piensa: los pecados pequeños no hacen daño. Por lo tanto, no se desprende de ellos. Así, sus pecados se acumulan hasta que no pueden ocultarse más, y su culpa es tan grande que ya no puede disolverse".
+[^1]: Las líneas individuales se explican independientemente del sentido general del signo, de tal modo que el primero y el último sufren el castigo, mientras que los restantes están ocupados en la imposición de castigos (cf. los trazos correspondientes del signo Nº 4, Mong, la Juventud Necia).
+[^2]: Cabe notar que existe otra interpretación que, partiendo de la idea de "arriba la luz, es decir, el sol, abajo el movimiento", refiere el signo a un mercado que está en movimiento abajo, mientras que el sol está arriba en el cielo. Se trata de un mercado de víveres. La carne alude a los víveres; el oro y las flechas son artículos comerciales. La desaparición de la nariz significa la desaparición del olfato, es decir, el afectado no es codicioso. El veneno alude a los peligros de la riqueza, etc.  
+> Sobre: »Al principio, un Nueve« comenta Kung Tse: "El hombre vulgar no se avergüenza de su falta de amor ni teme a la injusticia. Si no ve un beneficio, no se mueve. Si no se le intimida, no mejora. Pero si se le corrige en lo pequeño, se cuida en lo grande. Esto es una ventura para el hombre vulgar".  
+> Sobre: »Al final, un Nueve« comenta Kung Tse: "Si el bien no se acumula, no basta para hacer a alguien famoso. Si el mal no se acumula, no es lo suficientemente fuerte como para aniquilar a alguien. Por eso el hombre vulgar piensa: las buenas acciones pequeñas no tienen valor; por lo tanto, las omite. Piensa: los pecados pequeños no hacen daño. Por lo tanto, no se desprende de ellos. Así, sus pecados se acumulan hasta que no pueden ocultarse más, y su culpa es tan grande que ya no puede disolverse".
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)

@@ -15,71 +15,72 @@ showAuthor: false
   &#x4DD5;
 </p>
 
-## 22. Bì / La Gracia
+### Trigramas
+* **Arriba:** Gèn (El Reposo, la Montaña)
+* **Abajo:** Lí (Lo Adherente, el Fuego)
 
-* **Arriba**: Gèn (La Detención, la Montaña)
-* **Abajo**: Lí (Lo Adherente, el Fuego)
-
-El fuego, iluminando desde abajo a la montaña, realza su belleza y estructura. Esta configuración representa la unión de la luz y la forma: la gracia. La gracia embellece, pero no posee la fuerza fundamental de la esencia. Es un adorno necesario para dar forma a las instituciones humanas, pero debe mantenerse en su justo lugar; si se le otorga una importancia excesiva, se convierte en mera fachada y superficialidad.
+El signo muestra un fuego que irrumpe desde las profundidades secretas de la tierra y, chispeante ascendente, ilumina y embellece la montaña, la altura celestial. La gracia, la bella forma, es necesaria en toda unión para que esta sea ordenada y amable, y no caótica y desordenada.
 
 ---
 
-### El Dictamen
+## El Dictamen
 
 > La Gracia tiene éxito.  
 > En pequeñas cosas es propicio emprender algo.
 
-La gracia confiere un brillo a la forma, otorgando una apariencia armónica a las cosas. Sin embargo, no es la fuerza que crea el contenido, sino el ornamento que lo presenta. Por ello, el éxito que aporta la gracia es limitado; es apropiado para cuestiones de orden menor, pero no puede sostener los grandes cimientos de la vida. Para las grandes empresas, lo fundamental es la sustancia, no la ornamentación.[^1]
+La gracia trae éxito. Pero no es lo esencial, el fundamento, sino solo el adorno. Por lo tanto, solo debe aplicarse con parsimonia, en lo pequeño. En el signo inferior, el Fuego, una línea suave aparece entre dos fuertes y las embellece; las fuertes son la esencia, la línea débil es la forma que embellece. En el signo superior, la Montaña, la línea fuerte se coloca determinante al frente, de modo que también aquí cuenta como decisiva. En la naturaleza se ve en el cielo la fuerte luz del sol. De ella depende la vida del mundo. Pero esta fuerza esencial se transforma y encuentra una amable variedad a través de la luna y las estrellas. En la vida humana, la bella forma consiste en que existen órdenes firmes como montañas, que son agradadas por la clara belleza. La contemplación de las formas en el cielo otorga la capacidad de comprender el tiempo y sus cambiantes exigencias. La contemplación de las formas en la vida humana otorga la posibilidad de configurar el mundo.
 
 ---
 
-### La Imagen
+## La Imagen
 
 > Fuego al pie de la montaña: la imagen de la Gracia.  
-> Así, el noble esclarece los asuntos de los hombres,  
-> pero no se atreve a decidir casos de justicia  
-> mediante decisiones tajantes.
+> Así, el Noble procede al esclarecimiento de los asuntos en curso,  
+> pero no se atreve a decidir según ello cuestiones contenciosas.
 
-La luz clara (fuego) se detiene al pie de la montaña, iluminando sus formas y contornos sin pretender alterar su estructura. El noble aplica esta sabiduría al juzgar: observa la superficie y esclarece los detalles, pero deja las sentencias graves y tajantes para las leyes fundamentales, reconociendo que el adorno y la gracia no deben prevalecer sobre la justicia sustancial.
+El fuego, cuyo fulgor ilumina y embellece la montaña, no alumbra a gran distancia. Así, la forma graciosa basta para alegrar e iluminar asuntos menores, pero las cuestiones importantes no pueden decidirse de esta manera. Necesitan mayor seriedad.
 
 ---
 
-### Las Líneas Individuales
+## Las Líneas Individuales
 
-#### Al principio, un Nueve significa:
-> Gracia en sus pies, abandona el carruaje y camina.
+### Al principio, un Nueve significa:
+> Adorna sus dedos del pie, abandona el carruaje y camina.
 
-Un individuo se contenta con la gracia propia y desdeña el brillo externo de los lujos. Prefiere la sencillez y el esfuerzo personal antes que apoyarse en medios artificiales. Esta actitud es un signo de independencia y rectitud.
+La posición al comienzo y en lugar subordinado trae consigo que uno debe asumir por sí mismo el esfuerzo de avanzar. Tendría la ocasión de procurarse a escondidas un alivio – representado bajo la imagen del carruaje. Pero un hombre cerrado en sí mismo desprecia tales alivios obtenidos de modo dudoso. Le parece más gracioso ir a pie que montar ilegítimamente en el carruaje.
 
-#### Seis en el segundo puesto significa:
-> Gracia en la barba.
+### Seis en el segundo puesto significa:
+> Adorna su barba.
 
-La barba es un adorno que no tiene voluntad propia; simplemente crece y acompaña a la personalidad. Aquí, la gracia no es algo buscado, sino un reflejo natural de la estructura interna. Es una belleza espontánea.
+La barba no es algo independiente. Solo puede moverse junto con la barbilla. La imagen significa, por tanto, que la forma solo cuenta como séquito y como fenómeno acompañante del contenido. La barba es un adorno superfluo. Su cultivo independiente sin consideración al contenido interior que se debe adornar – sería por tanto un signo de cierta vanidad.
 
-#### Nueve en el tercer puesto significa:
-> Gracia y humedad.  
-> Perseverancia constante trae ventura.
+### Nueve en el tercer puesto significa:
+> Gracioso y húmedo.  
+> La perseverancia constante trae ventura.
 
-Alguien se ve rodeado de una gracia que parece inagotable. Sin embargo, existe el peligro de que esta abundancia de encanto derive en vanidad o en un estilo de vida puramente estético. Solo la perseverancia en lo esencial mantiene esta gracia dentro de un marco virtuoso.
+Es una situación de vida sumamente graciosa en la que uno se encuentra. La gracia y un brillo húmedo y transfigurado lo rodean a uno. Esta gracia bien puede adornar, pero también puede hacer hundirse. De ahí la advertencia de no hundirse en la húmeda comodidad, sino permanecer constantemente perseverante. En ello se basa la ventura.
 
-#### Seis en el cuarto puesto significa:
-> Gracia o simplicidad.  
-> Un caballo blanco llega como si volara.  
-> No es un ladrón, corteja en el momento oportuno.
+### Seis en el cuarto puesto significa:
+> ¿Gracia o sencillez?  
+> Un caballo blanco llega como volando:  
+> No es un ladrón,  
+> quiere cortejar en el momento justo.
 
-La situación es de duda entre la elegancia y la sencillez. Se busca la unión con lo verdadero. El caballo blanco simboliza la pureza. El encuentro es honesto y se produce con la rapidez y la armonía que dicta la oportunidad adecuada.
+Uno está en una situación en la que surge la duda de si debe seguir buscando la gracia del brillo exterior o si no es mejor retornar a la sencillez. En esta duda yace ya la respuesta. Desde fuera se acerca una confirmación. Se acerca como un caballo blanco alado. El color blanco apunta a la sencillez. Y aunque en un primer momento podría parecer decepcionante que uno deba prescindir de las comodidades que podría procurarse por otro camino: en la fiel unión con el amigo y pretendiente se encuentra la tranquilización. El caballo volador es la imagen de los pensamientos que vuelan por encima de todas las barreras del espacio y del tiempo.
 
-#### Seis en el quinto puesto significa:
+### Seis en el quinto puesto significa:
 > Gracia en colinas y jardines.  
-> El rollo de seda es escaso y pequeño.  
-> Humillación, al final ventura.
+> El rollo de seda es pobre y pequeño.  
+> Vergüenza, pero al final ventura.
 
-Se intenta adornar la vida con elegancia, pero los medios son insuficientes. Esto puede causar una pequeña humillación inicial. Sin embargo, si se renuncia a la pretensión excesiva y se busca la belleza en la sobriedad, se alcanza finalmente la ventura.
+Uno se retira del trato con las personas de la profundidad, que solo buscan esplendor y lujo, de vuelta a la soledad de las alturas. Allí encuentra a una persona a la que admira y de la que quisiera hacerse amigo. Pero los regalos de hospitalidad que tiene para ofrecer son solo escasos y pobres, de modo que uno se avergüenza. Pero no depende del don externo, sino de la verdadera actitud; por eso todo termina bien.
 
-#### Al final, un Nueve significa:
-> Gracia blanca. Sin tacha.
+### Al final, un Nueve significa:
+> Gracia sencilla. Sin mácula.
 
-Se ha llegado al estado de la gracia pura, despojada de todo artificio. La blancura es el color de la sencillez. Ya no se necesita el adorno porque la forma y el contenido se han fundido. Es la perfección de la expresión sin la carga del ego.
+Aquí, en el grado más alto, se depone todo adorno. La forma ya no oculta el contenido, sino que lo deja llegar a plena vigencia. La más alta gracia no consiste en el adorno externo de la materia, sino en su configuración sencilla y apropiada.
+
+Las líneas oscuras están a punto de ascender y hacer caer también el último trazo firme y luminoso, corroyéndolo mediante su influencia. Lo vulgar y oscuro no combate a lo noble y fuerte directamente, sino que lo vacía gradualmente mediante un efecto imperceptible, de modo que finalmente se derrumba.
 
 ---
 

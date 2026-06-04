@@ -15,81 +15,80 @@ showAuthor: false
   &#x4DD7;
 </p>
 
-## 24. Fù / El Retorno
+## 24. Fù / El Retorno (El tiempo del cambio)
 
-* **Arriba**: Kūn (Lo Receptivo, la Tierra)
-* **Abajo**: Zhèn (Lo Conmocionante, el Trueno)
+### Trigramas
+* **Arriba:** Kūn (Lo Receptivo, la Tierra)
+* **Abajo:** Zhèn (Lo excitante, el Trueno)
 
-El signo representa el momento en que la luz comienza a regresar después de un largo periodo de oscuridad. La línea fuerte aparece en la base (el trueno), simbolizando el renacimiento, el cambio de ciclo y la renovación de la energía vital. El movimiento es hacia arriba, hacia la luz. Es el tiempo del solsticio, donde el invierno cede paso a la primavera y las posibilidades de crecimiento vuelven a estar presentes.
-
----
+El tiempo del cambio se indica porque, después de que las líneas oscuras han empujado hacia arriba a todas las luminosas, ahora vuelve a entrar una línea luminosa desde abajo en el signo. El tiempo de oscuridad ha pasado. El solsticio trae la victoria de la luz. El signo corresponde al undécimo mes, el mes del solsticio de invierno (diciembre-enero).
 
 ### El Dictamen
 
-> El Retorno. Éxito.  
-> Salida y entrada sin tacha.  
-> Los amigos vienen, no hay culpa.  
-> El camino da vueltas y vuelve.  
-> Tras siete jornadas se produce el retorno. [^1]  
-> Es propicio emprender algo.
+El Retorno. Éxito.
 
-El retorno no es un acto forzado, sino un movimiento natural que sigue su propio ritmo. Al igual que el invierno es seguido inevitablemente por la primavera, lo positivo regresa cuando las condiciones son propicias. No hay necesidad de apresurarse; el proceso se autorregula. Es un momento excelente para reanudar proyectos, retomar el contacto con los demás y avanzar, pues el curso de los acontecimientos favorece la vida y el crecimiento.
+Salida y entrada sin falta.
 
----
+Los amigos vienen sin mácula.
+
+De aquí para allá va el camino.
+
+Al séptimo día se produce el retorno.
+
+Es propicio tener a dónde ir.
+
+Después de un tiempo de decadencia llega el tiempo del cambio. La luz fuerte, que antes había sido expulsada, vuelve a entrar. Hay movimiento. Pero este movimiento no es forzado. El signo superior, Kun, tiene como carácter la entrega. Es, pues, un movimiento natural que surge por sí mismo. Por eso la transformación de lo antiguo es también completamente fácil. Lo antiguo es abolido, lo nuevo es introducido, ambas cosas corresponden al tiempo y por lo tanto no causan daño. Se forman uniones de personas de ideas afines. Pero esta unión se realiza en total publicidad, corresponde al tiempo, y por ello queda excluido todo afán egoísta particular, y de estas uniones no resulta ningún error. El retorno está fundado en el curso natural. El movimiento es circular. El camino está cerrado en sí mismo. Por eso no es necesario apresurar nada artificialmente. Todo viene por sí mismo, como es el momento. Ese es el sentido del Cielo y la Tierra.
+
+Todos los movimientos se realizan en seis etapas. La séptima etapa trae entonces el retorno. Así, en el séptimo mes después del solsticio de verano, a partir del cual el año declina, llega el solsticio de invierno; igualmente, en la séptima doble hora después de la puesta del sol, llega la salida del sol. Por eso el siete es el número de la luz joven, que surge porque el seis, el número de la gran oscuridad, se incrementa en uno. Así, el movimiento llega a la quietud.
 
 ### La Imagen
 
-> El trueno en el corazón de la tierra: la imagen del Retorno.  
-> Así, los antiguos reyes cerraban las fronteras  
-> durante el solsticio de invierno.  
-> Los comerciantes y los viajeros no circulaban,  
-> y el soberano no viajaba por el país.
+El trueno en medio de la tierra: la imagen del tiempo del cambio.
 
-En el solsticio, cuando la luz aún es débil y está en su inicio, se requiere calma y quietud para que la semilla del crecimiento no sea perturbada. Los antiguos gobernantes sabían que el cambio de ciclo exige un periodo de introspección y protección. Al cesar el movimiento externo, se permite que la nueva energía se asiente y se fortalezca de manera segura antes de volver a expandirse.
+Así los antiguos reyes cerraban en la época del solsticio los pasos.
 
----
+> Los comerciantes y los extranjeros no viajaban,
+> y el soberano no recorría las regiones.
+
+El solsticio de invierno fue celebrado desde siempre en China como el tiempo de reposo del año – una costumbre que aún se conserva en el reposo de Año Nuevo. En invierno, la fuerza vital –simbolizada por lo excitante, el trueno– está todavía bajo tierra. El movimiento está en sus primeros comienzos. Por eso hay que fortalecerlo mediante el reposo, para que no se agote por un consumo prematuro. Este principio, dejar que la fuerza que vuelve a aparecer se fortalezca mediante el reposo, vale para todas las situaciones correspondientes. La salud que retorna después de una enfermedad, el entendimiento que retorna después de una desavenencia: todo debe ser tratado en el primer comienzo con delicadeza y cuidado, para que el retorno conduzca a la floración.
 
 ### Las Líneas Individuales
 
 #### Al principio, un Nueve significa:
-> Retorno desde no muy lejos.  
-> No llega el remordimiento.  
-> ¡Ventura suprema!
 
-Un error pequeño se corrige rápidamente antes de que se convierta en una costumbre o en una falta grave. El retorno al buen camino es inmediato. Al reconocer el desvío a tiempo, la energía no se pierde y el éxito es total.
+Retorno desde poca distancia. No se necesita arrepentimiento. ¡Gran Ventura!
+
+Las pequeñas desviaciones del bien no se pueden evitar. Solo hay que retornar a tiempo, antes de haber ido demasiado lejos. Esto es especialmente importante en la formación del carácter. Cualquier pensamiento malo leve debe ser eliminado de inmediato, antes de que uno vaya demasiado lejos en él y se consolide. Así no se necesita arrepentimiento, y todo va muy bien.
 
 #### Seis en el segundo puesto significa:
-> Retorno sereno. ¡Ventura!
 
-Uno se deja guiar por la compañía de personas íntegras que también buscan el bien. No se trata de un esfuerzo heroico, sino de una sintonía natural con lo correcto. La serenidad del retorno radica en la falta de egoísmo y en la disposición de seguir el camino natural.
+Retorno sereno. ¡Ventura!
+
+El retorno requiere siempre una decisión y es un acto de autodominio. Se facilita cuando uno está en buena compañía. Si uno logra humillarse y ajustarse a las personas buenas, eso trae ventura.
 
 #### Seis en el tercer puesto significa:
-> Retorno vacilante. Peligro. Sin tacha.
 
-La persona vacila entre el buen camino y el antiguo error. Hay un retorno constante a las viejas costumbres, lo cual genera una inestabilidad peligrosa. Sin embargo, si al final se decide por el camino correcto, la intención pura lo salva de la culpa, aunque el camino sea tortuoso.
+Retorno múltiple. Peligro. Sin mácula.
+
+Hay personas de cierta inconstancia interior. Para ellas es necesario un continuo retorno de la dirección de la voluntad. En este continuo apartarse del bien por inclinación descontrolada y volverse hacia él por una mejor decisión, hay un peligro. Pero como de este modo tampoco se produce una consolidación en el mal, la dirección general hacia la eliminación del error no queda excluida.
 
 #### Seis en el cuarto puesto significa:
-> Rodeado de otros, uno retorna solo.
 
-Alguien se encuentra rodeado de quienes persisten en el error, pero mantiene su propia dirección. Regresa al camino del bien por su propia voluntad, separándose de las malas influencias. Es una decisión solitaria y valiente que exige gran integridad.
+Caminando en medio de los otros, se retorna solo.
+
+Uno está en medio de una sociedad de hombres vulgares, pero tiene relaciones internas con un amigo fuerte y bueno. A consecuencia de ello, retorna solo. Aunque no se trata de recompensa ni castigo, sin duda es favorable; pues una decisión hacia el bien lleva su recompensa en sí misma.
 
 #### Seis en el quinto puesto significa:
-> Retorno desde la reflexión interior. Sin remordimiento.
 
-Se asume la responsabilidad del propio camino con madurez. No hay dudas ni vacilaciones. Al reconocer los errores pasados con claridad, se alcanza un estado de equilibrio en el que la conciencia está tranquila y el futuro se abre con nuevas posibilidades.
+Retorno generoso. No hay arrepentimiento.
+
+Cuando ha llegado el momento del retorno, entonces no hay que esconderse detrás de pequeñas excusas, sino entrar en uno mismo y examinarse. Y si se ha hecho algo malo, entonces hay que reconocer el error con una decisión generosa. Ese es un camino que nadie lamentará.
 
 #### Al final, un Seis significa:
-> Retorno perdido. Desventura.  
-> Fracaso tanto en lo personal como en lo social.  
-> Si se envían ejércitos, al final se sufrirá una gran derrota.  
-> Esto traerá desventura al soberano del país.  
-> Por diez años no se podrá atacar.
 
-Se ha perdido la conexión con el ciclo de renovación. Se persiste obstinadamente en el error, negándose a aceptar el tiempo y la verdad del cambio. Esta rigidez conduce a una ruina total, tanto en los asuntos externos como en los internos, impidiendo cualquier progreso durante un largo ciclo de tiempo.
+Fracaso del retorno. Desventura. Desgracia desde fuera y desde dentro. Si así se hace marchar a los ejércitos, al final se sufrirá una gran derrota, de modo que será desventurado para el soberano del país. Por diez años no se estará en condiciones de atacar.
 
----
-
-[^1] El número siete representa el ciclo completo de transformación de un hexagrama a su opuesto. En el sistema del I Ching, una línea que cambia de posición requiere siete fases (seis movimientos intermedios más el séptimo de retorno) para regresar a su punto de partida. De manera análoga, el número diez (que aparece en la última línea) señala el fin de un ciclo mayor: el retorno pleno después de una década simbólica.
+Si se pierde el momento oportuno para el retorno, se cae en la desventura. La desgracia está fundada interiormente por la falsa relación con el contexto del mundo. La desgracia exterior es consecuencia de esta falsa relación. Es la obstinación y su juicio, el que queda señalado.
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)
