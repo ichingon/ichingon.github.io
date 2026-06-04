@@ -48,11 +48,11 @@ Por ejemplo, tres lineas Yang nos dan el trigrama ☰ Qián (乾), que represent
 
 ![El hexagrama 48 - El Pozo](el-pozo.webp "El hexagrama 48 - El Pozo")
 
-A su vez, con una pareja de trigramas, uno encima del otro, obtenemos los 64 hexagramas, que constituyen imágenes representativas de situaciones universales, tanto en el plano terrenal, celestial o humano. A veces, los nombres de estos hexagramas aluden a conceptos un tanto abstractos, como por ejemplo "La Posesión de lo Grande", o "La Modestia", que son los hexagramas 14 (䷍) y 15 (䷎), respectivamente. Otras veces, los hexagramas aluden a entidades más concretas, como es el caso del hexagrama 48 (䷯) - "El Pozo de Agua" y el hexagrama 56 (䷷) - "El Andariego".
+A su vez, con una pareja de trigramas, uno encima del otro, obtenemos los 64 hexagramas, que constituyen imágenes representativas de situaciones universales, tanto en el plano terrenal, celestial o humano. A veces, los nombres de estos hexagramas aluden a conceptos un tanto abstractos, como por ejemplo "La Posesión de lo Grande", o "La Modestia", que son los hexagramas 14 ([䷍](/hexagramas/hex14/)) y 15 ([䷎](/hexagramas/hex15/)), respectivamente. Otras veces, los hexagramas aluden a entidades más concretas, como es el caso del hexagrama 48 ([䷯](/hexagramas/hex48/)) - "El Pozo de Agua" y el hexagrama 56 ([䷷](/hexagramas/hex56/)) - "El Andariego".
 
 ![El hexagrama 56 - El Andariego](el-andariego.webp "El hexagrama 56 - El Andariego")
 
-Por ejemplo, juntando el trigrama de ☷ Kūn (坤), que representa la tierra, con el trigrama de ☲ Lí (离), que representa el fuego, obtenemos el hexagrama 35 (䷢) en la secuencia, cuyo nombre es Jìn (晉) , o el progreso. Su imagen es la del sol sobre la tierra, que representa una expansión y claridad de alcance cada vez mayor. 
+Por ejemplo, juntando el trigrama de ☷ Kūn (坤), que representa la tierra, con el trigrama de ☲ Lí (离), que representa el fuego, obtenemos el hexagrama 35 ([䷢](/hexagramas/hex35/)) en la secuencia, cuyo nombre es Jìn (晉) , o el progreso. Su imagen es la del sol sobre la tierra, que representa una expansión y claridad de alcance cada vez mayor. 
 
 En resumen, el I Ching se nos revela como un lenguaje universal. Un alfabeto binario de Yin y Yang da forma a las ocho palabras primordiales de los trigramas, que a su vez se combinan en las sesenta y cuatro sentencias de los hexagramas: un diccionario ancestral cuya sabiduría nos permite leer la realidad y sus infinitas mutaciones.
 
