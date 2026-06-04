@@ -15,7 +15,8 @@ showAuthor: false
   &#x4DC7;
 </p>
 
-**Trigramas:** Agua (Kan, Pinyin: *Kǎn*) arriba, Tierra (Kun, Pinyin: *Kūn*) abajo.
+**Arriba:** Kǎn (Lo Abismal, el Agua)  
+**Abajo:** Kūn (Lo Receptivo, la Tierra)
 
 ---
 
@@ -56,7 +57,7 @@ Cuando se trata de entablar relaciones, la plena veracidad es la única base cor
 > Mantén la unión con él en el interior.
 > La perseverancia trae ventura.
 
-Si uno responde de manera correcta y perseverante a las peticiones que desde arriba nos incitan a actuar, las relaciones con el otro son en primer lugar interiores; uno no se pierde a sí mismo. Pero quien busca la unión de manera trepadora y pegajosa, no sigue la senda del noble, que preserva su dignidad, sino que se rebaja.
+Si uno responde de manera correcta y perseverante a las peticiones que desde arriba nos incitan a actuar, las relaciones con el otro son en primer lugar interiores; uno no se pierde a sí mismo. Pero quien busca la unión de manera trepadora y pegajosa, no sigue la senda del El Noble, que preserva su dignidad, sino que se rebaja.
 
 ### Seis en el tercer puesto significa:
 

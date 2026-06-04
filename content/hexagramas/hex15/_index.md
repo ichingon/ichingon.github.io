@@ -15,69 +15,72 @@ showAuthor: false
   &#x4DCE;
 </p>
 
-**Trigramas:** Tierra (Kun, Pinyin: *Kūn*) arriba, Montaña (Ken, Pinyin: *Gèn*) abajo.
+**Arriba:** Kun (Lo Receptivo, la Tierra)  
+**Abajo:** Gen (El Reposo, la Montaña)
 
 ---
 
-El signo muestra la montaña, el hijo menor de lo Creativo, el representante de la tierra en un sentido elevado, que se encuentra debajo de la tierra, lo Receptivo. La montaña es una acumulación densa de masa terrestre que se eleva hacia lo alto; pero aquí se humilla y se sitúa debajo de la llanura de la tierra. Esto da la idea de la modestia.
-
-Considerado desde las leyes que rigen los trazos individuales, el signo muestra cómo la única línea fuerte (el Nueve en el tercer puesto) se coloca de manera humilde en una posición inferior, sirviendo de base y soporte para las líneas blandas que la rodean, las cuales la aceptan y se subordinan a ella con docilidad.
+El signo se compone de Gen, El Reposo, la montaña, y Kun. La montaña es el hijo menor de Lo Creativo, el representante del Cielo en la Tierra. Ella derrama las bendiciones del Cielo, nubes y lluvia, que se reúnen en torno a su cima, hacia abajo, y luego resplandece transfigurada en luz celestial. Esto muestra la modestia y su efecto en personas altas y fuertes. Arriba está Kun, la Tierra. La propiedad de la Tierra es la bajeza, pero precisamente por eso se la representa en este signo como elevada, al estar arriba, sobre la montaña. Esto muestra el efecto de la modestia en personas bajas y simples: por ella son elevadas.
 
 ## El Dictamen
 
 > La modestia obra el éxito.
-> El noble la lleva a buen fin.
+> El Noble la lleva a buen fin.
 
-Es la ley del universo que las cosas que están colmadas y llenas sufran mengua, mientras que aquello que es humilde y vacío sea colmado y reciba aumento. El sol disminuye su altura tras alcanzar el cenit y la luna mengua tras estar llena; los valles se llenan con el agua que corre desde las altas cumbres. Así también en el ámbito social y humano: el orgullo y la soberbia atraen la animadversión y el declive, mientras que la modestia despierta el afecto, la confianza y la cooperación voluntaria de los hombres.
+La ley del Cielo hace vacío lo lleno y llena lo modesto: cuando el sol está en su punto más alto, por ley celestial debe descender, y cuando está más profundo bajo la tierra, se encamina a un nuevo ascenso. Cuando la luna está llena, mengua según la misma ley, y cuando está vacía, vuelve a crecer. Esta ley celestial se manifiesta también en los destinos humanos. La ley de la Tierra es cambiar lo lleno y afluir a lo modesto: las altas montañas son desgastadas por las aguas y los valles son rellenados. La ley de los poderes del destino es dañar a lo lleno y conceder ventura a lo modesto. Y también los hombres odian lo lleno y aman lo modesto.
 
-El noble es capaz de llevar sus empresas a buen fin porque no se detiene a vanagloriarse de sus logros ni se duerme en los laureles del éxito temprano; continúa trabajando de manera constante en el silencio, sin pretender imponerse por la fuerza, lo cual le asegura un desenlace bienaventurado.
+Los destinos siguen leyes fijas que se manifiestan con necesidad. Pero el hombre tiene en su mano configurar su destino, según se exponga, por su conducta, a la influencia de las fuerzas benéficas o destructivas. Cuando el hombre está en una posición elevada y se muestra modesto, resplandece en la luz de la sabiduría. Cuando es bajo y se muestra modesto, no puede ser pasado por alto. Así, el Noble logra llevar su obra a buen fin sin vanagloriarse de lo terminado.
 
 ## La Imagen
 
-> En medio de la tierra hay una montaña: la imagen de la modestia.
-> Así el noble disminuye lo que está de más y aumenta lo que está de menos.
+> En medio de la tierra hay una montaña:
+> la imagen de la modestia.
+> Así el Noble disminuye lo que está de más
+> y aumenta lo que está de menos.
 > Él pondera las cosas y las iguala.
 
-La montaña oculta sus riquezas y su inmensa masa debajo de la llanura de la tierra. El noble aprende de esta imagen universal que el verdadero equilibrio social y espiritual requiere una distribución justa de las fuerzas. "Disminuye lo que está de más y aumenta lo que está de menos" significa combatir los excesos y las desigualdades artificiales que desintegran la armonía de una comunidad. Al ponderar las situaciones de la vida con justicia objetiva y sin prejuicios egoístas, logra equilibrar las condiciones externas e interiores de los hombres, restableciendo el orden natural.
+A la tierra, en la que una montaña está oculta, no se le ve su riqueza, pues lo alto de la montaña sirve para compensar las depresiones. Así se complementan lo alto y lo bajo, y el resultado es la llanura. Esta es la imagen de la modestia: que aquello que necesitó de una larga actuación aparece como algo natural y fácil. Así hace el Noble cuando establece el orden en la Tierra. Él compensa los contrastes sociales, que son la fuente de la discordia, y crea con ello relaciones justas y llanas.[^1]
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales
 
 ### Seis al principio significa:
 
-> Un noble sumido en la modestia
+> Un noble muy modesto
 > puede cruzar las grandes aguas.
 > ¡Ventura!
 
-Un hombre que posee un valor real pero se mantiene enteramente modesto en su fuero interno puede afrontar las tareas más difíciles y peligrosas, simbolizadas por cruzar las grandes aguas. Al carecer de pretensiones egoístas o ambiciones de figuración, no encuentra resistencias hostiles en su camino; los demás cooperan con él de forma natural porque no se sienten amenazados por su presencia. Esta prudencia desinteresada le permite superar los mayores peligros con ventura.
+Una empresa peligrosa, como cruzar grandes aguas, es muy dificultosa cuando entran en juego muchas exigencias y consideraciones. En cambio, resulta fácil cuando se realiza rápida y simplemente. Por eso, la disposición de ánimo completamente desprovista de pretensiones que caracteriza a la modestia es adecuada para llevar a cabo incluso empresas difíciles, porque no plantea exigencias ni condiciones previas, sino que resuelve el asunto de manera directa y ligera; pues donde no se formulan exigencias, no surgen resistencias.
 
 ### Seis en el segundo puesto significa:
 
 > Modestia que se manifiesta.
 > La perseverancia trae ventura.
 
-La modestia interior de esta línea es tan profunda y genuina que se trasluce de manera espontánea en la conducta externa y en las palabras de la persona. No se trata de una falsa modestia calculada para agradar, sino de una cualidad real del carácter que ejerce una influencia benéfica sobre el entorno. Mantenerse firme y perseverante en esta actitud rectilínea asegura un camino afortunado y trae ventura.
+De lo que el corazón está lleno, de eso habla la boca.
+
+Cuando alguien es tan modesto interiormente que esta disposición se manifiesta en su conducta externa, ello le trae ventura: pues de este modo tiene por sí mismo la posibilidad de una acción perseverante, que nadie desplaza.
 
 ### Nueve en el tercer puesto significa:
 
-> Un noble meritorio en la modestia
+> Un noble meritorio y modesto
 > la lleva a buen fin. ¡Ventura!
 
-Esta es la línea soberana y el centro de fuerza de todo el signo. Se describe aquí a un hombre que ha realizado grandes obras y prestado inmensos servicios a la comunidad (es meritorio), pero que conserva una humildad intacta. No exige reconocimientos ni se adjudica privilegios especiales por su labor; continúa asumiendo sus responsabilidades con sencillez y devoción al deber. Un carácter de esta índole es invencible; despierta un respeto tan profundo que logra llevar cualquier empresa colectiva a un buen fin.[^1]
+Aquí está el centro del signo, donde se expresa su secreto. Por medio de grandes logros uno se gana pronto un nombre importante. Si uno se deja deslumbrar por la fama, muy pronto surgirán las críticas y se levantarán dificultades. Si, por el contrario, a pesar de sus méritos permanece modesto, se hace querer y gana las fuerzas auxiliares necesarias para llevar a buen fin la obra que ha emprendido.
 
 ### Seis en el cuarto puesto significa:
 
 > Nada que no sea propicio
 > para la modestia en el actuar.
 
-Ocupando una posición intermedia, muy cerca del soberano en el quinto puesto, surge la tentación de hacer valer la propia influencia o de lucirse ante los demás. No obstante, aquí la línea reconoce el carácter del tiempo y actúa con extrema moderación. Sabe cumplir con sus funciones sin eclipsar a sus superiores ni oprimir a sus subordinados. En esta posición expuesta, conducirse con una modestia escrupulosa en cada acción resulta enteramente propicio y libre de peligro.
+Todo tiene su medida. También la modestia en el comportamiento puede ser exagerada. Aquí está en su lugar, ya que la situación, entre un colaborador meritorio abajo y un gobernante benévolo arriba, conlleva una gran responsabilidad. No se debe abusar de la confianza del superior, ni se deben ocultar los méritos del subordinado. Hay ciertos funcionarios que no se destacan. Se cubren con la letra de los decretos, rechazan toda responsabilidad, aceptan pago sin rendir lo correspondiente, llevan títulos a los que ninguna realidad da significado. La modestia aquí mencionada es lo contrario de eso. La modestia en una posición semejante se muestra precisamente en que uno está interesado en el trabajo.
 
 ### Seis en el quinto puesto significa:
 
-> No rico en su prójimo.
+> No jactarse de riqueza frente al prójimo.
 > Es propicio intervenir con la fuerza.
-> Todo actúa de manera propicia.
+> Nada que no sea propicio.
 
-La modestia no debe confundirse con la debilidad o la pasividad ante el desorden. Aquí se muestra a un conductor o gobernante que es humilde en su trato personal ("no rico en su prójimo" alude a que no se apoya en la ostentación del poder material), pero que tiene la responsabilidad de mantener el orden. Si elementos rebeldes o destructivos abusan de su benevolencia y causan confusión, es perfectamente justo y propicio intervenir con energía y hacer uso de la fuerza legítima para restablecer la justicia. Una severidad ejercida bajo el sello de la modestia interior no degenera en tiranía, por lo cual todo actúa de manera propicia.
+La modestia es diferente de la bondadosa debilidad que lo deja todo pasar. Cuando se ocupa un puesto de responsabilidad, a veces es necesario intervenir con energía. Pero para ello es necesario no pretender actuar mediante la jactancia personal de la propia superioridad, sino que uno debe estar seguro de su entorno. La intervención debe ser puramente objetiva y no tener nada de personalmente hiriente. En ello se muestra la modestia también en la severidad.
 
 ### Seis arriba significa:
 
@@ -85,13 +88,15 @@ La modestia no debe confundirse con la debilidad o la pasividad ante el desorden
 > Es propicio poner ejércitos en movimiento
 > para castigar la propia ciudad y el propio país.
 
-La modestia ha alcanzado su punto más alto, pero la influencia externa para corregir los males del mundo exterior es limitada debido a la falta de una posición de poder ejecutivo amplio. Si se presenta el desorden o la soberbia en el entorno inmediato, el individuo no debe cruzarse de brazos. Debe aplicar la disciplina empezando por sí mismo y por su círculo más cercano ("castigar la propia ciudad y el propio país"). Poner la fuerza de la voluntad en movimiento para corregir las propias faltas y los errores del entorno inmediato es completamente legítimo y propicio, pues prepara la rectitud interior indispensable antes de intentar influir a gran escala.
+A quien va en serio con su modestia, debe cuidar de que se muestre en la realidad. Debe proceder con gran energía. Cuando surge hostilidad, nada es más fácil que buscar la culpa en el otro. Un hombre débil quizá entonces se retira ofendido sobre sí mismo, se compadece de sí mismo y cree que es modestia no defenderse. La verdadera modestia se muestra en que aborda con energía el establecimiento del orden, y comienza la corrección por el propio yo y el círculo más íntimo. Solo así se logra algo verdaderamente poderoso: teniendo el valor de hacer marchar los ejércitos contra uno mismo.[^2]
 
----
+## Notas al pie
 
-[^1]: Respecto a esta línea tan célebre, Confucio expresa en sus comentarios tradicionales: "Él trabaja y no se jacta; tiene méritos y no se los adjudica como una virtud personal. Esto constituye la máxima sabiduría. Significa que posee méritos tan inmensos que se sitúa por debajo de los demás. Su lenguaje es humilde, pero su conducta irradia un respeto real. Esto es lo que permite al noble consolidar su obra de manera duradera".
+[^1]: En este signo se observa una serie de paralelismos con la enseñanza profética y cristiana de la Biblia, por ejemplo: "Quien a sí mismo se enaltece, será humillado; quien a sí mismo se humilla, será enaltecido". "Todos los valles serán elevados, y todas las montañas y colinas serán humilladas; y lo desigual será igualado, y lo escabroso será allanado" (Isaías 40,4). "Dios resiste a los soberbios, pero a los humildes da su gracia". También el juicio mundial en la religión persa muestra rasgos similares. Y respecto a la última cita, habría que mencionar la concepción griega de la envidia de los dioses.
 
-### Enlaces de Consulta
+[^2]: Existen pocos signos en el Libro de las Transformaciones en los que todas las líneas sean solo favorables, como en el signo de la Modestia. De ello se desprende cuán alto valora la sabiduría china esta virtud.
+
+## Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

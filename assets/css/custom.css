@@ -106,3 +106,100 @@ html.dark .main-menu nav a[href*="youtube.com"]:hover svg {
     fill: #ffffff !important;
     color: #ffffff !important;
 }
+
+
+/* --------------------------------------------------------------------------
+   tooltip para los terminos especiales
+   -------------------------------------------------------------------------- */
+/* Estilo base de la palabra con tooltip (igual en ambos modos) */
+.iching-tooltip {
+  position: relative;
+  border-bottom: 1px dotted #d4af37; /* Dorado sutil, contrasta perfecto en oscuro y claro */
+  cursor: help;
+  color: inherit;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.iching-tooltip:hover,
+.iching-tooltip:focus {
+  color: #d4af37;
+  outline: none;
+}
+
+/* --- CAJA DEL TOOLTIP: MODO OSCURO (POR DEFECTO) --- */
+.iching-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 260px;
+  background-color: #1e293b; /* Fondo oscuro elegante (slate-800) */
+  color: #f8fafc; /* Texto claro */
+  border: 1px solid #334155;
+  text-align: left;
+  border-radius: 8px;
+  padding: 10px 12px;
+  position: absolute;
+  z-index: 100;
+  bottom: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.4;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+/* Flechita del tooltip (Modo Oscuro por defecto) */
+.iching-tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #1e293b transparent transparent transparent;
+}
+
+/* --- CAJA DEL TOOLTIP: MODO CLARO (Override cuando Blowfish aplica .light) --- */
+html.light .iching-tooltip .tooltip-text {
+  background-color: #ffffff;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Flechita del tooltip (Modo Claro) */
+html.light .iching-tooltip .tooltip-text::after {
+  border-color: #ffffff transparent transparent transparent;
+}
+
+/* Mostrar el tooltip al hacer hover o focus */
+.iching-tooltip:hover .tooltip-text,
+.iching-tooltip:focus .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* --- AJUSTE PARA MÓVILES (Muestra el tooltip debajo para no salirse de pantalla) --- */
+@media (max-width: 640px) {
+  .iching-tooltip .tooltip-text {
+    width: 220px;
+    bottom: auto;
+    top: 120%;
+  }
+  
+  /* Flecha apuntando hacia arriba (Modo Oscuro Móvil - Por defecto) */
+  .iching-tooltip .tooltip-text::after {
+    top: auto;
+    bottom: 100%;
+    border-color: transparent transparent #1e293b transparent;
+  }
+  
+  /* Flecha apuntando hacia arriba (Modo Claro Móvil) */
+  html.light .iching-tooltip .tooltip-text::after {
+    border-color: transparent transparent #ffffff transparent;
+  }
+}

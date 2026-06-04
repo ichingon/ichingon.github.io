@@ -15,13 +15,14 @@ showAuthor: false
   &#x4DC5;
 </p>
 
-**Trigramas:** Cielo (Ch'ien, Pinyin: *Qián*) arriba, Agua (Kan, Pinyin: *Kǎn*) abajo.
+**Arriba:** Qián (Lo Creativo, el Cielo)  
+**Abajo:** Kǎn (Lo Abismal, el Agua)
 
 ---
 
 El trigrama superior, cuya imagen es el cielo, tiene una dirección de movimiento hacia arriba; el trigrama inferior, "Agua", está dirigido por su naturaleza hacia abajo. Las direcciones de movimiento de ambas mitades se apartan entre sí, lo cual da por resultado la idea del pleito.
 
-La cualidad de lo Creativo es la fuerza; la de lo Abismal es el peligro, la astucia. Donde la astucia se encuentra frente a la fuerza, hay pleito.
+La cualidad de Lo Creativo es la fuerza; la de Lo Abismal es el peligro, la astucia. Donde la astucia se encuentra frente a la fuerza, hay pleito.
 
 Una tercera derivación se presenta dentro del carácter mediante la combinación de una astucia abismal en el interior y una fuerte resolución en el exterior. Un carácter de tal índole será sin duda propenso al pleito.
 
@@ -30,21 +31,21 @@ Una tercera derivación se presenta dentro del carácter mediante la combinació
 > El pleito: eres veraz y eres contenido.
 > Un cauteloso detenerse a mitad de camino trae ventura.
 > Llevarlo hasta el final trae desventura.
-> Es propicio ver al gran hombre.
+> Es propicio ver al Gran Hombre.
 > No es propicio cruzar las grandes aguas.
 
 El pleito surge cuando uno, sintiéndose en su derecho, tropieza con resistencia. Sin la convicción del propio derecho, la resistencia conduce a la astucia o a atropellos violentos, pero no al pleito abierto.
 
-Si uno se encuentra enredado en un pleito, una poderosa prudencia, que esté dispuesta en todo momento a solucionar el litigio y a llegar a un acuerdo a mitad de camino, es lo único que trae salvación. Perseguir el pleito hasta el amargo final es perjudicial, incluso si uno conserva la razón, porque de ese modo se eterniza la enemistad. Es importante ver al gran hombre, es decir, a un hombre imparcial cuya autoridad sea suficiente para solucionar el pleito pacíficamente o decidirlo con justicia. Por otra parte, se debe evitar en tiempos de discordia "cruzar las grandes aguas", es decir, comenzar empresas peligrosas, pues estas requieren de fuerzas unidas y cohesionadas para tener éxito. El pleito en el interior paraliza la fuerza para vencer el peligro en el exterior.
+Si uno se encuentra enredado en un pleito, una poderosa prudencia, que esté dispuesta en todo momento a solucionar el litigio y a llegar a un acuerdo a mitad de camino, es lo único que trae salvación. Perseguir el pleito hasta el amargo final es perjudicial, incluso si uno conserva la razón, porque de ese modo se eterniza la enemistad. Es importante ver al Gran Hombre, es decir, a un hombre imparcial cuya autoridad sea suficiente para solucionar el pleito pacíficamente o decidirlo con justicia. Por otra parte, se debe evitar en tiempos de discordia "cruzar las grandes aguas", es decir, comenzar empresas peligrosas, pues estas requieren de fuerzas unidas y cohesionadas para tener éxito. El pleito en el interior paraliza la fuerza para vencer el peligro en el exterior.
 
 ## La Imagen
 
 > El cielo y el agua van en direcciones opuestas: la imagen del pleito.
-> Así el noble, en todos los negocios que realiza, considera el principio.
+> Así el Noble, en todos los negocios que realiza, considera el principio.
 
 La imagen alude a que las causas del pleito radican en las direcciones ya previamente opuestas de ambas partes. Una vez que tales direcciones contrapuestas están presentes, el pleito se sigue con necesidad. De esto se deduce que, para prevenir el pleito, en el primer comienzo todo debe ser considerado con cuidado. Si el derecho y el deber están exactamente determinados, o si en una asociación de hombres sus direcciones espirituales coinciden, la causa del pleito queda eliminada de antemano.
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales
 
 ### Seis al principio significa:
 
@@ -87,14 +88,10 @@ Se muestra aquí al árbitro del pleito, que es poderoso y justo y que posee la 
 
 ### Nueve arriba significa:
 
-> Si acaso a uno le es concedido un cinturón de cuero,[1^]
+> Si acaso a uno le es concedido un cinturón de cuero,
 > al cabo de una mañana le será arrebatado tres veces.
 
 Aquí se dibuja a alguien que ha llevado el pleito hasta el amargo final y ha conservado la razón. Recibe una distinción. Pero la dicha no es duradera. Es impugnada una y otra vez, y un pleito sin fin es la consecuencia.
-
----
-
-[^1]:  En la antigua China, un cinturón de cuero era una distinción oficial.
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)

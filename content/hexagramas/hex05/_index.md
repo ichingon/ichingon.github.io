@@ -1,6 +1,6 @@
 ---
 layout: "simple"
-title: "Hexagrama 5 需 - Hsü / La Espera"
+title: "Hexagrama 5 需 - Hsü / La Espera (La Alimentación)"
 weight: 7
 draft: false
 description: "Traducción completa y análisis del Hexagrama 5 (Hsü) del I Ching basado en la versión de Richard Wilhelm, con caracteres Unicode y pinyin."
@@ -15,11 +15,12 @@ showAuthor: false
   &#x4DC4;
 </p>
 
-**Trigramas:** Agua (Kan, Pinyin: *Kǎn*) arriba, Cielo (Ch'ien, Pinyin: *Qián*) abajo.
+**Arriba:** Kǎn (Lo Abismal, el Agua)  
+**Abajo:** Qián (Lo Creativo, el Cielo)
 
 ---
 
-Todos los seres necesitan el sustento desde arriba. Pero el dispensar del alimento tiene su tiempo, el cual se debe esperar. El signo muestra las nubes en el cielo que brindan la lluvia, la cual alegra a toda la vegetación y provee al hombre de comida y bebida. Esta lluvia vendrá a su debido tiempo. No se la puede forzar, sino que se debe esperar por ella. La idea de la espera es sugerida además por las cualidades de los dos signos primordiales: adentro fuerza, delante peligro. La fuerza ante el peligro no se precipita, sino que sabe esperar, mientras que la debilidad ante el peligro se agita y carece de la paciencia para aguardar.
+Todos los seres necesitan el sustento desde arriba. Pero el dispensar del alimento tiene su tiempo, el cual se debe esperar. El Hexagrama muestra las nubes en el cielo que brindan la lluvia, la cual alegra a toda la vegetación y provee al hombre de comida y bebida. Esta lluvia vendrá a su debido tiempo. No se la puede forzar, sino que se debe esperar por ella. La idea de la espera es sugerida además por las cualidades de los dos signos primordiales: adentro fuerza, delante peligro. La fuerza ante el peligro no se precipita, sino que sabe esperar, mientras que la debilidad ante el peligro se agita y carece de la paciencia para aguardar.
 
 ## El Dictamen
 
@@ -35,19 +36,19 @@ Un peligro se encuentra ante uno, el cual debe ser superado. La debilidad y la i
 ## La Imagen
 
 > Las nubes ascienden en el cielo: la imagen de la espera.
-> Así el noble come y bebe, y está alegre y de buen ánimo.
+> Así El Noble come y bebe, y está alegre y de buen ánimo.
 
 Cuando las nubes ascienden en el cielo, es una señal de que va a llover. En ese momento no se puede hacer nada más que esperar hasta que caiga la lluvia. Así sucede también en la vida cuando un destino se está preparando. Mientras el tiempo aún no se haya cumplido, uno no debe preocuparse ni pretender dar forma al futuro mediante el propio obrar e intervenir, sino acumular fuerzas en calma: mediante la comida y la bebida para el cuerpo, y mediante la alegría y el buen ánimo para el espíritu. El destino llega enteramente por sí mismo, y entonces uno se halla listo.
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales
 
 ### Nueve al principio significa:
 
 > Espera en el prado.
 > Es propicio permanecer en lo duradero.
-> Sin tacha.
+> Sin error.
 
-El peligro todavía está lejos. Se aguarda aún en una llanura abierta. Las circunstancias todavía son simples; solo hay algo en el aire que está por llegar. En tal caso, es menester mantener las regularidades de la vida durante tanto tiempo como sea posible. Solo de esta manera uno se preserva de un desgaste prematuro de las fuerzas y permanece libre de tachas o errores que habrían de significar un debilitamiento para más adelante.
+El peligro todavía está lejos. Se aguarda aún en una llanura abierta. Las circunstancias todavía son simples; solo hay algo en el aire que está por llegar. En tal caso, es menester mantener las regularidades de la vida durante tanto tiempo como sea posible. Solo de esta manera uno se preserva de un desgaste prematuro de las fuerzas y permanece libre de errores o manchas que habrían de significar un debilitamiento para más adelante.
 
 ### Nueve en el segundo puesto significa:
 
@@ -67,7 +68,7 @@ El lodo, que ya es bañado por el agua del río, no es un sitio propicio para la
 ### Seis en el cuarto puesto significa:
 
 > Espera en la sangre.
-> ¡Sal de la trampa!
+> Sal del foso.
 
 La situación es sumamente peligrosa. Se ha tornado enteramente seria y se debate entre la vida y la muerte. Se espera un derramamiento de sangre de forma inminente. No se puede ir hacia adelante ni hacia atrás; uno se encuentra aislado como en un foso. Allí corresponde simplemente aguantar y dejar que el destino siga su curso. Esta calma, que evita agravar el perjuicio mediante un obrar propio, constituye el único camino para salir de ese foso peligroso.
 
@@ -87,8 +88,6 @@ Así sucede también en la vida pública: no se puede lograr todo de golpe. Cons
 > Hónralos, y al final vendrá la ventura.
 
 La espera ha concluido: el peligro ya no se puede desviar. Se cae en el foso y es preciso resignarse ante lo inevitable. En ese instante todo parece haber sido en vano. No obstante, precisamente en medio de esta penuria se presenta un giro imprevisto. Desde el exterior, y sin intervención propia, ocurre una mediación de la cual uno al principio puede dudar respecto a su intención, ignorando si se avecina la salvación o la destrucción. En ese momento corresponde permanecer interiormente flexible. Lo correcto no es un encierro obstinado y esquivo, sino un recibimiento reverente del nuevo giro. Así se logra finalmente salir del peligro y todo marcha bien. También los giros afortunados se presentan a menudo bajo una apariencia que al principio nos resulta extraña.[^1]
-
----
 
 [^1]: En la obra *Hermann y Dorothea* de Goethe se expresa esta verdad con los siguientes versos: "Pues los deseos nos ocultan lo deseado; los dones vienen desde arriba en sus propias formas".
 

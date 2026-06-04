@@ -50,7 +50,6 @@ Ebenso wie es nur einen Himmel gibt, gibt es auch nur eine Erde. Während aber b
 ## Die einzelnen Linien
 
 ### Anfangs eine Sechs bedeutet:
-
 > Tritt man auf Reif, so naht das feste Eis
 
 Wie die lichte Kraft das Leben darstellt, so die schattige Kraft den Tod. Im Herbst, wenn der Frühreif fällt , ist die Kraft des Dunkels und der Kälte erst in der Entfaltung. Nach den ersten Spuren werden sich nach festen Gesetzen die Äußerungen des Todes allmählich mehren, bis schließlich der starre Winter mit seinem Eis da ist.
@@ -58,7 +57,6 @@ Wie die lichte Kraft das Leben darstellt, so die schattige Kraft den Tod. Im Her
 Genau so geht es im Leben. Wenn sich leise, kaum merkliche Zeichen des Verfalls zeigen so geht es weiter, bis schließlich der Untergang da ist. Aber im Leben kann man vorbeugen, wenn man die Anzeichen des Verfalls beachtet und ihnen rechtzeitig entgegentritt.
 
 ### Sechs auf zweitem Platz bedeutet:
-
 > Gerade, rechtwinklig, groß. Ohne Absicht bleibt doch nichts ungefördert.
 
 Der Himmel hat als Symbol en Kreis, die Erde das rechtwinklige Quadrat. Somit ist das Rechtwinklige eine ursprüngliche Eigenschaft der Erde. Dagegen ist die geradlinige Bewegung ursprünglich eine Eigenschaft des Schöpferischen, ebenso wie die Größe. Aber alle rechtwinkligen Dinge haben ihre Wurzel in der geraden Linie und bilden ihrerseits wieder körperliche Größen. Wenn man in der Mathematik Linien, Flächen und Körper unterscheidet, so ergebe sich aus geraden Linien rechtwinklige Flächen und aus rechtwinkligen Flächen kubische Größen, Das Empfangende richtet sich nach den Eigenschaften des Schöpferischen und macht sie zu seinen eigenen. So wird aus einer Geraden ein Quadrat und aus einem Quadrat ein Würfel. Das ist die Einfache Hingebung an die Gesetzt des Schöpferischen ohne etwas davon oder dazuzutun. Darum bedarf es für das Empfangende nicht einer besonderen Absicht oder Anstrengung, und alles wird recht.
@@ -66,25 +64,21 @@ Der Himmel hat als Symbol en Kreis, die Erde das rechtwinklige Quadrat. Somit is
 Die Natur erzeugt die Wesen ohne Falsch, das ist ihre Geradheit; sie ist ruhig und still, das ist ihre Rechtwinkligkeit; sie weigert sich nicht, irgendein Wesen zu dulden, das ist ihre Größe. Darum erreicht sie ohne äußeres Machen oder besonders Absichten für alle das Rechte. Für den Menschen bedeutet es höchste Weisheit, in seinem Wirken so selbstverständlich zu werden wie die Natur.
 
 ### Sechs auf drittem Platz bedeutet:
-
 > verborgene Linien; man vermag beharrlich zu bleiben. Folgst du etwa eines Königs Diensten, so such nicht Werke, aber vollende !
 
 Wenn man frei von Eitelkeit ist, so vermag man seine Vorzüge so zu verdecken, daß sie nicht vorzeitig die öffentliche Aufmerksamkeit auf sich ziehen. So kann man in der Stille reifen. Wenn es die Verhältnisse erfordern, so mag man auch in die Öffentlichkeit hervortreten, aber auch dann zurückhaltend. Der Weise wird den Ruhm gern andern lassen. Er sucht nicht fertige Tatsachen, die ihm als Verdienste angerechnet werden. wohl aber erhofft er wirkende Ursachen, d.h. er vollendet die Werke so, daß sie für die Zukunft fruchtbringend sind.
 
 ### Sechs auf viertem Platz bedeutet:
-
 > Zugebundener Sack. Kein Makel; Kein Lob.
 
 Das Schattige öffnet sich , wenn es sich bewegt, und schließt sich , wenn es ruht. Hier ist die strengste Verschlossenheit gezeichnet. Die Zeit ist gefährlich: Jedes Hervortreten führt entweder zur Feindschaft übermächtiger Gegner, wenn man sie bekämpfen wollt, oder zu mißverstandener Anerkennung, wenn man sich läßlich gäbe. So gilt es, sich zu verschließen, sei es in der Einsamkeit oder im Weltgetriebe: denn auch da kann man sich so gut verbergen, daß niemand einen kennt.
 
 ### Sechs auf fünftem Platz bedeutet:
-
 > Gelbes Untergewand brings erhabenes Heil.
 
 Gelb ist die Farbe der Erde und der Mitte, das Symbol des Zuverlässigen und Echten. Das Untergewand ist unauffällig verziert, das Symbol vornehmer Zurückhaltung. Wenn jemand zu wirken berufen ist an hervorragender, doch nicht unabhängiger Stellung, so beruht der wahre Erfolg auf der höchsten Diskretion. Die Echtheit und Feinheit darf nicht direkt hervortreten, sondern nur als Wirkung von innen her sich mittelbar äußern.
 
 ### Oben eine Sechs bedeutet:
-
 > Drachen kämpfen auf dem Anger. Ihr Blut ist schwarz und gelb [^2]
 
 Auf dem obersten Platz sollte das Schattige dem Lichten weichen. Will es sich auf dem Platz, der ihm nicht gebührt, behaupten, und statt zu dienen, herrschen, so zieht es sich den Zorn des Starken zu. Es kommt zum Kampf, in dem es gestürzt wird, in dem jedoch beide Teile zu Schaden kommen.
@@ -92,7 +86,6 @@ Auf dem obersten Platz sollte das Schattige dem Lichten weichen. Will es sich au
 Der Drache, das Symbol des Himmels, kommt herbei und bekämpft den falschen Drachen, zu dessen Bilde hier das Irdische sich gesteigert hat. Schwarzblau ist die Farbe des Himmels, Gelb ist die Farbe der Erde. Wenn also schwarzes und gelbes Blut fließt, so ist das ein Zeichen, daß durch diesen unnatürlichen Kampf beide Grundkräfte Schaden leiden.
 
 ### Wenn lauter Sechsen erscheinen, bedeutet das:
-
 > Fördernd ist dauernde Beharrlichkeit.
 
 Wenn lauter Sechsen erscheinen, verwandelt sich das Zeichen des Empfangenden in das Zeichen des Schöpferischen. Es gewinnt so die Kraft der Dauer im Festhalten des Rechten. Es gibt zwar keinen Fortschritt, aber auch keinen Rückschritt.
@@ -103,6 +96,8 @@ Wenn lauter Sechsen erscheinen, verwandelt sich das Zeichen des Empfangenden in 
 
 [^2]: Während die oberste Linie des Schöpferischen Titanenstolz zeigt und eine Parallele bildet zur griechischen Sage des Ikarus, ist in der obersten Linie das. Empfangende eine Parallele zum Mythos von Lucifer, der sich gegen die oberste Gottheit empört, oder zu dem Kampf der dunklen Mächte gegen die Götter Walhalls. der mit der Götterdämmerung endet.
 
-### Referenzlinks
+---
+
+## Referenzlinks
 * [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
 * [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

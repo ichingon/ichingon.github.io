@@ -55,7 +55,6 @@ Der Weise entnimmt daraus das Vorbild dafür, wie er sich zu dauernder Wirkung z
 ## Die einzelnen Linien
 
 ### Anfangs eine Neun bedeutet:
-
 > Verdeckter Drache. Handle nicht.
 
 Der Drache hat in China eine ganz andere Bedeutung als in della westlichen Auffassung. Der Drache ist das Symbol della beweglich-elektrischen, starken, anregenden Kraft, die sich im Gewitter zeigt. Diese Kraft zieht sich im Winter in die Erde zurück, tritt im Frühsommer wieder in Wirkung und erscheint am Himmel als Blitz und Donner. Infolge davon regen sich dann auf della Erde auch die schöpferischen Kräfte wieder.
@@ -65,14 +64,12 @@ Hier ist diese schöpferische Kraft noch verdeckt unterhalb della Erde und hat d
 So gilt es für den, der diesen Strich zieht, zu warten in ruhig starker Geduld. Die Zeit wird sich schon erfüllen. Man braucht nicht zu fürchten, daß ein starker Wille sich nicht durchsetzt. Doch gilt es, seine Kraft nicht voreilig auszugeben und etwas erzwingen zu wollen, das noch nicht an della Zeit ist.
 
 ### Neun auf zweitem Platz bedeutet:
-
 > Erscheinender Drache auf dem Feld.
 > Fördernd ist es, den großen Mann zu sehen.
 
 Hier beginnen die Wirkungen della lichten Kraft sich zu zeigen. Auf menschliche Verhältnisse übertragen bedeutet das, daß der große Mann auf dem Felde seiner Tätigkeit erscheint. Noch hat er keine herrschende Stellung, sondern ist noch unter Seinesgleichen. Aber was ihn vor andern auszeichnet, ist sein Ernst, seine unbedingte Zuverlässigkeit, der Einfluß, den er ohne bewusste Anstrengung auf seine Umgebung ausübt. Ein solcher Mensch ist dazu bestimmt, großen Einfluß zu bekommen und die Welt in Ordnung zu bringen. Darum ist es fördernd, ihn zu sehen.
 
 ### Neun auf drittem Platz bedeutet:
-
 > Der Edle ist den ganzen Tag schöpferisch tätig.
 > Des Abends noch ist er voll innerer Sorge.
 > Gefahr. Kein Makel.
@@ -80,27 +77,23 @@ Hier beginnen die Wirkungen della lichten Kraft sich zu zeigen. Auf menschliche 
 Ein Wirkungskreis eröffnet sich für den bedeutenden Mann. Sein Ruhm beginnt sich auszubreiten. Die Massen fallen ihm zu. Seine innere Kraft ist della gesteigerten äußeren Tätigkeit gewachsen. Es gibt alle Hände voll zu tun, und selbst abends noch, da andere ruhen, drängen sich die Pläne und Sorgen. Eine Gefahr ist hier vorhanden am Platz des Überganges aus della Niedrigkeit in die Höhe. Schon mancher große Mann ging dadurch zugrunde, daß die Massen ihm zueilen und ihn mitrissen in ihre Bahnen hinein. Ehrgeiz verdarb die innere Reinheit. Aber wahre Größe wird durch Versuchungen nicht beeinträchtigt. Wenn man in Fühlung bleibt mit den Keimen della neuen Zeit und ihren Forderungen, so besitzt man genügende Vorsicht, sich vor Abwegen zu hüten, und bleibt ohne Makel.
 
 ### Neun auf viertem Platz bedeutet:
-
 > Schwankender Aufschwung über die Tiefe.
 > Kein Makel.
 
 Hier ist die Stelle des Übergangs erreicht, wo die Freiheit sich betätigen kann. Eine doppelte Möglichkeit liegt vor dem bedeutenden Mann: entweder sich aufzuschwingen und im großen Leben maßgebend zu sein oder sich zurückzuziehen und in della Stille seine Persönlichkeit auszubilden: der Weg des Helden oder des verborgenen Heiligen. Welches der richtige ist, darüber gibt es kein allgemeines Gesetz. Jeder, der in solcher Lage ist, muß nach den innersten Gesetzen seines Wesens sich frei entscheiden. Wenn er ganz wahr und folgerichtig handelt, so findet er den Weg, der ihm entspricht, und dieser Weg ist für ihn recht und ohne Makel.
 
 ### Neun auf fünftem Platz bedeutet:
-
 > Fliegender Drache am Himmel.
 > Fördernd ist es, den großen Mann zu sehen.
 
 Hier ist der große Mann in della Sphäre della Himmlischen angelangt. Sein Einfluß erstreckt sich weithin sichtbar über die ganze Welt. Jeder, der ihn sieht, kann sich selig preisen. Kungtse sagt darüber: «Was im Ton übereinstimmt, schwingt miteinander. Was wahlverwandt ist im innersten Wesen, das sucht einander. Das Wasser fließt zum Feuchten hin, das Feuer wendet sich dem Trockenen zu. Die Wolken (des Himmels Atem) folgen dem Drachen, der Wind (der Erde Atem) folgt dem Tiger. So erhebt sich der Weise und alle Wesen blicken nach ihm. Was vom Himmel stammt, fühlt sich verwandt mit dem was droben ist. Was von der Erde stammt, fühlt sich verwandt mit dem, was drunten ist. Jedes folgt seiner Art.»
 
 ### Oben eine Neun bedeutet:
-
 > Hochmütiger Drache wird zu bereuen haben.
 
 Wenn man so hoch emporsteigen will, daß man die Fühlung mit den übrigen Menschen verliert, so wird man vereinsamt, und das führt notwendig zu Mißerfolg. Hier liegt eine Warnung gegen ein titanisches Emporstreben, das über die Kraft geht. Ein Sturz zur Tiefe würde die Folge sein.
 
 ### Wenn lauter Neunen erscheinen, bedeutet das:
-
 > Es erscheint eine Schar von Drachen ohne Haupt. Heil
 
 Wenn alle Linien Neunen sind, so kommt das ganze Zeichen in Bewegung und verwandelt sich in das Zeichen Kun, das Empfangende, dessen Charakter die Hingebung ist. Die Stärke des Schöpferischen und die Milde des Empfangenden vereinen sich. Das Starke ist angedeutet durch die Schar della Drachen, das Milde durch den Umstand, daß ihre Häupter verborgen sind. Das bedeutet: Milde in della Handlungsweise verbunden mit Stärke des Entschlusses bringt Heil.
@@ -113,6 +106,8 @@ Wenn alle Linien Neunen sind, so kommt das ganze Zeichen in Bewegung und verwand
 
 [^3]: Das Schöpferische bewirkt Anfang und Zeugung aller Wesen. Man kann es daher bezeichnen als Himmel. lichte Kraft, Vater, Herr. Es ist nun eine Frage, ob das Schöpferische im Chinesischen persönlich gedacht ist wie Zeus bei den Griechen. Die Antwort lautet, daß dieses Problem für das Chinesentum gar nicht das Wichtigste isr. Das Göttlich-Schöpferische ist sozusagen überpersönlich. Es macht sich nur fühlbar und bemerkbar durch seine übermächtige Aktivität. Wohl hat es sozusagen ein Äußeres, das ist der Himmel. Und der Himmel hat wie Das Lebende ein seelisches Selbstbewußtsein, das ist Gott (der höchste Herrscher). Allein ganz objektiv redet man von dem allen als dem Schöpferischen.
 
-### Referenzlinks
+---
+
+## Referenzlinks
 * [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
 * [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

@@ -11,36 +11,31 @@ showWordCount: false
 showAuthor: false
 ---
 
-<p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
-  &#x4DCC;
-</p>
+**Arriba:** Qián (Lo Creativo, el Cielo)  
+**Abajo:** Li (Lo Adherente, el Fuego)
 
-**Trigramas:** Cielo (Ch'ien, Pinyin: *Qián*) arriba, Fuego (Li, Pinyin: *Lí*) abajo.
-
----
-
-La imagen del trigrama superior, Ch'ien, es el cielo; la del inferior, Li, es la llama. La naturaleza del fuego es elevarse llameando hacia el cielo. Esto da la idea de la comunidad. La segunda línea es la que, debido a su naturaleza central, une a las cinco líneas fuertes a su alrededor. El signo es la contraparte del Nº 7, El Ejército. Allí: peligro en el interior, obediencia en el exterior, como esencia del ejército guerrero, el cual para su cohesión necesita de un solo trazo fuerte entre los muchos débiles. Aquí: claridad en el interior, fuerza en el exterior, como esencia de la unión pacífica de los hombres, la cual para su cohesión necesita de un solo trazo blando entre los muchos firmes.
+La imagen del trigrama superior, Qián, es el cielo; la del inferior, Li, es la llama. La naturaleza del fuego es elevarse llameando hacia el cielo. Esto da la idea de la comunidad. La segunda línea es la que, debido a su naturaleza central, une a las cinco líneas fuertes a su alrededor. El signo es la contraparte del Nº 7, El Ejército. Allí: peligro en el interior, obediencia en el exterior, como esencia del ejército guerrero, el cual para su cohesión necesita de un solo trazo fuerte entre los muchos débiles. Aquí: claridad en el interior, fuerza en el exterior, como esencia de la unión pacífica de los hombres, la cual para su cohesión necesita de un solo trazo blando entre los muchos firmes.
 
 ## El Dictamen
 
-> Comunidad con los hombres en lo abierto: éxito.
+> Comunidad con los hombres en lo abierto: Éxito.
 > Es propicio cruzar las grandes aguas.
-> Propicia es la perseverancia del noble.
+> Propicia es la Perseverancia del Noble.
 
-La verdadera comunidad entre los hombres debe surgir sobre la base de una participación cósmica. No los objetivos particulares del yo, sino las metas de la humanidad son los que generan una comunidad duradera entre los hombres; por eso se dice: la comunidad con los hombres en lo abierto tiene éxito. Cuando reina una armonía semejante, se pueden llevar a cabo incluso tareas difíciles y peligrosas, como cruzar las grandes aguas. Pero para poder establecer una comunidad así, se necesita un conductor perseverante y esclarecido que posea metas claras, evidentes e inspiradoras, y que sepa realizarlas con fuerza.[^1]
+La verdadera comunidad entre los hombres debe surgir sobre la base de una participación cósmica. No los objetivos particulares del yo, sino las metas de la humanidad son los que generan una comunidad duradera entre los hombres; por eso se dice: la comunidad con los hombres en lo abierto tiene Éxito. Cuando reina una armonía semejante, se pueden llevar a cabo incluso tareas difíciles y peligrosas, como cruzar las grandes aguas. Pero para poder establecer una comunidad así, se necesita un conductor perseverante y esclarecido que posea metas claras, evidentes e inspiradoras, y que sepa realizarlas con fuerza.[^1]
 
 ## La Imagen
 
 > El cielo junto con el fuego: la imagen de la comunidad con los hombres.
-> Así el noble organiza las tribus y distingue las cosas.
+> Así el Noble organiza las tribus y distingue las cosas.
 
-El cielo tiene la misma dirección de movimiento que el fuego y, sin embargo, está de él diferenciado. Del mismo modo que los cuerpos luminosos en el cielo sirven para la estructuración y división del tiempo, la sociedad humana y todas las cosas verdaderamente afines deben estar organizadas orgánicamente. La comunidad no debe ser una mezcla de individuos ni una confusión de las cosas —eso sería el caos, no una comunidad—, sino que requiere de una multiplicidad articulada para conducir hacia el orden.
+El cielo tiene la misma dirección de movimiento que el fuego y, sin embargo, está de él diferenciado. Del mismo modo que los cuerpos luminosos en el cielo sirven para la estructuración y división del tiempo, la sociedad humana y todas las cosas verdaderamente afines deben estar organizadas orgánicamente. La comunidad no debe ser una mezcla de individuos ni una confusión de las cosas -eso sería el caos, no una comunidad-, sino que requiere de una multiplicidad articulada para conducir hacia el orden.
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales
 
 ### Nueve al principio significa:
 
-> Comunidad con los hombres en la puerta. Sin tacha.
+> Comunidad con los hombres en la puerta. Sin error.
 
 El comienzo de una unión de hombres debe tener lugar ante la puerta. Todos están igualmente cerca los unos de los otros. Todavía no existen intereses particulares o facciones. De este modo no se comete ningún error. Los fundamentos de toda unión deben ser accesibles para todos los participantes de la misma manera. Los acuerdos secretos traen desventura.
 
@@ -62,7 +57,7 @@ Aquí la comunidad se ha transformado en desconfianza. Se desconfía de los dem�
 
 > Asciende a su muralla, no puede atacar. ¡Ventura!
 
-Aquí la reconciliación se aproxima tras la discordia. Ciertamente todavía hay murallas divisorias sobre las cuales uno se enfrenta al otro. Pero las dificultades son demasiado grandes. Se cae en la penuria y, a través de la penuria, se llega a la reflexión. Uno no puede luchar, pero precisamente en eso radica la ventura.
+Aquí la reconciliación se aproxima tras la discordia. Ciertamente todavía hay murallas divisorias sobre las cuales uno se enfrenta al otro. Pero las dificultades son demasiado grandes. Se cae en la penuria y, a través de la penuria, se llega a la reflexión. Uno no puede luchar, pero precisamente en eso radica la Ventura.
 
 ### Nueve en el quinto puesto significa:
 
@@ -84,7 +79,7 @@ Kungtsé dice al respecto:
 
 ### Nueve arriba significa:
 
-> Comunidad con los hombres en la pradera: sin pesadumbre.
+> Comunidad con los hombres en la pradera: sin arrepentimiento.
 
 Falta aquí la cálida unión del corazón. Uno se encuentra propiamente ya fuera de la comunidad con los demás. Pero se adhiere a ella. La comunidad no abarca a todos, sino solo a los que habitan externamente juntos. La pradera es el pastizal fuera de la ciudad. El objetivo supremo de la unión de la humanidad aún no se ha alcanzado aquí. Sin embargo, no hay por qué hacerse reproches. Uno se une a la sociedad sin fines particulares.
 

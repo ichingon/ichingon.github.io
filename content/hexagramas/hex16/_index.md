@@ -15,80 +15,79 @@ showAuthor: false
   &#x4DCF;
 </p>
 
-**Trigramas:** Trueno (Chen, Pinyin: *Zhèn*) arriba, Tierra (Kun, Pinyin: *Kūn*) abajo.
+**Arriba:** Dschen (Lo Excitante, el Trueno)  
+**Abajo:** Kun (Lo Receptivo, la Tierra)
 
----
-
-El trazo fuerte en el cuarto puesto, que es el lugar del ministro destacado, encuentra resonancia y disposición dócil en todas las demás líneas blandas, las cuales se subordinan a él con alegría. El trigrama superior es Chen, el movimiento, el trueno; el inferior es Kun, la tierra, la obediencia. Un movimiento que se topa con una disposición dócil y que arrastra a las masas de manera natural genera la fuerza del entusiasmo. 
-
-Además, el nombre del signo, Yü, significa propiamente justicia y previsión, cualidades de las cuales brota de manera espontánea la alegría y el gozo de la concordia colectiva.
+La línea fuerte en el cuarto puesto, el puesto del funcionario director, encuentra en todas las demás líneas débiles el salir al encuentro y la obediencia. El signo superior, Dschen, tiene el movimiento como propiedad; el inferior, Kun, tiene la obediencia, la entrega. Se inicia así un movimiento que encuentra entrega y que por lo tanto actúa de manera arrolladora y entusiasmante. De gran importancia es además la ley del movimiento sobre la línea de menor resistencia, que en este signo se expresa como ley para el acontecer natural y la vida humana.
 
 ## El Dictamen
 
-> El entusiasmo. Es propicio instituir ayudantes
-> y poner ejércitos en movimiento.
+> El entusiasmo. Es propicio instituir ayudantes y poner ejércitos en marcha.
 
-El tiempo del entusiasmo se funda en la presencia de un hombre eminente que se halla en simpatía con el alma del pueblo y sabe encauzar sus fuerzas. Gracias a que sus decisiones despiertan una obediencia voluntaria, las tareas se realizan sin coacción. 
+El tiempo del entusiasmo se funda en que hay un hombre eminente que está en contacto con el alma del pueblo y actúa en concordancia con ella. Por ello encuentra obediencia general y voluntaria. Para despertar entusiasmo es necesario, por tanto, orientar las disposiciones según la naturaleza de los conducidos. En esta regla del movimiento sobre la línea de menor resistencia se funda la inquebrantabilidad de las leyes naturales. No son algo exterior a las cosas, sino la inmanente a las cosas armonía del movimiento. Por eso los cuerpos celestes no se desvían de sus órbitas, y todo acontecer natural se cumple en firme regularidad. De manera semejante ocurren las cosas también en la sociedad humana. También aquí solo se dejarán ejecutar aquellas leyes que tienen su raíz en el sentir del pueblo, mientras que las leyes que contradicen este sentir solo despiertan amargura.
 
-Para congregar a las masas en torno a una meta común, es necesario instituir ayudantes, es decir, delegar responsabilidades y establecer una organización orgánica y descentralizada. Semejante unidad espiritual confiere una fuerza invencible, permitiendo poner ejércitos en movimiento con la certeza de alcanzar la victoria, pues el pueblo marcha unido por una misma convicción interna.
+El entusiasmo permite entonces instituir ayudantes para la realización de los trabajos, sin que deban temerse reacciones secretas contrarias. El entusiasmo es también lo que sabe unificar movimientos de masas, como en la guerra, de modo que alcanzan la victoria.
 
 ## La Imagen
 
-> El trueno brota estruendoso de la tierra: la imagen del entusiasmo.
-> Así los antiguos reyes hacían música, honraban el mérito,
-> y la ofrecían magníficamente al Dios Supremo, invitando a sus antepasados.
+> El trueno brota sonoro de la tierra: la imagen del entusiasmo.
+> Así los antiguos reyes hacían música,
+> para honrar los méritos,
+> y la ofrecían magníficamente al Dios supremo,
+> invitando a sus antepasados.
 
-El trueno que brota de la tierra en primavera disipa las tensiones acumuladas y hace que toda la naturaleza respire aliviada. Los antiguos reyes comprendieron que la música posee una fuerza análoga: es el lenguaje del entusiasmo que une los corazones. Mediante las celebraciones musicales, honraban los méritos de los hombres valiosos y elevaban sus cantos de gratitud hacia el Dios Supremo. Al invitar a los antepasados a estas ceremonias rituales, tendían un puente invisible entre el pasado, el presente y lo divino, consolidando la comunión espiritual de la sociedad.
+Cuando el trueno, la fuerza eléctrica, al comienzo del verano vuelve a brotar rugiendo de la tierra y la primera tormenta refresca la naturaleza, entonces se disuelve una larga tensión. El alivio y la alegría se apoderan del lugar. De manera semejante, la música posee el poder de disolver la tensión en el corazón, el dominio de los sentimientos oscuros. El entusiasmo del corazón se exterioriza involuntariamente en el sonido del canto, en la danza y en el movimiento rítmico del cuerpo. Desde antiguo, el efecto entusiasmador del sonido invisible, que conmueve y une los corazones de los hombres, fue sentido como un enigma. Los gobernantes utilizaron esta inclinación natural hacia la música. La elevaron y ordenaron. La música valía como algo serio, sagrado, debía purificar los sentimientos de los hombres. Debía alabar las virtudes de los héroes y tender así el puente hacia el mundo invisible. En el templo se aproximaba uno a Dios con música y pantomimas (de las que más tarde se desarrolló el teatro). Los sentimientos religiosos hacia el Creador del mundo fueron unidos con los sentimientos humanos más sagrados: los sentimientos de veneración hacia los antepasados. Estos fueron invitados a estos servicios divinos como huéspedes del señor del cielo y representantes de la humanidad en aquellas regiones superiores. Al vincular así el propio pasado con la divinidad en momentos solemnes de entusiasmo religioso, se cerraba el vínculo entre la divinidad y la humanidad. El gobernante, que veneraba a la divinidad en sus antepasados, era por ello el Hijo del Cielo, en quien el mundo celestial y el terrenal se tocaban místicamente. Estos pensamientos son la última y más alta síntesis de la cultura china. El maestro Kung mismo dijo del gran sacrificio en el que se realizaban estas costumbres: «Quien comprendiera enteramente este sacrificio, podría gobernar el mundo como si girara en su mano».
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales
 
 ### Seis al principio significa:
 
 > Entusiasmo que se manifiesta trae desventura.
 
-Un hombre en una posición subordinada se vanagloria prematuramente de sus conexiones con el poder central o de sus éxitos iniciales. Al manifestar su entusiasmo de manera jactanciosa y superficial, atrae la envidia, el recelo y la desventura. El entusiasmo real debe ser una fuerza concentrada en el interior, no una vana ostentación externa.
+Alguien en una posición subordinada tiene relaciones distinguidas de las que se jacta con entusiasmo. Por esta arrogancia atrae necesariamente la desventura. El entusiasmo nunca debe ser un sentimiento egoísta, sino que solo como disposición general que conecta con otros tiene su justificación.
 
 ### Seis en el segundo puesto significa:
 
 > Firme como una roca. Ni un día entero.
 > La perseverancia trae ventura.
 
-Esta línea describe a un hombre que no se deja descarriar por ninguna ilusión ni falso entusiasmo generalizado. Mientras los demás se entregan a la embriaguez de las apariencias, él permanece vigilante y firme como una roca. Reconoce los primeros gérmenes del peligro o del éxito de inmediato, sin requerir "ni un día entero" para tomar la decisión correcta. Esta perseverancia objetiva y exenta de autoengaño le depara una gran ventura.[^1]
+Aquí se describe a alguien que no se deja ofuscar por ninguna ilusión. Mientras otros se dejan cegar por el entusiasmo, él reconoce con total claridad los primeros signos de los tiempos. Así no es adulador hacia arriba ni negligente hacia abajo. Así es firme como una roca. En cuanto aparece el primer indicio de descontento, sabe retirarse a tiempo, sin perder siquiera un día. La perseverancia en tal proceder trae ventura.
+
+Confucio dice al respecto:
+
+«Conocer los gérmenes, eso es ciertamente divino. El Noble en el trato hacia arriba no es adulador, en el trato hacia abajo no es arrogante. Él conoce bien los gérmenes. Los gérmenes son el primer imperceptible comienzo del movimiento, lo que de ventura (y desventura) se muestra primero. El Noble ve los gérmenes y actúa de inmediato. No espera siquiera un día entero. En el Libro de las Transformaciones se dice: "Firme como una roca, ¿para qué un día entero? La perseverancia trae ventura". Firme como una roca, ¿para qué un día entero? ¡El dictamen puede saberse! El Noble conoce lo secreto y lo manifiesto. Conoce lo débil, conoce también lo fuerte: por eso las miríadas lo contemplan».
 
 ### Seis en el tercer puesto significa:
 
 > Entusiasmo que mira hacia arriba trae arrepentimiento.
 > La dilación trae arrepentimiento.
 
-Aquí se muestra una actitud de dependencia pasiva. En lugar de generar un entusiasmo propio a partir del cumplimiento del deber, uno mira hacia arriba de manera servil, aguardando el estímulo o el favor de un líder. Esta falsa expectativa inmoviliza la voluntad; si además se vacila o se posterga el actuar en el momento oportuno (dilación), el resultado inevitable es el arrepentimiento.
+Aquí está lo opuesto de la línea anterior: allí autonomía, aquí el entusiasmo que mira hacia arriba. Si se vacila demasiado, también eso trae arrepentimiento. En el acercamiento se trata de aprovechar el momento correcto; solo entonces se acierta.
 
 ### Nueve en el cuarto puesto significa:
 
-> Fuente del entusiasmo. Él alcanza grandes cosas.
-> No dudes. Los amigos se congregan a tu alrededor
+> La fuente del entusiasmo. Él alcanza lo grande.
+> No dudes.
+> Los amigos se congregan a tu alrededor
 > como en torno a un prendedor para el cabello.
 
-Esta es la línea fuerte y motriz de todo el signo. Representa al hombre que, gracias a su total desinterés y claridad de metas, se convierte en la fuente viva del entusiasmo colectivo. Al no abrigar dudas internas sobre su misión, irradia una confianza absoluta. Los hombres se asocian con él de manera espontánea y estrecha, congregándose a su alrededor con la misma naturalidad con la que un prendedor recoge y mantiene unidos los cabellos. Bajo su guía se alcanzan grandes obras.
+Alguien que sabe despertar entusiasmo mediante su propia seguridad y libertad de escrúpulos: porque no duda y es completamente sincero, atrae a los hombres. Al darles confianza, los gana para una colaboración entusiasta y tiene éxito. Como un prendedor da sujeción al cabello y lo une, así él une a los hombres mediante la sujeción que les proporciona.
 
 ### Seis en el quinto puesto significa:
 
 > Perseverantemente enfermo y sin embargo no muere.
 
-Ocupando el puesto del soberano, uno se encuentra oprimido por la inmensa fuerza del ministro en la cuarta línea. Esto bloquea la libertad de acción externa, lo cual se experimenta como una enfermedad crónica o un estado de parálisis. No obstante, este freno aparente encierra una bendición oculta: impide que uno se entregue al entusiasmo desmedido que impera en la época. La limitación obliga a un repliegue interior que preserva la vida y la integridad espiritual; por eso, aunque se está "enfermo", no se muere.
+Aquí el entusiasmo es impedido. Se está bajo una presión duradera que no deja respirar libremente. Pero esa presión tiene en ciertas circunstancias su lado bueno. Con ello se evita que uno consuma sus fuerzas en un entusiasmo vacío. Así la presión duradera puede servir precisamente para que uno se mantenga con vida.
 
 ### Seis arriba significa:
 
 > Entusiasmo cegado.
-> Si tras la consumación uno se transforma,
-> esto no es una tacha.
+> Pero si después de la consumación se llega a la transformación,
+> entonces eso no es una mácula.
 
-La época del entusiasmo ha llegado a su punto extremo, degenerando en una embriaguez ciega que oscurece el juicio. Sin embargo, el panorama no es definitivo. Si un hombre, tras haber alcanzado la consumación de este estado ilusorio, es capaz de despertar, reflexionar y transformar radicalmente su mentalidad, logrará desprenderse del error. Reconocer la propia ceguera a tiempo desvanece las malas consecuencias y lo deja libre de tacha.
+Si uno se deja cegar por el entusiasmo, eso es malo. Pero si ese cegamiento es ya un hecho consumado y uno puede aún transformarse, entonces se vuelve libre de mácula. El desencanto a partir de un falso entusiasmo es muy posible y es muy favorable.
 
----
-
-[^1]: Kungtsé expresa en sus comentarios tradicionales sobre esta línea: «Conocer los gérmenes, ¡eso es casi divino! El noble no adula en sus relaciones hacia arriba, ni se desmarca con soberbia hacia abajo; él conoce los gérmenes. Los gérmenes son el primer movimiento sutil e imperceptible del éxito o la desventura que asoma. El noble los ve y actúa de inmediato, sin aguardar todo un día... Sabe perfectamente qué es lo que ha de expandirse y qué ha de replegarse».
-
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

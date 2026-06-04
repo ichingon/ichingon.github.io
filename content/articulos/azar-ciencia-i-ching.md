@@ -39,10 +39,10 @@ Sin embargo, el siglo XX ha puesto este principio en cuestión. La mecánica cu�
 
 Antes de seguir, conviene detenernos en las palabras con las que nombramos la incertidumbre. Su etimología revela una historia intelectual compartida.
 
-*   **Azar** proviene del árabe *al-zahr* ("dado"). El dado simboliza lo impredecible, lo que escapa a un orden necesario.
-*   **Probabilidad** deriva del latín *probabilitas*, de *probare* ("probar, demostrar"). En la retórica y la filosofía clásica, lo probable era aquello que merecía asentimiento pero no alcanzaba la certeza absoluta. Operaba en el terreno intermedio de la *doxa* (opinión), no de la *episteme* (conocimiento verdadero).
-*   **Casualidad** viene de *casus* ("caída, suceso fortuito"). Lo casual es lo que ocurre por accidente, sin finalidad ni necesidad.
-*   **Estocástico** procede del griego *stokhastikós*, de *stókhosthai* ("apuntar, conjeturar"). Está emparentado con *stókhos* ("blanco, objetivo"). Lo estocástico es el arte de apuntar a un blanco -una imagen perfecta de la tensión entre un objetivo fijo y los disparos que se desvían por factores aleatorios.
+*  **Azar** proviene del árabe *al-zahr* ("dado"). El dado simboliza lo impredecible, lo que escapa a un orden necesario.
+*  **Probabilidad** deriva del latín *probabilitas*, de *probare* ("probar, demostrar"). En la retórica y la filosofía clásica, lo probable era aquello que merecía asentimiento pero no alcanzaba la certeza absoluta. Operaba en el terreno intermedio de la *doxa* (opinión), no de la *episteme* (conocimiento verdadero).
+*  **Casualidad** viene de *casus* ("caída, suceso fortuito"). Lo casual es lo que ocurre por accidente, sin finalidad ni necesidad.
+*  **Estocástico** procede del griego *stokhastikós*, de *stókhosthai* ("apuntar, conjeturar"). Está emparentado con *stókhos* ("blanco, objetivo"). Lo estocástico es el arte de apuntar a un blanco -una imagen perfecta de la tensión entre un objetivo fijo y los disparos que se desvían por factores aleatorios.
 
 En todas estas palabras subyace una misma estructura: un orden ideal (cierto, perfecto) y una realización imperfecta que se desvía de él. Para los griegos clásicos, ese orden ideal era el *logos* o las Ideas platónicas; el azar era lo que manchaba la copia sensible. Esta forma de pensar marcaría profundamente la ciencia y la estadística occidentales durante siglos.
 

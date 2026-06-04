@@ -8,4 +8,6 @@ showAuthor: false
 
 Este espacio nace con el propósito de analizar el I Ching como el primer protocolo de información descentralizado de la historia. 
 
-Aquí exploramos el Libro de los Cambios no desde el misticismo difuso o las falacias de la "nueva era", sino como una intersección rigurosa entre la filosofía, el sincronismo, las matemáticas y las ciencias de la computación, ofreciendo una herramienta de dinámica de sistemas para comprender el flujo del aquí y el ahora.
+Aquí exploramos el Libro de los Cambios no desde el misticismo difuso o las falacias de la "nueva era", sino como una intersección rigurosa entre la filosofía, los sistemas complejos, las matemáticas y las ciencias de la computación, ofreciendo una herramienta de análisis sistémico para comprender el flujo del aquí y el ahora.
+
+Pero también manteniendo los pies sobre la tierra: si esto no sirve para hacer tu vida un poco mejor o para ayudarte a concientizar las dinamicas subyacentes de tu realidad, no sirve para nada.
