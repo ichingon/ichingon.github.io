@@ -11,6 +11,11 @@ showWordCount: false
 showAuthor: false
 ---
 
+<p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
+  &#x4DCC;
+</p>
+
+### Trigramas
 **Arriba:** Qián (Lo Creativo, el Cielo)  
 **Abajo:** Li (Lo Adherente, el Fuego)
 

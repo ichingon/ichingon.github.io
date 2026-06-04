@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DCD;
 </p>
 
-**Arriba:** Li (Lo Adherente, la Llama)  
-**Abajo:** Qián (Lo Creativo, el Cielo)
+### Trigramas
+* **Arriba:** Li (Lo Adherente, la Llama)  
+* **Abajo:** Qián (Lo Creativo, el Cielo)
 
 El fuego en el cielo arriba brilla a lo lejos, de modo que todas las cosas entran en la luz y en la apariencia. La débil quinta línea se encuentra en un lugar honrado, y todos los trazos fuertes le corresponden. Quien en un puesto elevado es modesto y manso, a él le corresponde todo. (El sentido del signo concuerda con la palabra de Jesús: Bienaventurados los mansos, porque ellos poseerán la tierra.)
 

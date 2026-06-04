@@ -16,8 +16,9 @@ showAuthor: false
   &#x4DC1;
 </p>
 
-Arriba: Kūn (Lo Receptivo, la Tierra)
-Abajo: Kūn (Lo Receptivo, la Tierra)
+### Trigramas
+* **Arriba:** Kūn (Lo Receptivo, la Tierra)
+* **Abajo:** Kūn (Lo Receptivo, la Tierra)
 
 ---
 

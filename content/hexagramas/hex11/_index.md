@@ -15,7 +15,9 @@ showAuthor: false
   &#x4DCA;
 </p>
 
-**Trigramas:** Tierra (Kun, Pinyin: *Kūn*) arriba, Cielo (Ch'ien, Pinyin: *Qián*) abajo.
+### Trigramas
+* **Arriba:** Kūn (Lo Receptivo, Tierra)
+* **Abajo:** Qián (Lo Creativo, el Cielo)
 
 ---
 

@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DC7;
 </p>
 
-**Arriba:** Kǎn (Lo Abismal, el Agua)  
-**Abajo:** Kūn (Lo Receptivo, la Tierra)
+### Trigramas
+* **Arriba:** Kǎn (Lo Abismal, el Agua)  
+* **Abajo:** Kūn (Lo Receptivo, la Tierra)
 
 ---
 

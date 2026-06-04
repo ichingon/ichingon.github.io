@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DC0;
 </p>
 
-**Arriba:** Qián (Lo Creativo, el Cielo)  
-**Abajo:** Qián (Lo Creativo, el Cielo)
+### Trigramas
+* **Arriba:** Qián (Lo Creativo, el Cielo)  
+* **Abajo:** Qián (Lo Creativo, el Cielo)
 
 ---
 

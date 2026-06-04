@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DC3;
 </p>
 
-Arriba: Gèn (El Reposo, la Montaña)
-Abajo: Kǎn (Lo Abismal, el Agua)
+### Trigramas
+* **Arriba:** Gèn (El Reposo, la Montaña)
+* **Abajo:** Kǎn (Lo Abismal, el Agua)
 
 ---
 

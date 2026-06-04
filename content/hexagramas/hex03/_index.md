@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DC2;
 </p>
 
-Arriba: Kǎn (Lo Abismal, el Agua)
-Abajo: Zhèn (Lo Excitante, el Trueno)
+### Trigramas
+* **Arriba:** Kǎn (Lo Abismal, el Agua)
+* **Abajo:** Zhèn (Lo Excitante, el Trueno)
 
 ---
 

@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DC6;
 </p>
 
-**Arriba:** Kun (Lo Receptivo, la Tierra)  
-**Abajo:** Kan (Lo Abismal, el Agua)
+### Trigramas
+* **Arriba:** Kun (Lo Receptivo, la Tierra)  
+* **Abajo:** Kan (Lo Abismal, el Agua)
 
 El signo se compone del trigrama primordial Kan, el agua, y Kun, la tierra. Con ello se simboliza el agua subterránea que se acumula en el interior de la tierra. Del mismo modo se acumula la fuerza del ejército en el seno de la multitud de un pueblo: invisible en tiempos de paz, pero siempre disponible como fuente de poder. Las cualidades de los trigramas primordiales son: peligro en el interior y obediencia en el exterior. Esto señala la esencia del ejército, el cual en lo más íntimo es algo peligroso, mientras que hacia afuera deben reinar la disciplina y la obediencia.
 

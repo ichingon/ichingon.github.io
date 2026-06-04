@@ -20,7 +20,7 @@ showAuthor: false
 
 El signo Zhong Fu está constituido por líneas fuertes en los extremos y dos líneas débiles en su centro, lo que evoca la imagen de un corazón abierto y libre de prejuicios, pero firmemente resguardado por una rectitud inquebrantable. Su estructura gráfica sugiere la forma de un ave: las líneas superiores e inferiores representan las alas desplegadas y el centro hueco simboliza el cuerpo del animal, lleno de aire y ligereza.
 
-En el orden de la naturaleza, el viento sopla sobre las aguas del lago y las moviliza, penetrando en su superficie visible[cite: 2]. En la existencia humana, este fenómeno señala el influjo de una honestidad profunda que logra conmover y transformar incluso a los seres más obstinados o insensibles.
+En el orden de la naturaleza, el viento sopla sobre las aguas del lago y las moviliza, penetrando en su superficie visible. En la existencia humana, este fenómeno señala el influjo de una honestidad profunda que logra conmover y transformar incluso a los seres más obstinados o insensibles.
 
 ## El Dictamen
 

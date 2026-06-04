@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DC8;
 </p>
 
-**Arriba:** Sun (Lo Suave, el Viento)  
-**Abajo:** Kien (Lo Creativo, el Cielo)
+### Trigramas
+* **Arriba:** Sun (Lo Suave, el Viento)  
+* **Abajo:** Kien (Lo Creativo, el Cielo)
 
 ---
 

@@ -15,8 +15,7 @@ showAuthor: false
   &#x4DD6;
 </p>
 
-## 23. Bō / La Desintegración
-
+### Trigramas
 * **Arriba**: Gèn (La Detención, la Montaña)
 * **Abajo**: Kūn (Lo Receptivo, la Tierra)
 

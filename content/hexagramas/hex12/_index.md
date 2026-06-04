@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DCB;
 </p>
 
-**Arriba:** Qián (Lo Creativo, el Cielo)  
-**Abajo:** Kūn (Lo Receptivo, la Tierra)
+### Trigramas
+* **Arriba:** Qián (Lo Creativo, el Cielo)  
+* **Abajo:** Kūn (Lo Receptivo, la Tierra)
 
 Este signo es el reverso exacto del anterior. El cielo arriba se retira cada vez más lejos, la tierra abajo se hunde cada vez más en la profundidad. Las fuerzas creativas están fuera de relación. Es el tiempo del estancamiento y del declive. El signo está asociado al séptimo mes (agosto-septiembre), cuando el año ha sobrepasado su punto más alto y el marchitamiento otoñal se prepara.
 

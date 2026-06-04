@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DC9;
 </p>
 
-**Arriba:** Qián (Lo Creativo, el Cielo)  
-**Abajo:** Duì (Lo Alegre, el Lago)
+### Trigramas
+* **Arriba:** Qián (Lo Creativo, el Cielo)  
+* **Abajo:** Duì (Lo Alegre, el Lago)
 
 ---
 

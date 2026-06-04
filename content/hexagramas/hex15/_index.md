@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DCE;
 </p>
 
-**Arriba:** Kun (Lo Receptivo, la Tierra)  
-**Abajo:** Gen (El Reposo, la Montaña)
+### Trigramas
+**Arriba:** Kūn (Lo Receptivo, la Tierra)  
+**Abajo:** Gèn (El Reposo, la Montaña)
 
 ---
 

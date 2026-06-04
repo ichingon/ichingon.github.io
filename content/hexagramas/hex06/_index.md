@@ -15,8 +15,9 @@ showAuthor: false
   &#x4DC5;
 </p>
 
-**Arriba:** Qián (Lo Creativo, el Cielo)  
-**Abajo:** Kǎn (Lo Abismal, el Agua)
+### Trigramas
+* **Arriba:** Qián (Lo Creativo, el Cielo)  
+* **Abajo:** Kǎn (Lo Abismal, el Agua)
 
 ---
 
