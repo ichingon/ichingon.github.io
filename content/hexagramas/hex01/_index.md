@@ -28,7 +28,7 @@ En la explicación del Hexagrama debe tenerse en cuenta de principio a fin una d
 ## El Dictamen
 
 > {{< tooltip term="Lo Creativo" >}}Lo Creativo{{< /tooltip >}} obra {{< tooltip term="Supremo éxito" >}}Supremo éxito{{< /tooltip >}},
-> {{< tooltip term="propicio" >}}propicio{{< /tooltip >}} mediante la {{< tooltip term="La Perseverancia" >}}Perseverancia{{< /tooltip >}}.
+> {{< tooltip term="Propicio" >}}propicio{{< /tooltip >}} mediante la {{< tooltip term="La Perseverancia" >}}Perseverancia{{< /tooltip >}}.
 
 Según el sentido original, las cualidades pertenecen juntas por parejas. Para quien obtiene este oráculo, esto significa que se le otorgará el Éxito desde las profundidades primordiales de los acontecimientos del mundo y que todo depende de que busque su propia felicidad y la de los demás únicamente mediante la Perseverancia en lo recto.
 
@@ -70,14 +70,14 @@ Así pues, para quien obtiene este trazo, se trata de esperar con una paciencia 
 
 ### Nueve en el segundo puesto significa:
 > {{< tooltip term="El Dragón" >}}Dragón{{< /tooltip >}} que aparece en el campo.
-> {{< tooltip term="propicio" >}}Es propicio{{< /tooltip >}} ver al {{< tooltip term="El Gran Hombre" >}}Gran Hombre{{< /tooltip >}}.
+> {{< tooltip term="Es propicio ver al gran hombre" >}}Es propicio ver al Gran Hombre{{< /tooltip >}}.
 
 Aquí comienzan a mostrarse los efectos de la fuerza luminosa. Transferido a las condiciones humanas, esto significa que el Gran Hombre aparece en el campo de su actividad. Todavía no tiene una posición dominante, sino que está aún entre sus iguales. Pero lo que lo distingue de los demás es su seriedad, su absoluta confiabilidad y la influencia que ejerce sobre su entorno sin un esfuerzo consciente. Un hombre así está destinado a obtener una gran influencia y a poner el mundo en orden. Por eso es propicio verlo.
 
 ### Nueve en el tercer puesto significa:
 > {{< tooltip term="El Noble" >}}El Noble{{< /tooltip >}} está creativamente activo durante todo el día.
 > Al anochecer, todavía está lleno de preocupación interna.
-> {{< tooltip term="Peligro" >}}Peligro{{< /tooltip >}}. {{< tooltip term="Sin error" >}}Sin error{{< /tooltip >}}.
+> {{< tooltip term="El Peligro" >}}Peligro{{< /tooltip >}}. {{< tooltip term="Sin error" >}}Sin error{{< /tooltip >}}.
 
 Un ámbito de actividad se abre para el hombre importante. Su fama comienza a extenderse. Las masas acuden a él. Su fuerza interna está a la altura de la intensificada actividad externa. Hay mucho trabajo por hacer, e incluso por la noche, cuando los demás descansan, se agolpan los planes y las preocupaciones. Un peligro está presente aquí, en el lugar de la transición desde la bajeza hacia la altura. Muchos grandes hombres perecieron ya porque las masas acudían a ellos presurosas y los arrastraron hacia sus propias órbitas. La ambición corrompió la pureza interior. Pero la verdadera grandeza no se ve afectada por las tentaciones. Si uno se mantiene en contacto con los gérmenes de los nuevos tiempos y sus exigencias, poseerá la precaución suficiente para guardarse de los desvíos y permanecerá sin error.
 
@@ -88,7 +88,7 @@ Aquí se ha alcanzado el lugar de la transición donde la libertad puede ejercer
 
 ### Nueve en el quinto puesto significa:
 > {{< tooltip term="El Dragón" >}}Dragón{{< /tooltip >}} volando en el {{< tooltip term="El Cielo" >}}cielo{{< /tooltip >}}.
-> {{< tooltip term="propicio" >}}Es propicio{{< /tooltip >}} ver al {{< tooltip term="El Gran Hombre" >}}Gran Hombre{{< /tooltip >}}.
+> {{< tooltip term="Es propicio ver al gran hombre" >}}Es propicio ver al Gran Hombre{{< /tooltip >}}.
 
 Aquí el Gran Hombre ha llegado a la esfera de los celestiales. Su influencia se extiende de manera ampliamente visible sobre todo el mundo. Todo aquel que lo ve puede considerarse bienaventurado. Confucio dice al respecto: «Lo que coincide en el tono, vibra conjuntamente. Lo que tiene afinidad electiva en la esencia más íntima, se busca mutuamente. El agua fluye hacia lo húmedo, el fuego se dirige hacia lo seco. Las nubes (el aliento del cielo) siguen al dragón, el viento (el aliento de la tierra) sigue al tigre. Así se eleva el sabio y todos los seres miran hacia él. Lo que proviene del cielo se siente emparentado con lo que está arriba. Lo que proviene de la tierra se siente emparentado con lo que está abajo. Cada uno sigue a su especie».
 

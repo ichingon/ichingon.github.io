@@ -16,14 +16,10 @@
   {{- end -}}
 {{- end -}}
 
-{{/* 3. Renderizado final */}}
+{{/* 3. Renderizado final con .Inner (el texto original envuelto) */}}
 {{- if $definition -}}
-  <span class="iching-tooltip" tabindex="0">
-    {{- $term -}}
-    {{/* safeHTML permite que si en el futuro pones negritas o enlaces en el JSON, se rendericen bien */}}
-    <span class="tooltip-text">{{- $definition | safeHTML -}}</span>
-  </span>
+<span class="iching-tooltip">{{ .Inner }}<span class="tooltip-text">{{ $definition | safeHTML }}</span></span>
 {{- else -}}
-  {{/* Si el término no existe en el JSON ni tiene "def", solo muestra la palabra sin romper el diseño */}}
-  {{- $term -}}
+  {{/* Si el término no existe, muestra la palabra igual pero con aviso */}}
+<span class="iching-tooltip">{{ .Inner }}<span class="tooltip-text">Término no encontrado en el glosario.</span></span>
 {{- end -}}
