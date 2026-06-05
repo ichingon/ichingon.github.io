@@ -14,73 +14,80 @@ showAuthor: false
   &#x4DDD;
 </p>
 
-***
+### Trigramas
+* **Arriba:** Li (Lo Adherente, el Fuego)
+* **Abajo:** Li (Lo Adherente, el Fuego)
 
-El signo es un trigrama doble. El signo Lí significa apoyarse en algo o adherirse, pero también significa claridad o lucidez. Una línea débil se encuentra rodeada por dos líneas fuertes, una arriba y otra abajo. Representa a la hija mediana. Lo Receptivo ha asimilado la línea central de lo Creativo, y de este modo surge Lí. 
+El signo es un trigrama doble. El signo Li significa "adherirse a algo", "estar condicionado", "descansar en algo", "claridad". Una línea oscura se adhiere a un trazo claro arriba y abajo, la imagen de un espacio vacío entre dos trazos fuertes, por lo cual estos se vuelven claros. Es la hija mediana. Lo Creativo ha asimilado la línea central de lo Receptivo, y de este modo surge Li. Como imagen, es el fuego. El fuego no tiene forma determinada, sino que se adhiere a las cosas que arden y es brillante por ello. Así como el agua desciende del cielo, el fuego flamea desde la tierra hacia arriba. Mientras que Kan representa el alma encerrada en el cuerpo, Li representa la naturaleza en su transfiguración.
 
-Como imagen, es el fuego. El fuego no posee una forma propia y definida, sino que se adhiere a los objetos que se queman y, de esa manera, manifiesta su resplandor. Así como el agua proviene de lo alto, el fuego flamea hacia arriba desde la tierra. 
+---
 
-Trasladado al plano de la consciencia humana, representa la claridad de la mente, la lucidez espiritual y el intelecto que ilumina el mundo. El peligro latente en este signo radica en perder la mesura debido a su naturaleza ardiente. Por ello, la advertencia fundamental se centra en cultivar una actitud dócil y receptiva, similar a la mansedumbre del ganado que pasta en calma, para que la claridad sea duradera y no consuma aquello que toca.
-
-### El Dictamen
+## El Dictamen
 
 > Lo Adherente. Es propicia la perseverancia.
-> Aporta el éxito.
+> Ella aporta el éxito.
 > Cuidar de la vaca trae ventura.
 
-Lo oscuro se adhiere a lo luminoso y, de este modo, consolida la claridad de la luz. Todo aquello que irradia luz en el mundo depende de un cuerpo adherente para poder brillar de manera constante. Así, el sol y la luna se adhieren al firmamento; los árboles y las plantas se adhieren a la tierra. 
+Lo oscuro se adhiere a lo luminoso y completa así su claridad. En la medida en que lo claro irradia luz, necesita de lo perseverante en su interior para no consumirse por completo, sino poder brillar de manera duradera. Todo lo que es brillante en el mundo depende de algo a lo que adherirse para poder brillar duraderamente.
 
-De la misma manera, la claridad de la mente humana debe adherirse a lo que es recto y justo para poder transformar el entorno de forma benéfica. El gran hombre persevera en esta actitud y cultiva una docilidad voluntaria ante las leyes universales. La vaca es el símbolo de la docilidad extrema y la nutrición pacífica. Al mantener esta mansedumbre, la claridad espiritual no se convierte en una llamarada destructiva y soberbia, sino en una luz constante que guía e ilumina.
+Así, el sol y la luna se adhieren al cielo; los cereales, la hierba y los árboles se adhieren a la tierra. Así, la doble claridad del hombre llamado se adhiere a lo recto y puede de ese modo configurar el mundo. Al reconocer el hombre, que en el mundo está condicionado y no es independiente, esta condicionalidad, al hacerse dependiente de las fuerzas armónicas y buenas del contexto del mundo, obtiene el éxito. La vaca es el símbolo de la sumisión extrema. Al cultivar en sí mismo esta sumisión y dependencia voluntaria, el hombre alcanza una claridad sin agudeza y encuentra su lugar en el mundo.
 
-### La Imagen
+Nota: Es una coincidencia notable, digna de atención, que aquí, al igual que en la religión persa, el fuego y el cuidado de la vaca aparezcan unidos.
+
+---
+
+## La Imagen
 
 > El resplandor se duplica: la imagen del fuego.
-> Así el gran hombre, al dar continuidad a este brillo,
+> Así el Gran Hombre, al dar continuidad a este brillo,
 > ilumina las cuatro regiones del mundo.
 
-El fuego se propaga de manera sucesiva: cuando una materia se consume, la llama se transfiere a otra, generando una continuidad en el resplandor. Esta duplicación del brillo representa la transmisión del conocimiento y la sabiduría a través del tiempo. 
+Cada uno de los dos signos individuales representa el sol en el transcurso de un día. Se representa, pues, una actividad repetida del sol. Con ello se indica la eficacia temporal de la luz. El Gran Hombre continúa la obra de la naturaleza en el mundo humano. Mediante la claridad de su ser, consigue que la luz se propague cada vez más y penetre cada vez más interiormente en el ser humano.
 
-El gran hombre toma este fenómeno de la naturaleza como modelo para su labor en la sociedad. No retiene la claridad para sí mismo, sino que la propaga activamente, educando, transmitiendo los principios del orden y la justicia, e iluminando con su guía el caminar de las comunidades en todas las direcciones de la tierra.
+---
 
-### Las Líneas Regentes
+## Las Líneas Individuales
 
 #### Al principio un Nueve significa:
 > Los pasos se cruzan de manera confusa.
-> Si uno muestra seriedad y concentración, permanece libre de tacha.
+> Si uno es serio en ello: sin error.
 
-Al comienzo de una actividad, antes de que el rumbo esté firmemente definido, la energía es impetuosa y los primeros pasos pueden entremezclarse con confusión y precipitación. En esta etapa inicial, es sumamente fácil cometer errores debido al entusiasmo desmedido. Por lo tanto, es indispensable mantener la seriedad interior y una profunda concentración en los objetivos esenciales. Al actuar con este rigor y prudencia desde el primer instante, las desviaciones se corrigen a tiempo y el proceder queda exento de faltas.
+Es temprano en la mañana. El trabajo comienza. Después de que durante el sueño el alma ha estado separada del mundo exterior, ahora las relaciones con el mundo vuelven a comenzar. Cruzadas y entremezcladas corren las huellas de las impresiones. Hay una actividad apresurada. Es importante mantener en ello la concentración interior, no dejarse arrastrar por el ajetreo de la vida. Si uno es serio y está concentrado, alcanza la claridad necesaria para enfrentarse a las numerosas impresiones que irrumpen sobre él. Justo al comienzo, tal seriedad concentrada es especialmente importante; pues el comienzo contiene los gérmenes de todo lo posterior.
 
-#### Seis en el segundo puesto significa:
-> Lucidez amarilla. ¡Gran ventura!
+### Seis en el segundo puesto significa:
+> Resplandor amarillo. Suprema ventura.
 
-Esta línea ocupa el centro del trigrama inferior, representando el equilibrio perfecto. El amarillo es el color de la moderación, del término medio y de la tierra fértil. Aquí la claridad mental no es estridente ni extremista; es una lucidez templada por la prudencia y el sentido común. Quien posee esta sabiduría moderada evita los excesos del intelecto y encuentra el camino correcto en sus decisiones, lo cual le depara la más alta fortuna y una gran ventura.
+El mediodía del día ha llegado. El sol brilla con resplandor amarillo. El amarillo es el color del centro y de la medida. El resplandor amarillo es por tanto la imagen de la cultura y el arte perfectos, cuya armonía más elevada consiste en la medida.
 
-#### Nueve en el tercer puesto significa:
-> Ante la luz del sol poniente, los hombres
-> o bien golpean la cazuela de barro y cantan,
-> o bien se lamentan por la vejez que se aproxima. Infortunio.
+### Nueve en el tercer puesto significa:
+> Ante el resplandor del sol poniente,
+> los hombres golpean la olla y cantan,
+> o suspiran en voz alta por la cercana vejez.
+> Infortunio.
 
-Se describe una situación de declive, simbolizada por el sol de la tarde que está a punto de ocultarse. Frente a la naturaleza efímera de la vida y el fin inminente de una etapa, los hombres vulgares caen en dos extremos erróneos: o bien se entregan a una alegría frívola y ruidosa para olvidar el destino, o bien se hunden en una queja melancólica por el tiempo perdido. Ambas actitudes denotan una falta de libertad interior ante el destino. El sabio, en cambio, comprende que cada ciclo tiene su fin natural y conserva la quietud de su alma, evitando el infortunio de las pasiones desatadas.
+Aquí es el final del día. El resplandor del sol que se pone recuerda la condicionalidad y caducidad de la vida. En esta falta de libertad exterior, los hombres suelen volverse también interiormente no libres. O bien la caducidad es para ellos un impulso a una alegría tanto más desenfadada, para disfrutar de la vida mientras aún está ahí, o bien se dejan arrastrar por la tristeza y, con la queja por la cercana vejez, echan a perder el valioso tiempo. Ambas cosas son malas. Para el Noble no hay diferencia entre morir temprano o tarde. Él cuida de su persona y aguarda su destino, y de esta manera consolida su sino.
 
-#### Nueve en el cuarto puesto significa:
-> Irrumpe de manera repentina.
-> Se enciende, muere y es arrojado.
+### Nueve en el cuarto puesto significa:
+> Repentinamente llega;
+> arde, se extingue, es arrojado.
 
-La energía de esta línea es excesivamente abrupta, carece de equilibrio y no tiene raíces sólidas. Irrumpe en la situación como un fuego de paja o un relámpago fugaz que ciega por un instante pero se extingue de inmediato. Es la actitud de quien busca destacar a toda costa mediante la violencia o la audacia desmedida, sin contar con una base moral estable. Semejante llamarada se consume a sí misma rápidamente, desaparece sin dejar rastro permanente y es desechada por la comunidad por su total inutilidad.
+La claridad del entendimiento se comporta respecto a la vida como el fuego respecto a la madera. El fuego se adhiere a la madera, pero también consume la madera. La claridad del entendimiento tiene su raíz en la vida, pero también puede consumir la vida. Se trata de cómo se ejercita. Aquí se dibuja la imagen de un meteoro o de un fuego de paja. Un carácter agitado e inquieto alcanza un rápido ascenso. Pero faltan los efectos duraderos. En estas circunstancias, es malo gastarse demasiado rápido y consumirse como un meteoro.
 
-#### Seis en el quinto puesto significa:
-> Derramar lágrimas en torrentes, suspirar y lamentarse.
+### Seis en el quinto puesto significa:
+> Llorando en torrentes, suspirando y lamentándose.
 > Ventura.
 
-Se ha alcanzado una posición de gran responsabilidad, pero rodeada de sombras y dificultades. Uno es plenamente consciente del peligro y de la decadencia que amenazan el entorno, lo cual produce una profunda conmoción interior expresada en llanto y tristeza. Sin embargo, esta crisis del sentimiento no es una desesperación estéril, sino el despertar de una profunda seriedad y de una auténtica enmienda. Al reconocer la gravedad de la situación con tal grado de honestidad, el corazón se purifica, permitiendo cambiar el rumbo de los acontecimientos hacia la ventura.
+Aquí está la cima de la vida. Sin advertencia, uno se consumiría en esta posición como una llama. Si en cambio se abandona el miedo y la esperanza, se reconoce la vanidad de todo, se llora y suspira, preocupado por mantener su claridad, entonces de esa tristeza proviene la ventura. Se trata aquí de una verdadera conversión, no como en el nueve del tercer puesto solo de un estado de ánimo pasajero.
 
-#### Al final un Nueve significa:
-> El rey se sirve de él para emprender una campaña militar.
-> Es mejor ejecutar a los cabecillas y perdonar a los seguidores. Libre de tacha.
+### Al final un Nueve significa:
+> El Rey lo utiliza para salir y castigar.
+> Lo mejor entonces es matar a los cabecillas
+> y tomar prisioneros a los seguidores.
+> Sin error.
 
-La etapa de la confusión y el desorden debe ser atajada con firmeza. El gobernante emplea la fuerza necesaria para restablecer la justicia en el reino. Sin embargo, la severidad no debe convertirse en una crueldad ciega ni en una venganza generalizada. La verdadera claridad del juicio consiste en identificar con precisión a los verdaderos responsables del mal —los cabecillas— para eliminarlos, mostrando clemencia y compasión con aquellos que simplemente fueron arrastrados por las circunstancias. Al actuar con esta justa proporcionalidad, el orden se restablece sólidamente y el proceder queda libre de tacha.
+El propósito del castigo es crear disciplina, no hacer justicia ciegamente. Se trata de curar el mal en la raíz. En la vida del Estado, se trata de eliminar a los cabecillas, pero perdonar a los seguidores. En la autoformación, se trata de erradicar las malas costumbres, pero tolerar las costumbres inofensivas. Pues un ascetismo demasiado estricto, al igual que una justicia demasiado severa, no conduce a ningún éxito.
 
-***
+---
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)

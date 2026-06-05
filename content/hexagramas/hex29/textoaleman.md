@@ -13,11 +13,12 @@ showAuthor: false
   &#x4DDC;
 </p>
 
-***
+> oben Kan, das Abgründige, das Wasser
+> unten Kan, das Abgründige, das Wasser
 
 Das Zeichen besteht aus der Wiederholung des Zeichens Kan. Es ist eines der acht Doppelzeichen. Das Zeichen Kan bedeutet das Hineinstürzen. Ein Yangstrich ist zwischen zwei Yinstriche hineingestürzt und wird von ihnen eingeschlossen wie das Wasser in einer Talschlucht. Es ist der mittlere Sohn. Das Empfangende hat den mittleren Strich des Schöpferischen erlangt, und so entsteht Kan. Als Bild ist es das Wasser, und zwar das Wasser, das von oben kommt und auf der Erde in Bewegung ist in Flüssen und Strömen und das alles Leben auf Erden veranlaßt. Auf den Menschen übertragen stellt es das Herz, die Seele dar, die im Leib eingeschlossen ist, das Lichte, das im Dunkeln enthalten ist, die Vernunft. Der Name des Zeichens hat, weil es wiederholt ist, den Zusatz: Wiederholung der Gefahr. Damit soll das Zeichen eine objektive Lage, an die man sich zu gewöhnen hat, nicht eine subjektive Gesinnung bezeichnen. Denn Gefahr als subjektive Gesinnung bedeutet entweder Tollkühnheit oder Hinterlist. Darum wird die Gefahr auch als Schlucht bezeichnet, d. h. ein Zustand, in dem man sich befindet wie das Wasser in einer Schlucht, und aus der man herauskommt wie das Wasser, wenn man sich richtig verhält.
 
-### DAS WIEDERHOLTE ABGRÜNDIGE
+## DAS URTEIL
 
 > Das wiederholte Abgründige.
 > Wenn du wahrhaftig bist, so hast du im Herzen Gelingen,
@@ -27,7 +28,9 @@ Durch die Wiederholung der Gefahr gewöhnt man sich daran. Das Wasser gibt das B
 
 Aktiv verwendet kann die Gefahr eine wichtige Bedeutung haben als Schutzmaßregel. So hat der Himmel seine gefahrvolle Höhe, die ihn gegen jeden Versuch eines Eingriffs schützt. So hat die Erde ihre Berge und Gewässer, die durch ihre Gefahren die Länder trennen. Ebenso wenden die Herrscher die Gefahr als Schutzmaßregel an, um sich nach außen gegen Angriffe, nach innen gegen Unruhen zu schützen.
 
-### DAS BILD
+---
+
+## DAS BILD
 
 > Das Wasser fließt ununterbrochen und kommt ans Ziel:
 > das Bild des wiederholten Abgründigen.
@@ -36,21 +39,23 @@ Aktiv verwendet kann die Gefahr eine wichtige Bedeutung haben als Schutzmaßrege
 
 Das Wasser erreicht sein Ziel durch ununterbrochenes Fließen. Es füllt jede Vertiefung aus, ehe es weiterfließt. So macht es der Edle. Er legt Wert darauf, daß das Gute zur festen Charaktereigenschaft wird, nicht zufällig und vereinzelt bleibt. Auch bei der Belehrung anderer kommt alles auf die Konsequenz an. Denn nur durch Wiederholung wird der Stoff zum Eigentum des Lernenden.
 
-### DIE EINZELNEN LINIEN
+---
 
-#### Anfangs eine Sechs bedeutet:
+## DIE EINZELNEN LINIEN
+
+### Anfangs eine Sechs bedeutet:
 > Wiederholung des Abgründigen.
 > Man gerät im Abgrund in ein Loch. Unheil.
 
 Gewohnheit des Gefährlichen bewirkt leicht, daß die Gefahr ins eigne Wesen eingeht. Man weiß Bescheid und gewöhnt sich ans Böse. Damit hat man den rechten Weg verloren, und Unheil ist die natürliche Folge.
 
-#### Neun auf zweitem Platz bedeutet:
+### Neun auf zweitem Platz bedeutet:
 > Der Abgrund hat Gefahr.
 > Man soll nur Kleines zu erreichen streben.
 
 Innerhalb der Gefahr darf man nicht ohne weiteres danach trachten, unter allen Umständen herauszukommen, sondern muß sich zunächst zufrieden geben, wenn man von der Gefahr nicht überkommen wird. Man muß ruhig die Zeitumstände in Erwägung ziehen und sich mit Kleinem begnügen, da zunächst ein großer Erfolg nicht zu erreichen ist. Eine Quelle fließt auch erst spärlich, und es dauert eine Zeit, ehe sie sich einen Weg ins Freie bahnt.
 
-#### Sechs auf drittem Platz bedeutet:
+### Sechs auf drittem Platz bedeutet:
 > Vorwärts und rückwärts, Abgrund über Abgrund.
 > In solcher Gefahr halte zunächst inne,
 > sonst kommst du im Abgrund in ein Loch.
@@ -58,8 +63,8 @@ Innerhalb der Gefahr darf man nicht ohne weiteres danach trachten, unter allen U
 
 Jeder Schritt vorwärts und rückwärts bringt in Gefahr. An ein Entkommen ist nicht zu denken. Darum darf man sich nicht zum Handeln verleiten lassen, durch das man nur noch tiefer in die Gefahr geriete. Sondern man muß, so unangenehm das Verweilen in solcher Lage ist, zunächst innehalten, bis ein Ausweg sich zeigt.
 
-#### Sechs auf viertem Platz bedeutet:
-> Ein Krug Wein, eine Reisschale als Zugabe, Tongeschirr,
+### Sechs auf viertem Platz bedeutet:
+> Ein Krug Wein, eine Reisschale [^1] als Zugabe, Tongeschirr,
 > einfach zum Fenster hineingereicht.
 > Das ist durchaus kein Makel.
 
@@ -67,16 +72,14 @@ In Zeiten der Gefahr hören die umständlichen Formen auf. Die Hauptsache ist di
 
 Ein anderer Gedanke wird noch nahegelegt: Das Fenster ist der Ort, durch den Helle ins Zimmer kommt. Wenn man in schwierigen Zeiten jemand aufklären will, so muß man mit dem anfangen, was ohne weiteres klar und hell ist, und von da aus ganz einfach weitergehen.
 
-Bemerkung: Es wurde die gewöhnliche Übersetzung »zwei Reisschalen« auf Grund von chinesischen Kommentaren verbessert.
-
-#### Neun auf pfünftem Platz bedeutet:
+### Neun auf pfünftem Platz bedeutet:
 > Der Abgrund wird nicht überfüllt,
 > er wird nur bis zum Rand gefüllt.
 > Kein Makel.
 
 Die Gefahr entsteht daraus, daß man zu hoch hinaus will. Das Wasser in der Schlucht häuft sich nicht auf, sondern geht nur bis an den niedersten Rand, um herauszukommen. So braucht man in der Gefahr auch nur in der Linie des geringsten Widerstandes vorzugehen, dann erreicht man das Ziel. Große Werke können in solchen Zeiten nicht vollbracht werden; es ist genug, wenn man aus der Gefahr kommt.
 
-#### Oben eine Sechs bedeutet:
+### Oben eine Sechs bedeutet:
 > Mit Stricken und Tauen gebunden,
 > eingeschlossen zwischen dornumhegten Kerkermauern;
 > drei Jahre findet man sich nicht zurecht.
@@ -84,8 +87,10 @@ Die Gefahr entsteht daraus, daß man zu hoch hinaus will. Das Wasser in der Schl
 
 Ein Mensch, der in der äußersten Gefahr den rechten Weg verloren hat und unverbesserlich in seine Sünden verstrickt ist, hat keine Aussicht, aus der Gefahr herauszukommen. Er gleicht einem Verbrecher, der gefesselt hinter dornumhegten Kerkermauern sitzt.
 
-***
+---
 
 ### Referenzlinks
 * [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramas-i-ching/)
 * [Erweiterte Entsprechungen anzeigen](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+[^1]: Es wurde die gewöhnliche Übersetzung »zwei Reisschalen« auf Grund von chinesischen Kommentaren verbessert.

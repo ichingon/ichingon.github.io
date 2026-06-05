@@ -280,6 +280,38 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/licencias/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/licences/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/licencias/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/articulos/</loc>
     <lastmod>2026-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -309,22 +341,6 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:1313/articulos/el-abc-del-i-ching/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/"
     />
   </url>
   <url>
@@ -358,6 +374,11 @@
       hreflang="es"
       href="http://localhost:1313/articulos/azar-ciencia-i-ching/"
     />
+  </url>
+  <url>
+    <loc>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex25/</loc>

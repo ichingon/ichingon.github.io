@@ -36,6 +36,7 @@ enableRobotsTXT = true
   math = true
   showAuthor = true
   showAuthorBottom = true
+  mainSections = ["articulos", "hexagramas", "licencias"]
 
 [params.author]
     name = "Dailingna Romero"
@@ -48,6 +49,7 @@ enableRobotsTXT = true
 [params.footer]
   showCopyright = true
   showThemeAttribution = false
+  showMenu = true
 
 # 3. La Estrategia de Idiomas e Internacionalización con Menús
 [languages]
@@ -103,6 +105,23 @@ enableRobotsTXT = true
       [languages.es.menu.main.params]
         class = "nav-btn-youtube"
 
+    # === MENÚ FOOTER EN ESPAÑOL ===
+    [[languages.es.menu.footer]]
+      name = "Licencias"
+      url = "/licencias/"
+      weight = 1
+
+#    [[languages.es.menu.footer]]
+#      name = "Legal"
+#      url = "/legal"
+#      weight = 2
+#
+    [[languages.es.menu.footer]]
+      name = "Contacto"
+      url = "mailto:contacto@elichingon.com"
+      weight = 3
+
+
   [languages.en]
     languageName = "English"
     weight = 2
@@ -154,6 +173,22 @@ enableRobotsTXT = true
       weight = 3
       [languages.en.menu.main.params]
         class = "nav-btn-youtube"
+
+    # === MENÚ FOOTER EN INGLÉS ===
+    [[languages.en.menu.footer]]
+      name = "Licenses"
+      url = "/licences/"
+      weight = 1
+
+#    [[languages.en.menu.footer]]
+#      name = "Legal"
+#      url = "/legal"
+#      weight = 2
+#
+    [[languages.en.menu.footer]]
+      name = "Contact"
+      url = "mailto:contact@elichingon.com"
+      weight = 3
 
 [markup]
   [markup.goldmark]
