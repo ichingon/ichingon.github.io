@@ -109,106 +109,102 @@ html.dark .main-menu nav a[href*="youtube.com"]:hover svg {
 
 
 /* --------------------------------------------------------------------------
-   tooltip para los terminos especiales
-   -------------------------------------------------------------------------- */
-/* Estilo base de la palabra con tooltip (igual en ambos modos) */
+   TOOLTIP PARA LOS TÉRMINOS ESPECIALES (Optimizado para Móviles)
+-------------------------------------------------------------------------- */
+
+/* Estilo base de la palabra con tooltip */
 .iching-tooltip {
-  position: relative;
-  border-bottom: 1px dotted #d4af37; /* Dorado sutil, contrasta perfecto en oscuro y claro */
-  cursor: help;
-  color: inherit;
-  font-weight: 600;
-  transition: color 0.2s ease;
+    position: relative;
+    border-bottom: 1px dotted #d4af37; /* Dorado sutil */
+    cursor: help;
+    color: inherit;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    display: inline-block; /* Asegura que el contenedor se ajuste al texto */
 }
 
 .iching-tooltip:hover,
 .iching-tooltip:focus {
-  color: #d4af37;
-  outline: none;
+    color: #d4af37;
+    outline: none;
 }
 
-/* --- CAJA DEL TOOLTIP: MODO OSCURO (POR DEFECTO) --- */
+/* --- CAJA DEL TOOLTIP: MODO OSCURO --- */
 .iching-tooltip .tooltip-text {
-  visibility: hidden;
-  width: 260px;
-  background-color: #1e293b; /* Fondo oscuro elegante (slate-800) */
-  color: #f8fafc; /* Texto claro */
-  border: 1px solid #334155;
-  text-align: left;
-  border-radius: 8px;
-  padding: 10px 12px;
-  position: absolute;
-  z-index: 100;
-  bottom: 130%;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.25s ease, visibility 0.25s ease;
-  font-size: 0.85rem;
-  font-weight: 400;
-  line-height: 1.4;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-  pointer-events: none;
+    visibility: hidden;
+    width: 260px;
+    max-width: 90vw; /* CLAVE: Evita que sea más ancho que la pantalla del celular */
+    box-sizing: border-box; /* CLAVE: Evita que el padding rompa el ancho máximo */
+    
+    background-color: #1e293b;
+    color: #f8fafc;
+    border: 1px solid #334155;
+    text-align: left;
+    border-radius: 8px;
+    padding: 10px 12px;
+    position: absolute;
+    z-index: 100;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.4;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    word-wrap: break-word; /* CLAVE: Evita que palabras largas se salgan */
+    overflow-wrap: break-word;
 }
 
-/* Flechita del tooltip (Modo Oscuro por defecto) */
+/* Flechita del tooltip (Modo Oscuro) */
 .iching-tooltip .tooltip-text::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -6px;
-  border-width: 6px;
-  border-style: solid;
-  border-color: #1e293b transparent transparent transparent;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -6px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #1e293b transparent transparent transparent;
 }
 
-/* --- CAJA DEL TOOLTIP: MODO CLARO (Override cuando Blowfish aplica .light) --- */
+/* --- CAJA DEL TOOLTIP: MODO CLARO --- */
 html.light .iching-tooltip .tooltip-text {
-  background-color: #ffffff;
-  color: #1e293b;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    color: #1e293b;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
 }
 
-/* Flechita del tooltip (Modo Claro) */
 html.light .iching-tooltip .tooltip-text::after {
-  border-color: #ffffff transparent transparent transparent;
+    border-color: #ffffff transparent transparent transparent;
 }
 
 /* Mostrar el tooltip al hacer hover o focus */
 .iching-tooltip:hover .tooltip-text,
 .iching-tooltip:focus .tooltip-text {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
-/* --- AJUSTE PARA MÓVILES (Solución blindada contra desbordamiento) --- */
+/* --- AJUSTE PARA MÓVILES (Pantallas menores a 640px) --- */
 @media (max-width: 640px) {
-  .iching-tooltip .tooltip-text {
-    width: auto; /* Elimina el ancho fijo de 220px */
-    max-width: 85vw; /* Nunca excederá el 85% del ancho de la pantalla */
-    left: 5vw; /* Margen izquierdo de seguridad */
-    right: 5vw; /* Margen derecho de seguridad */
-    transform: none; /* Anula el centrado en la palabra para evitar desbordes */
-    bottom: auto;
-    top: 130%; /* Debajo de la palabra con un poco más de margen */
-    white-space: normal; /* CRUCIAL: permite que el texto haga salto de línea */
-    overflow-wrap: break-word; /* Fuerza el corte de palabras largas si es necesario */
-    text-align: center; /* Se lee mejor centrado en pantallas pequeñas */
-  }
-
-  /* Flecha apuntando hacia arriba (Modo Oscuro Móvil) */
-  .iching-tooltip .tooltip-text::after {
-    top: auto;
-    bottom: 100%;
-    left: 50%; /* Centra la flecha respecto al tooltip (que ahora está centrado en pantalla) */
-    margin-left: -6px;
-    border-color: transparent transparent #1e293b transparent;
-  }
-
-  /* Flecha apuntando hacia arriba (Modo Claro Móvil) */
-  html.light .iching-tooltip .tooltip-text::after {
-    border-color: transparent transparent #ffffff transparent;
-  }
+    .iching-tooltip .tooltip-text {
+        width: 240px; /* Un poco más estrecho para móviles */
+        bottom: auto;
+        top: 120%; /* Aparece debajo en móviles para no tapar el texto de arriba */
+    }
+    
+    /* Flecha apuntando hacia arriba en móviles */
+    .iching-tooltip .tooltip-text::after {
+        top: auto;
+        bottom: 100%;
+        border-color: transparent transparent #1e293b transparent;
+    }
+    
+    html.light .iching-tooltip .tooltip-text::after {
+        border-color: transparent transparent #ffffff transparent;
+    }
 }
