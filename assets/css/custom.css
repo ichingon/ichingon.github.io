@@ -183,21 +183,30 @@ html.light .iching-tooltip .tooltip-text::after {
   opacity: 1;
 }
 
-/* --- AJUSTE PARA MÓVILES (Muestra el tooltip debajo para no salirse de pantalla) --- */
+/* --- AJUSTE PARA MÓVILES (Solución blindada contra desbordamiento) --- */
 @media (max-width: 640px) {
   .iching-tooltip .tooltip-text {
-    width: 220px;
+    width: auto; /* Elimina el ancho fijo de 220px */
+    max-width: 85vw; /* Nunca excederá el 85% del ancho de la pantalla */
+    left: 5vw; /* Margen izquierdo de seguridad */
+    right: 5vw; /* Margen derecho de seguridad */
+    transform: none; /* Anula el centrado en la palabra para evitar desbordes */
     bottom: auto;
-    top: 120%;
+    top: 130%; /* Debajo de la palabra con un poco más de margen */
+    white-space: normal; /* CRUCIAL: permite que el texto haga salto de línea */
+    overflow-wrap: break-word; /* Fuerza el corte de palabras largas si es necesario */
+    text-align: center; /* Se lee mejor centrado en pantallas pequeñas */
   }
-  
-  /* Flecha apuntando hacia arriba (Modo Oscuro Móvil - Por defecto) */
+
+  /* Flecha apuntando hacia arriba (Modo Oscuro Móvil) */
   .iching-tooltip .tooltip-text::after {
     top: auto;
     bottom: 100%;
+    left: 50%; /* Centra la flecha respecto al tooltip (que ahora está centrado en pantalla) */
+    margin-left: -6px;
     border-color: transparent transparent #1e293b transparent;
   }
-  
+
   /* Flecha apuntando hacia arriba (Modo Claro Móvil) */
   html.light .iching-tooltip .tooltip-text::after {
     border-color: transparent transparent #ffffff transparent;
