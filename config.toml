@@ -32,6 +32,7 @@ enableRobotsTXT = true
   homepageImage = "img/featured.jpg"
   images = ["img/featured.jpg"]
   customCSS = ["css/custom.css"]
+  customJS = ["js/tooltips.js"] 
   math = true
   showAuthor = true
   showAuthorBottom = true

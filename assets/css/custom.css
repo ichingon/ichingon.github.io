@@ -109,18 +109,17 @@ html.dark .main-menu nav a[href*="youtube.com"]:hover svg {
 
 
 /* --------------------------------------------------------------------------
-   TOOLTIP PARA LOS TÉRMINOS ESPECIALES (Optimizado para Móviles)
+   TOOLTIP PARA LOS TÉRMINOS ESPECIALES
 -------------------------------------------------------------------------- */
 
-/* Estilo base de la palabra con tooltip */
 .iching-tooltip {
     position: relative;
-    border-bottom: 1px dotted #d4af37; /* Dorado sutil */
+    border-bottom: 1px dotted #d4af37;
     cursor: help;
     color: inherit;
     font-weight: 600;
     transition: color 0.2s ease;
-    display: inline-block; /* Asegura que el contenedor se ajuste al texto */
+    display: inline-block;
 }
 
 .iching-tooltip:hover,
@@ -133,8 +132,8 @@ html.dark .main-menu nav a[href*="youtube.com"]:hover svg {
 .iching-tooltip .tooltip-text {
     visibility: hidden;
     width: 260px;
-    max-width: 90vw; /* CLAVE: Evita que sea más ancho que la pantalla del celular */
-    box-sizing: border-box; /* CLAVE: Evita que el padding rompa el ancho máximo */
+    max-width: calc(100vw - 20px);
+    box-sizing: border-box;
     
     background-color: #1e293b;
     color: #f8fafc;
@@ -145,8 +144,7 @@ html.dark .main-menu nav a[href*="youtube.com"]:hover svg {
     position: absolute;
     z-index: 100;
     bottom: 130%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0; /* JS controlará la posición */
     opacity: 0;
     transition: opacity 0.25s ease, visibility 0.25s ease;
     font-size: 0.85rem;
@@ -154,7 +152,7 @@ html.dark .main-menu nav a[href*="youtube.com"]:hover svg {
     line-height: 1.4;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     pointer-events: none;
-    word-wrap: break-word; /* CLAVE: Evita que palabras largas se salgan */
+    word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
@@ -189,15 +187,14 @@ html.light .iching-tooltip .tooltip-text::after {
     opacity: 1;
 }
 
-/* --- AJUSTE PARA MÓVILES (Pantallas menores a 640px) --- */
+/* --- AJUSTE PARA MÓVILES --- */
 @media (max-width: 640px) {
     .iching-tooltip .tooltip-text {
-        width: 240px; /* Un poco más estrecho para móviles */
+        width: 240px;
         bottom: auto;
-        top: 120%; /* Aparece debajo en móviles para no tapar el texto de arriba */
+        top: 120%;
     }
     
-    /* Flecha apuntando hacia arriba en móviles */
     .iching-tooltip .tooltip-text::after {
         top: auto;
         bottom: 100%;
