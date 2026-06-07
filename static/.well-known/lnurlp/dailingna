@@ -1,5 +1,5 @@
 {
-  "callback": "https://api.phoenixwallet.me/lnurlp/prismhour44",
+  "callback": "https://nostrcheck.me/api/v1/lnurlp/dailingna/callback",
   "maxSendable": 1000000000,
   "minSendable": 1000,
   "metadata": "[[\"text/plain\",\"Zaps para dailingna@elichingon.com\"]]",
