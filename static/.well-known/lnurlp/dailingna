@@ -1,5 +1,5 @@
 {
-  "callback": "https://primal.net/.well-known/lnurlp/dailingna",
+  "callback": "https://primal.me/.well-known/lnurlp/dailingna",
   "maxSendable": 1000000000,
   "minSendable": 1000,
   "metadata": "[[\"text/plain\",\"Zaps para dailingna@elichingon.com\"]]",
