@@ -1,0 +1,12 @@
+{
+  "names": {
+    "dailingna": "npub1rfqz5sqv6plxpm3lqfu35q30d7p2m2mt38t7qz6309fxm7e02mrqjxlx92"
+  },
+  "relays": {
+    "npub1rfqz5sqv6plxpm3lqfu35q30d7p2m2mt38t7qz6309fxm7e02mrqjxlx92": [
+      "wss://relay.damus.io",
+      "wss://nos.lol",
+      "wss://relay.snort.social"
+    ]
+  }
+}
