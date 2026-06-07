@@ -1,9 +1,9 @@
 {
   "names": {
-    "dailingna": "npub1rfqz5sqv6plxpm3lqfu35q30d7p2m2mt38t7qz6309fxm7e02mrqjxlx92"
+    "dailingna": "1a402a400cd07e60ee3f02791a022f6f82adab6b89d7e00b5179526dfb2f56c6"
   },
   "relays": {
-    "npub1rfqz5sqv6plxpm3lqfu35q30d7p2m2mt38t7qz6309fxm7e02mrqjxlx92": [
+    "1a402a400cd07e60ee3f02791a022f6f82adab6b89d7e00b5179526dfb2f56c6": [
       "wss://relay.damus.io",
       "wss://nos.lol",
       "wss://relay.snort.social"
