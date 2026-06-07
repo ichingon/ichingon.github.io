@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dailingna Romero</copyright>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tabla para buscar los hexagramas del I Ching</title>
@@ -280,12 +280,32 @@
     </item>
     
     <item>
+      <title>Verificación de autenticidad</title>
+      <link>http://localhost:1313/verificar/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/verificar/</guid>
+      <description>&lt;p&gt;En un internet saturado de contenido generado por IA, &lt;em&gt;deepfakes&lt;/em&gt;, suplantaciones y plagios, surge una pregunta inevitable: &lt;strong&gt;¿cómo sabes que lo que lees o ves viene realmente de su creador original y no de una cuenta que suplanta su identidad?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esta página explica cómo puedes verificar criptográficamente que cualquier artículo, video o contenido publicado en &lt;code&gt;elichingon.com&lt;/code&gt; es auténtico, no ha sido alterado y fue publicado por esta entidad digital específica.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Arquitectura de Licencias de elichingon.com</title>
       <link>http://localhost:1313/licencias/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/licencias/</guid>
-      <description>&lt;p&gt;Este sitio es un ecosistema de contenido abierto, diseñado como un protocolo de información descentralizado sobre el I Ching. Para garantizar su máxima difusión y adopción, la propiedad intelectual del sitio está estructurada en capas independientes, cada una con su propio régimen legal.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Capa 1 · Texto Original en Alemán (Dominio Público)&#xA;    &lt;div id=&#34;capa-1--texto-original-en-alemán-dominio-público&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#capa-1--texto-original-en-alem%c3%a1n-dominio-p%c3%bablico&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Los textos base del I Ching utilizados en este sitio corresponden a la traducción al alemán de &lt;strong&gt;Richard Wilhelm&lt;/strong&gt;, publicada originalmente en 1924 bajo el título &lt;em&gt;I Ging, das Buch der Wandlungen&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Este sitio es un ecosistema de contenido abierto, diseñado como un protocolo de información descentralizado sobre el I Ching. Para garantizar su máxima difusión y adopción, la propiedad intelectual del sitio está estructurada en capas independientes, cada una con su propio régimen legal.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Capa 1 · Texto Original en Alemán (Dominio Público)&#xA;    &lt;div id=&#34;capa-1--texto-original-en-alemán-dominio-público&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#capa-1--texto-original-en-alem%c3%a1n-dominio-p%c3%bablico&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Los textos base del I Ching utilizados en este sitio corresponden a la traducción al alemán de Richard Wilhelm, publicada originalmente en 1924 bajo el título &lt;em&gt;I Ging, das Buch der Wandlungen&lt;/em&gt;.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Como consultar al I Ching mediante el lanzamiento de las monedas</title>
+      <link>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</guid>
+      <description>Este es un artículo introductorio sobre el método de consulta del I Ching mediante las monedas.</description>
       
     </item>
     
@@ -306,16 +326,6 @@
       
       <guid>http://localhost:1313/articulos/azar-ciencia-i-ching/</guid>
       <description>Una exploración epistemológica sobre cómo el azar, lejos de ser un obstáculo para el conocimiento, actúa como un filtro de la subjetividad y una dimensión constitutiva de la realidad, conectando la tradición milenaria china con la ciencia contemporánea.</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</guid>
-      <description>&lt;p&gt;Como consultar al I Ching mediante el lanzamiento de las monedas&lt;/p&gt;&#xA;&lt;p&gt;El proceso de consultar al I Ching, y de cualquier oráculo en realidad, implica el azar - algo que no depende de nuestra intención consciente. A saber, existen dos métodos de azar para la consulta del I Ching: una con los tallos de milenrama, y la otra con el lanzamiento de tres monedas.&lt;/p&gt;&#xA;&lt;p&gt;La milenrama (Achillea millefolium) fue utilizada en el oráculo del I Ching principalmente por su disponibilidad, resistencia y simbolismo ritual, aunque no era la única opción botánica en la antigüedad. Era una planta bastante común y fácil de encontrar en las cercanías de áreas sagradas. Sus tallos eran resistentes cuando se secaban, lo que permitía conservar las 50 varillas necesarias para el ritual durante largos periodos. Además, según la cosmogonía tradicional china, se consideraba una planta sagrada que incorporaba el qi (fuerza vital) de la naturaleza; se creía que usar tallos recolectados localmente conectaba al adivinador con las energías específicas de su entorno.&lt;/p&gt;</description>
       
     </item>
     

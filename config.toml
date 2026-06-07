@@ -117,10 +117,14 @@ enableRobotsTXT = true
 #      weight = 2
 #
     [[languages.es.menu.footer]]
-      name = "Contacto"
-      url = "mailto:contacto@elichingon.com"
+      name = "Verificar"
+      url = "/verificar"
       weight = 3
 
+    [[languages.es.menu.footer]]
+      name = "Contacto"
+      url = "mailto:contacto@elichingon.com"
+      weight = 4
 
   [languages.en]
     languageName = "English"
@@ -186,9 +190,14 @@ enableRobotsTXT = true
 #      weight = 2
 #
     [[languages.en.menu.footer]]
+      name = "Verify"
+      url = "/verify"
+      weight = 3
+
+    [[languages.en.menu.footer]]
       name = "Contact"
       url = "mailto:contact@elichingon.com"
-      weight = 3
+      weight = 4
 
 [markup]
   [markup.goldmark]

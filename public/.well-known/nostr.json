@@ -1,0 +1,12 @@
+{
+  "names": {
+    "dailingna": "1a402a400cd07e60ee3f02791a022f6f82adab6b89d7e00b5179526dfb2f56c6"
+  },
+  "relays": {
+    "1a402a400cd07e60ee3f02791a022f6f82adab6b89d7e00b5179526dfb2f56c6": [
+      "wss://relay.damus.io",
+      "wss://nos.lol",
+      "wss://relay.snort.social"
+    ]
+  }
+}

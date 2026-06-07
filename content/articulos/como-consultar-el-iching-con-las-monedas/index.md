@@ -1,22 +1,45 @@
-Como consultar al I Ching mediante el lanzamiento de las monedas
+---
+title: "Como consultar al I Ching mediante el lanzamiento de las monedas"
+date: 2026-06-05
+author: "Dailingna Romero"
+showAuthor: true
+showAuthorBottom: true
+showFooterAuthor: true
+tags: ["Fundamentos del I Ching"]
+summary: "Este es un artículo introductorio sobre el método de consulta del I Ching mediante las monedas."
+math: false
+---
 
-El proceso de consultar al I Ching, y de cualquier oráculo en realidad, implica el azar - algo que no depende de nuestra intención consciente. A saber, existen dos métodos de azar para la consulta del I Ching: una con los tallos de milenrama, y la otra con el lanzamiento de tres monedas.
+## La milenrama y las monedas- dos métodos tradicionales para consultar el I Ching
+
+El proceso de consultar al I Ching, y de cualquier oráculo en realidad, implica el [azar]({{< relref "azar-ciencia-i-ching.md">}}) - algo que no depende de nuestra intención consciente. A saber, existen dos métodos de azar para la consulta del I Ching: una con los tallos de milenrama, y la otra con el lanzamiento de tres monedas.
 
 La milenrama (Achillea millefolium) fue utilizada en el oráculo del I Ching principalmente por su disponibilidad, resistencia y simbolismo ritual, aunque no era la única opción botánica en la antigüedad. Era una planta bastante común y fácil de encontrar en las cercanías de áreas sagradas. Sus tallos eran resistentes cuando se secaban, lo que permitía conservar las 50 varillas necesarias para el ritual durante largos periodos. Además, según la cosmogonía tradicional china, se consideraba una planta sagrada que incorporaba el qi (fuerza vital) de la naturaleza; se creía que usar tallos recolectados localmente conectaba al adivinador con las energías específicas de su entorno.
 
-Achillea millefolium, Fotografía digital realizada por Pablo Alberto Salguero Quiles, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=54073
-
+{{< figure src="achillea-millefolium.webp" alt="Achillea millefolium" caption="**Achillea millefolium**, Fotografía digital realizada por Pablo Alberto Salguero Quiles, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=54073" >}}
+  
 El proceso de consulta con los tallos de milenrama es complejo, lento y laborioso, pudiendo durar hasta 20 o 30 minutos, lo cual no es malo en sí, porque la lentitud del proceso ritual fomenta un estado mental meditativo y receptivo, necesario para interpretar la respuesta del oráculo. A partir de la dinastía Han, y consolidandose su popularidad durante la dinastía Song del Sur (1127-1279 d.C.), se empezaron a usar las tres monedas para consultar el I Ching, lo cual hizo la consulta del Libro de las Mutaciones más accequible y sencilla.
 
 La expansión del I Ching en Occidente, gracias a las traducciones de este libro como la de Richard Wilhelm, resulto en la estandardarización del método de las monedas. Incluso en nuestros días, es común que al comprar un ejemplar del I Ching, se incluyan tres monedas chinas con el cuadrado en el centro adjuntas. En este artículo hablaremos sobre el método de consulta mediante las tres monedas.
 
 ---
-Para consultar al I Ching por este método, se necesitan trés monedas idénticas. Esas tres monedas las limpiará y las guardará en un sitio seguro. Sólo deberá manipularlas usted para consultar al I Ching. No tienen que ser de un tipo especial, simplemente que sean iguales, es lo importante.
 
-Antes de lanzar las monedas, es importante meditar bien sobre la pregunta, y crear un vacío, o wuji, si se quiere, para permitir que el oráculo nos hable. Mantener la tranquilidad durante todo el ritual de consulta del oráculo, y la atención enfocada en nuestra pregunta, es lo esencial.
------
+## Requisitos previos para consultar el I Ching
+
+Para consultar al I Ching por este método, se necesitan trés monedas idénticas. No tienen que ser las monedas tradicionales chinas a las que me referí anteriormente. No tienen que ser de un tipo especial, simplemente que sean iguales, es lo importante. Esas tres monedas las limpiará y las guardará en un sitio seguro. Sólo deberá manipularlas usted para consultar al I Ching. 
+
+Antes de lanzar las monedas, es importante meditar bien sobre la pregunta, y crear un vacío, o {{< tooltip term="wújí" def="Es el estado original, ilimitado y no diferenciado del universo en la filosofía china. Representa el vacío primordial o la ausencia de polaridad que existe antes de la aparición del movimiento, la dualidad (Yin y Yang) y la manifestación de todas las cosas. Se describe como un estado de calma absoluta, quietud y potencial infinito, a menudo simbolizado por un círculo vacío." >}}wújí{{< /tooltip >}}, si se quiere, para permitir que el oráculo nos hable. Mantener la tranquilidad durante todo el ritual de consulta del oráculo, y la atención enfocada en nuestra pregunta, es lo esencial.
+
+![Actitud al consultar el I Ching](actitud.webp "Preparación mental antes de consultar al consultar el I Ching")
+
+Consultar el I Ching requiere una actidud y disposición mental especial. También requiere meditar sobre la pregunta para plantearla de una forma más precisa. Sobre esto hablamos en otro artículo.
+
+---
+
+## ¿Cómo obtener las 6 líneas del hexagrama?
+
 Pasemos entonces a hablar de cómo obtenemos las 6 líneas de un hexagrama a partir de 6 lanzamientos de trés monedas. Comencemos por aclarar que a la cara de una moneda le asignamos un valor de 3, y la a sello, un valor numérico de 2. En la numerología del Yi Ching, los numeros impares son Yang, y los pares, Yin.
-----
+
 Cuando uno lanza tres monedas y sumamos los tres valores numéricos de las monedas, hay cuatro posibles resultados: 6, 7, 8 o 9.
 
 Si obtenemos tres sellos, sumando sus valores númericos nos da 6. 6 es un número par, por lo tanto es una línea Yin que muta a Yang y se denota de la siguiente manera:
@@ -64,12 +87,7 @@ Existe otro componente que nos proporciona información para interpretar los hex
 Si no hay líneas móviles, se dice que el hexagrama obtenido es un hexagrama estático y en ese caso, la situación no está cambiando y la sentencia general del I Ching sobre el hexagrama obtenido ofrece suficiente clarificación.
 
 Si hay líneas móviles, tendremos un segundo hexagrama, que nos muestra como podría evolucionar la situación en el futuro. A este segundo hexagrama lo llamamos el hexagrama futuro. Se obtiene a partir de los valores de las líneas según los lanzamientos de las monedas en donde los seis se cambian a Yang (siete) y los nueve a Yin (ocho). Una vez más, identificamos este nuevo hexagrama en la tabla y leemos en el texto su dictamen e imágen.
----------
+-
+---
 
 Esto ha sido solo el primer paso en el vasto arte de consultar e interpretar el I Ching. Cada hexagrama encierra múltiples capas de significado y conexiones por descubrir. El verdadero aprendizaje comienza con su propia experiencia, así que lo invito a experimentar e iniciar su diálogo personal con la sabiduría del I Ching.
-
- 
- 
-
-
-

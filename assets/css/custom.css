@@ -205,3 +205,31 @@ html.light .iching-tooltip .tooltip-text::after {
         border-color: transparent transparent #ffffff transparent;
     }
 }
+
+/*---------------------------------------------------------------------*/
+/* ESTILO PARA LA PAGINA PRINCIPAL DE ARTÍCULOS	                       */
+/*---------------------------------------------------------------------*/
+
+/* Forzar viñetas y espaciado interlineal en los artículos */
+ul.lista-articulos-chingona {
+    list-style-type: disc !important;
+    padding-left: 1.5rem !important;
+    margin-top: 0.5rem !important;
+}
+
+ul.lista-articulos-chingona li {
+    margin-bottom: 0.8rem !important; /* Más espacio vertical entre artículos */
+}
+
+/* Ocultar la flecha nativa horrible de HTML en navegadores basados en Webkit/Firefox */
+.grupo-acordeon-chingon summary::-webkit-details-marker {
+    display: none !important;
+}
+.grupo-acordeon-chingon summary {
+    list-style: none !important;
+}
+
+/* Rotar la flecha personalizada cuando el acordeón esté abierto */
+.grupo-acordeon-chingon[open] .flecha-indicadora {
+    transform: rotate(180deg);
+}
