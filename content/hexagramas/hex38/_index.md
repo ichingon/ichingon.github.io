@@ -1,9 +1,9 @@
 ---
-layout: "simple"
-title: "Hexagrama 38 睽 - Kui / El Antagonismo"
+title: "Hexagrama 38 睽 - Kui / La Oposición"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 38 (Kui) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
-keywords: ["I Ching", "Hexagrama 38", "Kui", "El Antagonismo", "Richard Wilhelm", "睽"]
+keywords: ["I Ching", "Hexagrama 38", "Kui", "La Oposición", "Richard Wilhelm", "睽"]
+layout: "simple"
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -15,78 +15,79 @@ showAuthor: false
 </p>
 
 ### Trigramas
-* Arriba: Lí, El Fuego, Lo Adherente.
-* Abajo: Duì, Lo Heitero, El Lago.
+* **Arriba:** Li (Lo Adherente, el fuego)
+* **Abajo:** Dui (Lo Alegre, el lago)
+
+El signo consiste en el signo superior Li, la llama que arde hacia arriba, y el signo inferior Dui, el lago, que filtra hacia abajo. Estos movimientos están en oposición mutua. Además, Li es la segunda hija y Dui la hija menor. Aunque viven en la misma casa, pertenecen a diferentes hombres y su voluntad no es común, sino dirigida a lo opuesto.
 
 ---
 
 ## El Dictamen
 
-> El Antagonismo. En cosas pequeñas, ventura.
+> La oposición. En cosas pequeñas, ¡ventura!
 
-Cuando los hombres se encuentran distanciados y alienados, las grandes empresas comunitarias no pueden llevarse a cabo, ya que falta la cohesión indispensable para su desarrollo. En tales circunstancias, resulta inútil forzar los acontecimientos; lo más prudente es limitarse a realizar tareas cotidianas y de menor escala, donde aún es posible obtener avances y buenos resultados.
+Cuando los hombres viven en oposición y extrañamiento, no se puede llevar a cabo una gran obra común. Las disposiciones de ánimo divergen demasiado. Sobre todo, no se debe proceder con brusquedad, con lo que la oposición solo se agravaría, sino que hay que limitarse a efectos graduales en lo pequeño. Aquí aún cabe esperar ventura, ya que la situación es tal que la oposición no excluye todo entendimiento.
 
-El antagonismo no debe entenderse como un mal absoluto, sino como una fase dentro del orden universal. Aunque las fuerzas tiendan a separarse, el sabio comprende que los opuestos se complementan en una dimensión superior. En medio de la divergencia, se mantiene la individualidad sin caer en la hostilidad destructiva.
+La oposición, que en general aparece como estancamiento, como oposición polar dentro de un todo abarcador también tiene sus buenas e importantes funciones.
+
+Las oposiciones entre Cielo y Tierra, espíritu y naturaleza, hombre y mujer, mediante su equilibrio producen la creación y reproducción de la vida. En el mundo visible de las cosas, la oposición posibilita una separación en especies, a través de la cual el orden llega al mundo.
 
 ---
 
 ## La Imagen
 
-> El fuego asciende, el agua del lago desciende: la imagen del Antagonismo.
-> Así el noble conserva su singularidad en medio de la diversidad.
+> Arriba el fuego, abajo el lago: la imagen de la oposición.
+> Así el Noble conserva en medio de toda comunidad su particularidad.
 
-Las naturalezas del fuego y del agua son opuestas: uno busca las alturas y la otra tiende hacia las profundidades. Esta misma separación de tendencias se manifiesta con frecuencia en las comunidades humanas. 
-
-Ante esta realidad, el noble no se deja arrastrar por la corriente general ni asimila costumbres vulgares por el simple deseo de encajar. Al mismo tiempo, evita el aislamiento huraño o la confrontación directa; convive en el mundo manteniendo intactos sus principios rectores y su propia identidad moral.
+Así como los dos elementos fuego y agua, aun cuando están juntos, nunca se mezclan, sino que conservan su propia naturaleza, así el hombre culto, incluso por el trato y los intereses comunes con personas de otra índole, nunca se dejará llevar a hacerse vulgar, sino que en medio de toda comunidad siempre mantendrá su peculiaridad.
 
 ---
 
-## Las Líneas Regentes
+## Las Líneas Individuales
 
 ### Al principio un nueve significa:
-> Desaparece el arrepentimiento.
-> Si pierdes tu caballo, no corras tras él; volverá por sí solo.
-> Cuando veas gente perversa, evítate cometer errores.
+> El arrepentimiento desaparece.  
+> Si pierdes tu caballo, no corras tras él; volverá por sí solo.  
+> Cuando veas a hombres malvados, cuídate de los errores.
 
-Al comenzar una etapa de distanciamiento, es natural que surjan malentendidos. Si alguien se aleja temporalmente debido a estas fricciones, no se debe intentar retenerlo por la fuerza; si la afinidad es real, el equilibrio se restablecerá espontáneamente. Por otra parte, al encontrarse con personas de malas intenciones, es necesario ser cauteloso para no caer en provocaciones ni asimilar sus faltas, manteniéndose libre de reproches.
+También en tiempos de oposición se puede actuar de modo que uno permanezca libre de errores, de modo que el arrepentimiento desaparezca. Al comenzar la oposición no se debe querer forzar la unidad; con ello solo se lograría lo contrario, como un caballo se aleja cada vez más si se le persigue. Si es nuestro caballo, podemos dejarlo correr tranquilamente: vuelve por sí solo. Así también vuelve por sí solo un hombre que nos pertenece y que a consecuencia de un malentendido se aleja momentáneamente de nosotros, si se le deja hacer. Por otra parte, hay que ser cauto cuando hombres malvados que no nos pertenecen se acercan – también a consecuencia de un malentendido. Aquí se trata de evitar errores: no querer expulsarlos violentamente, con lo que solo se generaría hostilidad, sino simplemente tolerarlos. Ya se retirarán por sí mismos.
 
 ### Nueve en el segundo puesto significa:
-> Uno se encuentra con su señor en un callejón estrecho.
-> Sin falta.
+> Se encuentra a su señor en una callejuela estrecha.  
+> Sin mácula.
 
-En épocas de división, el camino directo hacia el entendimiento mutuo suele estar bloqueado por prejuicios. Sin embargo, el destino puede propiciar un encuentro fortuito y casual, un espacio estrecho donde las formalidades se dejan de lado y se logra una reconciliación sincera. Aprovechar estas oportunidades imprevistas disuelve la alienación sin cometer errores.
+A consecuencia de los malentendidos, no es posible que personas que por su naturaleza pertenecen juntas se reúnan de manera completamente correcta. Entonces puede ser aceptable un encuentro casual en circunstancias informales, siempre que exista la conexión interior.
 
 ### Seis en el tercer puesto significa:
-> Uno ve el carro arrastrado hacia atrás, los bueyes detenidos.
-> A la persona le cortan el pelo y la nariz.
-> No hay un buen principio, pero sí un buen final.
+> Se ve el carro arrastrado hacia atrás, los bueyes retenidos, a la persona cortados el cabello y la nariz.  
+> No es un buen comienzo, pero sí un buen final.
 
-La situación se presenta sumamente adversa: todos los esfuerzos parecen sabotearse y el entorno malinterpreta las intenciones más nobles, infligiendo humillaciones que hieren el honor. A pesar de este inicio desastroso y de la aparente falta de apoyo, la constancia interna permitirá superar los obstáculos cotidianos, logrando que la verdad salga a la luz y el proceso concluya de forma favorable.
+A veces parece como si todo se hubiera confabulado contra uno; uno se ve estorbado y retenido en el avance, se ve insultado y herido (el corte del cabello y la nariz era un castigo grave e infamante). Pero entonces uno no debe dejarse desconcertar, sino que, a pesar de estas oposiciones, debe aferrarse a la persona con la que se siente afín. Así, a pesar del mal comienzo, el final finalmente será bueno.
 
 ### Nueve en el cuarto puesto significa:
-> Aislado por el antagonismo, uno encuentra a un hombre fuerte.
-> Unión en la verdad recíproca.
-> A pesar de la peligro, desaparece el peligro.
+> Por la oposición aislado, se encuentra a un afín, con el que puede relacionarse en fidelidad.  
+> A pesar del peligro, sin mácula.
 
-El aislamiento puede volverse extremo, dejando a la persona en una soledad espiritual absoluta. En ese punto crítico, el destino propicia el encuentro con alguien de mentalidad afín y firmeza interior. Al unirse ambos en una confianza mutua y sincera, las barreras exteriores se desmoronan y los riesgos implícitos en el aislamiento se superan por completo.
+Cuando uno está en una sociedad de la que está separado por una oposición interior, cae en el aislamiento. Pero si en tal situación encuentra a una persona que por su naturaleza entera pertenece a uno, a quien se puede dar toda su confianza, entonces se superan todos los peligros del aislamiento. Nuestra voluntad tiene éxito, y uno queda libre de errores.
 
-### Seis en el sesto puesto significa:
-> El compañero muerde a través de la piel.
-> Si uno acude a él, ¿cómo podría ser esto un error?
+### Seis en el quinto puesto significa:
+> El arrepentimiento desaparece.  
+> El compañero se abre paso mordiendo a través de la envoltura.  
+> Si uno va hacia él, ¿cómo sería eso un error?
 
-Se presenta una oportunidad de acercamiento con alguien del cual se estaba distanciado. Aunque las dudas iniciales inviten a la desconfianza, la otra persona demuestra una voluntad firme y directa de romper el hielo, superando las apariencias superficiales. Responder positivamente a este llamado y dejar atrás los resentimientos del pasado abre la puerta a una colaboración exitosa.
+Se encuentra a una persona fiel, a la que al principio, en el extrañamiento general, no se reconoce. Pero ella se abre paso mordiendo a través de las envolturas que separan. Entonces es para aquel a quien este compañero se muestra en su verdadera esencia un deber ir a su encuentro y colaborar con él.
 
 ### Al final un nueve significa:
-> Aislado por el antagonismo, uno ve a su compañero como un cerdo cubierto de fango, como un carro lleno de demonios.
-> Primero se tensa el arco, luego se desata el arco.
-> No son enemigos, vienen a celebrar las bodas.
-> Al avanzar, cae una lluvia bienhechora, entonces surge la ventura.
+> Aislado por la oposición, ve a su compañero como un cerdo cargado de suciedad, como un carro lleno de demonios.
+> Primero tensa el arco hacia él, luego depone el arco.
+> No es un ladrón, quiere cortejar en el plazo fijado.
+> Al ir hacia él cae lluvia, entonces viene la ventura.
 
-El aislamiento extremo altera la percepción y hace ver amenazas donde no las hay, transformando a los amigos en figuras monstruosas o sospechosas. La primera reacción es defensiva y agresiva, pero al mirar con mayor detenimiento, se descubre que las sospechas eran infundadas. Los supuestos enemigos resultan ser aliados que buscan la unión. Al disolverse la desconfianza, la tensión se libera como una lluvia que limpia la atmósfera, trayendo consigo la prosperidad.
+Aquí el aislamiento está condicionado por malentendidos, no por las circunstancias externas, sino por estados interiores. Se desconocen a los mejores amigos, se les tiene por impuros como un cerdo sucio y por peligrosos como un carro lleno de demonios. Uno se coloca en posición defensiva. Pero finalmente reconoce su error, depone el arco y advierte que el otro viene con la mejor intención a la unión estrecha. Así se disuelve la tensión. La unión disuelve la oposición, como la lluvia que cae disuelve la bochorna antes de la tormenta. Todo va bien, porque la oposición justo en su culminación se trueca en su contrario.
 
 ---
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

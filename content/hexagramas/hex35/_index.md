@@ -1,9 +1,9 @@
 ---
-layout: "simple"
 title: "Hexagrama 35 晉 - Jin / El Progreso"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 35 (Jin) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
 keywords: ["I Ching", "Hexagrama 35", "Jin", "El Progreso", "Richard Wilhelm", "晉"]
+layout: "simple"
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -14,74 +14,82 @@ showAuthor: false
   &#x4DE2;
 </p>
 
-***
+### Trigramas
+**Arriba:** Li, Lo Adherente, el Fuego  
+**Abajo:** Kun, Lo Receptivo, la Tierra
 
-El signo representa al sol que se eleva majestuoso sobre la tierra; es, por lo tanto, la imagen de un progreso rápido y fluido, que al mismo tiempo simboliza una claridad y una expansión cada vez mayores.
+El signo representa al sol que se eleva sobre la tierra; es, por lo tanto, la imagen del progreso rápido y ligero, que al mismo tiempo significa una expansión y claridad cada vez mayores.
 
-### El Dictamen
+---
 
-> El Progreso. El fuerte príncipe es honrado con caballos en gran cantidad.
+## El Dictamen
+
+> El Progreso. El fuerte príncipe es honrado con caballos en gran cantidad.  
 > En un solo día es recibido tres veces.
 
-Como ejemplo se describe una época en la que un poderoso príncipe feudal congrega a los demás señores en torno al gran rey bajo un clima de obediencia y paz, por lo cual es colmado de valiosos presentes y atraído a la más estricta intimidad de la corte.
+Como ejemplo se describe una época en la que un poderoso príncipe feudal congrega a los demás señores en torno al gran rey en obediencia y paz, por lo cual es ricamente regalado y atraído a la más estrecha cercanía.
 
-Esta escena encierra un doble pensamiento. Por un lado, el verdadero impulso del progreso proviene de un hombre que, aun estando en una posición subordinada, es visto por los demás como un igual, razón por la cual lo siguen de manera voluntaria. Este líder posee la suficiente lucidez interna como para no abusar de su inmensa influencia, consagrándola por entero al beneficio de su soberano. Por otro lado, el señor se despoja de cualquier asomo de celos o envidia, recompensa al gran hombre con generosidad y busca su compañía de manera constante. Un gobernante preclaro y un servidor leal y obediente son las condiciones indispensables para que se verifique un progreso de magnitudes colosales.
+En esto reside un doble pensamiento. La verdadera eficacia del progreso parte de un hombre en posición dependiente, a quien los demás consideran como su igual, razón por la cual lo siguen de buena gana. Este líder posee la claridad interior suficiente para no abusar de la gran influencia que tiene, sino para emplearla en beneficio del señor. El señor, por su parte, está libre de toda envidia, regala espléndidamente al gran hombre y lo atrae durablemente a su cercanía. Un señor iluminado y un servidor obediente son las condiciones del gran progreso.
 
-### La Imagen
+---
 
-> El sol se eleva sobre la tierra: la imagen del progreso.
-> Así el noble dota de esplendor a sus propios dones preclaros.
+## La Imagen
 
-La luz del sol que emerge sobre la tierra es clara por su propia naturaleza; sin embargo, a medida que el astro asciende, se desliga de las brumas y vapores flotantes para irradiar su pureza original con un alcance infinitamente mayor. De igual manera, la esencia verdadera del ser humano es originalmente buena, pero se enturbia debido a su estrecho vínculo con lo terrenal. Por ello, requiere de una purificación constante para poder brillar con la claridad que le pertenece por derecho originario.[^1]
+> El sol se eleva sobre la tierra: la imagen del progreso.  
+> Así el Noble hace brillar sus propias disposiciones claras.[^1]
 
-### Las Líneas Regentes
+La luz del sol que asciende sobre la tierra es clara por naturaleza, pero cuanto más alto se eleva el sol, más sale de las brumas turbias y brilla en su pureza original en un ámbito tanto más amplio. Así también la verdadera esencia del ser humano es originalmente buena, pero se enturbia por su conexión con lo terreno y, por lo tanto, necesita la purificación para que pueda brillar en la claridad que le corresponde originalmente.
 
-#### Al principio un Seis significa:
-> Progresar, pero sufrir el rechazo.
-> La perseverancia trae ventura.
-> Si uno no encuentra confianza, que permanezca sereno.
-> Libre de error.
+---
 
-En una época en que todo empuja hacia el avance, uno se encuentra todavía sumido en la incertidumbre de si su marcha chocará contra el rechazo. En tal caso, la consigna es simplemente seguir actuando conforme a lo recto: esto, a la postre, aportará la ventura. Puede ocurrir que el entorno no nos otorgue su voto de confianza; si esto sucede, no se debe mendigar ni forzar el crédito de los demás bajo ninguna circunstancia. Es obligatorio mantenerse ecuánime y alegre, evitando que el ánimo se encienda en ira. Al proceder con esta templanza, uno se conserva libre de errores.
+## Las Líneas Individuales
 
-#### Seis en el segundo puesto significa:
-> Progresando, pero en medio de la melancolía.
-> La perseverancia trae ventura.
+### Al principio un Seis significa:
+> Progresar, pero ser rechazado.  
+> La perseverancia trae ventura.  
+> Si uno no encuentra confianza, que permanezca sereno.  
+> Sin error.
+
+En una época en que todo impulsa hacia el progreso, uno se halla aún en la incertidumbre de si al progresar podría encontrar rechazo. Entonces se trata simplemente de continuar en lo recto: esto finalmente trae ventura. Puede ocurrir que no se le conceda confianza a uno. En ese caso, no se debe buscar la confianza bajo cualquier circunstancia; uno debe permanecer sereno y alegre y no dejarse provocar a la ira. Así se permanece sin error.
+
+### Seis en el segundo puesto significa:
+> Progresando, pero en tristeza.  
+> La perseverancia trae ventura.  
 > Entonces se recibe una gran felicidad por parte de la madre ancestral.
 
-El progreso se ve frenado; uno se halla impedido de establecer contacto con la persona que ocupa el puesto de liderazgo y con quien se mantiene un vínculo legítimo. Esto siembra la tristeza en el alma. Sin embargo, ante una coyuntura así, es vital perseverar en el camino correcto; gracias a ello, uno terminará por recibir una inmensa felicidad envuelta en la indulgencia y bondad materna de aquella alta personalidad. Esta dicha llega y es plenamente merecida, ya que el afecto recíproco no nace de intereses egoístas o facciosos, sino de principios firmes, estables y limpios.
+El progreso es detenido, uno se ve impedido de entrar en conexión con la persona en el puesto directivo con la que se mantiene una relación. Eso trae tristeza. Pero en tal caso se trata de perseverar; entonces se experimentará una gran felicidad por parte de aquella personalidad en la mansedumbre maternal. Esta felicidad llega y es bien merecida porque el afecto recíproco no se basa en motivos egoístas y facciosos, sino en principios firmes y correctos.
 
-#### Seis en el tercer puesto significa:
-> Todos están de acuerdo. El arrepentimiento schwindet.
+### Seis en el tercer puesto significa:
+> Todos están de acuerdo. El arrepentimiento desaparece.
 
-Uno avanza con paso firme y lo hace en perfecta comunidad con los demás, cuyo consenso y apoyo sirven de impulso. Gracias a esto, desaparece cualquier motivo para el lamento o la autocompasión que pudiera surgir por no contar con la autosuficiencia necesaria para imponerse en solitario frente a los embates de la adversidad.
+Uno avanza, y lo hace en comunidad con otros, mediante cuyo acuerdo es elevado. Con ello desaparece la ocasión para el arrepentimiento que podría consistir en no poseer la independencia para imponerse solo contra todo destino adverso.
 
-#### Nueve en el cuarto puesto significa:
-> Progresar como un hámster.
+### Nueve en el cuarto puesto significa:
+> Progresar como un hámster.  
 > La perseverancia trae peligro.
 
-En tiempos de gran avance, resulta sumamente fácil para las naturalezas fuertes que ocupan un puesto equivocado acaparar y acumular bienes de forma desmedida. No obstante, semejante comportamiento rehúye la luz del día. Y dado que las épocas de progreso actúan siempre como un sol que saca a relucir las maniobras clandestinas, empecinarse en esa conducta usurera acarrea, de forma inevitable, el peligro absoluto.
+En tiempos de progreso es fácil para naturalezas fuertes que se hallan en un puesto incorrecto acumular muchas cosas. Pero tal comportamiento es huidizo de la luz. Y dado que los tiempos de progreso son siempre tiempos en que el sol saca a la luz toda actividad huidiza, persistir en tal proceder trae consigo necesariamente peligro.
 
-#### Seis en el quinto puesto significa:
-> El arrepentimiento schwindet.
-> No te tomes a pecho la pérdida ni la ganancia.
-> Las empresas traen ventura.
+### Seis en el quinto puesto significa:
+> El arrepentimiento desaparece.  
+> No te tomes a pecho la pérdida ni la ganancia.  
+> Las empresas traen ventura.  
 > Todo es propicio.
 
-Se describe aquí una situación donde, en plena era de progreso, uno ocupa una posición de máxima relevancia y se conduce con mansedumbre, moderación y reserva. Es posible que surjan dudas o autorreproches por no explotar con suficiente energía la buena fortuna del momento y dejar escapar ciertas ventajas materiales. Sin embargo, este atisbo de arrepentimiento desaparece. No se debe calibrar el éxito en función de las pérdidas o las ganancias terrenales; esos son asuntos de orden menor. Lo verdaderamente trascendental es haber consolidado, mediante esa prudencia, las bases para un despliegue de influencia fértil y colmado de bendiciones.
+Aquí se describe una situación en la que, en tiempos de progreso, uno se halla en un puesto determinante y es suave y reservado. Podría hacerse reproches por no haber aprovechado la oportunidad con suficiente energía y no haberse asegurado toda clase de ventajas. Pero este arrepentimiento desaparece. No se debe tomar a pecho la pérdida ni la ganancia. Esas son cosas subordinadas. Más importante es que de este modo uno se ha asegurado posibilidades de una acción exitosa y fecunda.
 
-#### Al final un Nueve significa:
-> Progresar valiéndose de los cuernos solo está permitido
-> para castigar el propio territorio.
-> La conciencia del peligro trae ventura.
-> Libre de tacha.
+### Al final un Nueve significa:
+> Progresar valiéndose de los cuernos solo está permitido  
+> para castigar el propio territorio.  
+> La conciencia del peligro trae ventura.  
+> Sin error.  
 > La perseverancia en esta postura trae humillación.
 
-Avanzar valiéndose de los cuernos, es decir, adoptar una postura netamente ofensiva y agresiva, es algo que en periodos como este solo debe aplicarse para corregir las faltas de los nuestros. Al obrar así, se debe conservar una plena conciencia de que recurrir a la fuerza ofensiva entraña siempre un grave riesgo. Manteniendo este cuidado, se eluden los errores que de otro modo amenazarían la empresa, y los propósitos se coronan con el éxito. Por el contrario, empecinarse en sostener esta actitud rígida y combativa, especialmente frente a quienes se encuentran fuera de nuestro círculo directo, solo conducirá a la humillación.
+Progresar con los cuernos, es decir, proceder ofensivamente, solo debe aplicarse en tiempos como estos frente a los errores de los propios. Al hacerlo, uno debe ser consciente de que tal proceder ofensivo siempre va acompañado de peligro. Así se evitan los errores que de otro modo amenazarían, y lo que se ha propuesto tiene éxito. En cambio, persistir tercamente en esta actitud demasiado enérgica, especialmente frente a los que están más alejados, trae humillación.
 
-***
+---
 
-[^1]: Este es el gran tema central que se desarrolla de manera exhaustiva en el tratado de «La Gran Enseñanza» (*Dà Xué*).
+[^1]: Este es el tema que se trata extensamente en el tratado de «La Gran Enseñanza» (*Dà Xué*).
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)

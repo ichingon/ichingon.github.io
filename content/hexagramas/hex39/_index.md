@@ -1,9 +1,9 @@
 ---
-layout: "simple"
-title: "Hexagrama 39 蹇 - Jian / El Hemmo"
+title: "Hexagrama 39 蹇 - Jian / El Obstáculo"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 39 (Jian) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
-keywords: ["I Ching", "Hexagrama 39", "Jian", "El Hemmo", "Richard Wilhelm", "蹇"]
+keywords: ["I Ching", "Hexagrama 39", "Jian", "El Obstáculo", "Richard Wilhelm", "蹇"]
+layout: "simple"
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -15,66 +15,66 @@ showAuthor: false
 </p>
 
 ### Trigramas
-* Arriba: Kǎn, El Abismo, El Agua[cite: 1].
-* Abajo: Gèn, El Estatismo, La Montaña[cite: 1].
+* **Arriba:** Kǎn (Lo Abismal, el Agua)
+* **Abajo:** Gèn (El Reposo, la Montaña)
+
+El hexagrama presenta un abismo peligroso que se abre directamente hacia adelante, mientras que a la espalda se eleva la montaña empinada e inaccesible. Así se está rodeado de obstáculos. Pero en la cualidad de la montaña, que consiste en el reposo, se halla al mismo tiempo una indicación de cómo se puede salir de los obstáculos. El signo representa obstáculos que surgen con el correr del tiempo, pero que pueden y deben ser superados. Por ello, toda la enseñanza se orienta a vencer los obstáculos. 
 
 ---
 
 ## El Dictamen
 
-> El Hemmo. Es propicio el suroeste[cite: 1].
-> No es propicio el noreste[cite: 1].
-> Es propicio ver al gran hombre[cite: 1].
-> La perseverancia trae ventura[cite: 1].
+> El Obstáculo. Es propicio el suroeste.
+> No es propicio el noreste.
+> Es propicio ver al Gran Hombre.
+> La perseverancia trae ventura.
 
-El hexagrama presenta un abismo peligroso que se abre directo hacia adelante, mientras que a la espalda se eleva una montaña empinada e inaccesible[cite: 1]. Nos encontramos, por lo tanto, completamente cercados por las dificultades[cite: 1]. Sin embargo, la cualidad de la montaña, que consiste en saber detenerse, ofrece al mismo tiempo la clave para salir de los obstáculos[cite: 1]. El signo describe impedimentos que surgen de manera natural con el correr del tiempo, pero que pueden y deben ser superados[cite: 1]. Toda la sabiduría del hexagrama se orienta a guiar el espíritu para vencer estas barreras[cite: 1].
-
-El suroeste representa la dirección del repliegue y la retirada; el noreste, por el contrario, simboliza el avance ciego[cite: 1]. Ante obstáculos que no pueden derribarse con un choque directo, la verdadera sabiduría dicta detenerse frente al peligro y retirarse temporalmente[cite: 1]. Esta retirada no constituye una capitulación, sino la preparación indispensable para reunir fuerzas[cite: 1]. Es el momento de buscar aliados que compartan los mismos principios y de ponerse bajo la dirección de un líder capaz de dominar la situación; solo así se disolverán las dificultades[cite: 1]. Mantener una rectitud interior firme e inalterable, incluso cuando se toman desvíos aparentes, es lo único que asegura el éxito final[cite: 1]. En este sentido, el obstáculo temporal se convierte en una valiosa herramienta para forjar y enriquecer el propio carácter[cite: 1]. Ese es el profundo valor de la adversidad[cite: 1].
+El suroeste es la región del repliegue, el noreste la región del avance. Se trata de una situación en la que los obstáculos se presentan de frente y no pueden ser vencidos directamente. En este caso, es sabiduría detenerse ante el peligro y retirarse. Pero esta retirada es solo la preparación para superar los obstáculos. Es preciso unirse a amigos afines y ponerse bajo la dirección de un hombre capaz de dominar la situación; entonces se logrará eliminar los obstáculos. Para ello se necesita la disposición de la perseverancia justamente cuando aparentemente se debe hacer algo que se aparta de la meta. Esta dirección interior imperturbable trae finalmente la ventura. El obstáculo, que solo dura un tiempo, es valioso para la formación de la propia personalidad. Ese es el valor de la necesidad.
 
 ---
 
 ## La Imagen
 
-> El agua está sobre la montaña: la imagen del Hemmo[cite: 1].
-> Así el noble se examina a sí mismo y cultiva su carácter[cite: 1].
+> El agua está sobre la montaña: la imagen del Obstáculo.
+> Así El Noble se vuelve hacia su propia persona y cultiva su carácter.
 
-Las dificultades y las barreras obligan al ser humano a replegarse sobre su propio interior[cite: 1]. Mientras que el hombre común reacciona buscando culpables en el mundo exterior, quejándose con amargura de los demás o maldiciendo su destino, el noble busca el error dentro de sí mismo[cite: 1]. Gracias a esta introspección profunda, el impedimento externo deja de ser un castigo estéril y se transforma en una oportunidad perfecta para el desarrollo moral y la edificación del espíritu[cite: 1].
+Las dificultades y los obstáculos lanzan al hombre de vuelta sobre sí mismo. Mientras que el hombre vulgar busca la culpa fuera, en los otros, y acusa al destino, El Noble busca el error en sí mismo, y mediante este interiorizarse el obstáculo exterior se convierte para él en ocasión de enriquecimiento interior y de formación.
 
 ---
 
-## Las Líneas Regentes
+## Las Líneas Individuales
 
 ### Al principio un seis significa:
-> Avanzar conduce a obstáculos; retirarse encuentra alabanza[cite: 1].
+> Avanzar conduce al obstáculo; retroceder halla alabanza.
 
-Cuando uno se topa de frente con una dificultad insuperable, es imperativo detenerse a reflexionar en lugar de actuar a ciegas[cite: 1]. Si el peligro es inminente, presionar la marcha solo causará mayores enredos y complicaciones[cite: 1]. Lo correcto en este momento es replegarse temporalmente; esto no significa renunciar a la meta, sino saber esperar con paciencia el instante idóneo para actuar con seguridad[cite: 1].
+Cuando uno se enfrenta a un obstáculo, se trata de considerar cómo salir mejor de él. Si un peligro nos amenaza, no debemos avanzar ciegamente, pues eso solo nos llevaría a enredos. Por el contrario, es correcto retirarse primero, no para abandonar la lucha, sino para esperar el momento adecuado para la acción.
 
 ### Seis en el segundo puesto significa:
-> El servidor del rey se encuentra ante obstáculo tras obstáculo[cite: 1].
-> Pero no es por su propia culpa[cite: 1].
+> El servidor del rey está en obstáculo tras obstáculo.
+> Pero no es por su propia culpa.
 
-La regla general indica que lo más prudente es esquivar los impedimentos y avanzar por la línea de menor resistencia[cite: 1]. Sin embargo, existe un caso excepcional en el que es un deber marchar directo hacia las dificultades, aun cuando estas se multipliquen: cuando el camino del deber y el servicio a una causa superior así lo exigen[cite: 1]. En tales circunstancias, el individuo no actúa por ambición personal, sino por fidelidad; por lo tanto, puede mantener el espíritu en perfecta paz, ya que la situación no es fruto de sus errores[cite: 1].
+Mientras que normalmente se evita el obstáculo y se trata de superarlo por la línea de menor resistencia, hay un caso en el que se debe ir al encuentro de la dificultad, incluso si las dificultades se acumulan: cuando el camino del deber lleva a que no se pueda actuar por libre decisión, sino que se tenga el deber de buscar el peligro al servicio de una causa superior. Entonces uno puede hacerlo y estar interiormente completamente tranquilo, porque no se ha puesto en esta situación difícil por propia culpa.
 
 ### Nueve en el tercer puesto significa:
-> Avanzar conduce a obstáculos; por lo tanto, regresa[cite: 1].
+> Avanzar conduce al obstáculo; por eso él regresa.
 
-Mientras que la línea anterior describe al servidor público que debe afrontar el peligro por deber, aquí se representa al guía o padre de familia que tiene personas bajo su amparo[cite: 1]. Lanzarse temerariamente a los problemas sería un acto inútil y egoísta, pues dejaría desprotegidos a quienes dependen de él y que no pueden avanzar solos[cite: 1]. Al regresar y unirse de nuevo con los suyos, es recibido con profundo alivio y alegría[cite: 1].
+Mientras que la línea anterior muestra al servidor que por deber debe ir por el camino del peligro, aquí se muestra al hombre que debe actuar como padre de familia o cabeza de los suyos. Si se lanzara temerariamente al peligro, sería inútil, porque los que están bajo su custodia no podrían avanzar solos. Si en cambio se retira y vuelve a los suyos, estos lo reciben con gran alegría.
 
 ### Seis en el cuarto puesto significa:
-> Avanzar conduce a obstáculos; replegarse lleva a la unión[cite: 1].
+> Avanzar conduce al obstáculo; retroceder conduce a la unión.
 
-Esta línea describe una encrucijada donde las propias fuerzas resultan insuficientes para superar la valla[cite: 1]. En este escenario, el camino directo no es el más corto[cite: 1]. Si se intenta avanzar en solitario y sin la preparación debida, el apoyo exterior fallará y las previsiones resultarán falsas, pues los elementos con los que se contaba se revelarán demasiado débiles[cite: 1]. Lo correcto es contener el impulso, detenerse y organizar un grupo de compañeros leales y fiables[cite: 1]. Con ese respaldo firme, el obstáculo se vencerá[cite: 1].
+También aquí se dibuja una situación a la que uno solo no puede hacer frente. En tal caso, el camino directo no es el más corto. Si se quisiera avanzar con fuerza propia sin las preparaciones necesarias, no se encontraría la ayuda necesaria y se reconocería demasiado tarde que los cálculos engañan, pues las circunstancias con las que se esperaba poder contar resultan demasiado débiles. Por eso es correcto en este caso contenerse primero y reunir en torno a sí compañeros seguros en los que se pueda apoyar para superar los obstáculos.
 
 ### Nueve en el quinto puesto significa:
-> En medio de los mayores obstáculos, llegan amigos[cite: 1].
+> En medio de los mayores obstáculos llegan amigos.
 
-Aquí se muestra al hombre que posee el llamado y la capacidad para socorrer en tiempos de necesidad[cite: 1]. Él no puede ni debe eludir las dificultades, por más peligrosas y amenazantes que parezcan alzarse ante sus ojos[cite: 1]. Debido a que su vocación es genuina y superior, la fuerza de su espíritu posee la virtud magnética de atraer a otros[cite: 1]. Los hombres acuden espontáneamente en su ayuda, permitiéndole organizar una colaboración estructurada y metódica que pondrá fin a la crisis[cite: 1].
+Aquí vemos al hombre que está llamado a poner remedio a la necesidad. No debe querer eludir los obstáculos, por muy peligrosamente que se amontonen ante él. Pero como realmente tiene una misión superior, la fuerza de su espíritu es suficientemente poderosa para atraer hacia sí a los hombres, de modo que vengan y le ayuden, y es capaz de organizarlos realmente, para que mediante la cooperación planificada de todos los participantes se supere el obstáculo.
 
 ### Al final un seis significa:
-> Avanzar conduce a obstáculos; replegarse conduce a una gran ventura[cite: 1].
-> Es propicio ver al gran hombre[cite: 1].
+> Avanzar conduce al obstáculo; retroceder conduce a gran ventura.
+> Es propicio ver al Gran Hombre.
 
-Se representa aquí a alguien que ya ha dejado atrás el torbellino del mundo y sus ambiciones cotidianas[cite: 1]. Ante el estallido de una crisis general, su primera reacción bien podría ser aislarse por completo, desentenderse del dolor ajeno y buscar su propia salvación en el desapego[cite: 1]. Sin embargo, ese camino le está vedado; no es lícito salvarse a solas abandonando el mundo a su suerte[cite: 1]. El deber moral lo llama de vuelta a la acción[cite: 1]. Gracias a su madurez, experiencia y libertad interior, es capaz de aportar soluciones maduras que traen salvación y ventura[cite: 1]. En estos momentos, es de gran valor unirse al gran hombre para consumar la obra del rescate común[cite: 1].
+Aquí se dibuja a alguien que ya ha dejado atrás el mundo y su devenir. Cuando llega para el mundo el tiempo de los obstáculos, podría parecer que lo más sencillo para él sería dejar el mundo atrás y huir al más allá. Pero este camino le está vedado. No debe alcanzar la beatitud solo y abandonar al mundo a su necesidad. Al contrario, su deber lo llama de vuelta al devenir del mundo. Justamente su experiencia y libertad interior le permiten entonces crear algo grande y maduro que trae la ventura. Y es propicio ver al Gran Hombre, con quien se puede consumar la obra de la salvación.
 
 ---
 
