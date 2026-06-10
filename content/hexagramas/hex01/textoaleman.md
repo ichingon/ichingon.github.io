@@ -14,13 +14,17 @@ showAuthor: false
   &#x4DC0;
 </p>
 
-**Trigramme:** Kien (Himmel, Pinyin: *Qián*) oben, Kien (Himmel, Pinyin: *Qián*) unten.
+**Trigramme:**
+* oben Kien, das Schöpferische, der Himmel
+* unten Kien, das Schöpferisch, der Himmel.
 
 ---
 
 Das Zeichen besteht aus sechs ungeteilten Strichen. Die ungeteilten Striche entsprechen der lichten, starken, geistigen, tätigen Urkraft. Das Zeichen ist ganz einheitlich stark in seiner Natur. Da ihm keinerlei Schwäche anhaftet, ist es seiner Eigenschaft nach die Kraft. Sein Bild ist der Himmel. Die Kraft wird dargestellt als nicht gebunden an bestimmte räumliche Verhältnisse. Darum wird sie aufgefaßt als Bewegung. Als Grundlage dieser Bewegung kommt die Zeit in Betracht. So ist denn auch die Macht der Zeit und die Macht des Beharrens in der Zeit, die Dauer, in dem Zeichen begriffen.
 
 Bei der Erklärung des Zeichens ist durchgehend eine doppelte Deutung zu berücksichtigen: die makrokosmische und die Wirkung in der Menschenwelt. Auf das Weltgeschehen angewandt ist in dem Zeichen das starke schöpferische Wirken der Gottheit ausgedrückt. Auf die Menschenwelt angewandt bezeichnet es das schöpferische Wirken des Heiligen und Weisen, des Herrschers und Führers der Menschen, der ihr höheres Wesen durch seine Kraft weckt und entwickelt .[^1]
+
+---
 
 ## Das Urteil
 
@@ -43,6 +47,8 @@ Eine andere Spekulation geht mit der Trennung der Worte »erhaben, Gelingen, fö
 
 Diese Spekulationen, die schon in dem Aufsatz Wen Yen im zweiten Teil des Buchs della Wandlungen angeregt sind, haben dann die Brücke gebildet, auf der die Philosophie der fünf Wandlungsstufen (Elemente) die im Buch della Urkunden verankert ist, mit der Philosophie des Buchs della Wandlungen, die rein auf della polaren Zweiheit von positiven und negativen Prinzipien beruht, kombiniert wurde, wodurch dann im Lauf della Zeit einer immer weiter gehenden Zahlensymbolik die Tür geöffnet wurde .[^3]
 
+---
+
 ## Das Bild
 
 > Des Himmels Bewegung ist kraftvoll.
@@ -51,6 +57,8 @@ Diese Spekulationen, die schon in dem Aufsatz Wen Yen im zweiten Teil des Buchs 
 Die Verdoppelung des Zeichens Kien, dessen Bild der Himmel ist, deutet, da es nur einen Himmel gibt, auf die Bewegung des Himmels. Eine vollendete Kreisbewegung des Himmels ist ein Tag. Die Verdoppelung des Zeichens bedeutet, daß auf jeden Tag ein weiterer folgt. Das erzeugt die Vorstellung della Zeit und zugleich, da es derselbe Himmel ist, der sich in unermüdlicher Kraft bewegt, der kraftvollen Dauer in und über della Zeit, einer Bewegung, die nie stillsteht oder erlahmt, wie Tag um Tag einander dauernd folgen. Diese Dauer in della Zeit ist das Bild della Kraft, wie sie dem Schöpferischen zu eigen ist.
 
 Der Weise entnimmt daraus das Vorbild dafür, wie er sich zu dauernder Wirkung zu entwickeln vermag. Er muß sich ganz einheitlich stark machen. indem er alles Niederziehende, Gemeine bewusst ausschaltet. So gewinnt er die Unermüdlichkeit, die auf geschlossenen Tätigkeitskreisen beruht.
+
+---
 
 ## Die einzelnen Linien
 

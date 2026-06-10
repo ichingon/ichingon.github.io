@@ -14,13 +14,15 @@ showAuthor: false
   &#x4DC6;
 </p>
 
-**Trigramme:** Kun (Erde, Pinyin: *Kūn*) oben, Kan (Wasser, Pinyin: *Kǎn*) unten.
-
----
+**Trigramme:**
+* oben Kun, das Empfangende, die Erde
+* unten Kan. das Abgründige. das Wasser
 
 Das Zeichen setzt sich zusammen aus dem Urzeichen Kan, das Wasser, und Kun, die Erde. Dadurch ist das Grundwasser symbolisiert, das sich innerhalb der Erde sammelt. Ebenso sammelt sich die Heerkraft innerhalb der Menge eines Volkes: im Frieden unsichtbar, aber jederzeit zur Verfügung a1s Quelle der Macht. Die Eigenschaften der Urzeichen sind: innerhalb Gefahr und außerhalb Gehorsam. Das deutet auf das Wesen des Heeres, das im Innersten etwas Gefährliches ist, während nach außen Zucht und Gehorsam herrschen muß.
 
 Auf die einzelnen Linien hin betrachtet, ist der Herr des Zeichens die starke Neun auf zweitem Platz der die anderen weichen Linien sich unterordnen. Diese Linie bezeichnet den Gebieter, da sie im Zentrum eines der beiden Urzeichen steht. Da sie aber im unteren, nicht im oberen steht, ist sie nicht das Bild des Herrschers, sondern des tüchtigen Generals, der das Heer in Gehorsam hält durch seine Autorität.
+
+---
 
 ## Das Urteil
 
@@ -32,12 +34,16 @@ Ein Heer ist eine Masse, die, um ein Heer zu werden, der Organisation bedarf. Oh
 
 Ein Krieg ist aber immer etwas Gefährliches und bringt Schaden und Verheerung mit sich. Darum darf man ihn nicht leichtfertig unternehmen, sondern nur wie eine giftige Arznei als letzte Auskunft. Der gerechte Grund und ein klares, verständliches Kriegsziel muß durch einen erfahrenen Führer dem Volk deutlich gemacht werden. Nur wenn ein ganz bestimmtes Kriegsziel da ist, für das das Volk sich mit Bewußtsein einsetzen kann, entsteht die Einheitlichkeit und Stärke der Überzeugung, die zum Sieg führt. Aber der Führer muß auch dafür sorgen, daß in der Kriegsleidenschaft und im Siegestaumel nichts Ungerechtes geschieht, das die allgemeine Anerkennung nicht findet. Gerechtigkeit und Beharrlichkeit sind die Grundbedingungen dafür, daß alles gut geht.
 
+---
+
 ## Das Bild
 
 > Inmitten der Erde ist Wasser, das Bild des Heeres.
 > So mehrt der Edle durch Weitherzigkeit gegen das Volk seine Massen.
 
 Das Grundwasser is unsichtbar inmitten der Erde vorhanden. So ist auch die Kriegsmacht eines Volkes unsichtbar in seinen Massen vorhanden. Jeder Bauer wird, wenn Gefahr droht, Soldat und kehrt nach Beendigung des Kriegs hinter seinen Pflug zurück. Wer gegen das Volk weitherzig ist, der gewinnt die Liebe des Volkes, und das Volk, das unter einem milden Regiment lebt, wird stark und kräftig. Nur ein wirtschaftlich starkes Volk kann als Kriegsmacht von Bedeutung sein. Man muß also die Macht pflegen durch Förderung der wirtschaftlichen Beziehungen des Volkes und menschenfreundliche Regierung. Nur wo dieses unsichtbare Band zwischen Regierung und Volk da ist, daß das Volk unter ihr geborgen ist wie das Grundwasser in der Erde, ist es möglich, einen Krieg siegreich zu führen.
+
+---
 
 ## Die einzelnen Linien
 

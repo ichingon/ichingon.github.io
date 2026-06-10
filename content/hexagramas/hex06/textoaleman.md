@@ -14,15 +14,17 @@ showAuthor: false
   &#x4DC5;
 </p>
 
-**Trigramme:** Kien (Himmel, Pinyin: *Qián*) oben, Kan (Wasser, Pinyin: *Kǎn*) unten.
-
----
+**Trigramme:**
+* oben Kien, das Schöpferische, der Himmel
+* unten Kan, das Abgründige, das Wasser
 
 Das obere Urzeichen, dessen Bild der Himmel ist, hat die Bewegungsrichtung nach oben, das untere Urzeichen »Wasser« ist seiner Natur nach abwärts gerichtet. Die Bewegungsrichtungen der beiden Hälften gehen auseinander, das ergibt den Gedanken des Streites.
 
 Die Eigenschaft des Schöpferischen ist die Stärke, die des Abgründigen die Gefahr, Hinterlist. Wo List Gewalt vor sich hat, da gibt es Streit.
 
 Eine dritte Ableitung legt sich innerhalb des Charakters durch Verbindung von abgründiger Hinterlist im Innern und starker Entschlossenheit im Äußern nahe. Ein derartiger Charakter wird sicher streitsüchtig sein.
+
+---
 
 ## Das Urteil
 
@@ -36,12 +38,16 @@ Streit entsteht, wenn man im Gefühl seines Rechts auf Widerstand stößt. Ohne 
 
 Ist man in Streit verwickelt, so ist machtvolle Besonnenheit, die jederzeit zur Beilegung des Streites und zum Vergleich auf halbem Weg bereit ist, das einzige Heilbringende. Ein Verfolgen des Streites bis zum bitteren Ende ist, selbst wenn man recht behält, vom übel, weil man dadurch die Feindschaft verewigt. Es ist wichtig, den großen Mann zu sehen, d. h. einen unparteiischen Mann, dessen Autorität hinreicht, um den Streit friedlich beizulegen oder gerecht zu entscheiden. Auf der andern Seite ist es zu vermeiden, in Zeiten des Unfriedens »das große Wasser zu durchqueren«, d. h. gefahrvolle Unternehmungen zu beginnen, denn die bedürfen einheitlich zusammengefaßter Kräfte, wenn sie gelingen sollen. Streit im Innern lähmt die Kraft, die Gefahr im Äußeren zu besiegen.
 
+---
+
 ## Das Bild
 
 > Himmel und Wasser gehen einander entgegengesetzt: das Bild des Streites.
 > So überlegt der Edle bei allen Geschäften, die er tut, den Anfang.
 
 Das Bild deutet darauf hin, daß die Ursachen des Streites in den zuvor schon vorhandenen entgegengesetzten Richtungen beider Teile liegen. Sind solche einander entgegenstrebenden Richtungen einmal vorhanden, so folgt der Streit mit Notwendigkeit. Daraus folgt, daß, um Streit zu verhüten, im ersten Anfang alles sorgfältig bedacht werden muß. Wenn Recht und Pflicht genau festgelegt sind, oder wenn bei einer Verbindung von Menschen deren geistige Richtungen zusammengehen, so ist die Ursache des Streits zum voraus beseitigt.
+
+---
 
 ## Die einzelnen Linien
 

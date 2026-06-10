@@ -14,13 +14,15 @@ showAuthor: false
   &#x4DC1;
 </p>
 
-**Trigramme:** Kun (Erde, Pinyin: *Kūn*) oben, Kun (Erde, Pinyin: *Kūn*) unten.
-
----
+**Trigramme:**
+* oben Kun, das Empfangende, die Erde
+* unten Kun, das Empfangende, die Erde
 
 Das Zeichen besteht aus lauter geteilten Linien. Die geteilte Linie entspricht der schattigen, weichen, rezeptiven Urkraft des Yin. Die Eigenschaft des Zeichens ist die Hingebung, sein Bild ist die Erde. Es ist das vollkommene Gegenstück zu dem Schöpferischen, das Gegenstück, nicht der Gegensatz; eine Ergänzung keine Bekämpfung. Es ist die Natur gegenüber dem Geist, die Erde gegenüber dem Himmel, das Räumliche gegenüber dem Zeitlichen, das Weiblich-Mütterliche gegenüber dem Männlichen-Väterlichen. Der Grundsatz dieses Gegenstückes findet sich aber, auf menschliche Verhältnisse übertragen, nicht nur in den Beziehungen zwischen Mann und Weib, sondern auch von Fürst und Minister oder Vater und Sohn; ja selbst in den einzelnen Menschen ist diese Zweiheit in dem Zusambensein von Geistigem und Sinnlichem.
 
 Dennoch kann von einem eigentlichen Dualismus nicht geredet werden denn es besteht zwischen den beiden Zeichen das Verhältnis einer klaren Rangordnung. An sich ist natürlich das Empfangende ebenso wichtig wie das Schöpferische. Aber dadurch die Eigenschaft der Hingebung ist die Stellung dieser Urkraft, dem Schöpferischen gegenüber bezeichnet. Sie muß unter der Leitung und Anregung des Schöpferischen sein, dann wirkt sie heilvoll. Nur wenn sie aus dieser Stellung heraustritt und dem Schöpferischen ebenbürtig zur Seite treten will, wird sie böse. Daraus ergibt sich dann Gegensatz und Kampf gegen das Schöpferische, der für beide Teile unheilvoll wirkt.
+
+---
 
 ## Das Urteil
 
@@ -40,12 +42,16 @@ Auf menschliche Verhältnisse übertragen, handelt es sich darum, der Lage entsp
 
 Da man etwas leisten soll, bedarf man der Gehilfen und Freunde zu Zeit der Arbeit und Anstrengung, wenn die Gedanken, die ausgeführt werden sollen, schon festliegen. Die Zeit der Arbeit und Anstrengung wird durch den Westen und Süden ausgedrückt. Denn der Süden und Westen ist das Symbol für den Ort, da das Empfangende für das Schöpferische arbeitet - wie die Natur im Sommer und Herbst - ; wenn man da nicht alle Kräfte zusammenfaßt, wird man nicht fertig mit der Arbeit, die man zu leisten hat. Darum bedeutet hier, Freunde zu bekommen, eben ,daß man Leistung findet. Aber außer der Arbeit und Anstrengung gibt es auch eine Zeit des Planens und Ordnens; da bedarf´s der Einsamkeit. Der Osten symbolisiert den Ort, da man die Aufträge von seinem Herrn erhält , und der Norden den Ort da man über das Geleistete berichtet. Da gilt es allein und sachlich zu sein. In dieser Heiligen Stunde muß man der Genossen entraten, damit nicht durch der Parteien Haß und Gunst die Reinheit getrübt wird.
 
+---
+
 ## Das Bild
 
 > Der Zustand der Erde ist die empfangende Hingebung.
 > So trägt der Edle weiträumigen Wesens die Außenwelt.
 
 Ebenso wie es nur einen Himmel gibt, gibt es auch nur eine Erde. Während aber beim Himmel die Verdoppelung des Zeichens zeitliche Dauer bedeutet, bedeutet sie bei der Erde die räumliche Ausdehnung und Festigkeit, mit der sie alles, was da lebt und webt, trägt und erhält. Die Erde in ihrer Hingebung trägt ohne Ausnahme Gut und Böse. So macht der Edle seinen Charakter weiträumig, gediegen und tragfähig, so daß er Menschen und Dinge zu tragen und ertragen vermag.
+
+---
 
 ## Die einzelnen Linien
 

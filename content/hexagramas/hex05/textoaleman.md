@@ -14,11 +14,13 @@ showAuthor: false
   &#x4DC4;
 </p>
 
-**Trigramme:** Kan (Wasser, Pinyin: *Kǎn*) oben, Kien (Himmel, Pinyin: *Qián*) unten.
-
----
+**Trigramme:**
+* oben das Abgründige, das Wasser
+* unten das Schöpferische. der Himmel
 
 Alle Wesen bedürfen der Nahrung von oben. Aber das Spenden der Speise hat seine Zeit, die man erwarten muß. Das Zeichen zeigt die Wolken am Himmel, die Regen spenden, der alles Gewächs erfreut und den Menschen mit Speise und Trank versieht. Dieser Regen wird kommen zu seiner Zeit. Man kann ihn nicht erzwingen, sondern muß darauf warten. Der Gedanke des Wartens wird außerdem nahegelegt durch die Eigenschaften der beiden Urzeichen: innen Stärke, davor Gefahr. Stärke vor Gefahr überstürzt sich nicht, sondern kann warten, während Schwäche vor Gefahr in Aufregung gerät und nicht die Geduld zum Warten hat.
+
+---
 
 ## Das Urteil
 
@@ -31,6 +33,8 @@ Das Warten ist kein leeres Hoffen. Es hat die innere Gewißheit sein Ziel zu err
 
 Eine Gefahr liegt vor einem, die überwunden werden muß. Schwäche und Ungeduld vermögen nichts. Nur wer stark ist, wird mit seinem Schicksal fertig, denn er kann infolge der inneren Sicherheit ausharren. Diese Stärke zeigt sich in unerbittlicher Wahrhaftigkeit. Nur wenn man den Dingen, so wie sie sind, ins Auge zu schauen vermag, ohne jeden Selbstbetrug und Illusion, entwickelt sich aus den Ereignissen ein Licht, das den Weg zum Gelingen erkennen läßt. Auf diese Erkenntnis muß entschlossen beharrliches Handeln folgen; denn nur, wenn man entschlossen seinem Schicksal entgegengeht, wird man damit fertig. Dann kann man das große Wasser durchqueren, d. h. die Entscheidung treffen und die Gefahr bestehen.
 
+---
+
 ## Das Bild
 
 > Wolken steigen am Himmel auf: das Bild des Wartens.
@@ -38,6 +42,7 @@ Eine Gefahr liegt vor einem, die überwunden werden muß. Schwäche und Ungeduld
 
 Wenn die Wolken am Himmel aufsteigen, so ist das ein Zeichen, daß es regnen wird. Da läßt sich dann weiter nichts machen als warten, bis der Regen fällt. So ist es auch im Leben, wenn ein Schicksal sich vorbereitet. Solange die Zeit noch nicht erfüllt ist, soll man nicht sorgen und durch eigenes Machen und Eingreifen die Zukunft gestalten wollen, sondern in Ruhe Kraft sammeln durch Essen und Trinken für den Leib, durch Heiterkeit und Guter-Dinge-Sein für den Geist. Das Schicksal kommt ganz von selbst, und dann ist man bereit.
 
+---
 ## Die einzelnen Linien
 
 ### Anfangs eine Neun bedeutet:

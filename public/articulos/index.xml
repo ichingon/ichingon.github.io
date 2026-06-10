@@ -16,7 +16,7 @@
       
       <guid>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</guid>
       <description>Este es un artículo introductorio sobre el método de consulta del I Ching mediante las monedas.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
     </item>
     
     <item>

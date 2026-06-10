@@ -13,8 +13,9 @@ showAuthor: false
   &#x4DFD;
 </p>
 
-oben Dschen, das Erregende, der Donner
-unten Gen, das Stillehalten, der Berg
+**Trigramme:**
+* oben Dschen, das Erregende, der Donner
+* unten Gen, das Stillehalten, der Berg
 
 Während bei dem Zeichen >>Des Großen Übergewicht« (Nr. 28) die starken Striche im Obergewicht sind, und zwar innen, eingeschlossen zwischen die beiden Striche zu Anfang und zu Ende, sind hier die schwachen Striche im Übergewicht, ebenfalls außen, während die starken innen sind. Darauf beruht eben der Ausnahmezustand. Sind die starken Striche außen, so haben wir die Zeichen I, Ernährung, und Dschung Fu, Innere Wahrheit, die beide nicht Ausnahmezustände bezeichnen. Wenn die Starken innen im Übergewicht sind, so müssen sie sich durchsetzen. Das schafft Kampf und Ausnahmezustände im Großen. Hier dagegen muß notgedrungen das Schwache die Vertretung nach außen übernehmen. Wenn man an einem entscheidenden Platz steht, dem man seinem Wesen nach eigentlich nicht gewachsen ist, so ist außerordentliche Vorsicht nötig.
 
@@ -33,7 +34,7 @@ Außerordentliche Bescheidenheit und Gewissenhaftigkeit wird sicher von Erfolg b
 
 ---
 
-## DAS BILD
+## Das Bild
 
 > Auf dem Berg ist der Donner: das Bild von des Kleinen Übergewicht.
 > So legt der Edle im Wandel das Übergewicht auf die Ehrerbietung.

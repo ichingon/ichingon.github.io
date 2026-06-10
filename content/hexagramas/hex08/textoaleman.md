@@ -14,11 +14,13 @@ showAuthor: false
   &#x4DC7;
 </p>
 
-**Trigramme:** Kan (Wasser, Pinyin: *Kǎn*) oben, Kun (Erde, Pinyin: *Kūn*) unten.
-
----
+**Trigramme:**
+* oben Kan, das abgründige, das Wasser
+* unten Kun, dar Empfangende, die Erde
 
 Das Wasser über der Erde fließt zusammen, wie es immer kann, z. B. im Meer, wo sich alle Flüsse sammeln. Dies ist ein Symbol, das auf das Zusammenhalten und auf seine Gesetze deutet. Derselbe Gedanke wird dadurch nahegelegt, daß alle Linien weich sind, bis auf den festen Strich an fünfter Stelle auf dem Platz des Herrschers. Die Weichen halten zusammen, indem sie von dem festen Willen an leitender Stelle beeinflußt werden, der ihr Vereinigungsmittelpunkt ist. Aber auch diese starke, leitende Persönlichkeit hält mit den andern zusammen, durch die sie eine Ergänzung zu ihrem eigenen Wesen findet.
+
+---
 
 ## Das Urteil
 
@@ -33,12 +35,16 @@ Es handelt sich darum, daß man sich mit andern zusammentut, um durch den Zusamm
 
 Wo aber ein wirklicher Sammlungspunkt vorhanden ist, da kommen die Unsicheren, anfangs noch Zögernden allmählich von selbst herbei. Die, die zu spät kommen, haben selbst den Schaden davon. Denn es handelt sich auch beim Zusammenhalten um die richtige Zeit. Beziehungen knüpfen sich und festigen sich nach bestimmten inneren Gesetzen. Gemeinsame Erlebnisse festigen sie, und wer zu spät kommt und nicht mehr teilnehmen kann an diesen grundlegenden gemeinsamen Erfahrungen, der hat darunter zu leiden, wenn er als Nachzügler die Tür verschlossen findet.[^1]
 
+---
+
 ## Das Bild
 
 > Auf der Erde ist Wasser: das Bild des Zusammenhaltens.
 > So haben die Könige der Vorzeit die einzelnen Staaten als Lehen vergeben und mit den Lehensfürsten freundlichen Verkehr gepflegt.
 
 Das Wasser auf der Erde füllt alle Lücken aus und haftet fest an ihr. Die Gesellschaftsorganisation des Altertums war auf diesen Grundsatz des Zusammenhaltens zwischen Abhängigen und Herrscher gegründet. Das Wasser fließt von selbst zusammen weil es in allen seinen Teilen unter denselben Gesetzen steht. So muß auch die menschliche Gesellschaft zusammenhalten durch eine Interessengemeinschaft, die jeden einzelnen sich als Glied eines Ganzen fühlen läßt. Die Zentralgewalt eines gesellschaftlichen Organismus muß dafür sorgen, daß jedes Glied sein wahres Interesse im Zusammenhalten findet, wie das in dem väterlichen Verhältnis von Großkönig und Lehnsträgern im chinesischen Altertum der Fall war.
+
+---
 
 ## Die einzelnen Linien
 

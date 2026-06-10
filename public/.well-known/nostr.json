@@ -2,6 +2,9 @@
   "names": {
     "dailingna": "1a402a400cd07e60ee3f02791a022f6f82adab6b89d7e00b5179526dfb2f56c6"
   },
+  "lud12": {
+    "dailingna": "lno1pgqppmsrse80qf0aara4slvcjxrvu6j2rp5ftmjy4yntlsmsutpkvkt6878syg5vj9pxvxdqj9zxwr43xvmk4uqgh0wsvuhr4p7vaxv662f3c7t3qgpghtk2dhnu8nq6a60pcncn94acqsvwlvqvk9znzqlrjndlvjykhgqqxwn3q6ms4snmnqscqrnglkz797k3xd8jtdqv7z5dlhcqk3yzkmfgt0cmnqzzgkz8wdvnvnqvurk52mazkhwqys0fwkyxdzejrufcxwr2asyjjcsh7eduwg00svqe2yxkhpz89d47qqedypxcuwdgxfrzqv83ks24nk6ghqzv5xm9y2ezyej6lgukr5reka4ps3v8drccs6t650tdd34ncphqfe9s"
+  },
   "relays": {
     "1a402a400cd07e60ee3f02791a022f6f82adab6b89d7e00b5179526dfb2f56c6": [
       "wss://relay.damus.io",

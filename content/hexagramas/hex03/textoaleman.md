@@ -14,11 +14,13 @@ showAuthor: false
   &#x4DC2;
 </p>
 
-**Trigramme:** Kan (Wasser, Pinyin: *Kǎn*) oben, Dschen (Donner, Pinyin: *Zhèn*) unten.
-
----
+**Trigramme:**
+* oben Kan, das Abgründige, das Wasser
+* unten Dschen das Erregende der Donner
 
 Der Name des Zeichens, Dschun, stellt eigentlich ein Gras dar das bei seinem Hervorsprießen aus der Erde auf ein Hindernis stößt. Daraus ergibt sich die Bedeutung der Anfangsschwierigkeit. Das Zeichen deutet, wie Himmel und Erde die Einzelwesen hervorbringen. Es ist ihre erste Begegnung, die mit Schwierigkeiten verbunden ist. Das untere Zeichen, Dschen, ist das Erregende; seine Bewegung geht nach oben; zum Bild hat es den Donner. Das obere Zeichen, Kan, ist das Abgründige, Gefährliche; seine Bewegung geht nach unten; zum Bild hat es den Regen. Die Lage deutet also auf dichte, chaotische Fülle. Donner und Regen erfüllen die Luft. Aber das Chaos lichtet sich. Die Bewegung, die nach oben gerichtet ist, während das Abgründige sich senkt, kommt schließlich aus der Gefahr hinaus. Im Gewitter entladen sich die gespannten Kräfte, und alles atmet erleichtert auf.
+
+---
 
 ## Das Urteil
 
@@ -29,12 +31,16 @@ Der Name des Zeichens, Dschun, stellt eigentlich ein Gras dar das bei seinem Her
 
 Werdezeiten haben Schwierigkeiten. Es ist wie eine Erstgeburt. Aber diese Schwierigkeiten entstehen aus der Fülle dessen was nach Gestaltung ringt. Es ist alles in Bewegung begriffen, darum ist trotz der vorhandenen Gefahr Aussicht auf großen Erfolg da wenn man Beharrlichkeit hat. Wenn solche Anfangszeiten als Schicksal kommen, so ist noch alles ungestaltet und dunkel. Darum muß man abwarten, denn jedes vorzeitige Zufassen könnte Mißerfolg bringen. Ebenso ist es von großer Wichtigkeit, daß man nicht allein bleibt. Man muß Gehilfen haben, um gemeinsam mit ihnen das Chaos zu bewältigen. Das heißt aber nicht, daß man selbst untätig den Vorgängen zuschauen soll, sondern man muß mit Hand anlegen, anfeuernd und leitend bei allem dabei sein.
 
+---
+
 ## Das Bild
 
 > Wolken und Donner: das Bild der Anfangsschwierigkeit.
 > So wirkt der Edle entwirrend und ordnend.
 
 Wolken und Donner werden dargestellt durch bestimmte Linienornamente, das heißt, daß in dem Chaos der Anfangsschwierigkeit die Ordnung schon angelegt ist. So muß der Edle in solchen Anfangszeiten die unübersichtliche Fülle gliedern und ordnen wie man Seidenfäden aus einem Knäuel auseinanderliest und sie zu Strängen verbindet. Man muß, um im Unendlichen sich zu finden, unterscheiden und verbinden.
+
+---
 
 ## Die einzelnen Linien
 

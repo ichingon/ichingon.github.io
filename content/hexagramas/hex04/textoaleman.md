@@ -14,11 +14,13 @@ showAuthor: false
   &#x4DC3;
 </p>
 
-**Trigramme:** Gen (Berg, Pinyin: *Gèn*) oben, Kan (Wasser, Pinyin: *Kǎn*) unten.
-
----
+**Trigramme:**
+* oben Gen, das Stillehalten, der Berg
+* unten Kan, das Abgründige, das Wasser
 
 Das Zeichen stellt oben den Berg dar, unten das Wasser; das Entspringen einer Quelle am Fuße des Berges ist das Bild der unberührten Jugend. Die Eigenschaft des Zeichens Gen ist das Stillhalten, die des Zeichens Kan ist das Abgründige, das Wasser. Das Stillhalten vor dem Abgründigen ist das Bild der jugendlichen Torheit. Auf der andern Seite ist das Entspringen der Quelle etwas, das schließlich ins Große führt, wenn es nur recht geleitet wird. Das drückt die Aufgabe der Erziehung der törichten Jugend aus, die in dem Zeichen enthalten ist.
+
+---
 
 ## Das Urteil
 
@@ -31,12 +33,16 @@ Das Zeichen stellt oben den Berg dar, unten das Wasser; das Entspringen einer Qu
 
 In der Jugend ist die Torheit nichts Schlechtes; man kann trotzdem Gelingen haben. Man bedarf aber eines erfahrenen Lehrers, der die rechte Unterweisung zu geben weiß. Dazu ist die Haltung des Schülers unbedingte Voraussetzung: dieser muß den Lehrer mit Ernst und Ehrfurcht suchen, nicht der Lehrer den Schüler. Nur so ist eine fruchtbare Erziehung möglich. Der Lehrer muß auf aufrichtige Fragen mit Ernst antworten, wie ein Orakel. Wenn der Schüler aus Zweifel oder Leichtfertigkeit wieder und wieder fragt, so ist das eine ehrfurchtslose Lästigkeit. Bei einer solchen Haltung muß der Lehrer schweigen, so wie das Orakel keine Antwort gibt, wenn man es mit törichten Zweifeln befragt. Die Beharrlichkeit auf seiten des Lehrers, diese Disziplin aufrechtzuerhalten, ist fördernd, denn sie stärkt die Ehrfurcht und die Entwicklung des Jünglings.
 
+---
+
 ## Das Bild
 
 > Am Fuße des Berges entspringt eine Quelle: das Bild der Jugendtorheit.
 > So erzieht der Edle seinen Charakter durch Gründlichkeit im Tun und nährt seine Tugend.
 
 Die Quelle entspringt am Fuße des Berges; sie ist anfangs klein und muß vorsichtig fließen, ehe sie zu einem großen Flusse wird. Das ist das Bild der Erziehung. Der Edle lernt daraus, daß er zur Entwicklung des Charakters und zur Nährung der Tugend mit Gründlichkeit und Beständigkeit in jedem Tun vorgehen muß, ohne Stufen zu überspringen, indem er der Tugend erlaubt, sich auf natürliche Weise anzuhäufen, wie das Wasser jede Höhlung füllt, ehe es weiterfließt.
+
+---
 
 ## Die einzelnen Linien
 
