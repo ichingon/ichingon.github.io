@@ -14,66 +14,75 @@ showAuthor: false
 </p>
 
 ### Trigramas
-* **Superior:** Kūn (Lo Receptivo, la Tierra)
-* **Inferior:** Xùn (Lo Suave, el Viento / la Madera)
+* **Arriba:** Kūn (Lo Receptivo, la Tierra)
+* **Abajo:** Xùn (Lo Suave, el Viento / la Madera)
 
-El trigrama inferior representa la madera y el superior la tierra, evocando la imagen de una planta que brota y crece hacia lo alto desde el seno del suelo. A diferencia del progreso expansivo y fácil que caracteriza a otros signos, este avance —el empuje hacia arriba— requiere de un esfuerzo sostenido y de una voluntad activa, tal como la semilla necesita fuerza para perforar la tierra. Por esta razón, el signo se vincula directamente con la aplicación de la voluntad consciente, marcando un ascenso rectilíneo hacia el poder y la influencia desde una posición de inicial oscuridad o humildad.
+El signo inferior, Xùn, tiene como imagen la madera; el superior, Kūn, significa la tierra. Con ello se asocia la idea de que la madera crece hacia arriba dentro de la tierra. Este "Empuje hacia arriba" está, a diferencia del "Progreso" (nº 35), vinculado con esfuerzo, así como la planta necesita fuerza para brotar a través de la tierra. Por eso el signo, aunque está asociado con el éxito, se relaciona con el esfuerzo de la voluntad. El "Progreso" muestra más expansión; el "Empuje hacia arriba", más un ascenso rectilíneo hacia poder e influencia desde la oscuridad y la humildad.
 
 ---
 
 ## El Dictamen
 
-> El Empuje Hacia Arriba tiene un éxito sublime. Es necesario ver al gran hombre. ¡No temas! El avance hacia el sur trae bendición.
+> El Empuje hacia arriba tiene Supremo éxito.
+> Hay que ver al Gran Hombre.
+> ¡No temas!
+> La partida hacia el sur trae Ventura.
 
-El ascenso de los elementos valiosos y capaces se despliega sin encontrar obstáculos insalvables, lo que garantiza un éxito rotundo. La actitud que propicia este avance no es violenta ni impositiva, sino modesta y adaptable; se avanza porque se cuenta con el favor del tiempo. En esta coyuntura, es fundamental ponerse en marcha y buscar a las personas que ocupan puestos de autoridad e influencia. No hay motivo para el temor, pues el éxito está asegurado. Lo único indispensable es entregarse a la acción concreta, ya que la actividad constante —simbolizada por el sur— es lo que genera la bendición.
+El ascenso de los elementos capaces no encuentra obstáculo; por eso va acompañado de gran éxito. La actitud que posibilita el empuje no es violenta, sino modesta y adaptable. Pero como se está sostenido por el favor de los tiempos, se avanza. Hay que ir y buscar a las personas decisivas. No hay que temerlo; pues el éxito no faltará. Solo hay que ponerse a la obra; porque la actividad (este es el significado del sur) trae Ventura.
 
 ---
 
 ## La Imagen
 
-> En medio de la tierra crece la madera: la imagen del Empuje Hacia Arriba. Así el noble, con una disposición receptiva, acumula lo pequeño para elevarlo hacia lo alto y lo grande.
+> En medio de la tierra crece la madera:
+> la imagen del Empuje hacia arriba.
+> Así el Noble, de naturaleza entregada, acumula lo pequeño
+> para elevarlo a lo alto y a lo grande.
 
-La madera dentro de la tierra crece sin pausa y sin prisa hacia la superficie, adaptándose de forma flexible a los obstáculos y bordeándolos para seguir subiendo. De igual manera, el noble moldea su carácter con paciencia y entrega, avanzando en su desarrollo moral de manera constante y sin detenerse jamás[^1].
+La madera en la tierra crece sin prisa y sin pausa hacia la altura, adaptándose flexiblemente a los obstáculos para rodearlos. Así el Noble es entregado en su carácter y nunca descansa en su progreso[^1].
 
 ---
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Seis al principio significa:
-> Un empuje hacia arriba que encuentra confianza aporta gran bendición.
+> Empuje hacia arriba que encuentra confianza: gran Ventura.
 
-Nos encontramos en la etapa inicial del ascenso. Así como el árbol extrae la energía para su crecimiento desde la raíz profunda, la fuerza para emerger en esta posición proviene de su propia base, que en el plano externo es humilde y desconocida. Sin embargo, existe una profunda afinidad interna con quienes gobiernan en lo alto, y esta sintonía espiritual otorga la confianza necesaria para comenzar a realizar grandes obras con éxito.
+Aquí está la posición inicial del ascenso. Así como la madera toma del pie de la raíz la fuerza para su empuje hacia arriba, que está totalmente abajo, así la fuerza para el ascenso procede de esta posición. Ella es baja y desconocida. Pero existe una afinidad interna de esencia con los gobernantes de arriba, y esta comunidad de espíritu proporciona la confianza que se necesita para poder realizar algo.
 
-### Nueve en el segundo puesto significa:
-> Si uno es verdadero, es propicio incluso ofrecer una pequeña ofrenda. Ningún reproche.
+### Nueve en segundo puesto significa:
+> Si uno es sincero, es también propicio ofrecer una pequeña ofrenda.
+> Sin mácula.
 
-Se presupone aquí la presencia de un hombre fuerte e íntegro. Sus características sólidas pueden resultar un tanto toscas o descuidadas frente a los formalismos sociales de su entorno. No obstante, al poseer una rectitud y una honestidad interna incuesionables, despierta una respuesta favorable en los demás, y la escasez de adornos externos no demerita en absoluto su valor. En este caso, la sinceridad brota de un carácter firme, a diferencia de la humildad que caracterizaba a esta misma línea en el signo anterior.
+Aquí se presupone un hombre fuerte. Aunque no encaja del todo en su entorno porque es demasiado rudo y presta poca atención a las formas, es interiormente sincero; por eso encuentra acogida, y su pobreza en formas externas no produce daño. La sinceridad es aquí el flujo de cualidades sólidas, mientras que en la línea correspondiente del signo anterior era el efecto de la humildad interior.
 
-### Nueve en el tercer puesto significa:
-> Uno empuja hacia arriba en una ciudad vacía.
+### Nueve en tercer puesto significa:
+> Se empuja hacia arriba en una ciudad vacía.
 
-En este punto desaparecen todas las resistencias y frenos que habitualmente dificultan el avance. El progreso se realiza con una facilidad asombrosa. Uno avanza sin vacilar por este camino despejado para capitalizar el éxito del momento. Aunque externamente todo parezca marchar a la perfección, el dictamen no añade ningún augurio de felicidad duradera, pues queda abierta la pregunta de cuánto puede sostenerse un éxito que no encuentra oposición. Pese a ello, no conviene enredarse en tales dudas, ya que solo paralizarían la acción; lo correcto es aprovechar con rapidez las ventajas que ofrece la época.
+Aquí caen todos los obstáculos que suelen estorbar el avance. El progreso se produce con una facilidad asombrosa. Se sigue este camino sin vacilación para aprovechar el éxito. Exteriormente parece como si todo estuviera en el mejor orden. Sin embargo, no se adjunta ningún augurio favorable. La cuestión es cuánto dura un éxito tan sin trabas. Pero no conviene detenerse en tales consideraciones, porque ello solo cohibiría la fuerza; más bien hay que aprovechar rápidamente el favor del tiempo.
 
-### Seis en el cuarto puesto significa:
-> El rey lo presenta ante el monte Ki. Bendición. Ningún reproche.
+### Seis en cuarto puesto significa:
+> El Rey lo presenta ante el monte Ki. Ventura. Sin mácula.
 
-El monte Ki se encuentra en el oeste de China, la tierra natal del rey Wen, y esta línea evoca el periodo de ascenso de la dinastía Zhou. En aquellos tiempos, el soberano presentaba a sus colaboradores más valiosos ante la divinidad del monte patrio, concediéndoles un lugar de honor al lado del trono en los altares de los antepasados. Se describe aquí una etapa en la que el empuje hacia arriba alcanza su meta definitiva. El individuo adquiere un renombre imperecedero ante los hombres y las fuerzas espirituales, siendo integrado en el círculo de quienes edifican la vida de la nación, lo que le otorga una trascendencia permanente que supera los límites del tiempo.
+El monte Ki está en el oeste de China, en la tierra natal del rey Wen, a cuyo hijo, el duque de Zhou, se deben las palabras de las líneas individuales. Es un recuerdo de la época del ascenso de la dinastía Zhou. Entonces los grandes colaboradores fueron presentados por el rey Wen al dios del monte patrio, y recibieron su lugar junto al gobernante en las salas de los antepasados. Aquí se dibuja una etapa en la que el empuje hacia arriba alcanza su meta. Uno se hace famoso ante los hombres y los dioses, y es admitido en el círculo de los hombres que construyen espiritualmente la vida de la nación, obteniendo así una significación duradera, intemporal.
 
-### Seis en el quinto puesto significa:
-> La perseverancia trae bendición. Uno empuja hacia arriba por escalones.
+### Seis en quinto puesto significa:
+> La perseverancia trae Ventura. Se empuja hacia arriba por escalones.
 
-Cuando el avance se vuelve continuo y el éxito es evidente, es fundamental no dejarse cegar por la euforia del triunfo. Precisamente en la cúspide del logro se debe mantener la sobriedad, evitando saltarse etapas o proceder con atropello. El avance debe ser medido, peldaño por peldaño, con calma y deliberación. Solo este progreso pausado y metódico, que no busca atajos, conduce a una meta firme.
+Cuando se avanza cada vez más, es importante no embriagarse con el éxito. Precisamente con el gran éxito hay que mantenerse constantemente sobrio, no querer saltarse escalones, sino seguir avanzando lentamente, como con vacilación, paso a paso. Solo este progreso tranquilo y constante, que no precipita nada, conduce a la meta.
 
 ### Seis arriba significa:
-> Empuje hacia arriba en la oscuridad. Es propicio mantenerse incansablemente perseverante.
+> Empuje hacia arriba en la oscuridad.
+> Es propicio ser incesantemente perseverante.
 
-Quien avanza a ciegas y de forma temeraria sufre de una obcecación interna. Solo concibe el ir hacia delante y carece de la flexibilidad necesaria para emprender la retirada cuando hace falta, lo que conduce irremediablemente al desgaste y al agotamiento. Ante una situación así, el único remedio consiste en mantener una autodisciplina rigurosa, consciente y constante. Solo a través de esta firmeza moral es posible emanciparse de ese impulso ciego que siempre desemboca en la desventura.
+Quien empuja ciegamente hacia arriba está interiormente ofuscado. Solo conoce el progreso, no el retroceso. Con ello se agota. En tal caso es importante estar incesantemente atento a que uno debe ser y permanecer concienzudo y consecuente. Solo así se libera uno del impulso ciego, que siempre es perjudicial.
 
 ---
 
-[^1]: Wilhelm cita aquí en una nota los versos de Friedrich Schiller: «La ocupación que jamás se fatiga, que despacio construye, pero nunca destruye; que para la edificación de las eternidades aporta ciertamente grano de arena sobre grano de arena, pero que de la inmensa deuda del tiempo va borrando minutos, días, años».
+[^1]: Véase al respecto: La ocupación que nunca se fatiga, que obra lentamente pero nunca destruye, que para la construcción de las eternidades ciertamente aporta grano de arena sobre grano de arena, pero que de la gran culpa de los tiempos borra minutos, días, años.
 
-### Enlaces de Consulta
+## Enlaces de Consulta
+
 * [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

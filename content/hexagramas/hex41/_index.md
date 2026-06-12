@@ -14,64 +14,84 @@ showAuthor: false
 </p>
 
 ### Trigramas
-* **Superior:** Lí (Lo Adherente, el Fuego)
-* **Inferior:** Gèn (El Mantenerse Quieto, la Montaña)
+* **Arriba:** Gen (El Reposo, la Montaña)
+* **Abajo:** Dui (Lo Alegre, el Lago)
 
-El signo representa una disminución del componente inferior en favor del superior. Este trasvase de fuerza ocurre como una ley natural tanto en las estructuras de una sociedad como en el propio individuo. El sentido profundo del signo radica en que esta merma o entrega, cuando se realiza con rectitud y en el momento oportuno, no empobrece, sino que sienta las bases para un florecimiento espiritual y un éxito duradero.
+El signo representa una disminución del signo inferior en favor del superior, al haber pasado hacia arriba el tercer trazo, originalmente fuerte, y haber ocupado su lugar el trazo débil originalmente superior. Lo de abajo resulta, pues, disminuido en beneficio de lo de arribo. Esto es la disminución pura y simple. Si se disminuye el fundamento de una construcción y se refuerzan sus muros superiores, el conjunto pierde en solidez. Del mismo modo, una disminución de la prosperidad del pueblo en beneficio del gobierno es una disminución pura y simple. Y toda la tendencia del signo apunta a indicar cómo puede producirse este desplazamiento de la prosperidad sin que por ello se sequen las fuentes de la prosperidad en el pueblo y en sus estratos inferiores.
 
 ---
 
 ## El Dictamen
 
-> La Merma unida a la verdad interior obra supremo éxito. No hay reproche. Es propicio perseverar. Es propicio emprender algo. ¿Cómo se aplica esto? Incluso con dos escudillas se puede ofrecer el sacrificio.
+> Disminución unida a la sinceridad obra suprema ventura, sin mácula.
+> Se puede ser perseverante en ello.
+> Es propicio emprender algo.
+> ¿Cómo se practica esto?
+> Pueden usarse dos escudillas pequeñas para el sacrificio.
 
-La disminución de los recursos externos o de las formas elaboradas no constituye un obstáculo para el éxito si existe una verdadera honestidad en el corazón. Cuando los tiempos son difíciles y las estructuras se simplifican, lo que cuenta es la fuerza del espíritu. Ante las grandes potencias cósmicas o en las relaciones humanas, la ostentación exterior pierde su valor frente a la pureza de la intención. La sencillez litúrgica o la escasez material no demeritan la acción; una entrega humilde pero auténtica posee la fuerza interna necesaria para llevar a cabo cualquier empresa con éxito[^1].
+La disminución no significa en todas circunstancias algo malo. Aumento y disminución llegan a su tiempo. Entonces hay que saber adaptarse al tiempo y no querer ocultar la pobreza mediante apariencia vacía. Cuando a través de un tiempo de escasez se expresa una verdad interior, entonces no debe uno avergonzarse de la sencillez. Ella es entonces precisamente lo correcto, que otorga fuerza interior, gracias a la cual se puede luego emprender algo. No hay que tener reparo alguno incluso si la belleza exterior de la cultura, e incluso la configuración de las relaciones religiosas, tuviera que padecer bajo la sencillez. Hay que tomar algo de la fuerza de la disposición interior y añadírselo a la pobreza de la apariencia externa como sustituto. Entonces la fuerza del contenido ayuda a superar la sencillez de la forma. Ante Dios no se necesita la apariencia falsa. También con medios escasos se puede expresar la disposición del corazón[^1].
 
 ---
 
 ## La Imagen
 
-> El fuego sobre la montaña: la imagen de la Merma. Así el noble refrena su ira y domina sus instintos.
+> Al pie de la montaña está el lago:
+> la imagen de la Disminución.
+> Así el Noble refrena su ira y frena sus instintos.
 
-El fuego sobre la cumbre devora la vegetación y disminuye sus recursos, ofreciendo una claridad que se desgasta a sí misma. El noble traduce este fenómeno natural en el control de su propia naturaleza interna. Mermar lo que está en exceso en el microcosmos personal significa canalizar la fuerza destructiva de la ira y la rigidez del orgullo, enfriando las pasiones egoístas para permitir que la claridad de la razón y el espíritu ocupen su lugar.
+El lago al pie de la montaña se evapora. Con ello es disminuido en beneficio de la montaña, que es enriquecida por su humedad. La montaña es la imagen de la fuerza obstinada que puede condensarse en ira; el lago es la imagen de la alegría descontrolada que puede convertirse en impulsos apasionados cuando se desarrolla a costa de las fuerzas vitales. Entonces hay que disminuir: la ira debe ser disminuida mediante el reposo, los instintos deben ser frenados mediante la restricción. Mediante esta disminución de las potencias anímicas inferiores se enriquecen los aspectos superiores del alma.
 
----
-
-## Las Líneas
+## Las líneas individuales
 
 ### Nueve al principio significa:
-> Acudir con presteza una vez concluidas las tareas propias no es un error. Sin embargo, conviene reflexionar sobre cuánto se puede mermar a los demás.
+> Cuando los asuntos están terminados,
+> acudir rápidamente no es una mácula.
+> Pero hay que reflexionar
+> hasta qué punto se puede disminuir a los demás.
 
-Es loable que alguien, tras culminar sus responsabilidades básicas, ponga sus fuerzas al servicio de un bien mayor o colabore con un superior. Pero quien ayuda debe ser prudente: no debe asumir los problemas ajenos al punto de perjudicar su propia estabilidad o crear una dependencia insana en el otro. El equilibrio de la entrega es fundamental para que la ayuda sea genuina.
+Es desinteresado y bueno que, tras haber cumplido las propias tareas inmediatamente importantes, uno ponga su fuerza al servicio de los demás y, sin hacer mucho caso ni presumir, ayude rápidamente donde hay que ayudar. Pero el hombre de puesto superior al que así se ayuda debe reflexionar bien cuánto puede aceptar sin dañar esencialmente al servidor o amigo que le ayuda. Solo donde existe tal delicadeza se puede uno dar sin reservas.
 
 ### Nueve en el segundo puesto significa:
-> Es propicia la perseverancia. Emprender algo trae desventura. Sin mermarse a sí mismo, uno es capaz de beneficiar a los demás.
+> Es propicia la perseverancia.
+> Emprender algo es de desventura.
+> Sin disminuirse a sí mismo,
+> se puede aumentar a los demás.
 
-Una actitud servil o de sacrificio malentendido despoja al individuo de su propia dignidad. Quien desea ser útil a una causa o a una comunidad debe mantener su firmeza y su valor interior intactos. Si se rebaja o compromete sus principios fundamentales con el pretexto de ayudar, anula su verdadero valor y provoca un desenlace desafortunado. El mayor beneficio para el entorno proviene de una personalidad íntegra y autosuficiente.
+Una noble conciencia de sí mismo y un serio consecuente que no se rebaja es la disposición necesaria cuando se quiere servir a otros. Quien se desprecia para complacer a un superior, disminuye ciertamente su propia posición, pero sin beneficiar duraderamente al otro. Esto es de desventura. Sin renunciar a sí mismo, servir al otro, ese es el verdadero servicio de valor duradero.
 
 ### Seis en el tercer puesto significa:
-> Si caminan tres personas juntas, su número disminuye en una. Si una persona camina sola, encuentra a su compañero.
+> Si tres personas caminan juntas,
+> se disminuyen en una persona.
+> Si una persona camina sola,
+> encuentra su compañero.
 
-Esta es una ley de correspondencia y afinidad profunda. Cuando las personas se agrupan en tríos o colectivos informales, surgen tensiones internas, celos o divergencias que terminan por romper la armonía, obligando a una reconfiguración. Por el contrario, el individuo que se mantiene independiente, libre de facciones y fiel a su propio camino individual, genera un vacío magnético que atrae con precisión al aliado o complemento exacto que necesita para su destino.
+Donde tres están juntos, allí hay celos. Allí tiene que retirarse uno. La unión más estrecha solo es posible entre dos. Pero donde uno está solitario, allí encuentra seguramente su compañero que lo complementa.
 
 ### Seis en el cuarto puesto significa:
-> Si uno disminuye sus propios defectos, hace que los demás acudan con presteza a alegrarse. No hay reproche.
+> Si uno disminuye sus propios defectos,
+> hace que el otro acuda rápidamente y se alegre. Sin mácula.
 
-Los errores y vicios personales actúan como barreras infranqueables que alejan a las personas valiosas. Cuando un individuo realiza el trabajo consciente de mermar sus propias imperfecciones y actitudes negativas, abre un espacio limpio en su vida. Quienes le rodean perciben esta transformación interna y se acercan de manera natural y espontánea, trayendo consigo alegría y colaboración mutua.
+A menudo nuestros errores impiden que incluso personas bien intencionadas se nos acerquen. Estos errores son a menudo reforzados y empeorados por el entorno en que nos encontramos. Si uno puede rebajarse a sí mismo y dejarlos, libera a los amigos bien intencionados de una presión interior y consigue que se acerquen tanto más rápidamente para alegría mutua.
 
 ### Seis en el quinto puesto significa:
-> Alguien lo enriquece ciertamente. Diez pares de tortugas oraculares no pueden oponerse a ello. Supremo buen augurio.
+> Ciertamente alguien lo aumenta a uno.
+> Diez pares de tortugas oraculares no pueden oponerse a ello.
+> ¡Suprema ventura!
 
-Cuando la fortuna y el reconocimiento llegan a una persona de manera natural, no se trata de un azar mundano, sino del resultado directo de sus méritos acumulados y su disposición espiritual. Este tipo de éxito está firmemente respaldado por las leyes del cosmos y la aprobación general de la comunidad. Ante una corriente de prosperidad tan legítima, ninguna fuerza contraria o presagio adverso puede interponerse.
+Si alguien está destinado por el destino a la ventura, esta llega inexorablemente. Todos los oráculos, como los que se obtienen mediante caparazones de tortuga, deben coincidir con signos favorables en su favor. No necesita temer nada, pues su ventura es una disposición superior.
 
 ### Seis arriba significa:
-> Si uno logra enriquecer a los demás sin mermarse a sí mismo, no comete error. La perseverancia trae bendición. Es propicio emprender algo. Uno obtiene seguidores, pero ya no tiene un hogar particular.
+> Cuando uno es aumentado sin disminución de los demás, eso no es una mácula.
+> La perseverancia trae ventura.
+> Es propicio emprender algo.
+> Se consiguen servidores,
+> pero ya no se tiene un hogar particular.
 
-El nivel más alto de la realización se alcanza cuando la acción individual beneficia a la colectividad entera sin desgastar ni empobrecer la propia esencia del sabio. Su influencia y sus principios se difunden ampliamente, transformando el entorno de manera constructiva. Al ponerse al servicio del bienestar común, sus intereses puramente privados se disuelven: el mundo entero se convierte en su campo de acción y las personas se unen voluntariamente a su obra, superando las limitaciones de las fronteras estrictamente personales.
+Hay personas que derraman bendición para el mundo entero. Cada aumento de fuerza, cada incremento que les corresponde, beneficia a todos los hombres y por tanto no significa una disminución para los demás. Mediante un trabajo perseverante y diligente se tiene éxito y se encuentran ayudantes como se necesitan. Pero lo que se obra no es una ventaja privada de algún modo limitada, sino que es abierta y accesible para todos.
 
 ---
 
-[^1]: Richard Wilhelm añade aquí una nota comparativa: cf. el pasaje evangélico del «óbolo de la viuda» en el Evangelio de San Lucas (Lc 21, 1-4), donde la entrega sincera desde la escasez supera al valor material de las grandes ofrendas hechas por ostentación.
+[^1]: Cf. el óbolo de la viuda en el Evangelio de Lucas.
 
 ### Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)

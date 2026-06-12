@@ -14,10 +14,10 @@ showAuthor: false
 </p>
 
 ### Trigramas
-* **Superior:** Xùn (Lo Suave, el Viento)
-* **Inferior:** Zhèn (Lo Conmocionante, el Trueno)
+* **Arriba:** Xùn (Lo Suave, el Viento)
+* **Abajo:** Zhèn (Lo excitante, el Trueno)
 
-El concepto del aumento se expresa en que la línea fuerte inferior del trigrama superior se ha desplazado hacia abajo, situándose debajo del trigrama inferior. El principio fundamental del Libro de las Mutaciones se manifiesta con claridad en esta estructura: el verdadero ejercicio del poder debe ser un acto de servicio. Un sacrificio de lo superior que produce un aumento en lo inferior se denomina aumento por excelencia, revelando el único espíritu capaz de sostener y ayudar al mundo.
+El concepto del aumento se expresa en que la línea fuerte inferior del trigrama superior se ha desplazado hacia abajo, situándose debajo del trigrama inferior. El principio fundamental del Libro de las Mutaciones se manifiesta también en esta concepción. El verdadero ejercicio del poder debe ser servicio. Un sacrificio de lo superior que produce un aumento de lo inferior se denomina aumento por excelencia, para indicar así el espíritu que solo él es capaz de ayudar al mundo.
 
 ---
 
@@ -25,51 +25,66 @@ El concepto del aumento se expresa en que la línea fuerte inferior del trigrama
 
 > El Aumento. Es propicio emprender algo. Es propicio cruzar las grandes aguas.
 
-A través del sacrificio que proviene de lo alto para enriquecer a lo inferior, se genera en el pueblo una disposición de alegría y profunda gratitud, un valor incalculable para el florecimiento de la comunidad. Cuando los hombres se sienten vinculados de este modo a sus guías, se vuelve posible emprender grandes tareas, e incluso las empresas más difíciles y peligrosas llegan a buen término. Por lo tanto, en estas épocas de ascenso cuyo desarrollo está respaldado por el éxito, es crucial trabajar y aprovechar el momento. Este tiempo es semejante a la época en que el cielo y la tierra se unen: cuando la tierra participa de la fuerza creadora del cielo y da forma y vida a todas las criaturas. El tiempo del aumento es transitorio; por ello, debe ser aprovechado activamente mientras permanezca.
+A través del sacrificio que proviene de lo alto para enriquecer a lo inferior, se genera en el pueblo una disposición de alegría y gratitud, sumamente valiosa para el florecimiento de la comunidad. Cuando los hombres están tan apegados a sus guías, entonces es posible emprender algo, y también las cosas difíciles y peligrosas llegarán a buen término. Por ello, en tiempos de ascenso como estos, cuyo desarrollo va acompañado de éxito, es necesario trabajar y aprovechar el momento. Este tiempo es como la época en que el cielo y la tierra se desposan, cuando la tierra participa de la fuerza creadora del cielo y entonces configura y realiza a los seres vivos. El tiempo del aumento no dura, por eso debe ser aprovechado mientras está ahí.
 
 ---
 
 ## La Imagen
 
-> Viento y trueno: la imagen del Aumento. Así el noble: si ve lo bueno, lo imita; si tiene defectos, los descarta.
+> Viento y trueno: la imagen del Aumento.
+> Así el Noble: si ve lo bueno, lo imita;
+> si tiene defectos, los abandona.
 
-Al observar cómo el trueno y el viento se incrementan y fortalecen mutuamente, se comprende el camino para el propio desarrollo y la superación personal. Cuando uno descubre algo valioso en los demás, debe imitarlo para asimilar todo lo noble que existe en el mundo. Si uno detecta en sí mismo algo defectuoso o dañino, debe eliminarlo. De este modo, uno se libera del mal. Esta transformación ética constituye el aumento más importante y significativo de la personalidad.
+Al observar cómo el trueno y el viento se aumentan y fortalecen mutuamente, se aprende el camino para el propio aumento y mejoramiento personal. Cuando se descubre algo bueno en otros, se debe imitar y así apropiarse de todo lo bueno sobre la tierra. Si se ve algo malo en sí mismo, se debe abandonar. De este modo uno se libera del mal. Esta transformación ética es el aumento más importante de la personalidad.
 
 ---
 
 ## Las Líneas
 
 ### Nueve al principio significa:
-> Es propicio realizar grandes hazañas. ¡Supremo éxito! Ningún reproche.
+> Es propicio realizar grandes hazañas.
+> Suprema ventura. Sin mácula.
 
-Cuando se recibe un gran impulso o estímulo desde arriba, se debe emplear ese incremento de energía para ejecutar algo de gran envergadura, una tarea para la cual en otras circunstancias tal vez no se habría encontrado la fuerza ni la disposición de asumir la responsabilidad. Al mantenerse libre de egoísmo, se genera una gran ventura y, al consolidar este beneficio, uno permanece exento de cualquier reproche o acusación.
+Cuando se recibe un gran impulso desde arriba, se debe emplear el incremento de fuerza que así se obtiene para realizar algo grande, para lo cual quizás de otro modo no se habría encontrado ni la fuerza ni la disposición a la responsabilidad. Por el hecho de estar libre de egoísmo, se produce una gran ventura, y al llevar a cabo una gran ventura, uno permanece libre de reproches.
 
 ### Seis en el segundo puesto significa:
-> Alguien ciertamente lo enriquece. Diez pares de tortugas oraculares no pueden oponerse a ello. Una perseverancia duradera trae bendición. El rey lo presenta ante Dios. ¡Éxito!
+> Alguien ciertamente lo aumenta.
+> Diez pares de tortugas no pueden oponerse a ello.
+> Una perseverancia duradera trae ventura.
+> El Rey lo presenta ante Dios. ¡Ventura!
 
-El verdadero aumento llega cuando uno genera internamente las condiciones necesarias para recibirlo: una actitud receptiva y un amor genuino por el bien. De este modo, lo que se anhela llega por sí mismo con la necesidad de una ley natural. Cuando el enriquecimiento está en perfecta armonía con las leyes supremas del universo, ninguna configuración accidental de circunstancias puede impedir su curso. Sin embargo, todo depende de que la fortuna inesperada no vuelva al individuo ligero o descuidado, sino que la asimile mediante la fuerza interna y la constancia. Así se adquiere una trascendencia real ante Dios y los hombres, logrando realizar obras en beneficio del mundo.
+El verdadero aumento proviene de que uno crea en sí mismo las condiciones para ello: receptividad y amor al bien. Así lo deseado llega por sí mismo con necesidad natural. Cuando el aumento está tan en armonía con las leyes supremas del mundo, ninguna constelación de azares puede impedirlo. Solo que todo depende de que uno no se vuelva temerario por la dicha inesperada, sino que mediante la fuerza interior y la constancia la haga propia. Entonces uno adquiere importancia ante Dios y los hombres y puede hacer algo para bien del mundo.
 
 ### Seis en el tercer puesto significa:
-> Uno es enriquecido por medio de acontecimientos desfavorables. Ningún reproche si eres verdadero, caminas por el medio y le informas al príncipe con un sello.
+> Uno es aumentado por medio de acontecimientos desfavorables.
+> Sin mácula si eres sincero y caminas en el centro
+> y le informas al Príncipe con un sello.
 
-Una época de bendición y enriquecimiento es tan poderosa en sus efectos que incluso los sucesos que normalmente serían dañinos terminan cooperando para el bien de quienes se ven afectados por ellos. Estos individuos quedan libres de errores y, al actuar de acuerdo con la verdad, adquieren una autoridad interna tal que ejercen una influencia tan sólida como si estuvieran respaldados por un despacho oficial firmado y sellado.
+Un tiempo de bendición y enriquecimiento es tan fuerte en su efecto que incluso los acontecimientos por lo demás desfavorables deben servir para bien de aquellos que son engañados por ellos. Quedan libres de errores y, al actuar conforme a la verdad, adquieren una autoridad interna tal que ejercen influencia como si estuvieran confirmados por escrito y sello.
 
 ### Seis en el cuarto puesto significa:
-> Si caminas por el medio e informas al príncipe, él te seguirá. Es propicio ser empleado en el traslado de la capital.
+> Si caminas en el centro
+> y le informas al Príncipe, él seguirá.
+> Es propicio ser empleado en el traslado de la capital.
 
-Es de vital importancia que existan personas capaces de mediar entre los dirigentes y los dirigidos. Deben ser personalidades completamente desinteresadas, en especial en tiempos de aumento, cuando el gobernante busca que los beneficios fluyan hacia el pueblo. Nada de esa bendición debe retenerse de manera egoísta; debe llegar efectivamente a quienes está destinada. Una personalidad mediadora de esta índole, que además ejerce una influencia positiva sobre el líder, resulta indispensable en momentos de grandes transformaciones decisivas para el futuro, las cuales requieren el consentimiento interno de todos los involucrados.
+Es importante que haya personas que medien entre los guías y los guiados. Deben ser personalidades desinteresadas, especialmente en tiempos de aumento, cuando del guía debe provenir beneficio para el pueblo. Nada de la bendición debe ser retenido de manera egoísta, sino que debe realmente beneficiar a aquellos para quienes está destinada. Una personalidad mediadora así, que también ejerce una buena influencia sobre el guía, es especialmente importante en tiempos en que se trata de grandes empresas decisivas para el futuro, que necesitan del asentimiento interior de todos los implicados.
 
 ### Nueve en el quinto puesto significa:
-> Si verdaderamente tienes un corazón bondadoso, no preguntes. ¡Supremo éxito! Ciertamente la bondad será reconocida como tu virtud.
+> Si verdaderamente tienes un corazón bondadoso,
+> no preguntes. Suprema ventura.
+> Verdaderamente la bondad será reconocida como tu virtud.
 
-La verdadera generosidad no calcula ni interroga sobre los méritos o la gratitud de quien la recibe; se manifiesta sencillamente por una necesidad interna. Un corazón auténticamente bondadoso encuentra su recompensa en el reconocimiento espontáneo de los demás, permitiendo que su influencia benéfica se extendienda sin impedimentos.
+La verdadera bondad no calcula ni pregunta por mérito y gratitud, sino que se despliega por necesidad interior. Un corazón verdaderamente bondadoso se encuentra también recompensado al ser reconocido, y así la influencia benéfica se extenderá sin obstáculos.
 
 ### Nueve arriba significa:
-> No aporta aumento a nadie. Es probable que alguien lo golpee. No mantiene su corazón firme de manera duradera. ¡Desventura!
+> No aporta aumento a nadie.
+> Es probable que alguien lo golpee.
+> No mantiene su corazón firme de manera duradera.
+> ¡Desventura!
 
-El sentido de la situación exige que los superiores enriquezcan a los inferiores mediante su propio desapego o renuncia. Al descuidar este deber y no ser de utilidad para nadie, el individuo se priva también de la influencia enriquecedora de los demás y pronto se encuentra completamente aislado. De este modo, atrae ataques sobre sí. Una actitud que no se mantiene en armonía duradera con las exigencias de la época traerá inevitablemente la desventura.
+El sentido de la situación es que los superiores mediante la renuncia deben aumentar a los inferiores. Al descuidar este deber y no beneficiar a nadie, uno se sustrae también a la influencia propiciadora de los demás y pronto se ve aislado. Con ello atrae sobre sí ataques. Una actitud que no está duraderamente en armonía con las exigencias del tiempo traerá consigo inevitablemente desventura.
 
-Las palabras de Confucio sobre esta última línea se integran directamente aquí para respetar la fluidez del texto: El noble aquieta su persona antes de actuar; se concentra en su mente antes de hablar; asegura sus relaciones antes de pedir algo. Al poner en orden estos tres aspectos, el noble se encuentra en perfecta seguridad. Pero si uno es precipitado en sus movimientos, la gente no colaborará. Es decir, si hay agitación en las palabras de uno, estas no encontrarán eco en los demás. Si uno exige algo sin haber cultivado relaciones previas, las personas no lo concederán. Cuando nadie está con uno, los saboteadores y detractores se presentan.
+Confucio dice sobre esta línea: «El Noble aquieta su persona antes de moverse; se concentra en su sentido antes de hablar; consolida sus relaciones antes de pedir algo. Al poner en orden estas tres cosas, el Noble está en completa seguridad. Pero si uno es precipitado en sus movimientos, la gente no colabora. Si uno está agitado en sus palabras, no encuentran eco en la gente. Si uno exige algo sin relaciones previas, la gente no se lo concede. Si nadie está con uno, entonces los dañadores se acercan».
 
 ---
 

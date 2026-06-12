@@ -15,9 +15,9 @@ showAuthor: false
 
 ### Trigramas
 * **Arriba:** Kǎn (Lo Abismal, el Agua)
-* **Abajo:** Xùn (Lo Suave, el Viento / la Madera)
+* **Abajo:** Xùn (Lo Suave, el Viento)
 
-Abajo se encuentra la madera y arriba el agua. La madera desciende en la tierra para extraer el agua hacia la superficie, evocando la imagen del antiguo pozo de palanca chino. La madera no hace alusión a los cubos - que en tiempos remotos eran de arcilla-, sino a la pértiga o estructura cuya oscilación eleva el recurso desde el fondo. Este fenómeno describe también el comportamiento de las plantas, cuyos vasos conductores absorben el líquido del suelo y lo elevan. Por extensión, el pozo representa el principio de un suministro nutricional e inagotable para la vida.
+Abajo se encuentra la madera y arriba el agua. La madera penetra en la tierra para extraer el agua hacia la superficie, evocando la imagen del antiguo pozo de palanca chino. La madera no hace alusión a los cubos -que en tiempos remotos eran de arcilla-, sino a la pértiga cuyos movimientos elevan el agua desde el pozo. Esta imagen describe también el comportamiento de las plantas, cuyos vasos conductores absorben el líquido del suelo y lo elevan. El pozo, del que se extrae agua, contiene además la idea de un suministro inagotable de alimento.
 
 ---
 
@@ -32,35 +32,35 @@ Abajo se encuentra la madera y arriba el agua. La madera desciende en la tierra 
 > pero la cuerda aún no ha descendido por completo,
 > o si rompe su cántaro, esto trae desventura.
 
-Las capitales solían ser trasladadas en la antigua China debido a razones estratégicas o cambios dinásticos. El estilo arquitectónico se transformaba con el paso de los siglos, pero la estructura y función del pozo se mantuvieron idénticas desde tiempos primitivos. De este modo, el pozo representa el cimiento de la organización social humana en sus necesidades vitales más elementales, manteniéndose al margen de cualquier fluctuación política. Las naciones y los gobiernos cambian, pero las demandas esenciales de la vida permanecen eternamente inalteradas. La existencia es inagotable, no mengua ni se incrementa, y se encuentra disponible para todos; las generaciones se suceden unas a otras y todas disfrutan de esta abundancia infinita.
+Las capitales solían ser trasladadas en la antigua China debido a razones estratégicas o cambios dinásticos. El estilo arquitectónico se transformaba con el paso de los siglos, pero la estructura del pozo se ha mantenido idéntica desde tiempos primitivos hasta hoy. De este modo, el pozo representa el cimiento de la organización social humana en sus necesidades vitales más elementales, que es independiente de toda forma política. Las naciones y los gobiernos cambian, pero la vida humana con sus exigencias permanece eternamente la misma. Eso no puede cambiarse. Esta vida es también inagotable. No mengua ni se incrementa, y está ahí para todos. Las generaciones vienen y van, y todas disfrutan de la vida en su plenitud inagotable.
 
-Sin embargo, una adecuada organización social o estatal requiere un doble rigor: se debe descender hasta las verdaderas raíces de la existencia. Toda superficialidad en las leyes que ignore las necesidades humanas profundas resulta tan deficiente como si nunca se hubiese intentado establecer un orden. Bajo este mismo principio, la negligencia que provoca la rotura del cántaro es destructiva. Si la defensa militar de un Estado se exagera al punto de provocar guerras que destruyen su propio poder, se está rompiendo el cántaro. En el plano individual, este principio también se aplica: a pesar de las diferencias en talento y educación, la naturaleza humana esencial es idéntica en todos, y cada individuo puede nutrirse de la fuente inagotable de su ser espiritual. No obstante, aquí acechan dos peligros: detenerse en la superficie de la formación personal atrapado en meras convenciones - una semicultura que resulta tan perjudicial como la ignorancia total-, o abandonar repentinamente el esfuerzo, descuidando el desarrollo interior.
+Para una buena organización estatal o social de los hombres se requiere, sin embargo, un doble rigor: se debe descender hasta las bases de la vida. Toda superficialidad en el ordenamiento vital que deje insatisfechas las necesidades más profundas es tan imperfecta como si no se hubiera hecho ningún intento de ordenamiento. Del mismo modo, la negligencia que rompe el cántaro es funesta. Si, por ejemplo, la protección militar de un Estado se exagera hasta provocar guerras que aniquilan el poder del Estado, eso es una ruptura del cántaro. También para el hombre individual este signo es relevante. Por muy diferentes que sean las disposiciones y formaciones de los hombres, la naturaleza humana en sus fundamentos es la misma en todos. Y cada hombre puede, en su formación, extraer de la fuente inagotable de la naturaleza divina del ser humano. Pero también aquí acechan dos peligros: uno, que en la propia formación no se penetre hasta las verdaderas raíces de lo humano, sino que se quede atrapado en la convención -una semiformación que es tan mala como la ignorancia-; o que uno colapse repentinamente y descuide la formación de su ser.
 
 ---
 
 ## La Imagen
 
 > Sobre la madera está el agua: la imagen del Pozo de Agua.
-> Así el noble alienta al pueblo durante el trabajo
+> Así el Noble alienta al pueblo durante el trabajo
 > y lo exhorta a ayudarse mutuamente.
 
-Abajo se encuentra el signo de la Madera y arriba el del Agua; la madera absorbe el líquido hacia lo alto. Así como la madera actúa como un organismo que distribuye el beneficio del agua a todas sus partes, el noble organiza la sociedad humana para que funcione como un cuerpo vivo, donde cada miembro colabora de manera coordinada para el bienestar del conjunto.
+Abajo está el signo de la Madera, arriba el del Agua. La madera absorbe el agua hacia lo alto. Del mismo modo que la madera, como organismo, imita la actividad del pozo en beneficio de todas las partes de la planta, el Noble ordena la sociedad humana para que, como un organismo vegetal, se articule en beneficio del todo.
 
 ---
 
-## Las Líneas
+## Las Líneas Individuales
 
-### Seios al principio significa:
+### Seis al principio significa:
 > El cieno del pozo no se bebe.
 > A un pozo viejo no se acercan los animales.
 
-Cuando un individuo malgasta su vida en los terrenos pantanosos de la degradación, su existencia se hunde en el fango y pierde toda relevancia para la comunidad. Quien se abandona y se degrada a sí mismo termina provocando el alejamiento de los demás; nadie se preocupará finalmente por su destino.
+Cuando alguien deambula por las tierras bajas pantanosas, su vida se hunde en el cieno. Semejante hombre pierde su significado para la humanidad. Quien se abandona a sí mismo, a ese ya no acuden los demás. Al final nadie se preocupa más por él.
 
 ### Nueve en el segundo puesto significa:
 > En la fosa del pozo se disparan peces.
 > El cántaro está roto y gotea.
 
-El agua en sí misma es pura y cristalina, pero nadie la extrae para su uso. Como consecuencia, en el fondo del pozo solo habitan peces, y quienes se aproximan lo hacen únicamente para pescar; sin embargo, el cántaro está agrietado y es incapaz de retener lo que se captura. Se describe aquí a una persona que posee dotes y talentos valiosos, pero los mantiene en el abandono. Al no recibir estímulo ni interés del entorno, decae internamente, relacionándose con mentes vulgares y volviéndose incapaz de realizar obras de verdadera importancia.
+El agua en sí misma es clara. Pero no se usa. Así solo hay peces en el pozo, y quien viene, viene solo para pescar; pero el cántaro está roto, de modo que no se pueden guardar los peces en él. Se describe una situación en la que alguien posee buenos dones, pero son descuidados. Nadie se preocupa por él. Por ello decae interiormente. Se relaciona con hombres vulgares y ya no puede realizar nada eficaz.
 
 ### Nueve en el tercer puesto significa:
 > El pozo ha sido limpiado, pero no se bebe de él.
@@ -69,28 +69,28 @@ El agua en sí misma es pura y cristalina, pero nadie la extrae para su uso. Com
 > Si el rey fuera lúcido,
 > se disfrutaría de la ventura en común.
 
-Se encuentra aquí un hombre plenamente capacitado y valioso, semejante a un pozo cuyas aguas han sido purificadas y están listas para el consumo. No obstante, sus capacidades son ignoradas y no se le emplea, lo que constituye un motivo de hondo pesar para quienes son conscientes de su valor. Se expresa el anhelo de que esta realidad llegue a oídos del gobernante; de ser así, su participación se traduciría en una gran bendición para la comunidad entera.
+Aquí hay un hombre capaz. Es semejante a un pozo limpiado cuya agua se podría beber. Pero no es utilizado. Ese es el dolor de quienes lo conocen. Existe el deseo de que el príncipe lo sepa; entonces sería una ventura para todos los implicados.
 
 ### Seis en el cuarto puesto significa:
-> El pozo es revestido con mampostería. Ningún reproche.
+> El pozo es revestido con mampostería. Sin error.
 
-Mientras el pozo está siendo reparado y revestido con piedras interiores, es evidente que no se le puede utilizar de inmediato; sin embargo, esta labor no es estéril, pues garantiza que el suministro futuro permanezca limpio y libre de filtraciones. De igual manera, existen periodos en la vida humana destinados exclusivamente a poner orden en el propio ser. Aunque durante este tiempo no se realicen aportes externos en favor de los demás, el proceso es sumamente valioso porque incrementa las facultades y fortalece la consistencia interna para actuar con mayor eficacia más adelante.
+Cuando se reviste el pozo, aunque no se pueda utilizar durante ese tiempo, la labor no es en vano; hace que el agua se mantenga clara. Así también en la vida hay momentos en que uno debe poner orden en sí mismo. Durante ese tiempo no se puede hacer nada por los demás, pero es valioso porque a través de la formación interior se incrementan la fuerza y las capacidades, de modo que después se rinde mucho más.
 
 ### Nueve en el quinto puesto significa:
 > En el pozo hay un manantial claro y fresco
 > del cual se puede beber.
 
-Nos encontramos ante un pozo excelente que posee una fuente de agua viva en su fondo. Un hombre con tales virtudes y claridad interior ha nacido para convertirse en guía y protector de la humanidad, pues custodia en su ser el agua de la vida. Sin embargo, en esta línea no se añade explícitamente el augurio de ventura, debido a que en un pozo lo decisivo es que el agua sea efectivamente extraída. El recurso más puro para el alivio de los hombres permanece únicamente como una posibilidad abstracta mientras no se le eleve a la superficie; de igual modo, frente a los grandes guías de la humanidad, lo fundamental es que la comunidad asimile sus enseñanzas y traduzca sus palabras en hechos concretos de vida.
+Este es un buen pozo que tiene en su fondo una fuente de agua viva. Un hombre que posee tales virtudes ha nacido para ser salvador y guía de la humanidad. Él tiene el agua de la vida. Sin embargo, falta el signo: Ventura. En el pozo todo depende de que el agua sea extraída. La mejor agua está solo como posibilidad para el refrigerio de los hombres mientras no es elevada. Así también en los guías de la humanidad depende de que se beba de su fuente, de que sus palabras se trasladen a la vida.
 
 ### Seis arriba significa:
 > Se extrae del pozo sin impedimentos.
-> Es fidedigno. ¡Supremo éxito!
+> Es fidedigno. ¡Suprema Ventura!
 
-El pozo se halla a disposición de toda la comunidad. Ninguna prohibición restringe a quienes acuden a abastecerse y, por muchos que se presenten, todos encuentran lo que necesitan porque el pozo es absolutamente fidedigno: cuenta con una fuente viva y jamás se seca. Por lo tanto, constituye una bendición inmensa para la región entera. Esta es la imagen del hombre verdaderamente grande, cuyo tesoro interior es inagotable; cuanto más se nutren los demás de su sabiduría, más se expande su riqueza espiritual.
+El pozo está ahí para todos. Ninguna prohibición impide a quienes lo extraen. Por muchos que vengan, encuentran lo que necesitan; pues el pozo es fidedigno. Tiene una fuente y no se agota; por eso es una gran ventura para todo el país. Así es el hombre verdaderamente grande, inagotablemente rico en bien interior. Cuantos más hombres extraen de él, mayor se hace su riqueza.
 
 ---
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
