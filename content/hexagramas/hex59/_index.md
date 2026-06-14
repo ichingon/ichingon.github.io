@@ -13,85 +13,73 @@ showAuthor: false
   &#x4DFA;
 </p>
 
-**Arriba:** Xùn (El Viento, Lo Suave)
-**Abajo:** Kǎn (El Agua, El Abismo)
+### Trigramas
+* **Arriba:** Xùn (Lo Suave, el Viento)
+* **Abajo:** Kǎn (Lo Abismal, el Agua)
+
+El viento, que se mueve por encima del agua, la dispersa y la disuelve en espuma y bruma. En ello reside también el pensamiento de que la energía vital, cuando se estanca en el ser humano (lo que está indicado por la cualidad del signo inferior como peligro), es dispersada y disuelta nuevamente a través de la suavidad.
 
 ---
 
-El viento, al soplar sobre el agua, la dispersa y la disuelve en espuma y bruma. Esta imagen también representa cómo la energía vital, cuando se estanca y se bloquea en el interior del ser humano (situación que el trigrama inferior señala como un peligro), puede ser disuelta y encauzada nuevamente gracias a la acción de la suavidad.
-
 ## El Dictamen
 
-> **La Disolución. Éxito.**  
-> **El rey se acerca a su templo.**  
-> **Es propicio cruzar las grandes aguas.**  
-> **Es propicia la perseverancia.**
+> La Disolución. Éxito.
+> El Rey se acerca a su Templo.
+> Es propicio cruzar las grandes aguas.
+> Es propicia la perseverancia.
 
-Este texto guarda una estrecha afinidad con el del signo de la Reunión (Hexagrama 45). Sin embargo, mientras que allí se abordaba el modo en que lo disperso se agrupa - tal como el agua se concentra en los lagos sobre la tierra-, aquí se expone el proceso inverso: la dispersión y disolución del egoísmo que separa a los hombres. En este sentido, la Disolución representa el camino previo que hace posible una verdadera unión colectiva; de ahí que las estructuras de ambos textos sean tan similares.
+Este signo guarda en su texto afinidad con el signo Tsui, «La Reunión» (nº 45). Allí se trata de la reunión de lo separado, tal como el agua se reúne en lagos sobre la tierra. Aquí se trata de la dispersión y disolución del egoísmo que separa. El signo «la disolución» muestra el camino que conduce a la Reunión. De ahí se explica la similitud del texto.
 
-Para vencer las barreras del egoísmo que aíslan a los seres humanos, se requiere el concurso de fuerzas de orden espiritual. Las celebraciones litúrgicas de los grandes sacrificios y el culto religioso - que manifestaban el vínculo y la jerarquía social tanto en la familia como en el Estado - constituyeron los medios fundamentales empleados por los antiguos gobernantes. A través de la música sagrada y la solemnidad de los ritos, lograban conmover los corazones en un fervor común, despertando la conciencia del origen compartido de todos los seres. Mediante este influjo, las divisiones se superaban y la rigidez interna se disolvía.
+Para vencer el egoísmo separador de los hombres se requiere de las fuerzas religiosas. La celebración conjunta de las grandes fiestas sacrificiales y los servicios divinos, que expresaban a la vez la conexión y la estructura social de la familia y el Estado, fue el medio que los grandes gobernantes emplearon para llevar los corazones, en una común conmoción del sentimiento a través de la música sagrada y el esplendor de las ceremonias, a la conciencia del origen común de todos los seres, con lo que se superaba la separación y se disolvía el estancamiento. Otro medio es la cooperación en grandes empresas comunes, que presentan a la voluntad una gran meta y disuelven todo lo que separa en la dirección hacia esa meta, así como en un barco que cruza una gran corriente todos los ocupantes deben unificarse en el trabajo común.
 
-Otro recurso capital consiste en la cooperación en grandes proyectos colectivos. Al proponer una meta de gran envergadura, las voluntades individuales se unifican, diluyendo cualquier discordia en favor del propósito común. Esto es lo que sucede a bordo de una embarcación al cruzar un río caudaloso: todos los tripulantes se ven obligados a coordinar sus esfuerzos para salir airosos de la travesía.
-
-No obstante, esta capacidad para ablandar la dureza del egoísmo ajeno solo está al alcance de quien permanece libre de segundas intenciones personales, firme en su rectitud y constante en sus principios.
+Pero para tal disolución de la dureza del egoísmo solo es capaz alguien que, libre de todos los pensamientos secundarios egoístas, permanece en la justicia y la constancia.
 
 ---
 
 ## La Imagen
+> El viento se mueve sobre el agua: la imagen de la Disolución.
+> Así los antiguos reyes ofrecían sacrificios al Señor y erigían templos.
 
-> **El viento sopla sobre el agua: la imagen de la Disolución.**  
-> **Así los antiguos reyes ofrecían sacrificios al Señor del Cielo y erigían templos.**
-
-El agua comienza a endurecerse y a congelarse bajo los rigores del otoño y el invierno. Sin embargo, cuando retornan las suaves brisas de la primavera, esa rigidez invernal se quiebra y los bloques de hielo dispersos vuelven a fundirse en una sola corriente. Lo mismo ocurre con el espíritu de una comunidad. El corazón humano se endurece y se congela debido a la soberbia y al egoísmo, aislándose de todo lo demás. La codicia y la ambición aíslan a los individuos. Por ello, es indispensable que una conmoción piadosa sacuda el alma humana. El corazón debe ser liberado mediante los santos estremecimientos que despierta la intuición de la eternidad; debe ser conmovido por la presencia del Creador común de todas las cosas y unificado por la fuerza de los sentimientos comunitarios durante las celebraciones sagradas de la adoración divina.
+El agua comienza a endurecerse y a congelarse en otoño e invierno. Cuando llegan las suaves brisas de la primavera, la rigidez se disuelve y lo disperso en témpanos de hielo se vuelve a unir. Así ocurre también con el sentir del pueblo. Por la dureza y el egoísmo se endurece el corazón, y en ese endurecimiento se separa de todo lo demás. El egoísmo y la codicia aíslan a los hombres. Por ello, una conmoción piadosa debe afectar el corazón humano. Debe ser disuelto en santos estremecimientos de la eternidad, que lo sacudan mediante la intuición del Creador común de todos los seres y lo unifiquen a través del poder de los sentimientos comunitarios en la sagrada celebración de la adoración de lo Divino.
 
 ---
 
 ## Las Líneas
 
 ### Al principio una seis significa:
-> **Trae ayuda con la fuerza de un caballo. ¡Éxito!**
+> Trae ayuda con la fuerza de un caballo.
 
-Se trata aquí de atajar las primeras tendencias hacia la separación antes de que la ruptura sea un hecho consumado; es preciso disipar las nubes antes de que estallen la tormenta y el aguacero. Cuando surgen discrepancias secretas en el ambiente y los malentendidos enturbian las relaciones, es necesario actuar con rapidez y firmeza para disolver la desconfianza mutua antes de que cristalice en un distanciamiento definitivo.
-
----
+Se trata aquí de que, aún antes de que la separación se haya consumado, se superen sus primeros comienzos; de que las nubes sean dispersadas antes de que lleguen la tormenta y la lluvia. En tales tiempos, cuando surgen desviaciones secretas de los estados de ánimo y mutuos malentendidos son la consecuencia, se debe actuar rápida y enérgicamente para disolver esos malentendidos y la desconfianza mutua.
 
 ### Nueve en el segundo puesto significa:
-> **Durante la disolución, corre hacia su punto de apoyo.**  
-> **Los remordimientos desaparecen.**
+> Durante la disolución, corre hacia su punto de apoyo.
+> Los remordimientos desaparecen.
 
-Cuando un hombre descubre en su propio interior los primeros indicios de alienación respecto a los demás, o detecta brotes de misantropía y amargura, debe esforzarse por disolver esos bloqueos. Es preciso movilizarse internamente y acudir con presteza hacia aquello que le brinde un soporte genuino. El verdadero punto de apoyo del ser humano nunca se halla en el odio, sino en un juicio moderado, justo y pleno de benevolencia hacia sus semejantes. Al recuperar esta mirada abierta y generosa sobre la humanidad, desterrando cualquier atisbo de resentimiento, todo motivo de pesadumbre se extingue.
+Cuando uno descubre en sí mismo los comienzos de la alienación de los demás, de la misantropía y el mal humor, entonces hay que disipar estos estancamientos. Uno debe levantarse interiormente y correr hacia su punto de apoyo. Tal punto de apoyo del hombre nunca reside en el odio, sino siempre en un juicio moderado y justo, acompañado de benevolencia, hacia los hombres. Cuando se recupera esta mirada libre sobre la humanidad, disipando toda cólera melancólica, desaparece toda ocasión para el arrepentimiento.
 
----
+### Seis en el tercer puesto significa:
+> Disuelve su yo. Sin remordimientos.
 
-### Seis en el tercero puesto significa:
-> **Disuelve su propio yo. Sin remordimientos.**
-
-Bajo ciertas circunstancias, la tarea que se tiene por delante resulta tan ardua que exige despojarse por completo de la atención hacia uno mismo. Es necesario apartar los intereses personales y disolver todo aquello que el ego pretenda retener para marcar una distancia frente a los demás. Solo sobre la base de una renuncia absoluta se conquistan las fuerzas necesarias para acometer grandes empresas. Este nivel de desapego se alcanza cuando el propósito de la vida se coloca fuera del beneficio propio, consagrándose a una causa superior.
-
----
+El trabajo puede, en ciertas circunstancias, volverse tan difícil que uno ya no pueda pensar en sí mismo. Uno debe poner su propia persona completamente a un lado, disipar todo aquello que el yo quisiera reunir a su alrededor separándolo. Solo sobre la base de una gran renuncia se obtiene la fuerza para grandes logros. Por el hecho de tener la meta fuera de uno mismo, en una gran causa, se puede alcanzar este punto de vista.
 
 ### Seis en el cuarto puesto significa:
-> **Se aparta de su grupo. ¡Éxito extraordinario!**  
-> **Mediante la disolución se genera la concentración.**  
-> **Esto es algo en lo que los hombres comunes no suelen pensar.**
+> Se aparta de su grupo. ¡Suprema Ventura!  
+> Mediante la disolución sigue la acumulación.
+> Esto es algo en lo que los hombres comunes no piensan.
 
-Cuando se trabaja en una tarea que compromete el bienestar de la colectividad, es imperativo dejar de lado las afinidades e intereses de facción. Solo al situarse por encima de los partidos se puede aportar algo verdaderamente decisivo. Quien se atreve a consumar esta renuncia a lo cercano terminará por ganarse a los que están lejos. Sin embargo, para comprender la validez de este proceder, se requiere una visión sumamente amplia de los vínculos humanos, un horizonte que solo los espíritus excepcionales logran desarrollar.
-
----
+Cuando se trabaja en una tarea que apunta al gran conjunto, se deben dejar de lado todas las amistades particulares. Solo cuando uno está por encima de los partidos se logra algo decisivo. Quien se atreve a esta renuncia de lo cercano, ganará a los lejanos. Pero se necesita una amplia visión de las conexiones de la vida, como solo la alcanzan hombres poco comunes, para poder comprender este punto de vista.
 
 ### Nueve en el quinto puesto significa:
-> **Sus clamores son tan disolventes como el sudor.**  
-> **¡Disolución! Un rey reside libre de tacha.**
+> Disolventes como el sudor son sus clamores.
+> ¡Disolución! Un Rey permanece sin mácula.
 
-En épocas de dispersión y crisis generalizada, una gran idea actúa como el eje organizador de la recuperación común. Así como el cuerpo alivia su crisis febril mediante el sudor liberador, en los momentos de parálisis social un pensamiento vigoroso y sugerente representa una verdadera emancipación. Los hombres encuentran entonces un núcleo en torno al cual congregarse: un líder firme capaz de disipar los equívocos del ambiente.
-
----
+En tiempos de disolución y separación general, un gran pensamiento es el punto de organización de la recuperación. Así como una enfermedad termina su crisis mediante un sudor que disuelve, así en tiempos de estancamiento general un gran pensamiento sugerente es una verdadera salvación. Los hombres tienen algo en torno a lo cual pueden reunirse, un hombre dominante que puede disipar los malentendidos.
 
 ### Al superior una nueve significa:
-> **Disuelve su sangre.**  
-> **Alejarse, mantenerse a distancia, salir de allí, queda libre de tacha.**
+> Disuelve su sangre.
+> Alejarse, mantenerse a distancia, salir de allí, es sin mácula.
 
-Disolver la sangre significa neutralizar aquello que pueda provocar heridas y dolor; implica evadir el peligro inminente. Sin embargo, la línea no describe una huida egoísta para ponerse a salvo uno mismo, sino el acto de rescatar a los suyos, ayudándoles a marchar antes de que el desastre se consume, manteniéndolos al margen de una amenaza latente o guiándolos para encontrar una salida si ya han sido alcanzados por ella. Procediendo de esta manera, se cumple cabalmente con el deber.
+Disolver la sangre significa disolver lo que podría traer sangre y heridas, evitar el peligro. Pero aquí no se expresa el pensamiento de que uno solo evita las dificultades para sí mismo, sino que salva a los suyos, les ayuda a alejarse antes de que el peligro esté presente, a mantenerse alejados de un peligro ya existente y a encontrar la salida de un peligro que ya los ha alcanzado. De esta manera, uno hace lo correcto.
 
 ---
 

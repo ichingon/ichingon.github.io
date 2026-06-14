@@ -1,8 +1,8 @@
 ---
-title: "Hexagrama 58 兌 - Dui / Lo Sereno (El Lago)"
+title: "Hexagrama 58 兌 - Dui / Lo Alegre (El Lago)"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 58 (Dui) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
-keywords: ["I Ching", "Hexagrama 58", "Dui", "Lo Sereno", "El Lago", "Richard Wilhelm", "兌"]
+keywords: ["I Ching", "Hexagrama 58", "Dui", "Lo Alegre", "El Lago", "Richard Wilhelm", "兌"]
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -13,83 +13,66 @@ showAuthor: false
   &#x4DF9;
 </p>
 
-**Arriba:** Dui (El Lago, La Alegría)
-**Abajo:** Dui (El Lago, La Alegría)
+### Trigramas
+* **Arriba:** Dui (Lo Alegre, el Lago)
+* **Abajo:** Dui (Lo Alegre, el Lago)
+
+Dui es, como Sun, uno de los ocho signos dobles. Dui significa la hija menor; tiene como imagen el lago sonriente, como cualidad la alegría. La alegría no descansa, como podría parecer, en la suavidad que se muestra en la línea superior. La cualidad del principio suave u oscuro no es alegría, sino melancolía. Más bien, la alegría descansa en que interiormente hay dos trazos fuertes, que se expresan a través del medio de la suavidad.
+
+La verdadera alegría descansa, pues, en que en el interior están presentes la firmeza y la fuerza, que hacia fuera se manifiestan suave y mansamente.
 
 ---
 
-Este signo, al igual que Xun, pertenece a los ocho signos dobles. Representa a la hija menor; está simbolizado por la quietud del lago y su cualidad interna es la alegría. A diferencia de lo que comúnmente se cree, la alegría no es un signo de debilidad, sino una manifestación de serenidad que descansa sobre una firmeza interior profunda.
-
-Mientras que las cualidades de la fuerza y la firmeza habitan en el centro, el exterior se manifiesta suave y flexible. Esto nos revela el verdadero camino para influir en el mundo: una personalidad internamente inquebrantable, que se presenta ante los demás con amabilidad y apertura, logra ganar los corazones sin recurrir a la coacción. Si la amabilidad exterior carece de este sustento de rectitud interior, degenera rápidamente en una complacencia superficial que debilita el carácter.
-
 ## El Dictamen
 
-> **Lo Sereno. Gelingen.**  
-> **Es propicia la perseverancia.**
+> Lo Alegre. Éxito. Es propicia la perseverancia.
 
-La alegría verdadera y duradera solo puede florecer cuando se apoya firmemente en lo correcto y en lo justo. El entusiasmo superficial se apaga pronto si carece de principios sólidos, dejando tras de sí el vacío del desencanto.
-
-Cuando la serenidad se basa en la rectitud del espíritu, posee la fuerza de guiar a los hombres. Bajo el influjo de un liderazgo que emana alegría y mutua confianza, el pueblo asume las tareas más difíciles de manera voluntaria. La serenidad compartida desactiva el resentimiento y la pesadumbre del esfuerzo común; hace que los hombres afronten los peligros de la existencia con el espíritu templado y una concordia indestructible.
+El estado de ánimo alegre actúa contagiosamente, por eso tiene éxito. Pero la alegría necesita como fundamento la constancia, para que no degeneren en desenfrenada jocosidad. Verdad y fuerza deben habitar en el corazón, mientras que la mansedumbre se manifiesta hacia fuera en el trato. De esta manera se adopta la posición correcta frente a Dios y los hombres y se consigue algo. Con mera intimidación sin mansedumbre se puede conseguir algo en determinadas circunstancias para el momento, pero no para la duración. Si, en cambio, se ganan los corazones de los hombres mediante la amabilidad, se consigue que tomen sobre sí todas las molestias de buen grado, e incluso si es necesario, no teman la muerte. Tan grande es el poder de la alegría sobre los hombres.
 
 ---
 
 ## La Imagen
 
-> **Lagos que descansan unos sobre otros: la imagen de lo sereno.**  
-> **Así el noble se reúne con sus amigos para la discusión y la práctica.**
+> Lagos que reposan unos sobre otros: la imagen de lo alegre.
+> Así se reúne El Noble con sus amigos para la discusión y la práctica.
 
-Un lago solo conserva su caudal y su frescura si recibe el aporte constante de otras fuentes; de lo contrario, se evapora o se convierte en un pantano. Del mismo modo, el conocimiento y la vida espiritual necesitan la renovación permanente del intercambio libre. 
-
-El noble no se aísla en su propio saber ni intenta cultivar su espíritu en la soledad absoluta. Busca la comunidad de los amigos para contrastar ideas, profundizar en las enseñanzas de la tradición y ejercitarse de manera conjunta en el arte de vivir. La discusión franca borra los prejuicios y expande el horizonte mental, mientras que la práctica compartida consolida las virtudes individuales dentro de una experiencia social enriquecedora.
+Un lago se evapora hacia arriba y se agota así gradualmente. Pero cuando dos lagos están en conexión mutua, no se agotan tan fácilmente, porque uno enriquece al otro. Así ocurre también en el terreno científico. La ciencia debe ser una fuerza refrescante y vivificante. Solo puede llegar a serlo en el trato vivificante con amigos de igual pensar, con los cuales se discute y se practica la aplicación de las verdades de la vida. Así el conocimiento se vuelve multifacético y adquiere una alegre ligereza, mientras que el saber de los autodidactas conserva siempre algo pesado y unilateral.
 
 ---
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Al principio una nueve significa:
-> **Serenidad contenta. ¡Heil!**
+> Alegría satisfecha. ¡Ventura!
 
-Cuando un hombre permanece en armonía consigo mismo, experimenta una alegría serena que no depende de los estímulos o las aprobaciones del mundo exterior. Es un estado de suficiencia íntima, libre de deseos vehementes y de la necesidad de complacer a los demás. Esta quietud del alma representa un camino despejado, exento de contradicciones o remordimientos, y asegura por sí misma la fortuna en cualquier circunstancia.
-
----
+Una alegría callada, sin palabras, recogida en sí misma, que nada desea del exterior y está contenta con todo, permanece libre de todas las inclinaciones y aversiones egoístas. En esta libertad reside la ventura, pues alberga la tranquila seguridad del corazón afianzado en sí mismo.
 
 ### Nueve en el segundo puesto significa:
-> **Serenidad sincera. ¡Heil! La reue schwindet.**
+> Alegría sincera. ¡Ventura!
+> El arrepentimiento desaparece.
 
-Con frecuencia nos encontramos en entornos donde predominan las diversiones mundanas y los placeres de carácter vulgar. El peligro radica en dejarse arrastrar por esas corrientes superficiales, descuidando la propia dignidad espiritual. 
-
-Sin embargo, si mantenemos una rectitud interior infranqueable, nuestra fidelidad al bien actuará como un filtro natural. El espíritu se desliga conscientemente de los goces degradantes y encuentra una alegría genuina en los valores superiores. Al consolidarse esta claridad de propósito, cualquier asomo de duda o arrepentimiento se disipa de inmediato, abriendo paso a una fortuna bien ganada.
-
----
+A menudo se está en relación con personas inferiores, de cuyo entorno otras alegrías hacen señas que no son apropiadas para el hombre superior. Si uno quisiera participar de tales alegrías, ciertamente eso traería arrepentimiento; pues un hombre superior no puede ser verdaderamente satisfecho con alegrías bajas. Si a consecuencia de este conocimiento no se deja desviar en su voluntad, de modo que no encuentre gusto en esta clase de placeres, entonces incluso un entorno dudoso no se atreve a ofrecerle placeres innobles, pues de todos modos no le alegrarían. Con ello queda eliminado todo motivo de lamentación.
 
 ### Seis en el tercer puesto significa:
-> **Serenidad que viene a unirse. Unheil.**
+> Alegría venidera. ¡Desventura!
 
-Quien carece de un centro de gravedad en su interior busca desesperadamente la distracción y el entretenimiento que provienen de fuera. Se entrega a los placeres del momento para evadir el vacío de su propia existencia, asumiendo una actitud de constante dependencia hacia los estímulos externos. Esta búsqueda ansiosa de compañía y diversión no es alegría real, sino una claudicación del carácter que conduce irremediablemente al desastre y a la pérdida de la soberanía personal.
-
----
+La verdadera alegría debe manar del propio interior. Pero cuando uno está interiormente vacío, de modo que se pierde en el mundo exterior, entonces las alegrías vienen de fuera. Eso es lo que algunos hombres saludan como diversión. Los hombres que por falta de consistencia interior tienen necesidad de diversión, siempre tendrán ocasión de distraerse. Atraen las alegrías exteriores a través del vacío de su ser. Con ello se pierden cada vez más, lo que naturalmente es un mal.
 
 ### Nueve en el cuarto puesto significa:
-> **Serenidad deliberada no llega a la quietud.**  
-> **Tras eliminar las fallas, se experimenta alegría.**
+> Alegría meditada no está sosegada.
+> Tras eliminar los errores se tiene alegría.
 
-El individuo se halla atrapado en una encrucijada espiritual, debatiéndose entre los placeres elevados del espíritu y las atracciones más densas del plano material. Esta indecisión genera una tensión constante que impide al alma alcanzar la verdadera paz interior. 
-
-La serenidad no llegará mientras no se realice una elección consciente y firme. Solo cuando se examinan las propias motivaciones y se eliminan las fallas del carácter (es decir, cuando se renuncia resueltamente a las bajas pasiones), el conflicto interno cesa. Al tomar el partido de lo superior, el alma se libera del desasosiego y halla una alegría duradera.
-
----
+A menudo el hombre se encuentra en medio entre distintas clases de alegría. Mientras aún no se ha decidido qué clase de alegría quiere elegir, la superior o la inferior, mientras tanto se encuentra interiormente inquieto. Solo cuando ha reconocido claramente que la pasión trae sufrimiento, es capaz de decidirse de modo que elimine lo inferior de sí y aspire a las alegrías superiores. Una vez sellada esta decisión, ha encontrado la verdadera alegría y quietud interior, y la lucha interna está superada.
 
 ### Nueve en el quinto puesto significa:
-> **Sinceridad hacia lo desintegrador es peligrosa.**
+> Sinceridad frente a lo desintegrador es peligrosa.
 
-Incluso el hombre más noble puede verse expuesto a la influencia persistente de elementos degradantes o personas de baja calaña que intentan ganarse su confianza mediante lisonjas. Es crucial comprender que abrir el corazón a estas fuerzas corruptoras constituye un peligro gravísimo para la integridad moral. La confianza ciega o la tolerancia ingenua frente a lo dañino no es una virtud; por el contrario, debilita las defensas del espíritu y pone en riesgo la obra de toda una vida. Se requiere una vigilancia extrema para mantener la distancia necesaria frente a tales influencias.
+También al mejor hombre se le acercan elementos peligrosos. Si uno se involucra con ellos, su influjo desintegrador actúa muy lentamente, pero seguro, y arrastra tras de sí sus peligros inevitablemente. Pero quien reconoce la situación y sabe discernir el peligro, ese sabe cuidarse y permanece libre de daño.
 
----
+### Arriba una seis significa:
+> Alegría seductora.
 
-### Al superior una seis significa:
-> **Serenidad seductora.**
-
-Cuando la serenidad se desconecta de los principios éticos del centro, se transforma en un mero instrumento de manipulación o vanidad. El individuo gasta sus energías en atraer la atención de los demás y en dejarse adular por el entorno social, perdiendo el control de su propia dirección. Al buscar seducir o al entregarse a la seducción del ambiente, la persona deja de ser dueña de sus actos y queda a merced de las corrientes del capricho ajeno, renunciando a toda grandeza interior.
+Cuando uno es interiormente vanidoso, atrae hacia sí las alegrías de la diversión y tiene que padecer bajo ellas (cf. seis en el tercer puesto). Cuando uno no está interiormente afianzado, las alegrías del mundo exterior, a las que no se sustrae, actúan tan fuertemente sobre él que es arrastrado. Aquí ya no se habla de peligro, de ventura o desventura. Se ha entregado el timón de la vida, y depende del azar y de las influencias externas lo que llegue a ser de uno.
 
 ---
 

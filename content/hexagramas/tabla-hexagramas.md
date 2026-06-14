@@ -2,7 +2,7 @@
 title: "Tabla para buscar los hexagramas del I Ching"
 weight: 1
 description: "Tabla de consulta rápida para identificar cualquiera de los 64 hexagramas del I Ching, indexados por trigramas según la secuencia del Rey Wen."
-url: "/hexagramas/buscador-hexagramas-i-ching/"
+slug: "buscador-hexagramas-i-ching"
 date: 2026-05-27
 layout: "page"
 showDate: false

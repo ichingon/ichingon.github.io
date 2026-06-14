@@ -2,12 +2,14 @@
 title: "I Ching Hexagram Lookup Matrix"
 weight: 1
 description: "Interactive I Ching hexagram lookup matrix. Quickly find and identify any hexagram by its upper and lower trigrams using King Wen's sequence."
-url: "/hexagrams/i-ching-lookup-chart/"
 date: 2026-05-27
 layout: "page"
 showDate: false
 showReadingTime: false
 showWordCount: false
+slug: "i-ching-lookup-chart"
+aliases:
+    - /hexagrams/i-ching-lookup-chart/
 ---
 
 ## How to Use the I Ching Hexagram Finder

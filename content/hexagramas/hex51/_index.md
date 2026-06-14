@@ -1,8 +1,8 @@
 ---
-title: "Hexagrama 51 震 - Zhèn / Lo Conmocionador (Trueno)"
+title: "Hexagrama 51 震 - Zhèn / Lo excitante (Trueno)"
 draft: false
 description: "Traducción crítica y análisis del Hexagrama 51 (Zhèn) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
-keywords: ["I Ching", "Hexagrama 51", "Zhèn", "Lo Conmocionador", "Trueno", "Richard Wilhelm", "震"]
+keywords: ["I Ching", "Hexagrama 51", "Zhèn", "Lo excitante", "Trueno", "Richard Wilhelm", "震"]
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -13,16 +13,17 @@ showAuthor: false
   &#x4DF2;
 </p>
 
-**Arriba:** Zhèn (Lo Conmocionador, el Trueno)  
-**Abajo:** Zhèn (Lo Conmocionador, el Trueno)
+### Trigramas
+* **Arriba:** Zhèn (Lo excitante, el Trueno)  
+* **Abajo:** Zhèn (Lo excitante, el Trueno)
+
+El signo Zhèn (Lo excitante) es el hijo mayor, que asume el dominio con energía y poder. Una línea Yang nace por debajo de dos líneas Yin y se abre paso hacia arriba de manera imponente. Este movimiento es tan violento que despierta terror. Como imagen se utiliza el trueno, que irrumpe desde la Tierra y causa temor y temblor debido a su conmoción.
 
 ---
 
-El signo Zhèn representa al hijo mayor, quien asume el dominio con energía y poder. Una línea Yang nace por debajo de dos líneas Yin y se abre paso hacia arriba de manera imponente. Este movimiento es tan violento que despierta terror. Como imagen se utiliza el trueno, que irrumpe desde la Tierra y causa temor y temblor debido a su conmoción.
-
 ## El Dictamen
 
-> La Conmoción trae el éxito.  
+> La Conmoción trae el éxito.
 > Llega la conmoción: ¡ju, ju!  
 > Palabras sonrientes: ¡ja, ja!  
 > La conmoción aterroriza a cien millas a la redonda,  
@@ -30,15 +31,19 @@ El signo Zhèn representa al hijo mayor, quien asume el dominio con energía y p
 
 La conmoción que se eleva por la manifestación de Dios en el interior de la Tierra hace que el ser humano sienta temor; sin embargo, este temor ante Dios es algo bueno, ya que permite que después surjan la alegría y el gozo. Cuando uno ha aprendido internamente lo que significan el temor y el temblor, queda protegido contra el espanto provocado por las influencias externas. Aunque el trueno ruge y asusta a cien millas a la redonda, uno permanece tan sereno y reverente en su interior que no interrumpe la ceremonia del sacrificio. Una seriedad interna tan profunda, que hace rebotar de forma inofensiva cualquier terror exterior, es la actitud espiritual que deben poseer los gobernantes y los líderes de los hombres.
 
+---
+
 ## La Imagen
 
-> Truenos continuos: la imagen de la Conmoción.  
-> Así el noble, en medio del temor y el temblor,  
-> rectifica su vida y examina su propio corazón.
+> Truenos continuos: la imagen de la Conmoción.
+> Así El Noble, en medio del temor y el temblor,  
+> rectifica su vida y se examina a sí mismo.
 
-El trueno continuo trae consigo temor y temblor a causa de su sacudida. Del mismo modo, el noble se mantiene siempre en un estado de reverencia ante la manifestación de Dios, pone en orden su vida y examina su corazón para asegurarse de que nada contradiga secretamente la voluntad divina. Así, la reverencia se convierte en el fundamento para la formación de una vida auténtica.
+El trueno continuo trae consigo temor y temblor a causa de su sacudida. Del mismo modo, El Noble se mantiene siempre en un estado de reverencia ante la manifestación de Dios, pone en orden su vida y examina su corazón para asegurarse de que nada contradiga secretamente la voluntad divina. Así, la reverencia se convierte en el fundamento para la formación de una vida auténtica.
 
-## Las Líneas
+---
+
+## Las Líneas Individuales
 
 ### Al principio un nueve significa:
 > Llega la conmoción: ¡ju, ju!  
@@ -80,12 +85,12 @@ Aquí no se trata de una sacudida aislada, sino de una conmoción repetida que n
 > Avanzar trae desdicha.  
 > Si todavía no alcanza al propio cuerpo,  
 > sino que primero llega al vecino,  
-> no hay tacha.  
+> no hay mácula.  
 > Los compañeros tienen de qué hablar.
 
-La conmoción interna arrebata la presencia de ánimo y la claridad de la mirada cuando llega a su punto máximo. Bajo tal estado de agitación, resulta evidentemente imposible actuar con sensatez. Lo correcto en este caso es mantenerse tranquilo hasta recuperar la calma y el discernimiento. 
+La conmoción interna arrebata la presencia de ánimo y la claridad de la mirada cuando llega a su punto máximo. Bajo tal estado de agitación, resulta evidentemente imposible actuar con sensatez. Lo correcto en este caso es mantenerse tranquilo hasta recuperar la calma y el discernimiento.
 
-Sin embargo, uno solo es capaz de esto mientras no haya sido contagiado por la agitación, pudiendo observar los efectos funestos de dicha alteración en su entorno. Si uno se retira de la acción a tiempo, permanecerá libre de errores y daños. Aunque los compañeros, en medio de su excitación, se nieguen a escuchar advertencias y se muestren insatisfechos con esta retirada, no se debe prestar atención a sus quejas.
+Sin embargo, uno solo es capaz de esto mientras no haya sido contagiado por la agitación, pudiendo observar los efectos funestos de dicha alteración en su entorno. Si uno se retira de la acción a tiempo, permanecerá libre de errores y daños. Aunque los compañeros, en medio de su excitación, se nieguen a escuchar advertencias y se muestren insatisfechos con esta retirada, pero no se debe prestar atención a eso.
 
 ---
 

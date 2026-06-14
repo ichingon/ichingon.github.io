@@ -13,91 +13,81 @@ showAuthor: false
   &#x4DFF;
 </p>
 
-**Arriba:** Lí (El Fuego, Lo Adherente)
-**Abajo:** Kǎn (El Agua, El Abismo)
+### Trigramas
+* **Arriba:** Lí (Lo Adherente, el Fuego)
+* **Abajo:** Kǎn (Lo Abismal, el Agua)
+
+Este signo señala una época en la que la transición desde el desorden hacia el orden todavía no se ha completado. El gran cambio ya se encuentra en fase de preparación, puesto que todas las líneas del trigrama superior mantienen una relación recíproca con las del inferior; sin embargo, ninguna de ellas ocupa aún su puesto definitivo. Mientras que el signo precedente guarda analogía con el otoño, que configura el paso del verano al invierno, este signo se asemeja a la primavera, la cual conduce desde la parálisis invernal hacia la fertilidad del verano. Con esta perspectiva abierta hacia la esperanza concluye el Libro de las Mutaciones.
 
 ---
 
-Este signo señala una época en la que la transición desde el desorden hacia el orden todavía no se ha completado. El gran cambio ya se encuentra en fase de preparación, puesto que todas las líneas del trigrama superior mantienen una relación recíproca con las del inferior; sin embargo, ninguna de ellas ocupa aún su puesto definitivo. 
-
-Mientras que el signo precedente guarda analogía con el otoño, que configura el paso del verano al invierno, este signo se asemeja a la primavera, la cual conduce desde la parálisis invernal hacia la fertilidad del verano. Con esta perspectiva abierta hacia la esperanza concluye el Libro de las Mutaciones.
-
 ## El Dictamen
+> Antes de la Consumación. Éxito.  
+> Pero si el pequeño zorro, cuando casi ha completado la travesía,  
+> se moja la cola en el agua,  
+> entonces no hay nada que sea propicio.
 
-> **Antes de la Consumación. Éxito.**  
-> **Pero si el pequeño zorro, cuando casi ha completado la travesía,**  
-> **se moja la cola en el agua,**  
-> **entonces no hay nada que sea propicio.**
-
-Las circunstancias del presente son complejas y la tarea que se tiene por delante exige una enorme responsabilidad. No se trata de otra cosa que de guiar al mundo desde la confusión de regreso hacia el orden estable. Con todo, es una empresa que promete el éxito, puesto que existe una meta clara capaz de unificar las fuerzas que antes se hallaban dispersas. 
-
-No obstante, en un principio se debe avanzar con suma cautela y delicadeza. Es preciso proceder con la misma prudencia que un zorro viejo al cruzar sobre el hielo. En China, la cautela del zorro sobre el hielo es proverbial: camina escuchando atentamente el crujido de la superficie y busca con minuciosidad los puntos más firmes. Un zorro joven, que carece de esta experiencia, avanza con audacia ciega y suele ocurrir que, justo cuando está a punto de alcanzar la otra orilla, cae al agua y se moja la cola. Si eso sucede, todo el esfuerzo previo resulta estéril. Por consiguiente, en las épocas previas a la consumación, la deliberación y la prudencia constituyen los requisitos indispensables para asegurar el triunfo.
+Las circunstancias son difíciles. La tarea es grande y llena de responsabilidad. No se trata de nada menos que de conducir al mundo de vuelta del desorden al orden. Sin embargo, es una tarea que promete éxito, pues existe una meta que es capaz de unificar las fuerzas que divergen. Solo que al principio se debe proceder aún de manera suave y cuidadosa. Se debe proceder como un zorro viejo que camina sobre el hielo. En China, la precaución del zorro al caminar sobre el hielo es proverbial. Él escucha siempre el crujido y busca cuidadosa y prudentemente los lugares más seguros. Un zorro joven, que aún no conoce esta precaución, avanza audazmente, y entonces puede ocurrir que caiga dentro cuando ya casi está sobre el agua, y moje su cola. Entonces todo el esfuerzo fue en vano. En consecuencia, en tiempos anteriores a la consumación, la reflexión y la precaución son la condición fundamental del éxito.
 
 ---
 
 ## La Imagen
+> El fuego está arriba del agua:
+> la imagen del estado Antes de la Consumación.  
+> Así El Noble es cuidadoso en la distinción de las cosas,
+> para que cada una ocupe su puesto.
 
-> **El fuego está arriba del agua: la imagen del estado Antes de la Consumación.**  
-> **Así el noble es cuidadoso en la distinción de las cosas, para que cada una ocupe su puesto.**
-
-Cuando el fuego, cuya naturaleza es elevarse, se encuentra arriba, y el agua, cuyo movimiento fluye hacia abajo, se ubica en la base, sus efectos divergen y permanecen sin mantener ninguna relación recíproca. Si se desea lograr una acción efectiva, primero es necesario investigar la naturaleza intrínseca de las fuerzas concurrentes y determinar cuál es el lugar que legítimamente le corresponde a cada una. 
-
-Al aplicar las energías en el punto exacto, se produce el efecto deseado y se alcanza la consumación. Sin embargo, para poder manejar adecuadamente las fuerzas externas, resulta imprescindible adoptar primero la posición correcta uno mismo, ya que solo desde ese centro firme se puede ejercer una influencia verdadera.
+Cuando el fuego, que de todas formas asciende, se encuentra arriba, y el agua, cuyo movimiento va hacia abajo, se ubica abajo, entonces sus efectos se separan y permanecen sin relación. Si se quiere lograr un efecto, primero se debe investigar cuál es la naturaleza de las fuerzas en cuestión y cuál es el lugar que les corresponde. Si se ponen las fuerzas en el lugar correcto, entonces tienen el efecto deseado, y se alcanza la consumación. Pero para poder manejar correctamente las fuerzas externas, es ante todo necesario que uno mismo adopte el punto de vista correcto. Pues solo desde allí se puede actuar correctamente.
 
 ---
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Al principio una seis significa:
-> **Se moja la cola en el agua.**  
-> **Beschämend.**
+> Se moja la cola en el agua.  
+> Vergonzoso.
 
-En los tiempos de desorden, resulta tentador adelantarse con demasiada premura para intentar realizar una obra visible. Sin embargo, este entusiasmo precipitado no conduce a nada más que al fracaso y a la humillación, mientras no haya llegado el momento oportuno para actuar. En esta fase, lo más inteligente es mantener una reserva prudente, ahorrándose así la afrenta del descalabro.
-
----
+En tiempos de desorden, resulta tentador adelantarse con demasiada premura para intentar realizar una obra visible. Pero este entusiasmo no conduce a nada más que al fracaso y a la humillación, mientras no haya llegado el momento oportuno para actuar. En esta época, es inteligente ahorrarse la afrenta del fracaso mediante la reserva. (Nótese la diferencia de situación respecto del primer trazo del signo anterior.)
 
 ### Nueve en el segundo puesto significa:
-> **Frena sus ruedas.**  
-> **La perseverancia trae Heil.**
+> Frena sus ruedas.  
+> La perseverancia trae ventura.
 
-Aquí tampoco ha llegado todavía el momento de pasar a la acción. No obstante, la paciencia que se requiere no debe confundirse con una espera indolente que gasta los días al azar. Un comportamiento así jamás conduciría al éxito. Por el contrario, se debe cultivar en el interior la fuerza necesaria para avanzar en el futuro. Se requiere disponer de un carruaje para consumar la travesía, pero es preciso mantener las ruedas frenadas por el momento. La paciencia en su sentido más elevado es fuerza contenida. Por lo tanto, no hay que adormecerse ni apartar la vista de la meta; si uno permanece firme y constante en su resolución, al final todo saldrá bien.
-
----
+Aquí tampoco ha llegado todavía el momento de actuar. Pero la paciencia necesaria no debe ser una espera indolente que vive al día. Eso jamás conduciría al éxito. Sino que se debe cultivar en uno mismo la fuerza que capacita para avanzar. Se debe tener, por así decirlo, un carruaje para realizar la transición, pero aún hay que frenarlo. La paciencia en su sentido más elevado es fuerza contenida. Por lo tanto, no hay que adormecerse ni perder de vista la meta. Si uno permanece fuerte y constante en su resolución, al final todo sale bien.
 
 ### Seis en el tercer puesto significa:
-> **Antes de la consumación, el ataque trae unheil.**  
-> **Es propicio cruzar las grandes aguas.**
+> Antes de la consumación, el ataque trae desgracia.  
+> Es propicio cruzar las grandes aguas.
 
-El tiempo de la transición ha llegado, pero no se dispone de la fuerza individual necesaria para consumar el paso. Intentar forzar la situación de manera unilateral evocaría el desastre, puesto que el colapso sería inevitable. ¿Qué es, entonces, lo que se debe hacer? Es necesario configurar una situación nueva, sumando las capacidades de colaboradores eficientes para dar el paso decisivo de manera conjunta, cruzando las grandes aguas. Solo así se vuelve posible la realización.
-
----
+El tiempo de la transición ha llegado, pero no se tiene la fuerza para consumar el paso. Si se intentara forzarlo, sería desastroso, pues entonces el colapso sería inevitable. ¿Qué es lo que hay que hacer? Se debe crear una nueva situación, se debe convocar las fuerzas de colaboradores eficientes y dar el paso decisivo junto con ellos: cruzar las grandes aguas. Entonces la consumación se volverá posible.
 
 ### Nueve en el cuarto puesto significa:
-> **La perseverancia trae Heil. Los remordimientos desaparecen.**  
-> **Conmoción para castigar al País del Diablo.**  
-> **Durante tres años se otorgan recompensas con grandes reinos.**
+> La perseverancia trae ventura. El arrepentimiento desaparece.  
+> Conmoción para castigar al País del Diablo.  
+> Durante tres años se otorgan recompensas con grandes reinos.
 
-Este es el momento de la lucha; la transición debe ser ejecutada. Es indispensable fortalecer la voluntad con absoluta firmeza, lo que garantiza la fortuna. Cualquier duda que pueda surgir en tiempos de combate tan serios debe ser silenciada. Se trata de entablar una batalla enérgica para conmover y castigar al País del Diablo, es decir, a las fuerzas de la descomposición. Pero este esfuerzo también comporta su recompensa: es la época de sentar las bases del poder y el orden para el porvenir.
-
----
+Ahora es el tiempo de la lucha. La transición debe ser ejecutada. Uno debe fortalecerse completamente en su resolución - eso trae ventura. Todas las dudas que puedan surgir en tiempos de combate tan serios deben callar. Se trata de una lucha ardiente: conmover y castigar al País del Diablo, a las fuerzas de la descomposición. Pero la lucha tiene también su recompensa. Ahora es el tiempo de sentar las bases del poder y el dominio para el futuro.
 
 ### Seis en el quinto puesto significa:
-> **La perseverancia trae Heil. Sin remordimientos.**  
-> **La luz del noble es verdadera.**  
-> **¡Heil!**
+> La perseverancia trae ventura. Sin arrepentimiento.  
+> La luz del Noble es verdadera.  
+> ¡Ventura!
 
-La victoria ha sido conquistada. La fuerza de la constancia no ha quedado en evidencia y todo ha marchado por buen camino. Los escrúpulos han sido superados y el éxito justifica plenamente la acción emprendida. La claridad de una personalidad noble vuelve a brillar con un fulgor renovado, consolidando su influencia sobre los hombres que creen en ella y se congregan a su alrededor. El nuevo tiempo y, con él, la ventura han llegado. Así como el sol brilla con doble esplendor tras la tormenta, o el bosque resurge con mayor frescura entre las cenizas, la nueva época destaca con un relieve aún más luminoso sobre las miserias del pasado.
+La victoria ha sido conquistada. La fuerza de la constancia no ha sido avergonzada. Todo ha salido bien. Todas las dudas han sido superadas. El éxito ha justificado la acción. Vuelve a brillar la luz de una personalidad noble y se impone entre los hombres que creen en ella y se congregan a su alrededor. La nueva época y con ella la ventura ha llegado. Y así como el sol brilla doblemente hermoso tras la lluvia, o el bosque tras un incendio reverdece con renovado frescor entre los restos carbonizados, así la nueva época se destaca más esplendorosamente sobre la miseria de la antigua.
+
+### Arriba un nueve significa:
+> En verdadera confianza se bebe vino.  
+> Sin error.  
+> Pero si se moja la cabeza,  
+> se pierde aquello que es verdadero.
+
+Antes de la consumación, en el límite de la nueva época, se está junto a los suyos en plena confianza mutua y se pasa el tiempo de espera con vino. Puesto que la nueva época ya está inmediatamente ante la puerta, eso no es un error. Solo que se debe cuidar la justa medida. Si uno se derrama la cabeza por exceso de arrogancia, pierde la posición favorable por la falta de moderación.
 
 ---
 
-### Al superior una nueve significa:
-> **En la verdadera confianza se bebe vino.**  
-> **Sin tacha. Pero si se moja la cabeza,**  
-> **se pierde aquello que es verdadero.**
+## Observación
 
-En las vísperas de la consumación, en los límites de la nueva era, se disfruta de una convivencia plena de confianza recíproca con los suyos, compartiendo el tiempo de espera ante una copa de vino. Puesto que la nueva época ya se encuentra llamando a la puerta, este festejo no constituye ninguna falta. 
-
-Sin embargo, es fundamental observar la justa medida. Si el individuo se embriaga de autocomplacencia y se derrama el vino sobre la cabeza por exceso de soberbia, disipará la posición favorable del presente debido a su falta de moderación.
+Así como el signo "Después de la Consumación" representa la transición gradual desde la época de ascenso, pasando por la cima de la cultura, hasta el tiempo de estancamiento, así el signo "Antes de la Consumación" representa la transición desde el caos hacia el orden. Este signo se encuentra al final del Libro de las Mutaciones. Señala que en todo final yace un nuevo comienzo. Así da esperanza a los hombres. El Libro de las Mutaciones es un libro del futuro.
 
 ---
 

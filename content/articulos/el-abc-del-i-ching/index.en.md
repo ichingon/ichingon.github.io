@@ -8,7 +8,9 @@ showFooterAuthor: true
 tags: ["I Ching Fundamentals"]
 summary: "An introductory article for those who want to understand what the I Ching truly is."
 math: false
-url: "/articles/the-abc-of-the-i-ching/"
+slug: "the-abc-of-the-i-ching"
+aliases:
+    - /articles/the-abc-of-the-i-ching/
 ---
 
 ## What is the I Ching?

@@ -13,72 +13,74 @@ showAuthor: false
   &#x4DF6;
 </p>
 
-**Arriba:** Lì (La Claridad)
-**Abajo:** Zhèn (El Trueno)
+### Trigramas
+* **Arriba:** Zhèn (Lo excitante, el Trueno)  
+* **Abajo:** Li (Lo Adherente, el Fuego)
+
+Lo excitante es el movimiento, lo Adherente es la llama, cuya propiedad es la claridad. En el interior claridad, hacia el exterior movimiento, eso da grandeza y abundancia. Es una época de alta cultura, que es representada por el signo. Sin embargo, en el hecho de que se trata de un punto supremo, ya está insinuado el pensamiento de que este estado extraordinario de abundancia no podrá mantenerse duraderamente.
 
 ---
 
-La abundancia representa una época de apogeo, plenitud y máxima expansión, comparable al mediodía de la época estival o al cenit de una civilización. El signo combina a Lì, la claridad interior y el fuego, con Zhèn, el trueno y el movimiento hacia el exterior. Esta confluencia de lucidez y acción vigorosa genera una energía inmensa capaz de consumar grandes empresas históricas. Sin embargo, toda cumbre encierra de forma latente el inicio de su propia declinación, por lo que el hexagrama advierte sobre la necesidad de gobernar el esplendor con una profunda sabiduría y desapego moral.
-
 ## El Dictamen
+> La Abundancia tiene Éxito.
+> El Rey la alcanza.
+> No estés triste; debes ser como el sol del mediodía.
 
-> **La Abundancia.**  
-> La abundancia trae el éxito. El rey la alcanza. No estés triste; debes ser como el sol del mediodía.
-
-No a cualquier persona le es dado gobernar o disfrutar una época de plenitud absoluta; solo un líder con la estatura espiritual de un rey posee la firmeza para sostener tal magnitud de poder sin corromperse. El esplendor material e histórico es transitorio por naturaleza, lo que suele despertar una honda melancolía en quienes contemplan la inevitable marcha del tiempo. La enseñanza del signo prohíbe caer en este desánimo y exhorta a actuar con la soberana generosidad del sol en su punto más alto, el cual ilumina y nutre a todos los seres de la creación mientras dura su luz.
+No le es dado a cualquier mortal el conducir a una época de máxima grandeza y abundancia. Tiene que ser un nacido soberano sobre los hombres, que sea capaz de algo así porque su voluntad está dirigida a lo grande. La época de tal abundancia es por lo general breve. Por ello, un sabio podría entristecerse ante el subsiguiente declive. Pero tal tristeza no le es apropiada. Solo un hombre que interiormente está libre de preocupación y pesar puede conducir a una época de abundancia. Él debe ser como el sol del mediodía, que ilumina y alegra todo bajo el cielo.
 
 ---
 
 ## La Imagen
+> Trueno y relámpago llegan ambos: la imagen de la abundancia.  
+> Así el Noble decide los procesos y ejecuta las penas.
 
-> El trueno y el relámpago llegan juntos: la imagen de la abundancia.  
-> Así el noble juzga las controversias y ejecuta los castigos.
-
-El trueno y el relámpago representan la manifestación simultánea de la fuerza motriz y la claridad absoluta en la naturaleza. El noble traslada esta combinación al ámbito de la justicia social. La agudeza del relámpago le sirve para investigar a fondo los hechos y discernir la verdad sin ambigüedades, mientras que la contundencia del trueno le confiere la severidad necesaria para aplicar las leyes y ejecutar las sentencias con la firmeza justa, consolidando la paz del reino.
+El signo tiene cierta relación con el signo La Mordedura (Nº 21), donde también están juntos trueno y relámpago, pero en orden inverso. Mientras allí se establecen las leyes, aquí se ejecutan y aplican. En el interior la claridad posibilita un examen exacto del estado de cosas, y en el exterior la conmoción se ocupa de la ejecución estricta y precisa de las penas.
 
 ---
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Al principio un nueve significa:
-> Al encontrarse con el dueño lícito, aunque sean iguales, no hay error. Partir trae reconocimiento.
+> Cuando se encuentra a su determinado señor,
+> entonces se puede estar juntos diez días, y no es error.
+> El ir encuentra reconocimiento.
 
-Al comienzo de un periodo de florecimiento, es sumamente ventajoso unirse a colaboradores que compartan el mismo nivel de claridad y propósito. Aunque ambas partes tengan la misma jerarquía o fuerza, no habrá rivalidades ni conflictos, sino una complementariedad perfecta. Avanzar juntos en este momento asegura el éxito colectivo.
-
----
+Para conducir a una época de abundancia se necesita la unión de claridad y movimiento enérgico. Cuando estas dos cualidades se encuentran en dos personas, entonces estas personas encajan entre sí, y aunque durante la época de abundancia estén juntas un ciclo completo, no es demasiado tiempo y no es error. Por tanto, se puede ir a actuar; encontrará reconocimiento.
 
 ### Seis en el segundo puesto significa:
-> La abundancia es tan grande que se ven las estrellas al mediodía. Avanzar despierta sospechas y recelo. Si se le inspira mediante la verdad interior, la fortuna vendrá.
+> El telón es de tal abundancia,
+> que al mediodía se ven las estrellas polares.
+> Mediante el ir se alcanza desconfianza y odio.
+> Si mediante la verdad se le despierta, llega la Ventura.
 
-En medio del esplendor generalizado, pueden surgir facciones oscuras o gobernantes ignorantes que eclipsen la verdad en el centro del poder. Esta situación equivale a un eclipse solar simbólico provocado por el encumbramiento de intrigas políticas que oscurecen temporalmente a los hombres justos. En una atmósfera tan viciada, cualquier intento de demostración externa o avance directo solo alimentará la desconfianza del entorno. La única estrategia correcta consiste en replegarse hacia la propia rectitud y actuar mediante la verdad interior, cuya influencia silenciosa terminará por disipar los prejuicios.
-
----
+A menudo ocurre que entre el soberano que quiere lo grande y el hombre que podría ejecutar lo grande se introducen intrigas y maquinaciones partidistas, que actúan oscureciendo como un eclipse solar. Entonces se ven en el cielo, en lugar del sol, las estrellas polares. El señor es arrinconado por un partido que ha usurpado el dominio. Si en tal época se quisiera emprender algo enérgico, solo se encontraría desconfianza y envidia, que harían imposible todo movimiento. Entonces se trata de estar interiormente en el poder de la verdad, que finalmente es tan fuerte que actúa invisiblemente sobre el soberano, de modo que todo va bien.
 
 ### Nueve en el tercer puesto significa:
-> La abundancia es tan grande que se ve el pequeño cúmulo estelar al mediodía. Se quiebra el brazo derecho. No hay culpa.
+> El zarzal es de tal abundancia,
+> que al mediodía se ven las pequeñas estrellas.
+> Él se quiebra su brazo derecho. Sin mácula.
 
-La oscuridad circundante se intensifica tanto que llega a revelar las constelaciones más tenues bajo la luz diurna. Esto representa una desconexión total respecto a los elementos capaces de actuar, lo que paraliza la capacidad operativa del individuo, simbolizada por la fractura de su brazo derecho. Dado que este impedimento proviene de factores externos insuperables y no de una negligencia personal, el sujeto permanece libre de toda culpa.
-
----
+Aquí se describe como imagen el progresivo cubrimiento del sol. En este punto se alcanza la totalidad, por eso se ven al mediodía incluso las pequeñas estrellas. Trasladado a las relaciones sociales, aquí el príncipe está tan oscurecido que incluso las personas más insignificantes pueden abrirse paso. Entonces es imposible para un hombre capaz, que podría ser la mano derecha del soberano, emprender algo. Es como si el brazo estuviera roto. Pero no es su culpa que sea impedido de actuar de esta manera.
 
 ### Nueve en el cuarto puesto significa:
-> La abundancia es tan grande que se ven las estrellas al mediodía. Al encontrarse con el aliado afín, llega la fortuna.
+> El telón es de tal abundancia,
+> que al mediodía se ven las estrellas polares.
+> Él encuentra a su igual señor. ¡Ventura!
 
-Aunque el eclipse de la razón y la justicia persiste en la estructura general, la posición de esta línea permite el encuentro con un igual. Se trata de un socio de ideales idénticos con quien es posible compartir la pesada carga de la época. Este hallazgo providencial rompe el aislamiento y devuelve la fuerza necesaria para sortear la oscuridad, transformando la situación en un motivo de gran ventura.
-
----
+Aquí la oscuridad ya está disminuyendo, por eso lo correspondiente se encuentra. También aquí debe encontrarse la complementación: a la disposición a la acción la sabiduría necesaria. Entonces todo irá bien. Aquí se considera la complementación inversa como en el primer trazo. Allí la sabiduría debía complementarse con energía, aquí la energía con sabiduría.
 
 ### Seis en el quinto puesto significa:
-> Llegan los destellos del saber, el beneficio y la fama se aproximan. ¡Ventura!
+> Vienen líneas, se acerca bendición y fama. ¡Ventura!
 
-Esta línea representa al gobernante humilde y receptivo que, consciente de sus propias limitaciones en una época compleja, sabe rodearse de sabios y conseeros brillantes. Al permitir que la luz de las personas capaces guíe su administración, atrae una ola de prosperidad, renombre y bendiciones duraderas para todo el pueblo.
-
----
+El hombre gobernante es modesto, de modo que es accesible al consejo de los capaces. Así vienen hombres a su entorno que le acercan las directrices de la acción. Por ello le llegan bendición, fama y ventura a él y a todo el pueblo.
 
 ### Seis arriba significa:
-> Mantiene la abundancia en su casa y protege a su clan. Al mirar por la rendija de la puerta, ya no percibe a nadie. Pasa tres años en absoluta soledad. Desdicha.
+> Su casa está en abundancia.
+> Él oculta su parentela.
+> Espía a través de la puerta y ya no se da cuenta de nadie.
+> Durante tres años no ve nada. ¡Desgracia!
 
-El hexagrama concluye con la advertencia de la soberbia y el aislamiento. Aquel que confunde la abundancia con el acaparamiento egoísta se encierra en su propio palacio, rompiendo los lazos con el mundo debido a la arrogancia y al miedo a perder sus bienes. Al actuar así, destruye la verdadera fuente de su prosperidad. Cuando finalmente busca la compañía de sus semejantes, descubre que se ha quedado completamente solo, hundiéndose en una ruina moral irreversible.
+Aquí está dibujado un hombre que, por su soberbia y voluntad propia, alcanza lo opuesto de lo que busca. Busca abundancia y esplendor para su vivienda. Quiere ser absolutamente el señor en su casa. Pero con ello se enajena de su familia, hasta que finalmente se queda completamente aislado.
 
 ---
 

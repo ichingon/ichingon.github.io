@@ -13,72 +13,89 @@ showAuthor: false
   &#x4DF5;
 </p>
 
-**Arriba:** Zhèn (El Trueno)
-**Abajo:** Duì (El Lago)
+### Trigramas
+* **Arriba:** Zhèn (El Trueno)  
+* **Abajo:** Duì (El Lago)
+
+Arriba está Zhèn, el hijo mayor, abajo Duì, la hija menor. El hombre va delante, la muchacha le sigue alegre. Se describe la entrada de la muchacha en la casa del hombre. En total hay cuatro signos que describen las relaciones entre cónyuges. Nº 31, Xian, »influjo universal«, describe la atracción que un joven par ejerce mutuamente. Nº 32, Heng, »la duración«, describe las relaciones duraderas del matrimonio. Nº 53, Jiàn, »el desarrollo«, describe los procesos vacilantes y ceremoniales en la conclusión de un matrimonio correcto. Guī Mèi, »el matrimonio de la muchacha«, muestra finalmente a un hombre mayor al que una joven muchacha sigue para casarse.
+
+**Observación:** En China rige formalmente la monogamia. Cada hombre tiene una sola esposa oficial. Esta unión, que concierne menos a los dos participantes que a las familias, se concluye bajo estricta observancia de las formas. Pero el hombre conserva el derecho de prestar también oído a las inclinaciones más delicadas de índole personal. Sí, es el más bello deber de una buena mujer ayudarle en ello. De esta manera la relación se vuelve bella y abierta. La muchacha que, por elección del hombre, entra en la familia, se somete modestamente a la dueña de casa como hermana menor. Por supuesto, se trata aquí de cuestiones muy delicadas y sutiles que requieren mucho tacto de cada parte. Pero cuando las circunstancias son favorables, aquí se encuentra la solución de un problema que la cultura europea no ha logrado. Por supuesto, la feminidad en China se corresponde tan poco con el ideal como los matrimonios en Europa están, por término medio, en armonía con los ideales matrimoniales europeos.
 
 ---
 
-Este signo combina el trigrama superior Zhèn, que representa el movimiento ascendente y al hijo mayor, con el trigrama inferior Duì, que simboliza la alegría y a la hija menor. La estructura describe una situación donde una joven toma la iniciativa para unirse a un hombre mayor, guiada por el impulso de sus afectos. Esto altera el orden tradicional del matrimonio legítimo, en el cual el varón debe guiar el rito y la propuesta. Por lo tanto, el hexagrama expone las dinámicas de las uniones irregulares, las posiciones de subordinación y la necesidad de una prudencia extrema cuando las circunstancias iniciales no se ajustan al orden correcto.
-
 ## El Dictamen
 
-> **La Muchacha Casadera.**  
-> Las empresas traen desdicha. Nada es propicio.
+> La muchacha casadera.
+> Las empresas traen desventura.
+> Nada que sea propicio.
 
-Cuando las relaciones o los proyectos se inician al margen de las normas correctas o dejándose llevar exclusivamente por impulsos pasionales, cualquier acción hacia adelante está condenada al fracaso. Quien se halla en una situación secundaria o ingresa en una estructura preexistente sin la legitimidad plena debe mantener una actitud de estricta reserva. Intentar forzar los acontecimientos o asumir el liderazgo en estas condiciones solo profundizará la desdicha, ya que se carece de la autoridad formal necesaria para consolidar un avance real.
+Una muchacha que es admitida en la familia sin ser la esposa principal debe comportarse con especial precaución y reserva. No debe intentar por sí misma desplazar a la dueña de casa, pues eso significaría desorden, y se llegaría así a situaciones insostenibles.
+
+Esto se refiere a todas las relaciones libres entre los hombres. Mientras que las relaciones jurídicamente ordenadas presentan una conexión fija de deberes y derechos, las relaciones de inclinación de los hombres se basan en su duración puramente en una reserva llena de tacto.
+
+Esta inclinación como principio de las relaciones es de la mayor importancia en todas las relaciones del mundo, pues de la unión del Cielo y la Tierra proviene la consistencia de toda la naturaleza, y así también entre los hombres la inclinación libre como principio de unión es principio y fin.
 
 ---
 
 ## La Imagen
+> Sobre el lago está el trueno:
+> la imagen de la muchacha casadera.
+> Así el Noble reconoce, 
+> a través de la eternidad del fin, lo perecedero.
 
-> El trueno sobre el lago: la imagen de la muchacha casadera.  
-> Así el noble, a través de la eternidad del fin, comprende lo transitorio de los comienzos.
-
-El trueno agita las aguas del lago, lo que representa una conmoción intensa pero esencialmente transitoria. El noble observa este fenómeno y comprende que los lazos humanos basados únicamente en el entusiasmo inicial o en la atracción ciega tienden a desmoronarse con rapidez si carecen de un marco institucional o moral sólido. Para asegurar la estabilidad de cualquier empresa o relación, es fundamental evaluar el desenlace a largo plazo y cimentarlo sobre principios firmes, en lugar de ceder a la euforia del momento.
+El trueno agita el agua del lago, que le sigue en brillantes ondas. Esa es la imagen de la muchacha que sigue al hombre de su elección. Pero toda unión de los hombres entre sí encierra el peligro de que se introduzcan extravíos que conduzcan a infinitos malentendidos e inconvenientes. Por eso conviene considerar constantemente el fin. Si uno se deja llevar, se junta y se separa de nuevo, según el día lo disponga. Si en cambio se fija la vista en un fin duradero, conseguirá esquivar los escollos que se oponen a las relaciones más estrechas de los hombres entre sí.
 
 ---
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Al principio un nueve significa:
-> La muchacha casadera como concubina. Un cojo puede caminar. Las empresas traen ventura.
+> La muchacha casadera como concubina.
+> Un cojo que puede dar pasos.
+> Las empresas traen Ventura.
 
-Al ingresar en una situación nueva desde una posición subordinada o con limitaciones evidentes, no se debe aspirar al protagonismo. Así como un cojo logra avanzar de manera segura si modera el paso y acepta su condición, la modestia y el reconocimiento de las propias restricciones permiten avanzar sin contratiempos. Manteniendo una actitud prudente y realista, cualquier acción que se emprenda resultará afortunada.
+Los príncipes de la antigüedad tenían un orden jerárquico fijo entre las damas de palacio, que estaban subordinadas a la reina como las hermanas menores a la mayor. A menudo procedían también de la familia de la reina, que ella misma llevaba a su esposo.
 
----
+El sentido es que una muchacha joven, cuando entra en una familia de acuerdo con la esposa, no iguala a esta exteriormente, sino que se retirará modestamente. Pero si sabe integrarse en el contexto, obtiene una posición completamente satisfactoria y se sentirá protegida en la amor del esposo, al que da hijos.
+
+El mismo significado se da en las relaciones de los funcionarios. Un príncipe quizá tiene un hombre con quien es amigo personal y a quien toma en su confianza. Este hombre debe, con tacto, retirarse exteriormente ante el ministro de estado oficial. Pero aunque esté impedido por esta posición como un cojo, puede lograr algo mediante la bondad de su ser.
 
 ### Nueve en el segundo puesto significa:
-> Un tuerto puede ver. Es propicia la perseverancia de un hombre solitario.
+> Un tuerto que puede ver.
+> Propicia es la perseverancia de un hombre solitario.
 
-Quien sufre el aislamiento o se encuentra con que su contraparte no responde a sus expectativas se halla en una posición restrictiva, similar a la de un tuerto cuyo campo visual es limitado. Sin embargo, la solución no radica en buscar alianzas externas por despecho ni en abandonar los valores personales. El camino correcto consiste en mantener la fidelidad a los propios principios en la intimidad y la constancia silenciosa. Esa lealtad interior preserva la dignidad a pesar de la adversidad.
-
----
+La situación aquí es que la muchacha se ha unido a un hombre que la ha decepcionado. Hombre y mujer deben actuar juntos como los dos ojos. Aquí la muchacha ha quedado sola. El hombre de su elección le ha sido infiel o ha muerto. Pero ella no pierde la luz interior de la fidelidad. Aunque el otro ojo se haya apagado, ella mantiene la fidelidad también en la soledad.
 
 ### Seis en el tercer puesto significa:
-> La muchacha casadera como esclava. Se casa como concubina.
+> La muchacha casadera como esclava.
+> Se casa como concubina.
 
-Esta línea advierte sobre la pérdida de amor propio y la prisa por ser aceptado a cualquier precio. Quien carece de la madurez para esperar el momento oportuno y rebaja sus propias exigencias termina tolerando condiciones humillantes. Al aceptar un trato indigno solo por el afán de pertenecer, se pierde la libertad y se cae en una situación de dependencia absoluta de la que es sumamente difícil escapar.
+Una muchacha que se encuentra en una posición humilde y no consigue hombre, puede aún, bajo ciertas circunstancias, ser acogida como concubina.
 
----
+La situación es que se desea demasiado alegrías que no se pueden alcanzar por el camino normal. Así uno se mete en una situación que no es completamente compatible con la propia dignidad. No se añade ni un dictamen ni una advertencia, sino que simplemente se descubre la situación como tal, para que cada uno pueda sacar de ella la enseñanza por sí mismo.
 
 ### Nueve en el cuarto puesto significa:
-> La muchacha casadera prolonga el plazo. Un matrimonio tardío tiene su momento.
+> La muchacha casadera aplaza el plazo.
+> Un matrimonio tardío llega a su tiempo.
 
-Aquí se elogia la sabiduría de quien posee un alto valor interno y prefiere retrasar sus compromisos antes que aceptar una unión imperfecta o denigrante. Postergar las decisiones importantes o los lazos afectivos hasta que se presenten las condiciones correctas y legítimas no constituye una pérdida de tiempo. Por el contrario, garantiza que cuando el vínculo finalmente se establezca, sea noble, firme y verdaderamente duradero.
-
----
+La muchacha es muy buena, no quiere malbaratarse y por ello pierde el tiempo habitual del matrimonio. Pero eso no daña nada. Es recompensada por su pureza y encuentra finalmente, aunque sea tarde, al esposo destinado para ella.
 
 ### Seis en el quinto puesto significa:
-> El soberano I entregó a su hija en matrimonio. Las mangas de la princesa no eran tan espléndidas como las de la concubina. La luna casi llena trae ventura.
+> El soberano I desposa a su hija.
+> Las vestiduras bordadas de la princesa
+> no eran tan espléndidas como las de la sirvienta.
+> La luna, que casi está llena, trae Ventura.
 
-Se evoca aquí la antigua reforma histórica del soberano Di Yi, quien instituyó ritos estrictos para que las princesas de la alta realeza aceptaran sus matrimonios con humildad, adaptándose con sencillez a su nuevo hogar y vistiendo incluso de forma menos ostentosa que sus propias damas de compañía. Esto demuestra que la verdadera distinción no se manifiesta en el lujo exterior, sino en la nobleza del carácter y la modestia. Al igual que la luna justo antes de alcanzar su plenitud, esta actitud contenida y discreta atrae la armonía y la fortuna.
+El soberano I es Tang, el consumador. Él ha promulgado una ley de que las princesas imperiales también deben estar sometidas a sus maridos en el matrimonio (véase Nº 11, línea 5). El emperador no espera la solicitud, sino que da a su hija en matrimonio según su libre albedrío. Por ello la iniciativa está aquí del lado de la familia de la muchacha.
 
----
+Vemos aquí a una muchacha de noble linaje que se casa en condiciones modestas y sabe adaptarse con gracia a la nueva situación. Está libre de toda vanidad de adorno externo, olvida su rango en el matrimonio y se sitúa bajo su esposo, como la luna, que aún no está completamente llena, no se enfrenta directamente al sol.
 
-### Seis arriba significa:
-> La mujer sostiene la canasta, pero no hay frutos en ella. El hombre sacrifica el cordero, pero no fluye sangre. Nada es propicio.
+### Arriba un seis significa:
+> La mujer sostiene la cesta, pero no hay frutos en ella.
+> El hombre degüella la oveja, pero no fluye sangre.
+> Nada que sea propicio.
 
-El cierre del hexagrama muestra el colapso de una unión vacía de contenido espiritual. Los ritos formales se cumplen de manera minuciosa en apariencia: la mujer presenta la canasta de ofrendas y el hombre realiza el sacrificio, pero no hay vida ni sustancia real detrás de los gestos porque la canasta está vacía y el cordero no sangra. Una relación o un proyecto sostenido únicamente por las apariencias exteriores, desprovisto de afecto verdadero y de un compromiso genuino, se vuelve estéril y no ofrece ningún beneficio ni protección.
+En el sacrificio a los antepasados la mujer debía ofrecer los frutos en una cesta, el hombre personalmente degollar la víctima del sacrificio. Aquí las formas se cumplen sólo superficialmente. La mujer toma una cesta vacía, el hombre degüella una oveja ya sacrificada previamente, solo para mantener la forma. Pero esta actitud irreverente y frívola no augura ninguna felicidad para el matrimonio.
 
 ---
 

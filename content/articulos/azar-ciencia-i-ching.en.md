@@ -7,7 +7,9 @@ showAuthorBottom : true
 tags: ["Science and Technology", "Philosophy"]
 summary: "An epistemological exploration of how chance, far from being an obstacle to knowledge, acts as a filter for subjectivity and a constitutive dimension of reality, connecting ancient Chinese tradition with contemporary science."
 math: true
-url: "/articles/chance-science-i-ching/"
+slug: "chance-science-i-ching"
+aliases:
+    - /articles/chance-science-i-ching/
 ---
 
 ## Introduction: chance as a method of knowledge, not as a renunciation of explanation

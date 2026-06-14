@@ -13,15 +13,15 @@ showAuthor: false
   &#x4DF4;
 </p>
 
-**Arriba:** Xùn (Lo Suave / El Viento)
-**Abajo:** Gèn (El Aquietamiento / La Montaña)
-
----
+### Trigramas
+* **Arriba:** Xùn (Lo Suave)
+* **Abajo:** Gèn (El Reposo)
 
 El signo está compuesto por Xùn (madera, penetración) arriba y afuera, y Gèn (montaña, quietud) abajo y adentro. Un árbol sobre la montaña se desarrolla de forma lenta y ordenada; como consecuencia de ello, echa raíces firmes. De aquí surge la idea del desarrollo gradual, que progresa paso a paso de manera paulatina. Las características de las figuras también apuntan en esta dirección: en el interior se encuentra la quietud, que protege contra las acciones imprudentes, mientras que en el exterior se halla la penetración progresiva, que hace posible el desarrollo y el avance continuo.
 
-## El Dictamen
+---
 
+## El Dictamen
 > El Progreso Gradual.  
 > El matrimonio de la joven trae ventura.  
 > Es propicia la perseverancia.
@@ -30,86 +30,76 @@ El desarrollo que conduce a que la joven siga al hombre a su hogar es paulatino 
 
 Del mismo modo se debe actuar cuando se desea ejercer una influencia duradera sobre los demás. También en este ámbito se requiere transitar un camino correcto de evolución a través del cultivo y el refinamiento de la propia personalidad, ya que toda influencia de carácter puramente agitador o propagandístico carece de efectos a largo plazo.
 
-Asimismo, en la vida interior, el desarrollo debe seguir este mismo curso exacto si se pretende alcanzar resultados que permanezcan en el tiempo. Lo suave y adaptable, capaz de penetrar con constancia, constituye el aspecto exterior que obligatoriamente debe emanar de una profunda quietud interior.
+Asimismo, en la vida interior, el desarrollo debe seguir este mismo curso exacto si se pretende alcanzar resultados que permanezcan en el tiempo.
+
+Lo suave y adaptable, capaz de penetrar con constancia, constituye el aspecto exterior que obligatoriamente debe emanar de una profunda quietud interior.
 
 Precisamente el carácter gradual de este progreso vuelve indispensable la presencia de la constancia. Solo la perseverancia firme impide que este avance lento termine disipándose sin dejar rastro en la arena.
 
 ---
 
 ## La Imagen
-
 > Sobre la montaña hay un árbol: la imagen del Progreso Gradual.  
-> Así el noble permanece en una virtud digna para mejorar las costumbres.
+> Así el Noble permanece en una virtud digna para mejorar las costumbres.
 
 El árbol sobre la montaña es visible desde grandes distancias, y su crecimiento ejerce una influencia directa sobre el paisaje de toda la región. No brota de golpe de forma desordenada como las plantas de los pantanos, sino que su desarrollo se realiza de manera paulatina. Del mismo modo, la influencia que se ejerce sobre los hombres solo puede ser duradera si se produce de forma gradual. Ningún influjo repentino o conversión arrebatada es sostenible a lo largo del tiempo; el progreso debe ser estrictamente progresivo. Para alcanzar este avance en la opinión pública y en las costumbres sociales, es necesario que la personalidad adquiera un peso moral y una fuerza de gravedad propios. Esto se logra únicamente mediante un trabajo minucioso, constante e ininterrumpido en el propio desarrollo ético.
 
-## Las Líneas
+---
 
-Las líneas móviles tienen como imagen común el avance gradual de la oca silvestre. Este ave representa el símbolo supremo de la fidelidad conyugal, pues la tradición afirma que no vuelve a unirse con ninguna otra pareja tras la muerte de su consorte[^1].
+## Las Líneas Individuales
 
-[^1]: Acotación histórica sobre el simbolismo zoológico en el I Ching tradicional: la oca silvestre encarna el orden cósmico y la fidelidad debido a la rigurosidad geométrica de sus patrones de vuelo y su monogamia estricta.
+Las Líneas Individuales tienen como imagen común el avance gradual de la oca silvestre. La oca silvestre es el símbolo de la fidelidad conyugal. Se dice de ella que tras la muerte de su pareja no se une a ninguna otra.
 
 ### Al principio un seis significa:
-> La oca silvestre se aproxima gradualmente a la orilla.
-> El hijo joven se encuentra en peligro.
-> Hay murmuraciones.
-> No hay mancha.
+
+> La oca silvestre se aproxima gradualmente a la orilla.  
+> El hijo joven se encuentra en peligro.  
+> Hay murmuraciones.  
+> Sin error.
 
 Esta línea representa la primera estación en el viaje de las aves acuáticas desde el agua hacia las alturas: se alcanza la orilla. Describe la situación de un joven solitario que apenas comienza a abrirse camino en la vida. Al no contar con nadie que salga a su encuentro ni le preste apoyo, sus primeros pasos son lentos, vacilantes y se ve rodeado de peligros. Como es natural, se convierte en objeto de críticas y murmullos por parte de los demás; sin embargo, son precisamente estas dificultades iniciales las que impiden que actúe de manera precipitada, permitiendo que su progreso final se consolide con éxito.
 
----
-
 ### Seis en el segundo puesto significa:
-> La oca silvestre se aproxima gradualmente a la roca.
-> Comer y beber en paz y concordia.
+> La oca silvestre se aproxima gradualmente a la roca.  
+> Comer y beber en paz y concordia.  
 > ¡Ventura!
 
 La roca representa un refugio seguro en la orilla. El desarrollo ha avanzado un paso fundamental. Se ha superado la inseguridad del comienzo y se ha consolidado una posición firme en la vida, que garantiza un sustento digno y holgado. Este éxito inicial, que despeja el camino para una acción efectiva en el mundo, infunde una serena alegría en el ánimo, permitiendo avanzar hacia el futuro con total tranquilidad.
 
-De la oca silvestre se dice que convoca a sus compañeras con su canto en cuanto encuentra alimento; esta es la imagen perfecta de la paz y la concordia en medio de la buena fortuna. No se busca disfrutar de la prosperidad de forma egoísta o aislada, sino que existe la plena disposición de compartirla con los demás.
-
----
+De la oca silvestre se dice que convoca a sus compañeras en cuanto encuentra alimento; esta es la imagen de la paz y la concordia en la buena fortuna. No se busca disfrutar de la prosperidad de forma egoísta o aislada, sino que existe la plena disposición de compartirla con los demás.
 
 ### Un nueve en el tercer puesto significa:
-> La oca silvestre se aproxima gradualmente a la meseta árida.
-> El hombre marcha a la guerra y no regresa.
-> La mujer lleva un hijo en su vientre, pero no llega a darlo a luz.
-> ¡Desgracia!
+> La oca silvestre se aproxima gradualmente a la meseta árida.  
+> El hombre sale y no regresa.  
+> La mujer lleva un hijo en su vientre, pero no llega a darlo a luz.  
+> ¡Desgracia!  
 > Es propicio rechazar a los salteadores.
 
 La meseta seca e inhóspita no es un hábitat apto para la oca silvestre. Si vuela hacia allí, significa que ha perdido el rumbo y ha ido demasiado lejos, lo cual contradice abiertamente las leyes del desarrollo natural.
 
-Esto mismo se manifiesta en la existencia humana. Cuando las personas no permiten que las circunstancias maduren de forma orgánica y se lanzan prematuramente al combate por iniciativa propia, atraen inevitablemente la desgracia. Se arriesga la vida ciegamente en una empresa estéril y la familia queda completamente destruida. No obstante, este desenlace fatal no es un destino ineludible, sino la consecuencia directa de violar la ley del progreso paulatino. Si uno se abstiene de provocar el conflicto de manera proactiva y se limita a defender su posición con firmeza, rechazando las agresiones ilegítimas de los salteadores, todo saldrá bien.
-
----
+Esto mismo se manifiesta en la existencia humana. Cuando las personas no permiten que las circunstancias maduren de forma orgánica y se lanzan prematuramente al combate por iniciativa propia, atraen inevitablemente la desgracia. Se arriesga la vida y la familia queda completamente destruida. No obstante, este desenlace fatal no es un destino ineludible, sino la consecuencia directa de violar la ley del progreso paulatino. Si uno se abstiene de provocar el conflicto de manera proactiva y se limita a defender su posición con firmeza, rechazando las agresiones ilegítimas de los salteadores, todo saldrá bien.
 
 ### Un seis en el cuarto puesto significa:
-> La oca silvestre se aproxima gradualmente al árbol. 
-> Quizás encuentre una rama plana donde posarse.
-> No hay mancha.
+> La oca silvestre se aproxima gradualmente al árbol.  
+> Quizás encuentre una rama plana.  
+> Sin error.
 
-El árbol no constituye un lugar adecuado ni natural para que se pose una oca silvestre, ya que sus patas membranosas no están diseñadas para asirse a las ramas. Sin embargo, si actúa con prudencia y flexibilidad, logrará encontrar una rama horizontal y plana que le sirva de apoyo estable. En el transcurso del desarrollo de la vida, es común verse arrojado a situaciones o entornos que no corresponden a la propia naturaleza y donde resulta sumamente difícil sostenerse sin correr peligro. En tales momentos, la clave radica en mantener una actitud inteligente, dúctil y adaptable. De esta forma, incluso en medio del riesgo, se puede descubrir un lugar seguro en el cual subsistir de forma digna.
-
----
+El árbol no constituye un lugar adecuado para que se pose una oca silvestre. Pero si es astuta, encuentra una rama plana en la que pueda posarse. En el transcurso del desarrollo de la vida, a menudo se llega a situaciones que no corresponden a la propia naturaleza y en las que resulta difícil sostenerse sin peligro. Entonces es importante ser astuto y flexible. Así, en medio del peligro, se puede encontrar un lugar seguro donde sea posible vivir.
 
 ### Un nueve en el quinto puesto significa:
-> La oca silvestre se aproxima gradualmente a la cumbre.
-> La mujer no tiene hijos durante tres años.
-> Al final, nada puede impedir la unión.
+> La oca silvestre se aproxima gradualmente a la cumbre.  
+> La mujer no tiene hijos durante tres años.  
+> Al final, nada puede impedirlo.  
 > ¡Ventura!
 
-La cumbre representa una posición elevada y solitaria. En los puestos más altos de la sociedad es fácil caer en el aislamiento y ser incomprendido por las personas de las cuales se depende directamente: la esposa respecto a su marido, o el funcionario respecto a su gobernante. La causa de este distanciamiento suele ser la intriga de personas falsas que se han interpuesto en el medio. Como resultado, las relaciones permanecen estériles y no se logra realizar ninguna obra conjunta. Sin embargo, la ley inherente al desarrollo gradual determina que estos malentendidos terminen disolviéndose por el propio peso del tiempo, haciendo que la unión legítima se consume finalmente aportando gran ventura.
-
----
+La cumbre representa una posición elevada. En un lugar alto se cae fácilmente en el aislamiento. Se es incomprendido por aquel de quien se depende: la esposa por su marido, el funcionario por su señor. La causa de ello son personas falsas que se han interpuesto en medio. La consecuencia es que las relaciones permanecen estériles y no se logra realizar nada. Pero el desarrollo conlleva que tales malentendidos se resuelvan y la unión finalmente se realice.
 
 ### Arriba un nueve significa:
-> La oca silvestre se aproxima gradualmente a las alturas celestiales.
-> Sus plumas pueden ser utilizadas en las danzas sagradas.
+> La oca silvestre se aproxima gradualmente a las alturas de las nubes.  
+> Sus plumas pueden ser utilizadas en la danza sagrada.  
 > ¡Ventura!
 
-Aquí la vida ha alcanzado su plenitud y la obra se presenta completamente terminada. Su trayectoria se eleva majestuosamente hacia el firmamento, emulando el vuelo de las ocas salvajes cuando abandonan por completo el suelo terrestre. En esas alturas avanzan libres, manteniendo un orden estricto en su formación y trazando figuras de perfecta pureza geométrica en el cielo.
-
-Incluso cuando sus plumas caen a la tierra, no se pierden, sino que se recogen religiosamente para servir de adorno en las danzas sagradas y representaciones mímicas de los templos. Así, la vida de un ser humano que ha alcanzado la consumación se convierte en una luz resplandeciente para los habitantes de la tierra, quienes contemplan su ejemplo como un arquetipo imperecedero.
+Aquí la vida ha alcanzado su plenitud y la obra yace completamente terminada. Su trayectoria se eleva hacia el cielo, como el vuelo de las ocas silvestres cuando han abandonado todo suelo terrestre. Allí vuelan y mantienen el orden de su formación, trazando figuras de líneas estrictas. Y cuando sus plumas caen, pueden ser usadas como adorno en las danzas pantomímicas sagradas del templo.
 
 ---
 

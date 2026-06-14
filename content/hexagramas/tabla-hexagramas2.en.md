@@ -2,7 +2,6 @@
 title: "Advanced I Ching Hexagram Correspondence Table"
 weight: 2
 description: "Advanced structural matrix of the 64 I Ching hexagrams. Includes nuclear hexagrams (Hu Gua) and geometric mapping to Fu Xi's Earlier Heaven sequence."
-url: "/hexagrams/advanced-i-ching-correspondence-table/"
 date: 2026-05-27
 draft: false
 layout: "page"
@@ -11,6 +10,9 @@ showTaxonomies: false
 showDate: false
 showReadingTime: false
 showWordCount: false
+slug: "advanced-i-ching-correspondence-table"
+aliases:
+    - /hexagrams/advanced-i-ching-correspondence-table/
 ---
 
 ## About this Structural Table

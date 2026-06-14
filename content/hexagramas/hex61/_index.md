@@ -1,7 +1,7 @@
 ---
 title: "Hexagrama 61 中孚 - Zhong Fu / Verdad Interior"
 draft: false
-description: "Traducción crítica y análisis del Hexagrama 61 (Zhong Fu) del I Ching basado en la versión de Richard Wilhelm, adaptada para una lectura fluida en castellano."
+description: "Traducción crítica y análisis del Hexagrama 61 (Zhong Fu) del I Ching basado en la versión de Richard Wilhelm."
 keywords: ["I Ching", "Hexagrama 61", "Zhong Fu", "Verdad Interior", "Richard Wilhelm", "中孚"]
 showDate: false
 showReadingTime: false
@@ -13,101 +13,78 @@ showAuthor: false
   &#x4DFC;
 </p>
 
-**Arriba:** Xùn (El Viento, Lo Suave)
-**Abajo:** Duì (El Lago, Lo Sereno)
+**Arriba:** Xùn (Lo Suave, el Viento)  
+**Abajo:** Duì (Lo Alegre, el Lago)
+
+Sobre el lago sopla el viento y mueve la superficie del agua. Así se muestran efectos visibles de lo invisible. El signo consiste arriba y abajo en trazos firmes, mientras que en el medio está vacío. Eso apunta a la libertad del corazón de prejuicios, de modo que es capaz de recibir la verdad. Los dos signos parciales tienen al revés en el medio un trazo firme. Eso apunta a la fuerza de la verdad interior en sus efectos.
+
+Las propiedades de los signos parciales son: arriba suavidad, complacencia frente a los de abajo; abajo alegría en la obediencia frente a los de arriba. Tales estados crean la base de una confianza mutua que hace posible el éxito.
+
+El signo Fu (verdad) es propiamente la imagen de una pata de ave sobre un joven. Contiene la idea de la incubación. El huevo es hueco. La fuerza de lo luminoso debe actuar vivificante desde afuera. Pero ya debe haber un germen de vida en el interior para que la vida pueda ser despertada. A estos pensamientos se pueden vincular especulaciones de gran alcance.
 
 ---
 
-El signo Zhong Fu está constituido por líneas fuertes en los extremos y dos líneas débiles en su centro, lo que evoca la imagen de un corazón abierto y libre de prejuicios, pero firmemente resguardado por una rectitud inquebrantable. Su estructura gráfica sugiere la forma de un ave: las líneas superiores e inferiores representan las alas desplegadas y el centro hueco simboliza el cuerpo del animal, lleno de aire y ligereza.
-
-En el orden de la naturaleza, el viento sopla sobre las aguas del lago y las moviliza, penetrando en su superficie visible. En la existencia humana, este fenómeno señala el influjo de una honestidad profunda que logra conmover y transformar incluso a los seres más obstinados o insensibles.
-
 ## El Dictamen
+> Verdad Interior. Cerdos y peces. ¡Ventura!  
+> Es propicio cruzar las grandes aguas.  
+> Es propicia la perseverancia.
 
-> **Verdad Interior. Cerdos y peces. ¡Éxito!**  
-> **Es propicio cruzar las grandes aguas.**  
-> **Es propicia la perseverancia.**
-
-Los cerdos y los peces se cuentan entre los seres más difíciles de conmover, pues carecen de una percepción espiritual elevada y se guían únicamente por sus apetitos elementales. Cuando el poder de la rectitud interior llega a ser tan vasto que logra influir en criaturas tan rudimentarias, significa que su fuerza transformadora es absoluta. 
-
-Este tipo de influencia no se ejerce mediante discursos retóricos ni presiones externas, sino a través de una resonancia espiritual íntima. Cuando un individuo se despoja de sus intereses egoístas y se ancla en la honestidad absoluta, emite una fuerza invisible que desarma los prejuicios ajenos. Bajo el influjo de esta concordia, las desconfianzas mutuas se disuelven.
-
-Gracias a esta cohesión espiritual, la comunidad se vuelve capaz de afrontar las empresas más peligrosas, simbolizadas por el acto de cruzar las grandes aguas. Ante un peligro común, los hombres no se dispersan, sino que actúan como un solo cuerpo porque están unidos por una fe recíproca. Sin embargo, para que esta fuerza no se desvíe ni degenere, debe permanecer unida de forma indestructible a la perseverancia en lo correcto.
+Los cerdos y los peces son los animales más carentes de espíritu y por lo tanto los más difíciles de influir. La fuerza de la verdad interior debe haber alcanzado un alto grado antes de que su influencia se extienda también a tales seres. Cuando uno se enfrenta a personas tan testarudas y difíciles de influir, todo el secreto del éxito consiste en encontrar el camino correcto para acceder a ellas. Uno debe primero liberarse interiormente por completo de sus prejuicios. Uno debe, por así decirlo, dejar que la psique del otro actúe sobre sí mismo sin prejuicios; entonces uno se acerca interiormente a él, lo comprende y obtiene poder sobre él, de modo que la fuerza de la propia persona gana influencia sobre el otro a través de la puerta abierta. Si así no se encuentran obstáculos insuperables, entonces se pueden emprender incluso las cosas más peligrosas —como cruzar las grandes aguas— y tendrán éxito. Solo es importante que se comprenda en qué se basa la fuerza de la verdad interior. No es idéntica a la simple intimidad o a la cohesión secreta. Tal cohesión íntima también puede darse entre ladrones. También en ese caso significa ciertamente una fuerza. Pero no conduce a la ventura, porque no es invencible. Toda unión basada en la comunidad de intereses solo llega hasta cierto punto. Donde cesa la comunidad de intereses, cesa también la cohesión, y la amistad más íntima a menudo se convierte en odio. Solo donde la base es lo recto, la constancia, la conexión permanece tan firme que todo lo supera.
 
 ---
 
 ## La Imagen
+> El viento sobre el lago: la imagen de la verdad interior.  
+> Así el Noble discute los casos penales para posponer las ejecuciones.
 
-> **El viento sobre el lago: la imagen de la Verdad Interior.**  
-> **Así el noble delibera sobre los juicios penales para posponer la ejecución de la muerte.**
-
-Cuando el viento sopla sobre el agua, tiene la capacidad de penetrarla y revelar lo que se oculta bajo su superficie. De este hecho natural, el noble deriva su actitud ante la administración de la justicia.
-
-Frente a los delitos y las flaquezas humanas, el noble no se conforma con la aplicación fría y literal de los códigos. Busca comprender las motivaciones ocultas y las circunstancias íntimas que empujaron al culpable a cometer la falta, escudriñando el fondo del corazón con empatía y lucidez. Si al indagar en las causas descubre el más mínimo atisbo de arrepentimiento genuino o una atenuante válida, busca de inmediato los mecanismos legales para mitigar el castigo. En los casos extremos donde se contempla la pena capital, el noble pospone la ejecución y agota todas las instancias de deliberación posibles, prefiriendo pecar de indulgente antes que arriesgarse a cometer una injusticia irreparable.
+El viento mueve el agua porque es capaz de penetrar en sus intersticios. Así el Noble, allí donde tiene que juzgar los errores de los hombres, busca penetrar comprensivamente en su interior y obtener así una valoración bondadosa de las circunstancias. Toda la antigua administración de justicia de los chinos estaba guiada por este principio. La comprensión más alta, que sabe perdonar, era considerada como la justicia más alta. Tal administración de justicia no carecía de éxito; pues la impresión moral debía ser tan fuerte que no había que temer un abuso de tal clemencia. Porque no surgía de la debilidad, sino de una claridad superior.
 
 ---
 
 ## Las Líneas
 
 ### Al principio un nueve significa:
-> **Estar preparado trae Heil.**  
-> **Si hay intenciones ocultas, se pierde la quietud.**
+> Estar preparado trae Ventura.  
+> Si hay intenciones ocultas, eso es inquietante.
 
-La paz y la firmeza del espíritu dependen enteramente de su capacidad para permanecer centrado en la honestidad consigo mismo. Antes de entablar relaciones con el mundo exterior, el hombre debe consolidar su verdad íntima en la quietud de su propio ser. 
-
-Si el alma se mantiene limpia y libre de ambiciones secretas, se genera una estabilidad que nada puede turbar. Por el contrario, si se albergan intenciones ocultas o si se busca el provecho personal mediante la simulación, el equilibrio interno se fractura y la mente cae en una agitación perpetua que ahuyenta la fortuna.
-
----
+Lo principal para la fuerza de la verdad interior es que uno esté consolidado y preparado en sí mismo. De esta actitud interior surge el comportamiento correcto hacia el mundo exterior. Si en cambio se quisieran cultivar relaciones secretas de tipo especial, eso privaría a uno de la independencia interior, y cuanto más seguro se sintiera uno en la conciencia de encontrar su apoyo en los demás, más se vería uno agitado y preocupado por si esas conexiones secretas son realmente duraderas. Con ello se pierde la paz interior y la fuerza de la verdad interior.
 
 ### Nueve en el segundo puesto significa:
-> **Una grulla que clama en la sombra.**  
-> **Su polluelo le responde.**  
-> **Tengo una buena copa; la compartiré contigo.**
+> Una grulla que clama en la sombra.  
+> Su polluelo le responde.  
+> Tengo una buena copa. Quiero compartirla contigo.
 
-Se describe aquí la ley de la resonancia espiritual que opera en el universo. La grulla no necesita subirse a una torre para que su canto sea escuchado; aun oculta en la penumbra, su clamor encuentra un eco inmediato en su cría porque existe entre ellas un vínculo de naturaleza genuina.
+Aquí se habla de la influencia involuntaria del ser interior sobre las personas de igual sentir. La grulla no necesita mostrarse en una colina alta. Aunque deje oír su clamor completamente en lo oculto, su polluelo oye su voz, la reconoce y le responde. Donde hay un estado de ánimo alegre, también se encuentra un compañero que comparte una copa de vino con uno.
 
-Del mismo modo, las disposiciones íntimas del alma humana no necesitan de la publicidad para ejercer su influjo. Lo que un hombre piensa y siente en su más absoluta intimidad genera una vibración que se propaga hacia el exterior. Si sus pensamientos se fundan en la bondad y la verdad, atraerá de manera inevitable a espíritus afines que responderán a su llamado. El bien compartido multiplica la alegría de la existencia.
+Así se muestra el eco que la simpatía despierta en el hombre. Donde un estado de ánimo se expresa verdadera y puramente, donde una acción es la expresión clara de la actitud interior, allí actúan misteriosamente a lo lejos, primero sobre aquellos que están interiormente receptivos. Pero estos círculos se ensanchan. La raíz de todo efecto reside en el propio interior. Si esto se expresa verdadera y fuertemente en palabra y obra, entonces el efecto es grande. El efecto es solo el reflejo de lo que surge del propio pecho. Toda intención de efecto solo destruiría este efecto.
 
----
+Confucio dice al respecto: «El Noble permanece en su habitación. Si expresa sus palabras con bondad, encuentra aprobación a una distancia de más de mil millas. ¡Cuánto más de cerca! Si el Noble permanece en su habitación y no expresa sus palabras con bondad, encuentra contradicción a una distancia de más de mil millas. ¡Cuánto más de cerca! Las palabras parten de la propia persona y obran sobre los hombres. Las obras surgen en lo cercano y se vuelven visibles en lo lejano. Las palabras y las obras son el gozne y la ballesta del Noble. Al moverse este gozne y esta ballesta, traen honor o vergüenza. Mediante palabras y obras el Noble mueve el cielo y la tierra. ¿No hay que ser cuidadoso?»
 
 ### Seis en el tercer puesto significa:
-> **Encuentra un compañero.**  
-> **Ora toca el tambor, ora se detiene.**  
-> **Ora llora, ora canta.**
+> Encuentra un compañero,  
+> ora toca el tambor, ora se detiene,  
+> ora solloza, ora canta.
 
-Se muestra aquí a un individuo cuyo carácter carece de un centro estable de gravedad. Su verdad interior es sumamente débil, por lo que su estado de ánimo depende por entero de los altibajos de sus relaciones externas. 
-
-Al no poseer una soberanía espiritual propia, se ve arrastrado de un extremo a otro por las circunstancias del entorno: pasa de la euforia al llanto, de la actividad frenética a la parálisis total, según el grado de aprobación o rechazo que perciba de los demás. Esta dependencia emocional revela una falta de madurez que impide consolidar cualquier obra duradera.
-
----
+Aquí la fuente de fuerza no está en el propio yo, sino en la relación con otras personas. Por muy cerca que uno esté de ellas, si el centro de gravedad se basa en ellas, no se puede evitar ser arrojado de un lado a otro entre alegría y dolor. El júbilo que llega al cielo, la tristeza hasta la muerte: ese es el destino de aquellos que dependen de la concordancia interior con otras personas a las que aman. Aquí solo se enuncia la ley de que así es. Si este estado se siente como molesto o como la dicha más elevada del amor, queda al juicio subjetivo del afectado.
 
 ### Seis en el cuarto puesto significa:
-> **La luna está casi llena.**  
-> **El caballo de tiro se pierde. Sin tacha.**
+> La luna, que está casi llena.  
+> El caballo de tiro se pierde.  
+> Sin error.
 
-Para poder elevarse hacia esferas superiores de conocimiento o cumplir con un deber de alta responsabilidad, el hombre debe renunciar a los vínculos que lo atan a los intereses materiales o a las facciones de carácter exclusivo. La luna casi llena simboliza un estado de gran claridad espiritual que está a punto de completarse.
-
-En este punto del camino, el individuo decide desvincularse de sus antiguos socios o compañeros de conveniencia (el caballo de tiro que se pierde) para consagrar toda su energía al servicio de lo superior. Aunque esta separación pueda parecer dolorosa o incomprensible para quienes se quedan atrás, el desapego es indispensable para mantener la pureza del espíritu y no constituye ninguna falta.
-
----
+Para aumentar la fuerza de la verdad interior, uno debe volverse hacia lo superior, de lo cual puede recibir iluminación como la luna del sol. Pero para ello es necesaria cierta humildad, como la tiene la luna, que no está completamente llena. Si la luna, como luna llena, se enfrenta directamente al sol, entonces comienza inmediatamente a menguar. Así como uno debe ser humilde y reverente frente a la fuente de la iluminación, por otro lado debe renunciar a las facciones humanas. Solo si uno sigue su camino como un caballo que corre derecho sin mirar a su compañero, mantiene la libertad interior que lleva adelante.
 
 ### Nueve en el quinto puesto significa:
-> **Posee una sinceridad que une.**  
-> **Sin tacha.**
+> Posee verdad que está encadenada.  
+> Sin error.
 
-Se retrata aquí al verdadero líder, cuyo poder emana de la coherencia absoluta de su propia vida. Su rectitud interior es tan evidente y limpia que actúa como un imán para las voluntades de los demás. 
+Aquí está descrito el señor que mantiene todo unido mediante la fuerza de su ser. Solo si su fuerza de carácter es tan amplia que puede influir en todos los que pertenecen a su señorío, es como debe ser. La fuerza sugestiva debe emanar del gobernante. Ella atará y unirá firmemente a todos los suyos. Sin esta fuerza central, toda unificación externa es solo mentira que se rompe en el momento decisivo.
 
-No necesita recurrir a la propaganda ni a mecanismos de control para asegurar la lealtad de su pueblo; la sinceridad de sus actos es su mayor argumento. Al ver que el gobernante vive en la verdad, los súbditos se unen a él con una confianza indestructible, consolidando un orden social armónico y libre de fisuras.
+### Arriba un nueve significa:
+> Canto de gallo que penetra hasta el cielo.  
+> La perseverancia trae desventura.
 
----
-
-### Al superior una nueve significa:
-> **El cacareo de un gallo que sube hasta el cielo.**  
-> **La perseverancia trae unheil.**
-
-El gallo es un ave que anuncia el amanecer, pero sus facultades físicas le impiden volar alto. Cuando un hombre intenta suplir su falta de verdad interior mediante un clamor estridente o palabras rimbombantes, incurre en una soberbia ridícula.
-
-Pretende simular una grandeza espiritual que no posee, recurriendo a la exageración y a la demagogia para impresionar al mundo. Sin embargo, los discursos vacíos no pueden sostenerse frente a la realidad del tiempo. Insistir en este comportamiento ficticio y pretencioso solo conducirá al descrédito total y a la desgracia.
+El gallo es fiable. Él canta cuando llega la mañana. Pero no puede volar por sí mismo hacia el cielo. Solo cacarea. Así se pretende despertar la fe mediante meras palabras. Eso tiene éxito ocasionalmente. Pero si se practica permanentemente, es malo.
 
 ---
 

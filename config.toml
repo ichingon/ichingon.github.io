@@ -130,6 +130,12 @@ enableRobotsTXT = true
     languageName = "English"
     weight = 2
     title = "I Chingon"
+
+# === REGLA DE PERMALINKS PARA EL ENTORNO INGLÉS ===
+    [languages.en.permalinks]
+      articulos = "/articles/:slug/"
+      hexagramas = "/hexagrams/:slug/"
+
     [languages.en.params]
       title = "I Chingon"
       description = "The I Ching as a decentralized information protocol. An intersection of philosophy, synchronicity, mathematics, and computer science."
@@ -196,6 +202,84 @@ enableRobotsTXT = true
 
     [[languages.en.menu.footer]]
       name = "Contact"
+      url = "mailto:contact@elichingon.com"
+      weight = 4
+
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 3
+    title = "I Chingon"
+
+# === REGLA DE PERMALINKS PARA EL ENTORNO ALEMÁN ===
+    [languages.de.permalinks]
+      hexagramas = "/hexagramme/:slug/"
+
+    [languages.de.params]
+      title = "I Chingon"
+      description = "Das I Ging als dezentralisiertes Informationsprotokoll. Eine Schnittstelle von Philosophie, Synchronizität, Mathematik und Informatik."
+    [languages.de.author]
+      name = "Dailingna Romero"
+    # Autorenprofil auf Deutsch
+    [languages.de.params.author]
+        bio = "Digitaler Avatar und Forscherin an der Schnittstelle von komplexen Systemen, Mathematik, alten östlichen Philosophien und dem I Ging."
+        photo = "img/author"
+
+    # === MENÜ AUF DEUTSCH ===
+    
+    # 1. Parent
+    [[languages.de.menu.main]]
+      name = "Hexagramme"
+      identifier = "hexagramas-parent"
+      url = "#"
+      weight = 1
+
+    # 2. First Child
+    [[languages.de.menu.main]]
+      name = "Basistabelle (8x8)"
+      pageRef = "hexagramme/i-ging-nachschlagetabelle"
+      parent = "hexagramas-parent"
+      weight = 1
+
+    # 3. Second Child
+    [[languages.de.menu.main]]
+      name = "Erweiterte Tabelle (64 Zeilen)"
+      pageRef = "hexagramme/tabla-hexagramas2"
+      parent = "hexagramas-parent"
+      weight = 2
+
+    # 4. Articles Section
+    [[languages.de.menu.main]]
+      name = "Artikel"
+      pageRef = "articulos"
+      weight = 2
+
+    # 5. External Link
+    [[languages.de.menu.main]]
+      name = "YouTube"
+      url = "https://www.youtube.com/@ElIChingon"
+      pre = "youtube"
+      weight = 3
+      [languages.de.menu.main.params]
+        class = "nav-btn-youtube"
+
+    # === FUSSZEILEN-MENÜ AUF DEUTSCH ===
+    [[languages.de.menu.footer]]
+      name = "Lizenzen"
+      url = "/lizenzen/"
+      weight = 1
+
+#    [[languages.de.menu.footer]]
+#      name = "Rechtliches"
+#      url = "/legal"
+#      weight = 2
+#
+    [[languages.de.menu.footer]]
+      name = "Verifizieren"
+      url = "/verifizieren"
+      weight = 3
+
+    [[languages.de.menu.footer]]
+      name = "Kontakt"
       url = "mailto:contact@elichingon.com"
       weight = 4
 

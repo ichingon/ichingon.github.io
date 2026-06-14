@@ -1,0 +1,104 @@
+---
+aliases:
+    - /hexagramas/hex54/textoaleman
+title: "Hexagramm 54 歸妹 - KWEI MEI / DAS HEIRATENDE MÄDCHEN"
+draft: false
+description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 54 (KWEI MEI) des I Ging mit Unicode-Zeichen und Pinyin."
+keywords: ["I Ching", "I Ging", "Hexagramm 54", "KWEI MEI", "Das heiratende Mädchen", "Richard Wilhelm", "歸妹"]
+showDate: false
+showReadingTime: false
+showWordCount: false
+showAuthor: false
+---
+<p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
+  &#x4DF5;
+</p>
+
+### Trigramme
+* oben Dschen, das Erregende, der Donner
+* unten Dui, das Heitere, der See
+
+Oben ist Dschen, der älteste Sohn, unten Dui, die jüngste Tochter. Der Mann geht voran, das Mädchen folgt ihm erfreut. Es wird der Eintritt des Mädchens in das Haus des Mannes geschildert. Es gibt im ganzen vier Zeichen, die die Beziehungen zwischen Gatten schildern. Nr. 31, Hien, »allseitiger Einfluß«, schildert die Anziehung, die ein junges Paar aufeinander ausübt. Nr. 32, Hang, "die Dauer", schildert die dauernden Verhältnisse der Ehe. Nr. 53, Dsien, Die Entwicklung«,schildert die zögernden und zeremoniellen Vorgänge beim Abschluß einer korrekten Ehe. Gui Me, Die Heirat des Mädchens«, endlich zeigt einen älteren Mann, dem ein junges Mädchen zur Ehe folgt.
+
+Bemerkung: In China herrscht formell die Einehe. Jeder Mann hat nur eine offizielle Frau. Diese Verbindung, die weniger die beiden Beteiligten als die Familien angeht, wird unter strenger Beobachtung der Formen geschlossen. Doch behält der Mann das Recht, auch den zarteren Neigungen persönlicher Art Gehör zu schenken. Ja es ist die schönste Pflicht einer guten Frau, ihm darin behilflich zu sein. Auf diese Weise wird das Verhältnis ein schönes und offenes. Das Mädchen, das nach der Wahl des Mannes in die Familie eintritt, ordnet sich der Hausfrau bescheiden unter als jüngere Schwester. Selbstverständlich handelt es sich hier um sehr heikle und zarte Fragen, die viel Takt auf jeder Seite erfordern. Doch wenn die Umstände günstig sind, findet sich hier die Lösung eines Problems, die der europäischen Kultur nicht gelungen ist. Selbstverständlich entspricht die Weiblichkeit in China so wenig dem Ideal, wie die Ehen in Europa durchschnittlich im Einklang mit den europäischen Eheidealen sind.
+
+
+---
+
+## Das Urteil
+> Das heiratende Mädchen.
+> Unternehmungen bringen Unheil.
+> Nichts, das fördernd wäre.
+
+Ein Mädchen, das in die Familie aufgenommen ist, ohne Hauptfrau zu sein, muß sich besonders vorsichtig und zurückhaltend benehmen. Es darf sich nicht von sich aus aufmachen, um die Hausfrau zu verdrängen, denn das würde Unordnung bedeuten, und man käme dadurch in unhaltbare Verhältnisse.
+
+Das bezieht sich auf alle freien Verhältnisse unter Menschen. Während die rechtlich geordneten Verhältnisse einen festen Zusammenhang von Pflichten und Rechten aufweisen, beruhen die Neigungsverhältnisse der Menschen in ihrer Dauer rein auf taktvoller Zurückhaltung.
+
+Diese Neigung als Prinzip der Beziehungen ist von größter Bedeutung in allen Verhältnissen der Welt, denn aus der Vereinigung von Himmel und Erde kommt der Bestand der ganzen Natur, und ebenso ist unter den Menschen die freie Neigung als Prinzip der Vereinigung Anfang und Ende.
+
+---
+
+## Das Bild
+> Oberhalb des Sees ist der Donner:
+> das Bild des heiratenden Mädchens.
+> So erkennt der Edle durch die Ewigkeit des Endes das Vergängliche.
+
+Der Donner erregt das Wasser des Sees, das ihm in schimmernden Wellen folgt. Das ist das Bild des Mädchens, das dem Manne seiner Wahl folgt. Allein jede Verbindung von Menschen untereinander schließt die Gefahr in sich, daß sich Verirrungen einschleichen, die zu endlosen Mißverständnissen und Unzuträglichkeiten führen. Darum gilt es, das Ende dauernd in Betracht zu ziehen. Wenn man sich treiben laßt, kommt man zusammen und geht wieder auseinander, wie es der Tag fügt. Wenn man dagegen ein dauerhaftes Ende ins Auge faßt, so wird es einem gelingen, die Klippen zu umgehen, die näheren Beziehungen der Menschen untereinander entgegenstehen.
+
+---
+
+## Die einzelnen Linien
+
+### Anfangs eine Neun bedeutet:
+> Das heiratende Mädchen als Nebenfrau.
+> Ein Lahmer, der auftreten kann.
+> Unternehmungen bringen Heil.
+
+Die Fürsten des Altertums hatten eine feste Rangordnung unter den Palastdamen, die der Königin unterstellt waren wie die jüngeren Schwestern der ältesten. Sie waren auch vielfach aus der Familie der Königin, die sie selbst ihrem Gatten zuführte.
+
+Der Sinn ist der, daß ein junges Mädchen, wenn sie im Einverständnis mit der Ehefrau in eine Familie eintritt, dieser nach außen hin nicht gleichsteht, sondern bescheiden zurücktreten wird. Aber wenn sie es versteht, sich in den Zusammenhang einzufügen, so bekommt sie eine Stellung, die durchaus befriedigend ist, und sie wird sich geborgen fühlen in der Liebe des Gatten, dem sie Kinder bringt.
+
+Dieselbe Bedeutung ergibt sich in den Beziehungen von Beamten. Ein Fürst hat vielleicht einen Mann, mit dem er persönlich befreundet ist und den er in sein Vertrauen zieht. Dieser Mann muß taktvollerweise nach außen hin zurücktreten hinter den offiziellen Staatsminister. Aber obwohl er durch diese Stellung gehindert ist wie ein Lahmer, kann er doch etwas ausrichten durch die Güte seines Wesens.
+
+### Neun auf zweitem Platz bedeutet:
+> Ein Einäugiger, der sehen kann.
+> Fördernd ist die Beharrlichkeit eines einsamen Menschen.
+
+Die Lage ist hier so, daß das Mädchen sich mit einem Manne verbunden hat, der sie enttäuscht. Mann und Frau sollen zusammenwirken wie die beiden Augen. Hier ist das Mädchen einsam zurückgeblieben. Der Mann ihrer Wahl ist entweder untreu geworden oder gestorben. Aber sie verliert das innere Licht der Treue nicht. Ob auch das andere Auge erloschen ist, sie hält die Treue fest auch in der Einsamkeit.
+
+### Sechs auf drittem Platz bedeutet:
+> Das heiratende Mädchen als Sklavin.
+> Sie heiratet Nebenfrau.
+
+Ein Mädchen, das sich in geringer Stellung befindet und keinen Mann bekommt, kann a1s Nebenfrau unter Umständen noch unterkommen.
+
+Die Situation ist die, daß man allzusehr nach Freuden begehrt, die man auf normalem Weg nicht erlangen kann. So gibt man sich in eine Lage hinein, die mit der eigenen Würde sich nicht ganz verträgt. Es wird weder ein Urteil noch eine Warnung beigefügt, sondern einfach die Situation als solche aufgedeckt, so daß sich jeder selbst die Lehre daraus ziehen kann.
+
+### Neun auf viertem Platz bedeutet:
+> Das heiratende Mädchen verzögert die Frist.
+> Eine späte Heirat kommt zu ihrer Zeit.
+
+Das Mädchen ist sehr gut, will sich nicht wegwerfen und versäumt darüber die übliche Zeit der Ehe. Das schadet aber nichts. Sie wird für ihre Reinheit belohnt und findet schließlich, wenn auch spät, doch noch den für sie bestimmten Gatten.
+
+### Sechs auf fünftem Platz bedeutet:
+> Der Herrscher I verheiratet seine Tochter.
+> Da waren die gestickten Kleider der Fürstin nicht so
+> prächtig wie die der Dienerin.
+> Der Mond, der fast voll ist, bringt Heil.
+
+Der Herrscher I ist Tang, der Vollender. Er hat ein Gesetz erlassen, daß die kaiserlichen Prinzessinnen in der Ehe ebenfalls ihren Männern untertan sein müssen (vgl. Nr. Il, Strich 5). Der Kaiser wartet nicht auf Werbung, sondern gibt seine Tochter nach freiem Ermessen in die Ehe. Darum ist die Initiative auf Seiten der Familie des Mädchens hier in der Ordnung.
+
+Wir sehen hier ein Mädchen vornehmer Abkunft, die in bescheidene Verhältnisse heiratet und sich mit Anmut der neuen Lage anzupassen versteht. Sie ist frei von aller Eitelkeit äußeren Schmuckes, vergißt ihren Rang in der Ehe und stellt sich unter ihren Gatten, wie der Mond, der noch nicht ganz voll ist, der Sonne nicht direkt gegenübertritt.
+
+### Oben eine Sechs bedeutet:
+> Die Frau hält den Korb, aber es sind keine Früchte darin.
+> Der Mann sticht das Schaf, aber es fließt Kein Blut.
+> Nichts, das fördernd wäre.
+
+Beim Opfer für die Ahnen mußte die Frau die Früchte in einem Korb darbringen, der Mann persönlich das Opfertier schlachten. Hier werden die Formen nur oberflächlich erfüllt. Die Frau nimmt einen leeren Korb, der Mann sticht ein schon vorher geschlachtetes Schaf, nur eben um die Form zu wahren. Aber diese unfromme, frivole Gesinnung verheißt kein Glück für die Ehe.
+
+---
+
+## Referenzlinks
+* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

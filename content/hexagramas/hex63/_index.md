@@ -13,89 +13,69 @@ showAuthor: false
   &#x4DFE;
 </p>
 
-**Arriba:** Kǎn (El Agua, El Abismo)
-**Abajo:** Lí (El Fuego, Lo Adherente)
+### Trigramas
+* **Arriba:** Kǎn (Lo Abismal, el Agua)  
+* **Abajo:** Lí (Lo Adherente, el Fuego)
+
+Este signo es la configuración del signo T'ai, la Paz (nº 11). La transición de la confusión al orden se ha consumado, y ahora también en lo individual todo está en su lugar. Las líneas fuertes están en los puestos fuertes, las líneas débiles en los puestos débiles. Este es un aspecto muy favorable. Sin embargo, da que pensar. Precisamente cuando se ha alcanzado el equilibrio perfecto, cualquier movimiento puede llevar a que del estado de orden surja de nuevo la desintegración. A la línea fuerte que ha subido y así ha perfeccionado el orden en lo individual, las otras la siguen según su naturaleza, y entonces surge de repente el signo P'i, El Estancamiento (nº 12). Así, el signo indica las condiciones de un punto culminante que exigen la máxima precaución.
 
 ---
 
-Este signo representa el momento en que se ha alcanzado la transición desde la confusión hacia el orden, logrando el cumplimiento pleno de los objetivos en todos los aspectos importantes. Las líneas fuertes ocupan los puestos impares y las débiles los pares, lo que conforma una estructura de equilibrio perfecto. 
-
-En el orden de la naturaleza, el agua se encuentra arriba y el fuego abajo. El fuego, cuya tendencia natural es ascender, calienta el agua que fluye hacia abajo, logrando la cocción y el aprovechamiento de los alimentos. Sin embargo, este equilibrio ideal encierra una advertencia fundamental: una vez alcanzada la consumación, las fuerzas han llegado a su punto estático, lo que marca el inicio inevitable de un proceso de declinación si no se cultiva una vigilancia extrema.
-
 ## El Dictamen
+> Después de la Consumación. Éxito en lo pequeño.  
+> Es propicia la perseverancia.  
+> Al principio, Ventura; al final, confusión.
 
-> **Después de la Consumación. Éxito en lo pequeño.**  
-> **Es propicia la perseverancia.**  
-> **Al principio, Heil; al final, confusión.**
-
-Cuando la gran transformación se ha completado, el éxito se desplaza hacia la conservación de los logros menores a través de la constancia cotidiana. El peligro de las épocas de plenitud estriba en la tendencia natural hacia la relajación y el descuido. Al principio, todo marcha sobre ruedas y predomina la buena fortuna. No obstante, si el rigor y el esfuerzo decaen, las fuerzas del desorden regresan de manera paulatina, arrastrando la situación hacia el caos y la confusión final. El destino exige mantenerse firme en lo recto sin bajar la guardia.
+La transición de la vieja a la nueva época ya se ha consumado. En principio, todo está ya regulado. Solo en lo individual se puede obtener éxito. Sin embargo, para ello es necesario mantener siempre la recta actitud. Todo sigue su curso por sí mismo. Esto tienta fácilmente a que uno se relaje en su tensión y deje correr las cosas sin ocuparse de los detalles. Pero esta indiferencia es la raíz de todo mal. De ella brotan con necesidad los fenómenos de decadencia. Aquí se establece la regla de cómo suele ocurrir en la historia. Pero esta regla no es una ley inevitable. Quien la comprende, puede evitar sus efectos mediante la constancia y la precaución ininterrumpidas.
 
 ---
 
 ## La Imagen
+> El agua está sobre el fuego: la imagen del estado Después de la Consumación.  
+> Así el Noble reflexiona sobre la desgracia y se previene contra ella con anticipación.
 
-> **El agua está arriba del fuego: la imagen del estado Después de la Consumación.**  
-> **Así el noble reflexiona sobre la desgracia y se previene contra ella con anticipación.**
-
-Cuando el agua hierve sobre el fuego, ambos elementos se necesitan, pero también se amenazan mutuamente. Si el agua se desborda, extingue el fuego; si el fuego arrecia en demasía, evapora el agua. El noble extrae de esta imagen la necesidad de una prevención constante en las épocas de éxito. 
-
-En los momentos donde el orden brilla en su máxima expresión, es cuando se incuban los gérmenes de la decadencia futura. Por lo tanto, el noble no se entrega a la autocomplacencia ni a la falsa seguridad. Examina con lucidez los factores de riesgo ocultos en la estructura del presente, anticipándose a las crisis antes de que se manifiesten en el plano visible mediante medidas previsoras.
+Cuando el agua en la caldera está sobre el fuego, ambos elementos entran en relación y así se genera fuerza. (Compárese la formación del vapor.) Pero la tensión resultante exige precaución. Si el agua se desborda, el fuego se apaga y su efecto de fuerza se pierde. Si el calor es demasiado grande, el agua se evapora y se va al aire. Los elementos que aquí están en relación y actúan con fuerza son en sí mismos enemigos entre sí. Solo la máxima precaución puede evitar el daño. Así también en la vida existen situaciones en que todas las fuerzas están equilibradas y actúan juntas, por lo que aparentemente todo está en el mejor orden. Solo el sabio reconoce en tales tiempos los momentos de peligro y sabe conjurarlos mediante disposiciones oportunas.
 
 ---
 
 ## Las Líneas
 
 ### Al principio un nueve significa:
-> **Frena sus ruedas.**  
-> **Sumerge su cola en el agua. Sin tacha.**
+> Frena sus ruedas.  
+> Sumerge la cola en el agua. Sin error.
 
-En el impulso inicial que sigue a la consumación de una gran empresa, existe la tentación de continuar avanzando de manera temeraria. Sin embargo, las condiciones del tiempo exigen detenerse para consolidar lo edificado. Al igual que un zorro joven que frena a tiempo antes de hundirse por completo al cruzar un río helado, el hombre prudente detiene su marcha. Aunque este freno pueda parecer un retroceso o moje ligeramente su retaguardia, detener el avance evita desastres mayores y lo mantiene libre de errores.
-
----
+En tiempos posteriores a una gran transición, todo tiende al progreso y al desarrollo y empuja hacia adelante. Pero ese empuje hacia adelante al comienzo no es bueno y conduce ciertamente a pérdida y caída, pues se sobrepasa la meta. Un carácter fuerte, por tanto, no se deja contagiar por el vértigo general, sino que frena oportunamente su curso. Así no quedará del todo intacto por las funestas consecuencias del empuje general, pero le alcanzará solo por detrás, como a un zorro que ya ha cruzado el agua y solo moja la cola, y no podrá dañarlo esencialmente, pues su conducta ha acertado.
 
 ### Seis en el segundo puesto significa:
-> **La mujer pierde el abrigo de su carruaje.**  
-> **No corras tras él; al séptimo día lo obtendrás.**
+> La mujer pierde la cortina de su carruaje.  
+> No corras tras ella; al séptimo día la obtendrás.
 
-Cuando una persona posee cualidades genuinas para el servicio público o la creación, pero carece de los vínculos correctos con las esferas del poder, se encuentra desprotegida ante las intrigas del entorno. Es como una dama de alcurnia que pierde las cortinas de su carruaje, quedando expuesta a las miradas del vulgo. 
-
-Ante esta situación de vulnerabilidad, lo peor que se puede hacer es rebajarse buscando el favor de los poderosos mediante la adulación. Es imperativo resguardar la dignidad personal en el retiro. El tiempo cumple ciclos cerrados de siete estadios; si se mantiene la integridad en la intimidad, las circunstancias volverán a ser propicias por sí mismas y el reconocimiento llegará sin necesidad de súplicas.
-
----
+Cuando una mujer viajaba en carruaje, llevaba una cortina que la ocultaba a las miradas de los curiosos. Si esta cortina se perdía, habría sido contra las buenas costumbres seguir adelante. Trasladado a la vida pública, significa que a uno, cuando quiere lograr algo, las instancias decisivas no le otorgan la confianza que, por así decirlo, necesita para su protección personal. Precisamente en tiempos posteriores a la consumación se puede encontrar que los gobernantes se vuelven orgullosos y seguros de sí mismos y ya no se preocupan por salir al encuentro de talentos desconocidos con atención. De aquí surge normalmente el afán de ascender. Si desde arriba no se le otorga confianza a uno, busca medios y caminos para encontrarla y salir a la luz. Sin embargo, se desaconseja tal procedimiento indigno. «No lo busques». No te arrojes al mundo exterior, sino espera tranquilo y cultiva autónomamente tu propio valor. Los tiempos cambian. Cuando las seis etapas del signo hayan pasado, llegará la nueva era. Lo que a uno le pertenece no puede perderlo a la larga. Viene por sí solo a uno. Solo hay que saber esperar.
 
 ### Nueve en el tercer puesto significa:
-> **El ilustre soberano Gaozong castiga al País del Diablo.**  
-> **Tres años tarda en vencerlo.**  
-> **A los hombres comunes no se les debe emplear.**
+> El Alto Ancestro castiga al País del Diablo.  
+> Tres años tarda en vencerlo.  
+> Al hombre vulgar no se le debe emplear.
 
-La consolidación de un orden duradero y la erradicación de las fuerzas de la decadencia exigen una energía monumental y un tiempo considerable. Esto se ilustra mediante la campaña histórica del emperador Gaozong contra las tribus bárbaras de la frontera, una empresa que demandó tres años enteros de lucha ininterrumpida. 
-
-Una tarea de tal envergadura requiere de líderes con un temple excepcional y una visión de largo alcance. Bajo ninguna circunstancia se debe encomendar la ejecución de reformas estructurales o la defensa de principios superiores a hombres de mentalidad estrecha o motivaciones vulgares, ya que su falta de carácter arruinaría la obra común.
-
----
+El Alto Ancestro es el título dinástico del soberano Wu Ding de la dinastía Yin. Después de haber ordenado con mano firme las condiciones en el reino, emprendió largas guerras coloniales para someter las regiones fronterizas del norte habitadas por hunos, desde donde constantemente amenazaban incursiones. La situación que se describe es que, después de tiempos de consumación, cuando ha surgido un nuevo poder y todo está en orden en el interior, comienza con cierta necesidad la expansión colonial. En esto, normalmente hay que contar con luchas prolongadas. Pero al mismo tiempo, una correcta política colonial es especialmente importante. No se deben considerar los territorios duramente ganados como una institución de abastecimiento para personas que de algún modo se han hecho imposibles en la patria, pero que para las colonias aún son suficientemente buenos. Con ello se echa a perder desde el principio cualquier éxito. Esto vale tanto en lo grande como en lo pequeño; pues no solo los Estados en ascenso practican una política colonial. Todo emprendimiento ascendente lleva cerca el impulso hacia la expansión y los peligros asociados a él.
 
 ### Seis en el cuarto puesto significa:
-> **Las finas prendas se convierten en harapos.**  
-> **Estar prevenidos todo el día.**
+> Las más bellas vestiduras se convierten en harapos.  
+> Todo el día sé cauto.
 
-Incluso dentro de las estructuras sociales más estables y prósperas, se producen fisuras imperceptibles por donde puede filtrarse la destrucción. Es como una embarcación magnífica que sufre una vía de agua: si los tripulantes no están equipados con tapones de fieltro —que pronto se transformarán en harapos debido al esfuerzo—, el barco se irá a pique. En las épocas de paz, los descuidos menores pueden tener consecuencias catastróficas. Por ende, es una obligación ética permanecer en un estado de alerta continua, subsanando las fallas del carácter o de la organización de manera inmediata.
-
----
+En tiempos de florecimiento cultural ocurren siempre de vez en cuando sacudidas que descubren un daño interno de la sociedad y entonces provocan primero una gran conmoción general. Sin embargo, dado que la situación general es favorable, tales daños pueden repararse fácilmente y ocultarse ante el público. Entonces todo vuelve a desaparecer de la memoria, y parece como si reinara la pura paz. Pero para el pensante, tales incidentes son serios avisos que no descuida. Solo así se pueden evitar las malas consecuencias.
 
 ### Nueve en el quinto puesto significa:
-> **El vecino del este, que sacrifica un buey, no obtiene tanto bien verdadero**  
-> **como el vecino del oeste con su pequeño sacrificio.**
+> El vecino del este, que sacrifica un buey,  
+> no obtiene tanta verdadera ventura  
+> como el vecino del oeste con su pequeño sacrificio.
 
-El valor de las acciones humanas y de los ritos religiosos no radica en la suntuosidad exterior, sino en la absoluta sinceridad del corazón. El vecino del este realiza una ofrenda ostentosa y costosa, sacrificando un buey entero, pero su mente está puesta en el reconocimiento social y en el cálculo de beneficios. 
+También la actitud religiosa es influida por el estado anímico en tiempos posteriores a la consumación. En lugar de las simples formas antiguas, aparece en los cultos una configuración cada vez más rica y un boato exterior cada vez mayor. Pero a este despliegue de esplendor le falta la seriedad interior. La arbitrariedad humana ocupa el lugar de la escrupulosa observancia de la voluntad divina. Pero mientras el hombre ve lo que está ante sus ojos, Dios ve el corazón. Por eso no descansa tanta bendición sobre el culto poderoso pero frío, como sobre un simple y piadoso sacrificio.
 
-Por el contrario, el vecino del oeste ofrece un tributo humilde y modesto debido a su escasez material, pero su espíritu rebosa de una entrega piadosa y de una fe genuina. La divinidad rechaza la hipocresía de la abundancia vacía y acepta con gracia la sencillez del corazón limpio. La verdadera fortuna acompaña siempre a la honestidad interior.
+### Arriba un seis significa:
+> Sumerge la cabeza en el agua. Peligro.
 
----
-
-### Al superior una seis significa:
-> **Sumerge su cabeza en el agua. Peligro.**
-
-Se describe aquí el desenlace fatal de la complacencia. El individuo, habiendo cruzado con éxito las dificultades del pasado, se entrega al Siegestaumel y al disfrute desmedido de los placeres. Al igual que un zorro descuidado que avanza a ciegas y termina por sumergir la cabeza en la corriente profunda, la persona pierde por completo la lucidez y el control de su dirección. Esta falta absoluta de precaución rompe el vínculo con las leyes del tiempo y conduce de manera inevitable al colapso y a la ruina total.
+Aquí se añade al final una advertencia. Después de cruzar un agua, solo se puede sumergir la cabeza si uno se vuelve imprudentemente hacia el agua. Mientras se avanza y no se mira atrás, se evita este peligro. Sin embargo, hay algo seductor en detenerse y mirar hacia atrás, al peligro superado. Pero tal vana auto-reflexión no trae ventura. Por ello se cae en peligro, y si no se decide a seguir adelante sin detenerse, se cae víctima de ese peligro.
 
 ---
 
