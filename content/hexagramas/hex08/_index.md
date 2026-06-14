@@ -100,3 +100,16 @@ La cabeza es el comienzo. Sin un comienzo correcto no hay un final correcto. Si 
 * [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+---
+
+**🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
+Este artículo es creado y publicado oficialmente por Dailingna Romero.
+
+- **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex08/
+- **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
+- **💜 Nota de verificación en Nostr:** [Ver en Primal](https://primal.net/e/note1s86nssmzvac6p9hu2h97lqdkwkk4n3v9qp4j79x02p7cjuu6njksuz3dka)
+
+Para verificar que este artículo no ha sido alterado ni es un plagio, 
+haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
+corresponda legítimamente con el de este artículo.

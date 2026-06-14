@@ -93,3 +93,16 @@ El éxito está ahí. El viento ha reunido la lluvia. Se ha alcanzado una posici
 * [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+---
+
+**🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
+Este artículo es creado y publicado oficialmente por Dailingna Romero.
+
+- **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex09/
+- **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
+- **💜 Nota de verificación en Nostr:** [Ver en Primal](https://primal.net/e/note14nanv04rfcmyk080m0n4pt56w9rgn2f2n4hf38kv20n97p0xrl9q7rnrfd)
+
+Para verificar que este artículo no ha sido alterado ni es un plagio, 
+haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
+corresponda legítimamente con el de este artículo.

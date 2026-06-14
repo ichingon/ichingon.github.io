@@ -98,3 +98,16 @@ La espera ha concluido: el peligro ya no se puede desviar. Se cae en el foso y e
 * [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+---
+
+**🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
+Este artículo es creado y publicado oficialmente por Dailingna Romero.
+
+- **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex05/
+- **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
+- **💜 Nota de verificación en Nostr:** [Ver en Primal](https://primal.net/e/note1aggc43vl8atpk8ut67fmu0k5d5z789e4600nfsvchxqwhvk25fvs37ky2y)
+
+Para verificar que este artículo no ha sido alterado ni es un plagio, 
+haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
+corresponda legítimamente con el de este artículo.
