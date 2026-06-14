@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex05/textoaleman
 title: "Hexagramm 5 需 - SÜ / DAS WARTEN (DIE ERNÄHRUNG)"
 weight: 7
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex05/"
+translationKey: "hex05"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DC4;
@@ -93,5 +93,5 @@ Das Warten ist vorüber: die Gefahr läßt sich nicht mehr abwenden. Man gerät 
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

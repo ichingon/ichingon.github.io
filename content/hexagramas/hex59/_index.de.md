@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex59/textoaleman
 title: "Hexagramm 59 渙 - HUAN / DIE AUFLÖSUNG"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 57 (SUN) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex59/"
+translationKey: "hex59"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DFA;
@@ -84,5 +84,5 @@ Das Auflösen des Blutes bedeutet auflösen, was Blut und Wunden bringen könnte
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

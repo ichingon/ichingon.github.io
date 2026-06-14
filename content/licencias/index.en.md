@@ -1,9 +1,9 @@
 ---
 title: "License Architecture of elichingon.com"
+translationKey: "licencias"
 description: "Intellectual property structure and open content licenses of elichingon.com"
 date: 2026-06-05
 draft: false
-url : "/licences/"
 showDate: false
 showReadingTime: false
 showWordCount: false

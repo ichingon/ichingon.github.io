@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex64/textoaleman
 title: "Hexagramm 64 未濟 - WE DSI / VOR DER VOLLENDUNG"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 64 (WE DSI) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex64/"
+translationKey: "hex64"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DFF;
@@ -89,5 +89,5 @@ Bemerkung: Wie das Zeichen "Nach der Vollendung" den al1mählichen Übergang aus
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex40/textoaleman
 title: "Hexagramm 40 解 - HIE / DIE BEFREIUNG"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 40 (HIE) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex40/"
+translationKey: "hex40"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DE7;
@@ -90,5 +90,5 @@ Kungtse sagt darüber: »Der Habicht ist der Zweck der Jagd. Pfeil und Bogen sin
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

@@ -7,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+slug: "hex45"
+translationKey: "hex45"
 ---
 
 ### Trigramas

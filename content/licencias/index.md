@@ -1,5 +1,6 @@
 ---
 title: "Arquitectura de Licencias de elichingon.com"
+translationKey: "licencias"
 description: "Estructura de propiedad intelectual y licencias de contenido abierto de elichingon.com"
 date: 2026-06-05
 draft: false

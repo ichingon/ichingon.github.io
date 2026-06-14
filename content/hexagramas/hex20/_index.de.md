@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex20/textoaleman
 title: "Hexagramm 20 觀 - GUAN / DIE BETRACHTUNG (DER ANBLICK)"
 weight: 22
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex20/"
+translationKey: "hex20"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DD3;
@@ -92,5 +92,5 @@ Während die vorige Linie einen Mann darstellt, der sich selbst betrachtet, ist 
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

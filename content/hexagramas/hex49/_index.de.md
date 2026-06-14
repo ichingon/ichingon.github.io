@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex49/textoaleman
 title: "Hexagramm 49 革 - GO / DIE UMWÄLZUNG"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 49 (GO) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex49/"
+translationKey: "hex49"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DF0;
@@ -88,7 +88,7 @@ Nachdem die großen grundsätzlichen Fragen entschieden sind, sind noch Umgestal
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
 
 [^1]: Vergleiche dann in Goethes Märchen das dreimalige: "Es ist an der Zeit", ehe die große Umwälzung eintritt.

@@ -9,6 +9,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+slug: "hex21"
+translationKey: "hex21"
 ---
 
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">

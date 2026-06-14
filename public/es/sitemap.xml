@@ -10,7 +10,12 @@
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/hexagrams/i-ching-lookup-chart/"
+      href="http://localhost:1313/en/hexagrams/i-ching-lookup-chart/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/i-ging-nachschlagetabelle/"
     />
     <xhtml:link
       rel="alternate"
@@ -26,7 +31,12 @@
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/hexagrams/advanced-i-ching-correspondence-table/"
+      href="http://localhost:1313/en/hexagrams/advanced-i-ching-correspondence-table/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/"
     />
     <xhtml:link
       rel="alternate"
@@ -38,6 +48,16 @@
     <loc>http://localhost:1313/hexagramas/hex01/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex01/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex01/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex01/textoaleman/</loc>
@@ -48,6 +68,16 @@
     <loc>http://localhost:1313/hexagramas/hex02/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex02/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex02/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex02/textoaleman/</loc>
@@ -58,6 +88,16 @@
     <loc>http://localhost:1313/hexagramas/hex03/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex03/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex03/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex03/textoaleman/</loc>
@@ -68,6 +108,16 @@
     <loc>http://localhost:1313/hexagramas/hex04/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex04/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex04/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex04/textoaleman/</loc>
@@ -78,6 +128,16 @@
     <loc>http://localhost:1313/hexagramas/hex05/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex05/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex05/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex05/textoaleman/</loc>
@@ -88,6 +148,16 @@
     <loc>http://localhost:1313/hexagramas/hex06/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex06/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex06/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex06/textoaleman/</loc>
@@ -98,6 +168,16 @@
     <loc>http://localhost:1313/hexagramas/hex07/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex07/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex07/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex07/textoaleman/</loc>
@@ -108,6 +188,16 @@
     <loc>http://localhost:1313/hexagramas/hex08/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex08/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex08/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex08/textoaleman/</loc>
@@ -118,6 +208,16 @@
     <loc>http://localhost:1313/hexagramas/hex09/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex09/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex09/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex09/textoaleman/</loc>
@@ -128,6 +228,16 @@
     <loc>http://localhost:1313/hexagramas/hex10/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex10/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex10/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex10/textoaleman/</loc>
@@ -138,6 +248,16 @@
     <loc>http://localhost:1313/hexagramas/hex11/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex11/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex11/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex11/textoaleman/</loc>
@@ -148,6 +268,16 @@
     <loc>http://localhost:1313/hexagramas/hex12/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex12/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex12/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex12/textoaleman/</loc>
@@ -158,6 +288,16 @@
     <loc>http://localhost:1313/hexagramas/hex13/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex13/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex13/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex13/textoaleman/</loc>
@@ -168,6 +308,16 @@
     <loc>http://localhost:1313/hexagramas/hex14/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex14/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex14/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex14/textoaleman/</loc>
@@ -178,6 +328,16 @@
     <loc>http://localhost:1313/hexagramas/hex15/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex15/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex15/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex15/textoaleman/</loc>
@@ -188,6 +348,16 @@
     <loc>http://localhost:1313/hexagramas/hex16/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex16/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex16/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex16/textoaleman/</loc>
@@ -198,6 +368,16 @@
     <loc>http://localhost:1313/hexagramas/hex17/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex17/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex17/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex17/textoaleman/</loc>
@@ -213,11 +393,31 @@
     <loc>http://localhost:1313/hexagramas/hex18/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex18/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex18/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex19/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex19/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex19/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex19/textoaleman/</loc>
@@ -228,6 +428,16 @@
     <loc>http://localhost:1313/hexagramas/hex20/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex20/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex20/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex20/textoaleman/</loc>
@@ -238,6 +448,16 @@
     <loc>http://localhost:1313/hexagramas/hex21/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex21/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex21/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex21/textoaleman/</loc>
@@ -248,6 +468,16 @@
     <loc>http://localhost:1313/hexagramas/hex22/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex22/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex22/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex22/textoaleman/</loc>
@@ -263,6 +493,16 @@
     <loc>http://localhost:1313/hexagramas/hex23/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex23/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex23/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex23/textoaleman/</loc>
@@ -273,6 +513,16 @@
     <loc>http://localhost:1313/hexagramas/hex24/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex24/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex24/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex24/textoaleman/</loc>
@@ -291,6 +541,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="es"
       href="http://localhost:1313/"
     />
@@ -303,7 +558,12 @@
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/verify/"
+      href="http://localhost:1313/en/verify/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/verifizieren/"
     />
     <xhtml:link
       rel="alternate"
@@ -319,7 +579,12 @@
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/licences/"
+      href="http://localhost:1313/en/licences/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/lizenzen/"
     />
     <xhtml:link
       rel="alternate"
@@ -335,7 +600,12 @@
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/articulos/"
+      href="http://localhost:1313/en/articles/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/"
     />
     <xhtml:link
       rel="alternate"
@@ -357,7 +627,7 @@
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/articles/the-abc-of-the-i-ching/"
+      href="http://localhost:1313/en/articles/the-abc-of-the-i-ching/"
     />
     <xhtml:link
       rel="alternate"
@@ -377,6 +647,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramas/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="es"
       href="http://localhost:1313/hexagramas/"
     />
@@ -389,7 +664,7 @@
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/articles/chance-science-i-ching/"
+      href="http://localhost:1313/en/articles/chance-science-i-ching/"
     />
     <xhtml:link
       rel="alternate"
@@ -401,201 +676,601 @@
     <loc>http://localhost:1313/hexagramas/hex25/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex25/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex25/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex26/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex26/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex26/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex27/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex27/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex27/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex28/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex28/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex28/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex29/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex29/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex29/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex30/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex30/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex30/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex31/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex31/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex31/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex32/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex32/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex32/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex33/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex33/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex33/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex34/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex34/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex34/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex35/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex35/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex35/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex36/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex36/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex36/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex37/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex37/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex37/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex38/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex38/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex38/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex39/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex39/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex39/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex40/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex40/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex40/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex41/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex41/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex41/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex42/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex42/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex42/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex43/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex43/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex43/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex44/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex44/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex44/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex45/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex45/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex45/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex46/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex46/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex46/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex47/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex47/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex47/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex48/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex48/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex48/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex49/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex49/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex49/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex50/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex50/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex50/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex51/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex51/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex51/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex52/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex52/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex52/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex53/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex53/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex53/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex54/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex54/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex54/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex55/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex55/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex55/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex56/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex56/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex56/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex57/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex57/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex57/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex58/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex58/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex58/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex59/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex59/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex59/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex60/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex60/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex60/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex61/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex61/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex61/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex62/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex62/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex62/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex63/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex63/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex63/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex64/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex64/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex64/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex25/textoaleman/</loc>

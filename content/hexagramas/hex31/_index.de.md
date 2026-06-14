@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex31/textoaleman
 title: "Hexagramm 31 咸 - HIEN / DIE EINWIRKUNG, DIE WERBUNG"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 31 (HIEN) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex31/"
+translationKey: "hex31"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DDE;
@@ -89,5 +89,5 @@ Die äußerlichste Art, auf andre Einfluß bekommen zu wollen, ist durch bloßes
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

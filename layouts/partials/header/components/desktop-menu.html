@@ -1,0 +1,77 @@
+<nav class="flex items-center space-x-4">
+  {{ if .Site.Menus.main }}
+    {{ range $index, $item := .Site.Menus.main }}
+      {{ if .HasChildren }}
+        <div class="relative inline-block custom-menu-parent" id="menu-parent-{{ $index }}" style="padding-bottom: 10px; margin-bottom: -10px;">
+          <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" style="background: none; border: none; cursor: pointer;">
+            <span>{{ .Name | markdownify }}</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
+          
+          <div id="menu-dropdown-{{ $index }}" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+               style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 200px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+            <div style="padding: 4px 0;">
+              {{ range .Children }}
+                <a href="{{ .URL | relLangURL }}" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  {{ .Name | markdownify }}
+                </a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      {{ else }}
+        <a href="{{ .URL | relLangURL }}" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 {{ if .Params.class }}{{ .Params.class }}{{ end }}">
+          {{ if .Pre }}
+            <span class="inline-block align-text-bottom mr-1">{{ partial "icon.html" .Pre }}</span>
+          {{ end }}
+          {{ .Name | markdownify }}
+        </a>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  <div class="relative inline-block custom-menu-parent" id="menu-parent-lang" style="padding-bottom: 10px; margin-bottom: -10px;">
+    <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" aria-label="Language Selector" style="background: none; border: none; cursor: pointer;">
+      <span style="font-size: 1.1rem; line-height: 1;">🌐</span>
+      <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div id="menu-dropdown-lang" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+         style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 160px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+      <div style="padding: 4px 0;">
+        {{ range .AllTranslations }}
+          <a href="{{ .Permalink }}" 
+             class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 {{ if eq .Language.Lang $.Site.Language.Lang }}font-bold text-primary-600 dark:text-primary-400{{ end }}" 
+             style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+            {{ if eq .Language.Lang "es" }}Español (ES){{ else if eq .Language.Lang "en" }}English (EN){{ else if eq .Language.Lang "de" }}Deutsch (DE){{ end }}
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-menu-parent");
+    
+    parents.forEach(function (parent) {
+      // Buscamos el submenú correspondiente dentro de este contenedor específico
+      var dropdown = parent.querySelector(".custom-menu-dropdown");
+      if (!dropdown) return;
+
+      var timeoutId = null;
+
+      parent.addEventListener("mouseenter", function () {
+        clearTimeout(timeoutId);
+        dropdown.style.display = "block";
+      });
+
+      parent.addEventListener("mouseleave", function () {
+        timeoutId = setTimeout(function () {
+          dropdown.style.display = "none";
+        }, 150); // Mismo retardo de estabilidad para evitar cierres accidentales
+      });
+    });
+  })();
+</script>

@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex19/textoaleman
 title: "Hexagramm 19 臨 - LIN / DAS ANNÄHERN"
 weight: 21
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex19/"
+translationKey: "hex19"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DD2;
@@ -78,5 +78,5 @@ Ein Weiser, der die Welt überwunden hat und innerlich schon mit dem Leben ferti
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

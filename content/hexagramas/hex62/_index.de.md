@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex62/textoaleman
 title: "Hexagramm 62 小過 - SIAU GO / DES KLEINEN ÜBERGEWICHT"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 62 (SIAU GO) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex62/"
+translationKey: "hex62"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DFD;
@@ -102,4 +102,4 @@ Wenn man über das Ziel hinausschießt, So kann man es nicht treffen. Wenn der V
 
 ## Referenzlinks
 * [Zurück zur Hexagramm-Suchtabelle](/hexagramas/buscador-hexagramam-i-ching/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

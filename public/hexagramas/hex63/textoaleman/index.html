@@ -233,7 +233,7 @@
     "keywords": ["I Ching","I Ging","Hexagramm 63","GI DSI","Nach der Vollendung","Richard Wilhelm","既濟"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "852"
+    "wordCount": "1260"
   }]
   </script>
 
@@ -341,345 +341,194 @@
   
   <div class="flex items-center ms-auto">
     <div class="hidden md:flex">
-      <nav class="flex items-center gap-x-5 h-12">
+      <nav class="flex items-center space-x-4">
   
     
       
-  
-    <div class="nested-menu">
-      <div class="cursor-pointer flex items-center">
-        <a
+        <div class="relative inline-block custom-menu-parent" id="menu-parent-0" style="padding-bottom: 10px; margin-bottom: -10px;">
+          <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" style="background: none; border: none; cursor: pointer;">
+            <span>Hexagramas</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
           
-            href="#"
-            
-          
-          aria-label="Hexagramas"
-          class="flex items-center text-base font-medium bf-icon-color-hover"
-          title="">
-          
-          <span class="text-bg font-bg break-normal" title="">
-            Hexagramas
-          </span>
-          <span>
-            <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-          </span>
-        </a>
-      </div>
-      <div class="menuhide">
-        <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl bg-neutral/25 dark:bg-neutral-800/25">
-          <div class="flex flex-col space-y-3">
-            
-              <a
-                href="/hexagramas/buscador-hexagramas-i-ching/"
-                
-                aria-label="Tabla Básica (8x8)"
-                class="flex items-center bf-icon-color-hover">
-                
-                <span class="text-sm font-sm" title="Tabla para buscar los hexagramas del I Ching">
-                  Tabla Básica (8x8)
-                </span>
-              </a>
-            
-              <a
-                href="/hexagramas/tabla-avanzada-correspondencias-i-ching/"
-                
-                aria-label="Tabla Avanzada (64 filas)"
-                class="flex items-center bf-icon-color-hover">
-                
-                <span class="text-sm font-sm" title="Tabla Avanzada de Correspondencias del I Ching">
-                  Tabla Avanzada (64 filas)
-                </span>
-              </a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    
-      
-  
-    <a
-      href="/articulos/"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="Artículos"
-      title="Artículos">
-      
-      
-        <span class="text-base font-medium break-normal">
-          Artículos
-        </span>
-      
-    </a>
-  
-
-    
-      
-  
-    <a
-      href="https://www.youtube.com/@ElIChingon"
-      
-        target="_blank"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="YouTube"
-      title="">
-      
-        <span class="mr-1">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span>
-        </span>
-      
-      
-        <span class="text-base font-medium break-normal">
-          YouTube
-        </span>
-      
-    </a>
-  
-
-    
-  
-
-  
-
-  
-
-  
-    <button
-      id="search-button"
-      aria-label="Search"
-      class="text-base bf-icon-color-hover"
-      title="Buscar (/)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-    </button>
-  
-
-  
-    <div class="flex items-center">
-      <button
-        id="appearance-switcher"
-        aria-label="Dark mode switcher"
-        type="button"
-        class="text-base bf-icon-color-hover">
-        <div class="flex items-center justify-center dark:hidden">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-        </div>
-        <div class="items-center justify-center hidden dark:flex">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-        </div>
-      </button>
-    </div>
-  
-</nav>
-
-
-
-    </div>
-    <div class="flex md:hidden">
-      <div class="flex items-center h-14 gap-4">
-  
-    <button
-      id="search-button-mobile"
-      aria-label="Search"
-      class="flex items-center justify-center bf-icon-color-hover"
-      title="Buscar (/)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-    </button>
-  
-
-  
-    <button
-      id="appearance-switcher-mobile"
-      type="button"
-      aria-label="Dark mode switcher"
-      class="flex items-center justify-center text-neutral-900 hover:text-primary-600 dark:text-neutral-200 dark:hover:text-primary-400">
-      <div class="dark:hidden">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-      </div>
-      <div class="hidden dark:block">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-      </div>
-    </button>
-  
-
-  
-    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
-    <label for="mobile-menu-toggle" class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
-      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-</span>
-    </label>
-
-    <div
-      role="dialog"
-      aria-modal="true"
-      style="scrollbar-gutter: stable;"
-      class="fixed inset-0 z-50 invisible overflow-y-auto px-6 py-20 opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100 bg-neutral-50/97 dark:bg-neutral-900/99
-      bf-scrollbar">
-      <label
-        for="mobile-menu-toggle"
-        class="fixed end-8 top-5 flex items-center justify-center z-50 h-12 w-12 cursor-pointer select-none rounded-full bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span>
-      </label>
-      <nav class="mx-auto max-w-md space-y-6">
-        
-  
-    
-    <div class="px-2">
-      <a
-        href="#"
-        aria-label="Hexagramas"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-        <span title="" class="text-2xl font-bold tracking-tight">
-          Hexagramas
-        </span>
-        
-          <label
-            for="fullscreen-submenu-hexagramas-parent"
-            class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
-            <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-          </label>
-        
-      </a>
-
-      
-        <input checked type="checkbox" id="fullscreen-submenu-hexagramas-parent" autocomplete="off" class="hidden peer/full">
-
-        <div
-          class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
-          <div class="overflow-hidden">
-            <div class="ms-7 mt-4">
+          <div id="menu-dropdown-0" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+               style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 200px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+            <div style="padding: 4px 0;">
               
-                <a
-                  href="/hexagramas/buscador-hexagramas-i-ching/"
-                  aria-label="Tabla Básica (8x8)"
-                  
-                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-                  
-                  <span title="Tabla para buscar los hexagramas del I Ching" class="text-lg">
-                    Tabla Básica (8x8)
-                  </span>
+                <a href="/hexagramas/buscador-hexagramas-i-ching/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Tabla Básica (8x8)
                 </a>
               
-                <a
-                  href="/hexagramas/tabla-avanzada-correspondencias-i-ching/"
-                  aria-label="Tabla Avanzada (64 filas)"
-                  
-                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-                  
-                  <span title="Tabla Avanzada de Correspondencias del I Ching" class="text-lg">
-                    Tabla Avanzada (64 filas)
-                  </span>
+                <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Tabla Avanzada (64 filas)
                 </a>
               
             </div>
           </div>
         </div>
       
-    </div>
-  
     
-    <div class="px-2">
-      <a
-        href="/articulos/"
-        aria-label="Artículos"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-        <span title="Artículos" class="text-2xl font-bold tracking-tight">
+      
+        <a href="/articulos/" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 ">
+          
           Artículos
-        </span>
-        
-      </a>
-
+        </a>
       
+    
+      
+        <a href="https://www.youtube.com/@ElIChingon" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube">
+          
+            <span class="inline-block align-text-bottom mr-1"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+          
+          YouTube
+        </a>
+      
+    
+  
+
+  <div class="relative inline-block custom-menu-parent" id="menu-parent-lang" style="padding-bottom: 10px; margin-bottom: -10px;">
+    <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" aria-label="Language Selector" style="background: none; border: none; cursor: pointer;">
+      <span style="font-size: 1.1rem; line-height: 1;">🌐</span>
+      <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div id="menu-dropdown-lang" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+         style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 160px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+      <div style="padding: 4px 0;">
+        
+          <a href="http://localhost:1313/hexagramas/hex63/textoaleman/" 
+             class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 font-bold text-primary-600 dark:text-primary-400" 
+             style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+            Español (ES)
+          </a>
+        
+      </div>
     </div>
+  </div>
+</nav>
+
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-menu-parent");
+    
+    parents.forEach(function (parent) {
+      
+      var dropdown = parent.querySelector(".custom-menu-dropdown");
+      if (!dropdown) return;
+
+      var timeoutId = null;
+
+      parent.addEventListener("mouseenter", function () {
+        clearTimeout(timeoutId);
+        dropdown.style.display = "block";
+      });
+
+      parent.addEventListener("mouseleave", function () {
+        timeoutId = setTimeout(function () {
+          dropdown.style.display = "none";
+        }, 150); 
+      });
+    });
+  })();
+</script>
+    </div>
+    <div class="flex md:hidden">
+      <nav class="flex flex-col space-y-4 pt-4 pb-6 px-4">
   
     
-    <div class="px-2">
-      <a
-        href="https://www.youtube.com/@ElIChingon"
-        aria-label="YouTube"
-        
-          target="_blank"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-          <span class="flex items-center justify-center h-8 w-8 text-2xl">
-            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span>
-          </span>
-        
-        <span title="" class="text-2xl font-bold tracking-tight">
+      
+        <div class="flex flex-col space-y-2 custom-mobile-parent" id="mob-parent-0">
+          <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+            <span>Hexagramas</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
+          
+          <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+            
+              <a href="/hexagramas/buscador-hexagramas-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
+                Tabla Básica (8x8)
+              </a>
+            
+              <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
+                Tabla Avanzada (64 filas)
+              </a>
+            
+          </div>
+        </div>
+      
+    
+      
+        <a href="/articulos/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400  py-1">
+          
+          Artículos
+        </a>
+      
+    
+      
+        <a href="https://www.youtube.com/@ElIChingon" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube py-1">
+          
+            <span class="inline-block align-text-bottom mr-2"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+          
           YouTube
-        </span>
-        
-      </a>
+        </a>
+      
+    
+  
 
+  <div class="flex flex-col space-y-2 pt-2 border-t border-neutral-200 dark:border-neutral-700 custom-mobile-parent" id="mob-parent-lang">
+    <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+      <span class="flex items-center gap-2">
+        <span style="font-size: 1.1rem; line-height: 1;">🌐</span> Idiomas
+      </span>
+      <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+      
+        <a href="http://localhost:1313/hexagramas/hex63/textoaleman/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1 font-bold text-primary-600 dark:text-primary-400">
+          Español (ES)
+        </a>
       
     </div>
-  
+  </div>
+</nav>
 
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-mobile-parent");
+    
+    parents.forEach(function (parent) {
+      var button = parent.querySelector("button");
+      var dropdown = parent.querySelector(".custom-mobile-dropdown");
+      var arrow = parent.querySelector(".custom-mobile-arrow");
+      if (!button || !dropdown) return;
+
+      button.addEventListener("click", function (e) {
+        e.preventDefault();
         
-  
-
         
-  
-    <div
-      class="flex flex-wrap items-center [&_span]:text-2xl [&_.translation_button_.icon]:text-4xl! [&_.translation_button_span]:text-base! [&_.translation_.menuhide_span]:text-sm! gap-x-6 ps-2 mt-8 pt-8 border-t bf-border-color">
-      
+        if (dropdown.style.display === "flex") {
+          dropdown.style.display = "none";
+          if (arrow) arrow.style.transform = "rotate(0deg)";
+        } else {
+          
+          document.querySelectorAll(".custom-mobile-dropdown").forEach(function(el) {
+            el.style.display = "none";
+          });
+          document.querySelectorAll(".custom-mobile-arrow").forEach(function(el) {
+            el.style.transform = "rotate(0deg)";
+          });
 
-
-      
-    </div>
-  
-
-      </nav>
-    </div>
-  
-</div>
-
-
-
-
-
-
-
+          
+          dropdown.style.display = "flex";
+          if (arrow) arrow.style.transform = "rotate(180deg)";
+        }
+      });
+    });
+  })();
+</script>
     </div>
   </div>
 </div>
@@ -795,10 +644,21 @@
           <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DFE;
 </p>
-<p>oben Kan, das Abgründige, das Wasser
-unten Li, das Haftende, das Feuer</p>
-<p>Das Zeichen bedeutet den Zustand nach dem Übergang von der Unordnung zur Ordnung, in dem alle Kräfte im Gleichgewicht sind uind die Ziele im Großen erreicht wurden. Alle starken Linien sind auf den ungeraden, alle schwachen auf den geraden Plätzen. Das ist ein Zustand vollkommener Balance.</p>
-<p>In der Natur ist das Wasser oben und das Feuer unten. Die Natur des Feuers ist es, emporzulodern, das Wasser sinkt nach unten. So begegnen sich ihre Wirkungen, und es entsteht die Zubereitung der Speisen. Doch dieses vollkommene Gleichgewicht birgt eine ernste Warnung: Wenn der Höhepunkt erst erreicht ist, beginnt das Gesetz des Umschwungs zu wirken.</p>
+
+<h3 class="relative group">Trigramme
+    <div id="trigramme" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#trigramme" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li>oben Kan, das Abgründige, das Wasser</li>
+<li>unten Li, das Haftende, das Feuer</li>
+</ul>
+<p>Das Zeichen ist die Ausgestaltung des Zeichens Tal, der Friede (Nr. II). Der Übergang aus der Verwirrung zur Ordnung ist vollzogen, und nun ist auch im einzelnen alles auf seinem Platz. Die starken Linien sind auf den starken, die schwachen Linien sind auf den schwachen Plätzen. Das ist ein sehr günstiger Aspekt. Allein er gibt doch zu denken. Gerade wenn das vollkommene Gleichgewicht erreicht ist, kann jede Bewegung dazu führen, daß aus dem Zustand der Ordnung wieder der Zerfall entsteht. Dem einen starken Strich, der nach oben gegangen ist und so die Ordnung im einzelnen vollkommen gemacht hat, folgen die anderen ihrer Natur entsprechend nach, und so entsteht dann plötzlich wieder das Zeichen Pi, die Stockung (Nr. 12). so deutet das Zeichen auf die Verhältnisse eines Höhepunktes, die äußerste Vorsicht nötig machen.</p>
 <hr>
 
 <h2 class="relative group">Das Urteil
@@ -810,13 +670,12 @@ unten Li, das Haftende, das Feuer</p>
     </span>
     
 </h2>
-<blockquote><p>Nach der Vollendung. Gelingen im Kleinen.
-Fördernd ist Beharrlichkeit.
-Anfangs Heil, am Ende Verwirrung.</p>
-</blockquote><p>Nachdem die große Tat vollbracht ist, verschiebt sich der Erfolg auf die Bewahrung des Erreichten im Kleinen durch fortlaufende Treue. Die Gefahr der Zeiten der Fülle liegt in der Neigung zu Erschlaffung und Nachlässigkeit. Anfangs geht alles von selbst voran uind das Heil herrscht. Wenn man jedoch die Wachsamkeit verliert yund die Zucht nachläßt, kehren die Kräfte der Unordnung allmählich zurück, und am Ende bricht die Verwirrung herein.</p>
+<blockquote><p>Gelingen im Kleinen. Fördernd ist Beharrlichkeit.
+Im Anfang Heil, am Ende Wirren.</p>
+</blockquote><p>Der Übergang von der alten in die neue Zeit ist schon vollzogen. Prinzipiell ist alles schon geregelt. Nur noch im einzelnen läßt sich Erfolg erzielen. Dabei kommt es jedoch darauf an, daß man stets die rechte Gesinnung wahrt. Es geht alles seinen Gang wie von selbst. Das verführt zu leicht dazu, daß man in seiner Anspannung erlahmt und die Dinge laufen läßt, ohne sich im einzelnen darum zu kümmern. Diese Gleichgültigkeit ist aber die Wurzel allen Übels. Aus ihr entspringen mit Notwendigkeit Verfallserscheinungen. Hier ist die Regel aufgestellt, wie es in der Geschichte zu gehen pflegt. Aber diese Regel ist kein unausweichliches Gesetz. Wer sie versteht, der vermag durch unausgesetzte Beständigkeit und Vorsicht ihre Wirkungen zu vermeiden.</p>
 <hr>
 
-<h2 class="relative group">DAS BILD
+<h2 class="relative group">Das Bild
     <div id="das-bild" class="anchor"></div>
     
     <span
@@ -825,10 +684,11 @@ Anfangs Heil, am Ende Verwirrung.</p>
     </span>
     
 </h2>
-<blockquote><p>Das Wasser ist oberhalb des Feuers: das Bild des Zustands nach dem Übergang.
-So überlegt der Edle die Unglücksfälle und sichert sich im voraus dagegen.</p>
-</blockquote><p>Wenn das Wasser über dem Feuer kocht, bedingen und bedrohen sie sich gegenseitig. Fließt das Wasser über, löscht es das Feuer; brennt das Feuer zu stark, verdampft das Wasser. Daraus entnimmt der Edle das Vorbild für das Verhalten en Zeiten des Erfolgs.</p>
-<p>Gerade wenn die Ordnung am vollkommensten erscheint, bereiten sich die Keime des Niedergangs im Verborgenen vor. Darum gibt sich der Edle keiner falschen Sicherheit hin. Er untersucht die verborgenen Gefahren der Gegenwart uind trifft rechtzeitig Vorsorge, ehe die Krise im Äußeren ausbricht.</p>
+<blockquote><p>Das Wasser ist oberhalb des Feuers:
+das Bild des Zustands nach der Vollendung.
+So bedenkt der Edle das Unglück
+und rüstet sich im voraus dagegen.</p>
+</blockquote><p>Wenn das Wasser im Kessel über dem Feuer hängt, so stehen beide Elemente in Beziehung, und es wird dadurch Kraft erzeugt. (Vgl. die Entstehung des Dampfes.) Allein die dadurch entstehende Spannung gebietet Vorsicht. Läuft das Wasser über, so wird das Feuer ausgelöscht, und seine Kraftwirkung geht verloren. Ist die Hitze zu groß, so verdampft das Wasser und geht in die Luft. Die Elemente, die hier in Beziehung zueinander stehen und so Kraft wirken, sind an sich einander feindlich. Nur die äußerste Vorsicht kann Schaden verhüten. So gibt es auch im Leben Verhältnisse, da alle Kräfte ausgeglichen sind und zusammenwirken und daher scheinbar alles in bester Ordnung ist. Der Weise allein erkennt in solchen Zeiten die Momente der Gefahr und weiß durch rechtzeitige Vorkehrungen sie zu bannen.</p>
 <hr>
 
 <h2 class="relative group">Die einzelnen Linien
@@ -840,35 +700,87 @@ So überlegt der Edle die Unglücksfälle und sichert sich im voraus dagegen.</p
     </span>
     
 </h2>
-<blockquote><p>Anfangs eine Neun bedeutet:
-Er bremst seine Räder. Er bekommt den Schwanz ins Wasser. Kein Makel.</p>
-</blockquote><p>In dem ersten Drang nach dem vollendeten Erfolg besteht die Versuchung, blindlings weiterzustürmen. Doch die Zeit fordert das Innehalten. Wie ein junger Fuchs, der beim Überqueren des Eises rechtzeitig bremst, so hält der Kluge inne. Wenn er auch im ersten Moment behindert wird uind den Schwanz benetzt, so bewahrt ihn das rechtzeitige Anhalten vor dem Einbruch uind hält ihn frei von Fehlern.</p>
-<hr>
-<blockquote><p>Sechs auf zweitem Platz bedeutet:
-Die Frau verliert den Vorhang ihres Wagens.
-Jage ihm nicht nach, am siebten Tage bekommst du ihn wieder.</p>
-</blockquote><p>Wenn jemand echte Fähigkeiten besitzt, aber die rechte Verbindung zu den führenden Kräften fehlt, bleibt er schutzlos den Angriffen der Mitwelt ausgesetzt. Es ist wie eine vornehme Frau, die den schützenden Vorhang ihres Wagens verliert.</p>
-<p>In dieser Lage darf man nicht versuchen, den Erfolg durch unwürdiges Werben um die Gunst der Mächtigen zu erzwingen. Man muß en der Stille abwarten. Die Zeit bewegt sich en geschlossenen Zyklen; bleibt man sich selbst treu, so wenden sich die Verhältnisse am siebten Tage von selbst, uind der Schutz kehrt zurück.</p>
-<hr>
-<blockquote><p>Neun auf drittem Platz bedeutet:
-Der Erhabene Ahnherr Gaozong züchtigt das Teufelsland.
-Nach drei Jahren besiegt er es. Geringe Menschen soll man nicht benützen.</p>
-</blockquote><p>Die Sicherung der Ordnung uind die Unterwerfung der destruktiven Kräfte fordern enorme Energie uind lange Zeit. Dies wird symbolisiert durch den dreijährigen Feldzug des Kaisers Gaozong gegen die Barbaren der Grenze.</p>
-<p>Eine solche Aufgabe verlangt starke Charaktere uind ausdauernde Kräfte. Man darf die Ausführung von Reformen oder den Schutz des Erreichten niemals gemeinen Menschen anvertrauen, da deren Eigennutz uind mangelnde Tiefe das Werk zerstören würden.</p>
-<hr>
-<blockquote><p>Sechs auf viertem Platz bedeutet:
-Die feinsten Kleider werden zu Lumpen. Den ganzen Tag sei auf der Hut.</p>
-</blockquote><p>Auch inmitten einer blühenden Kultur zeigen sich feine Risse, durch die das Verderben eindringen kann. Es ist wie bei einem Schiff, das ein Leck bekommt: Hat man nicht die nötigen Mittel zur Hand (wie Faserstoffe, die im Notfall zu Lumpen werden), sinkt es. In Friedenszeiten muß man unaufhörlich wachsam sein, um die kleinen Schäden sofort zu beheben, ehe sie den Bestand des Ganzen gefährden.</p>
-<hr>
-<blockquote><p>Neun auf fünftem Platz bedeutet:
-Der östliche Nachbar, der einen Ochsen schlachtet, hat nicht so viel wahren Segen
-wie der westliche Nachbar mit seinem kleinen Opfer.</p>
-</blockquote><p>Der Wert des menschlichen Handelns uind des Opfers liegt nicht en der äußeren Pracht, sondern en der inneren Wahrhaftigkeit. Der östliche Nachbar bringt ein großes, kostbares Opfer dar, doch es geschieht aus Stolz uind Berechnung.</p>
-<p>Der westliche Nachbar bringt nur eine kleine, bescheidene Gabe dar, weil es seine Armut nicht anders erlaubt, doch él opfert en tiefer Frömmigkeit uind echtem Glauben. Die Gottheit blickt nicht auf die Fülle, sondern auf das reine Herz. Die innere Aufrichtigkeit empfängt den wahren Segen.</p>
-<hr>
-<blockquote><p>Oben eine Sechs bedeutet:
-Er bekommt den Kopf ins Wasser. Gefahr.</p>
-</blockquote><p>Hier wird das unglückliche Ende der Nachlässigkeit gezeigt. Wer nach dem Erfolg den Blick für die Gefahr verliert yund sich unbesorgt dem Genuß hingibt, gleicht dem Fuchs, der beim Durchqueren des Flusses blindlings voranbricht uind mit dem Kopf unter Wasser gerät. Diese maßlose Unachtsamkeit führt unweigerlich en tiefe Gefahr uind ins Verderben.</p>
+
+<h3 class="relative group">Anfangs eine Neun bedeutet:
+    <div id="anfangs-eine-neun-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#anfangs-eine-neun-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Er hemmt seine Räder.
+Er kommt mit dem Schwanz ins Wasser.
+Kein Makel.</p>
+</blockquote><p>In Zeiten nach einem großen Übergang ist alles auf Fortschritt und Entwicklung aus und drängt voran. Aber dieses Vorwärtsdrängen zu Beginn ist nicht gut und führt sicher zu Verlust und Sturz indem man über das Ziel hinausschießt. Ein starker Charakter läßt sich daher durch den allgemeinen Schwindel nicht anstecken, sondern hemmt rechtzeitig seinen Lauf. So wird er wohl nicht ganz unberührt bleiben von den unheilvollen Folgen des allgemeinen Drängens, aber es trifft ihn nur von hinten wie einen Fuchs, der das Wasser schon überschritten hat und nur noch mit dem Schwanz ins Wasser kommt, und kann ihm nicht wesentlich schaden, da sein ,Verhalten das Richtige getroffen hat.</p>
+
+<h3 class="relative group">O Sechs auf zweitem Platz bedeutet:
+    <div id="o-sechs-auf-zweitem-platz-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#o-sechs-auf-zweitem-platz-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Die Frau verliert ihren Wagenvorhang.
+Lauf ihm nicht nach, am siebten Tage bekommst du es.</p>
+</blockquote><p>Wenn eine Frau im Wagen fuhr, hatte sie einen Vorhang, der sie den Blicken der Neugierigen verbarg. Kam dieser Vorhang abhanden, so wäre es gegen die gute Sitte gewesen, weiterzufahren. Auf das öffentliche Leben übertragen bedeutet es, daß einem, wenn man etwas leisten will, von maßgebender Seite nicht das Vertrauen entgegengebracht wird, dessen man sozusagen zu seinem persönlichen Schutz bedarf. Gerade in Zeiten nach der Vollendung kann man finden, daß die Herrschenden stolz und selbstbewußt werden und sich nicht mehr darum kümmern, unbekannten Talenten mit Aufmerksamkeit entgegenzukommen.</p>
+<p>Hieraus entsteht nun in der Regel die Streberei. Wenn einem von oben her kein Vertrauen entgegengebracht wird, so sucht man Mittel und Wege, um es zu finden und sich ans Licht zu bringen. Von einem solchen unwürdigen Verfahren wird jedoch abgeraten. »Such nicht danach.« Wirf dich nicht an die Außenwelt weg, sondern warte ruhig und bilde selbständig deinen persönlichen Wert aus. Die Zeiten ändern sich. Sind die sechs Stufen des Zeichens vorüber, so kommt die neue Ära. Was einem gehört, kann man nicht auf die Dauer verlieren. Es kommt ganz von selbst zu einem. Man muß nur warten können.</p>
+
+<h3 class="relative group">Neun auf drittem Platz bedeutet:
+    <div id="neun-auf-drittem-platz-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#neun-auf-drittem-platz-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Der hohe Ahn züchtigt das Teufelsland.
+Nach drei Jahren überwindet er es.
+Gemeine darf man nicht verwenden.</p>
+</blockquote><p>Der Hohe Ahne ist der dynastische Titel des Herrschers Wu Ding aus der Yin-Dynastie. Nachdem er mit starker Hand die Zustände im Reich geordnet hatte, führte er langwierige Kolonialkriege zur Unterwerfung der von Hunnen bewohnten nördlichen Grenzgebiete, aus denen dauernd Einfälle drohten. Die Situation, die gezeichnet ist, ist die, daß nach Zeiten der Vollendung, wenn eine neue Macht aufgekommen und im Innern alles in Ordnung ist, mit einer gewissen Notwendigkeit die koloniale Expansion beginnt. Hierbei ist in der Regel mit langwierigen Kämpfen zu rechnen. Aber dabei ist eine richtige Kolonialpolitik besonders wichtig. Man darf die sauer erworbenen Gebiete nicht als eine Versorgungsanstalt betrachten für Menschen die sich in der Heimat irgendwie unmöglich gemacht haben, aber für die Kolonien noch gerade gut genug sind. Dadurch verdirbt man von vornherein jeden Erfolg. Das gilt im Großen wie im Kleinen; denn nicht nur aufsteigende Staaten treiben Kolonialpolitik. Jeder aufstrebenden Unternehmung liegen der Trieb nach Expansion und die damit verbundenen Gefahren nahe.</p>
+
+<h3 class="relative group">Sechs auf viertem Platz bedeutet:
+    <div id="sechs-auf-viertem-platz-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sechs-auf-viertem-platz-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Die schönsten Kleider geben Lumpen.
+Den ganzen Tag sei vorsichtig.</p>
+</blockquote><p>In Zeiten der Kulturblüte kommen immer zuweilen Erschütterungen vor, die einen inneren Schaden der Gesellschaft aufdecken und dann zunächst allgemeines Aufsehen erregen. Da jedoch die allgemeine Lage günstig ist, lassen sich solche Schäden unschwer flicken und vor der Öffentlichkeit verheimlichen. Dann verschwindet wieder alles aus dem Gedächtnis, und es sieht so aus, als herrschte eitel Friede. Dem Denkenden jedoch sind solche Vorfälle ernste Winke, die er nicht vernachlässigt. Nur dadurch kann man die üblen Folgen abwenden.</p>
+
+<h3 class="relative group">Neun auf fünftem Platz bedeutet:
+    <div id="neun-auf-fünftem-platz-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#neun-auf-f%c3%bcnftem-platz-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Der Nachbar im Osten, der einen Ochsen schlachtet,
+bekommt nicht soviel wirkliches Glück
+wie der Nachbar im Westen mit seinem kleinen Opfer.</p>
+</blockquote><p>Auch die religiöse Haltung wird durch die seelische Stimmung in Zeiten nach der Vollendung beeinflußt. An Stelle der einfachen alten Formen tritt bei den Gottesdiensten immer reichere Ausgestaltung und immer größerer äußerer Prunk. Aber dieser Prachtentfaltung fehlt der innere Ernst. Menschliche Willkür tritt an die Stelle des gewissenhaften Innehaltens des göttlichen Willens. Aber während der Mensch sieht, was vor Augen ist, sieht Gott das Herz an. Darum ruht nicht soviel Segen auf dem mächtigen, aber kalten Gottesdienste, wie auf einem einfachen, frommen Opfer ruht.</p>
+
+<h3 class="relative group">Oben eine Sechs bedeutet:
+    <div id="oben-eine-sechs-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#oben-eine-sechs-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Er kommt mit dem Haupt ins Wasser. Gefahr.</p>
+</blockquote><p>Hier ist zum Schluß nochmals eine Warnung beigefügt. Nach dem Übergang über ein Wasser kann man nur dann mit dem Kopf ins Wasser kommen, wenn man sich leichtsinnig wieder dem Wasser zuwendet. Solange man vorwärts schreitet und nicht zurücksieht, entgeht man dieser Gefahr. Allein es liegt etwas Verlockendes darin, stehenzubleiben und auf die überwundene Gefahr zurückzublicken. Solche eitle Selbstbespiegelung bringt aber kein Glück. Man gerät dadurch in Gefahr, und wenn man sich nicht noch entschließt, unaufhaltsam fortzuschreiten, so fällt man dieser Gefahr zum Opfer.</p>
 <hr>
 
 <h2 class="relative group">Referenzlinks
@@ -881,8 +793,8 @@ Er bekommt den Kopf ins Wasser. Gefahr.</p>
     
 </h2>
 <ul>
-<li><a href="/hexagramas/buscador-hexagramas-i-ching/" >Zurück zur Hexagramm-Suchtabelle</a></li>
-<li><a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" >Erweiterte Entsprechungen anzeigen</a></li>
+<li><a href="/de/hexagramme/i-ging-nachschlagetabelle/" >Zurück zur Hexagramm-Suchtabelle</a></li>
+<li><a href="/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/" >Erweiterte Entsprechungen anzeigen</a></li>
 </ul>
 
           
@@ -950,7 +862,7 @@ Er bekommt den Kopf ins Wasser. Gefahr.</p>
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
                 href="/licencias/"
-                title="">
+                title="Arquitectura de Licencias de elichingon.com">
                 
                 Licencias
               </a>
@@ -959,8 +871,8 @@ Er bekommt den Kopf ins Wasser. Gefahr.</p>
             <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/verificar"
-                title="">
+                href="/verificar/"
+                title="Verificación de autenticidad">
                 
                 Verificar
               </a>

@@ -8,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+slug: "hex40"
+translationKey: "hex40"
 ---
 
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">

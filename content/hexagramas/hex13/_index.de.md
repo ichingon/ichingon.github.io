@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex13/textoaleman
 title: "Hexagramm 13 同人 - TUNG JEN / GEMEINSCHAFT MIT MENSCHEN"
 weight: 15
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex13/"
+translationKey: "hex13"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DCC;
@@ -92,5 +92,5 @@ Es fehlt hier der warme Anschluß des Herzens. Man steht eigentlich schon außer
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex27/textoaleman
 title: "Hexagramm 27 頤 - I / DIE MUNDWINKEL (DIE ERNÄHRUNG)"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 27 (I) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex27/"
+translationKey: "hex27"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DDA;
@@ -90,5 +90,5 @@ Es ist hier ein Weiser höchster Art, von dem alle Einflüsse ausgehen, die für
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

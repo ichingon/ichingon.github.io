@@ -25,6 +25,7 @@ enableRobotsTXT = true
   images = ["img/featured.jpg"]
 
 [params]
+  showLanguageSelector = false
   title = "El I Chingón"
   defaultAppearance = "dark" 
   allowAppearanceChange = true 
@@ -36,7 +37,7 @@ enableRobotsTXT = true
   math = true
   showAuthor = true
   showAuthorBottom = true
-  mainSections = ["articulos", "hexagramas", "licencias"]
+  mainSections = ["articulos", "hexagramas", "licencias", "verificar"]
 
 [params.author]
     name = "Dailingna Romero"
@@ -45,6 +46,8 @@ enableRobotsTXT = true
 # 2. Personalización Visual del Menú
 [params.header]
   layout = "basic"
+  languageSelector = false
+  languageSelectorType = ""
 
 [params.footer]
   showCopyright = true
@@ -54,10 +57,11 @@ enableRobotsTXT = true
 # 3. La Estrategia de Idiomas e Internacionalización con Menús
 [languages]
   [languages.es]
-    languageName = "Español"
+    name = "ES"
     weight = 1
     title = "El I Chingón"
     [languages.es.params]
+      langName = "ES"
       title = "El I Chingón"
       description = "El I Ching visto como un protocolo de información descentralizado. Una intersección de la filosofía, el sincronismo, las matemáticas y las ciencias de la computación."
     [languages.es.author]
@@ -102,13 +106,12 @@ enableRobotsTXT = true
       url = "https://www.youtube.com/@ElIChingon"
       pre = "youtube"
       weight = 3
-      [languages.es.menu.main.params]
-        class = "nav-btn-youtube"
+      params = { class = "nav-btn-youtube" }
 
     # === MENÚ FOOTER EN ESPAÑOL ===
     [[languages.es.menu.footer]]
       name = "Licencias"
-      url = "/licencias/"
+      pageRef = "licencias"
       weight = 1
 
 #    [[languages.es.menu.footer]]
@@ -118,7 +121,7 @@ enableRobotsTXT = true
 #
     [[languages.es.menu.footer]]
       name = "Verificar"
-      url = "/verificar"
+      pageRef = "verificar"
       weight = 3
 
     [[languages.es.menu.footer]]
@@ -127,16 +130,21 @@ enableRobotsTXT = true
       weight = 4
 
   [languages.en]
-    languageName = "English"
+    name = "EN"
     weight = 2
     title = "I Chingon"
 
 # === REGLA DE PERMALINKS PARA EL ENTORNO INGLÉS ===
     [languages.en.permalinks]
       articulos = "/articles/:slug/"
+      "articulos.sections" = "/articles/"
       hexagramas = "/hexagrams/:slug/"
+      "hexagramas.sections" = "/hexagrams/"
+      licencias = "/licences/"    
+      verificar = "/verify/"
 
     [languages.en.params]
+      langName = "EN"
       title = "I Chingon"
       description = "The I Ching as a decentralized information protocol. An intersection of philosophy, synchronicity, mathematics, and computer science."
     [languages.en.author]
@@ -181,13 +189,12 @@ enableRobotsTXT = true
       url = "https://www.youtube.com/@ElIChingon"
       pre = "youtube"
       weight = 3
-      [languages.en.menu.main.params]
-        class = "nav-btn-youtube"
+      params = { class = "nav-btn-youtube" }
 
     # === MENÚ FOOTER EN INGLÉS ===
     [[languages.en.menu.footer]]
       name = "Licenses"
-      url = "/licences/"
+      pageRef = "licencias"
       weight = 1
 
 #    [[languages.en.menu.footer]]
@@ -197,7 +204,7 @@ enableRobotsTXT = true
 #
     [[languages.en.menu.footer]]
       name = "Verify"
-      url = "/verify"
+      pageRef = "verificar"
       weight = 3
 
     [[languages.en.menu.footer]]
@@ -206,15 +213,21 @@ enableRobotsTXT = true
       weight = 4
 
   [languages.de]
-    languageName = "Deutsch"
+    name = "DE"
     weight = 3
     title = "I Chingon"
 
 # === REGLA DE PERMALINKS PARA EL ENTORNO ALEMÁN ===
     [languages.de.permalinks]
       hexagramas = "/hexagramme/:slug/"
+      "hexagramas.sections" = "/hexagramme/"
+      articulos = "/artikel/:slug/"
+      "articulos.sections" = "/artikel/"
+      licencias = "/lizenzen/"
+      verificar = "/verifizieren/"
 
     [languages.de.params]
+      langName = "DE"
       title = "I Chingon"
       description = "Das I Ging als dezentralisiertes Informationsprotokoll. Eine Schnittstelle von Philosophie, Synchronizität, Mathematik und Informatik."
     [languages.de.author]
@@ -259,13 +272,12 @@ enableRobotsTXT = true
       url = "https://www.youtube.com/@ElIChingon"
       pre = "youtube"
       weight = 3
-      [languages.de.menu.main.params]
-        class = "nav-btn-youtube"
+      params = { class = "nav-btn-youtube" }
 
     # === FUSSZEILEN-MENÜ AUF DEUTSCH ===
     [[languages.de.menu.footer]]
       name = "Lizenzen"
-      url = "/lizenzen/"
+      pageRef = "licencias"
       weight = 1
 
 #    [[languages.de.menu.footer]]
@@ -275,7 +287,7 @@ enableRobotsTXT = true
 #
     [[languages.de.menu.footer]]
       name = "Verifizieren"
-      url = "/verifizieren"
+      pageRef = "verificar"
       weight = 3
 
     [[languages.de.menu.footer]]

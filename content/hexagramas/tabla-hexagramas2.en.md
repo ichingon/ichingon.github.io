@@ -1,5 +1,6 @@
 ---
 title: "Advanced I Ching Hexagram Correspondence Table"
+translationKey: "tabla-avanzada"
 weight: 2
 description: "Advanced structural matrix of the 64 I Ching hexagrams. Includes nuclear hexagrams (Hu Gua) and geometric mapping to Fu Xi's Earlier Heaven sequence."
 date: 2026-05-27

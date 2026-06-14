@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex58/textoaleman
 title: "Hexagramm 58 兌 - TUI / DAS HEITERE"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 58 (TUI) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex58/"
+translationKey: "hex58"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DF9;
@@ -77,5 +77,5 @@ Wenn man innerlich eitel ist, so lockt man die Freuden der Zerstreuung an und ha
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

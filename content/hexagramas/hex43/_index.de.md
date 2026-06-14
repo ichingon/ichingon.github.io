@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex43/textoaleman
 title: "Hexagramm 43 夬 - GUAI / DER DURCHBRUCH (DIE ENTSCHLOSSENHEIT)"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 43 (GUAI) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex43/"
+translationKey: "hex43"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DEA;
@@ -101,5 +101,5 @@ Der Sieg scheint errungen zu sein. Es ist nur noch ein Rest übrig von dem Böse
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

@@ -1,5 +1,6 @@
 ---
 title: "Verificación de autenticidad"
+translationKey: "verificar"
 description: "Cómo verificar criptográficamente que el contenido de elichingon.com es auténtico, no ha sido alterado y proviene realmente de Dailingna Romero."
 date: 2026-06-07
 draft: false

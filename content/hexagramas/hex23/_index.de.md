@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex23/textoaleman
 title: "Hexagramm 23 剝 - BO / DIE ZERFALLENHEIT"
 weight: 25
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex23/"
+translationKey: "hex23"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DD6;
@@ -83,5 +83,5 @@ Hier ist das Ende der Zersplitterung erreicht. Wenn sich das Unheil ausgetobt ha
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

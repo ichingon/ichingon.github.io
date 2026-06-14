@@ -1,9 +1,9 @@
 ---
 title: "Lizenzarchitektur von elichingon.com"
+translationKey: "licencias"
 description: "Immaterialgüterrechtliche Struktur und Open-Content-Lizenzen von elichingon.com"
 date: 2026-06-13
 draft: false
-url : "/lizenzen/"
 showDate: false
 showReadingTime: false
 showWordCount: false

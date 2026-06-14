@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex34/textoaleman
 title: "Hexagramm 34 大壯 - DA DSCHUANG / DES GROSSEN MACHT"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 34 (DA DSCHUANG) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex34/"
+translationKey: "hex34"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DE1;
@@ -96,5 +96,5 @@ Wenn man sich zu weit vorwagt, so kommt man an einen toten Punkt, wo man weder v
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

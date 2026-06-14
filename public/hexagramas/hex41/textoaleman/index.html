@@ -233,7 +233,7 @@
     "keywords": ["I Ching","I Ging","Hexagramm 41","SUN","Die Minderung","Richard Wilhelm","損"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "820"
+    "wordCount": "940"
   }]
   </script>
 
@@ -341,345 +341,194 @@
   
   <div class="flex items-center ms-auto">
     <div class="hidden md:flex">
-      <nav class="flex items-center gap-x-5 h-12">
+      <nav class="flex items-center space-x-4">
   
     
       
-  
-    <div class="nested-menu">
-      <div class="cursor-pointer flex items-center">
-        <a
+        <div class="relative inline-block custom-menu-parent" id="menu-parent-0" style="padding-bottom: 10px; margin-bottom: -10px;">
+          <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" style="background: none; border: none; cursor: pointer;">
+            <span>Hexagramas</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
           
-            href="#"
-            
-          
-          aria-label="Hexagramas"
-          class="flex items-center text-base font-medium bf-icon-color-hover"
-          title="">
-          
-          <span class="text-bg font-bg break-normal" title="">
-            Hexagramas
-          </span>
-          <span>
-            <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-          </span>
-        </a>
-      </div>
-      <div class="menuhide">
-        <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl bg-neutral/25 dark:bg-neutral-800/25">
-          <div class="flex flex-col space-y-3">
-            
-              <a
-                href="/hexagramas/buscador-hexagramas-i-ching/"
-                
-                aria-label="Tabla Básica (8x8)"
-                class="flex items-center bf-icon-color-hover">
-                
-                <span class="text-sm font-sm" title="Tabla para buscar los hexagramas del I Ching">
-                  Tabla Básica (8x8)
-                </span>
-              </a>
-            
-              <a
-                href="/hexagramas/tabla-avanzada-correspondencias-i-ching/"
-                
-                aria-label="Tabla Avanzada (64 filas)"
-                class="flex items-center bf-icon-color-hover">
-                
-                <span class="text-sm font-sm" title="Tabla Avanzada de Correspondencias del I Ching">
-                  Tabla Avanzada (64 filas)
-                </span>
-              </a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    
-      
-  
-    <a
-      href="/articulos/"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="Artículos"
-      title="Artículos">
-      
-      
-        <span class="text-base font-medium break-normal">
-          Artículos
-        </span>
-      
-    </a>
-  
-
-    
-      
-  
-    <a
-      href="https://www.youtube.com/@ElIChingon"
-      
-        target="_blank"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="YouTube"
-      title="">
-      
-        <span class="mr-1">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span>
-        </span>
-      
-      
-        <span class="text-base font-medium break-normal">
-          YouTube
-        </span>
-      
-    </a>
-  
-
-    
-  
-
-  
-
-  
-
-  
-    <button
-      id="search-button"
-      aria-label="Search"
-      class="text-base bf-icon-color-hover"
-      title="Buscar (/)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-    </button>
-  
-
-  
-    <div class="flex items-center">
-      <button
-        id="appearance-switcher"
-        aria-label="Dark mode switcher"
-        type="button"
-        class="text-base bf-icon-color-hover">
-        <div class="flex items-center justify-center dark:hidden">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-        </div>
-        <div class="items-center justify-center hidden dark:flex">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-        </div>
-      </button>
-    </div>
-  
-</nav>
-
-
-
-    </div>
-    <div class="flex md:hidden">
-      <div class="flex items-center h-14 gap-4">
-  
-    <button
-      id="search-button-mobile"
-      aria-label="Search"
-      class="flex items-center justify-center bf-icon-color-hover"
-      title="Buscar (/)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-    </button>
-  
-
-  
-    <button
-      id="appearance-switcher-mobile"
-      type="button"
-      aria-label="Dark mode switcher"
-      class="flex items-center justify-center text-neutral-900 hover:text-primary-600 dark:text-neutral-200 dark:hover:text-primary-400">
-      <div class="dark:hidden">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-      </div>
-      <div class="hidden dark:block">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-      </div>
-    </button>
-  
-
-  
-    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
-    <label for="mobile-menu-toggle" class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
-      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-</span>
-    </label>
-
-    <div
-      role="dialog"
-      aria-modal="true"
-      style="scrollbar-gutter: stable;"
-      class="fixed inset-0 z-50 invisible overflow-y-auto px-6 py-20 opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100 bg-neutral-50/97 dark:bg-neutral-900/99
-      bf-scrollbar">
-      <label
-        for="mobile-menu-toggle"
-        class="fixed end-8 top-5 flex items-center justify-center z-50 h-12 w-12 cursor-pointer select-none rounded-full bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span>
-      </label>
-      <nav class="mx-auto max-w-md space-y-6">
-        
-  
-    
-    <div class="px-2">
-      <a
-        href="#"
-        aria-label="Hexagramas"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-        <span title="" class="text-2xl font-bold tracking-tight">
-          Hexagramas
-        </span>
-        
-          <label
-            for="fullscreen-submenu-hexagramas-parent"
-            class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
-            <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-          </label>
-        
-      </a>
-
-      
-        <input checked type="checkbox" id="fullscreen-submenu-hexagramas-parent" autocomplete="off" class="hidden peer/full">
-
-        <div
-          class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
-          <div class="overflow-hidden">
-            <div class="ms-7 mt-4">
+          <div id="menu-dropdown-0" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+               style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 200px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+            <div style="padding: 4px 0;">
               
-                <a
-                  href="/hexagramas/buscador-hexagramas-i-ching/"
-                  aria-label="Tabla Básica (8x8)"
-                  
-                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-                  
-                  <span title="Tabla para buscar los hexagramas del I Ching" class="text-lg">
-                    Tabla Básica (8x8)
-                  </span>
+                <a href="/hexagramas/buscador-hexagramas-i-ching/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Tabla Básica (8x8)
                 </a>
               
-                <a
-                  href="/hexagramas/tabla-avanzada-correspondencias-i-ching/"
-                  aria-label="Tabla Avanzada (64 filas)"
-                  
-                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-                  
-                  <span title="Tabla Avanzada de Correspondencias del I Ching" class="text-lg">
-                    Tabla Avanzada (64 filas)
-                  </span>
+                <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Tabla Avanzada (64 filas)
                 </a>
               
             </div>
           </div>
         </div>
       
-    </div>
-  
     
-    <div class="px-2">
-      <a
-        href="/articulos/"
-        aria-label="Artículos"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-        <span title="Artículos" class="text-2xl font-bold tracking-tight">
+      
+        <a href="/articulos/" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 ">
+          
           Artículos
-        </span>
-        
-      </a>
-
+        </a>
       
+    
+      
+        <a href="https://www.youtube.com/@ElIChingon" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube">
+          
+            <span class="inline-block align-text-bottom mr-1"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+          
+          YouTube
+        </a>
+      
+    
+  
+
+  <div class="relative inline-block custom-menu-parent" id="menu-parent-lang" style="padding-bottom: 10px; margin-bottom: -10px;">
+    <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" aria-label="Language Selector" style="background: none; border: none; cursor: pointer;">
+      <span style="font-size: 1.1rem; line-height: 1;">🌐</span>
+      <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div id="menu-dropdown-lang" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+         style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 160px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+      <div style="padding: 4px 0;">
+        
+          <a href="http://localhost:1313/hexagramas/hex41/textoaleman/" 
+             class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 font-bold text-primary-600 dark:text-primary-400" 
+             style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+            Español (ES)
+          </a>
+        
+      </div>
     </div>
+  </div>
+</nav>
+
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-menu-parent");
+    
+    parents.forEach(function (parent) {
+      
+      var dropdown = parent.querySelector(".custom-menu-dropdown");
+      if (!dropdown) return;
+
+      var timeoutId = null;
+
+      parent.addEventListener("mouseenter", function () {
+        clearTimeout(timeoutId);
+        dropdown.style.display = "block";
+      });
+
+      parent.addEventListener("mouseleave", function () {
+        timeoutId = setTimeout(function () {
+          dropdown.style.display = "none";
+        }, 150); 
+      });
+    });
+  })();
+</script>
+    </div>
+    <div class="flex md:hidden">
+      <nav class="flex flex-col space-y-4 pt-4 pb-6 px-4">
   
     
-    <div class="px-2">
-      <a
-        href="https://www.youtube.com/@ElIChingon"
-        aria-label="YouTube"
-        
-          target="_blank"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-          <span class="flex items-center justify-center h-8 w-8 text-2xl">
-            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span>
-          </span>
-        
-        <span title="" class="text-2xl font-bold tracking-tight">
+      
+        <div class="flex flex-col space-y-2 custom-mobile-parent" id="mob-parent-0">
+          <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+            <span>Hexagramas</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
+          
+          <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+            
+              <a href="/hexagramas/buscador-hexagramas-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
+                Tabla Básica (8x8)
+              </a>
+            
+              <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
+                Tabla Avanzada (64 filas)
+              </a>
+            
+          </div>
+        </div>
+      
+    
+      
+        <a href="/articulos/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400  py-1">
+          
+          Artículos
+        </a>
+      
+    
+      
+        <a href="https://www.youtube.com/@ElIChingon" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube py-1">
+          
+            <span class="inline-block align-text-bottom mr-2"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+          
           YouTube
-        </span>
-        
-      </a>
+        </a>
+      
+    
+  
 
+  <div class="flex flex-col space-y-2 pt-2 border-t border-neutral-200 dark:border-neutral-700 custom-mobile-parent" id="mob-parent-lang">
+    <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+      <span class="flex items-center gap-2">
+        <span style="font-size: 1.1rem; line-height: 1;">🌐</span> Idiomas
+      </span>
+      <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+      
+        <a href="http://localhost:1313/hexagramas/hex41/textoaleman/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1 font-bold text-primary-600 dark:text-primary-400">
+          Español (ES)
+        </a>
       
     </div>
-  
+  </div>
+</nav>
 
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-mobile-parent");
+    
+    parents.forEach(function (parent) {
+      var button = parent.querySelector("button");
+      var dropdown = parent.querySelector(".custom-mobile-dropdown");
+      var arrow = parent.querySelector(".custom-mobile-arrow");
+      if (!button || !dropdown) return;
+
+      button.addEventListener("click", function (e) {
+        e.preventDefault();
         
-  
-
         
-  
-    <div
-      class="flex flex-wrap items-center [&_span]:text-2xl [&_.translation_button_.icon]:text-4xl! [&_.translation_button_span]:text-base! [&_.translation_.menuhide_span]:text-sm! gap-x-6 ps-2 mt-8 pt-8 border-t bf-border-color">
-      
+        if (dropdown.style.display === "flex") {
+          dropdown.style.display = "none";
+          if (arrow) arrow.style.transform = "rotate(0deg)";
+        } else {
+          
+          document.querySelectorAll(".custom-mobile-dropdown").forEach(function(el) {
+            el.style.display = "none";
+          });
+          document.querySelectorAll(".custom-mobile-arrow").forEach(function(el) {
+            el.style.transform = "rotate(0deg)";
+          });
 
-
-      
-    </div>
-  
-
-      </nav>
-    </div>
-  
-</div>
-
-
-
-
-
-
-
+          
+          dropdown.style.display = "flex";
+          if (arrow) arrow.style.transform = "rotate(180deg)";
+        }
+      });
+    });
+  })();
+</script>
     </div>
   </div>
 </div>
@@ -806,10 +655,10 @@
     
 </h3>
 <ul>
-<li><strong>Oben:</strong> Li, das Haftende, die Flamme</li>
-<li><strong>Unten:</strong> Gen, das Stillehalten, der Berg</li>
+<li>oben Gen, Das Stillehalten, der Berg</li>
+<li>unten Dui, das Heitere, der See</li>
 </ul>
-<p>Das Zeichen bedeutet eine Minderung der unteren Figur zugunsten der oberen, denn der unterste starke Strich der oberen Figur ist nach unten gesunken, und der oberste starke Strich der unteren Figur ist nach oben gestiegen. Das bedeutet ein Mindern des Unteren und ein Mehren des Oberen. Das ist eine Minderung, die zur rechten Zeit geschieht. Wenn das Fundament eines Hauses verringert wird, um die oberen Stockwerke zu verstärken, so ist das eine Minderung, die dem Ganzen dient. Auf das Seelenleben angewandt bedeutet das Zeichen die Minderung der Sinnlichkeit zugunsten der geistigen Kräfte.</p>
+<p>Das Zeichen stellt eine Minderung des unteren Zeichens zugunsten des oberen dar, indem der dritte, ursprünglich starke Strich nach oben gegangen ist und der ursprünglich schwache obere Strich an seine Stelle getreten ist. Das Untere wird also auf Kosten des Oberen vermindert. Das aber ist Verminderung schlechthin. Wenn man das Fundament eines Bauwerks vermindert und seine oberen Mauern verstärkt, so verliert das Ganze an Festigkeit. Ebenso ist eine Minderung des Volkswohlstands zugunsten der Regierung eine Verminderung schlechthin. Und die ganze Tendenz des Zeichens geht dahin, darauf hinzuweisen wie diese Wohlstandsverschiebung vor sich gehen kann, ohne daß die Quellen des Wohlstands im Volk und seinen unteren Ständen dadurch versiegen.</p>
 <hr>
 
 <h2 class="relative group">Das Urteil
@@ -821,8 +670,13 @@
     </span>
     
 </h2>
-<blockquote><p>Die Minderung verbunden mit Wahrhaftigkeit wirkt erhabenes Gelingen ohne Makel. Beharrlichkeit ist fördernd. Fördernd ist es, etwas zu unternehmen. Wie wendet man das an? Auch mit zwei Schüsselchen kann man opfern.</p>
-</blockquote><p>Wenn man wahrhaftig ist, so hat man auch in Zeiten der Minderung Gelingen. Man braucht sich nicht vor Vorwürfen zu fürchten. Wenn man die innere Festigkeit hat, so kann man auch unter einfachen Verhältnissen Großes leisten. Bei einem Opfer kommt es nicht auf den äußeren Prunk an, sondern auf die Aufrichtigkeit des Herzens. Wenn die Gesinnung wahrhaftig ist, so genügen auch zwei einfache Schüsselchen, um den Göttern ein wohlgefälliges Opfer darzubringen. So ist es auch im Leben: Wenn die Zeiten eine Minderung verlangen, so soll man sich nicht scheuen, im Äußeren einfach zu sein, sofern nur die innere Kraft und Wahrheit ungeschmälert bleiben<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<blockquote><p>Minderung verbunden mit
+Wahrhaftigkeit wirkt erhabenes Heil ohne Makel.
+Man kann darin beharrlich sein.
+Fördernd ist es, etwas zu unternehmen.
+Wie übt man das aus?
+Zwei kleine Schüsselchen mag man benützen zum Opfer.</p>
+</blockquote><p>Minderung bedeutet nicht unter allen Umständen etwas Schlechtes. Mehrung und Minderung kommen zu ihrer Zeit. Da gilt es, sich in die Zeit zu Enden und die Armut nicht durch leeren Schein verdecken zu wollen. Wenn durch eine Zeit der geringen Dinge eine innere Wahrheit zum Ausdruck kommt, so darf man sich der Einfachheit nicht schämen. Sie ist dann gerade das richtige, das innere Kraft verleiht, durch die man dann wieder etwas unternehmen kann. Man darf selbst kein Bedenken tragen, wenn die äußere Schönheit der Kultur, ja selbst die Ausgestaltung religiöser Beziehungen unter der Einfachheit zu leiden hätte. Man muß von der Stärke der inneren Gesinnung etwas nehmen und es der Dürftigkeit der äußeren Erscheinung als Ersatz zulegen. Dann hilft die Kraft des Gehalts über die Schlichtheit der Form hinweg. Vor Gott bedarf es nicht des falschen Scheins. Auch mit geringen Mitteln läßt sich die Gesinnung des Herzens zum Ausdruck bringen.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <hr>
 
 <h2 class="relative group">Das Bild
@@ -834,8 +688,9 @@
     </span>
     
 </h2>
-<blockquote><p>Das Feuer auf dem Berge: das Bild der Minderung. So bändigt der Edle seinen Zorn und beherrscht seine Triebe.</p>
-</blockquote><p>Das Feuer auf dem Berge verbrennt alles, was auf ihm wächst, und mindert so den Ertrag des Berges. Das gibt dem Edlen das Vorbild dafür, wie er mit seinen Leidenschaften verfahren soll. Er muß seinen Zorn bändigen, der wie ein verzehrendes Feuer wirkt, und seine Triebe beherrschen, damit die geistige Klarheit nicht getrübt wird. Durch das Mindern des Wilden und Rohen in der eigenen Natur wird das Höhere im Menschen gestärkt.</p>
+<blockquote><p>Unten am Berg ist der See: das Bild der Minderung.
+So bändigt der Edle seinen Zorn und hemmt seine Triebe.</p>
+</blockquote><p>Der See unten am Berg verdunstet. Dadurch wird er gemindert zu Gunsten des Bergs, der durch seine Feuchtigkeit bereichert wird. Der Berg ist das Bild eigensinniger Stärke, die sich zum Zorn verdichten kann, der See ist das Bild der unkontrollierten Lustigkeit, die sich zu leidenschaftlichen Trieben entwickeln kann, wenn sie auf Kosten der Lebenskräfte sich entwickelt. Da gilt es zu mindern: Der Zorn muß durch Stillehalten gemindert werden, die Triebe müssen durch Einschränkung gehemmt werden. Durch diese Minderung der niederen Seelenkräfte werden die höheren Seiten der Seele bereichert.</p>
 <hr>
 
 <h2 class="relative group">Die einzelnen Linien
@@ -857,8 +712,10 @@
     </span>
     
 </h3>
-<blockquote><p>Ist das Geschäft zu Ende, rasch hingehen; kein Makel. Doch gilt es zu erwägen, wieviel man mindern darf.</p>
-</blockquote><p>Wenn man seine eigenen Pflichten erfüllt hat, ist es edel, seine Kraft anderen zur Verfügung zu stellen, die Hilfe brauchen. Aber man darf dabei nicht unüberlegt vorgehen. Man muß prüfen, wie weit man dem anderen helfen kann, ohne sich selbst dabei zu schädigen oder dem anderen die eigene Verantwortung abzunehmen.</p>
+<blockquote><p>Wenn die Geschäfte fertig sind, rasch hingehen,
+ist kein Makel. Doch muß man überlegen,
+wie weit man andere mindern darf.</p>
+</blockquote><p>Es ist selbstlos und gut, wenn man nach Erledigung der unmittelbar wichtigen eigenen Aufgaben seine Kraft in den Dienst der anderen stellt und, ohne viel daraus zu machen oder zu prahlen, rasch hilft, wo zu helfen ist. Aber der Mann an höherer Stelle, dem so geholfen wird, muß wohl überlegen, wieviel er annehmen darf, ohne den hilfreichen Diener oder Freund im wesentlichen zu schädigen. Nur wo solches Zartgefühl vorhanden ist, kann man sich ohne Bedenken unbedingt geben.</p>
 
 <h3 class="relative group">Neun auf zweitem Platz bedeutet:
     <div id="neun-auf-zweitem-platz-bedeutet" class="anchor"></div>
@@ -869,8 +726,11 @@
     </span>
     
 </h3>
-<blockquote><p>Fördernd ist Beharrlichkeit. Aufbrechen bringt Unheil. Ohne sich selbst zu mindern, vermag man andere zu mehren.</p>
-</blockquote><p>Wenn man anderen dienen will, darf man nicht seine eigene Würde und Selbständigkeit aufgeben. Eine kriecherische Haltung schadet dem eigenen Charakter und nützt auch dem anderen nichts auf die Dauer. Nur wer in sich selbst fest und treu bleibt, kann eine wirkliche Stütze für andere sein. Ein unüberlegtes Vorgehen aus bloßem Gefälligkeitstrieb bringt Unheil.</p>
+<blockquote><p>Fördernd ist Beharrlichkeit.
+Etwas zu unternehmen, ist von Unheil
+Ohne sich selbst zu mindern,
+vermag man die andern zu mehren.</p>
+</blockquote><p>Ein edles Selbstbewußtsein und konsequenter Ernst, der sich nichts vergibt, ist die Gesinnung, die notwendig ist, wenn man andern dienen will. Wer sich wegwirft, um einem Höheren zu Willen zu sein, der mindert zwar seine eigene Stellung, ohne aber dem andern dauernd zu nützen. Das aber ist vom Übel. Ohne sich selbst aufzugeben, dem andern zu dienen, das erst ist der wahre Dienst von dauerndem Wert.</p>
 
 <h3 class="relative group">Sechs auf drittem Platz bedeutet:
     <div id="sechs-auf-drittem-platz-bedeutet" class="anchor"></div>
@@ -881,8 +741,11 @@
     </span>
     
 </h3>
-<blockquote><p>Wenn drei Menschen miteinander wandern, so mindern sie sich um einen Menschen. Wenn ein Mensch allein wandert, so findet er seinen Genossen.</p>
-</blockquote><p>Wo drei zusammen sind, entsteht leicht Eifersucht und Zwiespalt, so daß einer ausscheiden muß. Eine tiefe, ausschließliche Gemeinschaft kann immer nur zwischen zweien bestehen. Wer ganz einsam und selbständig seinen Weg geht, der zieht durch die Kraft seines Wesens den passenden Gefährten an, der ihn ergänzt.</p>
+<blockquote><p>Wenn drei Menschen miteinander wandern,
+so vermindern sie sich um einen Menschen.
+Wenn ein Mensch wandert,
+so findet er seinen Gefährten.</p>
+</blockquote><p>Wo drei zusammen sind, da gibt es Eifersucht. Da muß einer weichen. Engste Verbindung ist nur zu Zweien möglich. Wo aber einer einsam ist, da Endet er sicher seinen Gefährten, der ihn ergänzt.</p>
 
 <h3 class="relative group">Sechs auf viertem Platz bedeutet:
     <div id="sechs-auf-viertem-platz-bedeutet" class="anchor"></div>
@@ -893,8 +756,10 @@
     </span>
     
 </h3>
-<blockquote><p>Wenn man seine Mängel mindert, macht man, daß der andere rasch kommt und sich freut; kein Makel.</p>
-</blockquote><p>Jeder Mensch hat Fehler, die andere abschrecken. Wenn man ernstlich daran arbeitet, diese eigenen Mängel zu mindern und abzulegen, so öffnet man die Tür für die Mitmenschen. Sie kommen dann gerne und bringen Freude, und man bleibt frei von Fehlern.</p>
+<blockquote><p>Wenn man seine Mängel mindert,
+macht man, daß der andre eilig kommt und Freude hat.
+Kein Makel.</p>
+</blockquote><p>Oft hindern unsere Fehler selbst wohlgesinnte Menschen, uns näherzutreten. Diese Fehler werden oft verstärkt und schlimmer gemacht durch die Umgebung, in der wir uns befinden. Wenn man es über sich bringen kann, sich herabzubegeben und sie abzulegen, so befreit man die wohlgesinnten Freunde von einem inneren Druck und bewirkt, daß sie sich nur um so schneller nahen zu beiderseitiger Freude.</p>
 
 <h3 class="relative group">Sechs auf fünftem Platz bedeutet:
     <div id="sechs-auf-fünftem-platz-bedeutet" class="anchor"></div>
@@ -905,8 +770,10 @@
     </span>
     
 </h3>
-<blockquote><p>Es mehrt ihn gewiß jemand. Zehn Paar Schildkröten können dem nicht widerstreben. Erhabenes Heil.</p>
-</blockquote><p>Wenn jemand von Natur aus bescheiden und offen für das Gute ist, so zieht er das Glück von allen Seiten an. Eine solche Mehrung, die op innerem Wert beruht, ist unerschütterlich. Keine böse Macht und kein ungünstiges Vorzeichen (symbolisiert durch die Schildkröten) kann dieses Glück aufhalten. Es ist von erhabenem Heil.</p>
+<blockquote><p>Es mehrt ihn wohl jemand.
+Zehn Paar Schildkröten können dem nicht widerstreben.
+Erhabenes Heil !</p>
+</blockquote><p>Wenn jemand vom Schicksal zum Glück bestimmt ist, so kommt es unweigerlich. Alle Orakel, wie sie z. B. durch Schildkrötenschalen gewonnen werden, müssen in günstigen Zeichen zu seinen Gunsten übereinstimmen. Er braucht sich vor nichts zu fürchten, denn sein Glück ist höhere Fügung.</p>
 
 <h3 class="relative group">Oben eine Neun bedeutet:
     <div id="oben-eine-neun-bedeutet" class="anchor"></div>
@@ -917,11 +784,15 @@
     </span>
     
 </h3>
-<blockquote><p>Wenn man andere mehrt, ohne sich selbst zu mindern, so ist das ohne Makel. Beharrlichkeit bringt Heil. Fördernd ist es, etwas zu unternehmen. Man erlangt Diener, aber man hat kein eigenes Haus mehr.</p>
-</blockquote><p>Hier ist die höchste Stufe des Wirkens erreicht. Der Weise wirkt zum Segen aller, ohne daß seine eigene Kraft dadurch erschöpft wird. Er ist ein unerschöpflicher Born des Guten. Seine Wirksamkeit ist von dauerndem Heil begleitet, und er darf kühn voranschreiten. Er gewinnt die Herzen der Menschen, die ihm willig dienen, aber er gehört nicht mehr einer einzelnen Familie oder einem engen Kreise an; sein Haus ist die Welt.</p>
+<blockquote><p>Wenn man ohne Minderung der anderen gemehrt wird,
+so ist das kein Makel. Beharrlichkeit bringt Heil.
+Fördernd ist es, etwas zu unternehmen.
+Man bekommt Diener,
+aber hat kein besonderes Heim mehr.</p>
+</blockquote><p>Es gibt Menschen, die Segen spenden für die ganze Welt. Jeder Kraftzuwachs, jede Mehrung, die ihnen zuteil wird, kommt allen Menschen zugute und bedeutet daher keine Minderung für die andern. Durch beharrliche und eifrige Arbeit hat man Erfolg und findet Gehilfen wie man sie braucht. Aber was man wirkt, ist nicht ein irgendwie begrenzter Privatvorteil, sondern es ist offen und für jedermann zugänglich.</p>
 <hr>
 
-<h3 class="relative group">Referenzlinks
+<h2 class="relative group">Referenzlinks
     <div id="referenzlinks" class="anchor"></div>
     
     <span
@@ -929,17 +800,19 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#referenzlinks" aria-label="Ancla">#</a>
     </span>
     
-</h3>
+</h2>
 <ul>
-<li><a href="/hexagramas/buscador-hexagramas-i-ching/" >Zurück zur Hexagramm-Suchtabelle</a></li>
-<li><a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" >Erweiterte Entsprechungen anzeigen</a></li>
+<li><a href="/de/hexagramme/i-ging-nachschlagetabelle/" >Zurück zur Hexagramm-Suchtabelle</a></li>
+<li><a href="/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/" >Erweiterte Entsprechungen anzeigen</a></li>
 </ul>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Vgl. das Scherflein der Witwe im Lukasevangelium.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
+<ul>
+<li>Vgl. das Scherflein der Witwe im Lukasevangelium.</li>
+</ul>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
 </ol>
 </div>
 
@@ -1008,7 +881,7 @@
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
                 href="/licencias/"
-                title="">
+                title="Arquitectura de Licencias de elichingon.com">
                 
                 Licencias
               </a>
@@ -1017,8 +890,8 @@
             <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/verificar"
-                title="">
+                href="/verificar/"
+                title="Verificación de autenticidad">
                 
                 Verificar
               </a>

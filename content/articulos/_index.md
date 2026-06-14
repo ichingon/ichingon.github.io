@@ -1,5 +1,6 @@
 ---
 title: "Artículos"
+translationKey: "articulos"
 description: "Un espacio de exploración sobre el I ching, sistemas, ciencia y cultura."
 enable_accordion: true
 ---

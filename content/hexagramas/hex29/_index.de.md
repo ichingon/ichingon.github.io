@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex29/textoaleman
 title: "Hexagramm 29 坎 - KAN / DAS ABGRÜNDIGE, DAS WASSER"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 29 (KAN) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex29/"
+translationKey: "hex29"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DDC;
@@ -92,7 +92,7 @@ Ein Mensch, der in der äußersten Gefahr den rechten Weg verloren hat und unver
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
 
 [^1]: Es wurde die gewöhnliche Übersetzung »zwei Reisschalen« auf Grund von chinesischen Kommentaren verbessert.

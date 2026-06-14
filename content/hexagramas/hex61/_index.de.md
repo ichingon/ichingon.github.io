@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex61/textoaleman
 title: "Hexagramm 61 中孚 - DSCHUNG FU / INNERE WAHRHEIT"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 61 (DSCHUNG FU) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex61/"
+translationKey: "hex61"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DFC;
@@ -92,5 +92,5 @@ Der Hahn ist zuverlässig. Er ruft, wenn es Morgen wird. Er kann aber nicht selb
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

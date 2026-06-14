@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex02/textoaleman
 title: "Hexagramm 2 坤 - KUN / DAS EMPFANGENDE"
 weight: 4
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex02/"
+translationKey: "hex02"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DC1;
@@ -110,5 +110,5 @@ Wenn lauter Sechsen erscheinen, verwandelt sich das Zeichen des Empfangenden in 
 [^2]: Während die oberste Linie des Schöpferischen Titanenstolz zeigt und eine Parallele bildet zur griechischen Sage des Ikarus, ist in der obersten Linie das. Empfangende eine Parallele zum Mythos von Luzifer, der sich gegen die oberste Gottheit empört, oder zu dem Kampf der dunklen Mächte gegen die Götter Walhalls. der mit der Götterdämmerung endet.
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

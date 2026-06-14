@@ -1,5 +1,6 @@
 ---
 title: "Tabla Avanzada de Correspondencias del I Ching"
+translationKey: "tabla-avanzada"
 weight: 2
 description: "Matriz estructural de los 64 hexagramas del I Ching. Incluye hexagramas nucleares (Hu Gua) y la proyección geométrica al Cielo Anterior de Fu Xi."
 slug: "tabla-avanzada-correspondencias-i-ching"

@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex18/textoaleman
 title: "Hexagramm 18 蠱 - GU / DIE ARBEIT AM VERDORBENEN"
 weight: 20
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex18/"
+translationKey: "hex18"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DD1;
@@ -88,5 +88,5 @@ Nicht jeder Mensch ist verpflichtet, sich in die Weltgeschäfte zu mischen. Es g
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

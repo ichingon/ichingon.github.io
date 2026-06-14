@@ -1,8 +1,8 @@
 ---
 title: "Authenticity Verification"
+translationKey: "verificar"
 description: "How to cryptographically verify that content from elichingon.com is authentic, unaltered, and authored by Dailingna Romero."
 date: 2026-06-07
-url : "/verify/"
 draft: false
 showDate: false
 showReadingTime: false

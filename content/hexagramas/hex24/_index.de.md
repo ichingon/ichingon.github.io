@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex24/textoaleman
 title: "Hexagramm 24 復 - FU / DIE WENDE"
 weight: 26
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex24/"
+translationKey: "hex24"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DD7;
@@ -89,5 +89,5 @@ Wenn man die rechte Zeit zur Umkehr versäumt, so kommt man ins Unheil. Das Ungl
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

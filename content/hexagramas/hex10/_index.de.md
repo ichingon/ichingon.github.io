@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex10/textoaleman
 title: "Hexagramm 10 履 - LI / DAS AUFTRETEN"
 weight: 12
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex10/"
+translationKey: "hex10"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DC9;
@@ -84,5 +84,5 @@ Das Werk ist zu Ende. Will man wissen, ob das Heil die Folge sein wird, so blick
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

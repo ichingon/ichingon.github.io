@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex36/textoaleman
 title: "Hexagramm 36 明夷 - MING / DIE VERFINSTERUNG DES LICHTS"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 36 (MING) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex36/"
+translationKey: "hex36"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DE3;
@@ -89,5 +89,5 @@ Hier ist der Höhepunkt der Finsternis erreicht. Die finstere Macht war erst so 
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

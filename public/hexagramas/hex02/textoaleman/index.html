@@ -233,7 +233,7 @@
     "keywords": ["I Ching","I Ging","Hexagramm 2","KUN","Das Empfangende","Richard Wilhelm","坤"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1720"
+    "wordCount": "1692"
   }]
   </script>
 
@@ -341,345 +341,194 @@
   
   <div class="flex items-center ms-auto">
     <div class="hidden md:flex">
-      <nav class="flex items-center gap-x-5 h-12">
+      <nav class="flex items-center space-x-4">
   
     
       
-  
-    <div class="nested-menu">
-      <div class="cursor-pointer flex items-center">
-        <a
+        <div class="relative inline-block custom-menu-parent" id="menu-parent-0" style="padding-bottom: 10px; margin-bottom: -10px;">
+          <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" style="background: none; border: none; cursor: pointer;">
+            <span>Hexagramas</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
           
-            href="#"
-            
-          
-          aria-label="Hexagramas"
-          class="flex items-center text-base font-medium bf-icon-color-hover"
-          title="">
-          
-          <span class="text-bg font-bg break-normal" title="">
-            Hexagramas
-          </span>
-          <span>
-            <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-          </span>
-        </a>
-      </div>
-      <div class="menuhide">
-        <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl bg-neutral/25 dark:bg-neutral-800/25">
-          <div class="flex flex-col space-y-3">
-            
-              <a
-                href="/hexagramas/buscador-hexagramas-i-ching/"
-                
-                aria-label="Tabla Básica (8x8)"
-                class="flex items-center bf-icon-color-hover">
-                
-                <span class="text-sm font-sm" title="Tabla para buscar los hexagramas del I Ching">
-                  Tabla Básica (8x8)
-                </span>
-              </a>
-            
-              <a
-                href="/hexagramas/tabla-avanzada-correspondencias-i-ching/"
-                
-                aria-label="Tabla Avanzada (64 filas)"
-                class="flex items-center bf-icon-color-hover">
-                
-                <span class="text-sm font-sm" title="Tabla Avanzada de Correspondencias del I Ching">
-                  Tabla Avanzada (64 filas)
-                </span>
-              </a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    
-      
-  
-    <a
-      href="/articulos/"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="Artículos"
-      title="Artículos">
-      
-      
-        <span class="text-base font-medium break-normal">
-          Artículos
-        </span>
-      
-    </a>
-  
-
-    
-      
-  
-    <a
-      href="https://www.youtube.com/@ElIChingon"
-      
-        target="_blank"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="YouTube"
-      title="">
-      
-        <span class="mr-1">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span>
-        </span>
-      
-      
-        <span class="text-base font-medium break-normal">
-          YouTube
-        </span>
-      
-    </a>
-  
-
-    
-  
-
-  
-
-  
-
-  
-    <button
-      id="search-button"
-      aria-label="Search"
-      class="text-base bf-icon-color-hover"
-      title="Buscar (/)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-    </button>
-  
-
-  
-    <div class="flex items-center">
-      <button
-        id="appearance-switcher"
-        aria-label="Dark mode switcher"
-        type="button"
-        class="text-base bf-icon-color-hover">
-        <div class="flex items-center justify-center dark:hidden">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-        </div>
-        <div class="items-center justify-center hidden dark:flex">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-        </div>
-      </button>
-    </div>
-  
-</nav>
-
-
-
-    </div>
-    <div class="flex md:hidden">
-      <div class="flex items-center h-14 gap-4">
-  
-    <button
-      id="search-button-mobile"
-      aria-label="Search"
-      class="flex items-center justify-center bf-icon-color-hover"
-      title="Buscar (/)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-    </button>
-  
-
-  
-    <button
-      id="appearance-switcher-mobile"
-      type="button"
-      aria-label="Dark mode switcher"
-      class="flex items-center justify-center text-neutral-900 hover:text-primary-600 dark:text-neutral-200 dark:hover:text-primary-400">
-      <div class="dark:hidden">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-      </div>
-      <div class="hidden dark:block">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-      </div>
-    </button>
-  
-
-  
-    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
-    <label for="mobile-menu-toggle" class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
-      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-</span>
-    </label>
-
-    <div
-      role="dialog"
-      aria-modal="true"
-      style="scrollbar-gutter: stable;"
-      class="fixed inset-0 z-50 invisible overflow-y-auto px-6 py-20 opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100 bg-neutral-50/97 dark:bg-neutral-900/99
-      bf-scrollbar">
-      <label
-        for="mobile-menu-toggle"
-        class="fixed end-8 top-5 flex items-center justify-center z-50 h-12 w-12 cursor-pointer select-none rounded-full bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span>
-      </label>
-      <nav class="mx-auto max-w-md space-y-6">
-        
-  
-    
-    <div class="px-2">
-      <a
-        href="#"
-        aria-label="Hexagramas"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-        <span title="" class="text-2xl font-bold tracking-tight">
-          Hexagramas
-        </span>
-        
-          <label
-            for="fullscreen-submenu-hexagramas-parent"
-            class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
-            <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-          </label>
-        
-      </a>
-
-      
-        <input checked type="checkbox" id="fullscreen-submenu-hexagramas-parent" autocomplete="off" class="hidden peer/full">
-
-        <div
-          class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
-          <div class="overflow-hidden">
-            <div class="ms-7 mt-4">
+          <div id="menu-dropdown-0" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+               style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 200px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+            <div style="padding: 4px 0;">
               
-                <a
-                  href="/hexagramas/buscador-hexagramas-i-ching/"
-                  aria-label="Tabla Básica (8x8)"
-                  
-                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-                  
-                  <span title="Tabla para buscar los hexagramas del I Ching" class="text-lg">
-                    Tabla Básica (8x8)
-                  </span>
+                <a href="/hexagramas/buscador-hexagramas-i-ching/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Tabla Básica (8x8)
                 </a>
               
-                <a
-                  href="/hexagramas/tabla-avanzada-correspondencias-i-ching/"
-                  aria-label="Tabla Avanzada (64 filas)"
-                  
-                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-                  
-                  <span title="Tabla Avanzada de Correspondencias del I Ching" class="text-lg">
-                    Tabla Avanzada (64 filas)
-                  </span>
+                <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Tabla Avanzada (64 filas)
                 </a>
               
             </div>
           </div>
         </div>
       
-    </div>
-  
     
-    <div class="px-2">
-      <a
-        href="/articulos/"
-        aria-label="Artículos"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-        <span title="Artículos" class="text-2xl font-bold tracking-tight">
+      
+        <a href="/articulos/" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 ">
+          
           Artículos
-        </span>
-        
-      </a>
-
+        </a>
       
+    
+      
+        <a href="https://www.youtube.com/@ElIChingon" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube">
+          
+            <span class="inline-block align-text-bottom mr-1"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+          
+          YouTube
+        </a>
+      
+    
+  
+
+  <div class="relative inline-block custom-menu-parent" id="menu-parent-lang" style="padding-bottom: 10px; margin-bottom: -10px;">
+    <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" aria-label="Language Selector" style="background: none; border: none; cursor: pointer;">
+      <span style="font-size: 1.1rem; line-height: 1;">🌐</span>
+      <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div id="menu-dropdown-lang" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+         style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 160px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+      <div style="padding: 4px 0;">
+        
+          <a href="http://localhost:1313/hexagramas/hex02/textoaleman/" 
+             class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 font-bold text-primary-600 dark:text-primary-400" 
+             style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+            Español (ES)
+          </a>
+        
+      </div>
     </div>
+  </div>
+</nav>
+
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-menu-parent");
+    
+    parents.forEach(function (parent) {
+      
+      var dropdown = parent.querySelector(".custom-menu-dropdown");
+      if (!dropdown) return;
+
+      var timeoutId = null;
+
+      parent.addEventListener("mouseenter", function () {
+        clearTimeout(timeoutId);
+        dropdown.style.display = "block";
+      });
+
+      parent.addEventListener("mouseleave", function () {
+        timeoutId = setTimeout(function () {
+          dropdown.style.display = "none";
+        }, 150); 
+      });
+    });
+  })();
+</script>
+    </div>
+    <div class="flex md:hidden">
+      <nav class="flex flex-col space-y-4 pt-4 pb-6 px-4">
   
     
-    <div class="px-2">
-      <a
-        href="https://www.youtube.com/@ElIChingon"
-        aria-label="YouTube"
-        
-          target="_blank"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-          <span class="flex items-center justify-center h-8 w-8 text-2xl">
-            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span>
-          </span>
-        
-        <span title="" class="text-2xl font-bold tracking-tight">
+      
+        <div class="flex flex-col space-y-2 custom-mobile-parent" id="mob-parent-0">
+          <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+            <span>Hexagramas</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
+          
+          <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+            
+              <a href="/hexagramas/buscador-hexagramas-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
+                Tabla Básica (8x8)
+              </a>
+            
+              <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
+                Tabla Avanzada (64 filas)
+              </a>
+            
+          </div>
+        </div>
+      
+    
+      
+        <a href="/articulos/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400  py-1">
+          
+          Artículos
+        </a>
+      
+    
+      
+        <a href="https://www.youtube.com/@ElIChingon" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube py-1">
+          
+            <span class="inline-block align-text-bottom mr-2"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+          
           YouTube
-        </span>
-        
-      </a>
+        </a>
+      
+    
+  
 
+  <div class="flex flex-col space-y-2 pt-2 border-t border-neutral-200 dark:border-neutral-700 custom-mobile-parent" id="mob-parent-lang">
+    <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+      <span class="flex items-center gap-2">
+        <span style="font-size: 1.1rem; line-height: 1;">🌐</span> Idiomas
+      </span>
+      <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+      
+        <a href="http://localhost:1313/hexagramas/hex02/textoaleman/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1 font-bold text-primary-600 dark:text-primary-400">
+          Español (ES)
+        </a>
       
     </div>
-  
+  </div>
+</nav>
 
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-mobile-parent");
+    
+    parents.forEach(function (parent) {
+      var button = parent.querySelector("button");
+      var dropdown = parent.querySelector(".custom-mobile-dropdown");
+      var arrow = parent.querySelector(".custom-mobile-arrow");
+      if (!button || !dropdown) return;
+
+      button.addEventListener("click", function (e) {
+        e.preventDefault();
         
-  
-
         
-  
-    <div
-      class="flex flex-wrap items-center [&_span]:text-2xl [&_.translation_button_.icon]:text-4xl! [&_.translation_button_span]:text-base! [&_.translation_.menuhide_span]:text-sm! gap-x-6 ps-2 mt-8 pt-8 border-t bf-border-color">
-      
+        if (dropdown.style.display === "flex") {
+          dropdown.style.display = "none";
+          if (arrow) arrow.style.transform = "rotate(0deg)";
+        } else {
+          
+          document.querySelectorAll(".custom-mobile-dropdown").forEach(function(el) {
+            el.style.display = "none";
+          });
+          document.querySelectorAll(".custom-mobile-arrow").forEach(function(el) {
+            el.style.transform = "rotate(0deg)";
+          });
 
-
-      
-    </div>
-  
-
-      </nav>
-    </div>
-  
-</div>
-
-
-
-
-
-
-
+          
+          dropdown.style.display = "flex";
+          if (arrow) arrow.style.transform = "rotate(180deg)";
+        }
+      });
+    });
+  })();
+</script>
     </div>
   </div>
 </div>
@@ -795,13 +644,22 @@
           <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DC1;
 </p>
-<p><strong>Trigramme:</strong></p>
+
+<h3 class="relative group">Trigramme
+    <div id="trigramme" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#trigramme" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
 <ul>
 <li>oben Kun, das Empfangende, die Erde</li>
 <li>unten Kun, das Empfangende, die Erde</li>
 </ul>
-<p>Das Zeichen besteht aus lauter geteilten Linien. Die geteilte Linie entspricht der schattigen, weichen, rezeptiven Urkraft des Yin. Die Eigenschaft des Zeichens ist die Hingebung, sein Bild ist die Erde. Es ist das vollkommene Gegenstück zu dem Schöpferischen, das Gegenstück, nicht der Gegensatz; eine Ergänzung keine Bekämpfung. Es ist die Natur gegenüber dem Geist, die Erde gegenüber dem Himmel, das Räumliche gegenüber dem Zeitlichen, das Weiblich-Mütterliche gegenüber dem Männlichen-Väterlichen. Der Grundsatz dieses Gegenstückes findet sich aber, auf menschliche Verhältnisse übertragen, nicht nur in den Beziehungen zwischen Mann und Weib, sondern auch von Fürst und Minister oder Vater und Sohn; ja selbst in den einzelnen Menschen ist diese Zweiheit in dem Zusambensein von Geistigem und Sinnlichem.</p>
-<p>Dennoch kann von einem eigentlichen Dualismus nicht geredet werden denn es besteht zwischen den beiden Zeichen das Verhältnis einer klaren Rangordnung. An sich ist natürlich das Empfangende ebenso wichtig wie das Schöpferische. Aber dadurch die Eigenschaft der Hingebung ist die Stellung dieser Urkraft, dem Schöpferischen gegenüber bezeichnet. Sie muß unter der Leitung und Anregung des Schöpferischen sein, dann wirkt sie heilvoll. Nur wenn sie aus dieser Stellung heraustritt und dem Schöpferischen ebenbürtig zur Seite treten will, wird sie böse. Daraus ergibt sich dann Gegensatz und Kampf gegen das Schöpferische, der für beide Teile unheilvoll wirkt.</p>
+<p>Das Zeichen besteht aus lauter geteilten Linien. Die geteilte Linie entspricht der schattigen, weichen, rezeptiven Urkraft des Yin. Die Eigenschaft des Zeichens ist die Hingebung, sein Bild ist die Erde. Es ist das vollkommene Gegenstück zu dem Schöpferischen, das Gegenstück, nicht der Gegensatz; eine Ergänzung keine Bekämpfung. Es ist die Natur gegenüber dem Geist, die Erde gegenüber dem Himmel, das Räumliche gegenüber dem Zeitlichen, das Weiblich-Mütterliche gegenüber dem Männlichen-Väterlichen. Der Grundsatz dieses Gegenstückes findet sich aber, auf menschliche Verhältnisse übertragen, nicht nur in den Beziehungen zwischen Mann und Weib, sondern auch von Fürst und Minister oder Vater und Sohn; ja selbst in den einzelnen Menschen ist diese Zweiheit in dem Zusammensein von Geistigem und Sinnlichem.</p>
+<p>Dennoch kann von einem eigentlichen Dualismus nicht geredet werden denn es besteht zwischen den beiden Zeichen das Verhältnis einer klaren Rangordnung. An sich ist natürlich das Empfangende ebenso wichtig wie das Schöpferische. Aber dadurch die Eigenschaft der Hingebung ist die Stellung dieser Urkraft, dem Schöpferischen gegenüber bezeichnet. Sie muß0 unter der Leitung und Anregung des Schöpferischen sein, dann wirkt sie heilvoll. Nur wenn sie aus dieser Stellung heraustritt und dem Schöpferischen ebenbürtig zur Seite treten will, wird sie böse. Daraus ergibt sich dann Gegensatz und Kampf gegen das Schöpferische, der für beide Teile unheilvoll wirkt.</p>
 <hr>
 
 <h2 class="relative group">Das Urteil
@@ -819,25 +677,12 @@ Hat der Edle etwas zu unternehmen und will voraus,
 so geht er irre; doch folgt er nach, so findet er Leitung.
 Fördernd ist es, im Westen und Süden Freunde zu finden,
 im Osten und Norden der Freunde zu entraten.
-Ruhige Beharrlichkeit brings Heil.</p>
+Ruhige Beharrlichkeit bringt Heil.</p>
 </blockquote><p>Die vier Grundrichtungen des Schöpferischen: &ldquo;erhabenes Gelingen, fördernd durch Beharrlichkeit&rdquo; finden sich auch als Bezeichnung des Empfangenden. Nur ist die Beharrlichkeit näher definiert als die Beharrlichkeit einer Stute. Das Empfangende bezeichnet die räumliche Wirklichkeit gegenüber der geistigen Möglichkeit des Schöpferischen. Wenn das Mögliche wirklich wird, das Geistige räumlich, so geschieht das immer durch eine einschränkende, individuelle Bestimmung. Das ist bezeichnet dadurch, daß hier dem Ausdruck &ldquo;Beharrlichkeit&rdquo; die nähere Bestimmung &ldquo;einer Stute&rdquo; beigefügt ist. Das Pferd gehört zur Erde wie der Drache zum Himmel, es symbolisiert durch seine unermeßliche Bewegung über die Ebene hin die Weiträumigkeit der Erde. Der Ausdruck &ldquo;Stute&rdquo; ist gewählt, weil die Stute die Kraft und Schnelligkeit des Pferdes mit der Sanftheit und Hingebung der Kuh vereinigt.</p>
 <p>Die Natur kann nur darum, weil sie dem Wesen des Schöpferischen gewachsen ist, dessen Anregungen verwirklichen. Ihr Reichtum besteht darin, daß sie alle Wesen ernährt, und ihre Größe, daß sie alles verschönt und herrlich macht. So schafft sie Gedeihen für alles Lebendige. Während das Schöpferische die Dinge zeugt, werden sie vom Empfangenden geboren.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>Auf menschliche Verhältnisse übertragen, handelt es sich darum, der Lage entsprechen sich zu verhalten. Man ist nicht in selbständiger Stellung, sondern als Gehilfe tätig. Da gilt es, etwas zu leisten . Nicht führen zu wollen - dadurch verirrte man sich nur - , sondern sich führen zu lassen, ist die Aufgabe. Wenn man es versteht, dem Schicksal gegenüber sich hingebend zu verhalten, so findet man sicher eine entsprechende Leitung. Der Edle läßt sich leiten. Er geht nicht blindlings voran, sonder er entnimmt den Verhältnissen, was von ihm verlangt wird, und folgt dieser Weisung des Schicksals.</p>
 <p>Da man etwas leisten soll, bedarf man der Gehilfen und Freunde zu Zeit der Arbeit und Anstrengung, wenn die Gedanken, die ausgeführt werden sollen, schon festliegen. Die Zeit der Arbeit und Anstrengung wird durch den Westen und Süden ausgedrückt. Denn der Süden und Westen ist das Symbol für den Ort, da das Empfangende für das Schöpferische arbeitet - wie die Natur im Sommer und Herbst - ; wenn man da nicht alle Kräfte zusammenfaßt, wird man nicht fertig mit der Arbeit, die man zu leisten hat. Darum bedeutet hier, Freunde zu bekommen, eben ,daß man Leistung findet. Aber außer der Arbeit und Anstrengung gibt es auch eine Zeit des Planens und Ordnens; da bedarf´s der Einsamkeit. Der Osten symbolisiert den Ort, da man die Aufträge von seinem Herrn erhält , und der Norden den Ort da man über das Geleistete berichtet. Da gilt es allein und sachlich zu sein. In dieser Heiligen Stunde muß man der Genossen entraten, damit nicht durch der Parteien Haß und Gunst die Reinheit getrübt wird.</p>
-<hr>
-
-<h2 class="relative group">Das Bild
-    <div id="das-bild" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#das-bild" aria-label="Ancla">#</a>
-    </span>
-    
-</h2>
-<blockquote><p>Der Zustand der Erde ist die empfangende Hingebung.
-So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
-</blockquote><p>Ebenso wie es nur einen Himmel gibt, gibt es auch nur eine Erde. Während aber beim Himmel die Verdoppelung des Zeichens zeitliche Dauer bedeutet, bedeutet sie bei der Erde die räumliche Ausdehnung und Festigkeit, mit der sie alles, was da lebt und webt, trägt und erhält. Die Erde in ihrer Hingebung trägt ohne Ausnahme Gut und Böse. So macht der Edle seinen Charakter weiträumig, gediegen und tragfähig, so daß er Menschen und Dinge zu tragen und ertragen vermag.</p>
+<p>Ebenso wie es nur einen Himmel gibt, gibt es auch nur eine Erde. Während aber beim Himmel die Verdoppelung des Zeichens zeitliche Dauer bedeutet, bedeutet sie bei der Erde die räumliche Ausdehnung und Festigkeit, mit der sie alles, was da lebt und webt, trägt und erhält. Die Erde in ihrer Hingebung trägt ohne Ausnahme Gut und Böse. So macht der Edle seinen Charakter weiträumig, gediegen und tragfähig, so daß er Menschen und Dinge zu tragen und ertragen vermag.</p>
 <hr>
 
 <h2 class="relative group">Die einzelnen Linien
@@ -859,7 +704,7 @@ So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
     </span>
     
 </h3>
-<blockquote><p>Tritt man auf Reif, so naht das feste Eis</p>
+<blockquote><p>Tritt man auf Reif, so naht das feste Eis.</p>
 </blockquote><p>Wie die lichte Kraft das Leben darstellt, so die schattige Kraft den Tod. Im Herbst, wenn der Frühreif fällt , ist die Kraft des Dunkels und der Kälte erst in der Entfaltung. Nach den ersten Spuren werden sich nach festen Gesetzen die Äußerungen des Todes allmählich mehren, bis schließlich der starre Winter mit seinem Eis da ist.</p>
 <p>Genau so geht es im Leben. Wenn sich leise, kaum merkliche Zeichen des Verfalls zeigen so geht es weiter, bis schließlich der Untergang da ist. Aber im Leben kann man vorbeugen, wenn man die Anzeichen des Verfalls beachtet und ihnen rechtzeitig entgegentritt.</p>
 
@@ -872,7 +717,8 @@ So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
     </span>
     
 </h3>
-<blockquote><p>Gerade, rechtwinklig, groß. Ohne Absicht bleibt doch nichts ungefördert.</p>
+<blockquote><p>Gerade, rechtwinklig, groß.
+Ohne Absicht bleibt doch nichts ungefördert.</p>
 </blockquote><p>Der Himmel hat als Symbol en Kreis, die Erde das rechtwinklige Quadrat. Somit ist das Rechtwinklige eine ursprüngliche Eigenschaft der Erde. Dagegen ist die geradlinige Bewegung ursprünglich eine Eigenschaft des Schöpferischen, ebenso wie die Größe. Aber alle rechtwinkligen Dinge haben ihre Wurzel in der geraden Linie und bilden ihrerseits wieder körperliche Größen. Wenn man in der Mathematik Linien, Flächen und Körper unterscheidet, so ergebe sich aus geraden Linien rechtwinklige Flächen und aus rechtwinkligen Flächen kubische Größen, Das Empfangende richtet sich nach den Eigenschaften des Schöpferischen und macht sie zu seinen eigenen. So wird aus einer Geraden ein Quadrat und aus einem Quadrat ein Würfel. Das ist die Einfache Hingebung an die Gesetzt des Schöpferischen ohne etwas davon oder dazuzutun. Darum bedarf es für das Empfangende nicht einer besonderen Absicht oder Anstrengung, und alles wird recht.</p>
 <p>Die Natur erzeugt die Wesen ohne Falsch, das ist ihre Geradheit; sie ist ruhig und still, das ist ihre Rechtwinkligkeit; sie weigert sich nicht, irgendein Wesen zu dulden, das ist ihre Größe. Darum erreicht sie ohne äußeres Machen oder besonders Absichten für alle das Rechte. Für den Menschen bedeutet es höchste Weisheit, in seinem Wirken so selbstverständlich zu werden wie die Natur.</p>
 
@@ -885,7 +731,9 @@ So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
     </span>
     
 </h3>
-<blockquote><p>verborgene Linien; man vermag beharrlich zu bleiben. Folgst du etwa eines Königs Diensten, so such nicht Werke, aber vollende !</p>
+<blockquote><p>verborgene Linien; man vermag beharrlich zu bleiben.
+Folgst du etwa eines Königs Diensten,
+so such nicht Werke, aber vollende !</p>
 </blockquote><p>Wenn man frei von Eitelkeit ist, so vermag man seine Vorzüge so zu verdecken, daß sie nicht vorzeitig die öffentliche Aufmerksamkeit auf sich ziehen. So kann man in der Stille reifen. Wenn es die Verhältnisse erfordern, so mag man auch in die Öffentlichkeit hervortreten, aber auch dann zurückhaltend. Der Weise wird den Ruhm gern andern lassen. Er sucht nicht fertige Tatsachen, die ihm als Verdienste angerechnet werden. wohl aber erhofft er wirkende Ursachen, d.h. er vollendet die Werke so, daß sie für die Zukunft fruchtbringend sind.</p>
 
 <h3 class="relative group">Sechs auf viertem Platz bedeutet:
@@ -909,7 +757,7 @@ So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
     </span>
     
 </h3>
-<blockquote><p>Gelbes Untergewand brings erhabenes Heil.</p>
+<blockquote><p>Gelbes Untergewand bringt erhabenes Heil.</p>
 </blockquote><p>Gelb ist die Farbe der Erde und der Mitte, das Symbol des Zuverlässigen und Echten. Das Untergewand ist unauffällig verziert, das Symbol vornehmer Zurückhaltung. Wenn jemand zu wirken berufen ist an hervorragender, doch nicht unabhängiger Stellung, so beruht der wahre Erfolg auf der höchsten Diskretion. Die Echtheit und Feinheit darf nicht direkt hervortreten, sondern nur als Wirkung von innen her sich mittelbar äußern.</p>
 
 <h3 class="relative group">Oben eine Sechs bedeutet:
@@ -921,9 +769,10 @@ So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
     </span>
     
 </h3>
-<blockquote><p>Drachen kämpfen auf dem Anger. Ihr Blut ist schwarz und gelb <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<blockquote><p>Drachen kämpfen auf dem Anger.
+Ihr Blut ist schwarz und gelb</p>
 </blockquote><p>Auf dem obersten Platz sollte das Schattige dem Lichten weichen. Will es sich auf dem Platz, der ihm nicht gebührt, behaupten, und statt zu dienen, herrschen, so zieht es sich den Zorn des Starken zu. Es kommt zum Kampf, in dem es gestürzt wird, in dem jedoch beide Teile zu Schaden kommen.</p>
-<p>Der Drache, das Symbol des Himmels, kommt herbei und bekämpft den falschen Drachen, zu dessen Bilde hier das Irdische sich gesteigert hat. Schwarzblau ist die Farbe des Himmels, Gelb ist die Farbe der Erde. Wenn also schwarzes und gelbes Blut fließt, so ist das ein Zeichen, daß durch diesen unnatürlichen Kampf beide Grundkräfte Schaden leiden.</p>
+<p>Der Drache, das Symbol des Himmels, kommt herbei und bekämpft den falschen Drachen, zu dessen Bilde hier das Irdische sich gesteigert hat. Schwarzblau ist die Farbe des Himmels, Gelb ist die Farbe der Erde. Wenn also schwarzes und gelbes Blut fließt, so ist das ein Zeichen, daß durch diesen unnatürlichen Kampf beide Grundkräfte Schaden leiden.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 
 <h3 class="relative group">Wenn lauter Sechsen erscheinen, bedeutet das:
     <div id="wenn-lauter-sechsen-erscheinen-bedeutet-das" class="anchor"></div>
@@ -937,7 +786,6 @@ So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
 <blockquote><p>Fördernd ist dauernde Beharrlichkeit.</p>
 </blockquote><p>Wenn lauter Sechsen erscheinen, verwandelt sich das Zeichen des Empfangenden in das Zeichen des Schöpferischen. Es gewinnt so die Kraft der Dauer im Festhalten des Rechten. Es gibt zwar keinen Fortschritt, aber auch keinen Rückschritt.</p>
 <hr>
-<hr>
 
 <h2 class="relative group">Referenzlinks
     <div id="referenzlinks" class="anchor"></div>
@@ -949,17 +797,27 @@ So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
     
 </h2>
 <ul>
-<li><a href="/hexagramas/buscador-hexagramas-i-ching/" >Zurück zur Hexagramm-Suchtabelle</a></li>
-<li><a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" >Erweiterte Entsprechungen anzeigen</a></li>
+<li><a href="/de/hexagramme/i-ging-nachschlagetabelle/" >Zurück zur Hexagramm-Suchtabelle</a></li>
+<li><a href="/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/" >Erweiterte Entsprechungen anzeigen</a></li>
 </ul>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Es findet sich hier ein ähnliche Auffassung, wie Goethe sie in den Versen ausdrückt: / So schauet mit bescheidenem Blick / Der ewigen Weberin Meisterstück, / Wie Tritt tausend Fäden regt; / Die Schifflein hinüber herüber schießen, / Die Fäden sich begegnend fließen, / Ein Schlag tausend Verbindungen schlägt; / Das hat sie nicht zusammengebettelt, / Sie hat´s von Ewigkeit angezettelt, / Damit der ewige Meistermann / Getrost den Einschlag werden kann.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
+<p>Es findet sich hier ein ähnliche Auffassung, wie Goethe sie in den Versen ausdrückt:</p>
+<blockquote><p>So schauet mit bescheidenem Blick
+Der ewigen Weberin Meisterstück,
+Wie Tritt tausend Fäden regt;
+Die Schifflein hinüber herüber schießen,
+Die Fäden sich begegnend fließen,
+Ein Schlag tausend Verbindungen schlägt;
+Das hat sie nicht zusammengebettelt,
+Sie hat´s von Ewigkeit angezettelt,
+Damit der ewige Meistermann
+Getrost den Einschlag werden kann.</p>
+</blockquote>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
 <li id="fn:2">
-<p>Während die oberste Linie des Schöpferischen Titanenstolz zeigt und eine Parallele bildet zur griechischen Sage des Ikarus, ist in der obersten Linie das. Empfangende eine Parallele zum Mythos von Lucifer, der sich gegen die oberste Gottheit empört, oder zu dem Kampf der dunklen Mächte gegen die Götter Walhalls. der mit der Götterdämmerung endet.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Während die oberste Linie des Schöpferischen Titanenstolz zeigt und eine Parallele bildet zur griechischen Sage des Ikarus, ist in der obersten Linie das. Empfangende eine Parallele zum Mythos von Luzifer, der sich gegen die oberste Gottheit empört, oder zu dem Kampf der dunklen Mächte gegen die Götter Walhalls. der mit der Götterdämmerung endet.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -1029,7 +887,7 @@ So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
                 href="/licencias/"
-                title="">
+                title="Arquitectura de Licencias de elichingon.com">
                 
                 Licencias
               </a>
@@ -1038,8 +896,8 @@ So trägt der Edle weiträumigen Wesens die Außenwelt.</p>
             <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/verificar"
-                title="">
+                href="/verificar/"
+                title="Verificación de autenticidad">
                 
                 Verificar
               </a>

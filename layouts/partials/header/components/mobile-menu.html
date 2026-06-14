@@ -1,0 +1,81 @@
+<nav class="flex flex-col space-y-4 pt-4 pb-6 px-4">
+  {{ if .Site.Menus.main }}
+    {{ range $index, $item := .Site.Menus.main }}
+      {{ if .HasChildren }}
+        <div class="flex flex-col space-y-2 custom-mobile-parent" id="mob-parent-{{ $index }}">
+          <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+            <span>{{ .Name | markdownify }}</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
+          
+          <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+            {{ range .Children }}
+              <a href="{{ .URL | relLangURL }}" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
+                {{ .Name | markdownify }}
+              </a>
+            {{ end }}
+          </div>
+        </div>
+      {{ else }}
+        <a href="{{ .URL | relLangURL }}" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 {{ if .Params.class }}{{ .Params.class }}{{ end }} py-1">
+          {{ if .Pre }}
+            <span class="inline-block align-text-bottom mr-2">{{ partial "icon.html" .Pre }}</span>
+          {{ end }}
+          {{ .Name | markdownify }}
+        </a>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  <div class="flex flex-col space-y-2 pt-2 border-t border-neutral-200 dark:border-neutral-700 custom-mobile-parent" id="mob-parent-lang">
+    <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+      <span class="flex items-center gap-2">
+        <span style="font-size: 1.1rem; line-height: 1;">🌐</span> Idiomas
+      </span>
+      <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+      {{ range .AllTranslations }}
+        <a href="{{ .Permalink }}" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1 {{ if eq .Language.Lang $.Site.Language.Lang }}font-bold text-primary-600 dark:text-primary-400{{ end }}">
+          {{ if eq .Language.Lang "es" }}Español (ES){{ else if eq .Language.Lang "en" }}English (EN){{ else if eq .Language.Lang "de" }}Deutsch (DE){{ end }}
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</nav>
+
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-mobile-parent");
+    
+    parents.forEach(function (parent) {
+      var button = parent.querySelector("button");
+      var dropdown = parent.querySelector(".custom-mobile-dropdown");
+      var arrow = parent.querySelector(".custom-mobile-arrow");
+      if (!button || !dropdown) return;
+
+      button.addEventListener("click", function (e) {
+        e.preventDefault();
+        
+        // Si ya está abierto, lo cerramos
+        if (dropdown.style.display === "flex") {
+          dropdown.style.display = "none";
+          if (arrow) arrow.style.transform = "rotate(0deg)";
+        } else {
+          // Opcional: Cerrar los demás acordeones abiertos para mantener el orden
+          document.querySelectorAll(".custom-mobile-dropdown").forEach(function(el) {
+            el.style.display = "none";
+          });
+          document.querySelectorAll(".custom-mobile-arrow").forEach(function(el) {
+            el.style.transform = "rotate(0deg)";
+          });
+
+          // Abrimos el actual
+          dropdown.style.display = "flex";
+          if (arrow) arrow.style.transform = "rotate(180deg)";
+        }
+      });
+    });
+  })();
+</script>

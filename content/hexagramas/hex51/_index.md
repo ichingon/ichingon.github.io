@@ -7,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+slug: "hex51"
+translationKey: "hex51"
 ---
 
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">

@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex38/textoaleman
 title: "Hexagramm 38 睽 - KUEI / DER GEGENSATZ"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 38 (KUEI) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex38/"
+translationKey: "hex38"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DE5;
@@ -96,5 +96,5 @@ Hier ist die Vereinsamung durch Mißverständnisse, nicht durch die äußeren Ve
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

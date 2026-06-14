@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex25/textoaleman
 title: "Hexagramm 25 無妄 - WU WANG / DIE UNSCHULD (DAS UNERWARDETE)"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 19 (LIN) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex25/"
+translationKey: "hex25"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DD8;
@@ -84,5 +84,5 @@ Wenn man in einer Lage ist, da kein Fortschritt mehr an der Zeit ist, da gilt es
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

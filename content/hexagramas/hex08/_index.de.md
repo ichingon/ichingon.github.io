@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex08/textoaleman
 title: "Hexagramm 8 比 - BI / DAS ZUSAMMENHALTEN"
 weight: 10
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex08/"
+translationKey: "hex08"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DC7;
@@ -98,5 +98,5 @@ Das Haupt ist der Anfang. Ohne einen rechten Anfang gibt es kein rechtes Ende. W
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

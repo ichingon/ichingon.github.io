@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex16/textoaleman
 title: "Hexagramm 16 豫 - YÜ / DIE BEGEISTERUNG"
 weight: 18
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex16/"
+translationKey: "hex16"
 ---
 
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
@@ -100,5 +100,5 @@ Wenn man sich von der Begeisterung verblenden läßt, so ist das von Übel. Aber
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

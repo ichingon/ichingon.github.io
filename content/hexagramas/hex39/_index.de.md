@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex39/textoaleman
 title: "Hexagramm 39 蹇 - CHIEN / DAS HEMMNIS"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 39 (CHIEN) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex39/"
+translationKey: "hex39"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DE6;
@@ -80,5 +80,5 @@ Es ist hier jemand gezeichnet, der die Welt und ihr Getriebe schon hinter sich h
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

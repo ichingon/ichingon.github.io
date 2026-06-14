@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex44/textoaleman
 title: "Hexagramm 44 姤 - GOU / DAS ENTGEGENKOMMEN"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 44 (GOU) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex44/"
+translationKey: "hex44"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DEB;
@@ -90,5 +90,5 @@ Wenn man sich aus der Welt zurückgezogen hat, so wird einem das Getriebe der We
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/hexagrams/i-ching-lookup-chart/</loc>
+    <loc>http://localhost:1313/en/hexagrams/i-ching-lookup-chart/</loc>
     <lastmod>2026-05-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -14,12 +14,17 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/i-ging-nachschlagetabelle/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/hexagrams/i-ching-lookup-chart/"
+      href="http://localhost:1313/en/hexagrams/i-ching-lookup-chart/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagrams/advanced-i-ching-correspondence-table/</loc>
+    <loc>http://localhost:1313/en/hexagrams/advanced-i-ching-correspondence-table/</loc>
     <lastmod>2026-05-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -30,12 +35,17 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/hexagrams/advanced-i-ching-correspondence-table/"
+      href="http://localhost:1313/en/hexagrams/advanced-i-ching-correspondence-table/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/verify/</loc>
+    <loc>http://localhost:1313/en/verify/</loc>
     <lastmod>2026-06-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -46,8 +56,13 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/verifizieren/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/verify/"
+      href="http://localhost:1313/en/verify/"
     />
   </url>
   <url>
@@ -62,12 +77,17 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/licences/</loc>
+    <loc>http://localhost:1313/en/licences/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -78,12 +98,17 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/lizenzen/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/licences/"
+      href="http://localhost:1313/en/licences/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/en/articulos/</loc>
+    <loc>http://localhost:1313/en/articles/</loc>
     <lastmod>2026-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -94,12 +119,17 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/articulos/"
+      href="http://localhost:1313/en/articles/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/articles/the-abc-of-the-i-ching/</loc>
+    <loc>http://localhost:1313/en/articles/the-abc-of-the-i-ching/</loc>
     <lastmod>2026-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -111,7 +141,7 @@
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/articles/the-abc-of-the-i-ching/"
+      href="http://localhost:1313/en/articles/the-abc-of-the-i-ching/"
     />
   </url>
   <url>
@@ -126,12 +156,17 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramas/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/hexagramas/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/articles/chance-science-i-ching/</loc>
+    <loc>http://localhost:1313/en/articles/chance-science-i-ching/</loc>
     <lastmod>2026-03-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -143,7 +178,7 @@
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/articles/chance-science-i-ching/"
+      href="http://localhost:1313/en/articles/chance-science-i-ching/"
     />
   </url>
 </urlset>

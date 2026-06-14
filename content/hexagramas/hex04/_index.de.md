@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex04/textoaleman
 title: "Hexagramm 4 蒙 - MENG / DIE JUGENDTORHEIT"
 weight: 6
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex04/"
+translationKey: "hex04"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DC3;
@@ -103,5 +103,5 @@ Das gilt sowohl von der Erziehung als auch von den Maßregeln einer Regierung ge
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

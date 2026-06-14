@@ -1,5 +1,6 @@
 ---
 title: "I Ching Hexagram Lookup Matrix"
+translationKey: "tabla-basica"
 weight: 1
 description: "Interactive I Ching hexagram lookup matrix. Quickly find and identify any hexagram by its upper and lower trigrams using King Wen's sequence."
 date: 2026-05-27

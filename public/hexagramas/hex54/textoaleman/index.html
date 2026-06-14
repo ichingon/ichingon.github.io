@@ -233,7 +233,7 @@
     "keywords": ["I Ching","I Ging","Hexagramm 54","KWEI MEI","Das heiratende Mädchen","Richard Wilhelm","歸妹"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "533"
+    "wordCount": "1197"
   }]
   </script>
 
@@ -341,345 +341,194 @@
   
   <div class="flex items-center ms-auto">
     <div class="hidden md:flex">
-      <nav class="flex items-center gap-x-5 h-12">
+      <nav class="flex items-center space-x-4">
   
     
       
-  
-    <div class="nested-menu">
-      <div class="cursor-pointer flex items-center">
-        <a
+        <div class="relative inline-block custom-menu-parent" id="menu-parent-0" style="padding-bottom: 10px; margin-bottom: -10px;">
+          <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" style="background: none; border: none; cursor: pointer;">
+            <span>Hexagramas</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
           
-            href="#"
-            
-          
-          aria-label="Hexagramas"
-          class="flex items-center text-base font-medium bf-icon-color-hover"
-          title="">
-          
-          <span class="text-bg font-bg break-normal" title="">
-            Hexagramas
-          </span>
-          <span>
-            <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-          </span>
-        </a>
-      </div>
-      <div class="menuhide">
-        <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl bg-neutral/25 dark:bg-neutral-800/25">
-          <div class="flex flex-col space-y-3">
-            
-              <a
-                href="/hexagramas/buscador-hexagramas-i-ching/"
-                
-                aria-label="Tabla Básica (8x8)"
-                class="flex items-center bf-icon-color-hover">
-                
-                <span class="text-sm font-sm" title="Tabla para buscar los hexagramas del I Ching">
-                  Tabla Básica (8x8)
-                </span>
-              </a>
-            
-              <a
-                href="/hexagramas/tabla-avanzada-correspondencias-i-ching/"
-                
-                aria-label="Tabla Avanzada (64 filas)"
-                class="flex items-center bf-icon-color-hover">
-                
-                <span class="text-sm font-sm" title="Tabla Avanzada de Correspondencias del I Ching">
-                  Tabla Avanzada (64 filas)
-                </span>
-              </a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    
-      
-  
-    <a
-      href="/articulos/"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="Artículos"
-      title="Artículos">
-      
-      
-        <span class="text-base font-medium break-normal">
-          Artículos
-        </span>
-      
-    </a>
-  
-
-    
-      
-  
-    <a
-      href="https://www.youtube.com/@ElIChingon"
-      
-        target="_blank"
-      
-      class="flex items-center bf-icon-color-hover"
-      aria-label="YouTube"
-      title="">
-      
-        <span class="mr-1">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span>
-        </span>
-      
-      
-        <span class="text-base font-medium break-normal">
-          YouTube
-        </span>
-      
-    </a>
-  
-
-    
-  
-
-  
-
-  
-
-  
-    <button
-      id="search-button"
-      aria-label="Search"
-      class="text-base bf-icon-color-hover"
-      title="Buscar (/)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-    </button>
-  
-
-  
-    <div class="flex items-center">
-      <button
-        id="appearance-switcher"
-        aria-label="Dark mode switcher"
-        type="button"
-        class="text-base bf-icon-color-hover">
-        <div class="flex items-center justify-center dark:hidden">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-        </div>
-        <div class="items-center justify-center hidden dark:flex">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-        </div>
-      </button>
-    </div>
-  
-</nav>
-
-
-
-    </div>
-    <div class="flex md:hidden">
-      <div class="flex items-center h-14 gap-4">
-  
-    <button
-      id="search-button-mobile"
-      aria-label="Search"
-      class="flex items-center justify-center bf-icon-color-hover"
-      title="Buscar (/)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-    </button>
-  
-
-  
-    <button
-      id="appearance-switcher-mobile"
-      type="button"
-      aria-label="Dark mode switcher"
-      class="flex items-center justify-center text-neutral-900 hover:text-primary-600 dark:text-neutral-200 dark:hover:text-primary-400">
-      <div class="dark:hidden">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-      </div>
-      <div class="hidden dark:block">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-      </div>
-    </button>
-  
-
-  
-    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
-    <label for="mobile-menu-toggle" class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
-      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-</span>
-    </label>
-
-    <div
-      role="dialog"
-      aria-modal="true"
-      style="scrollbar-gutter: stable;"
-      class="fixed inset-0 z-50 invisible overflow-y-auto px-6 py-20 opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100 bg-neutral-50/97 dark:bg-neutral-900/99
-      bf-scrollbar">
-      <label
-        for="mobile-menu-toggle"
-        class="fixed end-8 top-5 flex items-center justify-center z-50 h-12 w-12 cursor-pointer select-none rounded-full bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span>
-      </label>
-      <nav class="mx-auto max-w-md space-y-6">
-        
-  
-    
-    <div class="px-2">
-      <a
-        href="#"
-        aria-label="Hexagramas"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-        <span title="" class="text-2xl font-bold tracking-tight">
-          Hexagramas
-        </span>
-        
-          <label
-            for="fullscreen-submenu-hexagramas-parent"
-            class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
-            <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-          </label>
-        
-      </a>
-
-      
-        <input checked type="checkbox" id="fullscreen-submenu-hexagramas-parent" autocomplete="off" class="hidden peer/full">
-
-        <div
-          class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
-          <div class="overflow-hidden">
-            <div class="ms-7 mt-4">
+          <div id="menu-dropdown-0" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+               style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 200px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+            <div style="padding: 4px 0;">
               
-                <a
-                  href="/hexagramas/buscador-hexagramas-i-ching/"
-                  aria-label="Tabla Básica (8x8)"
-                  
-                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-                  
-                  <span title="Tabla para buscar los hexagramas del I Ching" class="text-lg">
-                    Tabla Básica (8x8)
-                  </span>
+                <a href="/hexagramas/buscador-hexagramas-i-ching/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Tabla Básica (8x8)
                 </a>
               
-                <a
-                  href="/hexagramas/tabla-avanzada-correspondencias-i-ching/"
-                  aria-label="Tabla Avanzada (64 filas)"
-                  
-                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-                  
-                  <span title="Tabla Avanzada de Correspondencias del I Ching" class="text-lg">
-                    Tabla Avanzada (64 filas)
-                  </span>
+                <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Tabla Avanzada (64 filas)
                 </a>
               
             </div>
           </div>
         </div>
       
-    </div>
-  
     
-    <div class="px-2">
-      <a
-        href="/articulos/"
-        aria-label="Artículos"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-        <span title="Artículos" class="text-2xl font-bold tracking-tight">
+      
+        <a href="/articulos/" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 ">
+          
           Artículos
-        </span>
-        
-      </a>
-
+        </a>
       
+    
+      
+        <a href="https://www.youtube.com/@ElIChingon" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube">
+          
+            <span class="inline-block align-text-bottom mr-1"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+          
+          YouTube
+        </a>
+      
+    
+  
+
+  <div class="relative inline-block custom-menu-parent" id="menu-parent-lang" style="padding-bottom: 10px; margin-bottom: -10px;">
+    <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" aria-label="Language Selector" style="background: none; border: none; cursor: pointer;">
+      <span style="font-size: 1.1rem; line-height: 1;">🌐</span>
+      <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div id="menu-dropdown-lang" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+         style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 160px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+      <div style="padding: 4px 0;">
+        
+          <a href="http://localhost:1313/hexagramas/hex54/textoaleman/" 
+             class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 font-bold text-primary-600 dark:text-primary-400" 
+             style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+            Español (ES)
+          </a>
+        
+      </div>
     </div>
+  </div>
+</nav>
+
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-menu-parent");
+    
+    parents.forEach(function (parent) {
+      
+      var dropdown = parent.querySelector(".custom-menu-dropdown");
+      if (!dropdown) return;
+
+      var timeoutId = null;
+
+      parent.addEventListener("mouseenter", function () {
+        clearTimeout(timeoutId);
+        dropdown.style.display = "block";
+      });
+
+      parent.addEventListener("mouseleave", function () {
+        timeoutId = setTimeout(function () {
+          dropdown.style.display = "none";
+        }, 150); 
+      });
+    });
+  })();
+</script>
+    </div>
+    <div class="flex md:hidden">
+      <nav class="flex flex-col space-y-4 pt-4 pb-6 px-4">
   
     
-    <div class="px-2">
-      <a
-        href="https://www.youtube.com/@ElIChingon"
-        aria-label="YouTube"
-        
-          target="_blank"
-        
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
-        
-          <span class="flex items-center justify-center h-8 w-8 text-2xl">
-            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span>
-          </span>
-        
-        <span title="" class="text-2xl font-bold tracking-tight">
+      
+        <div class="flex flex-col space-y-2 custom-mobile-parent" id="mob-parent-0">
+          <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+            <span>Hexagramas</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
+          
+          <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+            
+              <a href="/hexagramas/buscador-hexagramas-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
+                Tabla Básica (8x8)
+              </a>
+            
+              <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
+                Tabla Avanzada (64 filas)
+              </a>
+            
+          </div>
+        </div>
+      
+    
+      
+        <a href="/articulos/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400  py-1">
+          
+          Artículos
+        </a>
+      
+    
+      
+        <a href="https://www.youtube.com/@ElIChingon" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube py-1">
+          
+            <span class="inline-block align-text-bottom mr-2"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+          
           YouTube
-        </span>
-        
-      </a>
+        </a>
+      
+    
+  
 
+  <div class="flex flex-col space-y-2 pt-2 border-t border-neutral-200 dark:border-neutral-700 custom-mobile-parent" id="mob-parent-lang">
+    <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
+      <span class="flex items-center gap-2">
+        <span style="font-size: 1.1rem; line-height: 1;">🌐</span> Idiomas
+      </span>
+      <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+      
+        <a href="http://localhost:1313/hexagramas/hex54/textoaleman/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1 font-bold text-primary-600 dark:text-primary-400">
+          Español (ES)
+        </a>
       
     </div>
-  
+  </div>
+</nav>
 
+<script>
+  (function () {
+    var parents = document.querySelectorAll(".custom-mobile-parent");
+    
+    parents.forEach(function (parent) {
+      var button = parent.querySelector("button");
+      var dropdown = parent.querySelector(".custom-mobile-dropdown");
+      var arrow = parent.querySelector(".custom-mobile-arrow");
+      if (!button || !dropdown) return;
+
+      button.addEventListener("click", function (e) {
+        e.preventDefault();
         
-  
-
         
-  
-    <div
-      class="flex flex-wrap items-center [&_span]:text-2xl [&_.translation_button_.icon]:text-4xl! [&_.translation_button_span]:text-base! [&_.translation_.menuhide_span]:text-sm! gap-x-6 ps-2 mt-8 pt-8 border-t bf-border-color">
-      
+        if (dropdown.style.display === "flex") {
+          dropdown.style.display = "none";
+          if (arrow) arrow.style.transform = "rotate(0deg)";
+        } else {
+          
+          document.querySelectorAll(".custom-mobile-dropdown").forEach(function(el) {
+            el.style.display = "none";
+          });
+          document.querySelectorAll(".custom-mobile-arrow").forEach(function(el) {
+            el.style.transform = "rotate(0deg)";
+          });
 
-
-      
-    </div>
-  
-
-      </nav>
-    </div>
-  
-</div>
-
-
-
-
-
-
-
+          
+          dropdown.style.display = "flex";
+          if (arrow) arrow.style.transform = "rotate(180deg)";
+        }
+      });
+    });
+  })();
+</script>
     </div>
   </div>
 </div>
@@ -795,9 +644,22 @@
           <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DF5;
 </p>
-<p>oben Dschen, das Erregende, der Donner
-unten Tui, das Heitere, der See</p>
-<p>Das Zeichen zeigt unten Tui, das heitere Mädchen, oben Dschen, den älteren Sohn. Ein Mädchen schließt sich aus eigener Initiative einem älteren Manne an. Das widerspricht den Sitten und ist für die Dauer nicht haltbar. Daher der Gedanke des heiratenden Mädchens. Die Beziehungen der Geschlechter sind hier unregelmäßig.</p>
+
+<h3 class="relative group">Trigramme
+    <div id="trigramme" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#trigramme" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li>oben Dschen, das Erregende, der Donner</li>
+<li>unten Dui, das Heitere, der See</li>
+</ul>
+<p>Oben ist Dschen, der älteste Sohn, unten Dui, die jüngste Tochter. Der Mann geht voran, das Mädchen folgt ihm erfreut. Es wird der Eintritt des Mädchens in das Haus des Mannes geschildert. Es gibt im ganzen vier Zeichen, die die Beziehungen zwischen Gatten schildern. Nr. 31, Hien, »allseitiger Einfluß«, schildert die Anziehung, die ein junges Paar aufeinander ausübt. Nr. 32, Hang, &ldquo;die Dauer&rdquo;, schildert die dauernden Verhältnisse der Ehe. Nr. 53, Dsien, Die Entwicklung«,schildert die zögernden und zeremoniellen Vorgänge beim Abschluß einer korrekten Ehe. Gui Me, Die Heirat des Mädchens«, endlich zeigt einen älteren Mann, dem ein junges Mädchen zur Ehe folgt.</p>
+<p>Bemerkung: In China herrscht formell die Einehe. Jeder Mann hat nur eine offizielle Frau. Diese Verbindung, die weniger die beiden Beteiligten als die Familien angeht, wird unter strenger Beobachtung der Formen geschlossen. Doch behält der Mann das Recht, auch den zarteren Neigungen persönlicher Art Gehör zu schenken. Ja es ist die schönste Pflicht einer guten Frau, ihm darin behilflich zu sein. Auf diese Weise wird das Verhältnis ein schönes und offenes. Das Mädchen, das nach der Wahl des Mannes in die Familie eintritt, ordnet sich der Hausfrau bescheiden unter als jüngere Schwester. Selbstverständlich handelt es sich hier um sehr heikle und zarte Fragen, die viel Takt auf jeder Seite erfordern. Doch wenn die Umstände günstig sind, findet sich hier die Lösung eines Problems, die der europäischen Kultur nicht gelungen ist. Selbstverständlich entspricht die Weiblichkeit in China so wenig dem Ideal, wie die Ehen in Europa durchschnittlich im Einklang mit den europäischen Eheidealen sind.</p>
 <hr>
 
 <h2 class="relative group">Das Urteil
@@ -809,11 +671,15 @@ unten Tui, das Heitere, der See</p>
     </span>
     
 </h2>
-<blockquote><p>Das heiratende Mädchen. Unternehmungen bringen Unheil. Nichts ist fördernd.</p>
-</blockquote><p>Wenn ein Mädchen in eine Familie aufgenommen wird, ohne daß sie die rechtmäßige Hauptfrau ist, sondern in untergeordneter Stellung, muß große Zurückhaltung üben. Wenn sie eigenmächtig vorgeht und Unternehmungen wagt, bringt das Unheil, weil das den Sitten widerspricht.</p>
+<blockquote><p>Das heiratende Mädchen.
+Unternehmungen bringen Unheil.
+Nichts, das fördernd wäre.</p>
+</blockquote><p>Ein Mädchen, das in die Familie aufgenommen ist, ohne Hauptfrau zu sein, muß sich besonders vorsichtig und zurückhaltend benehmen. Es darf sich nicht von sich aus aufmachen, um die Hausfrau zu verdrängen, denn das würde Unordnung bedeuten, und man käme dadurch in unhaltbare Verhältnisse.</p>
+<p>Das bezieht sich auf alle freien Verhältnisse unter Menschen. Während die rechtlich geordneten Verhältnisse einen festen Zusammenhang von Pflichten und Rechten aufweisen, beruhen die Neigungsverhältnisse der Menschen in ihrer Dauer rein auf taktvoller Zurückhaltung.</p>
+<p>Diese Neigung als Prinzip der Beziehungen ist von größter Bedeutung in allen Verhältnissen der Welt, denn aus der Vereinigung von Himmel und Erde kommt der Bestand der ganzen Natur, und ebenso ist unter den Menschen die freie Neigung als Prinzip der Vereinigung Anfang und Ende.</p>
 <hr>
 
-<h2 class="relative group">DAS BILD
+<h2 class="relative group">Das Bild
     <div id="das-bild" class="anchor"></div>
     
     <span
@@ -822,8 +688,10 @@ unten Tui, das Heitere, der See</p>
     </span>
     
 </h2>
-<blockquote><p>Der Donner über dem See: das Bild des heiratenden Mädchens. So versteht der Edle durch die Ewigkeit des Endes das Vergängliche der Anfänge.</p>
-</blockquote><p>Der Donner erregt das Wasser des Sees. Das ist ein Bild des heiratenden Mädchens. Der Edle entnimmt daraus das Vorbild für sein Verhalten. Er weiß, daß die Anfänge der Leidenschaft vergänglich sind, wenn sie nicht im ewigen Gesetz des Endes verankert sind. Darum überlegt er das Ende, um das Dauernde zu wahren.</p>
+<blockquote><p>Oberhalb des Sees ist der Donner:
+das Bild des heiratenden Mädchens.
+So erkennt der Edle durch die Ewigkeit des Endes das Vergängliche.</p>
+</blockquote><p>Der Donner erregt das Wasser des Sees, das ihm in schimmernden Wellen folgt. Das ist das Bild des Mädchens, das dem Manne seiner Wahl folgt. Allein jede Verbindung von Menschen untereinander schließt die Gefahr in sich, daß sich Verirrungen einschleichen, die zu endlosen Mißverständnissen und Unzuträglichkeiten führen. Darum gilt es, das Ende dauernd in Betracht zu ziehen. Wenn man sich treiben laßt, kommt man zusammen und geht wieder auseinander, wie es der Tag fügt. Wenn man dagegen ein dauerhaftes Ende ins Auge faßt, so wird es einem gelingen, die Klippen zu umgehen, die näheren Beziehungen der Menschen untereinander entgegenstehen.</p>
 <hr>
 
 <h2 class="relative group">Die einzelnen Linien
@@ -835,18 +703,92 @@ unten Tui, das Heitere, der See</p>
     </span>
     
 </h2>
-<blockquote><p>Anfangs eine Neun bedeutet: Das heiratende Mädchen als Nebenfrau. Ein Hinkender kann gehen. Unternehmungen bringen Heil.</p>
-</blockquote><p>Ein Mädchen tritt als Nebenfrau ein. Sie hat eine untergeordnete Stellung, ähnlich wie ein Hinkender, der zwar gehen kann, aber keine großen Schritte macht. Wenn sie sich bescheidet und in ihrer Stellung treu bleibt, bringt das Heil für ihre Unternehmungen.</p>
-<blockquote><p>Neun auf zweitem Platz bedeutet: Ein Einäugiger kann sehen. Fördernd ist die Beharrlichkeit eines Einsamen.</p>
-</blockquote><p>Ein Einäugiger kann zwar sehen, aber sein Blickfeld ist eingeschränkt. Hier ist eine Frau gezeichnet, die ihrem Gatten treu bleibt, auch wenn dieser sie vernachlässigt oder nicht ihren Erwartungen entspricht. Sie bewahrt ihre Treue im Stillen und in der Einsamkeit.</p>
-<blockquote><p>Sechs auf drittem Platz bedeutet: Das heiratende Mädchen als Sklavin. Sie vermählt sich als Nebenfrau.</p>
-</blockquote><p>Wenn man sich unter Wert weggibt und nicht warten kann, bis die rechte Zeit und der rechte Partner da sind, kommt man in eine noch niedrigere Stellung. Man sucht die Erhöhung und findet die Erniedrigung.</p>
-<blockquote><p>Neun auf viertem Platz bedeutet: Das heiratende Mädchen verschiebt die Frist. Eine späte Heirat hat ihre Zeit.</p>
-</blockquote><p>Ein Mädchen von hohem Wert, das nicht leichtfertig heiratet, sondern die Frist verschiebt, bis der rechte Gatte erscheint. Das ist weise und führt schließlich zum Erfolg, denn alles Rechte hat seine von der Zeit bestimmte Stunde.</p>
-<blockquote><p>Sechs auf fünftem Platz bedeutet: Der Herrscher I gab seine Tochter in die Ehe. Die Ärmel der Herrscherin waren nicht so prachtvoll wie die der Nebenfrau. Der Mond ist fast voll bringt Heil.</p>
-</blockquote><p>Die vornehme Prinzessin fügt sich bescheiden ihrem Gatten und stellt den inneren Wert über den äußeren Prunk. Das bringt Segen und Heil. Es ist die wahre Vornehmheit, die sich beugt.</p>
-<blockquote><p>Oben eine Sechs bedeutet: Die Frau hält den Korb, aber es sind keine Früchte darin. Der Mann schlachtet das Schaf, aber es fließt kein Blut. Nichts ist fördernd.</p>
-</blockquote><p>Eine Ehe oder Verbindung, die rein äußerlich bleibt und keine innere Fruchtbarkeit oder echtes Leben besitzt. Alles ist leere Form und Schein, ohne wahre Opfergesinnung und Treue.</p>
+
+<h3 class="relative group">Anfangs eine Neun bedeutet:
+    <div id="anfangs-eine-neun-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#anfangs-eine-neun-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Das heiratende Mädchen als Nebenfrau.
+Ein Lahmer, der auftreten kann.
+Unternehmungen bringen Heil.</p>
+</blockquote><p>Die Fürsten des Altertums hatten eine feste Rangordnung unter den Palastdamen, die der Königin unterstellt waren wie die jüngeren Schwestern der ältesten. Sie waren auch vielfach aus der Familie der Königin, die sie selbst ihrem Gatten zuführte.</p>
+<p>Der Sinn ist der, daß ein junges Mädchen, wenn sie im Einverständnis mit der Ehefrau in eine Familie eintritt, dieser nach außen hin nicht gleichsteht, sondern bescheiden zurücktreten wird. Aber wenn sie es versteht, sich in den Zusammenhang einzufügen, so bekommt sie eine Stellung, die durchaus befriedigend ist, und sie wird sich geborgen fühlen in der Liebe des Gatten, dem sie Kinder bringt.</p>
+<p>Dieselbe Bedeutung ergibt sich in den Beziehungen von Beamten. Ein Fürst hat vielleicht einen Mann, mit dem er persönlich befreundet ist und den er in sein Vertrauen zieht. Dieser Mann muß taktvollerweise nach außen hin zurücktreten hinter den offiziellen Staatsminister. Aber obwohl er durch diese Stellung gehindert ist wie ein Lahmer, kann er doch etwas ausrichten durch die Güte seines Wesens.</p>
+
+<h3 class="relative group">Neun auf zweitem Platz bedeutet:
+    <div id="neun-auf-zweitem-platz-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#neun-auf-zweitem-platz-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Ein Einäugiger, der sehen kann.
+Fördernd ist die Beharrlichkeit eines einsamen Menschen.</p>
+</blockquote><p>Die Lage ist hier so, daß das Mädchen sich mit einem Manne verbunden hat, der sie enttäuscht. Mann und Frau sollen zusammenwirken wie die beiden Augen. Hier ist das Mädchen einsam zurückgeblieben. Der Mann ihrer Wahl ist entweder untreu geworden oder gestorben. Aber sie verliert das innere Licht der Treue nicht. Ob auch das andere Auge erloschen ist, sie hält die Treue fest auch in der Einsamkeit.</p>
+
+<h3 class="relative group">Sechs auf drittem Platz bedeutet:
+    <div id="sechs-auf-drittem-platz-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sechs-auf-drittem-platz-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Das heiratende Mädchen als Sklavin.
+Sie heiratet Nebenfrau.</p>
+</blockquote><p>Ein Mädchen, das sich in geringer Stellung befindet und keinen Mann bekommt, kann a1s Nebenfrau unter Umständen noch unterkommen.</p>
+<p>Die Situation ist die, daß man allzusehr nach Freuden begehrt, die man auf normalem Weg nicht erlangen kann. So gibt man sich in eine Lage hinein, die mit der eigenen Würde sich nicht ganz verträgt. Es wird weder ein Urteil noch eine Warnung beigefügt, sondern einfach die Situation als solche aufgedeckt, so daß sich jeder selbst die Lehre daraus ziehen kann.</p>
+
+<h3 class="relative group">Neun auf viertem Platz bedeutet:
+    <div id="neun-auf-viertem-platz-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#neun-auf-viertem-platz-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Das heiratende Mädchen verzögert die Frist.
+Eine späte Heirat kommt zu ihrer Zeit.</p>
+</blockquote><p>Das Mädchen ist sehr gut, will sich nicht wegwerfen und versäumt darüber die übliche Zeit der Ehe. Das schadet aber nichts. Sie wird für ihre Reinheit belohnt und findet schließlich, wenn auch spät, doch noch den für sie bestimmten Gatten.</p>
+
+<h3 class="relative group">Sechs auf fünftem Platz bedeutet:
+    <div id="sechs-auf-fünftem-platz-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sechs-auf-f%c3%bcnftem-platz-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Der Herrscher I verheiratet seine Tochter.
+Da waren die gestickten Kleider der Fürstin nicht so
+prächtig wie die der Dienerin.
+Der Mond, der fast voll ist, bringt Heil.</p>
+</blockquote><p>Der Herrscher I ist Tang, der Vollender. Er hat ein Gesetz erlassen, daß die kaiserlichen Prinzessinnen in der Ehe ebenfalls ihren Männern untertan sein müssen (vgl. Nr. Il, Strich 5). Der Kaiser wartet nicht auf Werbung, sondern gibt seine Tochter nach freiem Ermessen in die Ehe. Darum ist die Initiative auf Seiten der Familie des Mädchens hier in der Ordnung.</p>
+<p>Wir sehen hier ein Mädchen vornehmer Abkunft, die in bescheidene Verhältnisse heiratet und sich mit Anmut der neuen Lage anzupassen versteht. Sie ist frei von aller Eitelkeit äußeren Schmuckes, vergißt ihren Rang in der Ehe und stellt sich unter ihren Gatten, wie der Mond, der noch nicht ganz voll ist, der Sonne nicht direkt gegenübertritt.</p>
+
+<h3 class="relative group">Oben eine Sechs bedeutet:
+    <div id="oben-eine-sechs-bedeutet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#oben-eine-sechs-bedeutet" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Die Frau hält den Korb, aber es sind keine Früchte darin.
+Der Mann sticht das Schaf, aber es fließt Kein Blut.
+Nichts, das fördernd wäre.</p>
+</blockquote><p>Beim Opfer für die Ahnen mußte die Frau die Früchte in einem Korb darbringen, der Mann persönlich das Opfertier schlachten. Hier werden die Formen nur oberflächlich erfüllt. Die Frau nimmt einen leeren Korb, der Mann sticht ein schon vorher geschlachtetes Schaf, nur eben um die Form zu wahren. Aber diese unfromme, frivole Gesinnung verheißt kein Glück für die Ehe.</p>
 <hr>
 
 <h2 class="relative group">Referenzlinks
@@ -859,8 +801,8 @@ unten Tui, das Heitere, der See</p>
     
 </h2>
 <ul>
-<li><a href="/hexagramas/buscador-hexagramas-i-ching/" >Zurück zur Hexagramm-Suchtabelle</a></li>
-<li><a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" >Erweiterte Entsprechungen anzeigen</a></li>
+<li><a href="/de/hexagramme/i-ging-nachschlagetabelle/" >Zurück zur Hexagramm-Suchtabelle</a></li>
+<li><a href="/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/" >Erweiterte Entsprechungen anzeigen</a></li>
 </ul>
 
           
@@ -928,7 +870,7 @@ unten Tui, das Heitere, der See</p>
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
                 href="/licencias/"
-                title="">
+                title="Arquitectura de Licencias de elichingon.com">
                 
                 Licencias
               </a>
@@ -937,8 +879,8 @@ unten Tui, das Heitere, der See</p>
             <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/verificar"
-                title="">
+                href="/verificar/"
+                title="Verificación de autenticidad">
                 
                 Verificar
               </a>

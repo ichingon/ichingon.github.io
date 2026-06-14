@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex06/textoaleman
 title: "Hexagramm 6 訟 - SUNG / DER STREIT"
 weight: 8
 draft: false
@@ -10,6 +8,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex06/"
+translationKey: "hex06"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DC5;
@@ -95,5 +95,5 @@ Hier ist jemand gezeichnet, der den Streit bis zum bitteren Ende geführt und re
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex41/textoaleman
 title: "Hexagramm 41 損 - SUN / DIE MERMATION (DIE MINDERUNG)"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 41 (SUN) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex41/"
+translationKey: "hex41"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DE8;
@@ -95,5 +95,5 @@ Es gibt Menschen, die Segen spenden für die ganze Welt. Jeder Kraftzuwachs, jed
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

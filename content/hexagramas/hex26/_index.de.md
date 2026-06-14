@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex26/textoaleman
 title: "Hexagramm 26 大畜 - DA TSCHU / DES GROSSEN ZÄHMUNGSKRAFT"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 26 (DA TSCHU) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex26/"
+translationKey: "hex26"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DD9;
@@ -81,5 +81,5 @@ Die Zeit der Hemmung ist vorüber. Die lange durch Hemmung angesammelte Kraft br
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)

@@ -1,6 +1,4 @@
 ---
-aliases:
-    - /hexagramas/hex30/textoaleman
 title: "Hexagramm 30 離 - LI / DAS HAFTENDE, DAS FEUER"
 draft: false
 description: "Richard Wilhelms vollständige Untersuchung und Analyse von Hexagramm 30 (LI) des I Ging mit Unicode-Zeichen und Pinyin."
@@ -9,6 +7,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+url: "/de/hexagramme/hex30/"
+translationKey: "hex30"
 ---
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DDD;
@@ -84,5 +84,5 @@ Der Zweck der Züchtigung ist, Zucht zu schaffen, nicht blindlings Strafe walten
 ---
 
 ## Referenzlinks
-* [Zurück zur Hexagramm-Suchtabelle](/hexagramme/i-ging-nachschlagetabelle/)
-* [Erweiterte Entsprechungen anzeigen](/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
+* [Zurück zur Hexagramm-Suchtabelle](/de/hexagramme/i-ging-nachschlagetabelle/)
+* [Erweiterte Entsprechungen anzeigen](/de/hexagramme/erweitere-korrespondenztabelle-des-i-ging/)
