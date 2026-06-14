@@ -236,14 +236,14 @@ enableRobotsTXT = true
     # 2. First Child
     [[languages.de.menu.main]]
       name = "Basistabelle (8x8)"
-      pageRef = "hexagramme/i-ging-nachschlagetabelle"
+      pageRef = "hexagramas/tabla-hexagramas"
       parent = "hexagramas-parent"
       weight = 1
 
     # 3. Second Child
     [[languages.de.menu.main]]
       name = "Erweiterte Tabelle (64 Zeilen)"
-      pageRef = "hexagramme/tabla-hexagramas2"
+      pageRef = "hexagramas/tabla-hexagramas2"
       parent = "hexagramas-parent"
       weight = 2
 
