@@ -1,54 +1,149 @@
-<nav class="flex flex-col space-y-4 pt-4 pb-6 px-4">
-  {{ if .Site.Menus.main }}
-    {{ range $index, $item := .Site.Menus.main }}
-      {{ if .HasChildren }}
-        <div class="flex flex-col space-y-2 custom-mobile-parent" id="mob-parent-{{ $index }}">
-          <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
-            <span>{{ .Name | markdownify }}</span>
-            <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-          </button>
-          
-          <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
-            {{ range .Children }}
-              <a href="{{ .URL | relLangURL }}" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
-                {{ .Name | markdownify }}
-              </a>
-            {{ end }}
+<button
+  id="custom-burger-button"
+  aria-label="Toggle Menu"
+  style="position: fixed; top: 12px; right: 16px; z-index: 100; background: #171717; border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0;">
+  <svg id="custom-burger-icon-open" class="text-neutral-100" style="width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round;" viewBox="0 0 24 24">
+    <line x1="4" y1="6" x2="20" y2="6"></line>
+    <line x1="4" y1="12" x2="20" y2="12"></line>
+    <line x1="4" y1="18" x2="20" y2="18"></line>
+  </svg>
+  <svg id="custom-burger-icon-close" class="text-neutral-100" style="width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; display: none;" viewBox="0 0 24 24">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+  </svg>
+</button>
+
+<div id="custom-mobile-menu" class="fixed inset-x-0 top-16 z-50 flex flex-col bg-neutral-100 dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700 shadow-xl transition-all duration-300 w-full" style="display: none;">
+  <nav class="flex flex-col space-y-4 pt-4 pb-6 px-6 max-h-[calc(100vh-5rem)] overflow-y-auto w-full text-base">
+    
+    {{ if .Site.Menus.main }}
+      {{ range $index, $item := .Site.Menus.main }}
+        {{ if .HasChildren }}
+          <div class="flex flex-col space-y-2 custom-mobile-parent" id="mob-parent-{{ $index }}">
+            <button class="flex items-center justify-between font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left py-2" style="background: none; border: none; cursor: pointer;">
+              <span>{{ .Name | markdownify }}</span>
+              <svg class="w-5 h-5 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+            </button>
+            <div class="flex flex-col pl-4 border-l-2 border-neutral-300 dark:border-neutral-600 space-y-3 custom-mobile-dropdown" style="display: none;">
+              {{ range .Children }}
+                <a href="{{ .URL | relLangURL }}" class="font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1.5">
+                  {{ .Name | markdownify }}
+                </a>
+              {{ end }}
+            </div>
           </div>
-        </div>
-      {{ else }}
-        <a href="{{ .URL | relLangURL }}" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 {{ if .Params.class }}{{ .Params.class }}{{ end }} py-1">
-          {{ if .Pre }}
-            <span class="inline-block align-text-bottom mr-2">{{ partial "icon.html" .Pre }}</span>
-          {{ end }}
-          {{ .Name | markdownify }}
-        </a>
+        {{ else }}
+          <a href="{{ .URL | relLangURL }}" class="font-medium hover:text-primary-600 dark:hover:text-primary-400 {{ if .Params.class }}{{ .Params.class }}{{ end }} py-2 block">
+            {{ if .Pre }}
+              <span class="inline-block align-text-bottom mr-2">{{ partial "icon.html" .Pre }}</span>
+            {{ end }}
+            {{ .Name | markdownify }}
+          </a>
+        {{ end }}
       {{ end }}
     {{ end }}
-  {{ end }}
 
-  <div class="flex flex-col space-y-2 pt-2 border-t border-neutral-200 dark:border-neutral-700 custom-mobile-parent" id="mob-parent-lang">
-    <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
-      <span class="flex items-center gap-2">
-        <span style="font-size: 1.1rem; line-height: 1;">🌐</span> Idiomas
-      </span>
-      <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-    </button>
-    
-    <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
-      {{ range .AllTranslations }}
-        <a href="{{ .Permalink }}" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1 {{ if eq .Language.Lang $.Site.Language.Lang }}font-bold text-primary-600 dark:text-primary-400{{ end }}">
-          {{ if eq .Language.Lang "es" }}Español (ES){{ else if eq .Language.Lang "en" }}English (EN){{ else if eq .Language.Lang "de" }}Deutsch (DE){{ end }}
-        </a>
-      {{ end }}
+    {{ if .Site.Params.allowAppearanceChange | default false }}
+      <div class="flex items-center justify-between pt-5 mt-2 border-t border-neutral-300 dark:border-neutral-600">
+        <span class="text-xs font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider">Apariencia</span>
+        <button
+          id="appearance-switcher-mobile"
+          aria-label="Dark Mode Switcher"
+          class="text-neutral-500 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400"
+          style="background: none; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; padding: 0;"
+          type="button">
+          <span id="custom-mob-moon" style="display: inline-block; width: 20px; height: 20px;">{{ partial "icon.html" "moon" }}</span>
+          <span id="custom-mob-sun" style="display: none; width: 20px; height: 20px;">{{ partial "icon.html" "sun" }}</span>
+        </button>
+      </div>
+    {{ end }}
+
+    <div class="flex flex-col space-y-2 pt-4 mt-2 border-t border-neutral-300 dark:border-neutral-600 custom-mobile-parent" id="mob-parent-lang">
+      <button class="flex items-center justify-between font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left py-2" style="background: none; border: none; cursor: pointer;">
+        <span class="flex items-center gap-2">
+          <span style="font-size: 1.2rem; line-height: 1;">🌐</span> Idiomas
+        </span>
+        <svg class="w-5 h-5 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+      </button>
+      
+      <div class="flex flex-col pl-4 border-l-2 border-neutral-300 dark:border-neutral-600 space-y-3 custom-mobile-dropdown" style="display: none;">
+        {{ range .AllTranslations }}
+          <a href="{{ .Permalink }}" class="font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1.5 {{ if eq .Language.Lang $.Site.Language.Lang }}font-bold text-primary-600 dark:text-primary-400{{ end }}">
+            {{ if eq .Language.Lang "es" }}Español (ES){{ else if eq .Language.Lang "en" }}English (EN){{ else if eq .Language.Lang "de" }}Deutsch (DE){{ end }}
+          </a>
+        {{ end }}
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>
 
 <script>
   (function () {
-    var parents = document.querySelectorAll(".custom-mobile-parent");
+    var burgerBtn = document.getElementById("custom-burger-button");
+    var customMenu = document.getElementById("custom-mobile-menu");
+    var iconOpen = document.getElementById("custom-burger-icon-open");
+    var iconClose = document.getElementById("custom-burger-icon-close");
+
+    // Lógica para ocultar el botón en pantallas grandes (Escritorio) imitando a Tailwind
+    function handleResize() {
+      if (window.innerWidth >= 768) { // Breakpoint md de Tailwind
+        burgerBtn.style.display = "none";
+        customMenu.style.display = "none";
+      } else {
+        burgerBtn.style.display = "flex";
+        // Si el menú estaba abierto, se mantiene
+      }
+    }
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Ejecutar al inicio
+
+    // Control de apertura y cierre
+    if (burgerBtn && customMenu) {
+      burgerBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (customMenu.style.display === "none") {
+          customMenu.style.display = "flex";
+          if (iconOpen) iconOpen.style.display = "none";
+          if (iconClose) iconClose.style.display = "inline-block";
+        } else {
+          customMenu.style.display = "none";
+          if (iconOpen) iconOpen.style.display = "inline-block";
+          if (iconClose) iconClose.style.display = "none";
+        }
+      });
+    }
+
+    // Sincronización del Modo Oscuro Móvil
+    var mMoon = document.getElementById("custom-mob-moon");
+    var mSun = document.getElementById("custom-mob-sun");
     
+    function updateMobileIcons() {
+      if (!mMoon || !mSun) return;
+      if (document.documentElement.classList.contains("dark")) {
+        mMoon.style.display = "none";
+        mSun.style.display = "inline-block";
+        if (burgerBtn) burgerBtn.style.backgroundColor = "#262626";
+      } else {
+        mMoon.style.display = "inline-block";
+        mSun.style.display = "none";
+        if (burgerBtn) burgerBtn.style.backgroundColor = "#f5f5f5";
+      }
+    }
+    
+    updateMobileIcons();
+    var observer = new MutationObserver(updateMobileIcons);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+
+    var switcherMobile = document.getElementById("appearance-switcher-mobile");
+    var switcherDesktop = document.getElementById("appearance-switcher");
+    if (switcherMobile && switcherDesktop) {
+      switcherMobile.addEventListener("click", function () {
+        switcherDesktop.click();
+      });
+    }
+
+    // Manejo de los acordeones internos
+    var parents = document.querySelectorAll(".custom-mobile-parent");
     parents.forEach(function (parent) {
       var button = parent.querySelector("button");
       var dropdown = parent.querySelector(".custom-mobile-dropdown");
@@ -57,21 +152,10 @@
 
       button.addEventListener("click", function (e) {
         e.preventDefault();
-        
-        // Si ya está abierto, lo cerramos
         if (dropdown.style.display === "flex") {
           dropdown.style.display = "none";
           if (arrow) arrow.style.transform = "rotate(0deg)";
         } else {
-          // Opcional: Cerrar los demás acordeones abiertos para mantener el orden
-          document.querySelectorAll(".custom-mobile-dropdown").forEach(function(el) {
-            el.style.display = "none";
-          });
-          document.querySelectorAll(".custom-mobile-arrow").forEach(function(el) {
-            el.style.transform = "rotate(0deg)";
-          });
-
-          // Abrimos el actual
           dropdown.style.display = "flex";
           if (arrow) arrow.style.transform = "rotate(180deg)";
         }
@@ -79,3 +163,4 @@
     });
   })();
 </script>
+{{ "" | safeHTML }}

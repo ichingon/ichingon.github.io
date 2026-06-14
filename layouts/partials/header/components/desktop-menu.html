@@ -30,6 +30,20 @@
     {{ end }}
   {{ end }}
 
+  {{ if .Site.Params.allowAppearanceChange | default false }}
+    <div style="padding-bottom: 10px; margin-bottom: -10px; display: flex; align-items: center;">
+      <button
+        id="appearance-switcher"
+        aria-label="Dark Mode Switcher"
+        class="text-neutral-500 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400"
+        style="background: none; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 24px; height: 24px; padding: 0;"
+        type="button">
+        <span id="custom-nav-moon" style="display: inline-block; width: 18px; height: 18px;">{{ partial "icon.html" "moon" }}</span>
+        <span id="custom-nav-sun" style="display: none; width: 18px; height: 18px;">{{ partial "icon.html" "sun" }}</span>
+      </button>
+    </div>
+  {{ end }}
+
   <div class="relative inline-block custom-menu-parent" id="menu-parent-lang" style="padding-bottom: 10px; margin-bottom: -10px;">
     <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" aria-label="Language Selector" style="background: none; border: none; cursor: pointer;">
       <span style="font-size: 1.1rem; line-height: 1;">🌐</span>
@@ -53,25 +67,40 @@
 
 <script>
   (function () {
-    var parents = document.querySelectorAll(".custom-menu-parent");
+    var moon = document.getElementById("custom-nav-moon");
+    var sun = document.getElementById("custom-nav-sun");
     
+    function updateSwitcherIcons() {
+      if (!moon || !sun) return;
+      if (document.documentElement.classList.contains("dark")) {
+        moon.style.display = "none";
+        sun.style.display = "inline-block";
+      } else {
+        moon.style.display = "inline-block";
+        sun.style.display = "none";
+      }
+    }
+    
+    updateSwitcherIcons();
+    
+    var observer = new MutationObserver(updateSwitcherIcons);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+
+    var parents = document.querySelectorAll(".custom-menu-parent");
     parents.forEach(function (parent) {
-      // Buscamos el submenú correspondiente dentro de este contenedor específico
       var dropdown = parent.querySelector(".custom-menu-dropdown");
       if (!dropdown) return;
-
       var timeoutId = null;
-
       parent.addEventListener("mouseenter", function () {
         clearTimeout(timeoutId);
         dropdown.style.display = "block";
       });
-
       parent.addEventListener("mouseleave", function () {
         timeoutId = setTimeout(function () {
           dropdown.style.display = "none";
-        }, 150); // Mismo retardo de estabilidad para evitar cierres accidentales
+        }, 150);
       });
     });
   })();
 </script>
+{{ "" | safeHTML }}

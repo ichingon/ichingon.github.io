@@ -401,6 +401,22 @@
     
   
 
+  
+    <div style="padding-bottom: 10px; margin-bottom: -10px; display: flex; align-items: center;">
+      <button
+        id="appearance-switcher"
+        aria-label="Dark Mode Switcher"
+        class="text-neutral-500 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400"
+        style="background: none; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 24px; height: 24px; padding: 0;"
+        type="button">
+        <span id="custom-nav-moon" style="display: inline-block; width: 18px; height: 18px;"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span></span>
+        <span id="custom-nav-sun" style="display: none; width: 18px; height: 18px;"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span></span>
+      </button>
+    </div>
+  
+
   <div class="relative inline-block custom-menu-parent" id="menu-parent-lang" style="padding-bottom: 10px; margin-bottom: -10px;">
     <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" aria-label="Language Selector" style="background: none; border: none; cursor: pointer;">
       <span style="font-size: 1.1rem; line-height: 1;">🌐</span>
@@ -430,99 +446,211 @@
 
 <script>
   (function () {
-    var parents = document.querySelectorAll(".custom-menu-parent");
+    var moon = document.getElementById("custom-nav-moon");
+    var sun = document.getElementById("custom-nav-sun");
     
+    function updateSwitcherIcons() {
+      if (!moon || !sun) return;
+      if (document.documentElement.classList.contains("dark")) {
+        moon.style.display = "none";
+        sun.style.display = "inline-block";
+      } else {
+        moon.style.display = "inline-block";
+        sun.style.display = "none";
+      }
+    }
+    
+    updateSwitcherIcons();
+    
+    var observer = new MutationObserver(updateSwitcherIcons);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+
+    var parents = document.querySelectorAll(".custom-menu-parent");
     parents.forEach(function (parent) {
-      
       var dropdown = parent.querySelector(".custom-menu-dropdown");
       if (!dropdown) return;
-
       var timeoutId = null;
-
       parent.addEventListener("mouseenter", function () {
         clearTimeout(timeoutId);
         dropdown.style.display = "block";
       });
-
       parent.addEventListener("mouseleave", function () {
         timeoutId = setTimeout(function () {
           dropdown.style.display = "none";
-        }, 150); 
+        }, 150);
       });
     });
   })();
 </script>
+
     </div>
     <div class="flex md:hidden">
-      <nav class="flex flex-col space-y-4 pt-4 pb-6 px-4">
-  
-    
-      
-        <div class="flex flex-col space-y-2 custom-mobile-parent" id="mob-parent-0">
-          <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
-            <span>Hexagramas</span>
-            <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-          </button>
-          
-          <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
-            
-              <a href="/hexagramas/buscador-hexagramas-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
-                Tabla Básica (8x8)
-              </a>
-            
-              <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1">
-                Tabla Avanzada (64 filas)
-              </a>
-            
-          </div>
-        </div>
-      
-    
-      
-        <a href="/articulos/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400  py-1">
-          
-          Artículos
-        </a>
-      
-    
-      
-        <a href="https://www.youtube.com/@ElIChingon" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube py-1">
-          
-            <span class="inline-block align-text-bottom mr-2"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span></span>
-          
-          YouTube
-        </a>
-      
-    
-  
+      <button
+  id="custom-burger-button"
+  aria-label="Toggle Menu"
+  style="position: fixed; top: 12px; right: 16px; z-index: 100; background: #171717; border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0;">
+  <svg id="custom-burger-icon-open" class="text-neutral-100" style="width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round;" viewBox="0 0 24 24">
+    <line x1="4" y1="6" x2="20" y2="6"></line>
+    <line x1="4" y1="12" x2="20" y2="12"></line>
+    <line x1="4" y1="18" x2="20" y2="18"></line>
+  </svg>
+  <svg id="custom-burger-icon-close" class="text-neutral-100" style="width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; display: none;" viewBox="0 0 24 24">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+  </svg>
+</button>
 
-  <div class="flex flex-col space-y-2 pt-2 border-t border-neutral-200 dark:border-neutral-700 custom-mobile-parent" id="mob-parent-lang">
-    <button class="flex items-center justify-between text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left" style="background: none; border: none; cursor: pointer; padding: 4px 0;">
-      <span class="flex items-center gap-2">
-        <span style="font-size: 1.1rem; line-height: 1;">🌐</span> Idiomas
-      </span>
-      <svg class="w-4 h-4 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-    </button>
+<div id="custom-mobile-menu" class="fixed inset-x-0 top-16 z-50 flex flex-col bg-neutral-100 dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700 shadow-xl transition-all duration-300 w-full" style="display: none;">
+  <nav class="flex flex-col space-y-4 pt-4 pb-6 px-6 max-h-[calc(100vh-5rem)] overflow-y-auto w-full text-base">
     
-    <div class="flex flex-col pl-3 border-l border-neutral-200 dark:border-neutral-700 space-y-3 custom-mobile-dropdown" style="display: none;">
+    
       
-        <a href="http://localhost:1313/hexagramas/hex38/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1 font-bold text-primary-600 dark:text-primary-400">
-          Español (ES)
-        </a>
+        
+          <div class="flex flex-col space-y-2 custom-mobile-parent" id="mob-parent-0">
+            <button class="flex items-center justify-between font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left py-2" style="background: none; border: none; cursor: pointer;">
+              <span>Hexagramas</span>
+              <svg class="w-5 h-5 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+            </button>
+            <div class="flex flex-col pl-4 border-l-2 border-neutral-300 dark:border-neutral-600 space-y-3 custom-mobile-dropdown" style="display: none;">
+              
+                <a href="/hexagramas/buscador-hexagramas-i-ching/" class="font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1.5">
+                  Tabla Básica (8x8)
+                </a>
+              
+                <a href="/hexagramas/tabla-avanzada-correspondencias-i-ching/" class="font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1.5">
+                  Tabla Avanzada (64 filas)
+                </a>
+              
+            </div>
+          </div>
+        
       
-        <a href="http://localhost:1313/de/hexagramme/hex38/" class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1 ">
-          Deutsch (DE)
-        </a>
+        
+          <a href="/articulos/" class="font-medium hover:text-primary-600 dark:hover:text-primary-400  py-2 block">
+            
+            Artículos
+          </a>
+        
       
+        
+          <a href="https://www.youtube.com/@ElIChingon" class="font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube py-2 block">
+            
+              <span class="inline-block align-text-bottom mr-2"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+            
+            YouTube
+          </a>
+        
+      
+    
+
+    
+      <div class="flex items-center justify-between pt-5 mt-2 border-t border-neutral-300 dark:border-neutral-600">
+        <span class="text-xs font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider">Apariencia</span>
+        <button
+          id="appearance-switcher-mobile"
+          aria-label="Dark Mode Switcher"
+          class="text-neutral-500 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400"
+          style="background: none; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; padding: 0;"
+          type="button">
+          <span id="custom-mob-moon" style="display: inline-block; width: 20px; height: 20px;"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span></span>
+          <span id="custom-mob-sun" style="display: none; width: 20px; height: 20px;"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span></span>
+        </button>
+      </div>
+    
+
+    <div class="flex flex-col space-y-2 pt-4 mt-2 border-t border-neutral-300 dark:border-neutral-600 custom-mobile-parent" id="mob-parent-lang">
+      <button class="flex items-center justify-between font-medium hover:text-primary-600 dark:hover:text-primary-400 w-full text-left py-2" style="background: none; border: none; cursor: pointer;">
+        <span class="flex items-center gap-2">
+          <span style="font-size: 1.2rem; line-height: 1;">🌐</span> Idiomas
+        </span>
+        <svg class="w-5 h-5 fill-current text-neutral-400 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+      </button>
+      
+      <div class="flex flex-col pl-4 border-l-2 border-neutral-300 dark:border-neutral-600 space-y-3 custom-mobile-dropdown" style="display: none;">
+        
+          <a href="http://localhost:1313/hexagramas/hex38/" class="font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1.5 font-bold text-primary-600 dark:text-primary-400">
+            Español (ES)
+          </a>
+        
+          <a href="http://localhost:1313/de/hexagramme/hex38/" class="font-medium hover:text-primary-600 dark:hover:text-primary-400 py-1.5 ">
+            Deutsch (DE)
+          </a>
+        
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>
 
 <script>
   (function () {
-    var parents = document.querySelectorAll(".custom-mobile-parent");
+    var burgerBtn = document.getElementById("custom-burger-button");
+    var customMenu = document.getElementById("custom-mobile-menu");
+    var iconOpen = document.getElementById("custom-burger-icon-open");
+    var iconClose = document.getElementById("custom-burger-icon-close");
+
     
+    function handleResize() {
+      if (window.innerWidth >= 768) { 
+        burgerBtn.style.display = "none";
+        customMenu.style.display = "none";
+      } else {
+        burgerBtn.style.display = "flex";
+        
+      }
+    }
+    window.addEventListener("resize", handleResize);
+    handleResize(); 
+
+    
+    if (burgerBtn && customMenu) {
+      burgerBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (customMenu.style.display === "none") {
+          customMenu.style.display = "flex";
+          if (iconOpen) iconOpen.style.display = "none";
+          if (iconClose) iconClose.style.display = "inline-block";
+        } else {
+          customMenu.style.display = "none";
+          if (iconOpen) iconOpen.style.display = "inline-block";
+          if (iconClose) iconClose.style.display = "none";
+        }
+      });
+    }
+
+    
+    var mMoon = document.getElementById("custom-mob-moon");
+    var mSun = document.getElementById("custom-mob-sun");
+    
+    function updateMobileIcons() {
+      if (!mMoon || !mSun) return;
+      if (document.documentElement.classList.contains("dark")) {
+        mMoon.style.display = "none";
+        mSun.style.display = "inline-block";
+        if (burgerBtn) burgerBtn.style.backgroundColor = "#262626";
+      } else {
+        mMoon.style.display = "inline-block";
+        mSun.style.display = "none";
+        if (burgerBtn) burgerBtn.style.backgroundColor = "#f5f5f5";
+      }
+    }
+    
+    updateMobileIcons();
+    var observer = new MutationObserver(updateMobileIcons);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+
+    var switcherMobile = document.getElementById("appearance-switcher-mobile");
+    var switcherDesktop = document.getElementById("appearance-switcher");
+    if (switcherMobile && switcherDesktop) {
+      switcherMobile.addEventListener("click", function () {
+        switcherDesktop.click();
+      });
+    }
+
+    
+    var parents = document.querySelectorAll(".custom-mobile-parent");
     parents.forEach(function (parent) {
       var button = parent.querySelector("button");
       var dropdown = parent.querySelector(".custom-mobile-dropdown");
@@ -531,21 +659,10 @@
 
       button.addEventListener("click", function (e) {
         e.preventDefault();
-        
-        
         if (dropdown.style.display === "flex") {
           dropdown.style.display = "none";
           if (arrow) arrow.style.transform = "rotate(0deg)";
         } else {
-          
-          document.querySelectorAll(".custom-mobile-dropdown").forEach(function(el) {
-            el.style.display = "none";
-          });
-          document.querySelectorAll(".custom-mobile-arrow").forEach(function(el) {
-            el.style.transform = "rotate(0deg)";
-          });
-
-          
           dropdown.style.display = "flex";
           if (arrow) arrow.style.transform = "rotate(180deg)";
         }
@@ -553,6 +670,7 @@
     });
   })();
 </script>
+
     </div>
   </div>
 </div>
