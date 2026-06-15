@@ -485,11 +485,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex23/_index.backup/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex23/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

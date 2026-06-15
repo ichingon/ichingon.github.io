@@ -8,6 +8,7 @@ layout: "page"
 showDate: false
 showReadingTime: false
 showWordCount: false
+showAuthor: false
 slug: "i-ching-lookup-chart"
 aliases:
     - /hexagrams/i-ching-lookup-chart/

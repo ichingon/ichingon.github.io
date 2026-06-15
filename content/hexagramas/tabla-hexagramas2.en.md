@@ -11,6 +11,7 @@ showTaxonomies: false
 showDate: false
 showReadingTime: false
 showWordCount: false
+showAuthor: false
 slug: "advanced-i-ching-correspondence-table"
 aliases:
     - /hexagrams/advanced-i-ching-correspondence-table/
