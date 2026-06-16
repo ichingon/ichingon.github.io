@@ -6,7 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["Fundamentos del I Ching"]
-summary: "Este es un artículo introductorio para los que no saben que es el I ching."
+description: "¿El I Ching es un oráculo, un espejo o un lenguaje? Descubre su sistema binario de Yin y Yang, los 8 trigramas y los 64 hexagramas en esta introducción esencial."
+summary: "El I Ching es más que un oráculo: es un lenguaje universal basado en el Yin y el Yang. Este artículo te guía por su alfabeto binario, los 8 trigramas y los 64 hexagramas, explicando cómo se estructuran sus palabras y oraciones."
 math: false
 ---
 

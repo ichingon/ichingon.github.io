@@ -6,7 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["I Ching Fundamentals"]
-summary: "This is an introductory article on the I Ching consultation method using coins."
+description: "Learn how to consult the I Ching with three coins step by step. Discover how to get the 6 lines of the resulting and derived hexagram, and then identify them."
+summary: "A practical guide to consulting the I Ching by tossing three coins. It explains the numerical value of each throw, how the 6 hexagram lines are built, the difference between fixed and moving lines, and how to identify the resulting and derived hexagrams."
 math: false
 ---
 

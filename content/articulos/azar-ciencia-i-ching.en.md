@@ -5,7 +5,8 @@ author: "Dailingna Romero"
 showAuthor: true
 showAuthorBottom : true
 tags: ["Philosophy, Science and Technology"]
-summary: "An epistemological exploration of how chance, far from being an obstacle to knowledge, acts as a filter for subjectivity and a constitutive dimension of reality, connecting ancient Chinese tradition with contemporary science."
+description: "What does the I Ching have in common with quantum mechanics and chaos theory? Discover where the Western prejudice against chance comes from and how that is changing."
+summary: "Is chance a tool for knowledge? This article connects the I Ching with quantum mechanics, chaos theory, Gödel's theorems and bootstrapping to show how chance, far from being an obstacle, rather filters our subjectivity and allows us to access deeper orders."
 math: true
 slug: "chance-science-i-ching"
 aliases:

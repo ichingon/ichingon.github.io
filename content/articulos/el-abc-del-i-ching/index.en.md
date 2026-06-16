@@ -6,7 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["I Ching Fundamentals"]
-summary: "An introductory article for those who want to understand what the I Ching truly is."
+description: "Is the I Ching an oracle, a mirror, or a language? Discover its binary system of Yin and Yang, the 8 trigrams, and the 64 hexagrams in this essential introduction."
+summary: "The I Ching is more than an oracle: it's a universal language based on Yin and Yang. This article guides you through its binary alphabet, the 8 trigrams, and the 64 hexagrams, explaining how its words and sentences are structured."
 math: false
 slug: "the-abc-of-the-i-ching"
 aliases:

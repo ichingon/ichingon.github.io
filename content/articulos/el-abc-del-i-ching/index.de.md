@@ -6,7 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["Grundlagen des I Ging"]
-summary: "Dies ist ein einleitender Artikel für diejenigen, die nicht wissen, was das I Ging ist."
+description: "Ist das I Ging ein Orakel, ein Spiegel oder eine Sprache? Entdecke sein binäres System aus Yin und Yang, die 8 Trigramme und die 64 Hexagramme in dieser Einführung."
+summary: "Das I Ging ist mehr als ein Orakel: es ist eine universelle Sprache, die auf Yin und Yang basiert. Dieser Artikel führt dich durch sein binäres Alphabet, die 8 Trigramme und die 64 Hexagramme und erklärt, wie seine Wörter und Sätze aufgebaut sind."
 math: false
 ---
 

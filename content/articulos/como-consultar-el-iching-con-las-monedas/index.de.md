@@ -6,7 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["Grundlagen des I Ging"]
-summary: "Dies ist ein einführender Artikel über die Methode der I-Ging-Befragung mit Münzen."
+description: "Lerne Schritt für Schritt, das I Ging mit drei Münzen zu befragen. Entdecke, wie du die 6 Linien des resultierenden und abgeleiteten Hexagramms erhältst und sie dann identifizierst."
+summary: "Ein praktischer Leitfaden zur Befragung des I Ging mit drei Münzen. Er erklärt die Zahlenwerte jedes Wurfs, den Aufbau der 6 Hexagrammlinien, den Unterschied zwischen festen und beweglichen Linien sowie die Identifizierung des resultierenden und abgeleiteten Hexagramms."
 slug: "wie-man-das-i-ging-mit-der-munzenmethode-befragt"
 math: false
 ---

@@ -6,7 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["Fundamentos del I Ching"]
-summary: "Este es un artículo introductorio sobre el método de consulta del I Ching mediante las monedas."
+description: "Aprende a consultar el I Ching con tres monedas paso a paso. Descubre cómo obtener las 6 líneas del hexagrama resultante y derivado, y luego identificarlos."
+summary: "Una guía práctica para consultar el I Ching mediante el lanzamiento de tres monedas. Explica el valor numérico de cada tirada, cómo se construyen las 6 líneas del hexagrama, la diferencia entre líneas fijas y móviles, y cómo identificar los hexagramas resultante y derivado."
 math: false
 ---
 

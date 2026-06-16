@@ -5,7 +5,8 @@ author: "Dailingna Romero"
 showAuthor: true
 showAuthorBottom: true
 tags: ["Philosophie, Wissenschaft und Technologie"]
-summary: "Eine erkenntnistheoretische Erkundung, wie der Zufall, weit davon entfernt, ein Hindernis für das Wissen zu sein, als Filter für Subjektivität und als konstitutive Dimension der Wirklichkeit wirkt und so die alte chinesische Tradition mit der zeitgenössischen Wissenschaft verbindet."
+description: "Was hat das I Ging mit Quantenmechanik und Chaostheorie gemeinsam? Entdecke, woher das westliche Vorurteil gegenüber dem Zufall kommt und wie sich das gerade ändert."
+summary: "Ist der Zufall ein Werkzeug der Erkenntnis? Dieser Artikel verbindet das I Ging mit Quantenmechanik, Chaostheorie, Gödels Sätzen und Bootstrapping, um zu zeigen, wie der Zufall, weit davon entfernt ein Hindernis zu sein, vielmehr unsere Subjektivität filtert und uns den Zugang zu tieferen Ordnungen ermöglicht."
 slug: "zufall-wissenschaft-und-i-ging"
 math: true
 ---

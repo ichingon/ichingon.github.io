@@ -6,7 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["I Ching, arte, cultura y religión"]
-summary: "Aquí analizamos el I Ching como un Meme, o una colección de memes."
+description: "¿Fue el I Ching el primer meme viral de la historia? Descubre cómo el I Ching encaja con la definición de Dawkins y los memes modernos."
+summary: "El I Ching no es solo un oráculo milenario, sino el ancestro de todos los memes modernos. Este artículo explora cómo los 64 hexagramas encajan con la teoría de Richard Dawkins y se comportan igual que el "novio distraído" o cualquier viral de internet. Una visión original que une filosofía antigua con la cultura digital del siglo XXI."
 math: false
 ---
 

@@ -5,7 +5,8 @@ author: "Dailingna Romero"
 showAuthor: true
 showAuthorBottom: true
 tags: ["Filosofía, Ciencia y Tecnología"]
-summary: "Una exploración epistemológica sobre cómo el azar, lejos de ser un obstáculo para el conocimiento, actúa como un filtro de la subjetividad y una dimensión constitutiva de la realidad, conectando la tradición milenaria china con la ciencia contemporánea."
+description: "¿Qué tiene en común el I Ching con la mecánica cuántica y la teoría del caos? Descubre de dónde viene el prejuicio occidental hacia el azar y cómo eso está cambiando."
+summary: "¿Es el azar una herramienta de conocimiento? Este artículo conecta el I Ching con la mecánica cuántica, la teoría del caos, los teoremas de Gödel y el bootstrapping para mostrar cómo el azar, lejos de ser un obstáculo, más bién filtra nuestra subjetividad y nos permite acceder a órdenes más profundos."
 math: true
 ---
 
