@@ -4,7 +4,7 @@ date: 2026-03-25
 author: "Dailingna Romero"
 showAuthor: true
 showAuthorBottom : true
-tags: ["Science and Technology", "Philosophy"]
+tags: ["Philosophy, Science and Technology"]
 summary: "An epistemological exploration of how chance, far from being an obstacle to knowledge, acts as a filter for subjectivity and a constitutive dimension of reality, connecting ancient Chinese tradition with contemporary science."
 math: true
 slug: "chance-science-i-ching"

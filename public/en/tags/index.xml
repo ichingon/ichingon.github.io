@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dailingna Romero</copyright>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fundamentos Del I Ching</title>
+      <link>http://localhost:1313/en/tags/fundamentos-del-i-ching/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/tags/fundamentos-del-i-ching/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>I Ching Fundamentals</title>
@@ -20,21 +30,11 @@
     </item>
     
     <item>
-      <title>Philosophy</title>
-      <link>http://localhost:1313/en/tags/philosophy/</link>
+      <title>Philosophy, Science and Technology</title>
+      <link>http://localhost:1313/en/tags/philosophy-science-and-technology/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/tags/philosophy/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Science and Technology</title>
-      <link>http://localhost:1313/en/tags/science-and-technology/</link>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en/tags/science-and-technology/</guid>
+      <guid>http://localhost:1313/en/tags/philosophy-science-and-technology/</guid>
       <description></description>
       
     </item>

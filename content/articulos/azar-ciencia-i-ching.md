@@ -4,7 +4,7 @@ date: 2026-03-25
 author: "Dailingna Romero"
 showAuthor: true
 showAuthorBottom: true
-tags: ["Ciencia y Tecnología", "Filosofía"]
+tags: ["Filosofía, Ciencia y Tecnología"]
 summary: "Una exploración epistemológica sobre cómo el azar, lejos de ser un obstáculo para el conocimiento, actúa como un filtro de la subjetividad y una dimensión constitutiva de la realidad, conectando la tradición milenaria china con la ciencia contemporánea."
 math: true
 ---

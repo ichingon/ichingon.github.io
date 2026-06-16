@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundamentos Del I Ching on I Chingon</title>
+    <link>http://localhost:1313/en/tags/fundamentos-del-i-ching/</link>
+    <description>Recent content in Fundamentos Del I Ching on I Chingon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Dailingna Romero</copyright>
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/fundamentos-del-i-ching/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Consult the I Ching Using the Coin Toss Method</title>
+      <link>http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</guid>
+      <description>This is an introductory article on the I Ching consultation method using coins.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

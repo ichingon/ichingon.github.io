@@ -87,6 +87,43 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/en/articles/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/en/licences/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -105,27 +142,6 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/licences/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/en/articles/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/articulos/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="http://localhost:1313/de/artikel/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/articles/"
     />
   </url>
   <url>

@@ -20,21 +20,11 @@
     </item>
     
     <item>
-      <title>Ciencia Y Tecnología</title>
-      <link>http://localhost:1313/tags/ciencia-y-tecnolog%C3%ADa/</link>
+      <title>Filosofía, Ciencia Y Tecnología</title>
+      <link>http://localhost:1313/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ciencia-y-tecnolog%C3%ADa/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Filosofía</title>
-      <link>http://localhost:1313/tags/filosof%C3%ADa/</link>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/filosof%C3%ADa/</guid>
+      <guid>http://localhost:1313/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/</guid>
       <description></description>
       
     </item>
