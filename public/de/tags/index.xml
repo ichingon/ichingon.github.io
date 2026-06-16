@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2026 Dailingna Romero</copyright>
-    <atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grundlagen Des I Ging</title>
+      <link>http://localhost:1313/de/tags/grundlagen-des-i-ging/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/tags/grundlagen-des-i-ging/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Philosophie, Wissenschaft Und Technologie</title>
+      <link>http://localhost:1313/de/tags/philosophie-wissenschaft-und-technologie/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/tags/philosophie-wissenschaft-und-technologie/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

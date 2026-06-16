@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dailingna Romero</copyright>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>¿Es el I Ching el primer MEME de la historia? 🤯</title>
+      <link>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</guid>
+      <description>Aquí analizamos el I Ching como un Meme, o una colección de memes.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
+    </item>
     
     <item>
       <title>Como consultar al I Ching mediante el lanzamiento de las monedas</title>

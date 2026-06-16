@@ -22,7 +22,7 @@ Ciertamente, el I Ching nos ayuda a encontrar respuestas, pero eso es porque aqu
 
 Pero también podriamos ver el I Ching como un lenguaje, y en este artículo vamos a ver cómo es este lenguaje y cuales son sus partes constituyentes. ¿Cuál es el alfabeto del I Ching y cuales son sus palabras y sentencias? Por eso hemos titulado este articulo "El ABC del I Ching", porque además de ser una introducción al mismo, nos dice cómo es el lenguaje con el que el I Ching nos habla cuando lo consultamos.
 
-## El alfabeto binario del I Ching.
+## El alfabeto binario del I Ching{#libro-sin-palabras}
 
 En su origen, el I Ching es un libro sin palabras. Es una sucesión finita de signos no idiomáticos que conforman una cosmogonía. Estos signos representan los posibles estados de la realidad y de la condición humana. Los signos son en total 64, y se denominan *hexagramas*. Cada hexagrama, como veremos luego, se compone de 6 trazos lineales.
 

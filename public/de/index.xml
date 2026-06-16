@@ -49,5 +49,35 @@
       
     </item>
     
+    <item>
+      <title>Wie man das I Ging mit der Münzenmethode befragt</title>
+      <link>http://localhost:1313/de/artikel/wie-man-das-i-ging-mit-der-m%C3%BCnzenmethode-befragt/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/artikel/wie-man-das-i-ging-mit-der-m%C3%BCnzenmethode-befragt/</guid>
+      <description>Dies ist ein einführender Artikel über die Methode der I-Ging-Befragung mit Münzen.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Das ABC des I Ging</title>
+      <link>http://localhost:1313/de/artikel/das-abc-des-i-ging/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/artikel/das-abc-des-i-ging/</guid>
+      <description>Dies ist ein einleitender Artikel für diejenigen, die nicht wissen, was das I Ging ist.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-abc-del-i-ching/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Der Zufall, die Wissenschaft und das I Ging: eine Konvergenz im Verständnis von Ordnung und Unsicherheit</title>
+      <link>http://localhost:1313/de/artikel/der-zufall-die-wissenschaft-und-das-i-ging-eine-konvergenz-im-verst%C3%A4ndnis-von-ordnung-und-unsicherheit/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/artikel/der-zufall-die-wissenschaft-und-das-i-ging-eine-konvergenz-im-verst%C3%A4ndnis-von-ordnung-und-unsicherheit/</guid>
+      <description>Eine erkenntnistheoretische Erkundung, wie der Zufall, weit davon entfernt, ein Hindernis für das Wissen zu sein, als Filter für Subjektivität und als konstitutive Dimension der Wirklichkeit wirkt und so die alte chinesische Tradition mit der zeitgenössischen Wissenschaft verbindet.</description>
+      
+    </item>
+    
   </channel>
 </rss>

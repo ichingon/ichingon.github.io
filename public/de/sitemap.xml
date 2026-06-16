@@ -490,6 +490,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/de/artikel/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -506,6 +507,69 @@
       rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/artikel/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/artikel/wie-man-das-i-ging-mit-der-m%C3%BCnzenmethode-befragt/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/wie-man-das-i-ging-mit-der-m%C3%BCnzenmethode-befragt/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/artikel/das-abc-des-i-ging/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/el-abc-del-i-ching/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/the-abc-of-the-i-ching/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/das-abc-des-i-ging/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/artikel/der-zufall-die-wissenschaft-und-das-i-ging-eine-konvergenz-im-verst%C3%A4ndnis-von-ordnung-und-unsicherheit/</loc>
+    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/azar-ciencia-i-ching/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/chance-science-i-ching/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/der-zufall-die-wissenschaft-und-das-i-ging-eine-konvergenz-im-verst%C3%A4ndnis-von-ordnung-und-unsicherheit/"
     />
   </url>
   <url>

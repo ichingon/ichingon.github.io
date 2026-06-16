@@ -15,7 +15,7 @@ aliases:
 
 ## What is the I Ching?
 
-The I Ching, or Book of Changes, is simultaneously a book and a tool. As a book, it is a well of wisdom, teaching us that the universe is a constant flux. This reminds us of what the Greek philosopher [Heraclitus proposed when he stated that everything is in a process of continuous transformation, where things turn into their opposites.](/articles/chance-science-i-ching/#parmenides-heraclito)
+The I Ching, or Book of Changes, is simultaneously a book and a tool. As a book, it is a well of wisdom, teaching us that the universe is a constant flux. This reminds us of what the Greek philosopher [Heraclitus proposed when he stated that everything is in a process of continuous transformation, where things turn into their opposites.]({{< relref "azar-ciencia-i-ching.md#parmenides-heraclitus" >}})
 
 As a tool, it is a virtually infallible compass to guide human beings toward achieving harmony with the constant and changing flow of life's currents. Most people know it under this tool aspect, as an oracle or a divinatory practice.
 
@@ -25,7 +25,7 @@ Certainly, the I Ching helps us find answers, but that is because what we think 
 
 But we could also view the I Ching as a language, and in this article, we are going to explore how this language works and what its constituent parts are. What is the alphabet of the I Ching, and what are its words and sentences? That is why we have titled this article "The ABC of the I Ching" - because besides being an introduction, it reveals the nature of the language the I Ching uses to speak to us when we consult it.
 
-## The Binary Alphabet of the I Ching
+## The Binary Alphabet of the I Ching{#book-without_words}
 
 In its origin, the I Ching is a book without words. It is a finite succession of non-idiomatic signs that make up a cosmogony. These signs represent the possible states of reality and the human condition. There are 64 signs in total, and they are called *hexagrams*. Each hexagram, as we will see later, is composed of 6 linear strokes.
 

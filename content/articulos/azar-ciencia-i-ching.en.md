@@ -22,7 +22,7 @@ This article does not intend to "validate" the I Ching with science -an operatio
 
 ---
 
-## Genesis of Western rationalism: Parmenides against Heraclitus {#parmenides-heraclito}
+## Genesis of Western rationalism: Parmenides against Heraclitus {#parmenides-heraclitus}
 
 To understand why chance was for centuries marginalized as a source of knowledge, it is necessary to go back to the foundational opposition between Parmenides and Heraclitus.
 

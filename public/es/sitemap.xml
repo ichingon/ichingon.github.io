@@ -620,6 +620,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/wie-man-das-i-ging-mit-der-m%C3%BCnzenmethode-befragt/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="es"
       href="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/"
     />
@@ -633,6 +638,11 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/articles/the-abc-of-the-i-ching/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/das-abc-des-i-ging/"
     />
     <xhtml:link
       rel="alternate"
@@ -670,6 +680,11 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/articles/chance-science-i-ching/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/der-zufall-die-wissenschaft-und-das-i-ging-eine-konvergenz-im-verst%C3%A4ndnis-von-ordnung-und-unsicherheit/"
     />
     <xhtml:link
       rel="alternate"

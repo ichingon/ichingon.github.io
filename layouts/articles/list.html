@@ -1,0 +1,51 @@
+{{ define "main" }}
+<main class="articulos-container max-w-prose mx-auto px-4 py-8">
+  <h1 class="text-4xl font-bold mb-4">{{ .Title }}</h1>
+  
+  <div class="prose dark:prose-invert mb-8">
+    {{ .Content }}
+  </div>
+
+  {{ range $tag, $paginas := .Site.Taxonomies.tags }}
+    {{ $articulosDelTag := where $paginas.Pages "Section" "articulos" }}
+    
+    {{ if $articulosDelTag }}
+      <section class="tag-bloque mb-6">
+        
+        {{ if $.Params.enable_accordion }}
+          <details class="grupo-acordeon-chingon">
+            <summary class="text-2xl font-semibold border-b pb-2 mb-4 capitalize cursor-pointer select-none outline-none list-none flex justify-between items-center">
+              <h2>{{ replace $tag "-" " " }}</h2>
+              <span class="flecha-indicadora text-sm opacity-50 transition-transform duration-200">▼</span>
+            </summary>
+            
+            <ul class="lista-articulos-chingona list-disc pl-5 space-y-3 mb-6">
+              {{ range $articulosDelTag.ByTitle }}
+                <li>
+                  <a href="{{ .Permalink }}" class="text-primary-500 hover:underline font-medium">
+                    {{ .Title }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </details>
+        {{ else }}
+          <h2 class="text-2xl font-semibold border-b pb-2 mb-4 capitalize">
+            {{ replace $tag "-" " " }}
+          </h2>
+          <ul class="lista-articulos-chingona list-disc pl-5 space-y-3 mb-6">
+            {{ range $articulosDelTag.ByTitle }}
+              <li>
+                <a href="{{ .Permalink }}" class="text-primary-500 hover:underline font-medium">
+                  {{ .Title }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+
+      </section>
+    {{ end }}
+  {{ end }}
+</main>
+{{ end }}
