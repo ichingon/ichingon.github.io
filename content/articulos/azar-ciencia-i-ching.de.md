@@ -6,6 +6,7 @@ showAuthor: true
 showAuthorBottom: true
 tags: ["Philosophie, Wissenschaft und Technologie"]
 summary: "Eine erkenntnistheoretische Erkundung, wie der Zufall, weit davon entfernt, ein Hindernis für das Wissen zu sein, als Filter für Subjektivität und als konstitutive Dimension der Wirklichkeit wirkt und so die alte chinesische Tradition mit der zeitgenössischen Wissenschaft verbindet."
+slug: "zufall-wissenschaft-und-i-ging"
 math: true
 ---
 

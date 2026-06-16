@@ -7,6 +7,7 @@ showAuthorBottom: true
 showFooterAuthor: true
 tags: ["Grundlagen des I Ging"]
 summary: "Dies ist ein einführender Artikel über die Methode der I-Ging-Befragung mit Münzen."
+slug: "wie-man-das-i-ging-mit-der-munzenmethode-befragt"
 math: false
 ---
 
