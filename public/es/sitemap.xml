@@ -525,8 +525,29 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/articulos/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-07T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -544,6 +565,18 @@
       hreflang="es"
       href="http://localhost:1313/"
     />
+  </url>
+  <url>
+    <loc>http://localhost:1313/articulos/semana-santa-y-el-i-ching/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/verificar/</loc>
@@ -588,27 +621,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/articles/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="http://localhost:1313/de/artikel/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/articulos/"
-    />
-  </url>
-  <url>
     <loc>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -621,7 +633,7 @@
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/artikel/wie-man-das-i-ging-mit-der-m%C3%BCnzenmethode-befragt/"
+      href="http://localhost:1313/de/artikel/wie-man-das-i-ging-mit-der-munzenmethode-befragt/"
     />
     <xhtml:link
       rel="alternate"
@@ -684,7 +696,7 @@
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/artikel/der-zufall-die-wissenschaft-und-das-i-ging-eine-konvergenz-im-verst%C3%A4ndnis-von-ordnung-und-unsicherheit/"
+      href="http://localhost:1313/de/artikel/zufall-wissenschaft-und-i-ging/"
     />
     <xhtml:link
       rel="alternate"

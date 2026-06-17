@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dailingna Romero</copyright>
-    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tabla para buscar los hexagramas del I Ching</title>
@@ -270,12 +270,22 @@
     </item>
     
     <item>
+      <title>El simbolismo de Semana Santa desde la óptica del I Ching</title>
+      <link>http://localhost:1313/articulos/semana-santa-y-el-i-ching/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/semana-santa-y-el-i-ching/</guid>
+      <description>Exploramos cómo el I Ching codifica el misterio de la muerte y resurrección de Cristo en los hexagramas 23 (Desintegración), 2 (La Tierra) y 24 (El Retorno), revelando el Sábado Santo como un estado atemporal y corazón de ambos procesos.</description>
+      
+    </item>
+    
+    <item>
       <title>¿Es el I Ching el primer MEME de la historia? 🤯</title>
       <link>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</link>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</guid>
-      <description>Aquí analizamos el I Ching como un Meme, o una colección de memes.</description>
+      <description>El I Ching no es solo un oráculo milenario, sino el ancestro de todos los memes modernos. Este artículo explora cómo los 64 hexagramas encajan con la teoría de Richard Dawkins y se comportan igual que el &amp;ldquo;novio distraído&amp;rdquo; o cualquier viral de internet. Una visión original que une filosofía antigua con la cultura digital del siglo XXI.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
     </item>
     
@@ -305,7 +315,7 @@
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</guid>
-      <description>Este es un artículo introductorio sobre el método de consulta del I Ching mediante las monedas.</description>
+      <description>Una guía práctica para consultar el I Ching mediante el lanzamiento de tres monedas. Explica el valor numérico de cada tirada, cómo se construyen las 6 líneas del hexagrama, la diferencia entre líneas fijas y móviles, y cómo identificar los hexagramas resultante y derivado.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
     </item>
     
@@ -315,7 +325,7 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/articulos/el-abc-del-i-ching/</guid>
-      <description>Este es un artículo introductorio para los que no saben que es el I ching.</description>
+      <description>El I Ching es más que un oráculo: es un lenguaje universal basado en el Yin y el Yang. Este artículo te guía por su alfabeto binario, los 8 trigramas y los 64 hexagramas, explicando cómo se estructuran sus palabras y oraciones.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-abc-del-i-ching/featured.jpg" />
     </item>
     
@@ -325,7 +335,7 @@
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/articulos/azar-ciencia-i-ching/</guid>
-      <description>Una exploración epistemológica sobre cómo el azar, lejos de ser un obstáculo para el conocimiento, actúa como un filtro de la subjetividad y una dimensión constitutiva de la realidad, conectando la tradición milenaria china con la ciencia contemporánea.</description>
+      <description>¿Es el azar una herramienta de conocimiento? Este artículo conecta el I Ching con la mecánica cuántica, la teoría del caos, los teoremas de Gödel y el bootstrapping para mostrar cómo el azar, lejos de ser un obstáculo, más bién filtra nuestra subjetividad y nos permite acceder a órdenes más profundos.</description>
       
     </item>
     

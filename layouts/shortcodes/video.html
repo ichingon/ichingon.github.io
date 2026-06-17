@@ -1,0 +1,11 @@
+<video 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  style="width: 100%; height: auto; max-width: {{ .Get "max_width" | default "100%" }};" 
+  poster="{{ .Get "poster" }}"
+>
+  <source src="{{ .Get "src" }}" type="video/webm">
+  Your browser does not support the video tag.
+</video>
