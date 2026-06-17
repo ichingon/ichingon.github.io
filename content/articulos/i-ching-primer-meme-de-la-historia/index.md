@@ -17,7 +17,7 @@ Muchas personas creen que el término 'meme' nació con la cultura del Internet,
 
 O su versión I Chingón:
 
-![El meme del novio distraido, versión I Chingón](featured.jpg "El meme del novio distraido, versión I Chingón")
+{{< video src="novio_distraido.webm" >}}
 
 Quizás huelga la explicación, pero para beneficio de los que han vivido debajo de una roca las últimas dos decadas o no están familiarizados con ese meme en particular, les explico: esta imagen es la plantilla del meme del novio distraido, que muestra a un joven agarrado de la mano de su novia mirando fascinado a otra mujer, vestida de rojo, que pasa a su lado. 
 
