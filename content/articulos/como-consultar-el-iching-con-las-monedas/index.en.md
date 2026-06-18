@@ -1,7 +1,7 @@
 ---
 title: "How to Consult the I Ching Using the Coin Toss Method"
 date: 2026-06-05
-author: "Dailingna Romero"
+author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true

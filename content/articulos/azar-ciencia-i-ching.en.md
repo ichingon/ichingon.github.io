@@ -1,7 +1,7 @@
 ---
 title: "Chance, Science, and the I Ching: A Convergence in Understanding Order and Uncertainty"
 date: 2026-03-25
-author: "Dailingna Romero"
+author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom : true
 tags: ["Philosophy, Science and Technology"]

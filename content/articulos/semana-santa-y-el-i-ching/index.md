@@ -1,7 +1,7 @@
 ---
 title: "El simbolismo de Semana Santa desde la óptica del I Ching"
 date: 2026-06-17
-author: "Dailingna Romero"
+author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true

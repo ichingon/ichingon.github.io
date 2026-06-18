@@ -1,7 +1,7 @@
 ---
 title: "Das ABC des I Ging"
 date: 2026-06-01
-author: "Dailingna Romero"
+author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true

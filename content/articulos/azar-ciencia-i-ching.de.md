@@ -1,7 +1,7 @@
 ---
 title: "Der Zufall, die Wissenschaft und das I Ging: eine Konvergenz im Verständnis von Ordnung und Unsicherheit"
 date: 2026-03-25
-author: "Dailingna Romero"
+author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 tags: ["Philosophie, Wissenschaft und Technologie"]

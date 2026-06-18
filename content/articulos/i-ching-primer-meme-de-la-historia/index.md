@@ -1,7 +1,7 @@
 ---
 title: "¿Es el I Ching el primer MEME de la historia? 🤯"
 date: 2026-06-16
-author: "Dailingna Romero"
+author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true

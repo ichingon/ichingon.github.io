@@ -1,7 +1,7 @@
 ---
 title: "Como consultar al I Ching mediante el lanzamiento de las monedas"
 date: 2026-06-05
-author: "Dailingna Romero"
+author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true

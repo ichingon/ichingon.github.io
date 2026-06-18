@@ -1,7 +1,7 @@
 ---
 title: "El azar, la ciencia y el I Ching: una convergencia en la comprensión del orden y la incertidumbre"
 date: 2026-03-25
-author: "Dailingna Romero"
+author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 tags: ["Filosofía, Ciencia y Tecnología"]
