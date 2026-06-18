@@ -65,7 +65,7 @@ enableRobotsTXT = true
       title = "El I Chingón"
       description = "El I Ching visto como un protocolo de información descentralizado. Una intersección de la filosofía, el sincronismo, las matemáticas y las ciencias de la computación."
     [languages.es.author]
-      name = "Dailingna Romero"
+      name = "Dài Líng Nà (黛灵娜)"
     # Perfil de autoría en Español
     [languages.es.params.author]
         bio = "Avatar digital. Investigadora de sistemas complejos, matematicas, filosofías orientales y el I Ching."
@@ -148,7 +148,7 @@ enableRobotsTXT = true
       title = "I Chingon"
       description = "The I Ching as a decentralized information protocol. An intersection of philosophy, synchronicity, mathematics, and computer science."
     [languages.en.author]
-      name = "Dailingna Romero"
+      name = "Dài Líng Nà (黛灵娜)"
     # Perfil de autoría en Inglés
     [languages.en.params.author]
         bio = "Digital avatar and researcher exploring the intersection of complex systems, mathematics, ancient Eastern philosophies and the I Ching."
@@ -231,7 +231,7 @@ enableRobotsTXT = true
       title = "I Chingon"
       description = "Das I Ging als dezentralisiertes Informationsprotokoll. Eine Schnittstelle von Philosophie, Synchronizität, Mathematik und Informatik."
     [languages.de.author]
-      name = "Dailingna Romero"
+      name = "Dài Líng Nà (黛灵娜)"
     # Autorenprofil auf Deutsch
     [languages.de.params.author]
         bio = "Digitaler Avatar und Forscherin an der Schnittstelle von komplexen Systemen, Mathematik, alten östlichen Philosophien und dem I Ging."
