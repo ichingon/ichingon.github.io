@@ -40,7 +40,7 @@ enableRobotsTXT = true
   mainSections = ["articulos", "hexagramas", "licencias", "verificar"]
 
 [params.author]
-    name = "Dailingna Romero"
+    name = "Dài Líng Nà (黛灵娜)"
     photo = "img/author"
 
 # 2. Personalización Visual del Menú
