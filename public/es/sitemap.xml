@@ -571,12 +571,32 @@
     <lastmod>2026-06-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/symbolik-karwoche-i-ging/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/semana-santa-y-el-i-ching/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</loc>
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/war-das-i-ging-das-erste-meme/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/verificar/</loc>

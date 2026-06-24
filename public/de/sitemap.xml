@@ -405,6 +405,80 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/de/artikel/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/artikel/symbolik-karwoche-i-ging/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/semana-santa-y-el-i-ching/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/symbolik-karwoche-i-ging/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/artikel/war-das-i-ging-das-erste-meme/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/war-das-i-ging-das-erste-meme/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/de/verifizieren/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -423,27 +497,6 @@
       rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/verifizieren/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/de/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="http://localhost:1313/de/"
     />
   </url>
   <url>
@@ -486,27 +539,6 @@
       rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/lizenzen/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/de/artikel/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/articulos/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/articles/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="http://localhost:1313/de/artikel/"
     />
   </url>
   <url>

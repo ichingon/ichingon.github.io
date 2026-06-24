@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I Ging, Kunst, Kultur Und Religion on I Chingon</title>
+    <link>http://localhost:1313/de/tags/i-ging-kunst-kultur-und-religion/</link>
+    <description>Recent content in I Ging, Kunst, Kultur Und Religion on I Chingon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
+    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/i-ging-kunst-kultur-und-religion/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Die Symbolik der Karwoche aus der Perspektive des I Ging</title>
+      <link>http://localhost:1313/de/artikel/symbolik-karwoche-i-ging/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/artikel/symbolik-karwoche-i-ging/</guid>
+      <description>Wir erkunden, wie das I Ging das Geheimnis von Tod und Auferstehung Christi in den Hexagrammen 23 (Zerfall), 2 (Die Erde) und 24 (Die Rückkehr) codiert und den Karsamstag als zeitlosen Zustand und Herz beider Prozesse offenbart.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/semana-santa-y-el-i-ching/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Ist das I Ging das erste MEME der Geschichte? 🤯</title>
+      <link>http://localhost:1313/de/artikel/war-das-i-ging-das-erste-meme/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/artikel/war-das-i-ging-das-erste-meme/</guid>
+      <description>Das I Ging ist nicht nur ein uraltes Orakel, sondern der Vorfahre aller modernen Memes. Dieser Artikel untersucht, wie die 64 Hexagramme zu Richard Dawkins‘ Theorie passen und sich genauso verhalten wie der „abgelenkte Freund“ oder jeder andere Internet-Viral. Eine originelle Vision, die antike Philosophie mit der digitalen Kultur des 21. Jahrhunderts verbindet.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
