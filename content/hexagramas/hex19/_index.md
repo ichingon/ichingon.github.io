@@ -26,7 +26,7 @@ El término chino Lín posee diversas acepciones que no pueden resumirse en una 
 
 ---
 
-### El Dictamen
+## El Dictamen
 
 > El Acercamiento tiene un éxito supremo.  
 > Es propicia la perseverancia.  
@@ -36,7 +36,7 @@ El signo en su conjunto anuncia una época de progreso llena de esperanza. La pr
 
 ---
 
-### La Imagen
+## La Imagen
 
 > La tierra se extiende sobre el lago: la imagen del Acercamiento.  
 > Así, el noble es inagotable en su propósito de enseñar  
@@ -46,35 +46,35 @@ La tierra limita por encima con el lago, ofreciendo la imagen de una aproximaci�
 
 ---
 
-### Las Líneas Individuales
+## Las Líneas Individuales
 
-#### Al principio, un Nueve significa:
+### Al principio, un Nueve significa:
 > Acercamiento conjunto. La perseverancia trae ventura.
 
 El bien comienza a abrirse paso y encuentra una recepción favorable en las esferas de influencia. Desde allí se invita al hombre capaz a sumarse a la acción. Es el momento idóneo para adherirse a esta corriente ascendente. No obstante, es fundamental no perder la propia identidad en el entusiasmo del movimiento general, sino mantenerse firmemente alineado con lo correcto; solo así se obtendrá la ventura.
 
-#### Nueve en el segundo puesto significa:
+### Nueve en el segundo puesto significa:
 > Acercamiento conjunto. ¡Ventura! Todo es propicio.
 
 Cuando se recibe un estímulo superior para avanzar y se cuenta con una fortaleza y coherencia internas que prescinden de advertencias externas, el éxito está asegurado. Bajo estas condiciones, el porvenir no debe ser motivo de inquietud. Aunque se tenga plena conciencia de la transitoriedad de las cosas humanas y de que a todo ascenso le sigue un declive, este destino general no debe paralizar la acción. Todo es propicio, por lo que se debe recorrer el camino de la vida con presteza, entereza y audacia.
 
-#### Seis en el tercer puesto significa:
+### Seis en el tercer puesto significa:
 > Acercamiento indolente. Nada que sea propicio.  
 > Si esto inspira un sincero pesar, se permanecerá sin tacha.
 
 El avance se presenta alegre y se alcanza poder y notoriedad. Sin embargo, esto entraña el peligro de caer en la autocomplacencia, mostrando una actitud indolente y descuidada en el trato con los demás, lo cual resulta perjudicial en cualquier circunstancia. A pesar de ello, cabe la posibilidad de un cambio de actitud: si este comportamiento erróneo despierta un genuino remordimiento y se asume la verdadera responsabilidad que exige una posición influyente, el individuo se liberará de sus faltas.
 
-#### Seis en el cuarto puesto significa:
+### Seis en el cuarto puesto significa:
 > Acercamiento perfecto. Sin tacha.
 
 Mientras que las tres líneas inferiores describen el ascenso hacia el poder, las tres superiores muestran la conducta de los gobernantes hacia los subordinados a quienes promueven. Aquí se ilustra el acercamiento perfecto y desprovisto de prejuicios de un superior hacia un hombre valioso, integrándolo en su círculo sin reparar en diferencias de rango. Esta actitud resulta sumamente afortunada.
 
-#### Seis en el quinto puesto significa:
+### Seis en el quinto puesto significa:
 > Acercamiento sabio. Esto es lo adecuado para un gran príncipe. ¡Ventura!
 
 Un gobernante o líder debe poseer la sabiduría necesaria para rodearse de colaboradores capaces y expertos en la gestión de los asuntos comunes. Su lucidez se manifiesta tanto en la acertada selección de estas personas como en la capacidad de dejarlas actuar con libertad, evitando interferir directamente en sus funciones. Gracias a esta prudente contención, siempre encontrará a los especialistas idónes para resolver con eficacia cada exigencia.
 
-#### Al final, un Seis significa:
+### Al final, un Seis significa:
 > Acercamiento magnánimo. Ventura. Sin tacha.
 
 Un sabio que ha superado las ambiciones mundanas y se encuentra en paz con la existencia puede, dadas las circunstancias, regresar temporalmente al ámbito de los asuntos prácticos para ofrecer su cercanía a los demás. Esta generosa condescendencia constituye una gran fortuna para quienes reciben su guía y auxilio, y no representa menoscabo alguno para la dignidad del propio sabio.
