@@ -35,7 +35,11 @@ What we see as solid physical objects behaves more like running software, consta
 
 Long before computers existed, ancient scholars in China produced a text called the I Ching. They concluded that the material world is not simply made of solid things, as Parmenides and Democritus held, but of an incessant flow of transformations, as Heraclitus postulated.
 
-To explain this, they began with an indivisible state and split it into two opposite values, yin and yang – a choice between two options. This diagram shows how the two initial options multiply. Two become four, four become eight, ... and so on, until exhausting all the multiplicity of possible things on earth, as stated in Chapter IX of the Great Treatise (Ta Chuan), one of the famous "Ten Wings" or appendices of the I Ching:
+To explain this, they began with an indivisible state and split it into two opposite values, yin and yang – a choice between two options. This diagram shows how the two initial options multiply. 
+
+![Binary tree](diagrama.webp "Binary tree")
+
+Two become four, four become eight, ... and so on, until exhausting all the multiplicity of possible things on earth, as stated in Chapter IX of the Great Treatise (Ta Chuan), one of the famous "Ten Wings" or appendices of the I Ching:
 
 > The eight signs form a small consummation.
 > If one continues and advances and augments the circumstances through the transitions to the corresponding others, all possible situations on earth are thereby exhausted.

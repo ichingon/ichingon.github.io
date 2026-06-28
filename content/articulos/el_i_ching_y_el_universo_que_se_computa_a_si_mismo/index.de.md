@@ -34,7 +34,11 @@ Was wir als feste physikalische Objekte sehen, verhält sich eher wie eine laufe
 
 Lange bevor es Computer gab, verfassten alte Gelehrte in China einen Text namens I Ching. Sie kamen zu dem Schluss, dass die materielle Welt nicht einfach aus festen Dingen besteht, wie Parmenides und Demokrit annahmen, sondern aus einem unaufhörlichen Fluss von Verwandlungen, wie Heraklit postulierte.
 
-Um dies zu erklären, begannen sie mit einem unteilbaren Zustand und teilten ihn in zwei gegensätzliche Werte, Yin und Yang, eine Wahl zwischen zwei Optionen. Dieses Diagramm zeigt, wie sich die beiden anfänglichen Optionen vervielfachen. Zwei werden zu vier, vier zu acht, ... und so weiter, bis die gesamte Vielfalt der möglichen Dinge auf der Erde ausgeschöpft ist, wie im Kapitel IX des Großen Traktats (Ta Chuan) der berühmten „Zehn Flügel“ oder Anhänge des I Ching ausgeführt:
+Um dies zu erklären, begannen sie mit einem unteilbaren Zustand und teilten ihn in zwei gegensätzliche Werte, Yin und Yang, eine Wahl zwischen zwei Optionen. Dieses Diagramm zeigt, wie sich die beiden anfänglichen Optionen vervielfachen.
+
+![Binärbaum](diagrama.webp "Binärbaum")
+
+Zwei werden zu vier, vier zu acht, ... und so weiter, bis die gesamte Vielfalt der möglichen Dinge auf der Erde ausgeschöpft ist, wie im Kapitel IX des Großen Traktats (Ta Chuan) der berühmten „Zehn Flügel“ oder Anhänge des I Ching ausgeführt:
 
 > Die acht Zeichen bilden eine kleine Vollendung.
 > Wenn man fortfährt und voranschreitet und die Umstände durch die Übergänge zu den entsprechenden anderen vermehrt, erschöpft man damit alle möglichen Situationen auf Erden.

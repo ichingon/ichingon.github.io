@@ -34,7 +34,11 @@ Lo que vemos como objetos físicos sólidos se comporta más bien como un softwa
 
 Mucho antes de que existieran las computadoras, los antiguos eruditos en China elaboraron un texto llamado el I Ching. Ellos concluyeron que el mundo material no está hecho simplemente de cosas sólidas como planteaban Parménides y Demócrito, sino de un flujo incesante de transformaciones, como postulaba Heráclito.
 
-Para explicar esto, comenzaron con un estado indivisible y lo separaron en dos valores opuestos, yin y yang, una elección entre dos opciones. Este diagrama muestra cómo las dos opciones iniciales se multiplican. Dos se convierten en cuatro, cuatro en ocho, ... y así sucesivamente hasta agotar toda la multiplicidad de cosas posibles sobre la tierra, tal como se señala en el Capítulo IX del Gran Tratado, o Ta Chuan, de las famosas  "Diez Alas" o anexos del I Ching:
+Para explicar esto, comenzaron con un estado indivisible y lo separaron en dos valores opuestos, yin y yang, una elección entre dos opciones. Este diagrama muestra cómo las dos opciones iniciales se multiplican. 
+
+![Árbol binario](diagrama.webp "Árbol binario")
+
+Dos se convierten en cuatro, cuatro en ocho, ... y así sucesivamente hasta agotar toda la multiplicidad de cosas posibles sobre la tierra, tal como se señala en el Capítulo IX del Gran Tratado, o Ta Chuan, de las famosas  "Diez Alas" o anexos del I Ching:
 
 > Los ocho signos forman una pequeña consumación.
 > Si se continúa y se avanza y se aumentan las circunstancias mediante las transiciones hacia las otras que corresponden, se agotan con ello todas las situaciones posibles sobre la tierra.
