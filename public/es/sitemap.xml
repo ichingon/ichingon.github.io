@@ -385,11 +385,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex18/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex18/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -403,6 +398,11 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex18/"
     />
+  </url>
+  <url>
+    <loc>http://localhost:1313/hexagramas/hex18/textoaleman/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex19/</loc>
@@ -526,7 +526,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -546,8 +546,29 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/</loc>
+    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/i-ching-and-the-self-computing-universe/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/das-i-ching-und-das-sich-selbst-berechnende-universum/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link

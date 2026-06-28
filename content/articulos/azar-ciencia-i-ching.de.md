@@ -8,9 +8,9 @@ tags: ["Philosophie, Wissenschaft und Technologie"]
 description: "Was hat das I Ging mit Quantenmechanik und Chaostheorie gemeinsam? Entdecke, woher das westliche Vorurteil gegenüber dem Zufall kommt und wie sich das gerade ändert."
 summary: "Ist der Zufall ein Werkzeug der Erkenntnis? Dieser Artikel verbindet das I Ging mit Quantenmechanik, Chaostheorie, Gödels Sätzen und Bootstrapping, um zu zeigen, wie der Zufall, weit davon entfernt ein Hindernis zu sein, vielmehr unsere Subjektivität filtert und uns den Zugang zu tieferen Ordnungen ermöglicht."
 slug: "zufall-wissenschaft-und-i-ging"
-math: true
 ---
 
+{{< math >}}
 ## Einleitung: der Zufall als Erkenntnismethode, nicht als Verzicht auf Erklärung
 
 Das I Ging, oder Buch der Wandlungen, ist vielleicht das älteste und raffinierteste Orakel der Menschheit. Sein Verfahren – das Werfen von Stäbchen oder Münzen, um ein Hexagramm zu erzeugen – erscheint vielen Menschen als bloßes Glücksspiel, als abergläubische Praxis, deren Antworten nur zufällig zutreffen könnten. Diejenigen, die es befragen, wundern sich jedoch oft über die verblüffende Relevanz der Antworten: Wie ist es möglich, dass ein scheinbar zufälliger Mechanismus so treffende Ratschläge für die gegenwärtige Situation liefert?
@@ -56,7 +56,7 @@ Dieses Erbe hat auf oft unbewusste Weise die Art und Weise durchdrungen, wie Wis
 
 $$Y = \beta_{0} + \beta_{1}X_{1} + \cdots + \beta_{k}X_{k} + \epsilon$$
 
-Hier repräsentieren die unabhängigen Variablen $\beta_{0} + \beta_{1}X_{1} + \cdots$ die ideale Ordnung (die „wahre“ Beziehung zwischen den Variablen), während der Fehlerterm $\epsilon$ alles erfasst, was von dieser Ordnung abweicht: Messungenauigkeiten, ausgelassene Variablen, reine Zufälligkeit. Das klassische Ziel ist es, das Rauschen zu reduzieren, um sich so weit wie möglich der wahren Struktur anzunähern – ein direktes Echo des platonischen Projekts, von den sinnlichen Kopien zur Betrachtung der Ideen aufzusteigen.
+Hier repräsentieren die unabhängigen Variablen \(\beta_{0} + \beta_{1}X_{1} + \cdots\) die ideale Ordnung (die „wahre“ Beziehung zwischen den Variablen), während der Fehlerterm $\epsilon$ alles erfasst, was von dieser Ordnung abweicht: Messungenauigkeiten, ausgelassene Variablen, reine Zufälligkeit. Das klassische Ziel ist es, das Rauschen zu reduzieren, um sich so weit wie möglich der wahren Struktur anzunähern – ein direktes Echo des platonischen Projekts, von den sinnlichen Kopien zur Betrachtung der Ideen aufzusteigen.
 
 ## Tyche und das griechische Paradox: der Zufall als praktisches Werkzeug
 

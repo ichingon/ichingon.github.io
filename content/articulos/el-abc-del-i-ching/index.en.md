@@ -26,9 +26,9 @@ Certainly, the I Ching helps us find answers, but that is because what we think 
 
 But we could also view the I Ching as a language, and in this article, we are going to explore how this language works and what its constituent parts are. What is the alphabet of the I Ching, and what are its words and sentences? That is why we have titled this article "The ABC of the I Ching" - because besides being an introduction, it reveals the nature of the language the I Ching uses to speak to us when we consult it.
 
-## The Binary Alphabet of the I Ching{#book-without_words}
+## The Binary Alphabet of the I Ching{#book-without-words}
 
-In its origin, the I Ching is a book without words. It is a finite succession of non-idiomatic signs that make up a cosmogony. These signs represent the possible states of reality and the human condition. There are 64 signs in total, and they are called *hexagrams*. Each hexagram, as we will see later, is composed of 6 linear strokes.
+In its origin, the I Ching is a book without words. It is a finite succession of non-idiomatic signs that make up a cosmogony - an algebraic system. These signs represent the possible states of reality and the human condition. There are 64 signs in total, and they are called *hexagrams*. Each hexagram, as we will see later, is composed of 6 linear strokes.
 
 The I Ching can be considered analogous to a Turing automaton, in the sense that it indicates under which conditions a transition from one state to another occurs. And just like today's digital computers, the I Ching is also based on a binary system - a fact that greatly surprised Leibniz, an 18th-century German mathematician. But we will talk about Leibniz and the I Ching in another article...
 
@@ -62,10 +62,10 @@ In summary, the I Ching reveals itself as a universal language. A binary alphabe
 
 ---
 
-### Complement your reading with the video:
+### Complement your reading:
 
 If you prefer to deepen your understanding of these concepts visually and listen to a detailed analysis, I invite you to watch the full lesson on my channel:
 
 {{< youtube "MpnKp6seVNM" >}}
 
-
+You can also take a deep dive into how the I Ching codifies reality in this article: [The I Ching and the Universe that Computes Itself]({{< relref "articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo" >}})

@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Philosophie, Wissenschaft Und Technologie</title>
+      <link>http://localhost:1313/de/tags/philosophie-wissenschaft-und-technologie/</link>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/tags/philosophie-wissenschaft-und-technologie/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>I Ging, Kunst, Kultur Und Religion</title>
@@ -25,16 +35,6 @@
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/de/tags/grundlagen-des-i-ging/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Philosophie, Wissenschaft Und Technologie</title>
-      <link>http://localhost:1313/de/tags/philosophie-wissenschaft-und-technologie/</link>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/de/tags/philosophie-wissenschaft-und-technologie/</guid>
       <description></description>
       
     </item>

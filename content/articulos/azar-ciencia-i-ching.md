@@ -7,9 +7,9 @@ showAuthorBottom: true
 tags: ["Filosofía, Ciencia y Tecnología"]
 description: "¿Qué tiene en común el I Ching con la mecánica cuántica y la teoría del caos? Descubre de dónde viene el prejuicio occidental hacia el azar y cómo eso está cambiando."
 summary: "¿Es el azar una herramienta de conocimiento? Este artículo conecta el I Ching con la mecánica cuántica, la teoría del caos, los teoremas de Gödel y el bootstrapping para mostrar cómo el azar, lejos de ser un obstáculo, más bién filtra nuestra subjetividad y nos permite acceder a órdenes más profundos."
-math: true
 ---
 
+{{< math >}}
 ## Introducción: el azar como método de conocimiento, no como renuncia a la explicación
 
 El I Ching, o Libro de los Cambios, es quizás el oráculo más antiguo y sofisticado de la humanidad. Su procedimiento -lanzar varillas o monedas para generar un hexagrama- se le antoja a muchas personas como un simple juego de azar, una práctica supersticiosa cuyas respuestas serían pertinentes solo por casualidad. Quienes lo consultan, sin embargo, suelen maravillarse ante la pertinencia pasmosa de sus respuestas: ¿cómo es posible que un mecanismo aparentemente aleatorio arroje consejos tan ajustados a la situación presente?
@@ -55,7 +55,7 @@ Esta herencia ha permeado, de forma a menudo inconsciente, el modo en que la cie
 
 $$Y = \beta_{0} + \beta_{1}X_{1} + \cdots + \beta_{k}X_{k} + \epsilon$$
 
-Aquí, las variables independientes $\beta_{0} + \beta_{1}X_{1} + \cdots$ representan el orden ideal (la "verdadera" relación entre variables), mientras que el término de error $\epsilon$ recoge todo lo que se desvía de ese orden: imperfecciones de medición, variables omitidas, aleatoriedad pura. El objetivo clásico es reducir el ruido para aproximarse lo más posible a la estructura verdadera -un eco directo del proyecto platónico de ascender desde las copias sensibles hasta la contemplación de las Ideas.
+Aquí, las variables independientes \(\beta_{0} + \beta_{1}X_{1} + \cdots\) representan el orden ideal (la "verdadera" relación entre variables), mientras que el término de error $\epsilon$ recoge todo lo que se desvía de ese orden: imperfecciones de medición, variables omitidas, aleatoriedad pura. El objetivo clásico es reducir el ruido para aproximarse lo más posible a la estructura verdadera -un eco directo del proyecto platónico de ascender desde las copias sensibles hasta la contemplación de las Ideas.
 
 ## Tyche y la paradoja griega: el azar como herramienta práctica
 

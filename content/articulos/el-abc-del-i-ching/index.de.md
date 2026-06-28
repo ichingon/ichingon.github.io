@@ -23,7 +23,7 @@ Sicherlich hilft uns das I Ging, Antworten zu finden, aber das liegt daran, dass
 
 Aber wir könnten das I Ging auch als eine Sprache betrachten, und in diesem Artikel werden wir sehen, wie diese Sprache beschaffen ist und welche Bestandteile sie hat. Was ist das Alphabet des I Ging und was sind seine Wörter und Sätze? Deshalb haben wir diesen Artikel "Das ABC des I Ging" genannt, denn neben einer Einführung zeigt er uns, wie die Sprache beschaffen ist, mit der das I Ging zu uns spricht, wenn wir es befragen.
 
-## Das binäre Alphabet des I Ging.
+## Das binäre Alphabet des I Ging{#libro-sin-palabras}
 
 Ursprünglich ist das I Ging ein Buch ohne Worte. Es ist eine endliche Abfolge von nicht-sprachlichen Zeichen, die eine Kosmogonie bilden. Diese Zeichen stellen die möglichen Zustände der Realität und der menschlichen Verfassung dar. Die Zeichen sind insgesamt 64 und werden *Hexagramme* genannt. Jedes Hexagramm besteht, wie wir später sehen werden, aus sechs Strichen.
 
@@ -64,3 +64,5 @@ Zusammenfassend offenbart sich uns das I Ging als eine universelle Sprache. Ein 
 Wenn Sie diese Konzepte lieber visuell vertiefen und die detaillierte Analyse anhören möchten, lade ich Sie ein, sich die vollständige Lektion auf meinem Kanal anzusehen:
 
 {{< youtube "MpnKp6seVNM" >}}
+
+Mehr dazu, wie das I Ching die Realität kodiert, erfährst du in diesem Artikel: [Das I Ching und das sich selbst berechnende Universum]({{< relref "articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo" >}})

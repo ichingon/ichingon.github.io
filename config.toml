@@ -34,7 +34,6 @@ enableRobotsTXT = true
   images = ["img/featured.jpg"]
   customCSS = ["css/custom.css"]
   customJS = ["js/tooltips.js"] 
-  math = true
   showAuthor = true
   showAuthorBottom = true
   mainSections = ["articulos", "hexagramas", "licencias", "verificar"]
@@ -303,5 +302,5 @@ enableRobotsTXT = true
       [markup.goldmark.extensions.passthrough]
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['$$', '$$']]
-          inline = [['$', '$']]
+          inline = [['\(', '\)']]
+          block = [['\[', '\]'], ['$$', '$$']]

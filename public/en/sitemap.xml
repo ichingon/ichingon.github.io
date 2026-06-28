@@ -45,29 +45,29 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/en/verify/</loc>
-    <lastmod>2026-06-07T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/articles/</loc>
+    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/verificar/"
+      href="http://localhost:1313/articulos/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/verifizieren/"
+      href="http://localhost:1313/de/artikel/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/verify/"
+      href="http://localhost:1313/en/articles/"
     />
   </url>
   <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-06-07T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -87,24 +87,45 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/en/articles/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/articles/i-ching-and-the-self-computing-universe/</loc>
+    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/articulos/"
+      href="http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/artikel/"
+      href="http://localhost:1313/de/artikel/das-i-ching-und-das-sich-selbst-berechnende-universum/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/articles/"
+      href="http://localhost:1313/en/articles/i-ching-and-the-self-computing-universe/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/verify/</loc>
+    <lastmod>2026-06-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/verificar/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/verifizieren/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/verify/"
     />
   </url>
   <url>

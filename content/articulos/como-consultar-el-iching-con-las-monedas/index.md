@@ -37,7 +37,7 @@ Consultar el I Ching requiere una actidud y disposición mental especial. Tambi�
 
 ---
 
-## ¿Cómo obtener las 6 líneas del hexagrama?
+## ¿Cómo obtener las 6 líneas del hexagrama?{#cuatro-imagenes}
 
 Pasemos entonces a hablar de cómo obtenemos las 6 líneas de un hexagrama a partir de 6 lanzamientos de trés monedas. Comencemos por aclarar que a la cara de una moneda Ⓒ le asignamos un valor de 3, y la a sello Ⓢ, un valor numérico de 2. En la numerología del Yi Ching, los numeros impares son Yang, y los pares, Yin.
 

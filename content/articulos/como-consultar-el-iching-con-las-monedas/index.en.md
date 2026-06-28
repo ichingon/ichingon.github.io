@@ -37,7 +37,7 @@ Consulting the I Ching requires a special attitude and mental disposition. It al
 
 ---
 
-## How to Obtain the Six Lines of the Hexagram?
+## How to Obtain the Six Lines of the Hexagram?{#four-images}
 
 Let us now talk about how we obtain the six lines of a hexagram from six tosses of three coins. Let us first clarify that we assign a value of 3 to the head (or "face") of a coin Ⓗ, and a value of 2 to the tail (or "seal") Ⓣ. In the numerology of the Yi Jing, odd numbers are Yang, and even numbers are Yin.
 

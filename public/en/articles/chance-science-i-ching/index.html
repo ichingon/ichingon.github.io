@@ -812,6 +812,24 @@
 
         <div class="article-content max-w-prose mb-20">
           
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '\\[', right: '\\]', display: true},
+          {left: '\\(', right: '\\)', display: false}
+        ]
+      });
+    });
+  </script>
+
+
 <h2 class="relative group">Introduction: chance as a method of knowledge, not as a renunciation of explanation
     <div id="introduction-chance-as-a-method-of-knowledge-not-as-a-renunciation-of-explanation" class="anchor"></div>
     
@@ -872,7 +890,7 @@
 </h2>
 <p>Plato radicalized the opposition between the intelligible world (of Ideas) and the sensible world (Plato, s.f.). From Ideas it is possible to reach <em>episteme</em>: true, necessary, universal knowledge. The sensible world only fits <em>doxa</em>: opinion, probable belief but never certain. In this framework, the &ldquo;probable&rdquo; - <em>to eikos</em> - is precisely that which belongs to the scope of <em>doxa</em>. It is useful for practical life, but radically insufficient for true knowledge.</p>
 <p>This legacy has permeated, in a way often unconscious, the way in which science and statistics conceive the relation between model and data. A linear regression model, for example, postulates an underlying structure:</p>
-$$Y = \beta_{0} + \beta_{1}X_{1} + \cdots + \beta_{k}X_{k} + \epsilon$$<p>Here, the independent variables $\beta_{0} + \beta_{1}X_{1} + \cdots$ represent the ideal order (the &ldquo;true&rdquo; relationship between variables), while the error term $\epsilon$ collects everything that deviates from that order: imperfections of measurement, omitted variables, pure randomness. The classical objective is to reduce noise to approach as close as possible to the true structure -a direct echo of the Platonic project of ascending from sensible copies to the contemplation of Ideas.</p>
+$$Y = \beta_{0} + \beta_{1}X_{1} + \cdots + \beta_{k}X_{k} + \epsilon$$<p>Here, the independent variables \(\beta_{0} + \beta_{1}X_{1} + \cdots\) represent the ideal order (the &ldquo;true&rdquo; relationship between variables), while the error term $\epsilon$ collects everything that deviates from that order: imperfections of measurement, omitted variables, pure randomness. The classical objective is to reduce noise to approach as close as possible to the true structure -a direct echo of the Platonic project of ascending from sensible copies to the contemplation of Ideas.</p>
 
 <h2 class="relative group">Tyche and the Greek paradox: chance as a practical tool
     <div id="tyche-and-the-greek-paradox-chance-as-a-practical-tool" class="anchor"></div>

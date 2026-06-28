@@ -38,7 +38,7 @@ Die Befragung des I Ging erfordert eine besondere Haltung und geistige Dispositi
 
 ---
 
-## Wie erhält man die sechs Linien des Hexagramms?
+## Wie erhält man die sechs Linien des Hexagramms?{#vier-bilder}
 
 Lassen Sie uns nun darüber sprechen, wie wir die sechs Linien eines Hexagramms aus sechs Würfen von drei Münzen erhalten. Beginnen wir damit, dass wir der Kopfseite einer Münze Ⓚ den Wert 3 und der Zahlseite Ⓩ den Zahlenwert 2 zuweisen. In der Numerologie des Yi Jing sind ungerade Zahlen Yang und gerade Zahlen Yin.
 

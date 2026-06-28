@@ -25,7 +25,7 @@ Pero también podriamos ver el I Ching como un lenguaje, y en este artículo vam
 
 ## El alfabeto binario del I Ching{#libro-sin-palabras}
 
-En su origen, el I Ching es un libro sin palabras. Es una sucesión finita de signos no idiomáticos que conforman una cosmogonía. Estos signos representan los posibles estados de la realidad y de la condición humana. Los signos son en total 64, y se denominan *hexagramas*. Cada hexagrama, como veremos luego, se compone de 6 trazos lineales.
+En su origen, el I Ching es un libro sin palabras. Es una sucesión finita de signos no idiomáticos que conforman una cosmogonía - un sistema algebráico. Estos signos representan los posibles estados de la realidad y de la condición humana. Los signos son en total 64, y se denominan *hexagramas*. Cada hexagrama, como veremos luego, se compone de 6 trazos lineales.
 
 El I Ching puede ser considerado como análogo a un Automata de Turing, en el sentido en que el I Ching nos indica bajo cales condiciones se pasa de un estado a otro. Y como las computadoras digitales de ahora, el I Ching también se basa en un sistema binario, hecho que sorprendió bastante al Leibniz, un matemático alemán del siglo 18. Pero sobre Leibniz y el I Ching hablaremos en otro artículo...
 
@@ -64,3 +64,5 @@ En resumen, el I Ching se nos revela como un lenguaje universal. Un alfabeto bin
 Si prefieres profundizar en estos conceptos de forma visual y escuchar el análisis detallado, te invito a ver la lección completa en mi canal:
 
 {{< youtube "MpnKp6seVNM" >}}
+
+También puedes profundizar sobre como el I Ching codifica la realidad en este artículo: [El I Ching y el universo que se computa a sí mismo]({{< relref "articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo" >}})

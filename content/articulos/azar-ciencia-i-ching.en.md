@@ -13,6 +13,7 @@ aliases:
     - /articles/chance-science-i-ching/
 ---
 
+{{< math >}}
 ## Introduction: chance as a method of knowledge, not as a renunciation of explanation
 
 The I Ching, or Book of Changes, is perhaps the oldest and most sophisticated oracle of humanity. Its procedure - casting stalks or coins to generate a hexagram - strikes many people as a simple game of chance, a superstitious practice whose answers would be relevant only by chance. Those who consult it, however, usually marvel at the uncanny pertinence of its answers: how does an apparently random mechanism offer advice so well-adjusted to the present situation?
@@ -58,7 +59,7 @@ This legacy has permeated, in a way often unconscious, the way in which science 
 
 $$Y = \beta_{0} + \beta_{1}X_{1} + \cdots + \beta_{k}X_{k} + \epsilon$$
 
-Here, the independent variables $\beta_{0} + \beta_{1}X_{1} + \cdots$ represent the ideal order (the "true" relationship between variables), while the error term $\epsilon$ collects everything that deviates from that order: imperfections of measurement, omitted variables, pure randomness. The classical objective is to reduce noise to approach as close as possible to the true structure -a direct echo of the Platonic project of ascending from sensible copies to the contemplation of Ideas.
+Here, the independent variables \(\beta_{0} + \beta_{1}X_{1} + \cdots\) represent the ideal order (the "true" relationship between variables), while the error term $\epsilon$ collects everything that deviates from that order: imperfections of measurement, omitted variables, pure randomness. The classical objective is to reduce noise to approach as close as possible to the true structure -a direct echo of the Platonic project of ascending from sensible copies to the contemplation of Ideas.
 
 ## Tyche and the Greek paradox: chance as a practical tool
 
