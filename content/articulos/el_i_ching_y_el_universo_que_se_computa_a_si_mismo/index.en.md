@@ -79,7 +79,7 @@ According to the Yin/Yang polarity of each primordial potency, each hexagram has
 
 ## Encoding the state space of the Universe at three levels of resolution
 
-With n=6 we have the hexagrams of 6 lines, which, as we already know, represent the 64 archetypal situations in which the I Ching describes the state of reality at a given moment. There are two distinct and simultaneous levels of resolution.
+With n=6 we have the hexagrams of 6 lines, which, as we already know, represent the 64 archetypal situations in which the I Ching describes the state of reality at a given moment. There are three distinct and simultaneous levels of resolution.
 
 On the one hand, we divide a hexagram into two trigrams, one lower and one upper. The *lower trigram* is formed by lines 1, 2 and 3, and the *upper hexagram* by lines 4, 5 and 6. This is the *local level*, in which the lower trigram, also called the "inner sign", represents the internal world, the subjective, the domestic, or the space where the individual prepares. The upper trigram, or "outer sign", represents the external world, the objective, the public, or the macrocosmic manifestation of the situation.
 

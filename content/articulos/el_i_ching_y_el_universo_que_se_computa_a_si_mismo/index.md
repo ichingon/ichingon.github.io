@@ -78,7 +78,7 @@ Según la polaridad Yin/Yang de cada potencia originaria, tenemos cualidades par
 
 ## La codificación del espacio de estados del Universo en tres niveles de resolución
 
-Con n=6 tenemos los hexagramas de 6 líneas, que como ya sabemos, representan las 64 situaciones arquetípicas en las que el I Ching describe el estado de la realidad en un momento dado. Aquí hay dos niveles de resolución distintos y simultáneos. 
+Con n=6 tenemos los hexagramas de 6 líneas, que como ya sabemos, representan las 64 situaciones arquetípicas en las que el I Ching describe el estado de la realidad en un momento dado. Aquí hay tres niveles de resolución distintos y simultáneos. 
 
 Por una parte, dividimos un hexagrama en dos trigramas, uno inferior y otro superior. El *trigrama inferior* estaría conformado por las líneas 1, 2 y 3, y el *hexagrama superior* por las líneas 4, 5 y 6. Este es el *nivel local* en el que al trigrama inferior, llamado también "signo interior", representa el mundo interno, lo subjetivo, lo doméstico o el espacio donde el individuo se prepara. El trigrama superior, o "signo exterior" representa el mundo externo, lo objetivo, lo público o la manifestación macrocósmica de la situación.
 

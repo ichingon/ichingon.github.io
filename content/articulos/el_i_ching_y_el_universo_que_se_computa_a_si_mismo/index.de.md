@@ -78,7 +78,7 @@ Je nach Yin/Yang-Polarität jeder ursprünglichen Kraft ergeben sich besondere Q
 
 ## Die Kodierung des Zustandsraums des Universums in drei Auflösungsebenen
 
-Mit n=6 haben wir die Hexagramme mit 6 Linien, die, wie wir bereits wissen, die 64 archetypischen Situationen darstellen, in denen das I Ching den Zustand der Realität zu einem gegebenen Zeitpunkt beschreibt. Hier gibt es zwei verschiedene und gleichzeitige Auflösungsebenen.
+Mit n=6 haben wir die Hexagramme mit 6 Linien, die, wie wir bereits wissen, die 64 archetypischen Situationen darstellen, in denen das I Ching den Zustand der Realität zu einem gegebenen Zeitpunkt beschreibt. Hier gibt es drei verschiedene und gleichzeitige Auflösungsebenen.
 
 Einerseits teilen wir ein Hexagramm in zwei Trigramme, ein unteres und ein oberes. Das *untere Trigramm* besteht aus den Linien 1, 2 und 3, und das *obere Hexagramm* aus den Linien 4, 5 und 6. Dies ist die *lokale Ebene*, bei der das untere Trigramm, auch „inneres Zeichen“ genannt, die innere Welt, das Subjektive, das Häusliche oder den Raum darstellt, in dem sich das Individuum vorbereitet. Das obere Trigramm oder „äußeres Zeichen“ repräsentiert die äußere Welt, das Objektive, das Öffentliche oder die makrokosmische Manifestation der Situation.
 
