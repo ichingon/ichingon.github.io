@@ -86,6 +86,19 @@ Aquí, en la inmediata proximidad del principio fuerte y luminoso superior, la n
 Aquí se ha alcanzado el fin de la desintegración. Cuando la desventura se ha desahogado, vuelven tiempos mejores. La semilla del bien aún permanece. Justo cuando la fruta cae a la tierra, de su semilla vuelve a brotar el bien. El Noble recupera influencia y eficacia. Es llevado por la opinión pública como sobre un carro. Pero en el hombre vulgar se venga su maldad. Su casa se desmorona. En ello reside una ley natural. Lo malo no solo es perjudicial para lo bueno, sino que en sus últimas consecuencias se aniquila a sí mismo; pues lo malo, que solo vive de la negación, no puede subsistir por sí mismo. También al hombre vulgar le va mejor cuando es mantenido a raya por un Noble.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+---
+
+**🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
+Este artículo es creado y publicado oficialmente por Dailingna Romero.
+
+- **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex23/
+- **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
+- **💜 Nota de verificación en Nostr:** [Ver en Primal](https://primal.net/e/note13dthy2rhyjl3kzt3a0gf69zvdmw7zx5ue0kcmwdc3wvvlvks9vgsy5e7q8)
+
+Para verificar que este artículo no ha sido alterado ni es un plagio, 
+haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
+corresponda legítimamente con el de este artículo.
+---

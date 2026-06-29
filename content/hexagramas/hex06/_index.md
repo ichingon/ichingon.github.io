@@ -97,7 +97,6 @@ Se muestra aquí al árbitro del pleito, que es poderoso y justo y que posee la 
 Aquí se dibuja a alguien que ha llevado el pleito hasta el amargo final y ha conservado la razón. Recibe una distinción. Pero la dicha no es duradera. Es impugnada una y otra vez, y un pleito sin fin es la consecuencia.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

@@ -90,7 +90,6 @@ El éxito está ahí. El viento ha reunido la lluvia. Se ha alcanzado una posici
 ---
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

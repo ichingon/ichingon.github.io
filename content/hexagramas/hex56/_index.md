@@ -87,6 +87,5 @@ La imagen del ave cuyo nido es devorado por el fuego muestra la pérdida del lug
 ---
 
 ## Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

@@ -79,6 +79,5 @@ Cuando uno es interiormente vanidoso, atrae hacia sí las alegrías de la divers
 ---
 
 ## Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

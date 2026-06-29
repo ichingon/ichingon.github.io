@@ -90,6 +90,5 @@ Aquí el aislamiento está condicionado por malentendidos, no por las circunstan
 ---
 
 ## Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

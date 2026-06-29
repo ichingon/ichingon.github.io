@@ -91,7 +91,6 @@ Aquí el entusiasmo es impedido. Se está bajo una presión duradera que no deja
 Si uno se deja cegar por el entusiasmo, eso es malo. Pero si ese cegamiento es ya un hecho consumado y uno puede aún transformarse, entonces se vuelve libre de mácula. El desencanto a partir de un falso entusiasmo es muy posible y es muy favorable.
 
 ## Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

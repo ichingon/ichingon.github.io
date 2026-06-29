@@ -97,6 +97,5 @@ Sin embargo, uno solo es capaz de esto mientras no haya sido contagiado por la a
 ---
 
 ## Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

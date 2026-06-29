@@ -88,6 +88,5 @@ La situación es inequívoca. La separación interna es un hecho establecido. Gr
 [^1]: Aquí se evoca una idea muy afín a la lucha nocturna de Jacob con el Dios de Peniel (Génesis 32, 27): «No te dejaré si no me bendices».
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

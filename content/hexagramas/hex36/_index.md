@@ -90,6 +90,5 @@ Aquí se alcanza el punto culminante de la oscuridad. La oscura potencia estaba 
 ---
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

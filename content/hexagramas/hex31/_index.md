@@ -95,6 +95,19 @@ La forma más superficial de intentar ganar influencia sobre los demás consiste
 ---
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+---
+
+**🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
+Este artículo es creado y publicado oficialmente por Dailingna Romero.
+
+- **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex31/
+- **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
+- **💜 Nota de verificación en Nostr:** [Ver en Primal](https://primal.net/e/note1kd7e6fc4ah3v460tfg39qu9dnasg4htnvf242xwqmv95h4kxt86qqexdl7)
+
+Para verificar que este artículo no ha sido alterado ni es un plagio, 
+haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
+corresponda legítimamente con el de este artículo.
+---

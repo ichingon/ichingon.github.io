@@ -88,7 +88,6 @@ La caza está en el campo, es decir, ha abandonado su lugar de residencia, el bo
 La guerra ha concluido victoriosamente. La victoria se ha ganado, el rey distribuye feudos y propiedades familiares entre sus fieles. Sin embargo, en esto es importante que los hombres vulgares no deban alcanzar el poder. Si han colaborado, se los puede compensar con dinero. Pero no se les deben conceder territorios ni derechos de soberanía, para que no ocurra ningún abuso.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

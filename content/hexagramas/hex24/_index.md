@@ -93,6 +93,19 @@ Fracaso del retorno. Desventura. Desgracia desde fuera y desde dentro. Si así s
 Si se pierde el momento oportuno para el retorno, se cae en la desventura. La desgracia está fundada interiormente por la falsa relación con el contexto del mundo. La desgracia exterior es consecuencia de esta falsa relación. Es la obstinación y su juicio, el que queda señalado.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+---
+
+**🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
+Este artículo es creado y publicado oficialmente por Dailingna Romero.
+
+- **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex24/
+- **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
+- **💜 Nota de verificación en Nostr:** [Ver en Primal](https://primal.net/e/note1pecnz8prc83u5kqzn2dm8enfxp58quuua0ehkwqk6m0h7flzzz9sa2fu2x)
+
+Para verificar que este artículo no ha sido alterado ni es un plagio, 
+haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
+corresponda legítimamente con el de este artículo.
+---

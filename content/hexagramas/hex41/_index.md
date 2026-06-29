@@ -96,6 +96,5 @@ Hay personas que derraman bendición para el mundo entero. Cada aumento de fuerz
 [^1]: Cf. el óbolo de la viuda en el Evangelio de Lucas.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

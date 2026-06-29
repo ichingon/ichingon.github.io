@@ -95,7 +95,6 @@ La espera ha concluido: el peligro ya no se puede desviar. Se cae en el foso y e
 [^1]: En la obra *Hermann y Dorothea* de Goethe se expresa esta verdad con los siguientes versos: "Pues los deseos nos ocultan lo deseado; los dones vienen desde arriba en sus propias formas".
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

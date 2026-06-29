@@ -89,6 +89,19 @@ Las líneas oscuras están a punto de ascender y hacer caer también el último 
 [^1]: Nota: El signo muestra la belleza en reposo: claridad por dentro y quietud por fuera. Esta es la paz de la pura contemplación. Cuando el deseo calla y la voluntad llega al reposo, entonces el mundo aparece como representación. Y como tal, es bello y está desprendido de la lucha de la existencia. Ese es el mundo del arte. Pero mediante la mera contemplación, la voluntad no llega a un reposo definitivo. Despertará de nuevo, y todo lo bello habrá sido solo un momento pasajero de elevación. Por eso, este no es aún el camino verdadero hacia la redención. Por ello, Confucio se sintió muy incómodo cuando, al consultar el oráculo, recibió el signo de "La Gracia".
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+---
+
+**🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
+Este artículo es creado y publicado oficialmente por Dailingna Romero.
+
+- **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex22/
+- **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
+- **💜 Nota de verificación en Nostr:** [Ver en Primal](https://primal.net/e/note1hlek0c3wmw8d2svm634sh09pfyc3llt9kgg9p7f4g4pl6dg9syvqyqt3dh)
+
+Para verificar que este artículo no ha sido alterado ni es un plagio, 
+haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
+corresponda legítimamente con el de este artículo.
+---

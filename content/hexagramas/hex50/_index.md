@@ -101,6 +101,5 @@ Se trata de un gobernante o líder que es accesible y humilde por naturaleza. Gr
 En la línea anterior, los anillos de transporte se describían como de oro para resaltar su gran solidez; aquí se definen como de jade. El jade se caracteriza por combinar la dureza con un brillo templado y suave. Desde la perspectiva del hombre receptivo al consejo, este actúa como un poderoso estímulo. Aquí, el consejo se evalúa desde la posición del sabio que lo ofrece, quien se muestra moderado y refinado como el jade noble. Gracias a esta comunión, la obra halla gracia ante los ojos de la divinidad, que derrama sobre ella una gran ventura, y goza de la aceptación de los hombres, asegurando que todo prospere.
 
 ## Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

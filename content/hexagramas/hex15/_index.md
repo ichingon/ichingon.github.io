@@ -100,7 +100,6 @@ A quien va en serio con su modestia, debe cuidar de que se muestre en la realida
 [^2]: Existen pocos signos en el Libro de las Transformaciones en los que todas las líneas sean solo favorables, como en el signo de la Modestia. De ello se desprende cuán alto valora la sabiduría china esta virtud.
 
 ## Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

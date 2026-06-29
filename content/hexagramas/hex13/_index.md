@@ -95,7 +95,6 @@ Falta aquí la cálida unión del corazón. Uno se encuentra propiamente ya fuer
 [^1]: El signo interno significa claridad, el externo fuerza.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

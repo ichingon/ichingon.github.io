@@ -101,7 +101,6 @@ La época de la paz ha tocado a su fin y comienza el proceso de declive. La mura
 [^1]: El soberano I es Tang, el Consumador (Cheng Tang), fundador de la dinastía Shang. Su gesto histórico de desposar a su hija con un vasallo de menor rango se convirtió en el símbolo clásico de la unión armoniosa basada en la humildad y el renunciamiento a la soberbia del poder.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

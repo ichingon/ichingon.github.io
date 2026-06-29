@@ -99,6 +99,5 @@ Si uno se aventura demasiado lejos, termina por encallarse en un punto muerto do
 [^1]: Esto es plenamente válido también para las batallas que libramos contra las imperfecciones de nuestra propia naturaleza. Tampoco aquí debemos flaquear a pesar de las continuas recaídas, sino perseverar hasta que el éxito se consolide y llegue el momento en que se pueda afirmar: «Todo lo efímero / que en pecado nos enredaba / quedó en el pasado; / crecen las alas / y el cerrojo se levanta / hacia la estancia eterna».
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

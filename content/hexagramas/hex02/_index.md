@@ -112,7 +112,6 @@ Cuando aparecen puros seises, el signo de Lo Receptivo se transforma en el signo
 [^2]: Mientras que la línea superior de Lo Creativo muestra orgullo titánico y forma un paralelo con la leyenda griega de Ícaro, en la línea superior de Lo Receptivo hay un paralelo con el mito de Lucifer, que se rebela contra la deidad suprema, o con la lucha de las potencias oscuras contra los dioses del Valhalla, que termina con el crepúsculo de los dioses.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

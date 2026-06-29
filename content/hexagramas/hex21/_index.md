@@ -94,6 +94,19 @@ A diferencia de la línea inicial, se trata aquí de un hombre incorregible. Lle
 > Sobre: »Al final, un Nueve« comenta Kung Tse: "Si el bien no se acumula, no basta para hacer a alguien famoso. Si el mal no se acumula, no es lo suficientemente fuerte como para aniquilar a alguien. Por eso el hombre vulgar piensa: las buenas acciones pequeñas no tienen valor; por lo tanto, las omite. Piensa: los pecados pequeños no hacen daño. Por lo tanto, no se desprende de ellos. Así, sus pecados se acumulan hasta que no pueden ocultarse más, y su culpa es tan grande que ya no puede disolverse".
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+---
+
+**🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
+Este artículo es creado y publicado oficialmente por Dailingna Romero.
+
+- **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex21/
+- **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
+- **💜 Nota de verificación en Nostr:** [Ver en Primal](https://primal.net/e/note1894rjcs3zrvtykwc2j5afhmx0eajja8djf59xpphxnlgv5hm9x2srvtkul)
+
+Para verificar que este artículo no ha sido alterado ni es un plagio, 
+haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
+corresponda legítimamente con el de este artículo.
+---

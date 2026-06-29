@@ -85,6 +85,5 @@ Quien empuja ciegamente hacia arriba está interiormente ofuscado. Solo conoce e
 
 ## Enlaces de Consulta
 
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

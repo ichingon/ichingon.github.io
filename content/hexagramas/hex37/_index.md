@@ -92,6 +92,5 @@ El orden de la familia descansa en última instancia en la persona del cabeza de
 [^2]: Compárese: «el temor no está en el amor».
 
 ## Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

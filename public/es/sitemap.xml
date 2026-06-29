@@ -60,11 +60,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex01/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex02/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -78,11 +73,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex02/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex02/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex03/</loc>
@@ -100,11 +90,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex03/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex04/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -118,11 +103,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex04/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex04/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex05/</loc>
@@ -140,11 +120,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex05/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex06/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -158,11 +133,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex06/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex06/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex07/</loc>
@@ -180,11 +150,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex07/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex08/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -198,11 +163,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex08/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex08/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex09/</loc>
@@ -220,11 +180,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex09/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex10/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -238,11 +193,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex10/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex10/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex11/</loc>
@@ -260,11 +210,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex11/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex12/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -278,11 +223,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex12/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex12/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex13/</loc>
@@ -300,11 +240,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex13/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex14/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -318,11 +253,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex14/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex14/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex15/</loc>
@@ -340,11 +270,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex15/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex16/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -358,11 +283,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex16/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex16/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex17/</loc>
@@ -380,11 +300,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex17/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex18/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -398,11 +313,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex18/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex18/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex19/</loc>
@@ -420,11 +330,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex19/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex20/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -438,11 +343,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex20/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex20/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex21/</loc>
@@ -460,11 +360,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex21/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex22/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -478,11 +373,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex22/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex22/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/hexagramas/hex23/</loc>
@@ -500,11 +390,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/hexagramas/hex23/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/hexagramas/hex24/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -518,11 +403,6 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex24/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex24/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/articulos/</loc>
@@ -1344,205 +1224,5 @@
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex64/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex25/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex26/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex27/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex28/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex29/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex30/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex31/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex32/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex33/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex34/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex35/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex36/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex37/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex38/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex39/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex40/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex41/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex42/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex43/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex44/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex45/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex46/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex47/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex48/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex49/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex50/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex51/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex52/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex53/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex54/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex55/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex56/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex57/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex58/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex59/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex60/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex61/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex62/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex63/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hexagramas/hex64/textoaleman/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>

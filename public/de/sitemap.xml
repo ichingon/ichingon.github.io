@@ -303,6 +303,16 @@
     <loc>http://localhost:1313/de/hexagramme/hex18/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hexagramas/hex18/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/hexagramme/hex18/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/de/hexagramme/hex19/</loc>

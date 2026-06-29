@@ -95,6 +95,19 @@ Mientras que la línea anterior mostraba a un hombre examinándose a sí mismo, 
 [^1]: La diferencia en la valoración del comportamiento de hombre y mujer no se limita a la antigua China. La imagen que Schiller traza de la ama de casa en «La campana» se mueve completamente en este mismo círculo de ideas.
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
+
+---
+
+**🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
+Este artículo es creado y publicado oficialmente por Dailingna Romero.
+
+- **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex20/
+- **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
+- **💜 Nota de verificación en Nostr:** [Ver en Primal](https://primal.net/e/note19mus5fdkqncsfjzdq2jesgzzhtp929pkmsrtezmcqj540l8hkp4qwt7hys)
+
+Para verificar que este artículo no ha sido alterado ni es un plagio, 
+haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
+corresponda legítimamente con el de este artículo.
+---

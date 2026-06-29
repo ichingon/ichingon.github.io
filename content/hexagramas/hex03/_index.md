@@ -100,7 +100,6 @@ Uno se encuentra en la situación de no tener la posibilidad de expresar sus bue
 Hay personas para quienes las dificultades iniciales resultan demasiado pesadas. Se quedan atascadas y ya no logran abrirse paso. Dejan caer las manos y abandonan la lucha. Tal renuncia pertenece a lo más triste. Por eso Kungtsé hace al respecto la observación: «Lágrimas de sangre fluyen en abundancia: eso es algo que no se debe hacer continuamente».
 
 ### Enlaces de Consulta
-* [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 
