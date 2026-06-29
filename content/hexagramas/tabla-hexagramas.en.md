@@ -10,8 +10,6 @@ showReadingTime: false
 showWordCount: false
 showAuthor: false
 slug: "i-ching-lookup-chart"
-aliases:
-    - /hexagrams/i-ching-lookup-chart/
 ---
 
 ## How to Use the I Ching Hexagram Finder
@@ -24,7 +22,7 @@ This matrix allows you to quickly identify the number of any of the 64 I Ching h
 
 > 📌 **Navigation Note:** The links on each hexagram number will direct you to my Spanish translation of **Richard Wilhelm's** traditional text. Within each individual article, you will also find the link to the original German source text for academic reference.
 
-> 💡 **Looking for deeper structural analysis?** If you are researching the inner dynamics of the system, explore our **[Advanced I Ching Hexagram Correspondence Table](/hexagrams/advanced-i-ching-correspondence-table/)** to access internal nuclear hexagrams (*Hu Gua*) and the precise geometric mapping to the Earlier Heaven sequence (*Xian Tian*).
+> 💡 **Looking for deeper structural analysis?** If you are researching the inner dynamics of the system, explore our **[Advanced I Ching Hexagram Correspondence Table](/en/hexagrams/advanced-i-ching-correspondence-table/)** to access internal nuclear hexagrams (*Hu Gua*) and the precise geometric mapping to the Earlier Heaven sequence (*Xian Tian*).
 
 ---
 

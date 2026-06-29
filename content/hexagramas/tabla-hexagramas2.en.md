@@ -13,8 +13,6 @@ showReadingTime: false
 showWordCount: false
 showAuthor: false
 slug: "advanced-i-ching-correspondence-table"
-aliases:
-    - /hexagrams/advanced-i-ching-correspondence-table/
 ---
 
 ## About this Structural Table
@@ -29,7 +27,7 @@ Unlike a conventional, flat positional index, the **Earlier Heaven** column in t
 
 Consequently, **Hexagram 1** (pure Qián, located in the Northwest in the *Hou Tian*) geometrically projects itself onto **Hexagram 52** (pure Gèn, also located in the Northwest in the *Xian Tian*).
 
-> 🔍 **Need a quick lookup?** If you just want to easily identify a hexagram by crossing its upper and lower trigrams, you can return to our standard **[I Ching Hexagram Lookup Chart](/hexagrams/i-ching-lookup-chart/)**.
+> 🔍 **Need a quick lookup?** If you just want to easily identify a hexagram by crossing its upper and lower trigrams, you can return to our standard **[I Ching Hexagram Lookup Chart](/en/hexagrams/i-ching-lookup-chart/)**.
 
 ---
 
