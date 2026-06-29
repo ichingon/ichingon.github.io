@@ -474,6 +474,11 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/symbolism-of-holy-week-according-to-i-ching/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/artikel/symbolik-karwoche-i-ging/"
     />
@@ -488,6 +493,11 @@
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/is-the-i-ching-the-first-meme-in-history/"
+    />
     <xhtml:link
       rel="alternate"
       hreflang="de"

@@ -100,7 +100,7 @@ El ejemplo está tomado de la dinastía Zhou. Esta dinastía honraba a los colab
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex17/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
@@ -109,4 +109,3 @@ Este artículo es creado y publicado oficialmente por Dailingna Romero.
 Para verificar que este artículo no ha sido alterado ni es un plagio, 
 haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
 corresponda legítimamente con el de este artículo.
----

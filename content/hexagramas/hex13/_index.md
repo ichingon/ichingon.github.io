@@ -101,7 +101,7 @@ Falta aquí la cálida unión del corazón. Uno se encuentra propiamente ya fuer
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex13/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com

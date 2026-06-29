@@ -9,14 +9,13 @@ tags: ["I Ging, Kunst, Kultur und Religion"]
 description: "War das I Ging das erste virale Meme der Geschichte? Entdecke, wie das I Ging mit Dawkins' Definition und modernen Memes übereinstimmt."
 summary: 'Das I Ging ist nicht nur ein uraltes Orakel, sondern der Vorfahre aller modernen Memes. Dieser Artikel untersucht, wie die 64 Hexagramme zu Richard Dawkins‘ Theorie passen und sich genauso verhalten wie der „abgelenkte Freund“ oder jeder andere Internet-Viral. Eine originelle Vision, die antike Philosophie mit der digitalen Kultur des 21. Jahrhunderts verbindet.'
 slug: "war-das-i-ging-das-erste-meme"
-math: false
 ---
 
 Viele Menschen glauben, dass der Begriff „Meme“ mit der Internetkultur geboren wurde und sich auf jene lustigen Bilder, Sticker oder Animationen bezieht, die die Leute ständig in den sozialen Netzwerken teilen. Ich meine Bilder wie dieses:
 
 ![Das Meme vom abgelenkten Freund](distracted_boyfriend.webp "Das Meme vom abgelenkten Freund")
 
-Oder seine I-Ching-Version:
+Oder seine I-Chingón-Version:
 
 {{< video src="novio_distraido.de.webm" >}}
 

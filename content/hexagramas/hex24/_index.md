@@ -99,7 +99,7 @@ Si se pierde el momento oportuno para el retorno, se cae en la desventura. La de
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex24/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
@@ -108,4 +108,3 @@ Este artículo es creado y publicado oficialmente por Dailingna Romero.
 Para verificar que este artículo no ha sido alterado ni es un plagio, 
 haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
 corresponda legítimamente con el de este artículo.
----

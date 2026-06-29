@@ -103,7 +103,7 @@ Aquí se dibuja a alguien que ha llevado el pleito hasta el amargo final y ha co
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex06/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com

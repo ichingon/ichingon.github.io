@@ -98,7 +98,7 @@ El propósito del castigo es crear disciplina, no hacer justicia ciegamente. Se 
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex30/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
@@ -107,4 +107,3 @@ Este artículo es creado y publicado oficialmente por Dailingna Romero.
 Para verificar que este artículo no ha sido alterado ni es un plagio, 
 haz clic en el enlace de Nostr de arriba y verifica que el contenido firmado 
 corresponda legítimamente con el de este artículo.
----

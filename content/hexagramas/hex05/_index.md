@@ -101,7 +101,7 @@ La espera ha concluido: el peligro ya no se puede desviar. Se cae en el foso y e
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex05/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com

@@ -103,7 +103,7 @@ La cabeza es el comienzo. Sin un comienzo correcto no hay un final correcto. Si 
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex08/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com

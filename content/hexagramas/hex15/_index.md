@@ -106,7 +106,7 @@ A quien va en serio con su modestia, debe cuidar de que se muestre en la realida
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex15/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com

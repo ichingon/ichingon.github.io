@@ -93,7 +93,7 @@ Confucio dice sobre esta línea: «Bendecir significa ayudar. El cielo ayuda al 
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex14/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com

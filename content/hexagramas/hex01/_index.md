@@ -121,7 +121,7 @@ Cuando todas las líneas son Nueves, todo el Hexagrama entra en movimiento y se 
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex01/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com

@@ -83,7 +83,7 @@ Cuando en la vida pública reina la desconfianza mutua a causa de la influencia 
 ---
 
 **🔐 VERIFICACIÓN CRIPTOGRÁFICA DE AUTORÍA**
-Este artículo es creado y publicado oficialmente por Dailingna Romero.
+Este artículo es creado y publicado oficialmente por Dài Líng Nà (黛灵娜).
 
 - **🔗 URL Oficial:** https://elichingon.com/hexagramas/hex12/
 - **🔐 Identidad Nostr verificada:** dailingna@elichingon.com
