@@ -55,6 +55,6 @@ So, while the I Ching is not the oldest meme in history - if we consider the dis
 
 If you prefer to delve deeper into these concepts visually and hear the detailed analysis, I invite you to watch the full lesson on my channel:
 
-{{< youtube-short "1YGF4nrZMis" "The first MEME in history? 🤯" >}}
+{{< youtube-short "z66sm1bXQPo" "The first MEME in history? 🤯" >}}
 
 [^1]: How could something called *The Book of Changes* not change? 😉

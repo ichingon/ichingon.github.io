@@ -55,6 +55,6 @@ Wenn also das I Ging auch nicht das älteste Meme der Geschichte ist - wenn wir 
 
 Wenn du diese Konzepte lieber visuell vertiefen und die detaillierte Analyse anhören möchtest, lade ich dich ein, die vollständige Lektion auf meinem Kanal anzusehen:
 
-{{< youtube-short "1YGF4nrZMis" "Das erste MEME der Geschichte? 🤯" >}}
+{{< youtube-short "z66sm1bXQPo" "Das erste MEME der Geschichte? 🤯" >}}
 
 [^1]: Wie könnte etwas, das sich Das Buch der Wandlungen nennt, nicht selbst wandeln? 😉
