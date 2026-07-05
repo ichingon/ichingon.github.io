@@ -29,7 +29,7 @@ This image has been used to convey countless metaphors by labelling each of the 
 
 One of the most interesting characteristics of memes is their semantic flexibility to communicate any metaphor in a concise and intuitively understandable way for anyone. Even in this sense - the popular understanding of the concept of a meme - we would have to conclude that the I Ching is a collection of memes: 64 memes to be exact.
 
-Each of the 64 hexagrams is an archetype representing a universal situation. For example, Hexagram 23, called "Disintegration" (or "Splitting Apart"), represents situations where everything seems to collapse around us. The visual metaphor is that of a structure crumbling from its base, resonating with the feeling of helplessness before greater forces, as I explain in this video:
+Each of the 64 hexagrams is an archetype representing a universal situation. For example, Hexagram [23]({{% relref "/hexagramas/hex23" %}}), called "Disintegration" (or "Splitting Apart"), represents situations where everything seems to collapse around us. The visual metaphor is that of a structure crumbling from its base, resonating with the feeling of helplessness before greater forces, as I explain in this video:
 
 {{< youtube-short "qqd-ZRyxvBI" "Hexagram 23 - The Collapse" >}}
 

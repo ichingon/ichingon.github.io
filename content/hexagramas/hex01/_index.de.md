@@ -23,6 +23,8 @@ Das Zeichen besteht aus sechs ungeteilten Strichen. Die ungeteilten Striche ents
 
 Bei der Erklärung des Zeichens ist durchgehend eine doppelte Deutung zu berücksichtigen: die makrokosmische und die Wirkung in der Menschenwelt. Auf das Weltgeschehen angewandt ist in dem Zeichen das starke schöpferische Wirken der Gottheit ausgedrückt. Auf die Menschenwelt angewandt bezeichnet es das schöpferische Wirken des Heiligen und Weisen, des Herrschers und Führers der Menschen, der ihr höheres Wesen durch seine Kraft weckt und entwickelt.[^1]
 
+{{< video src="hex01-sitio.de.webm" >}}
+
 ---
 
 ## Das Urteil

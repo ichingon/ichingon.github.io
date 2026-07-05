@@ -1,5 +1,4 @@
 ---
-layout: "simple"
 title: "Hexagrama 1 乾 - Qián / Lo Creativo"
 weight: 3
 draft: false
@@ -21,11 +20,13 @@ translationKey: "hex01"
 * **Arriba:** Qián (Lo Creativo, el Cielo)  
 * **Abajo:** Qián (Lo Creativo, el Cielo)
 
----
-
 El Hexagrama consta de seis trazos enteros. Los trazos enteros corresponden a la fuerza primordial luminosa, fuerte, espiritual y activa. El Hexagrama es completamente uniforme y fuerte en su naturaleza. Dado que no tiene ninguna debilidad, es por su cualidad la fuerza. Su imagen es el cielo. La fuerza se representa como no ligada a condiciones espaciales determinadas; por lo tanto, se concibe como movimiento. Como fundamento de este movimiento se toma en consideración el tiempo. Así pues, también el poder del tiempo y el poder de la perseverancia en el tiempo, la duración, están contenidos en el Hexagrama.
 
 En la explicación del Hexagrama debe tenerse en cuenta de principio a fin una doble interpretación: la macrocósmica y el efecto en el mundo de los hombres. Aplicado a los acontecimientos del mundo, en el Hexagrama se expresa la fuerte acción creadora de la Divinidad. Aplicado al mundo humano, designa la acción creadora del santo y sabio, del gobernante y guía de los hombres, quien despierta y desarrolla la naturaleza superior de estos a través de su fuerza.[^1]
+
+{{< video src="hex01-sitio.webm" >}}
+
+---
 
 ## El Dictamen
 

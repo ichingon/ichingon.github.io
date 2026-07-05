@@ -23,6 +23,8 @@ Das Zeichen besteht aus lauter geteilten Linien. Die geteilte Linie entspricht d
 
 Dennoch kann von einem eigentlichen Dualismus nicht geredet werden denn es besteht zwischen den beiden Zeichen das Verhältnis einer klaren Rangordnung. An sich ist natürlich das Empfangende ebenso wichtig wie das Schöpferische. Aber dadurch die Eigenschaft der Hingebung ist die Stellung dieser Urkraft, dem Schöpferischen gegenüber bezeichnet. Sie muß0 unter der Leitung und Anregung des Schöpferischen sein, dann wirkt sie heilvoll. Nur wenn sie aus dieser Stellung heraustritt und dem Schöpferischen ebenbürtig zur Seite treten will, wird sie böse. Daraus ergibt sich dann Gegensatz und Kampf gegen das Schöpferische, der für beide Teile unheilvoll wirkt.
 
+{{< video src="hex02-sitio.de.webm" >}}
+
 ---
 
 ## Das Urteil

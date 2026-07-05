@@ -16,7 +16,7 @@ slug: "symbolism-of-holy-week-according-to-i-ching"
 
 Every year, millions of Christians around the world celebrate the Easter Triduum: three days commemorating the passion, death, and resurrection of Jesus Christ. But beyond its religious significance, these three days contain a universal archetype: the cycle of death and rebirth that underlies all profound transformation.
 
-From the perspective of the I Ching - the ancient Chinese Book of Changes - this cycle finds a surprising parallel in three specific hexagrams: **23 (Bō, Disintegration)** , **2 (Kūn, The Earth)** , and **24 (Fù, The Return)** . The structure of these hexagrams, their arrangement in the King Wen sequence, and their internal relationships reveal an almost mathematical codification of the Paschal mystery.
+From the perspective of the I Ching - the ancient Chinese Book of Changes - this cycle finds a surprising parallel in three specific hexagrams: **[23 (Bō, Disintegration)]({{% relref "/hexagramas/hex23" %}})**, **[2 (Kūn, The Earth)]({{% relref "/hexagramas/hex02" %}})** , and **[24 (Fù, The Return)]({{% relref "/hexagramas/hex24" %}})** . The structure of these hexagrams, their arrangement in the King Wen sequence, and their internal relationships reveal an almost mathematical codification of the Paschal mystery.
 
 In this article, we will explore, step by step, how the I Ching offers us a **notational tool** for thinking about death and resurrection, and why Holy Saturday - that seemingly empty day between Friday and Sunday - is actually the silent heart of the entire process.
 
@@ -27,7 +27,7 @@ In this article, we will explore, step by step, how the I Ching offers us a **no
 > *Upper:* ☶ Gèn, The Mountain  
 > *Lower:* ☷ Kūn, The Earth
 
-Hexagram 23, known as *Bō* (meaning "to wear away," "to strip," or "to disintegrate"), describes the process in which structures break down from their foundation. It is a time when what was once solid crumbles, and what is below advances to overthrow what is above[^1].
+[Hexagram 23]({{% relref "/hexagramas/hex23" %}}), known as *Bō* (meaning "to wear away," "to strip," or "to disintegrate"), describes the process in which structures break down from their foundation. It is a time when what was once solid crumbles, and what is below advances to overthrow what is above[^1].
 
 Its structure is brutally eloquent: **five yin lines (broken) at the base, forcefully undermining until they collapse the single yang line (unbroken) at the top**.
 
@@ -52,7 +52,7 @@ That "rebirth that follows" is precisely what happens in the days that follow.
 
 Holy Saturday is the day of the tomb. There is no movement. No action. It is a day of pure stillness, of silence, of waiting.
 
-In the I Ching, that total stillness corresponds to **hexagram 2, Kūn (坤), The Earth** . It consists exclusively of six yin (broken) lines, without a single line of yang energy. It is absolute receptivity, the fertile void, the matrix of all possibility.
+In the I Ching, that total stillness corresponds to **[hexagram 2, Kūn (坤), The Earth]({{% relref "/hexagramas/hex02" %}})** . It consists exclusively of six yin (broken) lines, without a single line of yang energy. It is absolute receptivity, the fertile void, the matrix of all possibility.
 
 Kūn is the perfect complement to hexagram 1 (Qián, The Creative). They are not opposites that fight, but complements that need each other. If Heaven (Qián) is the engendering force, Earth (Kūn) is what nourishes and sustains. It is the feminine energy of the universe: open, fertile, ready to receive.
 
@@ -67,7 +67,7 @@ Holy Saturday is that state of pure receptivity. It is the earth receiving the d
 > *Upper:* ☷ Kūn, The Earth  
 > *Lower:* ☳ Zhèn, The Thunder
 
-Easter Sunday is the resurrection. In the I Ching, this is **hexagram 24, Fù (復), The Return** .
+Easter Sunday is the resurrection. In the I Ching, this is **[hexagram 24, Fù (復), The Return]({{% relref "/hexagramas/hex24" %}})** .
 
 Its structure is the inverse of 23: now we have **one yang line at the bottom and five yin lines above**. It is the thunder under the earth, awakening and pushing upward. It is the moment when yang energy returns from the deepest point to initiate new life.
 

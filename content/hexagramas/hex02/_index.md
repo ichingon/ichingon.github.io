@@ -1,5 +1,4 @@
 ---
-layout: "simple"
 title: "Hexagrama 2 坤 - Kūn / Lo Receptivo"
 weight: 4
 draft: false
@@ -21,11 +20,13 @@ translationKey: "hex02"
 * **Arriba:** Kūn (Lo Receptivo, la Tierra)
 * **Abajo:** Kūn (Lo Receptivo, la Tierra)
 
----
-
 El signo consta de puros trazos partidos. El trazo partido corresponde a la fuerza primordial sombría, blanda y receptiva del Yin. La cualidad del signo es la entrega, su imagen es la tierra. Es la contraparte perfecta de Lo Creativo; la contraparte, no la oposición; un complemento, ningún combate. Es la naturaleza frente al espíritu, la tierra frente al cielo, lo espacial frente a lo temporal, lo femenino-materno frente a lo masculino-paterno. El principio de esta contraparte se encuentra, sin embargo, transferido a las relaciones humanas, no solo en las relaciones entre hombre y mujer, sino también de príncipe y ministro o padre e hijo; sí, incluso en los individuos mismos está esta dualidad en la convivencia de lo espiritual y lo sensual.
 
 Sin embargo, no se puede hablar de un verdadero dualismo, pues existe entre ambos signos la relación de una clara jerarquía. En sí, naturalmente, Lo Receptivo es tan importante como Lo Creativo. Pero a través de la cualidad de la entrega, la posición de esta fuerza primordial queda designada frente a Lo Creativo. Debe estar bajo la guía y el estímulo de Lo Creativo; entonces actúa de manera beneficiosa. Solo cuando sale de esta posición y quiere colocarse al lado de Lo Creativo en igualdad de condiciones, se vuelve dañina. De ahí resulta entonces oposición y combate contra Lo Creativo, el cual actúa de forma funesta para ambas partes.
+
+{{< video src="hex02-sitio.webm" >}}
+
+---
 
 ## El Dictamen
 
@@ -45,12 +46,16 @@ Transferido a las relaciones humanas, se trata de comportarse de acuerdo con la 
 
 Como uno debe rendir algo, necesita de los ayudantes y amigos en el tiempo del trabajo y el esfuerzo, cuando los pensamientos que se han de ejecutar ya están fijados. El tiempo del trabajo y el esfuerzo se expresa a través del oeste y el sur. Pues el sur y el oeste son el símbolo del lugar donde Lo Receptivo trabaja para Lo Creativo - como la naturaleza en verano y otoño -; si allí no se concentran todas las fuerzas, uno no termina con el trabajo que tiene que rendir. Por lo tanto, conseguir amigos aquí significa precisamente lograr resultados. Pero además del trabajo y el esfuerzo, hay también un tiempo para planificar y ordenar; allí se necesita la soledad. El este simboliza el lugar donde uno recibe los encargos de su señor, y el norte el lugar donde uno informa sobre lo realizado. Allí se requiere estar solo y ser objetivo. En esta hora sagrada se debe prescindir de los compañeros, para que la pureza no se enturbie por el odio y el favor de los bandos.
 
+---
+
 ## La Imagen
 
 > La cualidad de la {{< tooltip term="La Tierra" >}}Tierra{{< /tooltip >}} es la receptiva entrega.
 > {{< tooltip term="El Noble" >}}El Noble{{< /tooltip >}}, de naturaleza amplia, sostiene al mundo exterior.
 
 Del mismo modo que solo hay un cielo, también hay una sola tierra. Pero mientras que en el cielo la duplicación del signo significa duración temporal, en la tierra significa extensión espacial y firmeza con la que sostiene y conserva a todo lo que allí vive y se mueve. La tierra en su entrega sostiene sin excepción el bien y el mal. Así, el Noble hace su carácter amplio, sólido y resistente, de modo que sea capaz de sostener y soportar a los hombres y las cosas.
+
+---
 
 ## Las Líneas Individuales
 
