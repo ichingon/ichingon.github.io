@@ -2,119 +2,119 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>El I Chingón</title>
-    <link>http://localhost:1313/</link>
+    <link>https://elichingon.com/</link>
     <description>Recent content on El I Chingón</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tabla para buscar los hexagramas del I Ching</title>
-      <link>http://localhost:1313/hexagramas/buscador-hexagramas-i-ching/</link>
+      <link>https://elichingon.com/hexagramas/buscador-hexagramas-i-ching/</link>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hexagramas/buscador-hexagramas-i-ching/</guid>
+      <guid>https://elichingon.com/hexagramas/buscador-hexagramas-i-ching/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Cómo usar la Tabla de Consulta&#xA;    &lt;div id=&#34;cómo-usar-la-tabla-de-consulta&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#c%c3%b3mo-usar-la-tabla-de-consulta&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Esta tabla te permite identificar el número de cualquiera de los &lt;strong&gt;64 hexagramas del I Ching&lt;/strong&gt; cruzando sus dos trigramas constituyentes.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Busca el &lt;strong&gt;Trigrama Superior&lt;/strong&gt; (Trigrama de Arriba) en las columnas horizontales de arriba.&lt;/li&gt;&#xA;&lt;li&gt;Busca el &lt;strong&gt;Trigrama Inferior&lt;/strong&gt; (Trigrama de Abajo) en las filas verticales de la izquierda.&lt;/li&gt;&#xA;&lt;li&gt;El punto de intersección te dará el número del hexagrama según el ordenamiento tradicional del Rey Wen (&lt;strong&gt;後天八卦 - Hòutiān Bāguà&lt;/strong&gt;; Cielo Posterior, o Mundo de los Sentidos).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&lt;p&gt;📌 &lt;strong&gt;Nota de navegación:&lt;/strong&gt; Los enlaces en los números de cada hexagrama te dirigirán a mi traducción al castellano del texto tradicional de &lt;strong&gt;Richard Wilhelm&lt;/strong&gt;. Dentro de cada artículo individual, encontrarás también el enlace al texto original en alemán para su cotejo académico.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Tabla Avanzada de Correspondencias del I Ching</title>
-      <link>http://localhost:1313/hexagramas/tabla-avanzada-correspondencias-i-ching/</link>
+      <link>https://elichingon.com/hexagramas/tabla-avanzada-correspondencias-i-ching/</link>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hexagramas/tabla-avanzada-correspondencias-i-ching/</guid>
+      <guid>https://elichingon.com/hexagramas/tabla-avanzada-correspondencias-i-ching/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Sobre esta Tabla Estructural&#xA;    &lt;div id=&#34;sobre-esta-tabla-estructural&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#sobre-esta-tabla-estructural&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Esta matriz cruza el ordenamiento clásico del rey Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su &lt;strong&gt;Hexagrama Nuclear&lt;/strong&gt; interno y su correspondencia arquetípica en el &lt;strong&gt;Cielo Anterior&lt;/strong&gt; (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>¿Qué tienen en común el I Ching y el mito japonés de la creación?</title>
-      <link>http://localhost:1313/articulos/i-ching-y-kojiki/</link>
+      <link>https://elichingon.com/articulos/i-ching-y-kojiki/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articulos/i-ching-y-kojiki/</guid>
+      <guid>https://elichingon.com/articulos/i-ching-y-kojiki/</guid>
       <description>La conexión entre el Hexagrama 1 del I Ching y el mito de creación del Kojiki es estructural y lingüística. Los creadores del mito japonés no copiaron la historia, pero sí adoptaron el lenguaje filosófico y el modelo cosmogónico del I Ching para narrar sus propios orígenes.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-y-kojiki/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-y-kojiki/featured.jpg" />
     </item>
     
     <item>
       <title>El I Ching y el universo que se computa a sí mismo</title>
-      <link>http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/</link>
+      <link>https://elichingon.com/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/</guid>
+      <guid>https://elichingon.com/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/</guid>
       <description>Desde la antigüedad hasta los colisionadores de partículas y la inteligencia artificial, la pregunta más fundamental persiste: ¿Qué es el universo? En este artículo, proponemos una síntesis audaz: el universo no está hecho de materia sólida, sino de información. El I Ching, con su sistema binario de Yin y Yang, se anticipó a esta idea hace. Hoy, la física cuántica nos muestra que la realidad, a su nivel más fundamental, se comporta como un &amp;ldquo;software en ejecución&amp;rdquo;. Pero si el universo es código, ¿dónde encaja la conciencia? ¿Somos meros espectadores o somos el universo procesándose a sí mismo? Exploramos esta paradoja a través de la lente de la filosofía oriental (Tao Te Ching, Budismo) y los desafíos planteados por la ciencia moderna, como el &amp;ldquo;Problema Difícil de la Conciencia&amp;rdquo; de David Chalmers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
     </item>
     
     <item>
       <title>El simbolismo de Semana Santa desde la óptica del I Ching</title>
-      <link>http://localhost:1313/articulos/semana-santa-y-el-i-ching/</link>
+      <link>https://elichingon.com/articulos/semana-santa-y-el-i-ching/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articulos/semana-santa-y-el-i-ching/</guid>
+      <guid>https://elichingon.com/articulos/semana-santa-y-el-i-ching/</guid>
       <description>Exploramos cómo el I Ching codifica el misterio de la muerte y resurrección de Cristo en los hexagramas 23 (Desintegración), 2 (La Tierra) y 24 (El Retorno), revelando el Sábado Santo como un estado atemporal y corazón de ambos procesos.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/semana-santa-y-el-i-ching/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/semana-santa-y-el-i-ching/featured.jpg" />
     </item>
     
     <item>
       <title>¿Es el I Ching el primer MEME de la historia? 🤯</title>
-      <link>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</link>
+      <link>https://elichingon.com/articulos/i-ching-primer-meme-de-la-historia/</link>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</guid>
+      <guid>https://elichingon.com/articulos/i-ching-primer-meme-de-la-historia/</guid>
       <description>El I Ching no es solo un oráculo milenario, sino el ancestro de todos los memes modernos. Este artículo explora cómo los 64 hexagramas encajan con la teoría de Richard Dawkins y se comportan igual que el &amp;ldquo;novio distraído&amp;rdquo; o cualquier viral de internet. Una visión original que une filosofía antigua con la cultura digital del siglo XXI.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
     </item>
     
     <item>
       <title>Verificación de autenticidad</title>
-      <link>http://localhost:1313/verificar/</link>
+      <link>https://elichingon.com/verificar/</link>
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/verificar/</guid>
+      <guid>https://elichingon.com/verificar/</guid>
       <description>&lt;p&gt;En un internet saturado de contenido generado por IA, &lt;em&gt;deepfakes&lt;/em&gt;, suplantaciones y plagios, surge una pregunta inevitable: &lt;strong&gt;¿cómo sabes que lo que lees o ves viene realmente de su creador original y no de una cuenta que suplanta su identidad?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esta página explica cómo puedes verificar criptográficamente que cualquier artículo, video o contenido publicado en &lt;code&gt;elichingon.com&lt;/code&gt; es auténtico, no ha sido alterado y fue publicado por esta entidad digital específica.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Arquitectura de Licencias de elichingon.com</title>
-      <link>http://localhost:1313/licencias/</link>
+      <link>https://elichingon.com/licencias/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/licencias/</guid>
+      <guid>https://elichingon.com/licencias/</guid>
       <description>&lt;p&gt;Este sitio es un ecosistema de contenido abierto, diseñado como un protocolo de información descentralizado sobre el I Ching. Para garantizar su máxima difusión y adopción, la propiedad intelectual del sitio está estructurada en capas independientes, cada una con su propio régimen legal.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Capa 1 · Texto Original en Alemán (Dominio Público)&#xA;    &lt;div id=&#34;capa-1--texto-original-en-alemán-dominio-público&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#capa-1--texto-original-en-alem%c3%a1n-dominio-p%c3%bablico&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Los textos base del I Ching utilizados en este sitio corresponden a la traducción al alemán de Richard Wilhelm, publicada originalmente en 1924 bajo el título &lt;em&gt;I Ging, das Buch der Wandlungen&lt;/em&gt;.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Como consultar al I Ching mediante el lanzamiento de las monedas</title>
-      <link>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</link>
+      <link>https://elichingon.com/articulos/como-consultar-el-iching-con-las-monedas/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/</guid>
+      <guid>https://elichingon.com/articulos/como-consultar-el-iching-con-las-monedas/</guid>
       <description>Una guía práctica para consultar el I Ching mediante el lanzamiento de tres monedas. Explica el valor numérico de cada tirada, cómo se construyen las 6 líneas del hexagrama, la diferencia entre líneas fijas y móviles, y cómo identificar los hexagramas resultante y derivado.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
     </item>
     
     <item>
       <title>El ABC del I Ching</title>
-      <link>http://localhost:1313/articulos/el-abc-del-i-ching/</link>
+      <link>https://elichingon.com/articulos/el-abc-del-i-ching/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articulos/el-abc-del-i-ching/</guid>
+      <guid>https://elichingon.com/articulos/el-abc-del-i-ching/</guid>
       <description>El I Ching es más que un oráculo: es un lenguaje universal basado en el Yin y el Yang. Este artículo te guía por su alfabeto binario, los 8 trigramas y los 64 hexagramas, explicando cómo se estructuran sus palabras y oraciones.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-abc-del-i-ching/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el-abc-del-i-ching/featured.jpg" />
     </item>
     
     <item>
       <title>El azar, la ciencia y el I Ching: una convergencia en la comprensión del orden y la incertidumbre</title>
-      <link>http://localhost:1313/articulos/azar-ciencia-i-ching/</link>
+      <link>https://elichingon.com/articulos/azar-ciencia-i-ching/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articulos/azar-ciencia-i-ching/</guid>
+      <guid>https://elichingon.com/articulos/azar-ciencia-i-ching/</guid>
       <description>¿Es el azar una herramienta de conocimiento? Este artículo conecta el I Ching con la mecánica cuántica, la teoría del caos, los teoremas de Gödel y el bootstrapping para mostrar cómo el azar, lejos de ser un obstáculo, más bién filtra nuestra subjetividad y nos permite acceder a órdenes más profundos.</description>
       
     </item>

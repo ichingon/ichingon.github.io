@@ -2,31 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>I Ching, Art, Culture and Religion on I Chingon</title>
-    <link>http://localhost:1313/en/tags/i-ching-art-culture-and-religion/</link>
+    <link>https://elichingon.com/en/tags/i-ching-art-culture-and-religion/</link>
     <description>Recent content in I Ching, Art, Culture and Religion on I Chingon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/i-ching-art-culture-and-religion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/en/tags/i-ching-art-culture-and-religion/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What do the I Ching and the Japanese creation myth have in common?</title>
+      <link>https://elichingon.com/en/articles/i-ching-and-kojiki/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://elichingon.com/en/articles/i-ching-and-kojiki/</guid>
+      <description>The connection between Hexagram 1 of the I Ching and the creation myth of the Kojiki is structural and linguistic. The creators of the Japanese myth did not copy the story, but they did adopt the philosophical language and cosmogonic model of the I Ching to narrate their own origins.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-y-kojiki/featured.jpg" />
+    </item>
     
     <item>
       <title>The Symbolism of Holy Week Through the Lens of the I Ching</title>
-      <link>http://localhost:1313/en/articles/symbolism-of-holy-week-according-to-i-ching/</link>
+      <link>https://elichingon.com/en/articles/symbolism-of-holy-week-according-to-i-ching/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/articles/symbolism-of-holy-week-according-to-i-ching/</guid>
+      <guid>https://elichingon.com/en/articles/symbolism-of-holy-week-according-to-i-ching/</guid>
       <description>We explore how the I Ching encodes the mystery of Christ&amp;rsquo;s death and resurrection in hexagrams 23 (Disintegration), 2 (The Earth), and 24 (The Return), revealing Holy Saturday as a timeless state and the heart of both processes.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/semana-santa-y-el-i-ching/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/semana-santa-y-el-i-ching/featured.jpg" />
     </item>
     
     <item>
       <title>Is the I Ching the First Meme in History? 🤯</title>
-      <link>http://localhost:1313/en/articles/is-the-i-ching-the-first-meme-in-history/</link>
+      <link>https://elichingon.com/en/articles/is-the-i-ching-the-first-meme-in-history/</link>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/articles/is-the-i-ching-the-first-meme-in-history/</guid>
+      <guid>https://elichingon.com/en/articles/is-the-i-ching-the-first-meme-in-history/</guid>
       <description>The I Ching is not just an ancient oracle, but the ancestor of all modern memes. This article explores how the 64 hexagrams align with Richard Dawkins&amp;rsquo; theory and behave just like the &amp;lsquo;distracted boyfriend&amp;rsquo; or any internet viral. An original take bridging ancient philosophy and 21st‑century digital culture.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
     </item>
     
   </channel>

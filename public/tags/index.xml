@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on El I Chingón</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://elichingon.com/tags/</link>
     <description>Recent content in Tags on El I Chingón</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>I Ching, Arte, Cultura Y Religión</title>
-      <link>http://localhost:1313/tags/i-ching-arte-cultura-y-religi%C3%B3n/</link>
+      <link>https://elichingon.com/tags/i-ching-arte-cultura-y-religi%C3%B3n/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/i-ching-arte-cultura-y-religi%C3%B3n/</guid>
+      <guid>https://elichingon.com/tags/i-ching-arte-cultura-y-religi%C3%B3n/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Filosofía, Ciencia Y Tecnología</title>
-      <link>http://localhost:1313/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/</link>
+      <link>https://elichingon.com/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/</guid>
+      <guid>https://elichingon.com/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Fundamentos Del I Ching</title>
-      <link>http://localhost:1313/tags/fundamentos-del-i-ching/</link>
+      <link>https://elichingon.com/tags/fundamentos-del-i-ching/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/fundamentos-del-i-ching/</guid>
+      <guid>https://elichingon.com/tags/fundamentos-del-i-ching/</guid>
       <description></description>
       
     </item>
