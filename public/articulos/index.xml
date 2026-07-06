@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>¿Qué tienen en común el I Ching y el mito japonés de la creación?</title>
+      <link>http://localhost:1313/articulos/i-ching-y-kojiki/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/i-ching-y-kojiki/</guid>
+      <description>La conexión entre el Hexagrama 1 del I Ching y el mito de creación del Kojiki es estructural y lingüística. Los creadores del mito japonés no copiaron la historia, pero sí adoptaron el lenguaje filosófico y el modelo cosmogónico del I Ching para narrar sus propios orígenes.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-y-kojiki/featured.jpg" />
+    </item>
     
     <item>
       <title>El I Ching y el universo que se computa a sí mismo</title>

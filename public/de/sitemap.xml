@@ -986,6 +986,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex36/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/hexagramme/hex36/"
     />
@@ -998,6 +1003,11 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex37/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex37/"
     />
     <xhtml:link
       rel="alternate"
@@ -1016,6 +1026,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex38/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/hexagramme/hex38/"
     />
@@ -1031,6 +1046,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex39/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/hexagramme/hex39/"
     />
@@ -1043,6 +1063,11 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:1313/hexagramas/hex40/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex40/"
     />
     <xhtml:link
       rel="alternate"

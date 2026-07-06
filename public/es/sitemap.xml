@@ -525,8 +525,14 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/articulos/i-ching-y-kojiki/</loc>
+    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -543,6 +549,27 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:1313/articulos/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/"
     />
   </url>
   <url>
@@ -564,27 +591,6 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="http://localhost:1313/de/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/"
     />
   </url>
   <url>
@@ -981,6 +987,11 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex36/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/hexagramme/hex36/"
     />
@@ -994,6 +1005,11 @@
     <loc>http://localhost:1313/hexagramas/hex37/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex37/"
+    />
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -1011,6 +1027,11 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex38/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/hexagramme/hex38/"
     />
@@ -1026,6 +1047,11 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex39/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/hexagramme/hex39/"
     />
@@ -1039,6 +1065,11 @@
     <loc>http://localhost:1313/hexagramas/hex40/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/hexagrams/hex40/"
+    />
     <xhtml:link
       rel="alternate"
       hreflang="de"
