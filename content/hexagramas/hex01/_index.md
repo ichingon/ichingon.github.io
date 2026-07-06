@@ -1,4 +1,5 @@
 ---
+layout: "simple"
 title: "Hexagrama 1 乾 - Qián / Lo Creativo"
 weight: 3
 draft: false
