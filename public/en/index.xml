@@ -2,119 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>El I Chingón on I Chingon</title>
-    <link>https://elichingon.com/en/</link>
+    <link>http://localhost:1313/en/</link>
     <description>Recent content in El I Chingón on I Chingon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>I Ching Hexagram Lookup Matrix</title>
-      <link>https://elichingon.com/en/hexagrams/i-ching-lookup-chart/</link>
+      <link>http://localhost:1313/en/hexagrams/i-ching-lookup-chart/</link>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/hexagrams/i-ching-lookup-chart/</guid>
+      <guid>http://localhost:1313/en/hexagrams/i-ching-lookup-chart/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;How to Use the I Ching Hexagram Finder&#xA;    &lt;div id=&#34;how-to-use-the-i-ching-hexagram-finder&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#how-to-use-the-i-ching-hexagram-finder&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This matrix allows you to quickly identify the number of any of the 64 I Ching hexagrams by crossing its two component trigrams.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Look for the &lt;strong&gt;Upper Trigram&lt;/strong&gt; (Trigram Above) in the horizontal columns at the top.&lt;/li&gt;&#xA;&lt;li&gt;Look for the &lt;strong&gt;Lower Trigram&lt;/strong&gt; (Trigram Below) in the vertical rows on the left.&lt;/li&gt;&#xA;&lt;li&gt;The point of intersection will yield the hexagram number according to King Wen&amp;rsquo;s traditional arrangement (後天八卦 - Hòutiān Bāguà; Later Heaven, or the Manifested World of Senses).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&lt;p&gt;📌 &lt;strong&gt;Navigation Note:&lt;/strong&gt; The links on each hexagram number will direct you to my Spanish translation of &lt;strong&gt;Richard Wilhelm&amp;rsquo;s&lt;/strong&gt; traditional text. Within each individual article, you will also find the link to the original German source text for academic reference.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Advanced I Ching Hexagram Correspondence Table</title>
-      <link>https://elichingon.com/en/hexagrams/advanced-i-ching-correspondence-table/</link>
+      <link>http://localhost:1313/en/hexagrams/advanced-i-ching-correspondence-table/</link>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/hexagrams/advanced-i-ching-correspondence-table/</guid>
+      <guid>http://localhost:1313/en/hexagrams/advanced-i-ching-correspondence-table/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;About this Structural Table&#xA;    &lt;div id=&#34;about-this-structural-table&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#about-this-structural-table&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This matrix crosses King Wen&amp;rsquo;s classical ordering with its English names, Pinyin, and Simplified Chinese, along with a brief descriptor of its essence, its internal &lt;strong&gt;Nuclear Hexagram&lt;/strong&gt;, and its archetypal structural correspondence in the &lt;strong&gt;Earlier Heaven&lt;/strong&gt; arrangement (先天八卦 - Xiān Tiān Bāguà, or 伏羲八卦 - Fú Xī Bāguà, the binary ordering according to Emperor Fu Xi).&lt;/p&gt;</description>
       
     </item>
     
     <item>
+      <title>Hexagram 1 乾 - Qián / THE CREATIVE</title>
+      <link>http://localhost:1313/en/hexagrams/hex01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/hexagrams/hex01/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC0;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;Trigrams&#xA;    &lt;div id=&#34;trigrams&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#trigrams&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Above: Qián, The Creative, Heaven&lt;/li&gt;&#xA;&lt;li&gt;Below: Qián, The Creative, Heaven&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The hexagram consists of six undivided lines. The undivided lines correspond to the light, strong, spiritual, and active primal power. The character of the hexagram is entirely uniform and strong in its nature. Since no weakness adheres to it, its essential quality is power. Its image is heaven. This power is represented as unbound by specific spatial conditions; therefore, it is conceived as movement. Time is considered the foundation of this movement. Thus, the power of time and the power of perseverance in time - duration - are also comprised within this hexagram.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/hexagramas/hex01/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Hexagram 2 坤 - Kūn / THE RECEPTIVE</title>
+      <link>http://localhost:1313/en/hexagrams/hex02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/hexagrams/hex02/</guid>
+      <description>&lt;p align=&#34;center&#34; style=&#34;font-size: 100px; margin: 0; padding: 0; line-height: 1;&#34;&gt;&#xA;  &amp;#x4DC1;&#xA;&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;Trigrams&#xA;    &lt;div id=&#34;trigrams&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#trigrams&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Above: Kūn, The Receptive, Earth&lt;/li&gt;&#xA;&lt;li&gt;Below: Kūn, The Receptive, Earth&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This hexagram consists entirely of yielded (divided) lines. The divided line represents the dark, soft, receptive primal power of Yin. The primary attribute of the hexagram is devotion, and its symbol is the Earth. It serves as the perfect counterpart to The Creative - a complement, not an opposite; a completion, not a conflict. It represents Nature in contrast to Spirit, Earth to Heaven, space to time, and the feminine-maternal to the masculine-paternal. When applied to human affairs, this principle of partnership is found not only in the relationship between man and woman, but also between ruler and minister, or father and son. Even within the individual, this duality manifests as the coexistence of the spiritual and the sensory.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/hexagramas/hex02/featured.jpg" />
+    </item>
+    
+    <item>
       <title>What do the I Ching and the Japanese creation myth have in common?</title>
-      <link>https://elichingon.com/en/articles/i-ching-and-kojiki/</link>
+      <link>http://localhost:1313/en/articles/i-ching-and-kojiki/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/i-ching-and-kojiki/</guid>
+      <guid>http://localhost:1313/en/articles/i-ching-and-kojiki/</guid>
       <description>The connection between Hexagram 1 of the I Ching and the creation myth of the Kojiki is structural and linguistic. The creators of the Japanese myth did not copy the story, but they did adopt the philosophical language and cosmogonic model of the I Ching to narrate their own origins.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-y-kojiki/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-y-kojiki/featured.jpg" />
     </item>
     
     <item>
       <title>The I Ching and the Universe that Computes Itself</title>
-      <link>https://elichingon.com/en/articles/i-ching-and-the-self-computing-universe/</link>
+      <link>http://localhost:1313/en/articles/i-ching-and-the-self-computing-universe/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/i-ching-and-the-self-computing-universe/</guid>
+      <guid>http://localhost:1313/en/articles/i-ching-and-the-self-computing-universe/</guid>
       <description>From antiquity to particle colliders and artificial intelligence, the most fundamental question persists: What is the universe? In this article, we propose a bold synthesis: the universe is not made of solid matter, but of information. The I Ching, with its binary system of Yin and Yang, anticipated this idea long ago. Today, quantum physics shows us that reality, at its most fundamental level, behaves like &amp;lsquo;running software&amp;rsquo;. But if the universe is code, where does consciousness fit in? Are we mere spectators, or are we the universe processing itself? We explore this paradox through the lens of Eastern philosophy (Tao Te Ching, Buddhism) and the challenges posed by modern science, such as David Chalmers&amp;rsquo; &amp;lsquo;Hard Problem of Consciousness&amp;rsquo;.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
     </item>
     
     <item>
       <title>The Symbolism of Holy Week Through the Lens of the I Ching</title>
-      <link>https://elichingon.com/en/articles/symbolism-of-holy-week-according-to-i-ching/</link>
+      <link>http://localhost:1313/en/articles/symbolism-of-holy-week-according-to-i-ching/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/symbolism-of-holy-week-according-to-i-ching/</guid>
+      <guid>http://localhost:1313/en/articles/symbolism-of-holy-week-according-to-i-ching/</guid>
       <description>We explore how the I Ching encodes the mystery of Christ&amp;rsquo;s death and resurrection in hexagrams 23 (Disintegration), 2 (The Earth), and 24 (The Return), revealing Holy Saturday as a timeless state and the heart of both processes.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/semana-santa-y-el-i-ching/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/semana-santa-y-el-i-ching/featured.jpg" />
     </item>
     
     <item>
       <title>Is the I Ching the First Meme in History? 🤯</title>
-      <link>https://elichingon.com/en/articles/is-the-i-ching-the-first-meme-in-history/</link>
+      <link>http://localhost:1313/en/articles/is-the-i-ching-the-first-meme-in-history/</link>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/is-the-i-ching-the-first-meme-in-history/</guid>
+      <guid>http://localhost:1313/en/articles/is-the-i-ching-the-first-meme-in-history/</guid>
       <description>The I Ching is not just an ancient oracle, but the ancestor of all modern memes. This article explores how the 64 hexagrams align with Richard Dawkins&amp;rsquo; theory and behave just like the &amp;lsquo;distracted boyfriend&amp;rsquo; or any internet viral. An original take bridging ancient philosophy and 21st‑century digital culture.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
     </item>
     
     <item>
       <title>Authenticity Verification</title>
-      <link>https://elichingon.com/en/verify/</link>
+      <link>http://localhost:1313/en/verify/</link>
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/verify/</guid>
+      <guid>http://localhost:1313/en/verify/</guid>
       <description>&lt;p&gt;In an internet saturated with AI-generated content, &lt;em&gt;deepfakes&lt;/em&gt;, impersonation, and plagiarism, an inevitable question arises: &lt;strong&gt;how do you know that what you read or see truly comes from its original creator and not from an account impersonating them?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This page explains how you can cryptographically verify that any article, video, or content published on &lt;code&gt;elichingon.com&lt;/code&gt; or any of its platforms is authentic, unaltered, and was first published by Dailingna.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Why do I cryptographically sign my content?&#xA;    &lt;div id=&#34;why-do-i-cryptographically-sign-my-content&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#why-do-i-cryptographically-sign-my-content&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;After all, &amp;ldquo;Dailingna Romero&amp;rdquo; or &amp;ldquo;El I Chingón&amp;rdquo; are unknown and relatively obscure entities on the internet (for now), but like &lt;a href=&#34;https://elichingon.com/hexagramas/hex20/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Hexagram 20 of the I Ching (Contemplation / Guan 觀)&lt;/a&gt;, this serves a dual purpose that reflects the very nature of the hexagram: the act of contemplating and the condition of being contemplated.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>How to Consult the I Ching Using the Coin Toss Method</title>
-      <link>https://elichingon.com/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</link>
+      <link>http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</guid>
+      <guid>http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</guid>
       <description>A practical guide to consulting the I Ching by tossing three coins. It explains the numerical value of each throw, how the 6 hexagram lines are built, the difference between fixed and moving lines, and how to identify the resulting and derived hexagrams.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
     </item>
     
     <item>
       <title>License Architecture of elichingon.com</title>
-      <link>https://elichingon.com/en/licences/</link>
+      <link>http://localhost:1313/en/licences/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/licences/</guid>
+      <guid>http://localhost:1313/en/licences/</guid>
       <description>&lt;p&gt;This site is an open content ecosystem, designed as a decentralized information protocol on the I Ching. To ensure its maximum dissemination and adoption, the site&amp;rsquo;s intellectual property is structured in independent layers, each with its own legal regime.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Layer 1 · Original German Text (Public Domain)&#xA;    &lt;div id=&#34;layer-1--original-german-text-public-domain&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#layer-1--original-german-text-public-domain&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The base I Ching texts used on this site correspond to the German translation by Richard Wilhelm, originally published in 1924 under the title &lt;em&gt;I Ging, das Buch der Wandlungen&lt;/em&gt;.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>The ABC of the I Ching</title>
-      <link>https://elichingon.com/en/articles/the-abc-of-the-i-ching/</link>
+      <link>http://localhost:1313/en/articles/the-abc-of-the-i-ching/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/the-abc-of-the-i-ching/</guid>
+      <guid>http://localhost:1313/en/articles/the-abc-of-the-i-ching/</guid>
       <description>The I Ching is more than an oracle: it&amp;rsquo;s a universal language based on Yin and Yang. This article guides you through its binary alphabet, the 8 trigrams, and the 64 hexagrams, explaining how its words and sentences are structured.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el-abc-del-i-ching/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-abc-del-i-ching/featured.jpg" />
     </item>
     
     <item>
       <title>Chance, Science, and the I Ching: A Convergence in Understanding Order and Uncertainty</title>
-      <link>https://elichingon.com/en/articles/chance-science-i-ching/</link>
+      <link>http://localhost:1313/en/articles/chance-science-i-ching/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/chance-science-i-ching/</guid>
+      <guid>http://localhost:1313/en/articles/chance-science-i-ching/</guid>
       <description>Is chance a tool for knowledge? This article connects the I Ching with quantum mechanics, chaos theory, Gödel&amp;rsquo;s theorems and bootstrapping to show how chance, far from being an obstacle, rather filters our subjectivity and allows us to access deeper orders.</description>
       
     </item>

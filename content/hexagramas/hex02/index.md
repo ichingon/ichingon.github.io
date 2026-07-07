@@ -25,8 +25,6 @@ El signo consta de puros trazos partidos. El trazo partido corresponde a la fuer
 
 Sin embargo, no se puede hablar de un verdadero dualismo, pues existe entre ambos signos la relación de una clara jerarquía. En sí, naturalmente, Lo Receptivo es tan importante como Lo Creativo. Pero a través de la cualidad de la entrega, la posición de esta fuerza primordial queda designada frente a Lo Creativo. Debe estar bajo la guía y el estímulo de Lo Creativo; entonces actúa de manera beneficiosa. Solo cuando sale de esta posición y quiere colocarse al lado de Lo Creativo en igualdad de condiciones, se vuelve dañina. De ahí resulta entonces oposición y combate contra Lo Creativo, el cual actúa de forma funesta para ambas partes.
 
-{{< video src="hex02-sitio.webm" >}}
-
 ---
 
 ## El Dictamen

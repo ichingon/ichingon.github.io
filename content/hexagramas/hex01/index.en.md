@@ -23,7 +23,7 @@ The hexagram consists of six undivided lines. The undivided lines correspond to 
 
 In the explanation of the hexagram, a dual interpretation must be consistently taken into account: the macrocosmic aspect and its effect on the human world. Applied to cosmic events, the hexagram expresses the strong creative action of the deity. Applied to the human world, it designates the creative action of the saint and sage, the ruler and leader of humanity, who awakens and develops their higher nature through his power.[^1]
 
-{{< video src="hex01-sitio.en.webm" >}}
+{{< youtube-short "2NLcuHtm3qU" "Snapshot of hexagram 1" >}}
 
 ---
 

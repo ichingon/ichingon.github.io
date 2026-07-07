@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>I Ching, Arte, Cultura Y Religión on El I Chingón</title>
-    <link>https://elichingon.com/tags/i-ching-arte-cultura-y-religi%C3%B3n/</link>
+    <link>http://localhost:1313/tags/i-ching-arte-cultura-y-religi%C3%B3n/</link>
     <description>Recent content in I Ching, Arte, Cultura Y Religión on El I Chingón</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/tags/i-ching-arte-cultura-y-religi%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/i-ching-arte-cultura-y-religi%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>¿Qué tienen en común el I Ching y el mito japonés de la creación?</title>
-      <link>https://elichingon.com/articulos/i-ching-y-kojiki/</link>
+      <link>http://localhost:1313/articulos/i-ching-y-kojiki/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/articulos/i-ching-y-kojiki/</guid>
+      <guid>http://localhost:1313/articulos/i-ching-y-kojiki/</guid>
       <description>La conexión entre el Hexagrama 1 del I Ching y el mito de creación del Kojiki es estructural y lingüística. Los creadores del mito japonés no copiaron la historia, pero sí adoptaron el lenguaje filosófico y el modelo cosmogónico del I Ching para narrar sus propios orígenes.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-y-kojiki/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-y-kojiki/featured.jpg" />
     </item>
     
     <item>
       <title>El simbolismo de Semana Santa desde la óptica del I Ching</title>
-      <link>https://elichingon.com/articulos/semana-santa-y-el-i-ching/</link>
+      <link>http://localhost:1313/articulos/semana-santa-y-el-i-ching/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/articulos/semana-santa-y-el-i-ching/</guid>
+      <guid>http://localhost:1313/articulos/semana-santa-y-el-i-ching/</guid>
       <description>Exploramos cómo el I Ching codifica el misterio de la muerte y resurrección de Cristo en los hexagramas 23 (Desintegración), 2 (La Tierra) y 24 (El Retorno), revelando el Sábado Santo como un estado atemporal y corazón de ambos procesos.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/semana-santa-y-el-i-ching/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/semana-santa-y-el-i-ching/featured.jpg" />
     </item>
     
     <item>
       <title>¿Es el I Ching el primer MEME de la historia? 🤯</title>
-      <link>https://elichingon.com/articulos/i-ching-primer-meme-de-la-historia/</link>
+      <link>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</link>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/articulos/i-ching-primer-meme-de-la-historia/</guid>
+      <guid>http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/</guid>
       <description>El I Ching no es solo un oráculo milenario, sino el ancestro de todos los memes modernos. Este artículo explora cómo los 64 hexagramas encajan con la teoría de Richard Dawkins y se comportan igual que el &amp;ldquo;novio distraído&amp;rdquo; o cualquier viral de internet. Una visión original que une filosofía antigua con la cultura digital del siglo XXI.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
     </item>
     
   </channel>

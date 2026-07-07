@@ -1,5 +1,4 @@
 ---
-layout: "simple"
 title: "Hexagrama 1 乾 - Qián / Lo Creativo"
 weight: 3
 draft: false
@@ -25,7 +24,7 @@ El Hexagrama consta de seis trazos enteros. Los trazos enteros corresponden a la
 
 En la explicación del Hexagrama debe tenerse en cuenta de principio a fin una doble interpretación: la macrocósmica y el efecto en el mundo de los hombres. Aplicado a los acontecimientos del mundo, en el Hexagrama se expresa la fuerte acción creadora de la Divinidad. Aplicado al mundo humano, designa la acción creadora del santo y sabio, del gobernante y guía de los hombres, quien despierta y desarrolla la naturaleza superior de estos a través de su fuerza.[^1]
 
-{{< video src="hex01-sitio.webm" >}}
+{{< youtube-short "2NLcuHtm3qU" "Instantánea del hexagrama 1" >}}
 
 ---
 

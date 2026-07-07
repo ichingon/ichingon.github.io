@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on I Chingon</title>
-    <link>https://elichingon.com/de/tags/</link>
+    <link>http://localhost:1313/de/tags/</link>
     <description>Recent content in Tags on I Chingon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>I Ging, Kunst, Kultur Und Religion</title>
-      <link>https://elichingon.com/de/tags/i-ging-kunst-kultur-und-religion/</link>
+      <link>http://localhost:1313/de/tags/i-ging-kunst-kultur-und-religion/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/de/tags/i-ging-kunst-kultur-und-religion/</guid>
+      <guid>http://localhost:1313/de/tags/i-ging-kunst-kultur-und-religion/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Philosophie, Wissenschaft Und Technologie</title>
-      <link>https://elichingon.com/de/tags/philosophie-wissenschaft-und-technologie/</link>
+      <link>http://localhost:1313/de/tags/philosophie-wissenschaft-und-technologie/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/de/tags/philosophie-wissenschaft-und-technologie/</guid>
+      <guid>http://localhost:1313/de/tags/philosophie-wissenschaft-und-technologie/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Grundlagen Des I Ging</title>
-      <link>https://elichingon.com/de/tags/grundlagen-des-i-ging/</link>
+      <link>http://localhost:1313/de/tags/grundlagen-des-i-ging/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/de/tags/grundlagen-des-i-ging/</guid>
+      <guid>http://localhost:1313/de/tags/grundlagen-des-i-ging/</guid>
       <description></description>
       
     </item>

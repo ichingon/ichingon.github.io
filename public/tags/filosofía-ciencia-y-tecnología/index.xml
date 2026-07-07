@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Filosofía, Ciencia Y Tecnología on El I Chingón</title>
-    <link>https://elichingon.com/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/</link>
+    <link>http://localhost:1313/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/</link>
     <description>Recent content in Filosofía, Ciencia Y Tecnología on El I Chingón</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/filosof%C3%ADa-ciencia-y-tecnolog%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>El I Ching y el universo que se computa a sí mismo</title>
-      <link>https://elichingon.com/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/</link>
+      <link>http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/</guid>
+      <guid>http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/</guid>
       <description>Desde la antigüedad hasta los colisionadores de partículas y la inteligencia artificial, la pregunta más fundamental persiste: ¿Qué es el universo? En este artículo, proponemos una síntesis audaz: el universo no está hecho de materia sólida, sino de información. El I Ching, con su sistema binario de Yin y Yang, se anticipó a esta idea hace. Hoy, la física cuántica nos muestra que la realidad, a su nivel más fundamental, se comporta como un &amp;ldquo;software en ejecución&amp;rdquo;. Pero si el universo es código, ¿dónde encaja la conciencia? ¿Somos meros espectadores o somos el universo procesándose a sí mismo? Exploramos esta paradoja a través de la lente de la filosofía oriental (Tao Te Ching, Budismo) y los desafíos planteados por la ciencia moderna, como el &amp;ldquo;Problema Difícil de la Conciencia&amp;rdquo; de David Chalmers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
     </item>
     
     <item>
       <title>El azar, la ciencia y el I Ching: una convergencia en la comprensión del orden y la incertidumbre</title>
-      <link>https://elichingon.com/articulos/azar-ciencia-i-ching/</link>
+      <link>http://localhost:1313/articulos/azar-ciencia-i-ching/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/articulos/azar-ciencia-i-ching/</guid>
+      <guid>http://localhost:1313/articulos/azar-ciencia-i-ching/</guid>
       <description>¿Es el azar una herramienta de conocimiento? Este artículo conecta el I Ching con la mecánica cuántica, la teoría del caos, los teoremas de Gödel y el bootstrapping para mostrar cómo el azar, lejos de ser un obstáculo, más bién filtra nuestra subjetividad y nos permite acceder a órdenes más profundos.</description>
       
     </item>

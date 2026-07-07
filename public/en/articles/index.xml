@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on I Chingon</title>
-    <link>https://elichingon.com/en/articles/</link>
+    <link>http://localhost:1313/en/articles/</link>
     <description>Recent content in Articles on I Chingon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/en/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/articles/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>What do the I Ching and the Japanese creation myth have in common?</title>
-      <link>https://elichingon.com/en/articles/i-ching-and-kojiki/</link>
+      <link>http://localhost:1313/en/articles/i-ching-and-kojiki/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/i-ching-and-kojiki/</guid>
+      <guid>http://localhost:1313/en/articles/i-ching-and-kojiki/</guid>
       <description>The connection between Hexagram 1 of the I Ching and the creation myth of the Kojiki is structural and linguistic. The creators of the Japanese myth did not copy the story, but they did adopt the philosophical language and cosmogonic model of the I Ching to narrate their own origins.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-y-kojiki/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-y-kojiki/featured.jpg" />
     </item>
     
     <item>
       <title>The I Ching and the Universe that Computes Itself</title>
-      <link>https://elichingon.com/en/articles/i-ching-and-the-self-computing-universe/</link>
+      <link>http://localhost:1313/en/articles/i-ching-and-the-self-computing-universe/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/i-ching-and-the-self-computing-universe/</guid>
+      <guid>http://localhost:1313/en/articles/i-ching-and-the-self-computing-universe/</guid>
       <description>From antiquity to particle colliders and artificial intelligence, the most fundamental question persists: What is the universe? In this article, we propose a bold synthesis: the universe is not made of solid matter, but of information. The I Ching, with its binary system of Yin and Yang, anticipated this idea long ago. Today, quantum physics shows us that reality, at its most fundamental level, behaves like &amp;lsquo;running software&amp;rsquo;. But if the universe is code, where does consciousness fit in? Are we mere spectators, or are we the universe processing itself? We explore this paradox through the lens of Eastern philosophy (Tao Te Ching, Buddhism) and the challenges posed by modern science, such as David Chalmers&amp;rsquo; &amp;lsquo;Hard Problem of Consciousness&amp;rsquo;.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
     </item>
     
     <item>
       <title>The Symbolism of Holy Week Through the Lens of the I Ching</title>
-      <link>https://elichingon.com/en/articles/symbolism-of-holy-week-according-to-i-ching/</link>
+      <link>http://localhost:1313/en/articles/symbolism-of-holy-week-according-to-i-ching/</link>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/symbolism-of-holy-week-according-to-i-ching/</guid>
+      <guid>http://localhost:1313/en/articles/symbolism-of-holy-week-according-to-i-ching/</guid>
       <description>We explore how the I Ching encodes the mystery of Christ&amp;rsquo;s death and resurrection in hexagrams 23 (Disintegration), 2 (The Earth), and 24 (The Return), revealing Holy Saturday as a timeless state and the heart of both processes.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/semana-santa-y-el-i-ching/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/semana-santa-y-el-i-ching/featured.jpg" />
     </item>
     
     <item>
       <title>Is the I Ching the First Meme in History? 🤯</title>
-      <link>https://elichingon.com/en/articles/is-the-i-ching-the-first-meme-in-history/</link>
+      <link>http://localhost:1313/en/articles/is-the-i-ching-the-first-meme-in-history/</link>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/is-the-i-ching-the-first-meme-in-history/</guid>
+      <guid>http://localhost:1313/en/articles/is-the-i-ching-the-first-meme-in-history/</guid>
       <description>The I Ching is not just an ancient oracle, but the ancestor of all modern memes. This article explores how the 64 hexagrams align with Richard Dawkins&amp;rsquo; theory and behave just like the &amp;lsquo;distracted boyfriend&amp;rsquo; or any internet viral. An original take bridging ancient philosophy and 21st‑century digital culture.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/i-ching-primer-meme-de-la-historia/featured.jpg" />
     </item>
     
     <item>
       <title>How to Consult the I Ching Using the Coin Toss Method</title>
-      <link>https://elichingon.com/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</link>
+      <link>http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</guid>
+      <guid>http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</guid>
       <description>A practical guide to consulting the I Ching by tossing three coins. It explains the numerical value of each throw, how the 6 hexagram lines are built, the difference between fixed and moving lines, and how to identify the resulting and derived hexagrams.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
     </item>
     
     <item>
       <title>The ABC of the I Ching</title>
-      <link>https://elichingon.com/en/articles/the-abc-of-the-i-ching/</link>
+      <link>http://localhost:1313/en/articles/the-abc-of-the-i-ching/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/the-abc-of-the-i-ching/</guid>
+      <guid>http://localhost:1313/en/articles/the-abc-of-the-i-ching/</guid>
       <description>The I Ching is more than an oracle: it&amp;rsquo;s a universal language based on Yin and Yang. This article guides you through its binary alphabet, the 8 trigrams, and the 64 hexagrams, explaining how its words and sentences are structured.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el-abc-del-i-ching/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-abc-del-i-ching/featured.jpg" />
     </item>
     
     <item>
       <title>Chance, Science, and the I Ching: A Convergence in Understanding Order and Uncertainty</title>
-      <link>https://elichingon.com/en/articles/chance-science-i-ching/</link>
+      <link>http://localhost:1313/en/articles/chance-science-i-ching/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/chance-science-i-ching/</guid>
+      <guid>http://localhost:1313/en/articles/chance-science-i-ching/</guid>
       <description>Is chance a tool for knowledge? This article connects the I Ching with quantum mechanics, chaos theory, Gödel&amp;rsquo;s theorems and bootstrapping to show how chance, far from being an obstacle, rather filters our subjectivity and allows us to access deeper orders.</description>
       
     </item>
