@@ -21,6 +21,8 @@ translationKey: "hex03"
 
 Der Name des Zeichens, Dschun, stellt eigentlich ein Gras dar das bei seinem Hervorsprießen aus der Erde auf ein Hindernis stößt. Daraus ergibt sich die Bedeutung der Anfangsschwierigkeit. Das Zeichen deutet, wie Himmel und Erde die Einzelwesen hervorbringen. Es ist ihre erste Begegnung, die mit Schwierigkeiten verbunden ist. Das untere Zeichen, Dschen, ist das Erregende; seine Bewegung geht nach oben; zum Bild hat es den Donner. Das obere Zeichen, Kan, ist das Abgründige, Gefährliche; seine Bewegung geht nach unten; zum Bild hat es den Regen. Die Lage deutet also auf dichte, chaotische Fülle. Donner und Regen erfüllen die Luft. Aber das Chaos lichtet sich. Die Bewegung, die nach oben gerichtet ist, während das Abgründige sich senkt, kommt schließlich aus der Gefahr hinaus. Im Gewitter entladen sich die gespannten Kräfte, und alles atmet erleichtert auf.
 
+{{< youtube-short "-s9IyFgccsM" "Blick auf Hexagramm 3" >}}
+
 ---
 
 ## Das Urteil

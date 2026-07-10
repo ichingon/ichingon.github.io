@@ -102,7 +102,7 @@ enableRobotsTXT = true
     # 5. External Link
     [[languages.es.menu.main]]
       name = "YouTube"
-      url = "https://www.youtube.com/@ElIChingon"
+      url = "https://www.youtube.com/@ElIChingon?sub_confirmation=1"
       pre = "youtube"
       weight = 3
       params = { class = "nav-btn-youtube" }
@@ -185,7 +185,7 @@ enableRobotsTXT = true
     # 5. External Link
     [[languages.en.menu.main]]
       name = "YouTube"
-      url = "https://www.youtube.com/@ElIChingon"
+      url = "https://www.youtube.com/@ElIChingon?sub_confirmation=1"
       pre = "youtube"
       weight = 3
       params = { class = "nav-btn-youtube" }
@@ -268,7 +268,7 @@ enableRobotsTXT = true
     # 5. External Link
     [[languages.de.menu.main]]
       name = "YouTube"
-      url = "https://www.youtube.com/@ElIChingon"
+      url = "https://www.youtube.com/@ElIChingon?sub_confirmation=1"
       pre = "youtube"
       weight = 3
       params = { class = "nav-btn-youtube" }

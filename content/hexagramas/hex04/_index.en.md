@@ -23,6 +23,8 @@ This hexagram points to youth and folly in two distinct ways. The upper trigram,
 
 However, both trigrams also contain the exact pathway to overcoming this initial ignorance. Water is an element that flows onward by inherent necessity. When a spring gushes forth, it does not know where it will ultimately go. Yet, through its steady, persistent flow, it completely fills up every deep hollow that blocks its progress, and success is achieved.
 
+{{< youtube-short "qvxwW0RvoNw" "Snapshot of hexagram 4" >}}
+
 ---
 
 ## The Judgment

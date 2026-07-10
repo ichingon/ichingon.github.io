@@ -21,9 +21,13 @@ translationKey: "hex04"
 * **Arriba:** Gèn (El Reposo, la Montaña)
 * **Abajo:** Kǎn (Lo Abismal, el Agua)
 
----
+De doble manera se sugiere el pensamiento de la juventud y la necedad en este signo. El signo superior, Gen, tiene como imagen una montaña; el inferior, Kan, tiene como imagen el agua. El manantial que brota al pie de la montaña es la imagen de la juventud inexperta. El permanecer quieto ante un abismo peligroso es también un símbolo de la perplejidad propia de la necedad juvenil.
 
-De doble manera se sugiere el pensamiento de la juventud y la necedad en este signo. El signo superior, Gen, tiene como imagen una montaña; el inferior, Kan, tiene como imagen el agua. El manantial que brota al pie de la montaña es la imagen de la juventud inexperta. El permanecer quieto ante un abismo peligroso es también un símbolo de la perplejidad propia de la necedad juvenil. Pero en los dos signos se halla también el camino para superar las necedades juveniles: el agua es algo que fluye más allá por necesidad. Cuando el manantial brota, al principio no sabe hacia dónde ir. Pero con su fluir constante va llenando la hondonada que le impide el avance, y entonces el éxito está ahí.
+Pero en los dos signos se halla también el camino para superar las necedades juveniles: el agua es algo que fluye más allá por necesidad. Cuando el manantial brota, al principio no sabe hacia dónde ir. Pero con su fluir constante va llenando la hondonada que le impide el avance, y entonces el éxito está ahí.
+
+{{< youtube-short "qvxwW0RvoNw" "Instantánea del hexagrama 4" >}}
+
+---
 
 ## El Dictamen
 

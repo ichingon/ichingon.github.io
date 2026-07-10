@@ -21,6 +21,8 @@ translationKey: "hex03"
 
 The name of the hexagram, Zhūn, originally represents a blade of grass pushing up against an obstacle as it sprouts from the earth. From this arises the meaning of difficulty at the beginning. The hexagram indicates how heaven and earth bring forth individual beings. It is their first encounter, which is inherently accompanied by difficulties. The lower trigram, Zhèn, is the Arousing; its movement is directed upward, and its image is thunder. The upper trigram, Kǎn, is the Abysmal, the dangerous; its movement is directed downward, and its image is rain. The situation therefore points to a dense, chaotic abundance. Thunder and rain fill the air. However, the chaos eventually clears. The upward movement, even as the abysmal element descends, finally breaks free from danger. The built-up tensions release during the thunderstorm, and everything breathes a sigh of relief.
 
+{{< youtube-short "-s9IyFgccsM" "Snapshot of hexagram 3" >}}
+
 ---
 
 ## The Judgment

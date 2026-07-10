@@ -21,9 +21,11 @@ translationKey: "hex03"
 * **Arriba:** Kǎn (Lo Abismal, el Agua)
 * **Abajo:** Zhèn (Lo Excitante, el Trueno)
 
----
-
 El nombre del signo, Chun, representa propiamente una brizna de hierba que al brotar de la tierra tropieza con un obstáculo. De ahí surge el significado de la dificultad inicial. El signo indica cómo el Cielo y la Tierra engendran a los seres individuales. Es su primer encuentro, el cual está ligado a dificultades. El signo inferior, Chen, es **Lo excitante**; su movimiento va hacia arriba; tiene por imagen el trueno. El signo superior, Kan, es lo Abismal, lo Peligroso; su movimiento va hacia abajo; tiene por imagen la lluvia. La situación indica, por lo tanto, una plétora densa y caótica. Trueno y lluvia llenan el aire. Pero el caos se aclara. El movimiento que está dirigido hacia arriba, mientras lo abismal se hunde, sale finalmente del peligro. En la tormenta se descargan las fuerzas tensas, y todo respira aliviado.
+
+{{< youtube-short "-s9IyFgccsM" "Instantánea del hexagrama 3" >}}
+
+---
 
 ## El Dictamen
 

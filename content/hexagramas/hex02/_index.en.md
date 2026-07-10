@@ -23,6 +23,8 @@ This hexagram consists entirely of yielded (divided) lines. The divided line rep
 
 However, this does not imply a true dualism, because a clear hierarchy exists between the two hexagrams. In itself, The Receptive is just as important as The Creative. Yet, its inherent quality of devotion defines its position relative to The Creative. It must act under the guidance and inspiration of The Creative to bring about beneficial results. It becomes harmful only if it abandons this position and tries to stand as an equal partner alongside The Creative. This leads to opposition and conflict, which proves disastrous for both sides.
 
+{{< youtube-short "m9YMoOc5-Xk" "Snapshot of hexagram 2" >}}
+
 ---
 
 ## The Judgment

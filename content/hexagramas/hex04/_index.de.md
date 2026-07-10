@@ -21,6 +21,8 @@ translationKey: "hex04"
 
 Auf doppelte Weise ist das Gedenken der Jugend und Torheit in diesem Zeichen nahegelegt. Das obere Zeichen, Gen, hat als Bild einen Berg, das unter, Kan hat als Bild das Wasser. Die Quelle, die unten am Berg hervorkommt, ist das Bild der unerfahrenen Jugend. Die Eigenschaft des oberen Zeichens ist das Stillehalten, die des unteren der Abgrund, die Gefahr. Das Stillehalten vor einem gefährlichen Abgrund ist ebenfalls ein Symbol der ratlosen Torheit der Jugend. In den beiden Zeichen liegt aber auch der Weg, wie die Jugendtorheiten überwunden werden können: Das Wasser ist etwas, das mit Notwendigkeit weiterfließt, Wenn die Quelle hervorbricht, so weiß sie zunächst freilich nicht , wohin. Aber sie füllt durch ihr stetiges Fließen die tiefe Stelle, die sie am Fortschritt hindert, aus und dann ist der Erfolg da.
 
+{{< youtube-short "qvxwW0RvoNw" "Blick auf Hexagramm 4" >}}
+
 ---
 
 ## Das Urteil
