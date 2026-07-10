@@ -21,6 +21,8 @@ translationKey: "hex05"
 
 All beings require nourishment from above. However, the dispensing of food has its own proper time, which must be awaited. The hexagram depicts clouds rising into the sky, preparing to shed the rain that refreshes all living things and provides humanity with food and drink. This rain will come in due time. It cannot be forced; one must wait for it. The concept of waiting is further illustrated by the attributes of the two primal trigrams: inner strength faced with danger ahead. Strength in the face of danger does not act precipitously but knows how to wait, whereas weakness in the face of danger grows agitated, lacking the patience to endure the delay.
 
+{{< youtube-short "nVkB_gOa4XU" "Snapshot of hexagram 5" >}}
+
 ---
 
 ## The Judgment

@@ -21,9 +21,12 @@ translationKey: "hex05"
 * **Arriba:** Kǎn (Lo Abismal, el Agua)  
 * **Abajo:** Qián (Lo Creativo, el Cielo)
 
----
 
 Todos los seres necesitan el sustento desde arriba. Pero el dispensar del alimento tiene su tiempo, el cual se debe esperar. El Hexagrama muestra las nubes en el cielo que brindan la lluvia, la cual alegra a toda la vegetación y provee al hombre de comida y bebida. Esta lluvia vendrá a su debido tiempo. No se la puede forzar, sino que se debe esperar por ella. La idea de la espera es sugerida además por las cualidades de los dos signos primordiales: adentro fuerza, delante peligro. La fuerza ante el peligro no se precipita, sino que sabe esperar, mientras que la debilidad ante el peligro se agita y carece de la paciencia para aguardar.
+
+{{< youtube-short "nVkB_gOa4XU" "Instantánea del hexagrama 5" >}}
+
+---
 
 ## El Dictamen
 

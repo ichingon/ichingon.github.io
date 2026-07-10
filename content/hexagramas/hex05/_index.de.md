@@ -21,6 +21,7 @@ translationKey: "hex05"
 
 Alle Wesen bedürfen der Nahrung von oben. Aber das Spenden der Speise hat seine Zeit, die man erwarten muß. Das Zeichen zeigt die Wolken am Himmel, die Regen spenden, der alles Gewächs erfreut und den Menschen mit Speise und Trank versieht. Dieser Regen wird kommen zu seiner Zeit. Man kann ihn nicht erzwingen, sondern muß darauf warten. Der Gedanke des Wartens wird außerdem nahegelegt durch die Eigenschaften der beiden Urzeichen: innen Stärke, davor Gefahr. Stärke vor Gefahr überstürzt sich nicht, sondern kann warten, während Schwäche vor Gefahr in Aufregung gerät und nicht die Geduld zum Warten hat.
 
+{{< youtube-short "nVkB_gOa4XU" "Blick auf Hexagramm 5" >}}
 
 ---
 
