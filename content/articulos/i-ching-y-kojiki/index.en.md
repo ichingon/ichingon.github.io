@@ -28,7 +28,7 @@ Academic studies indicate that the construction of the Japanese creation myth, e
 
 In this Youtube Short
 
-{{< youtube-short "4g-BbXifCb4" "Hexagram 1 乾 - Qián / The Creative" >}}
+{{< youtube-short "2NLcuHtm3qU" "Hexagram 1 乾 - Qián / The Creative" >}}
 
 I have tried to capture the symbolic essence of Hexagram 1 and its relationship with the Japanese creation myth in the Kojiki. The image is inspired by a painting showing the Japanese deities Izanagi and Izanami, parents of Amaterasu, creating the Japanese archipelago.
 

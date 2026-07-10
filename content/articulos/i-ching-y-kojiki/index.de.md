@@ -28,7 +28,7 @@ Wissenschaftliche Studien zeigen, dass die Konstruktion des japanischen Schöpfu
 
 In diesem Youtube Short
 
-{{< youtube-short "4g-BbXifCb4" "Hexagramm 1 乾 - Qián / Das Schöpferische" >}}
+{{< youtube-short "2NLcuHtm3qU" "Hexagramm 1 乾 - Qián / Das Schöpferische" >}}
 
 habe ich versucht, das symbolische Wesen des Hexagramms 1 und seine Beziehung zum japanischen Schöpfungsmythos im Kojiki einzufangen. Das Bild ist von einem Gemälde inspiriert, das die japanischen Gottheiten Izanagi und Izanami, die Eltern von Amaterasu, bei der Erschaffung des japanischen Archipels zeigt.
 

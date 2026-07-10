@@ -28,7 +28,7 @@ Estudios académicos nos indican que la construcción del mito de la creación j
 
 En este Youtube Short 
 
-{{< youtube-short "4g-BbXifCb4" "Hexagrama 1 乾 - Qián / Lo Creativo" >}}
+{{< youtube-short "2NLcuHtm3qU" "Hexagrama 1 乾 - Qián / Lo Creativo" >}}
 
 he intentado plasmar la esencia símbolica del Hexagrama 1 y su relación con el mito de la creación japonesa en el Kojiki. La imagen está inspirada en una pintura que muestra a las deidades japonesas Izanagi e Izanami, padres de Amaterasu, creando el archipielago japonés. 
 
