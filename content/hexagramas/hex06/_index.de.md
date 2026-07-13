@@ -25,6 +25,7 @@ Die Eigenschaft des Schöpferischen ist die Stärke, die des Abgründigen die Ge
 
 Eine dritte Ableitung legt sich innerhalb des Charakters durch Verbindung von abgründiger Hinterlist im Innern und starker Entschlossenheit im Äußern nahe. Ein derartiger Charakter wird sicher streitsüchtig sein.
 
+{{< youtube-short "pp17yEWx0UE" "Blick auf Hexagramm 6" >}}
 
 ---
 

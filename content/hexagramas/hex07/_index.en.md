@@ -16,12 +16,14 @@ translationKey: "hex07"
 </p>
 
 ### Trigrams
-* Upper Kūn, The Receptive, Earth
-* Lower Kǎn, The Abysmal, Water
+* Above: Kūn, The Receptive, Earth
+* Below: Lower Kǎn, The Abysmal, Water
 
 This hexagram consists of the trigrams Kǎn (Water) below and Kūn (Earth) above. It symbolizes groundwater accumulating within the earth. In the same way, military power gathers within the masses of the people: invisible during peacetime, yet always available as a source of power. The attributes of these trigrams are danger within and obedience without. This points to the essence of an army, which is inherently dangerous, while discipline and obedience must prevail externally.
 
 Looking at the individual lines, the ruler of the hexagram is the strong nine in the second place, to which the other yielding lines subordinate themselves. This line signifies the commander because it occupies the center of the lower trigram. However, because it rests in the lower rather than the upper trigram, it does not represent the ruler, but rather the capable general who maintains obedience within the army through his authority.
+
+{{< youtube-short "YDFyxFrrRNI" "Snapshot of hexagram 7" >}}
 
 ---
 

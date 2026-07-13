@@ -23,6 +23,7 @@ Das Zeichen setzt sich zusammen aus dem Urzeichen Kan, das Wasser, und Kun, die 
 
 Auf die einzelnen Linien hin betrachtet, ist der Herr des Zeichens die starke Neun auf zweitem Platz der die anderen weichen Linien sich unterordnen. Diese Linie bezeichnet den Gebieter, da sie im Zentrum eines der beiden Urzeichen steht. Da sie aber im unteren, nicht im oberen steht, ist sie nicht das Bild des Herrschers, sondern des tüchtigen Generals, der das Heer in Gehorsam hält durch seine Autorität.
 
+{{< youtube-short "YDFyxFrrRNI" "Blick auf Hexagramm 7" >}}
 
 ---
 

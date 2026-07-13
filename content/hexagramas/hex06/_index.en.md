@@ -25,6 +25,8 @@ The attribute of the Creative is strength; that of the Abysmal is danger, crafti
 
 A third interpretation is suggested within the character by the combination of inward craftiness and outward strength and determination. Such a character will certainly be prone to conflict.
 
+{{< youtube-short "pp17yEWx0UE" "Snapshot of hexagram 6" >}}
+
 ---
 
 ## The Judgment

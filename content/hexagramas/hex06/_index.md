@@ -21,13 +21,15 @@ translationKey: "hex06"
 * **Arriba:** Qián (Lo Creativo, el Cielo)  
 * **Abajo:** Kǎn (Lo Abismal, el Agua)
 
----
-
 El trigrama superior, cuya imagen es el cielo, tiene una dirección de movimiento hacia arriba; el trigrama inferior, "Agua", está dirigido por su naturaleza hacia abajo. Las direcciones de movimiento de ambas mitades se apartan entre sí, lo cual da por resultado la idea del pleito.
 
 La cualidad de Lo Creativo es la fuerza; la de Lo Abismal es el peligro, la astucia. Donde la astucia se encuentra frente a la fuerza, hay pleito.
 
 Una tercera derivación se presenta dentro del carácter mediante la combinación de una astucia abismal en el interior y una fuerte resolución en el exterior. Un carácter de tal índole será sin duda propenso al pleito.
+
+{{< youtube-short "pp17yEWx0UE" "Instantánea del hexagrama 6" >}}
+
+---
 
 ## El Dictamen
 

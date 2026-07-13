@@ -21,9 +21,9 @@ translationKey: "hex08"
 * **Arriba:** Kǎn (Lo Abismal, el Agua)  
 * **Abajo:** Kūn (Lo Receptivo, la Tierra)
 
----
-
 El agua sobre la tierra fluye junta, como siempre le es posible, por ejemplo en el mar, donde se juntan todos los ríos. Este es un símbolo que señala la solidaridad (el mantenerse unidos) y sus leyes. El mismo pensamiento es sugerido por el hecho de que todas las líneas son blandas, excepto el trazo firme en el quinto puesto, en el lugar del soberano. Los blandos se mantienen unidos al ser influenciados por la firme voluntad en el puesto dirigente, que es su centro de unión. Pero también esta personalidad fuerte y conductora se mantiene unida con los otros, a través de los cuales encuentra un complemento para su propio ser.
+
+---
 
 ## El Dictamen
 
@@ -37,6 +37,8 @@ El agua sobre la tierra fluye junta, como siempre le es posible, por ejemplo en 
 Se trata de unirse con otros para complementarse y promoverse mutuamente mediante la cohesión. Convertirse en el centro de unión para los hombres es una tarea difícil y de gran responsabilidad. Requiere grandeza interior, consecuencia y fuerza para ello. Por lo tanto, quien pretenda congregar a otros a su alrededor debe examinarse a sí mismo para ver si está a la altura de la situación; pues quien pretenda congregar a otros sin el sello del llamado, causará más confusión que si no hubiera tenido lugar ninguna unión.
 
 Ahí donde existe un verdadero punto de congregación, los inseguros, que al principio dudan, se acercan paulatinamente por sí mismos. Los que llegan demasiado tarde sufren el daño por ello. Pues también en la solidaridad se trata del momento oportuno. Las relaciones se anudan y se consolidan según determinadas leyes internas. Las vivencias comunes las afianzan, y quien llega demasiado tarde y ya no puede participar en estas experiencias comunes fundamentales, habrá de sufrir por ello al encontrar la puerta cerrada como rezagado.[^1]
+
+---
 
 ## La Imagen
 

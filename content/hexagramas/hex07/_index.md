@@ -25,6 +25,10 @@ El signo se compone del trigrama primordial Kan, el agua, y Kun, la tierra. Con 
 
 Considerado desde las líneas individuales, el soberano del signo es el fuerte Nueve en el segundo puesto, al cual se subordinan las demás líneas blandas. Esta línea designa al comandante, ya que se encuentra en el centro de uno de los dos trigramas primordiales. Sin embargo, dado que está en el inferior y no en el superior, no es la imagen del gobernante, sino del general competente que mantiene al ejército en obediencia gracias a su autoridad.
 
+{{< youtube-short "YDFyxFrrRNI" "Instantánea del hexagrama 7" >}}
+
+---
+
 ## El Dictamen
 
 > El ejército necesita perseverancia y un hombre fuerte.
@@ -32,12 +36,16 @@ Considerado desde las líneas individuales, el soberano del signo es el fuerte N
 
 Un ejército es una masa que, para convertirse en ejército, requiere de organización. Sin una firme disciplina no se puede lograr nada. Esta disciplina, sin embargo, no puede imponerse por medios violentos, sino que se necesita un hombre fuerte al cual se vuelvan los corazones y que despierte entusiasmo. Para poder desplegarse, este necesita de la confianza absoluta de su gobernante, quien, mientras dure la guerra, debe confiarle la plena responsabilidad. Una guerra es, no obstante, siempre algo peligroso y trae consigo daño y devastación. Por lo tanto, no se debe emprender a la ligera, sino únicamente como una medicina venenosa como último recurso. El motivo justo y un objetivo de guerra claro y comprensible deben ser expuestos con claridad al pueblo por un conductor experimentado. Solo cuando existe un objetivo de guerra muy determinado por el cual el pueblo pueda comprometerse con conciencia, surge la homogeneidad y la fuerza de la convicción que conduce a la victoria. Pero el conductor debe también cuidar que, en la pasión de la guerra y en el frenesí de la victoria, no ocurra nada injusto que no halle la aprobación general. La justicia y la perseverancia son las condiciones fundamentales para que todo marche bien.
 
+---
+
 ## La Imagen
 
 > En medio de la tierra hay agua: la imagen del ejército.
 > Así el Noble, mediante la magnanimidad hacia el pueblo, acrecienta sus masas.
 
 El agua subterránea está presente de manera invisible en medio de la tierra. Del mismo modo, el poder militar de un pueblo está presente de manera invisible en sus masas. Cada campesino se convierte en soldado cuando amenaza el peligro, y regresa detrás de su arado tras la conclusión de la guerra. Quien es magnánimo con el pueblo se gana el amor del pueblo; y el pueblo que vive bajo un régimen apacible se vuelve fuerte y vigoroso. Solo un pueblo económicamente fuerte puede ser de importancia como potencia militar. Por lo tanto, se debe cultivar el poder mediante el fomento de las relaciones económicas del pueblo y un gobierno humano. Solo donde existe este lazo invisible entre el gobierno y el pueblo, de modo que el pueblo se halle amparado bajo él como el agua subterránea en la tierra, es posible conducir una guerra victoriosamente.
+
+---
 
 ## Las Líneas Individuales
 
