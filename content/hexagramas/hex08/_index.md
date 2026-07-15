@@ -23,6 +23,8 @@ translationKey: "hex08"
 
 El agua sobre la tierra fluye junta, como siempre le es posible, por ejemplo en el mar, donde se juntan todos los ríos. Este es un símbolo que señala la solidaridad (el mantenerse unidos) y sus leyes. El mismo pensamiento es sugerido por el hecho de que todas las líneas son blandas, excepto el trazo firme en el quinto puesto, en el lugar del soberano. Los blandos se mantienen unidos al ser influenciados por la firme voluntad en el puesto dirigente, que es su centro de unión. Pero también esta personalidad fuerte y conductora se mantiene unida con los otros, a través de los cuales encuentra un complemento para su propio ser.
 
+{{< youtube-short "BveITYm7_zA" "Instantánea del hexagrama 8" >}}
+
 ---
 
 ## El Dictamen

@@ -21,6 +21,8 @@ translationKey: "hex08"
 
 Water over the earth flows together wherever it can, just as all rivers naturally gather in the sea. This symbol illustrates the concept of holding together and its inherent laws. The same idea is suggested by the structure of the hexagram: all lines are yielding except for the single firm line in the fifth place, which occupies the ruler's position. The yielding lines hold together because they are guided by the strong-willed leader who serves as their center of union. Yet this powerful, leading personality also maintains a bond with the others, finding in them a vital complement to his own nature.
 
+{{< youtube-short "BveITYm7_zA" "Snapshot of hexagram 8" >}}
+
 ---
 
 ## The Judgment

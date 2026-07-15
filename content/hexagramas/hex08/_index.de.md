@@ -21,6 +21,8 @@ translationKey: "hex08"
 
 Das Wasser über der Erde fließt zusammen, wie es immer kann, z. B. im Meer, wo sich alle Flüsse sammeln. Dies ist ein Symbol, das auf das Zusammenhalten und auf seine Gesetze deutet. Derselbe Gedanke wird dadurch nahegelegt, daß alle Linien weich sind, bis auf den festen Strich an fünfter Stelle auf dem Platz des Herrschers. Die Weichen halten zusammen, indem sie von dem festen Willen an leitender Stelle beeinflußt werden, der ihr Vereinigungsmittelpunkt ist. Aber auch diese starke, leitende Persönlichkeit hält mit den andern zusammen, durch die sie eine Ergänzung zu ihrem eigenen Wesen findet.
 
+{{< youtube-short "BveITYm7_zA" "Blick auf Hexagramm 8" >}}
+
 ---
 
 ## Das Urteil
