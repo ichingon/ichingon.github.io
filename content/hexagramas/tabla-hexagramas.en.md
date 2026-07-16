@@ -30,13 +30,13 @@ This matrix allows you to quickly identify the number of any of the 64 I Ching h
 
 | Upper<br>/ Lower | ☰ <br>Heaven | ☳ <br>Thunder | ☵ <br>Water | ☶ <br>Mountain | ☷ <br>Earth | ☴ <br>Wind | ☲ <br>Fire | ☱ <br>Lake |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **☰ Heaven** | **1** | **34** | **5** | **26** | **11** | **9** | **14** | **43** |
-| **☳ Thunder** | **25** | **51** | **3** | **27** | **24** | **42** | **21** | **17** |
-| **☵ Water** | **6** | **40** | **29** | **4** | **7** | **59** | **64** | **47** |
-| **☶ Mountain** | **33** | **62** | **39** | **52** | **15** | **53** | **56** | **31** |
-| **☷ Earth** | **12** | **16** | **8** | **23** | **2** | **20** | **35** | **45** |
-| **☴ Wind** | **44** | **32** | **48** | **18** | **46** | **57** | **50** | **28** |
-| **☲ Fire** | **13** | **55** | **63** | **22** | **36** | **37** | **30** | **49** |
-| **☱ Lake** | **10** | **54** | **60** | **41** | **19** | **61** | **38** | **58** |
+| **☰ Heaven** | **[1](/en/hexagrams/hex01/)** | **[34](/en/hexagrams/hex34/)** | **[5](/en/hexagrams/hex05/)** | **[26](/en/hexagrams/hex26/)** | **[11](/en/hexagrams/hex11/)** | **[9](/en/hexagrams/hex09/)** | **[14](/en/hexagrams/hex14/)** | **[43](/en/hexagrams/hex43/)** |
+| **☳ Thunder** | **[25](/en/hexagrams/hex25/)** | **[51](/en/hexagrams/hex51/)** | **[3](/en/hexagrams/hex03/)** | **[27](/en/hexagrams/hex27/)** | **[24](/en/hexagrams/hex24/)** | **[42](/en/hexagrams/hex42/)** | **[21](/en/hexagrams/hex21/)** | **[17](/en/hexagrams/hex17/)** |
+| **☵ Water** | **[6](/en/hexagrams/hex06/)** | **[40](/en/hexagrams/hex40/)** | **[29](/en/hexagrams/hex29/)** | **[4](/en/hexagrams/hex04/)** | **[7](/en/hexagrams/hex07/)** | **[59](/en/hexagrams/hex59/)** | **[64](/en/hexagrams/hex64/)** | **[47](/en/hexagrams/hex47/)** |
+| **☶ Mountain** | **[33](/en/hexagrams/hex33/)** | **[62](/en/hexagrams/hex62/)** | **[39](/en/hexagrams/hex39/)** | **[52](/en/hexagrams/hex52/)** | **[15](/en/hexagrams/hex15/)** | **[53](/en/hexagrams/hex53/)** | **[56](/en/hexagrams/hex56/)** | **[31](/en/hexagrams/hex31/)** |
+| **☷ Earth** | **[12](/en/hexagrams/hex12/)** | **[16](/en/hexagrams/hex16/)** | **[8](/en/hexagrams/hex08/)** | **[23](/en/hexagrams/hex23/)** | **[2](/en/hexagrams/hex02/)** | **[20](/en/hexagrams/hex20/)** | **[35](/en/hexagrams/hex35/)** | **[45](/en/hexagrams/hex45/)** |
+| **☴ Wind** | **[44](/en/hexagrams/hex44/)** | **[32](/en/hexagrams/hex32/)** | **[48](/en/hexagrams/hex48/)** | **[18](/en/hexagrams/hex18/)** | **[46](/en/hexagrams/hex46/)** | **[57](/en/hexagrams/hex57/)** | **[50](/en/hexagrams/hex50/)** | **[28](/en/hexagrams/hex28/)** |
+| **☲ Fire** | **[13](/en/hexagrams/hex13/)** | **[55](/en/hexagrams/hex55/)** | **[63](/en/hexagrams/hex63/)** | **[22](/en/hexagrams/hex22/)** | **[36](/en/hexagrams/hex36/)** | **[37](/en/hexagrams/hex37/)** | **[30](/en/hexagrams/hex30/)** | **[49](/en/hexagrams/hex49/)** |
+| **☱ Lake** | **[10](/en/hexagrams/hex10/)** | **[54](/en/hexagrams/hex54/)** | **[60](/en/hexagrams/hex60/)** | **[41](/en/hexagrams/hex41/)** | **[19](/en/hexagrams/hex19/)** | **[61](/en/hexagrams/hex61/)** | **[38](/en/hexagrams/hex38/)** | **[58](/en/hexagrams/hex58/)** |
 
 </div>

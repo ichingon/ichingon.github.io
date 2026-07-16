@@ -18,12 +18,14 @@ translationKey: "hex09"
 </p>
 
 ### Trigramas
-* **Arriba:** Sun (Lo Suave, el Viento)  
+* **Arriba:** Sun (Lo Suave, el Viento)
 * **Abajo:** Kien (Lo Creativo, el Cielo)
 
----
-
 El signo significa lo pequeño, la fuerza de lo sombrío, que retiene, doma, frena. En el cuarto puesto, el puesto del ministro, hay un trazo débil que mantiene a raya a todos los demás trazos fuertes. Considerado desde la imagen, es el viento que sopla en lo alto del cielo. Frena el aliento ascendente de lo Creativo, las nubes, de modo que se condensan. Pero no es lo suficientemente fuerte para hacerlas precipitar en forma de lluvia. El signo presenta una constelación en la que, transitoriamente, lo fuerte es mantenido a raya por lo débil. Esto solo puede ocurrir mediante la suavidad, si ha de ir acompañado de éxito.
+
+{{< youtube-short "Ff7E2u3DQyU" "Instantánea del hexagrama 9" >}}
+
+---
 
 ## El Dictamen
 
@@ -32,12 +34,16 @@ El signo significa lo pequeño, la fuerza de lo sombrío, que retiene, doma, fre
 
 Esta alegoría proviene de la situación de las circunstancias en China en tiempos del rey Wen. Él provenía del oeste, pero se hallaba entonces en el este, en la corte del gran rey, el tirano Zhou Xin. El momento para actuar en grande aún no había llegado. Solo podía frenar al tirano mediante amables amonestaciones. De ahí la imagen: densas nubes se elevan, prometiendo humedad y bendición a la tierra, pero aún no cae la lluvia. La situación no es desfavorable. Se vislumbra un éxito final. Pero aún hay obstáculos en el camino. Solo se pueden hacer trabajos preparatorios. Solo mediante pequeños medios de amable persuasión se puede obrar. El tiempo de actuar en grande aún no ha llegado. Pero al menos se logra, en un ámbito limitado, ejercer una acción de freno y domesticación. Para ello es necesaria una firme determinación en el interior y una suave adaptación en el exterior, a fin de imponer la propia voluntad.
 
+---
+
 ## La Imagen
 
 > El viento sopla en lo alto del cielo: la imagen de la fuerza domesticadora de lo pequeño.
 > Así el Noble refina la forma externa de su esencia.
 
 El viento ciertamente empuja las nubes en el cielo, pero al ser mero aire sin cuerpo sólido, no produce grandes efectos duraderos. Así, en tiempos en que no es posible un gran efecto hacia afuera, al hombre solo le queda refinar su esencia en sus manifestaciones externas.
+
+---
 
 ## Las Líneas Individuales
 

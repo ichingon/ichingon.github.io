@@ -21,6 +21,8 @@ translationKey: "hex09"
 
 Das Zeichen bedeutet das Kleine, die Kraft des Schattigen, die zurückhält, zähmt, hemmt. Auf dem vierten Platz, dem Platz des Ministers, ist ein schwacher Strich, der die ganzen übrigen starken Striche im Zaume hält. Vom Bild aus betrachtet, ist es der Wind, der oben am Himmel weht. Er hemmt den aufsteigenden Atem des Schöpferischen, die Wolken, so daß sie sich verdichten. Aber er ist nicht sofort stark genug, sie zum Niederschlag zu bringen. Das Zeichen gibt eine Konstellation, da vorübergehend durch Schwaches ein Starkes im Zaum gehalten wird. Das kann nur durch Sanftheit geschehen, wenn es von Erfolg begleitet sein soll.
 
+{{< youtube-short "Ff7E2u3DQyU" "Blick auf hexagram 9" >}}
+
 ---
 
 ## Das Urteil

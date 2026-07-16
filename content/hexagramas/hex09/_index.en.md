@@ -21,6 +21,8 @@ translationKey: "hex09"
 
 The hexagram signifies the small, representing the power of the dark element that restrains, tames, or inhibits. A weak line occupies the fourth place, the position of the minister, holding all the remaining strong lines in check. Viewed as an image, it shows the wind blowing across the sky. It restrains the ascending breath of the Creative, causing the clouds to condense, though it is not yet strong enough to bring rain. The hexagram presents a configuration where the weak temporarily restrains the strong. This can only lead to success if it is achieved through gentleness.
 
+{{< youtube-short "Ff7E2u3DQyU" "Snapshot of hexagram 9" >}}
+
 ---
 
 ## The Judgment
