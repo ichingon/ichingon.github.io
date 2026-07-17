@@ -19,7 +19,9 @@ translationKey: "hex10"
 * Above Qián, the Creative, Heaven
 * Below Duì, the Joyous, Lake
 
-Treading signifies the correct way of conducting oneself. Heaven, the father, resides above, while the lake, the youngest daughter, rests below. This arrangement demonstrates the natural distinction between high and low, which forms the foundation of orderly social conduct. Treading literally means "stepping upon something." The small, Joyous element treads upon the great, Strong element. The direction of movement for both primary trigrams is upward. That the strong treads upon the weak is a natural order, which is why the Book of Changes does not explicitly mention it.[^1] The weak treading upon the strong carries no danger because it occurs in good humor and without presumption, ensuring the strong is not provoked and tolerates it with good nature.
+Treading signifies the correct way of conducting oneself. Heaven, the father, resides above, while the lake, the youngest daughter, rests below. This arrangement demonstrates the natural distinction between high and low, which forms the foundation of orderly social conduct. Treading literally means "stepping upon something." The small, Joyous element treads upon the great, Strong element. The direction of movement for both primary trigrams is upward. That the strong treads upon the weak is a natural order, which is why the Book of Changes does not explicitly mention it. The weak treading upon the strong carries no danger because it occurs in good humor and without presumption, ensuring the strong is not provoked and tolerates it with good nature.
+
+{{< youtube-short "_VZuuHK_WTo" "Snapshot of hexagram 10" >}}
 
 ---
 
@@ -82,8 +84,6 @@ This refers to the ruler of the entire hexagram. One finds oneself compelled to 
 The work is completed. If one wishes to know whether good fortune will follow, one must look back at their past conduct and its consequences. If the effects are good, good fortune is certain. No one truly knows themselves completely; it is only by looking at the consequences of one's actions and the fruits of one's labor that one can gauge what to expect.
 
 ---
-
-[^1]: In the structural logic of the I Ching, the stronger component naturally takes precedence over or stands above the weaker component. Because this aligns with the baseline order of the cosmos, it requires no special commentary.
 
 ## Reference links
 * [Hexagram look-up table](/en/hexagrams/i-ching-lookup-chart/)

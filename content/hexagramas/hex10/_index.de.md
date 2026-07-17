@@ -21,6 +21,8 @@ translationKey: "hex10"
 
 Das Auftreten bedeutet einerseits die richtige Art, sich zu benehmen. Oben ist der Himmel, der Vater, unten ist der See, die jüngste Tochter. Das zeigt den Unterschied von hoch und niedrig, wie er der Stille, dem richtigen Auftreten in der Gesellschaft zugrunde liegt. Auftreten heißt wörtlich: »treten auf etwas«. Das kleine »Heitere« tritt auf das große »Starke«. Die Bewegungsrichtung beider Urzeichen ist nach oben. Daß das Starke auf das Schwache tritt, ist etwas Selbstverständliches, das im Buch der Wandlungen nicht besonders erwähnt wird. Das Auftreten des Schwachen dem Starken gegenüber ist deshalb nicht gefährlich, weil es in Heiterkeit geschieht, ohne Anmaßung, so daß der Starke nicht gereizt wird und es sich gutmütig gefallen läßt.
 
+{{< youtube-short "_VZuuHK_WTo" "Blick auf Hexagramm 10" >}}
+
 ---
 
 ## Das Urteil
