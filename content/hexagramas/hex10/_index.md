@@ -9,13 +9,14 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: false
+translationKey: "hex10"
 ---
 
 <p align="center" style="font-size: 100px; margin: 0; padding: 0; line-height: 1;">
   &#x4DC9;
 </p>
 
-**Arriba:** Qián (Lo Creativo, el Cielo)  
+**Arriba:** Qián (Lo Creativo, el Cielo)
 **Abajo:** Duì (Lo Alegre, el Lago)
 
 El porte significa, por un lado, la manera correcta de comportarse. Arriba está el Cielo, el Padre; abajo está el Lago, la hija menor. Esto muestra la diferencia entre lo alto y lo bajo, sobre la cual descansa la costumbre, el correcto porte en la sociedad. Porte significa literalmente: «pisar sobre algo». Lo pequeño, «Lo Alegre», pisa sobre lo grande, «Lo Fuerte». La dirección del movimiento de ambos signos primordiales es hacia arriba. Que lo Fuerte pise sobre lo Débil es algo evidente, que no se menciona especialmente en el Libro de las Mutaciones. El pisar del débil frente al fuerte no es peligroso porque ocurre con alegría, sin arrogancia, de modo que el fuerte no se irrita y lo tolera benignamente.

@@ -21,6 +21,8 @@ translationKey: "hex11"
 
 The Receptive, whose movement is downward, is above; the Creative, whose movement is upward, is below. Their influences therefore meet and are in deep harmony, so that all living things bloom and prosper. This sign is associated with the first month (February-March), in which the forces of nature prepare for the arrival of a new spring.
 
+{{< youtube-short "6ld1F8F9-ac" "Snapshot of hexagram 11" >}}
+
 ---
 
 ## The Judgment

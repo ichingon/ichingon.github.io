@@ -21,6 +21,8 @@ translationKey: "hex11"
 
 Das Empfangende, dessen Bewegung sich nach unten senkt, ist oben, das Schöpferische, dessen Bewegung nach oben steigt ist unten. Ihre Einflüsse begegnen daher einander und sind in Harmonie, so daß alle Wesen blühen und gedeihen. Das Zeichen ist dem ersten Monat (Februar-März) zugeordnet, in dem die Kräfte der Natur den neuen Frühling vorbereiten.
 
+{{< youtube-short "6ld1F8F9-ac" "Blick auf Hexagramm 11" >}}
+
 ---
 
 ## Das Urteil

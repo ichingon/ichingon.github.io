@@ -21,6 +21,8 @@ translationKey: "hex12"
 
 Das Zeichen ist das gerade Gegenteil des vorigen. Der Himmel oben zieht sich immer weiter zurück, die Erde unten sinkt immer weiter in die Tiefe. Die schöpferischen Kräfte stehen außer Beziehung. Es ist die Zeit der Stockung und des Niedergangs. Das Zeichen ist dem siebenten Monat (August-September) beigeordnet, wenn das Jahr seinen Höhepunkt überschritten hat und das herbstliche Welken sich vorbereitet.
 
+{{< youtube-short "rcF8aRKY33g" "Blick auf Hexagramm 12" >}}
+
 ---
 
 ## Das Urteil

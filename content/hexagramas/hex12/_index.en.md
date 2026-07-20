@@ -21,6 +21,8 @@ translationKey: "hex12"
 
 This hexagram is the exact opposite of the preceding one. Heaven above withdraws further and further, while Earth below sinks deeper into the abyss. The creative forces are out of relation. It is a time of standstill and decline. This hexagram is linked to the seventh month (August-September), when the year has passed its peak and autumnal decay prepares its approach.
 
+{{< youtube-short "rcF8aRKY33g" "Snapshot of hexagram 12" >}}
+
 ---
 
 ## The Judgment

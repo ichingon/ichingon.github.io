@@ -21,11 +21,13 @@ translationKey: "hex11"
 * **Arriba:** Kūn (Lo Receptivo, Tierra)
 * **Abajo:** Qián (Lo Creativo, el Cielo)
 
----
-
 El signo señala una época en la naturaleza en la que el cielo está, por así decirlo, sobre la tierra. Las dos fuerzas primordiales se encuentran en una relación de intercambio armónico. Gracias a ello, todo florece y fructifica. El signo está asociado al primer mes (febrero-marzo), en el cual las fuerzas de la naturaleza preparan la nueva primavera.
 
 El trigrama superior es Kun, la tierra, lo receptivo, cuya tendencia por naturaleza es descender. El trigrama inferior es Ch'ien, el cielo, lo creativo, cuyo movimiento va hacia arriba. Puesto que lo de arriba desciende y lo de abajo asciende, las fuerzas se encuentran y se unen en perfecta armonía, dando origen a la paz. En el signo de la paz prevalece la luz, mientras que la fuerza sombría se retira. Lo pequeño se va, lo grande viene.
+
+{{< youtube-short "6ld1F8F9-ac" "Instantánea del hexagrama 11" >}}
+
+---
 
 ## El Dictamen
 
