@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>I Ching Fundamentals on I Chingon</title>
-    <link>https://elichingon.com/en/tags/i-ching-fundamentals/</link>
+    <link>http://localhost:1313/en/tags/i-ching-fundamentals/</link>
     <description>Recent content in I Ching Fundamentals on I Chingon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/en/tags/i-ching-fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/i-ching-fundamentals/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to Consult the I Ching Using the Coin Toss Method</title>
-      <link>https://elichingon.com/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</link>
+      <link>http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</guid>
+      <guid>http://localhost:1313/en/articles/how-to-consult-the-i-ching-using-the-coin-toss-method/</guid>
       <description>A practical guide to consulting the I Ching by tossing three coins. It explains the numerical value of each throw, how the 6 hexagram lines are built, the difference between fixed and moving lines, and how to identify the resulting and derived hexagrams.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-el-iching-con-las-monedas/featured.jpg" />
     </item>
     
     <item>
       <title>The ABC of the I Ching</title>
-      <link>https://elichingon.com/en/articles/the-abc-of-the-i-ching/</link>
+      <link>http://localhost:1313/en/articles/the-abc-of-the-i-ching/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://elichingon.com/en/articles/the-abc-of-the-i-ching/</guid>
+      <guid>http://localhost:1313/en/articles/the-abc-of-the-i-ching/</guid>
       <description>The I Ching is more than an oracle: it&amp;rsquo;s a universal language based on Yin and Yang. This article guides you through its binary alphabet, the 8 trigrams, and the 64 hexagrams, explaining how its words and sentences are structured.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el-abc-del-i-ching/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-abc-del-i-ching/featured.jpg" />
     </item>
     
   </channel>
