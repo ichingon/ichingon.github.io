@@ -8,7 +8,7 @@ showFooterAuthor: true
 tags: ["I Ging, Kunst, Kultur und Religion"]
 description: "Die Verbindung zwischen Peking-Oper und I Ging: Yin-Yang, Fünf Elemente, Maskensymbolik, pentatonische Musik und Philosophie."
 summary: "Analyse der Manifestation der Prinzipien des Buches der Wandlungen in der Peking-Oper: Lebensrhythmus, Farben, Rollen und Musik."
-slug: "i-ching-y-opera-pekin"
+slug: "i-ging-und-peking-oper"
 math: false
 ---
 
