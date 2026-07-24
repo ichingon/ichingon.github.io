@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philosophy, Science and Technology on I Chingon</title>
-    <link>http://localhost:1313/en/tags/philosophy-science-and-technology/</link>
+    <link>https://elichingon.com/en/tags/philosophy-science-and-technology/</link>
     <description>Recent content in Philosophy, Science and Technology on I Chingon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/philosophy-science-and-technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/en/tags/philosophy-science-and-technology/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The I Ching and the Universe that Computes Itself</title>
-      <link>http://localhost:1313/en/articles/i-ching-and-the-self-computing-universe/</link>
+      <link>https://elichingon.com/en/articles/i-ching-and-the-self-computing-universe/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/articles/i-ching-and-the-self-computing-universe/</guid>
+      <guid>https://elichingon.com/en/articles/i-ching-and-the-self-computing-universe/</guid>
       <description>From antiquity to particle colliders and artificial intelligence, the most fundamental question persists: What is the universe? In this article, we propose a bold synthesis: the universe is not made of solid matter, but of information. The I Ching, with its binary system of Yin and Yang, anticipated this idea long ago. Today, quantum physics shows us that reality, at its most fundamental level, behaves like &amp;lsquo;running software&amp;rsquo;. But if the universe is code, where does consciousness fit in? Are we mere spectators, or are we the universe processing itself? We explore this paradox through the lens of Eastern philosophy (Tao Te Ching, Buddhism) and the challenges posed by modern science, such as David Chalmers&amp;rsquo; &amp;lsquo;Hard Problem of Consciousness&amp;rsquo;.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el_i_ching_y_el_universo_que_se_computa_a_si_mismo/featured.jpg" />
     </item>
     
     <item>
       <title>Chance, Science, and the I Ching: A Convergence in Understanding Order and Uncertainty</title>
-      <link>http://localhost:1313/en/articles/chance-science-i-ching/</link>
+      <link>https://elichingon.com/en/articles/chance-science-i-ching/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/articles/chance-science-i-ching/</guid>
+      <guid>https://elichingon.com/en/articles/chance-science-i-ching/</guid>
       <description>Is chance a tool for knowledge? This article connects the I Ching with quantum mechanics, chaos theory, Gödel&amp;rsquo;s theorems and bootstrapping to show how chance, far from being an obstacle, rather filters our subjectivity and allows us to access deeper orders.</description>
       
     </item>
