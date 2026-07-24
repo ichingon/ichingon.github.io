@@ -525,29 +525,29 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/articulos/i-ching-y-kojiki/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/articulos/i-ching-y-opera-pekin/</loc>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/articles/i-ching-and-kojiki/"
+      href="http://localhost:1313/en/articles/i-ching-and-peking-opera/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/artikel/i-ging-und-kojiki/"
+      href="http://localhost:1313/de/artikel/i-ching-y-opera-pekin/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/articulos/i-ching-y-kojiki/"
+      href="http://localhost:1313/articulos/i-ching-y-opera-pekin/"
     />
   </url>
   <url>
     <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -568,7 +568,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -585,6 +585,27 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:1313/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/articulos/i-ching-y-kojiki/</loc>
+    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/i-ching-and-kojiki/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/i-ging-und-kojiki/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/i-ching-y-kojiki/"
     />
   </url>
   <url>
