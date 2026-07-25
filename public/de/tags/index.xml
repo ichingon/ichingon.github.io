@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>I Ging, Kunst, Kultur Und Religion</title>
       <link>http://localhost:1313/de/tags/i-ging-kunst-kultur-und-religion/</link>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/de/tags/i-ging-kunst-kultur-und-religion/</guid>
       <description></description>
@@ -35,6 +35,16 @@
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/de/tags/grundlagen-des-i-ging/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>I Ching, Kunst, Kultur Und Religion</title>
+      <link>http://localhost:1313/de/tags/i-ching-kunst-kultur-und-religion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/tags/i-ching-kunst-kultur-und-religion/</guid>
       <description></description>
       
     </item>

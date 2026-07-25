@@ -1,0 +1,12 @@
+{{/* layouts/shortcodes/audio.html */}}
+<div class="custom-audio-player" style="margin: 2rem 0; padding: 1rem; border: 1px solid var(--border-color, #e0e0e0); border-radius: 8px; background-color: var(--bg-secondary, #f9f9f9);">
+  {{ if .Get "title" }}
+    <p style="margin-top: 0; margin-bottom: 0.5rem; font-weight: bold; font-size: 0.95rem;">
+      🎵 {{ .Get "title" }}
+    </p>
+  {{ end }}
+  <audio controls loop preload="metadata" style="width: 100%;">
+    <source src="{{ .Get "src" }}" type="audio/mpeg">
+    Your browser does not support this audio element.
+  </audio>
+</div>

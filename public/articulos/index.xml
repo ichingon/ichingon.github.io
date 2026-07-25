@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>El puente numérico: la arquitectura musical de Bach y el I Ching</title>
+      <link>http://localhost:1313/articulos/bach-y-el-iching/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/bach-y-el-iching/</guid>
+      <description>Una exploración de cómo las firmas numéricas de Bach reflejan el I Ching, revelando un camino desde la estructura disciplinada hasta la acción sin esfuerzo del Wu Wei.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/bach-y-el-iching/featured.jpg" />
+    </item>
     
     <item>
       <title>¿Esta la Ópera de Pekín ligada al I Ching?</title>

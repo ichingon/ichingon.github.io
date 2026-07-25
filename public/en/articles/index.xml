@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Numerical Bridge: Bach’s Musical Architecture and the I Ching</title>
+      <link>http://localhost:1313/en/articles/bach-and-i-ching/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/articles/bach-and-i-ching/</guid>
+      <description>An exploration of how Bach’s numerical signatures mirror the I Ching, revealing a path from disciplined structure to the effortless action of Wu Wei.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/bach-y-el-iching/featured.jpg" />
+    </item>
     
     <item>
       <title>Is there a Connection Between the Peking Opera and the I Ching?</title>
