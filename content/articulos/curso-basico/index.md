@@ -236,20 +236,20 @@ Analizaremos cómo el retiro voluntario del ego nos lleva a la cima de la monta�
     
     <details><summary><strong>🔽 Haz clic aquí para ver la respuesta correcta</strong></summary><strong>Respuesta correcta: C</strong><br /><br />Al igual que el I Ching, la base está ahí, pero la sabiduría profunda solo se revela a quienes adoptan la actitud de quietud. Si tu mente sigue atrapada en preocupaciones egoístas, no encontrarás siquiera la base de la montaña.</details>
 
-2. **La línea mutante 4 de El Retiro dice: "el retiro voluntario trae buena fortuna". Al consultar el oráculo, ¿qué acción práctica representa esta línea?**
+2. **La línea mutante 4 de El Retiro dice: "el retiro voluntario trae buena fortuna". ¿Al consultar el oráculo, ¿qué acción práctica representa esta línea?**
     
     *  A) Terminar la consulta rápidamente si la respuesta parece negativa.
-    *  B) Soltar la pregunta al oráculo, desapegándonos de la necesidad de una respuesta específica.
+    *  B) Despegarnos de la necesidad de una respuesta específica.
     *  C) Retirarnos a vivir a las montañas para estudiar filosofía.
     *  D) Abandonar nuestros proyectos si enfrentamos el primer obstáculo.
 
-    <details><summary><strong>🔽 Haz clic aquí para ver la respuesta correcta</strong></summary><strong>Respuesta correcta: B</strong><br /><br />Es el primer paso en tu ascenso interior. Significa elegir conscientemente soltar el control, entregando la pregunta sin aferrarte al resultado que tu ego desea escuchar.</details>
+    <details><summary><strong>🔽 Haz clic aquí para ver la respuesta correcta</strong></summary><strong>Respuesta correcta: B</strong><br /><br />Es el primer paso en tu ascenso interior. Significa elegir conscientemente soltar el control, entregando la pregunta al oráculo sin aferrarte al resultado que tu ego desea escuchar.</details>
 
 3. **El hexagrama futuro resultante de este retiro es el 15, La Modestia. En el contexto de recibir la sabiduría del I Ching, ¿qué es verdaderamente la modestia?**
     
     *  A) Creer ciegamente que somos inferiores y no merecemos la felicidad.
     *  B) Adoptar una postura de eterno pesimismo ante los problemas.
     *  C) No contarle a nadie que estamos usando el I Ching.
-    *  D) La ecuanimidad de equilibrar la mente y fluir con la verdad, sin luchar contra ella.
+    *  D) La ecuanimidad, equilibrio mental y fluir con la verdad, sin luchar contra ella.
     
     <details><summary><strong>🔽 Haz clic aquí para ver la respuesta correcta</strong></summary><strong>Respuesta correcta: D</strong><br /><br />La modestia no es falsa humildad. Es equanimidad y equilibrio. Es vaciar la mente de miedos y arrogancia para poder fluir con el oráculo y aceptar la verdad, incluso si no coincide con tus deseos iniciales.</details>
