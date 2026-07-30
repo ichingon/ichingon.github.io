@@ -36,7 +36,7 @@
       
       <guid>http://localhost:1313/articulos/curso-basico/</guid>
       <description>¿Quieres aprender qué es el I Ching y cómo puedes utilizarlo para orientar decisiones importantes en tu vida? En este curso, que incluye material audiovisual en mi canal de Youtube, aprenderás cómo.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/curso-basico/featured.jpg" />
     </item>
     
     <item>

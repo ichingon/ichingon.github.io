@@ -25,7 +25,7 @@ El signo se compone del trigrama primordial Kan, el agua, y Kun, la tierra. Con 
 
 Considerado desde las líneas individuales, el soberano del signo es el fuerte Nueve en el segundo puesto, al cual se subordinan las demás líneas blandas. Esta línea designa al comandante, ya que se encuentra en el centro de uno de los dos trigramas primordiales. Sin embargo, dado que está en el inferior y no en el superior, no es la imagen del gobernante, sino del general competente que mantiene al ejército en obediencia gracias a su autoridad.
 
-{{< youtube-short "YDFyxFrrRNI" "Instantánea del hexagrama 7" >}}
+{{< youtube-short "9t3FD2zIwkM" "Instantánea del hexagrama 7" >}}
 
 ---
 

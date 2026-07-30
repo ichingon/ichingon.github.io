@@ -22,6 +22,8 @@ translationKey: "hex14"
 
 The fire in heaven above shines far, causing all things to come into the light and manifest themselves. The weak fifth line occupies the place of honor, and all the strong lines correspond to it. He who is humble and mild in a high position wins all things.[^1]
 
+{{< youtube-short "rrgErs-QCTw" "Snapshot of hexagram 14" >}}
+
 ---
 
 ## The Judgment

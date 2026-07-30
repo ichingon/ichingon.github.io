@@ -21,6 +21,8 @@ translationKey: "hex13"
 
 Das Bild des oberen Urzeichens, Kien, ist der Himmel, das des unteren, Li, ist die Flamme. Die Natur des Feuers ist es, emporzulodern zum Himmel. Das gibt die Idee der Gemeinschaft. Die zweite Linie ist es, die durch ihr zentrales Wesen die fünf starken um sich vereint. Das Zeichen ist das Gegenstück zu Nr. 7, das Heer. Dort: innen Gefahr, außen Gehorsam als Wesen des kriegerischen Heeres, das zu seinem Zusammenhalt des einen Starken unter den vielen Schwachen bedarf. Hier: innen Klarheit, außen Stärke, als Wesen der friedlichen Vereinigung der Menschen, die zu ihrem Zusammenhalt des einen Weichen unter den vielen Festen bedarf.
 
+{{< youtube-short "MPDztLj3udA" "Blick auf Hexagramm 13" >}}
+
 ---
 
 ## Das Urteil

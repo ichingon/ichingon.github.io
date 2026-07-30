@@ -21,6 +21,8 @@ translationKey: "hex13"
 
 The image of the upper primary trigram, Qián, is heaven; that of the lower, Lí, is flame. It is the nature of fire to flame up to heaven. This gives the idea of fellowship. It is the second line that, through its central character, unites the five strong lines around it. This hexagram is the counterpart of Hexagram 7, The Army. There, danger is within and obedience without-the essence of a warlike army, which needs one strong line among many weak ones to hold it together. Here, clarity is within and strength without-the essence of a peaceful union of mankind, which needs one yielding line among many firm ones to maintain cohesion.
 
+{{< youtube-short "MPDztLj3udA" "Snapshot of hexagram 13" >}}
+
 ---
 
 ## The Judgment

@@ -23,6 +23,10 @@ translationKey: "hex13"
 
 La imagen del trigrama superior, Qián, es el cielo; la del inferior, Li, es la llama. La naturaleza del fuego es elevarse llameando hacia el cielo. Esto da la idea de la comunidad. La segunda línea es la que, debido a su naturaleza central, une a las cinco líneas fuertes a su alrededor. El signo es la contraparte del Nº 7, El Ejército. Allí: peligro en el interior, obediencia en el exterior, como esencia del ejército guerrero, el cual para su cohesión necesita de un solo trazo fuerte entre los muchos débiles. Aquí: claridad en el interior, fuerza en el exterior, como esencia de la unión pacífica de los hombres, la cual para su cohesión necesita de un solo trazo blando entre los muchos firmes.
 
+{{< youtube-short "MPDztLj3udA" "Instantánea del hexagrama 13" >}}
+
+---
+
 ## El Dictamen
 
 > Comunidad con los hombres en lo abierto: Éxito.

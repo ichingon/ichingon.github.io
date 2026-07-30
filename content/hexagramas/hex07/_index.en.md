@@ -23,7 +23,7 @@ This hexagram consists of the trigrams Kǎn (Water) below and Kūn (Earth) above
 
 Looking at the individual lines, the ruler of the hexagram is the strong nine in the second place, to which the other yielding lines subordinate themselves. This line signifies the commander because it occupies the center of the lower trigram. However, because it rests in the lower rather than the upper trigram, it does not represent the ruler, but rather the capable general who maintains obedience within the army through his authority.
 
-{{< youtube-short "YDFyxFrrRNI" "Snapshot of hexagram 7" >}}
+{{< youtube-short "9t3FD2zIwkM" "Snapshot of hexagram 7" >}}
 
 ---
 

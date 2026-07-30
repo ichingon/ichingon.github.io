@@ -1,5 +1,5 @@
 ---
-title: "Hexagram 15 謙 - QIÁN / MODESTY"
+title: "Hexagram 15 謙 - QIĀN / MODESTY"
 weight: 17
 draft: false
 description: "Richard Wilhelm's complete translation and analysis of Hexagram 15 (QIÁN) of the I Ching with Unicode characters and Pinyin."

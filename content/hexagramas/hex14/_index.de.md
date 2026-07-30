@@ -21,6 +21,8 @@ translationKey: "hex14"
 
 Das Feuer am Himmel oben strahlt weit, so daß alle Dinge ins Licht und in die Erscheinung treten. Die schwache fünfte Linie befindet sich auf geehrtem Platz, und alle die starken Striche entsprechen ihr. Wer auf hohem Platz bescheiden und mild ist, dem fällt alles zu.[^1] .
 
+{{< youtube-short "rrgErs-QCTw" "Blick auf Hexagramm 14" >}}
+
 ---
 
 ## Das Urteil

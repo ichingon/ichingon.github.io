@@ -526,7 +526,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2026-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -546,8 +546,14 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/articulos/curso-basico/</loc>
+    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
