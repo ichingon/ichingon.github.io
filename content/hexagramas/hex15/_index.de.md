@@ -22,6 +22,8 @@ translationKey: "hex15"
 
 Das Zeichen setzt sich zusammen aus Gen das Stillehalten, der Berg, und Kun. Der Berg ist der jüngste Sohn des Schöpferischen, der Repräsentant des Himmels auf Erden. Er spendet die Segnungen des Himmels, Wolken und Regen, die sich um seinen Gipfel sammeln, nach unten und leuchtet daraufhin verklärt in himmlischem Licht. Das zeigt die Bescheidenheit und ihre Wirkung bei hohen und starken Menschen. Oben steht Kun, die Erde. Die Eigenschaft der Erde ist die Niedrigkeit, aber eben darum wird sie in diesem Zeichen als erhöht dargestellt, indem sie oben über dem Berg ist. Das zeigt die Wirkung der Bescheidenheit bei niedrigen, einfachen Menschen: sie werden dadurch erhöht.
 
+{{< youtube-short "_h1GwHVrEJ4" "Blick auf Hexagramm 15" >}}
+
 ---
 
 ## Das Urteil

@@ -23,6 +23,10 @@ translationKey: "hex16"
 
 La línea fuerte en el cuarto puesto, el puesto del funcionario director, encuentra en todas las demás líneas débiles el salir al encuentro y la obediencia. El signo superior, Dschen, tiene el movimiento como propiedad; el inferior, Kun, tiene la obediencia, la entrega. Se inicia así un movimiento que encuentra entrega y que por lo tanto actúa de manera arrolladora y entusiasmante. De gran importancia es además la ley del movimiento sobre la línea de menor resistencia, que en este signo se expresa como ley para el acontecer natural y la vida humana.
 
+{{< youtube-short "4RNEEY2yp74" "Instantánea del hexagrama 16" >}}
+
+---
+
 ## El Dictamen
 
 > El entusiasmo. Es propicio instituir ayudantes y poner ejércitos en marcha.

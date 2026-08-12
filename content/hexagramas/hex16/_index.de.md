@@ -22,6 +22,8 @@ translationKey: "hex16"
 
 Die starke Linie auf viertem Platz, dem Platz des leitenden Beamten, findet bei allen den andern schwachen Linien Entgegenkommen und Gehorsam. Das obere Urzeichen, Dschen, hat die Bewegung zur Eigenschaft, das untere, Kun, den Gehorsam, die Hingebung. Es wird also eine Bewegung begonnen, die auf Hingebung stößt und daher mitreißend, begeisternd wirkt. Von großer Bedeutung ist ferner das Gesetz von der Bewegung auf der Linie des geringsten Widerstandes, das in diesem Zeichen ausgesprochen ist als Gesetz für Naturgeschehen und Menschenleben.
 
+{{< youtube-short "4RNEEY2yp74" "Blick auf Hexagramm 16" >}}
+
 ---
 
 ## Das Urteil

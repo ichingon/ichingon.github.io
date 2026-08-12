@@ -21,9 +21,11 @@ translationKey: "hex15"
 **Arriba:** Kūn (Lo Receptivo, la Tierra)  
 **Abajo:** Gèn (El Reposo, la Montaña)
 
----
-
 El signo se compone de Gen, El Reposo, la montaña, y Kun. La montaña es el hijo menor de Lo Creativo, el representante del Cielo en la Tierra. Ella derrama las bendiciones del Cielo, nubes y lluvia, que se reúnen en torno a su cima, hacia abajo, y luego resplandece transfigurada en luz celestial. Esto muestra la modestia y su efecto en personas altas y fuertes. Arriba está Kun, la Tierra. La propiedad de la Tierra es la bajeza, pero precisamente por eso se la representa en este signo como elevada, al estar arriba, sobre la montaña. Esto muestra el efecto de la modestia en personas bajas y simples: por ella son elevadas.
+
+{{< youtube-short "_h1GwHVrEJ4" "Instantánea del hexagrama 15" >}}
+
+---
 
 ## El Dictamen
 

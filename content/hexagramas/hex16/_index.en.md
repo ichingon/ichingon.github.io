@@ -22,6 +22,8 @@ translationKey: "hex16"
 
 The strong line in the fourth place, the position of the leading official, finds cooperation and obedience from all the other weak lines. The upper primary trigram, Zhèn, has movement as its characteristic, while the lower, Kūn, represents obedience and devotion. Thus, a movement is initiated that meets with devotion, resulting in a sweeping, enthusiastic effect. Furthermore, the law of movement along the line of least resistance is of great importance, expressed in this hexagram as a law for both natural phenomena and human life.
 
+{{< youtube-short "4RNEEY2yp74" "Snapshot of Hexagram 16" >}}
+
 ---
 
 ## The Judgment

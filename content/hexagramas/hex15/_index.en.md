@@ -22,6 +22,8 @@ translationKey: "hex15"
 
 The hexagram is composed of Gèn, Keeping Still, the Mountain, and Kūn, the Receptive, Earth. The mountain is the youngest son of the Creative, the representative of heaven on earth. It dispenses the blessings of heaven, the clouds and rain that gather around its peak, downward, and then shines transfigured in heavenly light. This demonstrates modesty and its effect in high and strong people. Above stands Kūn, the Earth. The quality of the earth is lowliness, but for this very reason, it is represented as exalted in this hexagram by being placed above the mountain. This shows the effect of modesty in low, simple people: they are exalted by it.
 
+{{< youtube-short "_h1GwHVrEJ4" "Snapshot of hexagram 15" >}}
+
 ---
 
 ## The Judgment
