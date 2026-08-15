@@ -1659,4 +1659,24 @@
       href="http://localhost:1313/de/hexagramme/hex64/"
     />
   </url>
+  <url>
+    <loc>http://localhost:1313/de/iging-befragung/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/consulta-iching/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/iching-consultation/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/iging-befragung/"
+    />
+  </url>
 </urlset>

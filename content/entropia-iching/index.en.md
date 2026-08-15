@@ -1,7 +1,7 @@
 ---
 title: "Entropy Generator"
-slug: "entropy"
-translationKey: "entropia-generator"
+slug: "iching-entropy"
+translationKey: "iching-entropy-generator"
 type: "entropia"
 layout: "single"
 ---

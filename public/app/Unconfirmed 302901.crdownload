@@ -14,7 +14,6 @@
     -webkit-tap-highlight-color: transparent;
   }
 
-  /* El Vacío Cuántico */
   html, body {
     width: 100%;
     height: 100%;
@@ -46,7 +45,6 @@
     margin: 0 auto;
   }
 
-  /* Panel Superior: Fijo y Bloqueado */
   .control-panel {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -125,7 +123,6 @@
     pointer-events: none;
   }
 
-  /* Lienzo de Cuadratura del Círculo */
   .container {
     position: relative;
     width: 100%;
@@ -175,7 +172,6 @@
     touch-action: none;
   }
 
-  /* Pila del Hexagrama */
   .hexagram-stack {
     width: 100%;
     height: 200px;
@@ -231,7 +227,6 @@
 
   <div class="app-wrapper">
 
-    <!-- Panel Superior -->
     <div class="control-panel">
       <div class="progress-box" id="hexProgress">
         <span class="block" id="block-1">▓</span><span class="block" id="block-2">▓</span><span class="block" id="block-3">▓</span><span class="block" id="block-4">▓</span><span class="block" id="block-5">▓</span><span class="block" id="block-6">▓</span>
@@ -239,14 +234,12 @@
       <button class="btn-generate" id="btnGenerate" disabled autocomplete="off"></button>
     </div>
 
-    <!-- Lienzo de Entropía -->
     <div class="container" id="containerBox">
       <canvas id="entropyCanvas"></canvas>
       <div class="heaven-in-container"></div>
       <div class="earth-in-container"></div>
     </div>
 
-    <!-- Pila del Hexagrama -->
     <div class="hexagram-stack" id="hexStack">
       <div class="hex-slot" id="slot-1"></div>
       <div class="hex-slot" id="slot-2"></div>
@@ -260,7 +253,6 @@
 
 <script>
 (() => {
-  // Matriz de 6 líneas (Fila 0 = Línea 6, Fila 5 = Línea 1)
   const RAW_TABLE = [
     "1001010011011100010111101110010010101100110100000101100110101001", // L6
     "1010110111011000100100001001101010001010011110111000100011111010", // L5
@@ -270,7 +262,6 @@
     "1010100011101100101011011110010001011100111000001010011001011010"  // L1
   ];
 
-  // Construcción del diccionario binario -> King Wen ID
   const BINARY_TO_HEXAGRAM = {};
   for (let col = 0; col < 64; col++) {
     const binaryKey = [
@@ -333,21 +324,21 @@
       complete: "Hexagrama Completo",
       reveal: "Revelar",
       process: "Continuar",
-      alertDone: (res) => `Hexagrama ${res.hexagram}${res.derivedHexagram ? ` -> Mutado a ${res.derivedHexagram}` : ''} | Líneas móviles: [${res.changingLines.join(', ')}]`
+      alertDone: (res) => `Hexagrama ${res.hexagram}${res.derivedHexagram ? ` -> Mutado a ${res.derivedHexagram}` : ''} | Líneas: [${res.changingLines.join(', ')}]`
     },
     en: {
       genLine: (n) => `Line ${n}`,
       complete: "Hexagram Complete",
       reveal: "Reveal",
       process: "Continue",
-      alertDone: (res) => `Hexagram ${res.hexagram}${res.derivedHexagram ? ` -> Mutated to ${res.derivedHexagram}` : ''} | Moving lines: [${res.changingLines.join(', ')}]`
+      alertDone: (res) => `Hexagram ${res.hexagram}${res.derivedHexagram ? ` -> Mutated to ${res.derivedHexagram}` : ''} | Lines: [${res.changingLines.join(', ')}]`
     },
     de: {
       genLine: (n) => `Linie ${n}`,
       complete: "Hexagramm vollständig",
       reveal: "Aufdecken",
       process: "Weiter",
-      alertDone: (res) => `Hexagramm ${res.hexagram}${res.derivedHexagram ? ` -> Mutiert zu ${res.derivedHexagram}` : ''} | Wandlungslinien: [${res.changingLines.join(', ')}]`
+      alertDone: (res) => `Hexagramm ${res.hexagram}${res.derivedHexagram ? ` -> Wandlung zu ${res.derivedHexagram}` : ''} | Linien: [${res.changingLines.join(', ')}]`
     }
   };
 
