@@ -24,7 +24,6 @@ Las propiedades de los signos parciales son: arriba suavidad, complacencia frent
 
 El signo Fu (verdad) es propiamente la imagen de una pata de ave sobre un joven. Contiene la idea de la incubación. El huevo es hueco. La fuerza de lo luminoso debe actuar vivificante desde afuera. Pero ya debe haber un germen de vida en el interior para que la vida pueda ser despertada. A estos pensamientos se pueden vincular especulaciones de gran alcance.
 
----
 
 ## El Dictamen
 > Verdad Interior. Cerdos y peces. ¡Ventura!  
@@ -33,7 +32,6 @@ El signo Fu (verdad) es propiamente la imagen de una pata de ave sobre un joven.
 
 Los cerdos y los peces son los animales más carentes de espíritu y por lo tanto los más difíciles de influir. La fuerza de la verdad interior debe haber alcanzado un alto grado antes de que su influencia se extienda también a tales seres. Cuando uno se enfrenta a personas tan testarudas y difíciles de influir, todo el secreto del éxito consiste en encontrar el camino correcto para acceder a ellas. Uno debe primero liberarse interiormente por completo de sus prejuicios. Uno debe, por así decirlo, dejar que la psique del otro actúe sobre sí mismo sin prejuicios; entonces uno se acerca interiormente a él, lo comprende y obtiene poder sobre él, de modo que la fuerza de la propia persona gana influencia sobre el otro a través de la puerta abierta. Si así no se encuentran obstáculos insuperables, entonces se pueden emprender incluso las cosas más peligrosas —como cruzar las grandes aguas— y tendrán éxito. Solo es importante que se comprenda en qué se basa la fuerza de la verdad interior. No es idéntica a la simple intimidad o a la cohesión secreta. Tal cohesión íntima también puede darse entre ladrones. También en ese caso significa ciertamente una fuerza. Pero no conduce a la ventura, porque no es invencible. Toda unión basada en la comunidad de intereses solo llega hasta cierto punto. Donde cesa la comunidad de intereses, cesa también la cohesión, y la amistad más íntima a menudo se convierte en odio. Solo donde la base es lo recto, la constancia, la conexión permanece tan firme que todo lo supera.
 
----
 
 ## La Imagen
 > El viento sobre el lago: la imagen de la verdad interior.  
@@ -41,9 +39,8 @@ Los cerdos y los peces son los animales más carentes de espíritu y por lo tant
 
 El viento mueve el agua porque es capaz de penetrar en sus intersticios. Así el Noble, allí donde tiene que juzgar los errores de los hombres, busca penetrar comprensivamente en su interior y obtener así una valoración bondadosa de las circunstancias. Toda la antigua administración de justicia de los chinos estaba guiada por este principio. La comprensión más alta, que sabe perdonar, era considerada como la justicia más alta. Tal administración de justicia no carecía de éxito; pues la impresión moral debía ser tan fuerte que no había que temer un abuso de tal clemencia. Porque no surgía de la debilidad, sino de una claridad superior.
 
----
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Al principio un nueve significa:
 > Estar preparado trae Ventura.  
@@ -88,7 +85,6 @@ Aquí está descrito el señor que mantiene todo unido mediante la fuerza de su 
 
 El gallo es fiable. Él canta cuando llega la mañana. Pero no puede volar por sí mismo hacia el cielo. Solo cacarea. Así se pretende despertar la fe mediante meras palabras. Eso tiene éxito ocasionalmente. Pero si se practica permanentemente, es malo.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

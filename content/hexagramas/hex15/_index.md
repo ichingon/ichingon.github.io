@@ -25,7 +25,6 @@ El signo se compone de Gen, El Reposo, la montaña, y Kun. La montaña es el hij
 
 {{< youtube-short "_h1GwHVrEJ4" "Instantánea del hexagrama 15" >}}
 
----
 
 ## El Dictamen
 

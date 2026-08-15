@@ -23,7 +23,6 @@ El signo Sun es uno de los ocho signos dobles. Es la hija mayor, tiene como imag
 
 Lo Oscuro, que en sí mismo es rígido e inmóvil, es disuelto por el principio luminoso penetrante, al cual se subordina con suavidad. En la naturaleza es el viento, que dispersa las nubes acumuladas y crea una clara serenidad celeste. En la vida humana es la claridad penetrante del juicio, que aniquila todos los pensamientos ocultos. En la vida de la comunidad es la poderosa influencia de una personalidad significativa, que descubre y dispersa todas las maquinaciones que rehúyen la luz.
 
----
 
 ## El Dictamen
 
@@ -35,7 +34,6 @@ La capacidad de penetración produce efectos graduales e insignificantes. No se 
 
 Lo pequeño solo puede alcanzar algo cuando se subordina a un hombre significativo que posea la capacidad de establecer el orden.
 
----
 
 ## La Imagen
 
@@ -44,9 +42,8 @@ Lo pequeño solo puede alcanzar algo cuando se subordina a un hombre significati
 
 Lo penetrante del viento reside en su incesancia. Por ello se vuelve tan poderoso. Él toma el tiempo como medio para el efecto. Así también el pensamiento del gobernante debe penetrar en el alma del pueblo. También para ello es necesario un influjo continuo mediante el esclarecimiento. Solo cuando el mandato ha pasado al alma del pueblo, es posible una acción referente a él. Actuar sin preparación solo atemoriza y repele.
 
----
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Al principio una seis significa:
 > Al avanzar y al retroceder, es propicia la perseverancia de un guerrero.
@@ -86,7 +83,6 @@ Mientras que en la “Tarea sobre lo dañado” (nº 18) se debe crear un punto 
 
 El conocimiento es suficientemente penetrante. Se rastrea a las influencias dañinas hasta los rincones más secretos. Pero ya no se tiene fuerza para combatirlas decisivamente. En este caso, todo intento de penetrar en los ámbitos personales de la oscuridad es solo perjudicial.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

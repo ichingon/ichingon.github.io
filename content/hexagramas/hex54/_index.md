@@ -23,7 +23,6 @@ Arriba está Zhèn, el hijo mayor, abajo Duì, la hija menor. El hombre va delan
 
 **Observación:** En China rige formalmente la monogamia. Cada hombre tiene una sola esposa oficial. Esta unión, que concierne menos a los dos participantes que a las familias, se concluye bajo estricta observancia de las formas. Pero el hombre conserva el derecho de prestar también oído a las inclinaciones más delicadas de índole personal. Sí, es el más bello deber de una buena mujer ayudarle en ello. De esta manera la relación se vuelve bella y abierta. La muchacha que, por elección del hombre, entra en la familia, se somete modestamente a la dueña de casa como hermana menor. Por supuesto, se trata aquí de cuestiones muy delicadas y sutiles que requieren mucho tacto de cada parte. Pero cuando las circunstancias son favorables, aquí se encuentra la solución de un problema que la cultura europea no ha logrado. Por supuesto, la feminidad en China se corresponde tan poco con el ideal como los matrimonios en Europa están, por término medio, en armonía con los ideales matrimoniales europeos.
 
----
 
 ## El Dictamen
 
@@ -37,7 +36,6 @@ Esto se refiere a todas las relaciones libres entre los hombres. Mientras que la
 
 Esta inclinación como principio de las relaciones es de la mayor importancia en todas las relaciones del mundo, pues de la unión del Cielo y la Tierra proviene la consistencia de toda la naturaleza, y así también entre los hombres la inclinación libre como principio de unión es principio y fin.
 
----
 
 ## La Imagen
 > Sobre el lago está el trueno:
@@ -47,7 +45,6 @@ Esta inclinación como principio de las relaciones es de la mayor importancia en
 
 El trueno agita el agua del lago, que le sigue en brillantes ondas. Esa es la imagen de la muchacha que sigue al hombre de su elección. Pero toda unión de los hombres entre sí encierra el peligro de que se introduzcan extravíos que conduzcan a infinitos malentendidos e inconvenientes. Por eso conviene considerar constantemente el fin. Si uno se deja llevar, se junta y se separa de nuevo, según el día lo disponga. Si en cambio se fija la vista en un fin duradero, conseguirá esquivar los escollos que se oponen a las relaciones más estrechas de los hombres entre sí.
 
----
 
 ## Las Líneas Individuales
 
@@ -99,7 +96,6 @@ Vemos aquí a una muchacha de noble linaje que se casa en condiciones modestas y
 
 En el sacrificio a los antepasados la mujer debía ofrecer los frutos en una cesta, el hombre personalmente degollar la víctima del sacrificio. Aquí las formas se cumplen sólo superficialmente. La mujer toma una cesta vacía, el hombre degüella una oveja ya sacrificada previamente, solo para mantener la forma. Pero esta actitud irreverente y frívola no augura ninguna felicidad para el matrimonio.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

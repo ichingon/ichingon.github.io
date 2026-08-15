@@ -23,7 +23,6 @@ Dui es, como Sun, uno de los ocho signos dobles. Dui significa la hija menor; ti
 
 La verdadera alegría descansa, pues, en que en el interior están presentes la firmeza y la fuerza, que hacia fuera se manifiestan suave y mansamente.
 
----
 
 ## El Dictamen
 
@@ -31,7 +30,6 @@ La verdadera alegría descansa, pues, en que en el interior están presentes la 
 
 El estado de ánimo alegre actúa contagiosamente, por eso tiene éxito. Pero la alegría necesita como fundamento la constancia, para que no degeneren en desenfrenada jocosidad. Verdad y fuerza deben habitar en el corazón, mientras que la mansedumbre se manifiesta hacia fuera en el trato. De esta manera se adopta la posición correcta frente a Dios y los hombres y se consigue algo. Con mera intimidación sin mansedumbre se puede conseguir algo en determinadas circunstancias para el momento, pero no para la duración. Si, en cambio, se ganan los corazones de los hombres mediante la amabilidad, se consigue que tomen sobre sí todas las molestias de buen grado, e incluso si es necesario, no teman la muerte. Tan grande es el poder de la alegría sobre los hombres.
 
----
 
 ## La Imagen
 
@@ -40,7 +38,6 @@ El estado de ánimo alegre actúa contagiosamente, por eso tiene éxito. Pero la
 
 Un lago se evapora hacia arriba y se agota así gradualmente. Pero cuando dos lagos están en conexión mutua, no se agotan tan fácilmente, porque uno enriquece al otro. Así ocurre también en el terreno científico. La ciencia debe ser una fuerza refrescante y vivificante. Solo puede llegar a serlo en el trato vivificante con amigos de igual pensar, con los cuales se discute y se practica la aplicación de las verdades de la vida. Así el conocimiento se vuelve multifacético y adquiere una alegre ligereza, mientras que el saber de los autodidactas conserva siempre algo pesado y unilateral.
 
----
 
 ## Las Líneas Individuales
 
@@ -76,7 +73,6 @@ También al mejor hombre se le acercan elementos peligrosos. Si uno se involucra
 
 Cuando uno es interiormente vanidoso, atrae hacia sí las alegrías de la diversión y tiene que padecer bajo ellas (cf. seis en el tercer puesto). Cuando uno no está interiormente afianzado, las alegrías del mundo exterior, a las que no se sustrae, actúan tan fuertemente sobre él que es arrastrado. Aquí ya no se habla de peligro, de ventura o desventura. Se ha entregado el timón de la vida, y depende del azar y de las influencias externas lo que llegue a ser de uno.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

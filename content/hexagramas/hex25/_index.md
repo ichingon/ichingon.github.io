@@ -22,7 +22,6 @@ translationKey: "hex25"
 
 El trigrama inferior, Zhèn, está determinado por la línea fuerte que ha recibido desde arriba, directamente del Cielo. Cuando el movimiento sigue de esta manera las leyes celestiales, el ser humano alcanza la inocencia y se despoja de toda falsedad. Esta es la condición de lo auténtico y lo natural, un estado que no se encuentra enturbiado por especulaciones ni segundas intenciones. En el momento en que se percibe un propósito deliberado, la verdad y la inocencia de la naturaleza se pierden. Una naturaleza desprovista de la directriz del espíritu no es verdadera naturaleza, sino una naturaleza degenerada. A partir de la idea de lo natural, el desarrollo conceptual se extiende aún más, integrando también la noción de lo involuntario y lo inesperado.
 
----
 
 ## El Dictamen
 
@@ -33,7 +32,6 @@ El trigrama inferior, Zhèn, está determinado por la línea fuerte que ha recib
 
 El ser humano ha recibido del Cielo una naturaleza originalmente buena para que lo guíe en todos sus movimientos. Al entregarse a este principio divino en su interior, alcanza una pureza inocente que, sin segundas intenciones de recompensa o beneficio, realiza simplemente lo correcto con una seguridad instintiva. Esta certeza instintiva genera un éxito supremo y resulta propicia gracias a la perseverancia. Sin embargo, no todo lo instintivo constituye naturaleza en este sentido superior del término, sino únicamente aquello que es recto y armoniza con la voluntad celestial. Sin esta rectitud, un modo de actuar instintivo e irreflexivo solo acarrea desgracia, haciendo que no sea propicio emprender ningún proyecto. El Maestro Kung señala al respecto: "Quien se desvía de la inocencia, ¿a dónde irá a parar? La voluntad y la bendición del Cielo no acompañarán sus actos".
 
----
 
 ## La Imagen
 
@@ -44,9 +42,8 @@ El ser humano ha recibido del Cielo una naturaleza originalmente buena para que 
 
 Cuando el trueno - la fuerza vital - vuelve a agitarse bajo el cielo en la primavera, todo brota y crece, y todas las criaturas reciben de la naturaleza creadora la inocencia infantil de su ser primordial. Del mismo modo actuaban los buenos gobernantes de los hombres: con la riqueza interior de su propio ser, proveían para toda forma de vida y cultura, realizando todo lo necesario para su cuidado en el momento oportuno.
 
----
 
-## Las Líneas Regentes
+## Las Líneas Individuales Regentes
 
 ### Al principio un Nueve significa:
 > Un proceder inocente
@@ -85,9 +82,8 @@ Si desde el exterior, por puro azar, sobreviene un mal inesperado que no tiene s
 
 Cuando uno se encuentra en una situación donde ya no es el momento de avanzar, lo correcto es esperar de manera tranquila y sin intenciones ocultas. Si se actúa de forma irreflexiva para forzar el avance en contra del destino, no se logrará ningún éxito.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

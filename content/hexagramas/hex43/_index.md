@@ -21,7 +21,6 @@ translationKey: "hex43"
 
 El signo representa, por un lado, una liberación de fuerzas tras una larga acumulación de tensiones, semejante al desbordamiento de un río crecido que rompe sus diques o a un violento aguacero. Por otro lado, aplicado a los procesos humanos, marca el momento en que las fuerzas inferiores o el hombre vulgar están en vías de desaparecer. Su influencia decae y, mediante una acción decidida y resuelta, irrumpe un cambio profundo en las circunstancias.
 
----
 
 ## El Dictamen
 
@@ -39,7 +38,6 @@ Basta que un solo hombre vulgar retenga un puesto de mando en una ciudad para qu
 3. El combate no se ejecuta mediante la violencia directa. Cuando lo malo es estigmatizado, de inmediato busca las armas; si se cae en la trampa de responder golpe por golpe, se pierde la contienda, pues uno mismo termina enredado en el odio y la pasión. Por eso hay que empezar por la propia casa: mantenerse personalmente en guardia contra los errores estigmatizados. De ese modo, las armas de lo malo se embotan por sí solas cuando no encuentran un oponente. Bajo el mismo principio, los errores propios tampoco deben ser combatidos directamente; mientras uno forcejea con ellos, siempre resultan victoriosos.
 4. La mejor forma de combatir lo malo es el progreso enérgico en el bien.
 
----
 
 ## La Imagen
 
@@ -50,7 +48,6 @@ Basta que un solo hombre vulgar retenga un puesto de mando en una ciudad para qu
 
 Cuando las aguas del lago se elevan hacia el cielo, se avecina un aguacero devastador. El Noble toma esto como una advertencia para prevenir con presteza un colapso violento. Quien acumule riquezas únicamente para sí mismo, ignorando las necesidades de los demás, experimentará inevitablemente una quiebra personal, pues a todo acopio le sigue una dispersión. Por ello, el Noble dispersa sus bienes ya durante el acopio. De igual modo, en la formación de su carácter, se cuida de no estancarse en la obstinación, sino que, mediante un riguroso y constante autoexamen, se mantiene receptivo.
 
----
 
 ## Las Líneas Individuales
 
@@ -97,8 +94,7 @@ La mala hierba vuelve a crecer una y otra vez y es difícil de erradicar. Así, 
 
 La victoria parece haber sido alcanzada. Solo queda un resto de lo malo, cuya extirpación decidida es apremiante. Todo parece muy fácil. Pero ahí radica precisamente el peligro. Si no se está en guardia, lo malo consigue escapar ocultándose, y una vez que ha escapado, surge una nueva desventura a partir de los gérmenes que quedaron, pues lo malo no muere fácilmente. También en lo malo del propio carácter hay que hacer un trabajo minucioso. Si por negligencia se dejara algo sin eliminar, de ello surgiría un nuevo mal.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

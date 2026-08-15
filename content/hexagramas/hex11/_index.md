@@ -27,7 +27,6 @@ El trigrama superior es Kun, la tierra, lo receptivo, cuya tendencia por natural
 
 {{< youtube-short "6ld1F8F9-ac" "Instantánea del hexagrama 11" >}}
 
----
 
 ## El Dictamen
 
@@ -47,7 +46,7 @@ La paz significa armonía y concordia. Cuando las fuerzas de la naturaleza se en
 
 La unión del cielo y de la tierra produce la fecundidad de la cual brota toda vida. El soberano, contemplando esta armonía cósmica, organiza las relaciones sociales e institucionales. "Divide y completa el curso" significa que establece las divisiones del tiempo (el calendario, las estaciones) y del espacio para regular el trabajo y la producción de acuerdo con las leyes de la naturaleza. De este modo, distribuye y encauza de manera justa y oportuna los recursos y dones naturales, sirviendo de ayuda y amparo para la vida del pueblo.
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales Regentes / Móviles
 
 ### Nueve al principio significa:
 
@@ -102,7 +101,7 @@ La época de la paz ha tocado a su fin y comienza el proceso de declive. La mura
 
 [^1]: El soberano I es Tang, el Consumador (Cheng Tang), fundador de la dinastía Shang. Su gesto histórico de desposar a su hija con un vasallo de menor rango se convirtió en el símbolo clásico de la unión armoniosa basada en la humildad y el renunciamiento a la soberbia del poder.
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

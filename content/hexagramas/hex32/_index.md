@@ -24,7 +24,6 @@ El signo fuerte (Zhèn) se encuentra arriba; el signo débil (Xùn) está abajo.
 
 Trasladado a las relaciones sociales, aquí se retrata la institución del matrimonio como un vínculo perdurable entre los sexos. Mientras que durante el cortejo el joven se colocaba por debajo de la muchacha, en el matrimonio —representado por la convivencia del hijo mayor y la hija mayor— el hombre asume la dirección y el movimiento hacia afuera, mientras que la mujer permanece en el interior, dócil y obediente.
 
----
 
 ## El Dictamen
 
@@ -38,7 +37,6 @@ Gracias a este principio, los cuerpos celestes recorren sus órbitas en el firma
 
 Del mismo modo, el llamado posee un sentido duradero en su camino, y el mundo alcanza por ello su completa formación. A través de aquello en lo que las cosas encuentran su duración, se puede reconocer la naturaleza de todos los seres en el cielo y en la tierra.
 
----
 
 ## La Imagen
 
@@ -47,7 +45,6 @@ Del mismo modo, el llamado posee un sentido duradero en su camino, y el mundo al
 
 El trueno retumba y el viento sopla. Ambos fenómenos son sumamente móviles, por lo que a primera vista parecerían encarnar lo opuesto a la duración. Sin embargo, su aparición y su retiro, su venir y su ir, obedecen a leyes duraderas. De la misma manera, la autonomía del Noble no estriba en que sea rígido e inmóvil. Él marcha siempre al compás de los tiempos y se transforma junto con ellos. Lo duradero es la dirección fija, la ley interna de su ser, que determina todas sus acciones.
 
----
 
 ## Las Líneas Individuales
 
@@ -85,9 +82,8 @@ La mujer debe seguir durante toda su vida a un hombre; el hombre, en cambio, deb
 
 Hay personas que están en continuo movimiento apresurado, sin llegar interiormente al reposo. La inquietud no solo impide toda profundidad, sino que se convierte directamente en peligro cuando reina en un lugar decisivo.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

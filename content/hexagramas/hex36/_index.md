@@ -22,7 +22,6 @@ translationKey: "hex36"
 
 Aquí el Sol se ha hundido bajo la tierra, quedando por lo tanto oscurecido. El nombre del signo significa literalmente "la herida de la claridad", razón por la cual las líneas individuales hablan con frecuencia de heridas. La situación es exactamente opuesta a la del signo anterior. En aquel se presentaba a un sabio en la cúspide que contaba con colaboradores capaces para avanzar juntos; aquí, en cambio, domina un hombre tenebroso en la posición de mando, lo cual perjudica al hombre capaz y sabio.
 
----
 
 ## El Dictamen
 
@@ -30,7 +29,6 @@ Aquí el Sol se ha hundido bajo la tierra, quedando por lo tanto oscurecido. El 
 
 Uno no debe dejarse arrastrar sin resistencia por las circunstancias desfavorables ni permitir que se doblegue su firmeza interior. Esto es posible si se mantiene la luz en el interior mientras hacia afuera se muestra una actitud flexible y dócil. Mediante esta conducta se puede superar incluso la mayor de las necesidades. Desde luego, bajo ciertas condiciones es indispensable ocultar la propia luz para ser capaz de mantener la voluntad en pie a pesar de las dificultades del entorno inmediato. La perseverancia debe habitar en la conciencia más íntima y no manifestarse hacia el exterior. Solo de esta manera se puede salvaguardar el propósito en tiempos difíciles.
 
----
 
 ## La Imagen
 
@@ -38,7 +36,6 @@ Uno no debe dejarse arrastrar sin resistencia por las circunstancias desfavorabl
 
 En tiempos de oscuridad es fundamental proceder con cautela y reserva. No se debe buscar una enemistad inútil contra fuerzas superiores mediante un comportamiento temerario. En tales épocas, aunque no se compartan las costumbres de la gente, tampoco se las debe exponer críticamente a la luz. En el trato social ordinario conviene no pretender saberlo todo. Es necesario dejar pasar muchas cosas sin dejarse embaucar por ellas.
 
----
 
 ## Las Líneas Individuales
 
@@ -87,8 +84,7 @@ El príncipe Gi vivió en la corte del terrible tirano Dschou Sin, que como ejem
 
 Aquí se alcanza el punto culminante de la oscuridad. La oscura potencia estaba al principio tan elevada que podía herir a todos los buenos y luminosos. Pero al final perece por su propia oscuridad, pues el mal debe caer en el momento en que ha superado completamente al bien y ha consumido así la fuerza a la que hasta entonces debía su existencia.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

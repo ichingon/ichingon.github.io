@@ -21,7 +21,6 @@ translationKey: "hex49"
 
 El signo significa originalmente una piel de animal que cambia a lo largo del año por la muda de su pelaje. A partir de esta idea, el concepto se extiende a las transformaciones en la vida del Estado: las grandes revoluciones políticas asociadas a un cambio de gobierno. Las dos figuras que componen este signo son, al igual que en el Hexagrama 38 (Kui, «El Antagonismo»), las dos hijas menores, Li y Dui. Sin embargo, mientras que en aquel signo la mayor se encuentra arriba -lo que genera esencialmente una mera oposición de tendencias-, aquí la hija menor ocupa la posición superior. Como resultado, sus efectos se contraponen de manera directa y las fuerzas se combaten mutuamente como el fuego y el agua (el lago), donde cada uno busca destruir al otro. De ahí nace la idea de revolución.
 
----
 
 ## El Dictamen
 
@@ -34,7 +33,6 @@ Las revoluciones políticas constituyen empresas de una gravedad extrema. Solo d
 
 Los tiempos cambian y, con ellos, sus exigencias. Así como se transforman las estaciones a lo largo del año, también existen en los grandes ciclos de la historia periodos de primavera y otoño para los pueblos y las naciones, los cuales demandan profundas reestructuraciones sociales.
 
----
 
 ## La Imagen
 
@@ -44,7 +42,6 @@ Los tiempos cambian y, con ellos, sus exigencias. Así como se transforman las e
 
 El fuego abajo y el lago arriba se combaten y se destruyen mutuamente. Del mismo modo, en el transcurso del año se desata una lucha entre las fuerzas luminosas y las oscuras, manifestándose en los cambios estacionales. El ser humano logra dominar las fluctuaciones de la naturaleza al descifrar su regularidad y registrar de forma precisa el paso del tiempo. De este modo, introduce orden y claridad en la alternancia aparentemente caótica de las épocas, lo que permite anticiparse y prepararse adecuadamente para las exigencias de cada periodo.
 
----
 
 ## Las Líneas Individuales
 
@@ -86,7 +83,6 @@ La piel de un tigre, con sus nítidas franjas negras sobre fondo dorado, posee u
 
 Una vez resueltas y consolidadas las grandes reformas estructurales, resta ejecutar las adaptaciones secundarias y los ajustes de detalle. Estas modificaciones menores se asemejan a las manchas de la piel de un leopardo, las cuales son nítidas pero de menor tamaño. Como consecuencia de este proceso, también en las clases populares se experimenta una transformación: el hombre común se adapta formalmente a la nueva reglamentación modificando su conducta exterior. Ciertamente, esta asimilación no es de carácter profundo, pero es algo que no se puede exigir de buenas a primeras. Es indispensable conformarse con lo que es prácticamente realizable. Intentar forzar la situación para lograr una pureza ideológica absoluta provocaría una agitación estéril y traería desdicha. El objetivo último de una gran revolución es establecer un estado de derecho claro y estable que devuelva la tranquilidad colectiva basándose en lo que es posible en ese momento histórico.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

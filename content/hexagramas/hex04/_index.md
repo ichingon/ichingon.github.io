@@ -27,7 +27,6 @@ Pero en los dos signos se halla también el camino para superar las necedades ju
 
 {{< youtube-short "qvxwW0RvoNw" "Instantánea del hexagrama 4" >}}
 
----
 
 ## El Dictamen
 
@@ -54,7 +53,7 @@ Si a ello se añade la perseverancia que no cesa hasta que uno se ha apropiado p
 
 El manantial llega a fluir y a superar el estancamiento porque va llenando todos los huecos que encuentra en su camino. De igual modo, el camino para la formación del carácter es la minuciosidad, que no salta nada, sino que, gradual y constantemente como el agua, llena todas las lagunas y así avanza.
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales Regentes / Móviles
 
 ### Seis al principio significa:
 
@@ -99,9 +98,8 @@ Una persona inexperta que busca instrucción de manera infantil y sin pretension
 
 En ciertas circunstancias, es necesario castigar a un necio incorregible. Quien no quiere oír, debe sentir. Este castigo es diferente del sacudimiento inicial. Pero la imposición del castigo no debe hacerse con ira, sino limitarse a una defensa objetiva de los excesos injustificados. Nunca es un fin en sí mismo, sino que debe servir solo para restablecer el orden. Esto vale tanto para la educación como para las medidas de un gobierno contra una población que comete excesos. La intervención del gobierno debe ser siempre solo defensiva y tener como único objetivo el restablecimiento de la seguridad y la tranquilidad públicas.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

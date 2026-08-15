@@ -22,7 +22,6 @@ translationKey: "hex35"
 
 El signo representa al sol que se eleva sobre la tierra; es, por lo tanto, la imagen del progreso rápido y ligero, que al mismo tiempo significa una expansión y claridad cada vez mayores.
 
----
 
 ## El Dictamen
 
@@ -33,7 +32,6 @@ Como ejemplo se describe una época en la que un poderoso príncipe feudal congr
 
 En esto reside un doble pensamiento. La verdadera eficacia del progreso parte de un hombre en posición dependiente, a quien los demás consideran como su igual, razón por la cual lo siguen de buena gana. Este líder posee la claridad interior suficiente para no abusar de la gran influencia que tiene, sino para emplearla en beneficio del señor. El señor, por su parte, está libre de toda envidia, regala espléndidamente al gran hombre y lo atrae durablemente a su cercanía. Un señor iluminado y un servidor obediente son las condiciones del gran progreso.
 
----
 
 ## La Imagen
 
@@ -42,7 +40,6 @@ En esto reside un doble pensamiento. La verdadera eficacia del progreso parte de
 
 La luz del sol que asciende sobre la tierra es clara por naturaleza, pero cuanto más alto se eleva el sol, más sale de las brumas turbias y brilla en su pureza original en un ámbito tanto más amplio. Así también la verdadera esencia del ser humano es originalmente buena, pero se enturbia por su conexión con lo terreno y, por lo tanto, necesita la purificación para que pueda brillar en la claridad que le corresponde originalmente.
 
----
 
 ## Las Líneas Individuales
 
@@ -93,6 +90,6 @@ Progresar con los cuernos, es decir, proceder ofensivamente, solo debe aplicarse
 
 [^1]: Este es el tema que se trata extensamente en el tratado de «La Gran Enseñanza» (*Dà Xué*).
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

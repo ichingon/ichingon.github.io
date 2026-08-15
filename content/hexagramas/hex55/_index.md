@@ -21,7 +21,6 @@ translationKey: "hex55"
 
 Lo excitante es el movimiento, lo Adherente es la llama, cuya propiedad es la claridad. En el interior claridad, hacia el exterior movimiento, eso da grandeza y abundancia. Es una época de alta cultura, que es representada por el signo. Sin embargo, en el hecho de que se trata de un punto supremo, ya está insinuado el pensamiento de que este estado extraordinario de abundancia no podrá mantenerse duraderamente.
 
----
 
 ## El Dictamen
 > La Abundancia tiene Éxito.
@@ -30,7 +29,6 @@ Lo excitante es el movimiento, lo Adherente es la llama, cuya propiedad es la cl
 
 No le es dado a cualquier mortal el conducir a una época de máxima grandeza y abundancia. Tiene que ser un nacido soberano sobre los hombres, que sea capaz de algo así porque su voluntad está dirigida a lo grande. La época de tal abundancia es por lo general breve. Por ello, un sabio podría entristecerse ante el subsiguiente declive. Pero tal tristeza no le es apropiada. Solo un hombre que interiormente está libre de preocupación y pesar puede conducir a una época de abundancia. Él debe ser como el sol del mediodía, que ilumina y alegra todo bajo el cielo.
 
----
 
 ## La Imagen
 > Trueno y relámpago llegan ambos: la imagen de la abundancia.  
@@ -38,7 +36,6 @@ No le es dado a cualquier mortal el conducir a una época de máxima grandeza y 
 
 El signo tiene cierta relación con el signo La Mordedura (Nº 21), donde también están juntos trueno y relámpago, pero en orden inverso. Mientras allí se establecen las leyes, aquí se ejecutan y aplican. En el interior la claridad posibilita un examen exacto del estado de cosas, y en el exterior la conmoción se ocupa de la ejecución estricta y precisa de las penas.
 
----
 
 ## Las Líneas Individuales
 
@@ -84,7 +81,6 @@ El hombre gobernante es modesto, de modo que es accesible al consejo de los capa
 
 Aquí está dibujado un hombre que, por su soberbia y voluntad propia, alcanza lo opuesto de lo que busca. Busca abundancia y esplendor para su vivienda. Quiere ser absolutamente el señor en su casa. Pero con ello se enajena de su familia, hasta que finalmente se queda completamente aislado.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

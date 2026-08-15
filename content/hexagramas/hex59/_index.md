@@ -21,7 +21,6 @@ translationKey: "hex59"
 
 El viento, que se mueve por encima del agua, la dispersa y la disuelve en espuma y bruma. En ello reside también el pensamiento de que la energía vital, cuando se estanca en el ser humano (lo que está indicado por la cualidad del signo inferior como peligro), es dispersada y disuelta nuevamente a través de la suavidad.
 
----
 
 ## El Dictamen
 
@@ -36,7 +35,6 @@ Para vencer el egoísmo separador de los hombres se requiere de las fuerzas reli
 
 Pero para tal disolución de la dureza del egoísmo solo es capaz alguien que, libre de todos los pensamientos secundarios egoístas, permanece en la justicia y la constancia.
 
----
 
 ## La Imagen
 > El viento se mueve sobre el agua: la imagen de la Disolución.
@@ -44,9 +42,8 @@ Pero para tal disolución de la dureza del egoísmo solo es capaz alguien que, l
 
 El agua comienza a endurecerse y a congelarse en otoño e invierno. Cuando llegan las suaves brisas de la primavera, la rigidez se disuelve y lo disperso en témpanos de hielo se vuelve a unir. Así ocurre también con el sentir del pueblo. Por la dureza y el egoísmo se endurece el corazón, y en ese endurecimiento se separa de todo lo demás. El egoísmo y la codicia aíslan a los hombres. Por ello, una conmoción piadosa debe afectar el corazón humano. Debe ser disuelto en santos estremecimientos de la eternidad, que lo sacudan mediante la intuición del Creador común de todos los seres y lo unifiquen a través del poder de los sentimientos comunitarios en la sagrada celebración de la adoración de lo Divino.
 
----
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Al principio una seis significa:
 > Trae ayuda con la fuerza de un caballo.
@@ -83,7 +80,6 @@ En tiempos de disolución y separación general, un gran pensamiento es el punto
 
 Disolver la sangre significa disolver lo que podría traer sangre y heridas, evitar el peligro. Pero aquí no se expresa el pensamiento de que uno solo evita las dificultades para sí mismo, sino que salva a los suyos, les ayuda a alejarse antes de que el peligro esté presente, a mantenerse alejados de un peligro ya existente y a encontrar la salida de un peligro que ya los ha alcanzado. De esta manera, uno hace lo correcto.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

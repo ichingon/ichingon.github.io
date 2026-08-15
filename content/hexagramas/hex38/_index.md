@@ -22,7 +22,6 @@ translationKey: "hex38"
 
 El signo consiste en el signo superior Li, la llama que arde hacia arriba, y el signo inferior Dui, el lago, que filtra hacia abajo. Estos movimientos están en oposición mutua. Además, Li es la segunda hija y Dui la hija menor. Aunque viven en la misma casa, pertenecen a diferentes hombres y su voluntad no es común, sino dirigida a lo opuesto.
 
----
 
 ## El Dictamen
 
@@ -34,7 +33,6 @@ La oposición, que en general aparece como estancamiento, como oposición polar 
 
 Las oposiciones entre Cielo y Tierra, espíritu y naturaleza, hombre y mujer, mediante su equilibrio producen la creación y reproducción de la vida. En el mundo visible de las cosas, la oposición posibilita una separación en especies, a través de la cual el orden llega al mundo.
 
----
 
 ## La Imagen
 
@@ -43,7 +41,6 @@ Las oposiciones entre Cielo y Tierra, espíritu y naturaleza, hombre y mujer, me
 
 Así como los dos elementos fuego y agua, aun cuando están juntos, nunca se mezclan, sino que conservan su propia naturaleza, así el hombre culto, incluso por el trato y los intereses comunes con personas de otra índole, nunca se dejará llevar a hacerse vulgar, sino que en medio de toda comunidad siempre mantendrá su peculiaridad.
 
----
 
 ## Las Líneas Individuales
 
@@ -87,7 +84,6 @@ Se encuentra a una persona fiel, a la que al principio, en el extrañamiento gen
 
 Aquí el aislamiento está condicionado por malentendidos, no por las circunstancias externas, sino por estados interiores. Se desconocen a los mejores amigos, se les tiene por impuros como un cerdo sucio y por peligrosos como un carro lleno de demonios. Uno se coloca en posición defensiva. Pero finalmente reconoce su error, depone el arco y advierte que el otro viene con la mejor intención a la unión estrecha. Así se disuelve la tensión. La unión disuelve la oposición, como la lluvia que cae disuelve la bochorna antes de la tormenta. Todo va bien, porque la oposición justo en su culminación se trueca en su contrario.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

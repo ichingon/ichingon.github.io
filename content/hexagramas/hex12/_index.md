@@ -25,7 +25,6 @@ Este signo es el reverso exacto del anterior. El cielo arriba se retira cada vez
 
 {{< youtube-short "rcF8aRKY33g" "Instantánea del hexagrama 12" >}}
 
----
 
 ## El Dictamen
 
@@ -35,7 +34,6 @@ Este signo es el reverso exacto del anterior. El cielo arriba se retira cada vez
 
 Cielo y tierra están fuera de comunicación, y todas las cosas se paralizan. Los de arriba y los de abajo están sin relación, y en la tierra reina confusión y desorden. Dentro está Lo Oscuro, y Lo Luminoso está fuera. Dentro hay debilidad, fuera hay dureza, dentro están los hombres vulgares, y los Nobles están fuera. La especie de los vulgares está en ascenso, la especie de los Nobles está en descenso. Pero los Nobles no se dejan desviar en sus principios. Cuando ya no tienen la posibilidad de actuar, permanecen fieles a esos principios y se retiran al ocultamiento.
 
----
 
 ## La Imagen
 
@@ -45,9 +43,8 @@ Cielo y tierra están fuera de comunicación, y todas las cosas se paralizan. Lo
 
 Cuando en la vida pública reina la desconfianza mutua a causa de la influencia que tienen los hombres vulgares, es imposible una actividad fructífera porque la base es falsa. Por eso el Noble sabe lo que tiene que hacer en tales circunstancias. No se deja seducir por ofertas brillantes para participar en la actividad pública, que para él, dado que no puede compartir la bajeza de los otros, solo sería peligrosa. Por eso oculta su valor y se retira al ocultamiento.
 
----
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales Regentes / Móviles
 
 ### Seis al principio significa:
 
@@ -83,7 +80,7 @@ Cuando en la vida pública reina la desconfianza mutua a causa de la influencia 
 
 [^1]: Confucio dice al respecto: »El peligro surge donde uno se siente seguro en su puesto. La ruina amenaza donde uno procura mantener su existencia. La confusión surge donde uno tiene todo en orden. Por ello el Noble, cuando está seguro, no olvida el peligro; cuando existe, no olvida la ruina; y cuando tiene orden, no olvida la confusión. Así su persona permanece a salvo, y el reino se mantiene.«
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [El texto original en Alemán](./hex12.de.md)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

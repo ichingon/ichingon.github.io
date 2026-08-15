@@ -25,7 +25,6 @@ El agua sobre la tierra fluye junta, como siempre le es posible, por ejemplo en 
 
 {{< youtube-short "BveITYm7_zA" "Instantánea del hexagrama 8" >}}
 
----
 
 ## El Dictamen
 
@@ -40,7 +39,6 @@ Se trata de unirse con otros para complementarse y promoverse mutuamente mediant
 
 Ahí donde existe un verdadero punto de congregación, los inseguros, que al principio dudan, se acercan paulatinamente por sí mismos. Los que llegan demasiado tarde sufren el daño por ello. Pues también en la solidaridad se trata del momento oportuno. Las relaciones se anudan y se consolidan según determinadas leyes internas. Las vivencias comunes las afianzan, y quien llega demasiado tarde y ya no puede participar en estas experiencias comunes fundamentales, habrá de sufrir por ello al encontrar la puerta cerrada como rezagado.[^1]
 
----
 
 ## La Imagen
 
@@ -49,7 +47,7 @@ Ahí donde existe un verdadero punto de congregación, los inseguros, que al pri
 
 El agua sobre la tierra llena todos los huecos y se adhiere firmemente a ella. La organización social de la antigüedad estaba fundada sobre este principio de solidaridad entre los subordinados y el soberano. El agua fluye junta por sí misma porque en todas sus partes se encuentra bajo las mismas leyes. Así también la sociedad humana debe mantenerse unida mediante una comunidad de intereses que haga que cada individuo se sientan como miembro de un todo. El poder central de un organismo social debe cuidar que cada miembro encuentre su verdadero interés en mantenerse unido, tal como era el caso en la relación paterna entre el gran rey y los vasallos en la antigüedad china.
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales Regentes / Móviles
 
 ### Seis al principio significa:
 
@@ -100,7 +98,7 @@ La cabeza es el comienzo. Sin un comienzo correcto no hay un final correcto. Si 
 
 [^1]: Wilhelm introduce aquí una equivalencia ética citando un dístico clásico de Schiller: "Busca siempre pertenecer al Todo; y si no puedes ser un Todo por ti mismo, únete a un Todo como un miembro servicial".
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

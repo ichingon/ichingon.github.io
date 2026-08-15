@@ -25,7 +25,6 @@ El fuego en el cielo arriba brilla a lo lejos, de modo que todas las cosas entra
 
 {{< youtube-short "rrgErs-QCTw" "Instantánea del hexagrama 14" >}}
 
----
 
 ## El Dictamen
 
@@ -88,9 +87,8 @@ En la plenitud de la posesión y del poder uno permanece modesto y honra al sabi
 
 Confucio dice sobre esta línea: «Bendecir significa ayudar. El cielo ayuda al dedicado, los hombres ayudan al sincero. Quien camina en la sinceridad y es dedicado en su pensar, y además honra a los dignos, será bendecido desde el cielo. Él encuentra Ventura, y nada hay que no sea propicio.»
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

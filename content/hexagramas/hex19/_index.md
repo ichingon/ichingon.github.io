@@ -24,7 +24,6 @@ translationKey: "hex19"
 
 El término chino Lín posee diversas acepciones que no pueden resumirse en una sola palabra. Las antiguas explicaciones del Libro de las Mutaciones definen su significado primordial como «crecimiento». Lo que crece son las dos líneas fuertes que ascienden desde la base, expandiendo la energía luminosa. A partir de allí, el concepto evoluciona hacia la idea de acercamiento: la aproximación de lo fuerte y superior hacia lo inferior. Esto simboliza tanto la benevolente condescendencia de un gobernante hacia su pueblo como la resuelta puesta en marcha de los asuntos públicos. En el ciclo anual, este signo se asocia con el duodécimo mes (enero-febrero), período en el que la fuerza de la luz reanuda su movimiento ascendente tras el solsticio de invierno.
 
----
 
 ## El Dictamen
 
@@ -34,7 +33,6 @@ El término chino Lín posee diversas acepciones que no pueden resumirse en una 
 
 El signo en su conjunto anuncia una época de progreso llena de esperanza. La primavera se aproxima; la alegría y la flexibilidad propician que los estratos superiores e inferiores se acerquen recíprocamente, garantizando el éxito. Sin embargo, resulta indispensable trabajar de manera firme y constante para aprovechar plenamente las ventajas de este período. Cabe recordar que el florecimiento primaveral no es perpetuo: al llegar el octavo mes, las condiciones se invierten. En ese momento, solo restarán dos líneas luminosas que, lejos de avanzar, se encontrarán en plena retirada. Es crucial anticiparse a este cambio de rumbo; si se afronta el declive antes de que se manifieste de forma visible, e incluso antes de que empiece a gestarse, se logrará dominar la situación con maestría.
 
----
 
 ## La Imagen
 
@@ -44,7 +42,6 @@ El signo en su conjunto anuncia una época de progreso llena de esperanza. La pr
 
 La tierra limita por encima con el lago, ofreciendo la imagen de una aproximación protectora y de la condescendencia de los superiores hacia quienes se encuentran abajo. De la combinación de ambos elementos se desprende la conducta que adopta el sabio: emulando la profundidad inagotable del lago, permanece siempre dispuesto a instruir a los hombres; y a imitación de la vastedad de la tierra, que sostiene y nutre a todas las criaturas, acoge y protege a la comunidad sin establecer fronteras ni exclusiones de ninguna clase.
 
----
 
 ## Las Líneas Individuales
 
@@ -79,9 +76,8 @@ Un gobernante o líder debe poseer la sabiduría necesaria para rodearse de cola
 
 Un sabio que ha superado las ambiciones mundanas y se encuentra en paz con la existencia puede, dadas las circunstancias, regresar temporalmente al ámbito de los asuntos prácticos para ofrecer su cercanía a los demás. Esta generosa condescendencia constituye una gran fortuna para quienes reciben su guía y auxilio, y no representa menoscabo alguno para la dignidad del propio sabio.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

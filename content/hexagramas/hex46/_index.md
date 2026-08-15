@@ -21,7 +21,6 @@ translationKey: "hex46"
 
 El signo inferior, Xùn, tiene como imagen la madera; el superior, Kūn, significa la tierra. Con ello se asocia la idea de que la madera crece hacia arriba dentro de la tierra. Este "Empuje hacia arriba" está, a diferencia del "Progreso" (nº 35), vinculado con esfuerzo, así como la planta necesita fuerza para brotar a través de la tierra. Por eso el signo, aunque está asociado con el éxito, se relaciona con el esfuerzo de la voluntad. El "Progreso" muestra más expansión; el "Empuje hacia arriba", más un ascenso rectilíneo hacia poder e influencia desde la oscuridad y la humildad.
 
----
 
 ## El Dictamen
 
@@ -32,7 +31,6 @@ El signo inferior, Xùn, tiene como imagen la madera; el superior, Kūn, signifi
 
 El ascenso de los elementos capaces no encuentra obstáculo; por eso va acompañado de gran éxito. La actitud que posibilita el empuje no es violenta, sino modesta y adaptable. Pero como se está sostenido por el favor de los tiempos, se avanza. Hay que ir y buscar a las personas decisivas. No hay que temerlo; pues el éxito no faltará. Solo hay que ponerse a la obra; porque la actividad (este es el significado del sur) trae Ventura.
 
----
 
 ## La Imagen
 
@@ -43,7 +41,6 @@ El ascenso de los elementos capaces no encuentra obstáculo; por eso va acompañ
 
 La madera en la tierra crece sin prisa y sin pausa hacia la altura, adaptándose flexiblemente a los obstáculos para rodearlos. Así el Noble es entregado en su carácter y nunca descansa en su progreso[^1].
 
----
 
 ## Las Líneas Individuales
 

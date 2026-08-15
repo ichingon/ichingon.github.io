@@ -23,7 +23,6 @@ Mientras que en el signo "El exceso de lo grande" (Hexagrama 28) las líneas fue
 
 Cuando las líneas fuertes ocupan los extremos exteriores, se configuran los signos de la Nutrición (Hexagrama 27) y de la Verdad Interior (Hexagrama 61), los cuales no representan circunstancias excepcionales. En cambio, cuando lo fuerte predomina en el interior, debe abrirse paso por la fuerza, lo que desata luchas y grandes alteraciones. Aquí, por el contrario, lo débil se ve obligado a asumir la representación hacia el exterior. Cuando alguien ocupa un puesto decisivo para el cual, por su propia naturaleza, no está plenamente capacitado, se vuelve indispensable observar una precaución extraordinaria.
 
----
 
 ## El Dictamen
 > El exceso de lo pequeño. Éxito.  
@@ -37,7 +36,6 @@ Una modestia y una escrupulosidad excepcionales serán recompensadas con el éxi
 
 Con todo, no se debe contar con grandes logros, ya que se carece de la fuerza necesaria para sostenerlos. Por esta razón es tan importante el mensaje de no aspirar a metas elevadas, sino mantenerse en lo bajo. Que esta advertencia sea traída por un ave se deduce de la estructura gráfica del signo. Las cuatro líneas fuertes y pesadas del interior, sostenidas apenas por dos líneas débiles en los extremos en el Hexagrama 28, daban la imagen de una viga cumbrera sobrecargada. Aquí, las líneas ligeras que sirven de apoyo se encuentran en el exterior y son mayoría, lo que dibuja la silueta de un pájaro planeando. Pero el ave no debe excederse ni pretender volar directamente hacia el sol, sino descender a la tierra, donde se encuentra su nido. Con ello transmite el mensaje que el signo proclama.
 
----
 
 ## La Imagen
 > El trueno sobre la montaña: la imagen del exceso de lo pequeño.  
@@ -49,7 +47,6 @@ El trueno sobre la montaña difiere del que resuena en la llanura. En las cumbre
 
 Él cuida con extrema precisión cada uno de sus actos. En los duelos, la conmoción interior le resulta mucho más importante que la pompa de las ceremonias externas, e igualmente se muestra extraordinariamente sencillo y modesto en los gastos destinados a su propia persona. Todo esto lo convierte en una excepción frente a la multitud, pero la esencia de esta singularidad radica en que se manifiesta siempre del lado de la moderación y la humildad.
 
----
 
 ## Las Líneas Individuales
 
@@ -93,7 +90,6 @@ En tales épocas es imperativo buscar ayudantes con quienes consumar la obra. A 
 
 Quien dispara más allá del blanco no logrará dar en él. Si el ave se niega a regresar a su nido y se empeña en subir cada vez más alto, terminará por caer en las redes del cazador. Aquel que en tiempos excepcionales no sabe detenerse en lo pequeño, sino que avanza inquieto y sin frenos hacia metas desmedidas, se acarrea la desgracia tanto de los dioses como de los hombres, pues se ha apartado del orden natural de las cosas.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

@@ -25,7 +25,6 @@ Aplicado al ser humano, el signo aborda el problema de lograr la quietud del cor
 
 Es posible que las palabras del texto contengan indicaciones para la práctica de ejercicios de yoga.
 
----
 
 ## El Dictamen
 
@@ -39,7 +38,6 @@ El verdadero reposo consiste en mantenerse quieto cuando es momento de detenerse
 
 El signo representa el fin y el principio de todo movimiento. Se menciona la espalda porque en ella se concentran las vías nerviosas que transmiten el movimiento. Al detener la agitación de estos centros nerviosos, el yo y su inquietud desaparecen de forma virtual. Una vez que se alcanza esta profunda calma interior, el ser humano puede volverse hacia el mundo exterior sin percibir el conflicto ni el torbellino de las individualidades; posee entonces la verdadera paz indispensable para comprender las grandes leyes del acontecer cósmico y actuar en conformidad con ellas. Quien actúa desde esta profundidad espiritual no comete errores.
 
----
 
 ## La Imagen
 
@@ -48,7 +46,6 @@ El signo representa el fin y el principio de todo movimiento. Se menciona la esp
 
 El corazón piensa de manera continua; esto es algo inevitable. Sin embargo, los movimientos del corazón -es decir, los pensamientos- deben circunscribirse a la situación presente. Todo intento de proyectarse más allá solo sirve para lastimar el corazón. [^1]
 
----
 
 ## Las Líneas Individuales
 
@@ -91,7 +88,6 @@ En una situación de peligro, sobre todo cuando no se está a la altura de las c
 
 Aquí se presenta la consumación del esfuerzo por alcanzar la paz. No se trata de una calma calculada de forma minuciosa en los detalles particulares, sino de una actitud de renuncia generalizada que otorga paz y ventura a cada aspecto de la existencia.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

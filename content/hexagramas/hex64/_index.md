@@ -21,7 +21,6 @@ translationKey: "hex64"
 
 Este signo señala una época en la que la transición desde el desorden hacia el orden todavía no se ha completado. El gran cambio ya se encuentra en fase de preparación, puesto que todas las líneas del trigrama superior mantienen una relación recíproca con las del inferior; sin embargo, ninguna de ellas ocupa aún su puesto definitivo. Mientras que el signo precedente guarda analogía con el otoño, que configura el paso del verano al invierno, este signo se asemeja a la primavera, la cual conduce desde la parálisis invernal hacia la fertilidad del verano. Con esta perspectiva abierta hacia la esperanza concluye el Libro de las Mutaciones.
 
----
 
 ## El Dictamen
 > Antes de la Consumación. Éxito.  
@@ -31,7 +30,6 @@ Este signo señala una época en la que la transición desde el desorden hacia e
 
 Las circunstancias son difíciles. La tarea es grande y llena de responsabilidad. No se trata de nada menos que de conducir al mundo de vuelta del desorden al orden. Sin embargo, es una tarea que promete éxito, pues existe una meta que es capaz de unificar las fuerzas que divergen. Solo que al principio se debe proceder aún de manera suave y cuidadosa. Se debe proceder como un zorro viejo que camina sobre el hielo. En China, la precaución del zorro al caminar sobre el hielo es proverbial. Él escucha siempre el crujido y busca cuidadosa y prudentemente los lugares más seguros. Un zorro joven, que aún no conoce esta precaución, avanza audazmente, y entonces puede ocurrir que caiga dentro cuando ya casi está sobre el agua, y moje su cola. Entonces todo el esfuerzo fue en vano. En consecuencia, en tiempos anteriores a la consumación, la reflexión y la precaución son la condición fundamental del éxito.
 
----
 
 ## La Imagen
 > El fuego está arriba del agua:
@@ -41,7 +39,6 @@ Las circunstancias son difíciles. La tarea es grande y llena de responsabilidad
 
 Cuando el fuego, que de todas formas asciende, se encuentra arriba, y el agua, cuyo movimiento va hacia abajo, se ubica abajo, entonces sus efectos se separan y permanecen sin relación. Si se quiere lograr un efecto, primero se debe investigar cuál es la naturaleza de las fuerzas en cuestión y cuál es el lugar que les corresponde. Si se ponen las fuerzas en el lugar correcto, entonces tienen el efecto deseado, y se alcanza la consumación. Pero para poder manejar correctamente las fuerzas externas, es ante todo necesario que uno mismo adopte el punto de vista correcto. Pues solo desde allí se puede actuar correctamente.
 
----
 
 ## Las Líneas Individuales
 
@@ -85,13 +82,11 @@ La victoria ha sido conquistada. La fuerza de la constancia no ha sido avergonza
 
 Antes de la consumación, en el límite de la nueva época, se está junto a los suyos en plena confianza mutua y se pasa el tiempo de espera con vino. Puesto que la nueva época ya está inmediatamente ante la puerta, eso no es un error. Solo que se debe cuidar la justa medida. Si uno se derrama la cabeza por exceso de arrogancia, pierde la posición favorable por la falta de moderación.
 
----
 
 ## Observación
 
 Así como el signo "Después de la Consumación" representa la transición gradual desde la época de ascenso, pasando por la cima de la cultura, hasta el tiempo de estancamiento, así el signo "Antes de la Consumación" representa la transición desde el caos hacia el orden. Este signo se encuentra al final del Libro de las Mutaciones. Señala que en todo final yace un nuevo comienzo. Así da esperanza a los hombres. El Libro de las Mutaciones es un libro del futuro.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

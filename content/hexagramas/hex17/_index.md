@@ -23,7 +23,6 @@ translationKey: "hex17"
 
 En la región superior se despliega Lo Alegre, cuyo atributo intrínseco es la alegría; en la inferior se sitúa Lo excitante, que se caracteriza por el movimiento. La presencia de la alegría impulsando el movimiento conduce de manera natural al seguimiento. Desde la perspectiva de los componentes familiares, Lo Alegre representa a la hija menor, mientras que Lo excitante encarna al hijo mayor. Aquí, un hombre maduro se coloca por debajo de una joven y le manifiesta una consideración atenta; mediante este gesto de humildad y respeto, logra que ella lo siga de manera voluntaria.
 
----
 
 ## El Dictamen
 
@@ -36,7 +35,6 @@ Pero el movimiento alegre también puede llevar a lo perjudicial. Por eso se añ
 
 El pensamiento del seguimiento mediante la adaptación a lo que el tiempo requiere es grande e importante; por eso también el dictamen añadido es tan favorable.
 
----
 
 ## La Imagen
 
@@ -45,7 +43,6 @@ Así, al caer la oscuridad de la noche, El Noble se retira al descanso y al repo
 
 En otoño, la electricidad se repliega en la tierra y reposa. El trueno en medio del lago no es tomado como imagen el trueno en movimiento, sino el trueno del reposo invernal. El seguimiento resulta de esta imagen en el sentido de la adaptación a las exigencias del tiempo. El trueno en medio del lago señala tiempos de oscuridad y reposo. Así, El Noble, después de haber estado activo infatigablemente durante el día, se concede por la noche descanso y reposo. Cada situación solo se vuelve buena si uno es capaz de adaptarse a ella y no se agota mediante una resistencia equivocada.[^1]
 
----
 
 ## Las Líneas Individuales
 
@@ -89,9 +86,8 @@ Se trata de una persona que ya ha dejado atrás, para sí misma, el ajetreo del 
 
 El ejemplo está tomado de la dinastía Zhou. Esta dinastía honraba a los colaboradores meritorios dándoles un lugar en el templo ancestral de la familia gobernante en el Monte del Oeste. Así, tal hombre era incorporado al ámbito del destino de la casa gobernante.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

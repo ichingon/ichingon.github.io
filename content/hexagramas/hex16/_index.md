@@ -25,7 +25,6 @@ La línea fuerte en el cuarto puesto, el puesto del funcionario director, encuen
 
 {{< youtube-short "4RNEEY2yp74" "Instantánea del hexagrama 16" >}}
 
----
 
 ## El Dictamen
 

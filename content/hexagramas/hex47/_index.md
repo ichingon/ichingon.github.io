@@ -21,7 +21,6 @@ translationKey: "hex47"
 
 El signo alude a una situación en la que el lago está vacío y exhausto por tener el agua debajo de él. El concepto de la extenuación también se manifiesta en la estructura de las líneas: en la parte superior, una línea oscura frena a dos líneas fuertes; en la parte inferior, una línea fuerte se encuentra aprisionada entre dos oscuras. Así, en todas partes, los Nobles se verán oprimidos y limitados por los hombres vulgares.
 
----
 
 ## El Dictamen
 
@@ -33,7 +32,6 @@ Los tiempos de adversidad son lo opuesto al éxito material. Sin embargo, pueden
 
 Pero el hombre vulgar no es capaz de esto; solo el Gran Hombre obra la ventura y permanece sin error. Es verdad que en el plano externo se le niega la influencia inicial, ya que sus palabras no generan ningún impacto. Por lo tanto, en tiempos de angustia, lo que corresponde es mantenerse fuerte en el interior y hablar muy poco.
 
----
 
 ## La Imagen
 
@@ -44,9 +42,8 @@ Pero el hombre vulgar no es capaz de esto; solo el Gran Hombre obra la ventura y
 
 Cuando el agua del lago se ha filtrado hacia abajo, el lago se seca y se agota. Esto es el destino, y representa la imagen de los destinos adversos en la vida humana. En tales épocas no queda más por hacer que aceptar el destino propio y mantenerse fiel a uno mismo. Al actuar así, se apela a la capa más profunda del verdadero ser, pues solo ella es superior a cualquier destino externo.
 
----
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Seis al principio significa:
 > Uno se sienta oprimido bajo un árbol seco
@@ -93,7 +90,6 @@ Se trata de alguien que lleva en el corazón el bienestar de los hombres, pero s
 
 El individuo se encuentra atado por ligaduras que en realidad son fáciles de romper. La opresión se aproxima a su término, pero él todavía se muestra vacilante. Se halla bajo la influencia del estado anterior y teme que cualquier movimiento le cause arrepentimiento. Sin embargo, tan pronto como recobre la lucidez, abandone esa actitud mental y adopte una resolución firme, logrará dominar la opresión por completo.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

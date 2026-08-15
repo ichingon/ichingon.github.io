@@ -21,7 +21,6 @@ translationKey: "hex48"
 
 Abajo se encuentra la madera y arriba el agua. La madera penetra en la tierra para extraer el agua hacia la superficie, evocando la imagen del antiguo pozo de palanca chino. La madera no hace alusión a los cubos -que en tiempos remotos eran de arcilla-, sino a la pértiga cuyos movimientos elevan el agua desde el pozo. Esta imagen describe también el comportamiento de las plantas, cuyos vasos conductores absorben el líquido del suelo y lo elevan. El pozo, del que se extrae agua, contiene además la idea de un suministro inagotable de alimento.
 
----
 
 ## El Dictamen
 
@@ -38,7 +37,6 @@ Las capitales solían ser trasladadas en la antigua China debido a razones estra
 
 Para una buena organización estatal o social de los hombres se requiere, sin embargo, un doble rigor: se debe descender hasta las bases de la vida. Toda superficialidad en el ordenamiento vital que deje insatisfechas las necesidades más profundas es tan imperfecta como si no se hubiera hecho ningún intento de ordenamiento. Del mismo modo, la negligencia que rompe el cántaro es funesta. Si, por ejemplo, la protección militar de un Estado se exagera hasta provocar guerras que aniquilan el poder del Estado, eso es una ruptura del cántaro. También para el hombre individual este signo es relevante. Por muy diferentes que sean las disposiciones y formaciones de los hombres, la naturaleza humana en sus fundamentos es la misma en todos. Y cada hombre puede, en su formación, extraer de la fuente inagotable de la naturaleza divina del ser humano. Pero también aquí acechan dos peligros: uno, que en la propia formación no se penetre hasta las verdaderas raíces de lo humano, sino que se quede atrapado en la convención -una semiformación que es tan mala como la ignorancia-; o que uno colapse repentinamente y descuide la formación de su ser.
 
----
 
 ## La Imagen
 
@@ -48,7 +46,6 @@ Para una buena organización estatal o social de los hombres se requiere, sin em
 
 Abajo está el signo de la Madera, arriba el del Agua. La madera absorbe el agua hacia lo alto. Del mismo modo que la madera, como organismo, imita la actividad del pozo en beneficio de todas las partes de la planta, el Noble ordena la sociedad humana para que, como un organismo vegetal, se articule en beneficio del todo.
 
----
 
 ## Las Líneas Individuales
 
@@ -90,7 +87,6 @@ Este es un buen pozo que tiene en su fondo una fuente de agua viva. Un hombre qu
 
 El pozo está ahí para todos. Ninguna prohibición impide a quienes lo extraen. Por muchos que vengan, encuentran lo que necesitan; pues el pozo es fidedigno. Tiene una fuente y no se agota; por eso es una gran ventura para todo el país. Así es el hombre verdaderamente grande, inagotablemente rico en bien interior. Cuantos más hombres extraen de él, mayor se hace su riqueza.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

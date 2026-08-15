@@ -23,7 +23,6 @@ translationKey: "hex18"
 
 El ideograma chino Gǔ representa una vasija en cuyo interior crecen gusanos. Esto significa lo corrompido o lo echado a perder. Tal estado se ha producido porque la suave complacencia del signo inferior se ha conjugado con la rígida inercia del signo superior, provocando el estancamiento de las circunstancias. Dado que aquí subyace una negligencia o culpabilidad, estas situaciones conllevan implícito el llamado a su eliminación. Por lo tanto, el sentido del signo no es simplemente "lo corrompido", sino "lo corrompido como tarea", es decir, "la labor sobre lo corrompido".
 
----
 
 ## El Dictamen
 
@@ -36,7 +35,6 @@ Lo que se ha corrompido por descuidos humanos puede ser enmendado mediante el tr
 
 Sin embargo, el éxito tiene como condición previa una profunda reflexión. Esto se expresa en la advertencia adicional: "Tres días antes del punto de partida, tres días después del punto de partida". Primero se deben desentrañar las causas que originaron la corrupción antes de poder erradicarlas; de ahí la necesidad de prestar atención durante el tiempo previo al comienzo. Luego, es imperativo asegurarse de que el nuevo rumbo se consolide firmemente para evitar cualquier recaída; de ahí la vigilancia requerida después de iniciar la marcha. En lugar de la indiferencia y la apatía que condujeron al deterioro, deben surgir la determinación y la energía, permitiendo que sobre el final florezca un nuevo comienzo.
 
----
 
 ## La Imagen
 
@@ -45,7 +43,6 @@ Sin embargo, el éxito tiene como condición previa una profunda reflexión. Est
 
 Cuando el viento sopla al pie de la montaña, es rechazado por esta y termina dañando la vegetación. Esto contiene una exhortación a la enmienda. Lo mismo ocurre con los estados de ánimo bajos y las modas decadentes: introducen la corrupción en la sociedad humana. Para eliminarla, El Noble debe renovar a la comunidad. Los métodos para lograrlo se derivan también de ambos trigramas primordiales, solo que sus efectos se despliegan de forma ordenada y sucesiva. Primero debe romper el estancamiento sacudiendo la opinión pública (tal como actúa el viento al agitarlo todo), para luego fortalecer y pacificar el carácter de las personas (tal como la montaña otorga calma y sustento a todo lo que crece a su alrededor).
 
----
 
 ## Las Líneas Individuales
 
@@ -89,9 +86,8 @@ No todo ser humano está obligado a mezclarse en los asuntos del mundo. Existen 
 
 [^1]: En Europa, la postura de Goethe tras las guerras napoleónicas constituye un claro ejemplo de esta forma de actuar.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

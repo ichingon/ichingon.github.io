@@ -27,7 +27,6 @@ El signo representa la imagen de una casa. El trazo superior es el techo. Al rom
 
 El signo está asignado al noveno mes (octubre-noviembre). La fuerza yin penetra cada vez más poderosa y está a punto de desplazar por completo a la fuerza yang.
 
----
 
 ## El Dictamen
 
@@ -36,7 +35,6 @@ El signo está asignado al noveno mes (octubre-noviembre). La fuerza yin penetra
 
 Es una época en la que los hombres vulgares avanzan y están a punto de desplazar a los últimos fuertes y nobles. Por ello, como esto está fundado en el curso del tiempo, no es propicio para el Noble emprender algo bajo tales circunstancias. De las imágenes y sus propiedades se puede extraer la conducta correcta en tiempos adversos. El signo inferior significa la Tierra, cuya propiedad es la flexibilidad y la entrega; el signo superior significa la Montaña, cuya propiedad es el reposo. Esto sugiere el consejo de adaptarse al mal momento y permanecer en calma. No se trata aquí de acción humana, sino de condiciones temporales que, según leyes celestiales, muestran también un cambio de aumento y disminución, plenitud y vacío. A estas condiciones temporales no se les puede oponer resistencia. Por lo tanto, no es cobardía sino sabiduría adaptarse y evitar actuar.
 
----
 
 ## La Imagen
 
@@ -45,7 +43,6 @@ Es una época en la que los hombres vulgares avanzan y están a punto de desplaz
 
 La montaña reposa sobre la tierra. Si es escarpada y estrecha y no tiene una base amplia, entonces debe derrumbarse. Solo si se eleva desde la tierra de manera ancha y grande, no orgullosa ni empinada, su posición está asegurada. Así también los gobernantes reposan sobre la amplia base del pueblo. También para ellos es válido ser generosos y magnánimos, como la tierra que todo lo sostiene; entonces pondrán su posición a salvo como el reposo de una montaña.
 
----
 
 ## Las Líneas Individuales
 
@@ -85,7 +82,7 @@ Aquí, en la inmediata proximidad del principio fuerte y luminoso superior, la n
 
 Aquí se ha alcanzado el fin de la desintegración. Cuando la desventura se ha desahogado, vuelven tiempos mejores. La semilla del bien aún permanece. Justo cuando la fruta cae a la tierra, de su semilla vuelve a brotar el bien. El Noble recupera influencia y eficacia. Es llevado por la opinión pública como sobre un carro. Pero en el hombre vulgar se venga su maldad. Su casa se desmorona. En ello reside una ley natural. Lo malo no solo es perjudicial para lo bueno, sino que en sus últimas consecuencias se aniquila a sí mismo; pues lo malo, que solo vive de la negación, no puede subsistir por sí mismo. También al hombre vulgar le va mejor cuando es mantenido a raya por un Noble.
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

@@ -23,7 +23,6 @@ translationKey: "hex21"
 
 El signo representa una boca abierta (cf. Nº 27, I) con un obstáculo entre los dientes (en el cuarto puesto). Como consecuencia, los labios no pueden unirse. Para lograr la unión, es necesario morder con energía el obstáculo hasta romperlo. El signo se compone además de los signos del trueno y el relámpago, para indicar cómo se eliminan los obstáculos en la naturaleza de manera violenta. La mordedura enérgica supera el obstáculo de la unión en la boca. La tormenta con trueno y relámpago supera la tensión perturbadora en la naturaleza. El proceso judicial y el castigo superan las perturbaciones de la vida armónica en común causadas por criminales y calumniadores. A diferencia del signo Nº 6, La Contienda, donde se trata de procesos civiles, aquí se trata del proceso penal.
 
----
 
 ## El Dictamen
 
@@ -34,7 +33,6 @@ Cuando un obstáculo se opone a la unión, el morder enérgicamente crea Éxito.
 
 Pero es preciso proceder de la manera correcta. El signo está compuesto por Lí, claridad, y Zhèn, excitación. Lí es suave, Zhèn es duro. La mera dureza y excitación sería demasiado violenta al castigar. La mera claridad y suavidad sería demasiado débil. Ambas unidas crean la justa medida. Es importante que el hombre decisivo, que está representado por el quinto trazo, sea por naturaleza benigno, mientras que por su posición actúa de manera imponente.
 
----
 
 ## La Imagen
 
@@ -93,7 +91,7 @@ A diferencia de la línea inicial, se trata aquí de un hombre incorregible. Lle
 > Sobre: »Al principio, un Nueve« comenta Kung Tse: "El hombre vulgar no se avergüenza de su falta de amor ni teme a la injusticia. Si no ve un beneficio, no se mueve. Si no se le intimida, no mejora. Pero si se le corrige en lo pequeño, se cuida en lo grande. Esto es una ventura para el hombre vulgar".  
 > Sobre: »Al final, un Nueve« comenta Kung Tse: "Si el bien no se acumula, no basta para hacer a alguien famoso. Si el mal no se acumula, no es lo suficientemente fuerte como para aniquilar a alguien. Por eso el hombre vulgar piensa: las buenas acciones pequeñas no tienen valor; por lo tanto, las omite. Piensa: los pecados pequeños no hacen daño. Por lo tanto, no se desprende de ellos. Así, sus pecados se acumulan hasta que no pueden ocultarse más, y su culpa es tan grande que ya no puede disolverse".
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

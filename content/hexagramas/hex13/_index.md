@@ -25,7 +25,6 @@ La imagen del trigrama superior, Qián, es el cielo; la del inferior, Li, es la 
 
 {{< youtube-short "MPDztLj3udA" "Instantánea del hexagrama 13" >}}
 
----
 
 ## El Dictamen
 
@@ -98,7 +97,7 @@ Falta aquí la cálida unión del corazón. Uno se encuentra propiamente ya fuer
 
 [^1]: El signo interno significa claridad, el externo fuerza.
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

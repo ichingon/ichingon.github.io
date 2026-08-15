@@ -21,7 +21,6 @@ translationKey: "hex42"
 
 El concepto del aumento se expresa en que la línea fuerte inferior del trigrama superior se ha desplazado hacia abajo, situándose debajo del trigrama inferior. El principio fundamental del Libro de las Mutaciones se manifiesta también en esta concepción. El verdadero ejercicio del poder debe ser servicio. Un sacrificio de lo superior que produce un aumento de lo inferior se denomina aumento por excelencia, para indicar así el espíritu que solo él es capaz de ayudar al mundo.
 
----
 
 ## El Dictamen
 
@@ -29,7 +28,6 @@ El concepto del aumento se expresa en que la línea fuerte inferior del trigrama
 
 A través del sacrificio que proviene de lo alto para enriquecer a lo inferior, se genera en el pueblo una disposición de alegría y gratitud, sumamente valiosa para el florecimiento de la comunidad. Cuando los hombres están tan apegados a sus guías, entonces es posible emprender algo, y también las cosas difíciles y peligrosas llegarán a buen término. Por ello, en tiempos de ascenso como estos, cuyo desarrollo va acompañado de éxito, es necesario trabajar y aprovechar el momento. Este tiempo es como la época en que el cielo y la tierra se desposan, cuando la tierra participa de la fuerza creadora del cielo y entonces configura y realiza a los seres vivos. El tiempo del aumento no dura, por eso debe ser aprovechado mientras está ahí.
 
----
 
 ## La Imagen
 
@@ -39,9 +37,8 @@ A través del sacrificio que proviene de lo alto para enriquecer a lo inferior, 
 
 Al observar cómo el trueno y el viento se aumentan y fortalecen mutuamente, se aprende el camino para el propio aumento y mejoramiento personal. Cuando se descubre algo bueno en otros, se debe imitar y así apropiarse de todo lo bueno sobre la tierra. Si se ve algo malo en sí mismo, se debe abandonar. De este modo uno se libera del mal. Esta transformación ética es el aumento más importante de la personalidad.
 
----
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Nueve al principio significa:
 > Es propicio realizar grandes hazañas.
@@ -88,8 +85,7 @@ El sentido de la situación es que los superiores mediante la renuncia deben aum
 
 Confucio dice sobre esta línea: «El Noble aquieta su persona antes de moverse; se concentra en su sentido antes de hablar; consolida sus relaciones antes de pedir algo. Al poner en orden estas tres cosas, el Noble está en completa seguridad. Pero si uno es precipitado en sus movimientos, la gente no colabora. Si uno está agitado en sus palabras, no encuentran eco en la gente. Si uno exige algo sin relaciones previas, la gente no se lo concede. Si nadie está con uno, entonces los dañadores se acercan».
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

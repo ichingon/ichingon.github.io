@@ -21,7 +21,6 @@ translationKey: "hex51"
 
 El signo Zhèn (Lo excitante) es el hijo mayor, que asume el dominio con energía y poder. Una línea Yang nace por debajo de dos líneas Yin y se abre paso hacia arriba de manera imponente. Este movimiento es tan violento que despierta terror. Como imagen se utiliza el trueno, que irrumpe desde la Tierra y causa temor y temblor debido a su conmoción.
 
----
 
 ## El Dictamen
 
@@ -33,7 +32,6 @@ El signo Zhèn (Lo excitante) es el hijo mayor, que asume el dominio con energí
 
 La conmoción que se eleva por la manifestación de Dios en el interior de la Tierra hace que el ser humano sienta temor; sin embargo, este temor ante Dios es algo bueno, ya que permite que después surjan la alegría y el gozo. Cuando uno ha aprendido internamente lo que significan el temor y el temblor, queda protegido contra el espanto provocado por las influencias externas. Aunque el trueno ruge y asusta a cien millas a la redonda, uno permanece tan sereno y reverente en su interior que no interrumpe la ceremonia del sacrificio. Una seriedad interna tan profunda, que hace rebotar de forma inofensiva cualquier terror exterior, es la actitud espiritual que deben poseer los gobernantes y los líderes de los hombres.
 
----
 
 ## La Imagen
 
@@ -43,7 +41,6 @@ La conmoción que se eleva por la manifestación de Dios en el interior de la Ti
 
 El trueno continuo trae consigo temor y temblor a causa de su sacudida. Del mismo modo, El Noble se mantiene siempre en un estado de reverencia ante la manifestación de Dios, pone en orden su vida y examina su corazón para asegurarse de que nada contradiga secretamente la voluntad divina. Así, la reverencia se convierte en el fundamento para la formación de una vida auténtica.
 
----
 
 ## Las Líneas Individuales
 
@@ -94,7 +91,6 @@ La conmoción interna arrebata la presencia de ánimo y la claridad de la mirada
 
 Sin embargo, uno solo es capaz de esto mientras no haya sido contagiado por la agitación, pudiendo observar los efectos funestos de dicha alteración en su entorno. Si uno se retira de la acción a tiempo, permanecerá libre de errores y daños. Aunque los compañeros, en medio de su excitación, se nieguen a escuchar advertencias y se muestren insatisfechos con esta retirada, pero no se debe prestar atención a eso.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

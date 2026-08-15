@@ -25,7 +25,6 @@ El signo significa lo pequeño, la fuerza de lo sombrío, que retiene, doma, fre
 
 {{< youtube-short "Ff7E2u3DQyU" "Instantánea del hexagrama 9" >}}
 
----
 
 ## El Dictamen
 
@@ -34,7 +33,6 @@ El signo significa lo pequeño, la fuerza de lo sombrío, que retiene, doma, fre
 
 Esta alegoría proviene de la situación de las circunstancias en China en tiempos del rey Wen. Él provenía del oeste, pero se hallaba entonces en el este, en la corte del gran rey, el tirano Zhou Xin. El momento para actuar en grande aún no había llegado. Solo podía frenar al tirano mediante amables amonestaciones. De ahí la imagen: densas nubes se elevan, prometiendo humedad y bendición a la tierra, pero aún no cae la lluvia. La situación no es desfavorable. Se vislumbra un éxito final. Pero aún hay obstáculos en el camino. Solo se pueden hacer trabajos preparatorios. Solo mediante pequeños medios de amable persuasión se puede obrar. El tiempo de actuar en grande aún no ha llegado. Pero al menos se logra, en un ámbito limitado, ejercer una acción de freno y domesticación. Para ello es necesaria una firme determinación en el interior y una suave adaptación en el exterior, a fin de imponer la propia voluntad.
 
----
 
 ## La Imagen
 
@@ -43,7 +41,6 @@ Esta alegoría proviene de la situación de las circunstancias en China en tiemp
 
 El viento ciertamente empuja las nubes en el cielo, pero al ser mero aire sin cuerpo sólido, no produce grandes efectos duraderos. Así, en tiempos en que no es posible un gran efecto hacia afuera, al hombre solo le queda refinar su esencia en sus manifestaciones externas.
 
----
 
 ## Las Líneas Individuales
 
@@ -93,9 +90,8 @@ La fidelidad conduce a una unión firme, porque descansa en la mutua complementa
 
 El éxito está ahí. El viento ha reunido la lluvia. Se ha alcanzado una posición firme. Esto ha llegado por la acumulación gradual de pequeños efectos que resultan de la veneración por un carácter superior. Un éxito así, acumulado pieza por pieza, requiere mucha cautela. Si uno se entregara a la ilusión de que puede apoyarse en él, sería peligroso. Lo femenino, lo débil que ha obtenido la victoria, no debe invocarlo jamás con obstinación. Eso traería peligro. La fuerza sombría en la luna es más fuerte cuando está casi llena. Si está como luna llena directamente frente al sol, su mengua es inevitable. En tales circunstancias, uno debe contentarse con lo alcanzado. Seguir adelante antes de que llegue el momento traería desventura.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

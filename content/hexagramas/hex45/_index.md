@@ -17,7 +17,6 @@ translationKey: "hex45"
 
 El signo está emparentado con el signo Bi, la Solidaridad (n.º 8), en forma y significado. Allí el agua sobre la tierra, aquí un lago sobre la tierra. El lago es el punto de reunión del agua, por lo tanto la idea de la reunión está expresada aquí aún más fuertemente que en aquel signo. El mismo pensamiento fundamental resulta también de que aquí hay dos trazos fuertes en el cuarto y quinto lugar, los cuales efectúan la reunión, mientras que allí solo hay un trazo en el quinto lugar en medio de los débiles.
 
----
 
 ## El Dictamen
 
@@ -30,7 +29,6 @@ El signo está emparentado con el signo Bi, la Solidaridad (n.º 8), en forma y 
 
 La agrupación de los seres humanos en comunidades amplias puede ser natural, como ocurre en la familia, o artificial y organizada, como sucede en el Estado. La familia se congrega en torno al padre como su cabeza, y la continuidad de esta cohesión se consagra a través de los sacrificios a los antepasados, donde todo el clan se reúne. Mediante la devoción colectiva de los vivos, el espíritu de los ancestros se concentra y unifica, impidiendo que se disipe o se disuelva. Para congregar y unificar a los hombres se requiere la intervención de fuerzas espirituales y religiosas. Sin embargo, también es indispensable la presencia de un líder humano que sirva como eje central de la cohesión. Para ser capaz de reunir a otros, este centro debe estar primero firmemente unificado y centrado en sí mismo. Solo una fuerza moral concentrada posee la facultad de cohesionar al mundo. Estas grandes épocas de unificación dejan como legado obras de inmensa envergadura, lo cual constituye el sentido profundo de las grandes ofrendas y proyectos que se ejecutan en el plano material.
 
----
 
 ## La Imagen
 
@@ -41,7 +39,6 @@ La agrupación de los seres humanos en comunidades amplias puede ser natural, co
 
 Cuando las aguas se acumulan en el lago hasta elevarse por encima de la tierra, existe el riesgo inminente de un desbordamiento. Ante esto, es imperativo tomar precauciones. Del mismo modo, donde los seres humanos se congregan en gran número, surgen con facilidad las fricciones y disputas; y donde se acumulan los bienes materiales, se incita al robo. Por lo tanto, en tiempos de reunión y concentración, es fundamental armarse y prepararse con presteza para repeler los ataques inesperados. El sufrimiento en el mundo suele irrumpir debido a contingencias para las que no se estaba preparado; si uno se mantiene alerta y prevenido, el peligro se puede evitar.
 
----
 
 ## Las Líneas Individuales
 
@@ -92,8 +89,7 @@ Cuando las personas se agrupan en torno a uno de forma espontánea y debido a la
 
 Puede suceder que las intenciones de alguien sean completamente nobles y busque sinceramente la unión, pero que sus propósitos sean malinterpretados o rechazados por los demás. Esto genera tristeza y un profundo dolor. No obstante, expresar este sufrimiento es el camino adecuado, pues el dolor manifiesto puede conmover el corazón del otro, llevándolo a la reflexión y permitiendo alcanzar finalmente esa unión que se creía perdida.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

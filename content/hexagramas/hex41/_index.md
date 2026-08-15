@@ -21,7 +21,6 @@ translationKey: "hex41"
 
 El signo representa una disminución del signo inferior en favor del superior, al haber pasado hacia arriba el tercer trazo, originalmente fuerte, y haber ocupado su lugar el trazo débil originalmente superior. Lo de abajo resulta, pues, disminuido en beneficio de lo de arribo. Esto es la disminución pura y simple. Si se disminuye el fundamento de una construcción y se refuerzan sus muros superiores, el conjunto pierde en solidez. Del mismo modo, una disminución de la prosperidad del pueblo en beneficio del gobierno es una disminución pura y simple. Y toda la tendencia del signo apunta a indicar cómo puede producirse este desplazamiento de la prosperidad sin que por ello se sequen las fuentes de la prosperidad en el pueblo y en sus estratos inferiores.
 
----
 
 ## El Dictamen
 
@@ -33,7 +32,6 @@ El signo representa una disminución del signo inferior en favor del superior, a
 
 La disminución no significa en todas circunstancias algo malo. Aumento y disminución llegan a su tiempo. Entonces hay que saber adaptarse al tiempo y no querer ocultar la pobreza mediante apariencia vacía. Cuando a través de un tiempo de escasez se expresa una verdad interior, entonces no debe uno avergonzarse de la sencillez. Ella es entonces precisamente lo correcto, que otorga fuerza interior, gracias a la cual se puede luego emprender algo. No hay que tener reparo alguno incluso si la belleza exterior de la cultura, e incluso la configuración de las relaciones religiosas, tuviera que padecer bajo la sencillez. Hay que tomar algo de la fuerza de la disposición interior y añadírselo a la pobreza de la apariencia externa como sustituto. Entonces la fuerza del contenido ayuda a superar la sencillez de la forma. Ante Dios no se necesita la apariencia falsa. También con medios escasos se puede expresar la disposición del corazón[^1].
 
----
 
 ## La Imagen
 
@@ -43,7 +41,7 @@ La disminución no significa en todas circunstancias algo malo. Aumento y dismin
 
 El lago al pie de la montaña se evapora. Con ello es disminuido en beneficio de la montaña, que es enriquecida por su humedad. La montaña es la imagen de la fuerza obstinada que puede condensarse en ira; el lago es la imagen de la alegría descontrolada que puede convertirse en impulsos apasionados cuando se desarrolla a costa de las fuerzas vitales. Entonces hay que disminuir: la ira debe ser disminuida mediante el reposo, los instintos deben ser frenados mediante la restricción. Mediante esta disminución de las potencias anímicas inferiores se enriquecen los aspectos superiores del alma.
 
-## Las líneas individuales
+## Las Líneas Individuales
 
 ### Nueve al principio significa:
 > Cuando los asuntos están terminados,
@@ -95,6 +93,6 @@ Hay personas que derraman bendición para el mundo entero. Cada aumento de fuerz
 
 [^1]: Cf. el óbolo de la viuda en el Evangelio de Lucas.
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

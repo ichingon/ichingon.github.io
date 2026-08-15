@@ -22,7 +22,6 @@ translationKey: "hex26"
 
 Lo "Creativo" es refrenado por el "Reposo". Esto genera una fuerza de domesticación inmensa, muy diferente a la del hexagrama 9, donde solo "Lo Suave" refrena a lo "Creativo". Mientras que allí una sola línea débil debía contener a cinco líneas fuertes, aquí son dos las encargadas de hacerlo: además del ministro, interviene también el príncipe. Por esta razón, su fuerza de domesticación es significativamente mayor. Este signo encierra un triple significado: el Cielo en medio de la montaña evoca la idea de asir firmemente o mantener unidos los elementos; el signo Gen, al detener al signo Kien, aporta la noción de contener o retener; por último, dado que una línea fuerte corona el hexagrama como señor del signo, representando al sabio que es honrado y cuidado, surge el concepto de nutrir, cultivar y alimentar de manera sostenida. Esta última perspectiva cobra especial relevancia en la línea superior fuerte, que encarna propiamente al sabio.
 
----
 
 ## El Dictamen
 
@@ -32,7 +31,6 @@ Lo "Creativo" es refrenado por el "Reposo". Esto genera una fuerza de domesticac
 
 Para contener y acumular fuerzas creativas tan magnitudes como las representadas en este signo, se requiere de un hombre firme y lúcido que goce de la estima del gobernante. El signo Kien apunta a una poderosa energía creadora, mientras que Gen representa la firmeza y la verdad; ambos confluyen en la luz, la claridad y la renovación cotidiana del carácter. Solo mediante esta auto-renovación diaria es posible mantenerse en la cúspide de la propia fuerza. En tiempos de calma, el poder del hábito contribuye a sostener el orden establecido; sin embargo, en épocas de gran acumulación de energía, todo depende exclusivamente de la fuerza de la personalidad. Debido a que se honra a las personas valiosas —como lo demuestra la personalidad fuerte a quien el gobernante confía la dirección—, resulta favorable no comer en casa, sino ganarse el sustento en la esfera pública asumiendo un cargo oficial. Uno se encuentra en armonía con el Cielo; por lo tanto, incluso las empresas más difíciles y arriesgadas, como el cruce de las grandes aguas, están destinadas al éxito.
 
----
 
 ## La Imagen
 
@@ -43,7 +41,6 @@ Para contener y acumular fuerzas creativas tan magnitudes como las representadas
 
 El cielo en medio de la montaña evoca la presencia de tesoros ocultos. Del mismo modo, en las palabras y los hechos del pasado yace un tesoro escondido que puede utilizarse para fortalecer y elevar el propio carácter. Esta es la verdadera esencia del estudio: no limitarse a la mera acumulación de conocimiento histórico, sino actualizar la historia de forma constante mediante su aplicación.
 
----
 
 ## Las Líneas Individuales
 
@@ -81,9 +78,8 @@ En este punto, la domesticación del que avanza impetuosamente se logra de maner
 
 El tiempo de la obstrucción ha quedado atrás. La fuerza acumulada pacientemente durante la retención se abre paso con un éxito clamoroso. Se trata de un sabio honrado por el gobernante, cuyos principios finalmente se imponen y transforman el mundo.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

@@ -24,7 +24,6 @@ El nombre del signo significa "en general", "universal" y, en sentido figurado, 
 
 Así como la primera sección del Libro de las Mutaciones se abre con los signos del Cielo y de la Tierra como fundamentos de todo lo existente, esta segunda sección comienza con los signos del cortejo y el matrimonio, que constituyen la base de todas las relaciones sociales.
 
----
 
 ## El Dictamen
 
@@ -36,7 +35,6 @@ Lo débil se encuentra arriba y lo fuerte abajo; debido a esto, sus fuerzas se a
 
 Esta atracción de lo que es afín por naturaleza constituye una ley universal del cosmos. El cielo y la tierra se atraen mutuamente, y así cobran vida todos los seres. El sabio influye en los corazones de los hombres mediante esta misma atracción, y gracias a ello el mundo alcanza la paz. A través de las fuerzas de atracción que ejercen las cosas, es posible comprender la naturaleza de todos los seres en el cielo y en la tierra.
 
----
 
 ## La Imagen
 
@@ -46,7 +44,6 @@ Esta atracción de lo que es afín por naturaleza constituye una ley universal d
 
 Una montaña que alberga un lago en su cumbre recibe el estímulo y la fertilidad de sus aguas. Este beneficio le es concedido porque su cima no sobresale en punta, sino que se encuentra ahondada. La imagen nos brinda el consejo de mantenernos interiormente humildes y libres de prejuicios, permaneciendo así receptivos a los buenos consejos. Quien pretende saberlo todo de antemano, pronto se quedará sin nadie que lo oriente.
 
----
 
 ## Las Líneas Individuales
 
@@ -92,9 +89,8 @@ La nuca es la parte más rígida e inmóvil del cuerpo. Cuando la influencia se 
 
 La forma más superficial de intentar ganar influencia sobre los demás consiste en la mera palabrería, el discurso vacuo desprovisto de un sustrato real y sincero. Semejante estímulo, nacido exclusivamente del movimiento de los órganos del habla, carece por completo de trascendencia. Por esta razón, el texto omitió añadir cualquier augurio de fortuna o desgracia.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

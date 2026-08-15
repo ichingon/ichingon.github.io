@@ -25,7 +25,6 @@ El nombre chino del signo posee, según una leve variación en la acentuación, 
 
 El signo está asociado al octavo mes (septiembre-octubre), período en el que la fuerza de la luz se retira mientras que la fuerza oscura vuelve a ascender. No obstante, este aspecto no se toma en cuenta para la explicación general del signo.
 
----
 
 ## El Dictamen
 
@@ -37,7 +36,6 @@ La celebración ritual del sacrificio en China comenzaba con una ablución y una
 
 De igual modo, en la naturaleza se manifiesta una seriedad sagrada a través de la regularidad y la inmutabilidad de sus leyes. La contemplación del sentido divino que rige el devenir universal proporciona al hombre llamado a influir sobre los demás los medios para generar esos mismos efectos. Para ello se requiere un recogimiento interior como el que la contemplación religiosa despierta en los espíritus grandes y firmes en su fe. Esto les permite vislumbrar las misteriosas leyes divinas de la existencia y, gracias al rigor de su concentración, plasmarlas en su propia personalidad. De este modo, su mera presencia irradia un poder espiritual misterioso que cautiva y rige a los hombres sin que estos se den cuenta de cómo sucede.
 
----
 
 ## La Imagen
 
@@ -49,7 +47,6 @@ Cuando el viento sopla sobre la tierra, llega a todas partes y la hierba debe pl
 
 Todo esto señala el poder de la personalidad superior. Un individuo con estas cualidades sabrá discernir las verdaderas intenciones de la multitud sin que sea posible engañarlo y, por la sola fuerza de su presencia, causará tal impresión que los hombres se orientarán según sus directrices, tal como la hierba sigue la dirección del viento.
 
----
 
 ## Las Líneas Individuales
 
@@ -94,7 +91,7 @@ Mientras que la línea anterior mostraba a un hombre examinándose a sí mismo, 
 
 [^1]: La diferencia en la valoración del comportamiento de hombre y mujer no se limita a la antigua China. La imagen que Schiller traza de la ama de casa en «La campana» se mueve completamente en este mismo círculo de ideas.
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

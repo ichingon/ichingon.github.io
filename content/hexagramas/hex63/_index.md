@@ -21,7 +21,6 @@ translationKey: "hex63"
 
 Este signo es la configuración del signo T'ai, la Paz (nº 11). La transición de la confusión al orden se ha consumado, y ahora también en lo individual todo está en su lugar. Las líneas fuertes están en los puestos fuertes, las líneas débiles en los puestos débiles. Este es un aspecto muy favorable. Sin embargo, da que pensar. Precisamente cuando se ha alcanzado el equilibrio perfecto, cualquier movimiento puede llevar a que del estado de orden surja de nuevo la desintegración. A la línea fuerte que ha subido y así ha perfeccionado el orden en lo individual, las otras la siguen según su naturaleza, y entonces surge de repente el signo P'i, El Estancamiento (nº 12). Así, el signo indica las condiciones de un punto culminante que exigen la máxima precaución.
 
----
 
 ## El Dictamen
 > Después de la Consumación. Éxito en lo pequeño.  
@@ -30,7 +29,6 @@ Este signo es la configuración del signo T'ai, la Paz (nº 11). La transición 
 
 La transición de la vieja a la nueva época ya se ha consumado. En principio, todo está ya regulado. Solo en lo individual se puede obtener éxito. Sin embargo, para ello es necesario mantener siempre la recta actitud. Todo sigue su curso por sí mismo. Esto tienta fácilmente a que uno se relaje en su tensión y deje correr las cosas sin ocuparse de los detalles. Pero esta indiferencia es la raíz de todo mal. De ella brotan con necesidad los fenómenos de decadencia. Aquí se establece la regla de cómo suele ocurrir en la historia. Pero esta regla no es una ley inevitable. Quien la comprende, puede evitar sus efectos mediante la constancia y la precaución ininterrumpidas.
 
----
 
 ## La Imagen
 > El agua está sobre el fuego: la imagen del estado Después de la Consumación.  
@@ -38,9 +36,8 @@ La transición de la vieja a la nueva época ya se ha consumado. En principio, t
 
 Cuando el agua en la caldera está sobre el fuego, ambos elementos entran en relación y así se genera fuerza. (Compárese la formación del vapor.) Pero la tensión resultante exige precaución. Si el agua se desborda, el fuego se apaga y su efecto de fuerza se pierde. Si el calor es demasiado grande, el agua se evapora y se va al aire. Los elementos que aquí están en relación y actúan con fuerza son en sí mismos enemigos entre sí. Solo la máxima precaución puede evitar el daño. Así también en la vida existen situaciones en que todas las fuerzas están equilibradas y actúan juntas, por lo que aparentemente todo está en el mejor orden. Solo el sabio reconoce en tales tiempos los momentos de peligro y sabe conjurarlos mediante disposiciones oportunas.
 
----
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Al principio un nueve significa:
 > Frena sus ruedas.  
@@ -79,7 +76,6 @@ También la actitud religiosa es influida por el estado anímico en tiempos post
 
 Aquí se añade al final una advertencia. Después de cruzar un agua, solo se puede sumergir la cabeza si uno se vuelve imprudentemente hacia el agua. Mientras se avanza y no se mira atrás, se evita este peligro. Sin embargo, hay algo seductor en detenerse y mirar hacia atrás, al peligro superado. Pero tal vana auto-reflexión no trae ventura. Por ello se cae en peligro, y si no se decide a seguir adelante sin detenerse, se cae víctima de ese peligro.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

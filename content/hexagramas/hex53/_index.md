@@ -21,7 +21,6 @@ translationKey: "hex53"
 
 El signo está compuesto por Xùn (madera, penetración) arriba y afuera, y Gèn (montaña, quietud) abajo y adentro. Un árbol sobre la montaña se desarrolla de forma lenta y ordenada; como consecuencia de ello, echa raíces firmes. De aquí surge la idea del desarrollo gradual, que progresa paso a paso de manera paulatina. Las características de las figuras también apuntan en esta dirección: en el interior se encuentra la quietud, que protege contra las acciones imprudentes, mientras que en el exterior se halla la penetración progresiva, que hace posible el desarrollo y el avance continuo.
 
----
 
 ## El Dictamen
 > El Progreso Gradual.  
@@ -38,7 +37,6 @@ Lo suave y adaptable, capaz de penetrar con constancia, constituye el aspecto ex
 
 Precisamente el carácter gradual de este progreso vuelve indispensable la presencia de la constancia. Solo la perseverancia firme impide que este avance lento termine disipándose sin dejar rastro en la arena.
 
----
 
 ## La Imagen
 > Sobre la montaña hay un árbol: la imagen del Progreso Gradual.  
@@ -46,7 +44,6 @@ Precisamente el carácter gradual de este progreso vuelve indispensable la prese
 
 El árbol sobre la montaña es visible desde grandes distancias, y su crecimiento ejerce una influencia directa sobre el paisaje de toda la región. No brota de golpe de forma desordenada como las plantas de los pantanos, sino que su desarrollo se realiza de manera paulatina. Del mismo modo, la influencia que se ejerce sobre los hombres solo puede ser duradera si se produce de forma gradual. Ningún influjo repentino o conversión arrebatada es sostenible a lo largo del tiempo; el progreso debe ser estrictamente progresivo. Para alcanzar este avance en la opinión pública y en las costumbres sociales, es necesario que la personalidad adquiera un peso moral y una fuerza de gravedad propios. Esto se logra únicamente mediante un trabajo minucioso, constante e ininterrumpido en el propio desarrollo ético.
 
----
 
 ## Las Líneas Individuales
 
@@ -103,7 +100,6 @@ La cumbre representa una posición elevada. En un lugar alto se cae fácilmente 
 
 Aquí la vida ha alcanzado su plenitud y la obra yace completamente terminada. Su trayectoria se eleva hacia el cielo, como el vuelo de las ocas silvestres cuando han abandonado todo suelo terrestre. Allí vuelan y mantienen el orden de su formación, trazando figuras de líneas estrictas. Y cuando sus plumas caen, pueden ser usadas como adorno en las danzas pantomímicas sagradas del templo.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

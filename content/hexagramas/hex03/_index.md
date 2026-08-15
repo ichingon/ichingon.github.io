@@ -25,7 +25,6 @@ El nombre del signo, Chun, representa propiamente una brizna de hierba que al br
 
 {{< youtube-short "-s9IyFgccsM" "Instantánea del hexagrama 3" >}}
 
----
 
 ## El Dictamen
 
@@ -43,7 +42,7 @@ Los tiempos de gestación tienen dificultades. Es como un primer nacimiento. Per
 
 Las nubes y el trueno están representados por determinados ornamentos de líneas, lo que significa que en el caos de la dificultad inicial el orden ya está dispuesto. Así, en tales tiempos iniciales, **El Noble** debe estructurar y ordenar la abundancia confusa, del mismo modo que se separan los hilos de seda de una madeja y se unen en cabos. Para encontrarse en lo infinito, uno debe distinguir y unir.
 
-## Las Líneas Regentes / Móviles
+## Las Líneas Individuales Regentes / Móviles
 
 ### Nueve al principio significa:
 
@@ -101,7 +100,7 @@ Uno se encuentra en la situación de no tener la posibilidad de expresar sus bue
 
 Hay personas para quienes las dificultades iniciales resultan demasiado pesadas. Se quedan atascadas y ya no logran abrirse paso. Dejan caer las manos y abandonan la lucha. Tal renuncia pertenece a lo más triste. Por eso Kungtsé hace al respecto la observación: «Lágrimas de sangre fluyen en abundancia: eso es algo que no se debe hacer continuamente».
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

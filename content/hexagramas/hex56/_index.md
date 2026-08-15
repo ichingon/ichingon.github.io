@@ -21,7 +21,6 @@ translationKey: "hex56"
 
 El monte permanece inmóvil en su sitio, mientras arriba el fuego se enciende y se propaga con rapidez sin detenerse. Al marchar en direcciones opuestas, ambos elementos no pueden unirse de forma permanente. Por esta razón, el desarraigo, la transitoriedad y la separación constituyen el destino inevitable del viajero.
 
----
 
 ## El Dictamen
 > El Viajero.  
@@ -30,7 +29,6 @@ El monte permanece inmóvil en su sitio, mientras arriba el fuego se enciende y 
 
 Cuando alguien se encuentra en la condición de viajero o extranjero, no debe mostrarse rudo ni pretender metas demasiado elevadas. No se tiene un gran círculo de conocidos, por lo tanto no se debe uno jactar. Hay que ser cuidadoso y reservado, así uno se protege del mal. Si se es atento con los demás, se obtienen éxitos. El viajero no tiene una morada fija, la calle es su patria. Por ello debe procurar ser interiormente recto y firme, detenerse solo en lugares buenos y relacionarse solo con personas buenas. Así obtiene ventura y puede recorrer su camino sin ser molestado.
 
----
 
 ## La Imagen
 > El fuego sobre el monte: la imagen del viajero.  
@@ -39,7 +37,6 @@ Cuando alguien se encuentra en la condición de viajero o extranjero, no debe mo
 
 Cuando el fuego consume el pasto de la montaña, produce un resplandor intenso pero efímero, ya que la llama no se detiene y avanza rápido en busca de nuevo alimento. Se trata de un fenómeno puramente pasajero. De la misma forma deben gestionarse las penas y las disputas judiciales: tienen que resolverse con celeridad y evitar que se dilaten en el tiempo de forma innecesaria. Las prisiones deben concebirse como espacios de tránsito temporal que acogen a las personas como si fueran huéspedes, y jamás convertirse en sus viviendas permanentes.
 
----
 
 ## Las Líneas Individuales
 
@@ -84,7 +81,6 @@ A menudo surgen circunstancias que inducen a buscar la patria en el extranjero. 
 
 La imagen del ave cuyo nido es devorado por el fuego muestra la pérdida del lugar de reposo. Si el pájaro fue imprudente y descuidado al construir su nido, puede sufrir esta desgracia. Así también al viajero. Si se abandona a bromas y risas y ya no piensa que es un viajero, más tarde tendrá que llorar y lamentarse. Pues si por ligereza se pierde la vaca, es decir, su modesta capacidad de adaptación, eso es algo malo.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

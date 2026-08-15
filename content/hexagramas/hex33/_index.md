@@ -24,7 +24,6 @@ La fuerza de lo Oscuro se encuentra en pleno ascenso. Lo Luminoso se retira ante
 
 Como signo mensual, este hexagrama está asignado al sexto mes (julio-agosto), periodo en el cual las fuerzas invernales comienzan ya a manifestar sutilmente sus primeros efectos.
 
----
 
 ## El Dictamen
 
@@ -33,7 +32,6 @@ Como signo mensual, este hexagrama está asignado al sexto mes (julio-agosto), p
 
 Las circunstancias son tales que las fuerzas hostiles, favorecidas por el tiempo, avanzan. En este caso, el retiro es lo correcto, y precisamente a través del retiro se alcanza el éxito. El éxito consiste en que se sepa ejecutar el retiro de manera correcta. El retiro no debe confundirse con la huida, que no atiende a otra cosa que a la salvación bajo cualquier circunstancia. El retiro es una muestra de fortaleza. No se debe dejar pasar el momento adecuado, mientras se está en plena posesión de la fuerza y la posición. Entonces se comprende a tiempo cómo interpretar los signos de la época y se prepara un retiro temporal, en lugar de enzarzarse en una lucha desesperada a vida o muerte. Así no se cede simplemente el campo al adversario, sino que se le dificulta el avance mostrando perseverancia en lo individual. De este modo, en el retiro mismo se prepara ya el cambio de rumbo. Comprender las leyes de un retiro tan activo no es fácil. El sentido que permanece oculto en un tiempo así es significativo.
 
----
 
 ## La Imagen
 
@@ -43,7 +41,6 @@ Las circunstancias son tales que las fuerzas hostiles, favorecidas por el tiempo
 
 La montaña se eleva bajo el cielo, pero en su naturaleza reside el que finalmente se detiene. El cielo, en cambio, se retira hacia lo alto ante ella, distanciándose de modo que permanece inalcanzable. Esta es la imagen de cómo el Noble se comporta frente al hombre vulgar en ascenso. Se repliega en su actitud interior ante él. No lo odia; pues el odio es una forma de implicación interna a través de la cual uno se une con el objeto odiado. El Noble demuestra la fuerza (el Cielo) en que, mediante su mesura, lleva al hombre vulgar a la quietud (la Montaña).
 
----
 
 ## Las Líneas Individuales
 
@@ -87,6 +84,6 @@ La situación es inequívoca. La separación interna es un hecho establecido. Gr
 
 [^1]: Aquí se evoca una idea muy afín a la lucha nocturna de Jacob con el Dios de Peniel (Génesis 32, 27): «No te dejaré si no me bendices».
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

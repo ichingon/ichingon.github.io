@@ -23,7 +23,6 @@ El porte significa, por un lado, la manera correcta de comportarse. Arriba está
 
 {{< youtube-short "_VZuuHK_WTo" "Instantánea del hexagrama 10" >}}
 
----
 
 ## El Dictamen
 
@@ -32,7 +31,6 @@ El porte significa, por un lado, la manera correcta de comportarse. Arriba está
 
 La situación es realmente difícil. Lo más fuerte y lo más débil están inmediatamente juntos. Lo débil va detrás de lo fuerte y se ocupa de él. Pero lo fuerte lo tolera y no le hace daño, porque el contacto es alegre y no hiriente. La situación humana es que uno tiene que ver con personas salvajes e inaccesibles. En este caso se alcanza el propósito si uno se atiene, en su porte, a las buenas costumbres. Las buenas y agradables formas del porte llevan al éxito incluso frente a personas irritables.
 
----
 
 ## La Imagen
 
@@ -42,7 +40,6 @@ La situación es realmente difícil. Lo más fuerte y lo más débil están inme
 
 Cielo y lago muestran una diferencia de altura que ha surgido por sí misma de su esencia y que por tanto no se ve empañada por envidia alguna. Así también deben existir diferencias de altura en la humanidad. Una igualdad general es imposible de realizar. Pero se trata de que las diferencias de rango en la sociedad humana no sean arbitrarias e injustas; pues entonces la envidia y la lucha de clases son la consecuencia inevitable. Si, por el contrario, las diferencias de rango externas corresponden a una justificación interna y la dignidad interior es la medida del rango exterior, entonces los hombres se aquietan y la sociedad se ordena.
 
----
 
 ## Las Líneas Individuales
 
@@ -90,9 +87,8 @@ Se trata del señor de todo el signo. Uno se ve obligado a un porte decidido. Pe
 
 La obra está terminada. Si se quiere saber si la ventura será la consecuencia, mírese hacia atrás sobre el propio porte y sobre las consecuencias que ha tenido. Si los efectos son buenos, la ventura es cierta. Nadie se conoce a sí mismo. Solo a partir de las consecuencias de sus actos, de los frutos de sus obras, se puede juzgar lo que uno debe esperar.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [El texto original en Alemán](textoaleman/)
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

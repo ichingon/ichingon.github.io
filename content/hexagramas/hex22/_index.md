@@ -23,7 +23,6 @@ translationKey: "hex22"
 
 El signo muestra un fuego que irrumpe desde las profundidades secretas de la tierra y, chispeante ascendente, ilumina y embellece la montaña, la altura celestial. La gracia, la bella forma, es necesaria en toda unión para que esta sea ordenada y amable, y no caótica y desordenada.
 
----
 
 ## El Dictamen
 
@@ -32,7 +31,6 @@ El signo muestra un fuego que irrumpe desde las profundidades secretas de la tie
 
 La gracia trae éxito. Pero no es lo esencial, el fundamento, sino solo el adorno. Por lo tanto, solo debe aplicarse con parsimonia, en lo pequeño. En el signo inferior, el Fuego, una línea suave aparece entre dos fuertes y las embellece; las fuertes son la esencia, la línea débil es la forma que embellece. En el signo superior, la Montaña, la línea fuerte se coloca determinante al frente, de modo que también aquí cuenta como decisiva. En la naturaleza se ve en el cielo la fuerte luz del sol. De ella depende la vida del mundo. Pero esta fuerza esencial se transforma y encuentra una amable variedad a través de la luna y las estrellas. En la vida humana, la bella forma consiste en que existen órdenes firmes como montañas, que son agradadas por la clara belleza. La contemplación de las formas en el cielo otorga la capacidad de comprender el tiempo y sus cambiantes exigencias. La contemplación de las formas en la vida humana otorga la posibilidad de configurar el mundo.
 
----
 
 ## La Imagen
 
@@ -42,7 +40,6 @@ La gracia trae éxito. Pero no es lo esencial, el fundamento, sino solo el adorn
 
 El fuego, cuyo fulgor ilumina y embellece la montaña, no alumbra a gran distancia. Así, la forma graciosa basta para alegrar e iluminar asuntos menores, pero las cuestiones importantes no pueden decidirse de esta manera. Necesitan mayor seriedad.
 
----
 
 ## Las Líneas Individuales
 
@@ -88,7 +85,7 @@ Las líneas oscuras están a punto de ascender y hacer caer también el último 
 
 [^1]: Nota: El signo muestra la belleza en reposo: claridad por dentro y quietud por fuera. Esta es la paz de la pura contemplación. Cuando el deseo calla y la voluntad llega al reposo, entonces el mundo aparece como representación. Y como tal, es bello y está desprendido de la lucha de la existencia. Ese es el mundo del arte. Pero mediante la mera contemplación, la voluntad no llega a un reposo definitivo. Despertará de nuevo, y todo lo bello habrá sido solo un momento pasajero de elevación. Por eso, este no es aún el camino verdadero hacia la redención. Por ello, Confucio se sintió muy incómodo cuando, al consultar el oráculo, recibió el signo de "La Gracia".
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

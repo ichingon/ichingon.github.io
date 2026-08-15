@@ -22,7 +22,6 @@ translationKey: "hex30"
 
 El signo es un trigrama doble. El signo Li significa "adherirse a algo", "estar condicionado", "descansar en algo", "claridad". Una línea oscura se adhiere a un trazo claro arriba y abajo, la imagen de un espacio vacío entre dos trazos fuertes, por lo cual estos se vuelven claros. Es la hija mediana. Lo Creativo ha asimilado la línea central de lo Receptivo, y de este modo surge Li. Como imagen, es el fuego. El fuego no tiene forma determinada, sino que se adhiere a las cosas que arden y es brillante por ello. Así como el agua desciende del cielo, el fuego flamea desde la tierra hacia arriba. Mientras que Kan representa el alma encerrada en el cuerpo, Li representa la naturaleza en su transfiguración.
 
----
 
 ## El Dictamen
 
@@ -36,7 +35,6 @@ Así, el sol y la luna se adhieren al cielo; los cereales, la hierba y los árbo
 
 Nota: Es una coincidencia notable, digna de atención, que aquí, al igual que en la religión persa, el fuego y el cuidado de la vaca aparezcan unidos.
 
----
 
 ## La Imagen
 
@@ -46,11 +44,10 @@ Nota: Es una coincidencia notable, digna de atención, que aquí, al igual que e
 
 Cada uno de los dos signos individuales representa el sol en el transcurso de un día. Se representa, pues, una actividad repetida del sol. Con ello se indica la eficacia temporal de la luz. El Gran Hombre continúa la obra de la naturaleza en el mundo humano. Mediante la claridad de su ser, consigue que la luz se propague cada vez más y penetre cada vez más interiormente en el ser humano.
 
----
 
 ## Las Líneas Individuales
 
-#### Al principio un Nueve significa:
+### Al principio un Nueve significa:
 > Los pasos se cruzan de manera confusa.
 > Si uno es serio en ello: sin error.
 
@@ -89,9 +86,8 @@ Aquí está la cima de la vida. Sin advertencia, uno se consumiría en esta posi
 
 El propósito del castigo es crear disciplina, no hacer justicia ciegamente. Se trata de curar el mal en la raíz. En la vida del Estado, se trata de eliminar a los cabecillas, pero perdonar a los seguidores. En la autoformación, se trata de erradicar las malas costumbres, pero tolerar las costumbres inofensivas. Pues un ascetismo demasiado estricto, al igual que una justicia demasiado severa, no conduce a ningún éxito.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

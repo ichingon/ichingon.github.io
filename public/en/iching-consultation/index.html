@@ -719,388 +719,257 @@
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
         
-<style>
-  :root {
-    color-scheme: dark;
-    --app-accent: #ee5;
-    --app-accent-dim: rgba(238, 238, 85, 0.4);
-    --app-surface: rgba(0, 0, 0, 0.75);
-    --app-border: rgba(238, 238, 85, 0.35);
-  }
+<div class="consulta-iching-page">
+  <div class="iching-consultation-container">
 
-  .consultation-wrapper {
-    width: 100%;
-    max-width: 440px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 8px 0;
-  }
-
-  .consultation-card {
-    background-color: var(--app-surface);
-    border: 1px solid var(--app-border);
-    border-radius: 2px;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    padding: 20px 18px;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    color: #e0e6ed;
-  }
-
-  .consultation-card h1.title {
-    font-size: 1.15rem;
-    color: var(--app-accent);
-    margin: 0 0 4px 0;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border-bottom: 1px solid rgba(238, 238, 85, 0.2);
-    padding-bottom: 8px;
-  }
-
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  .form-group label {
-    font-size: 0.85rem;
-    color: var(--app-accent);
-    font-weight: 500;
-    letter-spacing: 0.3px;
-  }
-
-  .form-group .desc {
-    font-size: 0.75rem;
-    color: #9aa5b5;
-    margin-top: -2px;
-  }
-
-  .form-group input[type="text"], 
-  .form-group textarea {
-    width: 100%;
-    background: rgba(10, 14, 24, 0.85);
-    border: 1px solid rgba(238, 238, 85, 0.3);
-    border-radius: 2px;
-    color: #fff;
-    padding: 8px 10px;
-    font-family: inherit;
-    font-size: 0.9rem;
-    outline: none;
-    box-sizing: border-box;
-  }
-
-  .form-group input[type="text"]:focus, 
-  .form-group textarea:focus {
-    border-color: var(--app-accent);
-    box-shadow: 0 0 8px rgba(238, 238, 85, 0.25);
-  }
-
-  .form-group textarea {
-    resize: vertical;
-    min-height: 72px;
-    line-height: 1.4;
-  }
-
-  .radio-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-
-  .radio-option {
-    position: relative;
-  }
-
-  .radio-option input[type="radio"] {
-    position: absolute;
-    opacity: 0;
-  }
-
-  .radio-option label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: rgba(10, 14, 24, 0.85);
-    border: 1px solid rgba(238, 238, 85, 0.3);
-    border-radius: 2px;
-    padding: 8px 6px;
-    cursor: pointer;
-    font-size: 0.8rem;
-    color: #ccc;
-    transition: all 0.2s ease;
-    min-height: 48px;
-  }
-
-  .radio-option input[type="radio"]:checked + label {
-    border-color: var(--app-accent);
-    background: rgba(238, 238, 85, 0.15);
-    color: var(--app-accent);
-    box-shadow: 0 0 6px rgba(238, 238, 85, 0.2);
-  }
-
-  .privacy-banner {
-    font-size: 0.72rem;
-    color: #8a96a8;
-    line-height: 1.35;
-    background: rgba(255, 255, 255, 0.03);
-    border-left: 2px solid var(--app-accent-dim);
-    padding: 6px 8px;
-  }
-
-  .btn-action {
-    background: rgba(238, 238, 85, 0.12);
-    border: 1px solid var(--app-accent);
-    color: var(--app-accent);
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    padding: 10px;
-    border-radius: 2px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: background 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  .btn-action:hover {
-    background: rgba(238, 238, 85, 0.25);
-    box-shadow: 0 0 10px rgba(238, 238, 85, 0.3);
-  }
-
-  #frameWrap {
-    display: none;
-    width: 100%;
-    justify-content: center;
-    background: transparent;
-  }
-
-  #oracleFrame {
-    width: 100%;
-    max-width: 440px;
-    height: 860px;
-    border: none;
-    overflow: hidden;
-    display: block;
-    background-color: transparent;
-    color-scheme: dark;
-  }
-
-  #resultWrap {
-    display: none;
-  }
-
-  .result-summary {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background: rgba(10, 14, 24, 0.85);
-    border: 1px solid rgba(238, 238, 85, 0.3);
-    border-radius: 2px;
-    padding: 14px;
-  }
-
-  .summary-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.9rem;
-    border-bottom: 1px solid rgba(238, 238, 85, 0.1);
-    padding-bottom: 6px;
-  }
-
-  .summary-row:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-
-  .summary-label {
-    color: #9aa5b5;
-    font-size: 0.85rem;
-  }
-
-  .summary-val {
-    color: var(--app-accent);
-    font-weight: 600;
-    font-family: "SF Mono", "Fira Code", monospace;
-  }
-</style>
-
-<div class="consultation-wrapper">
-
-  
-  <div class="consultation-card" id="stepConfig">
-    <h1 class="title">I Ching Oracle Consultation</h1>
-
-    <div class="form-group">
-      <label for="consultName">
-        Name or Pseudonym
-      </label>
-      <input type="text" id="consultName" placeholder="Anonymous" autocomplete="off" />
-    </div>
-
-    <div class="form-group">
-      <label for="consultQuestion">
-        Question or Subject
-      </label>
-      <div class="desc">
-        Optional. Hold it in your mind for total confidentiality.
-      </div>
-      <textarea id="consultQuestion" placeholder="Write your question here..." autocomplete="off"></textarea>
-    </div>
-
-    <div class="form-group">
-      <label>Calculation Method</label>
-      <div class="radio-grid">
-        <div class="radio-option">
-          <input type="radio" id="mCoins" name="calcMethod" value="monedas" checked>
-          <label for="mCoins">
-            3 Coins<br>
-            <span style="font-size: 0.68rem; opacity: 0.7;">(1/8, 3/8, 3/8, 1/8)</span>
-          </label>
-        </div>
-        <div class="radio-option">
-          <input type="radio" id="mYarrow" name="calcMethod" value="milenrama">
-          <label for="mYarrow">
-            Yarrow Stalks<br>
-            <span style="font-size: 0.68rem; opacity: 0.7;">(1/16, 5/16, 7/16, 3/16)</span>
-          </label>
-        </div>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label>Reveal Mode</label>
-      <div class="radio-grid">
-        <div class="radio-option">
-          <input type="radio" id="rProg" name="revealMode" value="progressive" checked>
-          <label for="rProg">
-            Progressive<br>
-            <span style="font-size: 0.68rem; opacity: 0.7;">(Linie für Linie)</span>
-          </label>
-        </div>
-        <div class="radio-option">
-          <input type="radio" id="rFinal" name="revealMode" value="final">
-          <label for="rFinal">
-            At the End<br>
-            <span style="font-size: 0.68rem; opacity: 0.7;">(Vollständig)</span>
-          </label>
-        </div>
-      </div>
-    </div>
-
-    <div class="privacy-banner">
-      🔒 <strong>Privacy:</strong> 
-      All calculations run 100% locally in your browser.
-    </div>
-
-    <button type="button" class="btn-action" id="btnLaunchOracle" onclick="window.ejecutarInicioConsulta()">
-      Start Oracle
-    </button>
-  </div>
-
-  
-  <div id="frameWrap">
-    <iframe id="oracleFrame" src="about:blank" allowtransparency="true" scrolling="no"></iframe>
-  </div>
-
-  
-  <div class="consultation-card" id="resultWrap">
-    <h1 class="title">Oracle Complete</h1>
     
-    <div class="result-summary">
-      <div class="summary-row">
-        <span class="summary-label">Lines (1 to 6)</span>
-        <span class="summary-val" id="resLines">-</span>
-      </div>
-      <div class="summary-row">
-        <span class="summary-label">Base Hexagram</span>
-        <span class="summary-val" id="resBaseHex">-</span>
-      </div>
-      <div class="summary-row">
-        <span class="summary-label">Derived Hexagram</span>
-        <span class="summary-val" id="resDerivedHex">-</span>
-      </div>
-      <div class="summary-row">
-        <span class="summary-label">Moving Lines</span>
-        <span class="summary-val" id="resChangingLines">-</span>
-      </div>
+    <div class="consultation-card" id="formWrap">
+      <h1 class="title">I Ching Oracle Consultation</h1>
+      <p class="subtitle"></p>
+
+      <form id="ichingSetupForm" onsubmit="window.iniciarConsulta(event)">
+        <div class="form-group">
+          <label class="form-label" for="userName">
+            Your Name or Pseudonym
+          </label>
+          <input type="text" id="userName" class="form-input" required autocomplete="off" placeholder="e.g. Seeker">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="userQuestion">
+            Question or Topic (Optional)
+          </label>
+          <input type="text" id="userQuestion" class="form-input" autocomplete="off" placeholder="Focus on your current situation...">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">
+            Consultation Method
+          </label>
+          <div class="method-options">
+            <label class="method-label">
+              <input type="radio" name="method" value="coins" checked>
+              3 Coins (Classic)
+            </label>
+            <label class="method-label">
+              <input type="radio" name="method" value="yarrow">
+              50 Yarrow Stalks (Traditional)
+            </label>
+          </div>
+        </div>
+
+        <div class="privacy-banner">
+          🔒 All entropy and calculations are performed locally in your browser. Zero tracking.
+        </div>
+
+        <button type="submit" class="btn-action" id="btnStart">
+          Begin Consultation
+        </button>
+      </form>
     </div>
 
-    <button type="button" class="btn-action" id="btnMakePdf" onclick="window.generarPdf()">
-      Download PDF Report
-    </button>
-    <button type="button" class="btn-action" style="border-color:#666; color:#aaa; background:transparent; margin-top:8px;" id="btnRestart" onclick="window.reiniciarConsulta()">
-      New Query
-    </button>
-  </div>
+    
+    <div id="simulationWrap" style="display: none; width: 100%;">
+      <iframe id="ichingFrame" src="" title="I Ching Interactive Engine" style="width: 100%; height: 680px; border: 1px solid #333; background: #000; display: block; border-radius: 4px;"></iframe>
+    </div>
 
+    
+    <div class="consultation-card" id="resultWrap" style="display: none;">
+      <h1 class="title">Oracle Complete</h1>
+      
+      <div class="result-summary">
+        <div class="summary-row">
+          <span class="summary-label">Lines (1 to 6)</span>
+          <span class="summary-val" id="resLines">-</span>
+        </div>
+        <div class="summary-row">
+          <span class="summary-label">Primary Hexagram</span>
+          <span class="summary-val" id="resBaseHex">-</span>
+        </div>
+        <div class="summary-row">
+          <span class="summary-label">Relating Hexagram</span>
+          <span class="summary-val" id="resDerivedHex">-</span>
+        </div>
+        <div class="summary-row">
+          <span class="summary-label">Moving Lines</span>
+          <span class="summary-val" id="resChangingLines">-</span>
+        </div>
+      </div>
+
+      
+      <button type="button" class="btn-action" id="btnMakePdf" onclick="window.generarPdf()">
+        📄 Download Free PDF Report
+      </button>
+
+      
+      <div class="privacy-banner" style="margin-top: 14px; border-left: 2px solid var(--app-accent, #eeee55); background: rgba(238, 238, 85, 0.05); padding: 12px; text-align: left;">
+        <strong style="color: var(--app-accent, #eeee55); font-size: 0.9rem;">
+          
+            Personalized Reading (Paid Service)
+          
+        </strong>
+        
+        <p style="margin: 6px 0 10px 0; font-size: 0.82rem; line-height: 1.45; color: #ccc;">
+          
+            If you need an in-depth, individual analysis connecting your specific question with the moving lines and nuclear hexagrams, you can request a personalized report via email (available for an additional fee). Response time: 24–48 hrs.
+          
+        </p>
+        
+        <a id="btnHumanConsult" href="#" class="btn-action" style="display: block; text-align: center; text-decoration: none; font-size: 0.82rem; background: rgba(238, 238, 85, 0.2); border-color: var(--app-accent, #eeee55); color: #fff;">
+          ✉️ Request Rates & Personal Reading
+        </a>
+      </div>
+
+      
+      <button type="button" class="btn-action" style="border-color:#555; color:#888; background:transparent; margin-top:10px;" id="btnRestart" onclick="window.reiniciarConsulta()">
+        🔄 New Query
+      </button>
+    </div>
+
+  </div>
 </div>
+
+<style>
+.consulta-iching-page {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+.iching-consultation-container {
+  width: 100%;
+  max-width: 580px;
+}
+.consultation-card {
+  background: rgba(20, 20, 20, 0.95);
+  border: 1px solid #333;
+  padding: 24px 20px;
+  border-radius: 4px;
+}
+.title {
+  font-size: 1.4rem;
+  margin: 0 0 8px 0;
+  text-align: center;
+  color: #fff;
+}
+.subtitle {
+  font-size: 0.85rem;
+  color: #888;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+.form-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #ccc;
+  margin-bottom: 6px;
+}
+.form-input {
+  width: 100%;
+  padding: 10px;
+  background: #111;
+  border: 1px solid #444;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.form-input:focus {
+  border-color: #777;
+  outline: none;
+}
+.method-options {
+  display: flex;
+  gap: 16px;
+}
+.method-label {
+  font-size: 0.82rem;
+  color: #aaa;
+  cursor: pointer;
+}
+.privacy-banner {
+  font-size: 0.78rem;
+  color: #777;
+  border: 1px dashed #333;
+  padding: 8px 10px;
+  margin: 18px 0;
+  border-radius: 2px;
+}
+.btn-action {
+  width: 100%;
+  padding: 12px;
+  background: #222;
+  border: 1px solid #555;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background 0.2s;
+  box-sizing: border-box;
+}
+.btn-action:hover {
+  background: #333;
+}
+.result-summary {
+  background: #111;
+  border: 1px solid #282828;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  padding: 4px 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+.summary-row:last-child {
+  border-bottom: none;
+}
+.summary-label {
+  color: #888;
+}
+.summary-val {
+  color: #eee;
+  font-weight: 500;
+}
+</style>
 
 <script>
 window.appState = {
   userName: '',
   question: '',
-  method: 'monedas',
-  mode: 'progressive',
+  method: 'coins',
   result: null
 };
 
-window.ejecutarInicioConsulta = function() {
-  const currentLang = "en";
-  const stepConfig = document.getElementById('stepConfig');
-  const frameWrap = document.getElementById('frameWrap');
-  const oracleFrame = document.getElementById('oracleFrame');
-  const nameInput = document.getElementById('consultName');
-  const questionInput = document.getElementById('consultQuestion');
+window.iniciarConsulta = function(e) {
+  e.preventDefault();
+  const nameInput = document.getElementById('userName');
+  const questionInput = document.getElementById('userQuestion');
+  const methodInput = document.querySelector('input[name="method"]:checked');
 
-  window.appState.userName = (nameInput && nameInput.value.trim()) ? nameInput.value.trim() : 'Consultante';
-  window.appState.question = questionInput ? questionInput.value.trim() : '';
+  window.appState.userName = nameInput.value.trim();
+  window.appState.question = questionInput.value.trim();
+  window.appState.method = methodInput ? methodInput.value : 'coins';
 
-  const methodEl = document.querySelector('input[name="calcMethod"]:checked');
-  window.appState.method = methodEl ? methodEl.value : 'monedas';
+  document.getElementById('formWrap').style.display = 'none';
+  document.getElementById('resultWrap').style.display = 'none';
 
-  const modeEl = document.querySelector('input[name="revealMode"]:checked');
-  window.appState.mode = modeEl ? modeEl.value : 'progressive';
-
-  const query = new URLSearchParams({
-    lang: currentLang,
-    metodo: window.appState.method,
-    revelacion: window.appState.mode
-  });
-
-  if (oracleFrame) {
-    oracleFrame.src = '/app/entropia-iching.html?' + query.toString();
-  }
-
-  if (stepConfig) stepConfig.style.display = 'none';
-  if (frameWrap) {
-    frameWrap.style.display = 'flex';
-    frameWrap.style.justifyContent = 'center';
-  }
-
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  const frameWrap = document.getElementById('simulationWrap');
+  const frame = document.getElementById('ichingFrame');
+  frame.src = `/app/app.html?method=${window.appState.method}&lang=en`;
+  frameWrap.style.display = 'block';
 };
 
 window.reiniciarConsulta = function() {
-  const oracleFrame = document.getElementById('oracleFrame');
-  const resultWrap = document.getElementById('resultWrap');
-  const stepConfig = document.getElementById('stepConfig');
-
-  if (oracleFrame) oracleFrame.src = 'about:blank';
-  if (resultWrap) resultWrap.style.display = 'none';
-  if (stepConfig) stepConfig.style.display = 'flex';
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
-
-window.generarPdf = function() {
-  console.log("Compilación PDF Nivel 1:", window.appState);
+  document.getElementById('simulationWrap').style.display = 'none';
+  document.getElementById('ichingFrame').src = '';
+  document.getElementById('resultWrap').style.display = 'none';
+  document.getElementById('formWrap').style.display = 'block';
+  window.appState.result = null;
 };
 
 window.addEventListener('message', function(e) {
@@ -1108,29 +977,50 @@ window.addEventListener('message', function(e) {
     const data = e.data.data;
     window.appState.result = data;
 
-    const frameWrap = document.getElementById('frameWrap');
-    const resultWrap = document.getElementById('resultWrap');
-    const resLines = document.getElementById('resLines');
-    const resBaseHex = document.getElementById('resBaseHex');
-    const resDerivedHex = document.getElementById('resDerivedHex');
-    const resChangingLines = document.getElementById('resChangingLines');
+    document.getElementById('simulationWrap').style.display = 'none';
+    document.getElementById('resLines').innerText = data.rawLines ? data.rawLines.join(', ') : '-';
+    document.getElementById('resBaseHex').innerText = '#' + data.hexagram;
+    document.getElementById('resDerivedHex').innerText = data.derivedHexagram ? '#' + data.derivedHexagram : 'None (Static)';
+    document.getElementById('resChangingLines').innerText = (data.changingLines && data.changingLines.length > 0) ? data.changingLines.join(', ') : 'None';
 
-    if (frameWrap) frameWrap.style.display = 'none';
-    if (resultWrap) resultWrap.style.display = 'flex';
+    
+    const lang = "en";
+    const mailToBtn = document.getElementById('btnHumanConsult');
 
-    const currentLang = "en";
-    const noneText = currentLang === 'de' ? 'Keine' : (currentLang === 'en' ? 'None' : 'Ninguno(a)');
+    if (mailToBtn) {
+      const subjectText = lang === 'de' 
+        ? `[Kostenpflichtig] I-Ging-Analyseanfrage - Hexagramm #${data.hexagram}`
+        : (lang === 'en' 
+            ? `[Paid Service] I Ching Reading Request - Hexagram #${data.hexagram}` 
+            : `[Consulta de Pago] Análisis Personalizado I Ching - Hexagrama #${data.hexagram}`);
 
-    if (resLines) resLines.textContent = data.rawLines.join(', ');
-    if (resBaseHex) resBaseHex.textContent = `#${data.hexagram}`;
-    if (resDerivedHex) resDerivedHex.textContent = data.derivedHexagram ? `#${data.derivedHexagram}` : noneText;
-    if (resChangingLines) {
-      resChangingLines.textContent = data.changingLines && data.changingLines.length > 0 
-        ? data.changingLines.join(', ') 
-        : noneText;
+      const salutation = lang === 'de' ? 'Hallo Dài Líng Nà,' : (lang === 'en' ? 'Hello Dài Líng Nà,' : 'Hola Dài Líng Nà,');
+
+      const bodyText = [
+        salutation,
+        '',
+        lang === 'de' 
+          ? 'Ich habe eine Abfrage auf elichingon.com durchgeführt und möchte mich über Tarife und Verfügbarkeit für eine persönliche Analyse erkundigen.'
+          : (lang === 'en'
+              ? 'I have completed a consultation on elichingon.com and would like to inquire about rates and availability for a personalized reading.'
+              : 'He realizado una tirada en elichingon.com y deseo consultar las tarifas y disponibilidad para un análisis personalizado.'),
+        '',
+        `Consultante / Querent: ${window.appState.userName}`,
+        `Pregunta / Question: ${window.appState.question || '(Mantenida en mente)'}`,
+        `Hexagrama Base / Primary Hexagram: #${data.hexagram}`,
+        `Hexagrama Derivado / Relating Hexagram: ${data.derivedHexagram ? '#' + data.derivedHexagram : 'Ninguno / None'}`,
+        `Líneas Móviles / Moving Lines: [${data.changingLines.join(', ')}]`,
+        '',
+        lang === 'de' 
+          ? 'Zusätzlicher Kontext oder Details zur Situation:' 
+          : (lang === 'en' ? 'Additional context or details regarding the situation:' : 'Contexto o detalles adicionales sobre la situación:'),
+        ''
+      ].join('\n');
+
+      mailToBtn.href = `mailto:dailingna@elichingon.com?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(bodyText)}`;
     }
 
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.getElementById('resultWrap').style.display = 'block';
   }
 });
 </script>

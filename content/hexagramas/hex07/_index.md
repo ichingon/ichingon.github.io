@@ -27,7 +27,6 @@ Considerado desde las líneas individuales, el soberano del signo es el fuerte N
 
 {{< youtube-short "9t3FD2zIwkM" "Instantánea del hexagrama 7" >}}
 
----
 
 ## El Dictamen
 
@@ -36,7 +35,6 @@ Considerado desde las líneas individuales, el soberano del signo es el fuerte N
 
 Un ejército es una masa que, para convertirse en ejército, requiere de organización. Sin una firme disciplina no se puede lograr nada. Esta disciplina, sin embargo, no puede imponerse por medios violentos, sino que se necesita un hombre fuerte al cual se vuelvan los corazones y que despierte entusiasmo. Para poder desplegarse, este necesita de la confianza absoluta de su gobernante, quien, mientras dure la guerra, debe confiarle la plena responsabilidad. Una guerra es, no obstante, siempre algo peligroso y trae consigo daño y devastación. Por lo tanto, no se debe emprender a la ligera, sino únicamente como una medicina venenosa como último recurso. El motivo justo y un objetivo de guerra claro y comprensible deben ser expuestos con claridad al pueblo por un conductor experimentado. Solo cuando existe un objetivo de guerra muy determinado por el cual el pueblo pueda comprometerse con conciencia, surge la homogeneidad y la fuerza de la convicción que conduce a la victoria. Pero el conductor debe también cuidar que, en la pasión de la guerra y en el frenesí de la victoria, no ocurra nada injusto que no halle la aprobación general. La justicia y la perseverancia son las condiciones fundamentales para que todo marche bien.
 
----
 
 ## La Imagen
 
@@ -45,7 +43,6 @@ Un ejército es una masa que, para convertirse en ejército, requiere de organiz
 
 El agua subterránea está presente de manera invisible en medio de la tierra. Del mismo modo, el poder militar de un pueblo está presente de manera invisible en sus masas. Cada campesino se convierte en soldado cuando amenaza el peligro, y regresa detrás de su arado tras la conclusión de la guerra. Quien es magnánimo con el pueblo se gana el amor del pueblo; y el pueblo que vive bajo un régimen apacible se vuelve fuerte y vigoroso. Solo un pueblo económicamente fuerte puede ser de importancia como potencia militar. Por lo tanto, se debe cultivar el poder mediante el fomento de las relaciones económicas del pueblo y un gobierno humano. Solo donde existe este lazo invisible entre el gobierno y el pueblo, de modo que el pueblo se halle amparado bajo él como el agua subterránea en la tierra, es posible conducir una guerra victoriosamente.
 
----
 
 ## Las Líneas Individuales
 
@@ -95,7 +92,7 @@ La caza está en el campo, es decir, ha abandonado su lugar de residencia, el bo
 
 La guerra ha concluido victoriosamente. La victoria se ha ganado, el rey distribuye feudos y propiedades familiares entre sus fieles. Sin embargo, en esto es importante que los hombres vulgares no deban alcanzar el poder. Si han colaborado, se los puede compensar con dinero. Pero no se les deben conceder territorios ni derechos de soberanía, para que no ocurra ningún abuso.
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

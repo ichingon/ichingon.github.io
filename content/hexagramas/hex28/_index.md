@@ -20,10 +20,8 @@ translationKey: "hex28"
 * **Arriba:** Dui (Lo Alegre, el Lago)
 * **Abajo:** Sun (Lo Suave, el Viento)
 
-
 El signo está constituido por cuatro líneas fuertes en su sección interior y dos líneas débiles en los extremos exteriores. Cuando los elementos fuertes se sitúan afuera y los débiles en el centro, la estructura es armoniosa y no existe una sobrecarga; bajo esa disposición no se presenta nada extraordinario. En este caso, sin embargo, ocurre lo contrario. El signo representa una viga maestra que es gruesa y pesada en su parte media, pero cuyos extremos resultan demasiado endebles para sostenerla. Esta no es una condición que pueda prolongarse en el tiempo; debe transformarse o dar paso a otra situación, pues de lo contrario la destrucción será inevitable.
 
----
 
 ## El Dictamen
 
@@ -34,7 +32,6 @@ Lo grande se encuentra en demasía. La carga impuesta resulta excesiva para las 
 
 Por lo tanto, se debe procurar encontrar un tránsito con la mayor rapidez posible y actuar; esto promete el éxito, ya que, a pesar de que lo fuerte predomina en exceso, se sitúa en el centro, es decir, en el eje de gravedad interno, por lo que no cabe temer una revolución violenta. Sin embargo, no se logrará nada mediante el uso de medidas de fuerza. Es necesario desatar el nudo penetrando con suavidad en el sentido íntimo de la situación —tal como lo sugiere la cualidad de docilidad del signo interno Sun—; de este modo se logrará el tránsito hacia otras circunstancias. Semejante coyuntura requiere de una gran superioridad, por lo que el tiempo del exceso de lo grande constituye, en sí mismo, una época magna.
 
----
 
 ## La Imagen
 
@@ -45,7 +42,6 @@ Por lo tanto, se debe procurar encontrar un tránsito con la mayor rapidez posib
 
 Los tiempos extraordinarios en que lo grande se excede equivalen a una gran inundación, un desbordamiento donde las aguas del lago llegan a cubrir los árboles por completo. No obstante, tales estados son pasajeros. En las características de los signos particulares se define la actitud correcta para afrontar estas épocas de excepción: la imagen de Sun es el árbol que permanece firme incluso en la más absoluta solemnidad de su aislamiento, y la cualidad de Dui es la alegría interna que se mantiene imperturbable, aun cuando deba dar la espalda al mundo.
 
----
 
 ## Las Líneas Individuales
 
@@ -87,9 +83,8 @@ Un álamo marchito que llega a florecer agota con ello sus últimas energías, a
 
 Aquí se describe una situación donde lo extraordinario ha alcanzado su punto culminante. Uno se arma de valor y pretende resolver la tarea asignada bajo cualquier circunstancia, adentrándose así en el peligro absoluto. Las aguas sobrepasan la cabeza; ese es el infortunio. Sin embargo, entregar la vida por el triunfo de lo bueno y lo justo no deja mancha alguna sobre el carácter. Existen valores mucho más importantes que la mera supervivencia.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 

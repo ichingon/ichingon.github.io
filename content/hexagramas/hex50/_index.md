@@ -25,7 +25,6 @@ El Pozo también sugiere la idea de proveer alimento, pero orientado más hacia 
 
 Este hexagrama y el signo del Pozo son los únicos dos signos en el Libro de las Mutaciones que representan objetos artificiales concretos. Sin embargo, el concepto posee también una faceta abstracta: abajo se encuentra Sun, que representa la madera y el viento; arriba está Li, la llama. Por lo tanto, el signo muestra una llama avivada por la madera y el viento, lo que evoca asimismo la preparación de los alimentos.
 
----
 
 ## El Dictamen
 
@@ -36,7 +35,6 @@ Mientras que el Pozo aborda la base social de la comunidad -la cual se asemeja a
 
 Así, la cultura se manifiesta aquí alcanzando su cumbre en la religión. El caldero se utiliza para las ofrendas a la divinidad; lo más elevado de la Tierra debe ser consagrado a lo divino. No obstante, lo verdaderamente sagrado no se presenta separado de lo humano: la máxima revelación divina se expresa a través de los profetas y los santos, y honrarlos constituye la auténtica veneración a Dios. Al recibir con humildad la voluntad divina manifestada a través de ellos, se alcanza una iluminación interior y una comprensión profunda del mundo que conducen a una gran ventura y al éxito.
 
----
 
 ## La Imagen
 
@@ -46,7 +44,6 @@ Así, la cultura se manifiesta aquí alcanzando su cumbre en la religión. El ca
 
 La madera constituye el destino del fuego; mientras permanezca abajo, el fuego arderá arriba. Lo mismo ocurre con la existencia humana: en cada individuo habita un destino que dota de fuerza a su vida. Cuando se logra asignar el lugar correcto a la vida y al destino, este último se consolida, permitiendo que la existencia transcurra en perfecta sintonía con él. En estas palabras se encuentran indicaciones sobre el cuidado de la vida, tal como se transmiten de forma oral en las enseñanzas secretas de la práctica del yoga chino.
 
----
 
 ## Las Líneas Individuales
 

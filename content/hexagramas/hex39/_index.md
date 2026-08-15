@@ -22,7 +22,6 @@ translationKey: "hex39"
 
 El hexagrama presenta un abismo peligroso que se abre directamente hacia adelante, mientras que a la espalda se eleva la montaña empinada e inaccesible. Así se está rodeado de obstáculos. Pero en la cualidad de la montaña, que consiste en el reposo, se halla al mismo tiempo una indicación de cómo se puede salir de los obstáculos. El signo representa obstáculos que surgen con el correr del tiempo, pero que pueden y deben ser superados. Por ello, toda la enseñanza se orienta a vencer los obstáculos. 
 
----
 
 ## El Dictamen
 
@@ -33,7 +32,6 @@ El hexagrama presenta un abismo peligroso que se abre directamente hacia adelant
 
 El suroeste es la región del repliegue, el noreste la región del avance. Se trata de una situación en la que los obstáculos se presentan de frente y no pueden ser vencidos directamente. En este caso, es sabiduría detenerse ante el peligro y retirarse. Pero esta retirada es solo la preparación para superar los obstáculos. Es preciso unirse a amigos afines y ponerse bajo la dirección de un hombre capaz de dominar la situación; entonces se logrará eliminar los obstáculos. Para ello se necesita la disposición de la perseverancia justamente cuando aparentemente se debe hacer algo que se aparta de la meta. Esta dirección interior imperturbable trae finalmente la ventura. El obstáculo, que solo dura un tiempo, es valioso para la formación de la propia personalidad. Ese es el valor de la necesidad.
 
----
 
 ## La Imagen
 
@@ -42,7 +40,6 @@ El suroeste es la región del repliegue, el noreste la región del avance. Se tr
 
 Las dificultades y los obstáculos lanzan al hombre de vuelta sobre sí mismo. Mientras que el hombre vulgar busca la culpa fuera, en los otros, y acusa al destino, El Noble busca el error en sí mismo, y mediante este interiorizarse el obstáculo exterior se convierte para él en ocasión de enriquecimiento interior y de formación.
 
----
 
 ## Las Líneas Individuales
 
@@ -78,8 +75,7 @@ Aquí vemos al hombre que está llamado a poner remedio a la necesidad. No debe 
 
 Aquí se dibuja a alguien que ya ha dejado atrás el mundo y su devenir. Cuando llega para el mundo el tiempo de los obstáculos, podría parecer que lo más sencillo para él sería dejar el mundo atrás y huir al más allá. Pero este camino le está vedado. No debe alcanzar la beatitud solo y abandonar al mundo a su necesidad. Al contrario, su deber lo llama de vuelta al devenir del mundo. Justamente su experiencia y libertad interior le permiten entonces crear algo grande y maduro que trae la ventura. Y es propicio ver al Gran Hombre, con quien se puede consumar la obra de la salvación.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

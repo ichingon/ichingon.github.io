@@ -23,7 +23,6 @@ El Lago posee un espacio limitado. Cuando entra más agua, se desborda. Por tant
 
 La palabra china para "restricción" significa propiamente las articulaciones fijas mediante las cuales los tallos de bambú están divididos. En la vida cotidiana designa la economía, que pone barreras fijas a sus gastos. En la vida moral, son las barreras fijas que el Noble se impone a sí mismo para sus acciones: las barreras de la fidelidad y del desinterés.
 
----
 
 ## El Dictamen
 > La Restricción. Éxito.  
@@ -33,7 +32,6 @@ Las barreras son esforzadas. Pero realizan algo. Mediante la economía en la vid
 
 Solo que también en la restricción es necesario guardar la medida. Si uno quisiera imponer a su propia naturaleza barreras demasiado amargas, ella sufriría por ello. Si uno quisiera llevar demasiado lejos la restricción de los otros, ellos se rebelarían. Por eso también en la restricción son necesarias barreras.
 
----
 
 ## La Imagen
 > Sobre el lago está el agua: la imagen de la Restricción.  
@@ -42,7 +40,6 @@ Solo que también en la restricción es necesario guardar la medida. Si uno quis
 
 El Lago es algo finito; el agua es inagotable. El Lago solo puede contener una medida determinada del agua infinita. En ello consiste su peculiaridad. Mediante la separación y el establecimiento de barreras también en la vida adquiere el individuo su significado. Ahora se trata de fijar con toda claridad estas separaciones, que son, por así decirlo, la espina dorsal de la moral. Las posibilidades ilimitadas no son algo adecuado para el hombre. Por ello su vida solo se desvanecería en lo ilimitado. Para hacerse fuerte, se necesita la libre imposición de barreras del deber. Solo porque el individuo se rodea de estas barreras y establece libremente para sí el mandato del deber, gana significado como huésped libre.
 
----
 
 ## Las Líneas Individuales
 
@@ -81,7 +78,6 @@ La restricción debe ser llevada a cabo de la manera correcta para poder actuar.
 
 Cuando uno es demasiado severo en la restricción, los hombres no lo soportan. Cuanto más consecuente es uno en tal severidad, tanto más es algo malo; pues un retroceso no se puede evitar a la larga. Así también se venga el cuerpo atormentado, si uno quiere proceder con una ascesis demasiado severa. Pero si esta severidad despiadada no es algo que se pudiera aplicar duradera y regularmente, puede sin embargo haber tiempos en que sea el único medio para preservarse de caer en falta y del arrepentimiento. Son esas las situaciones en que la falta de consideración hacia la propia persona es el único medio para salvar el alma, que de otro modo perecería en la mediocridad y la tentación.
 
----
 
 ## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)

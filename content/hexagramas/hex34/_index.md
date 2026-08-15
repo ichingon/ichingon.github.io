@@ -24,7 +24,6 @@ Las líneas grandes, es decir, las luminosas y fuertes, son poderosas. Cuatro l�
 
 Este signo se encuentra asignado al segundo mes (marzo-abril).
 
----
 
 ## El Dictamen
 
@@ -34,7 +33,6 @@ El signo señala una época en que el valor interno asciende con un ímpetu colo
 
 De ahí que se añada la sentencia de que la perseverancia es propicia, pues el verdadero gran poder es aquel que no degenera en mera violencia arbitraria, sino que permanece íntimamente vinculado a los principios del derecho y la justicia. Cuando se comprende este punto fundamental —que la grandeza y la justicia deben ser indisolubles—, se entiende entonces el auténtico sentido de todo el acontecer universal en el cielo y en la tierra.
 
----
 
 ## La Imagen
 
@@ -47,7 +45,6 @@ El trueno, la fuerza eléctrica, asciende hacia lo alto en la primavera. Este mo
 
 La verdadera grandeza radica, sin embargo, en encontrarse en perfecta sintonía con lo que es recto. Por esta razón, el noble se cuida severamente, en épocas de gran poder, de cometer cualquier acto que no guarde una absoluta concordancia con lo que dicta el orden establecido.
 
----
 
 ## Las Líneas Individuales
 
@@ -98,6 +95,6 @@ Si uno se aventura demasiado lejos, termina por encallarse en un punto muerto do
 
 [^1]: Esto es plenamente válido también para las batallas que libramos contra las imperfecciones de nuestra propia naturaleza. Tampoco aquí debemos flaquear a pesar de las continuas recaídas, sino perseverar hasta que el éxito se consolide y llegue el momento en que se pueda afirmar: «Todo lo efímero / que en pecado nos enredaba / quedó en el pasado; / crecen las alas / y el cerrojo se levanta / hacia la estancia eterna».
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

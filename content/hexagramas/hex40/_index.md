@@ -22,7 +22,6 @@ translationKey: "hex40"
 
 El movimiento sale aquí del peligro. El obstaculo ha sido eliminado, las dificultades se hallan en proceso de disolución. La liberación no ha terminado aún, sino que apenas comienza, y sus diversas etapas se representan en el signo.
 
----
 
 ## El Dictamen
 
@@ -32,7 +31,6 @@ El movimiento sale aquí del peligro. El obstaculo ha sido eliminado, las dificu
 
 Se trata de un tiempo en que tensiones y complicaciones comienzan a disolverse. En tales tiempos, conviene retirarse cuanto antes a las condiciones habituales -este es el significado del suroeste. Estos tiempos de cambio son muy importantes. Así como una lluvia liberadora disuelve la tensión de la atmósfera y hace reventar todos los brotes, un tiempo de liberación de una carga opresiva actúa de modo liberador y estimulante sobre la vida. Pero una cosa es importante: en tales tiempos no se debe exagerar el triunfo. No hay que avanzar más de lo necesario. Tan pronto como se haya alcanzado la liberación, regresar al orden de la vida: eso trae ventura. Si aún quedan restos por elaborar, hay que hacerlo con la mayor rapidez posible, para que se haga mesa limpia y no se produzcan demoras.
 
----
 
 ## La Imagen
 
@@ -41,9 +39,8 @@ Se trata de un tiempo en que tensiones y complicaciones comienzan a disolverse. 
 
 La tormenta tiene un efecto purificador del aire. Así hace el Noble también con los errores y pecados de los hombres, que provocan estados de tensión. Mediante la claridad, él trae la liberación. Pero cuando las faltas han salido a la luz, él no se detiene en ellas, sino que pasa por alto los errores -las transgresiones involuntarias-, así como el trueno se desvanece, y perdona la culpa -las transgresiones deliberadas-, así como el agua limpia toda suciedad.
 
----
 
-## Las Líneas Regentes
+## Las Líneas Individuales Regentes
 
 ### Al principio un seis significa:
 > Sin mácula.
@@ -82,8 +79,7 @@ El halcón sobre el alto muro es la imagen de un hombre vulgar poderoso en un pu
 
 Confucio dice al respecto: «El halcón es el objetivo de la cacería; el arco y la flecha son las herramientas y los medios; el tirador es el hombre que debe usar correctamente los medios para alcanzar el fin. El Noble guarda los medios en su persona. Aguarda el momento, y entonces actúa. ¿Cómo podría no salir todo bien? Actúa y es libre. Por eso solo necesita salir y derriba la presa. Así está el hombre que actúa después de haber preparado los medios».
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

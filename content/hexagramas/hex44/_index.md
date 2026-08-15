@@ -21,7 +21,6 @@ translationKey: "hex44"
 
 El signo alude a una situación en la que el principio oscuro, que había sido eliminado, vuelve a introducirse subrepticiamente desde el interior y desde abajo de manera inesperada. Lo femenino sale por iniciativa propia al encuentro de los hombres. Se trata de una posición peligrosa y desfavorable debido a las posibles consecuencias que implica, las cuales es preciso reconocer a tiempo para atajarlas. El signo está asignado al quinto mes (junio-julio), pues con el solsticio de verano el principio oscuro comienza a ascender nuevamente de manera gradual.
 
----
 
 ## El Dictamen
 
@@ -35,7 +34,6 @@ De esta manera, el hombre vulgar asciende únicamente porque el noble lo conside
 
 Sin embargo, el tiempo de salir al encuentro posee otra faceta digna de atención. Aunque el acercamiento de lo débil a lo fuerte no debe ser la norma general, en ocasiones cobra una relevancia inmensa. Cuando el cielo y la tierra van al encuentro mutuo, todas las criaturas florecen y prosperan. Cuando el gobernante y su servidor público se aproximan, el mundo se ordena. Un encuentro recíproco de los principios que están destinados el uno para el otro y que se necesitan mutuamente resulta indispensable, siempre y cuando permanezca exento de intenciones ocultas e impuras; de lo contrario, deviene en perjuicio.
 
----
 
 ## La Imagen
 
@@ -46,9 +44,8 @@ Sin embargo, el tiempo de salir al encuentro posee otra faceta digna de atenció
 
 La situación guarda semejanza con la del signo de la Contemplación. En aquel caso el viento soplaba sobre la tierra; aquí sopla debajo del cielo. En ambas circunstancias llega a todas partes. Sin embargo, cuando el viento se encontraba abajo, sobre la tierra, ofrecía la imagen del soberano enterándose de las condiciones de su pueblo. Aquí el viento sopla desde lo alto, lo cual alude a la influencia que el Príncipe ejerce a través de sus decretos y mandatos. El cielo permanece lejano de las cosas terrenales, pero las pone en movimiento por medio del viento; de igual manera, el Príncipe se halla distante de la multitud, pero la moviliza mediante la expresión de su voluntad.
 
----
 
-## Las Líneas
+## Las Líneas Individuales
 
 ### Seis al principio significa:
 > Es preciso frenarlo con una zapata de freno de hierro.
@@ -90,8 +87,7 @@ La sandía, al igual que el pez, es un símbolo del principio oscuro; es dulce p
 
 Cuando un hombre se ha retirado del mundo, el bullicio de los asuntos humanos le resulta con frecuencia insoportable. Existen personalidades que, con un orgullo noble, se mantienen apartadas de todo lo vulgar y lo rechazan de forma tajante cada vez que sale a su encuentro. Tales hombres suelen ser tildados de orgullosos e inaccesibles; sin embargo, dado que ya no se encuentran ligados al mundo por deberes prácticos de acción, la situación no reviste mayor gravedad y saben sobrellevar con entereza el rechazo de la multitud.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)

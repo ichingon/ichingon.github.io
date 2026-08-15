@@ -26,7 +26,6 @@ Como imagen representa al agua, específicamente el agua que proviene de lo alto
 
 Debido a que el signo se duplica, su nombre incluye la acotación: repetición del peligro. Con esto se pretende designar una situación objetiva a la que uno debe habituarse, y no una disposición de ánimo subjetiva; pues el peligro como actitud subjetiva equivaldría a la temeridad o a la doblez. Por ello, el peligro también se define como un desfiladero; es decir, un estado en el cual uno se encuentra atrapado como el agua en una garganta, pero del que se sale del mismo modo que el agua si se actúa de manera correcta.
 
----
 
 ## El Dictamen
 
@@ -40,7 +39,6 @@ De este modo, la veracidad en circunstancias difíciles permite desentrañar ín
 
 Utilizado de forma activa, el peligro puede adquirir un significado crucial como medida de protección. Así, el cielo posee su altura infranqueable, que lo resguarda de cualquier intento de intromisión. La tierra cuenta con sus montañas y masas de agua que, gracias a sus peligros, delimitan y separan las naciones. Del mismo modo, los gobernantes emplean el peligro como una medida defensiva para protegerse contra ataques del exterior y contra disturbios en el plano interno.
 
----
 
 ## La Imagen
 
@@ -51,7 +49,6 @@ Utilizado de forma activa, el peligro puede adquirir un significado crucial como
 
 El agua alcanza su destino gracias a un fluir ininterrumpido. Rellena cada oquedad antes de continuar su curso. Así actúa el Noble: otorga la máxima importancia a que lo bueno se convierta en un rasgo permanente de su carácter, en lugar de ser algo fortuito o aislado. Igualmente, a la hora de instruir a los demás, la constancia lo es todo, ya que solo mediante la repetición el conocimiento pasa a ser un patrimonio real del estudiante.
 
----
 
 ## Las Líneas Individuales
 
@@ -99,9 +96,8 @@ El peligro brota cuando se pretende subir demasiado alto. El agua en la garganta
 
 Un hombre que, en el extremo del peligro, ha extraviado el camino correcto y se encuentra enredado de forma incurable en sus propios errores, carece de toda perspectiva de salir de la adversidad. Se asemeja a un criminal que yace encadenado tras los muros espinosos de una prisión.
 
----
 
-### Enlaces de Consulta
+## Enlaces de Consulta
 * [Volver a la Tabla de Hexagramas](/hexagramas/buscador-hexagramas-i-ching/)
 * [Ver Correspondencias Avanzadas](/hexagramas/tabla-avanzada-correspondencias-i-ching/)
 
