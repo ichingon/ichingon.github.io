@@ -82,7 +82,7 @@
       </button>
 
       <!-- Bloque de Consulta Personalizada (Servicio Pago) -->
-      <div class="privacy-banner" style="margin-top: 14px; border-left: 2px solid var(--app-accent, #eeee55); background: rgba(238, 238, 85, 0.05); padding: 12px; text-align: left;">
+      <div class="privacy-banner" style="margin-top: 14px; border-left: 2px solid var(--app-accent, #eeee55); background: rgba(238, 238, 85, 0.05); padding: 12px; text-align: left; box-sizing: border-box;">
         <strong style="color: var(--app-accent, #eeee55); font-size: 0.9rem;">
           {{ if eq .Language.Lang "de" }}
             Persönliche Interpretation (Kostenpflichtiger Dienst)
@@ -93,42 +93,46 @@
           {{ end }}
         </strong>
         
-        <p style="margin: 6px 0 10px 0; font-size: 0.82rem; line-height: 1.45; color: #ccc;">
+        <p style="margin: 6px 0 12px 0; font-size: 0.82rem; line-height: 1.45; color: #ccc;">
           {{ if eq .Language.Lang "de" }}
-            Wenn du eine vertiefte, individuelle Analyse wünschst, die deine konkrete Situation mit den Wandlungslinien und Kernstrukturen verbindet, kannst du ein persönliches Gutachten per E-Mail anfordern (gegen eine Gebühr). Antwortzeit: 24–48 Std.
+            Wenn du eine vertiefte, menschliche Interpretation wünschst, die auf deine persönliche Situation eingeht, kannst du ein individuelles Gutachten per E-Mail anfordern (gegen eine Gebühr). Antwortzeit: 24–48 Std.
           {{ else if eq .Language.Lang "en" }}
-            If you need an in-depth, individual analysis connecting your specific question with the moving lines and nuclear hexagrams, you can request a personalized report via email (available for a fee). Response time: 24–48 hrs.
+            If you would like an in-depth human interpretation tailored to your personal situation, you can request a personalized report via email (available for a fee). Response time: 24–48 hrs.
           {{ else }}
-            Si deseas un análisis humano exhaustivo que conecte tu pregunta concreta con la dinámica de las líneas móviles y las estructuras nucleares, puedes solicitar un informe personalizado por correo (disponible por un costo adicional). Tiempo de respuesta: 24–48 horas.
+            Si deseas una interpretación humana y profunda adaptada a tu situación personal, puedes solicitar un informe personalizado por correo (disponible por un costo adicional). Tiempo de respuesta: 24–48 horas.
           {{ end }}
         </p>
         
         <!-- Enlace mailto (Móvil / Apps nativas) -->
-        <a id="btnHumanConsult" href="#" class="btn-action" style="display: block; text-align: center; text-decoration: none; font-size: 0.82rem; background: rgba(238, 238, 85, 0.2); border-color: var(--app-accent, #eeee55); color: #fff;">
+        <a id="btnHumanConsult" href="#" class="btn-action" style="display: block; text-align: center; text-decoration: none; font-size: 0.82rem; background: rgba(238, 238, 85, 0.2); border-color: var(--app-accent, #eeee55); color: #fff; margin-bottom: 12px;">
           ✉️ {{ if eq .Language.Lang "de" }}In Mail-App öffnen{{ else if eq .Language.Lang "en" }}Open in Mail App{{ else }}Abrir en App de Correo{{ end }}
         </a>
 
         <!-- Caja de Copiado para Webmail (Gmail, Proton, Outlook Web, etc.) -->
-        <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #333;">
-          <div style="font-size: 0.78rem; color: #aaa; margin-bottom: 6px;">
+        <div style="padding-top: 10px; border-top: 1px solid #333;">
+          <div style="font-size: 0.78rem; color: #aaa; margin-bottom: 8px;">
             {{ if eq .Language.Lang "de" }}Für Webmail (Gmail, Proton, Outlook Web usw.):{{ else if eq .Language.Lang "en" }}For Webmail (Gmail, Proton, Outlook Web, etc.):{{ else }}Para Webmail (Gmail, Proton, Outlook Web, etc.):{{ end }}
           </div>
           
-          <div style="display: flex; gap: 6px; flex-direction: column;">
-            <div style="display: flex; gap: 6px;">
-              <input type="text" id="copyFieldTo" value="dailingna@elichingon.com" readonly style="flex: 1; background: #111; border: 1px solid #444; color: #fff; padding: 6px 8px; font-size: 0.75rem; border-radius: 2px;">
-              <button type="button" onclick="window.copiarCampo('copyFieldTo', this)" class="btn-action" style="width: auto; padding: 6px 12px; font-size: 0.75rem;">📋 {{ if eq .Language.Lang "de" }}Empfänger kopieren{{ else if eq .Language.Lang "en" }}Copy To{{ else }}Copiar Correo{{ end }}</button>
+          <div class="copy-field-group">
+            <label class="copy-field-label">{{ if eq .Language.Lang "de" }}Empfänger{{ else if eq .Language.Lang "en" }}Recipient{{ else }}Destinatario{{ end }}</label>
+            <div class="copy-input-row">
+              <input type="text" id="copyFieldTo" value="dailingna@elichingon.com" readonly class="copy-input">
+              <button type="button" onclick="window.copiarCampo('copyFieldTo', this)" class="btn-copy-mini">📋 {{ if eq .Language.Lang "de" }}Kopieren{{ else if eq .Language.Lang "en" }}Copy{{ else }}Copiar{{ end }}</button>
             </div>
-
-            <div style="display: flex; gap: 6px;">
-              <input type="text" id="copyFieldSubject" value="" readonly style="flex: 1; background: #111; border: 1px solid #444; color: #fff; padding: 6px 8px; font-size: 0.75rem; border-radius: 2px;">
-              <button type="button" onclick="window.copiarCampo('copyFieldSubject', this)" class="btn-action" style="width: auto; padding: 6px 12px; font-size: 0.75rem;">📋 {{ if eq .Language.Lang "de" }}Betreff kopieren{{ else if eq .Language.Lang "en" }}Copy Subject{{ else }}Copiar Asunto{{ end }}</button>
-            </div>
-
-            <button type="button" onclick="window.copiarCuerpo(this)" class="btn-action" style="padding: 8px; font-size: 0.78rem; background: #1a1a1a; border-color: #444; color: #eee;">
-              📋 {{ if eq .Language.Lang "de" }}Nachrichtentext kopieren{{ else if eq .Language.Lang "en" }}Copy Message Body{{ else }}Copiar Mensaje Completo{{ end }}
-            </button>
           </div>
+
+          <div class="copy-field-group">
+            <label class="copy-field-label">{{ if eq .Language.Lang "de" }}Betreff{{ else if eq .Language.Lang "en" }}Subject{{ else }}Asunto{{ end }}</label>
+            <div class="copy-input-row">
+              <input type="text" id="copyFieldSubject" value="" readonly class="copy-input">
+              <button type="button" onclick="window.copiarCampo('copyFieldSubject', this)" class="btn-copy-mini">📋 {{ if eq .Language.Lang "de" }}Kopieren{{ else if eq .Language.Lang "en" }}Copy{{ else }}Copiar{{ end }}</button>
+            </div>
+          </div>
+
+          <button type="button" onclick="window.copiarCuerpo(this)" class="btn-action" style="margin-top: 10px; padding: 10px; font-size: 0.8rem; background: #1a1a1a; border-color: #444; color: #eee;">
+            📋 {{ if eq .Language.Lang "de" }}Nachrichtentext kopieren{{ else if eq .Language.Lang "en" }}Copy Message Body{{ else }}Copiar Mensaje Completo{{ end }}
+          </button>
         </div>
       </div>
 
@@ -150,15 +154,18 @@
 .iching-consultation-container {
   width: 100%;
   max-width: 580px;
+  box-sizing: border-box;
 }
 .consultation-card {
   background: rgba(20, 20, 20, 0.95);
   border: 1px solid #333;
-  padding: 24px 20px;
+  padding: 20px 16px;
   border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
 }
 .title {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin: 0 0 8px 0;
   text-align: center;
   color: #fff;
@@ -195,6 +202,7 @@
 .method-options {
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
 }
 .method-label {
   font-size: 0.82rem;
@@ -208,6 +216,7 @@
   padding: 8px 10px;
   margin: 18px 0;
   border-radius: 2px;
+  box-sizing: border-box;
 }
 .btn-action {
   width: 100%;
@@ -215,10 +224,10 @@
   background: #222;
   border: 1px solid #555;
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   cursor: pointer;
   border-radius: 2px;
-  transition: background 0.2s;
+  transition: background 0.2s, border-color 0.2s;
   box-sizing: border-box;
 }
 .btn-action:hover {
@@ -229,6 +238,7 @@
   border: 1px solid #282828;
   padding: 12px;
   margin-bottom: 16px;
+  box-sizing: border-box;
 }
 .summary-row {
   display: flex;
@@ -246,6 +256,52 @@
 .summary-val {
   color: #eee;
   font-weight: 500;
+}
+
+/* Estilos adaptables para los campos de copiado */
+.copy-field-group {
+  margin-bottom: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.copy-field-label {
+  display: block;
+  font-size: 0.72rem;
+  color: #888;
+  margin-bottom: 3px;
+}
+.copy-input-row {
+  display: flex;
+  gap: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.copy-input {
+  flex: 1;
+  min-width: 0;
+  background: #111;
+  border: 1px solid #444;
+  color: #ddd;
+  padding: 8px 10px;
+  font-size: 0.78rem;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.btn-copy-mini {
+  width: 90px;
+  flex-shrink: 0;
+  padding: 8px 6px;
+  font-size: 0.75rem;
+  background: #222;
+  border: 1px solid #555;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.btn-copy-mini:hover {
+  background: #333;
 }
 </style>
 
@@ -334,7 +390,7 @@ window.addEventListener('message', function(e) {
     const lang = "{{ .Language.Lang }}";
     const toEmail = "dailingna@elichingon.com";
 
-    // Asunto en los 3 idiomas
+    // Asunto oficial
     let subjectText = `[Servicio Pago] Consulta Personalizada I Ching - Hexagrama #${data.hexagram}`;
     if (lang === 'de') {
       subjectText = `[Kostenpflichtiger Dienst] Persönliche Interpretation - Hexagramm #${data.hexagram}`;
@@ -348,7 +404,7 @@ window.addEventListener('message', function(e) {
       bodyText = [
         'Hallo Dài Líng Nà,',
         '',
-        'Ich habe eine Abfrage auf elichingon.com durchgeführt und möchte mich über die Tarife und Verfügbarkeit für eine persönliche Analyse erkundigen.',
+        'Ich habe eine Abfrage auf elichingon.com durchgeführt und möchte mich über die Tarife und Verfügbarkeit für eine persönliche Interpretation erkundigen.',
         '',
         `Name des Fragenden: ${window.appState.userName}`,
         `Frage / Thema: ${window.appState.question || '(In Gedanken gehalten)'}`,
@@ -378,7 +434,7 @@ window.addEventListener('message', function(e) {
       bodyText = [
         'Hola Dài Líng Nà,',
         '',
-        'He realizado una tirada en elichingon.com y deseo consultar las tarifas y disponibilidad para un análisis personalizado.',
+        'He realizado una tirada en elichingon.com y deseo consultar las tarifas y disponibilidad para una interpretación personalizada.',
         '',
         `Consultante: ${window.appState.userName}`,
         `Pregunta / Asunto: ${window.appState.question || '(Mantenida en mente)'}`,
