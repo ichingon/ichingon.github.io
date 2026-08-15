@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>I Ching Entropy Generator</title>
+<style>
+  :root {
+    color-scheme: dark;
+  }
+
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html, body {
+    background-color: #0d0d0d !important;
+    color: #ee5 !important;
+    font-family: system-ui, -apple-system, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .app-wrapper {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background-color: #0d0d0d;
+    padding: 0 10px;
+  }
+
+  /* Panel Superior */
+  .control-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .progress-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4em 0.8em;
+    border: 1px solid rgba(238, 238, 85, 0.4);
+    border-radius: 2px;
+    background-color: #000000;
+    font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+    color: #ee5;
+    letter-spacing: 4px;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .progress-box .block {
+    opacity: 0.25;
+    transition: opacity 0.3s ease, color 0.3s ease;
+  }
+
+  .progress-box .block.completed {
+    opacity: 1;
+    color: #ee5;
+  }
+
+  .btn-generate {
+    background: #000000;
+    border: 1px solid #ee5;
+    color: #ee5;
+    padding: 0.6em 1.2em;
+    font-family: inherit;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    border-radius: 2px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .btn-generate:hover:not(:disabled), .btn-generate:active:not(:disabled) {
+    background: rgba(238, 238, 85, 0.2);
+    box-shadow: 0 0 10px rgba(238, 238, 85, 0.25);
+  }
+
+  .btn-generate:disabled {
+    border-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.2);
+    background: #111111;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  /* Lienzo de Cuadratura del Círculo */
+  .container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #ee5;
+    background-color: #000000;
+    cursor: crosshair;
+    overflow: hidden;
+    touch-action: none;
+  }
+  
+  .heaven-in-container {
+    position: absolute;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid #ee5;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .earth-in-container {
+    position: absolute;
+    width: 70.90%; 
+    aspect-ratio: 1 / 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ee5;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  #entropyCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    touch-action: none;
+  }
+
+  /* Pila del Hexagrama */
+  .hexagram-stack {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    gap: 0.35em;
+    padding: 0.8em 1em;
+    border: 1px solid rgba(238, 238, 85, 0.4);
+    background-color: #000000;
+    font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
+    font-size: 1.25rem;
+    color: #ee5;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: opacity 0.4s ease;
+  }
+
+  .hexagram-stack.hidden-mode {
+    display: none;
+  }
+
+  .hex-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.6em;
+    white-space: pre;
+    visibility: hidden;
+  }
+
+  .hex-slot.visible {
+    visibility: visible;
+  }
+
+  .hex-slot .val {
+    display: inline-block;
+    width: 2.5ch;
+    opacity: 0.6;
+    font-size: 0.95em;
+    text-align: right;
+    margin-right: 1.5ch;
+  }
+
+  .hex-slot .glyph {
+    letter-spacing: 0;
+    color: #ee5;
+  }
+</style>
+</head>
+<body>
+
+  <div class="app-wrapper">
+
+    <!-- Panel Superior -->
+    <div class="control-panel">
+      <div class="progress-box" id="hexProgress">
+        <span class="block" id="block-1">░</span><span class="block" id="block-2">░</span><span class="block" id="block-3">░</span><span class="block" id="block-4">░</span><span class="block" id="block-5">░</span><span class="block" id="block-6">░</span>
+      </div>
+      <button class="btn-generate" id="btnGenerate" disabled autocomplete="off"></button>
+    </div>
+
+    <!-- Lienzo de Entropía -->
+    <div class="container" id="containerBox">
+      <canvas id="entropyCanvas"></canvas>
+      <div class="heaven-in-container"></div>
+      <div class="earth-in-container"></div>
+    </div>
+
+    <!-- Pila del Hexagrama -->
+    <div class="hexagram-stack" id="hexStack">
+      <div class="hex-slot" id="slot-1"></div>
+      <div class="hex-slot" id="slot-2"></div>
+      <div class="hex-slot" id="slot-3"></div>
+      <div class="hex-slot" id="slot-4"></div>
+      <div class="hex-slot" id="slot-5"></div>
+      <div class="hex-slot" id="slot-6"></div>
+    </div>
+
+  </div>
+
+<script>
+(() => {
+  const i18nTexts = {
+    es: {
+      genLine: (n) => `Generar Línea ${n}`,
+      complete: "Hexagrama Completo",
+      reveal: "Revelar Hexagrama",
+      process: "Consultar Interpretación",
+      alertDone: (lines) => `Listo para interpretar: [${lines.join(', ')}]`
+    },
+    en: {
+      genLine: (n) => `Generate Line ${n}`,
+      complete: "Hexagram Complete",
+      reveal: "Reveal Hexagram",
+      process: "Consult Interpretation",
+      alertDone: (lines) => `Ready to interpret: [${lines.join(', ')}]`
+    },
+    de: {
+      genLine: (n) => `Linie ${n} erzeugen`,
+      complete: "Hexagramm vollständig",
+      reveal: "Hexagramm aufdecken",
+      process: "Interpretation ansehen",
+      alertDone: (lines) => `Bereit zur Interpretation: [${lines.join(', ')}]`
+    }
+  };
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const requestedLang = urlParams.get('lang') || navigator.language.slice(0, 2);
+  const currentLang = i18nTexts[requestedLang] ? requestedLang : 'es';
+  const i18n = i18nTexts[currentLang];
+
+  const metodo = urlParams.get('metodo') || 'monedas';
+  const revealMode = urlParams.get('revelacion') || urlParams.get('mode') || 'progressive'; 
+  const redirectTarget = urlParams.get('redirect') || null;
+
+  const btnGenerate = document.getElementById('btnGenerate');
+  const hexStack = document.getElementById('hexStack');
+  const canvas = document.getElementById('entropyCanvas');
+  const ctx = canvas.getContext('2d');
+
+  if (revealMode === 'final') {
+    hexStack.classList.add('hidden-mode');
+  }
+
+  let currentLine = 1;
+  let accumulatedEntropy = 0;
+  const ENTROPY_THRESHOLD = 20;
+  let entropyPool = [];
+  const linesGenerated = [];
+
+  const lineGlyphs = {
+    6: '━━━x━━━',
+    7: '━━━━━━━',
+    8: '━━╸ ╺━━',
+    9: '━━━o━━━'
+  };
+
+  btnGenerate.disabled = true;
+  btnGenerate.textContent = i18n.genLine(currentLine);
+
+  function resizeCanvas() {
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = rect.width;
+    canvas.height = rect.height;
+  }
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+
+  let isInteracting = false;
+  let lastX = 0, lastY = 0;
+
+  function addEntropy(clientX, clientY) {
+    if (currentLine > 6) return;
+
+    const rect = canvas.getBoundingClientRect();
+    const x = clientX - rect.left;
+    const y = clientY - rect.top;
+
+    const timestamp = performance.now();
+    entropyPool.push({ x: Math.round(x), y: Math.round(y), t: Math.round(timestamp) });
+    accumulatedEntropy++;
+
+    ctx.strokeStyle = 'rgba(238, 238, 85, 0.5)';
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(lastX || x, lastY || y);
+    ctx.lineTo(x, y);
+    ctx.stroke();
+
+    lastX = x;
+    lastY = y;
+
+    if (accumulatedEntropy >= ENTROPY_THRESHOLD && btnGenerate.disabled) {
+      btnGenerate.disabled = false;
+    }
+  }
+
+  // Pointer Events
+  canvas.addEventListener('pointerdown', (e) => {
+    isInteracting = true;
+    const rect = canvas.getBoundingClientRect();
+    lastX = e.clientX - rect.left;
+    lastY = e.clientY - rect.top;
+    try { canvas.setPointerCapture(e.pointerId); } catch (err) {}
+  });
+
+  canvas.addEventListener('pointermove', (e) => {
+    if (!isInteracting) return;
+    addEntropy(e.clientX, e.clientY);
+  });
+
+  function stopInteraction(e) {
+    if (isInteracting) {
+      isInteracting = false;
+      lastX = 0;
+      lastY = 0;
+      try { canvas.releasePointerCapture(e.pointerId); } catch (err) {}
+    }
+  }
+
+  canvas.addEventListener('pointerup', stopInteraction);
+  canvas.addEventListener('pointercancel', stopInteraction);
+
+  // Motor de cálculo sincrónico y robusto
+  function computeLineValueSync(userPool, method) {
+    let rand = 0;
+    const rawData = userPool.map(p => `${p.x},${p.y},${p.t}`).join(';') + ';' + Date.now() + ';' + Math.random();
+
+    // Algoritmo FNV-1a mezclado con entropía temporal
+    let h = 0x811c9dc5;
+    for (let i = 0; i < rawData.length; i++) {
+      h ^= rawData.charCodeAt(i);
+      h = Math.imul(h, 0x01000193);
+    }
+    rand = ((h ^ (Math.random() * 0xFFFFFFFF)) >>> 0) / 4294967296;
+
+    if (method === 'milenrama') {
+      if (rand < 0.0625) return 6;
+      if (rand < 0.3750) return 7;
+      if (rand < 0.8125) return 8;
+      return 9;
+    } else {
+      if (rand < 0.125) return 6;
+      if (rand < 0.500) return 7;
+      if (rand < 0.875) return 8;
+      return 9;
+    }
+  }
+
+  function handleProcessAction(e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+
+    if (btnGenerate.disabled) return;
+
+    if (currentLine > 6) {
+      if (revealMode === 'final' && hexStack.classList.contains('hidden-mode')) {
+        revealFullHexagram();
+        return;
+      }
+      concludeConsultation();
+      return;
+    }
+
+    // 1. Deshabilitar botón de inmediato
+    btnGenerate.disabled = true;
+
+    // 2. Calcular valor
+    const lineValue = computeLineValueSync(entropyPool, metodo);
+    linesGenerated.push(lineValue);
+
+    // 3. Actualizar bloque en barra superior
+    const block = document.getElementById(`block-${currentLine}`);
+    if (block) {
+      block.textContent = '█';
+      block.classList.add('completed');
+    }
+
+    // 4. Renderizar línea en la pila si es progresivo
+    if (revealMode === 'progressive') {
+      renderSlot(currentLine, lineValue);
+    }
+
+    // 5. Limpieza garantizada del lienzo
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    accumulatedEntropy = 0;
+    entropyPool = [];
+    lastX = 0;
+    lastY = 0;
+
+    currentLine++;
+
+    // 6. Actualizar botón para la siguiente fase
+    if (currentLine <= 6) {
+      btnGenerate.textContent = i18n.genLine(currentLine);
+    } else {
+      if (revealMode === 'progressive') {
+        btnGenerate.textContent = i18n.process;
+        btnGenerate.disabled = false;
+      } else {
+        btnGenerate.textContent = i18n.reveal;
+        btnGenerate.disabled = false;
+      }
+    }
+  }
+
+  // Soporte directo para clic y toque en el botón
+  btnGenerate.addEventListener('click', handleProcessAction);
+  btnGenerate.addEventListener('touchend', handleProcessAction);
+
+  function renderSlot(lineNumber, value) {
+    const slot = document.getElementById(`slot-${lineNumber}`);
+    if (slot) {
+      slot.innerHTML = `<span class="val">${value}</span><span class="glyph">${lineGlyphs[value]}</span>`;
+      slot.classList.add('visible');
+    }
+  }
+
+  function revealFullHexagram() {
+    hexStack.classList.remove('hidden-mode');
+    linesGenerated.forEach((val, idx) => {
+      renderSlot(idx + 1, val);
+    });
+    btnGenerate.textContent = i18n.process;
+  }
+
+  function concludeConsultation() {
+    sessionStorage.setItem('lastHexagram', JSON.stringify({
+      lines: linesGenerated,
+      method: metodo,
+      timestamp: Date.now()
+    }));
+
+    if (window.parent !== window) {
+      window.parent.postMessage({ type: 'ICHING_COMPLETE', lines: linesGenerated, method: metodo }, '*');
+    }
+
+    if (redirectTarget) {
+      window.location.href = `${redirectTarget}?lines=${linesGenerated.join(',')}&metodo=${metodo}`;
+    } else {
+      alert(i18n.alertDone(linesGenerated));
+    }
+  }
+})();
+</script>
+
+</body>
+</html>

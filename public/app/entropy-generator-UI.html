@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulta I Ching</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #0d0d0d;
+    color: #e5e5e5;
+    font-family: system-ui, -apple-system, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .app-wrapper {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Panel Superior */
+  .control-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .progress-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4em 0.8em;
+    border: 1px solid rgba(238, 238, 85, 0.35);
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+    color: #ee5;
+    letter-spacing: 4px;
+    user-select: none;
+  }
+
+  .progress-box .block {
+    opacity: 0.25;
+    transition: opacity 0.3s ease, color 0.3s ease;
+  }
+
+  .progress-box .block.completed {
+    opacity: 1;
+    color: #ee5;
+  }
+
+  .btn-generate {
+    background: transparent;
+    border: 1px solid #ee5;
+    color: #ee5;
+    padding: 0.6em 1.2em;
+    font-family: inherit;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    border-radius: 2px;
+  }
+
+  .btn-generate:hover:not(:disabled) {
+    background: rgba(238, 238, 85, 0.12);
+    box-shadow: 0 0 10px rgba(238, 238, 85, 0.25);
+  }
+
+  .btn-generate:disabled {
+    border-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.2);
+    cursor: not-allowed;
+  }
+
+  /* Lienzo de Cuadratura del Círculo */
+  .container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #ee5;
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: crosshair;
+    overflow: hidden;
+  }
+  
+  .heaven-in-container {
+    position: absolute;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid #ee5;
+    pointer-events: none;
+  }
+
+  .earth-in-container {
+    position: absolute;
+    width: 70.90%; 
+    aspect-ratio: 1 / 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ee5;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  #entropyCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    touch-action: none;
+  }
+
+  /* Pila del Hexagrama */
+  .hexagram-stack {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    gap: 0.35em;
+    padding: 0.8em 1em;
+    border: 1px solid rgba(238, 238, 85, 0.35);
+    background: rgba(0, 0, 0, 0.6);
+    font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
+    font-size: 1.25rem;
+    color: #ee5;
+    user-select: none;
+    transition: opacity 0.4s ease;
+  }
+
+  /* Ocultar la pila completa si estamos en modo final */
+  .hexagram-stack.hidden-mode {
+    display: none;
+  }
+
+  .hex-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.6em;
+    white-space: pre;
+    visibility: hidden;
+  }
+
+  .hex-slot.visible {
+    visibility: visible;
+  }
+
+  .hex-slot .val {
+    display: inline-block;
+    width: 2.5ch;
+    opacity: 0.6;
+    font-size: 0.95em;
+    text-align: right;
+    margin-right: 1.5ch;
+  }
+
+  .hex-slot .glyph {
+    letter-spacing: 0;
+    color: #ee5;
+  }
+</style>
+</head>
+<body>
+
+  <div class="app-wrapper">
+
+    <!-- Panel Superior -->
+    <div class="control-panel">
+      <div class="progress-box" id="hexProgress">
+        <span class="block" id="block-1">░</span><span class="block" id="block-2">░</span><span class="block" id="block-3">░</span><span class="block" id="block-4">░</span><span class="block" id="block-5">░</span><span class="block" id="block-6">░</span>
+      </div>
+      <button class="btn-generate" id="btnGenerate" disabled autocomplete="off">
+        Generar Línea 1
+      </button>
+    </div>
+
+    <!-- Lienzo de Entropía -->
+    <div class="container" id="containerBox">
+      <canvas id="entropyCanvas"></canvas>
+      <div class="heaven-in-container"></div>
+      <div class="earth-in-container"></div>
+    </div>
+
+    <!-- Pila del Hexagrama -->
+    <div class="hexagram-stack" id="hexStack">
+      <div class="hex-slot" id="slot-1"></div>
+      <div class="hex-slot" id="slot-2"></div>
+      <div class="hex-slot" id="slot-3"></div>
+      <div class="hex-slot" id="slot-4"></div>
+      <div class="hex-slot" id="slot-5"></div>
+      <div class="hex-slot" id="slot-6"></div>
+    </div>
+
+  </div>
+
+<script>
+  // CONFIGURACIÓN: 'progressive' (revelación paso a paso) o 'final' (revelación al final)
+  // En tu app final esto puede venir de URL params (?mode=final) o de un state global
+  const revealMode = 'progressive'; 
+
+  // Elementos del DOM
+  const btnGenerate = document.getElementById('btnGenerate');
+  const hexStack = document.getElementById('hexStack');
+  const canvas = document.getElementById('entropyCanvas');
+  const ctx = canvas.getContext('2d');
+
+  // Si el modo es 'final', ocultamos la pila durante la consulta
+  if (revealMode === 'final') {
+    hexStack.classList.add('hidden-mode');
+  }
+
+  // Variables de Estado
+  let currentLine = 1;
+  let accumulatedEntropy = 0;
+  const ENTROPY_THRESHOLD = 25;
+  let entropyPool = [];
+  const linesGenerated = [];
+
+  const lineGlyphs = {
+    6: '━━━x━━━',
+    7: '━━━━━━━',
+    8: '━━╸ ╺━━',
+    9: '━━━o━━━'
+  };
+
+  btnGenerate.disabled = true;
+
+  function resizeCanvas() {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+  }
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+
+  // Captura de Entropía
+  let isInteracting = false;
+  let lastX = 0, lastY = 0;
+
+  function addEntropy(x, y) {
+    if (currentLine > 6) return;
+
+    const timestamp = performance.now();
+    entropyPool.push({ x, y, t: timestamp });
+    accumulatedEntropy++;
+
+    ctx.strokeStyle = 'rgba(238, 238, 85, 0.4)';
+    ctx.lineWidth = 2;
+    ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(lastX || x, lastY || y);
+    ctx.lineTo(x, y);
+    ctx.stroke();
+
+    lastX = x;
+    lastY = y;
+
+    if (accumulatedEntropy >= ENTROPY_THRESHOLD && btnGenerate.disabled) {
+      btnGenerate.disabled = false;
+    }
+  }
+
+  // Eventos Mouse
+  canvas.addEventListener('mousedown', (e) => {
+    isInteracting = true;
+    lastX = e.offsetX;
+    lastY = e.offsetY;
+  });
+  canvas.addEventListener('mousemove', (e) => {
+    if (isInteracting) addEntropy(e.offsetX, e.offsetY);
+  });
+  window.addEventListener('mouseup', () => isInteracting = false);
+
+  // Eventos Touch
+  canvas.addEventListener('touchstart', (e) => {
+    isInteracting = true;
+    const rect = canvas.getBoundingClientRect();
+    lastX = e.touches[0].clientX - rect.left;
+    lastY = e.touches[0].clientY - rect.top;
+  }, { passive: true });
+
+  canvas.addEventListener('touchmove', (e) => {
+    if (!isInteracting) return;
+    const rect = canvas.getBoundingClientRect();
+    const x = e.touches[0].clientX - rect.left;
+    const y = e.touches[0].clientY - rect.top;
+    addEntropy(x, y);
+  }, { passive: true });
+
+  window.addEventListener('touchend', () => isInteracting = false);
+
+  // Motor Criptográfico
+  async function computeLineValue(userPool) {
+    const hardwareEntropy = new Uint8Array(32);
+    window.crypto.getRandomValues(hardwareEntropy);
+
+    const encoder = new TextEncoder();
+    const rawData = userPool.map(p => `${p.x.toFixed(3)},${p.y.toFixed(3)},${p.t}`).join(';');
+    const userBytes = encoder.encode(rawData);
+
+    const combined = new Uint8Array(hardwareEntropy.length + userBytes.length);
+    combined.set(hardwareEntropy, 0);
+    combined.set(userBytes, hardwareEntropy.length);
+
+    const hashBuffer = await window.crypto.subtle.digest('SHA-256', combined);
+    const view = new DataView(hashBuffer);
+    const uint32 = view.getUint32(0, true);
+
+    const rand = uint32 / 4294967296;
+
+    if (rand < 0.125) return 6;
+    if (rand < 0.500) return 7;
+    if (rand < 0.875) return 8;
+    return 9;
+  }
+
+  // Generar Línea
+  btnGenerate.addEventListener('click', async () => {
+    // Si ya completamos las 6 líneas y estamos en modo final, este clic revela el hexagrama
+    if (currentLine > 6) {
+      revealFullHexagram();
+      return;
+    }
+
+    btnGenerate.disabled = true;
+
+    const lineValue = await computeLineValue(entropyPool);
+    linesGenerated.push(lineValue);
+
+    // 1. Actualizar bloque en la barra superior (█)
+    const block = document.getElementById(`block-${currentLine}`);
+    block.textContent = '█';
+    block.classList.add('completed');
+
+    // 2. Si estamos en modo progresivo, renderizar la línea inmediatamente
+    if (revealMode === 'progressive') {
+      renderSlot(currentLine, lineValue);
+    }
+
+    // 3. Reset de entropía para la siguiente línea
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    accumulatedEntropy = 0;
+    entropyPool = [];
+
+    currentLine++;
+
+    // Control del texto del botón
+    if (currentLine <= 6) {
+      btnGenerate.textContent = `Generar Línea ${currentLine}`;
+    } else {
+      if (revealMode === 'progressive') {
+        btnGenerate.textContent = 'Hexagrama Completo';
+        btnGenerate.disabled = false;
+        btnGenerate.onclick = () => alert('Listo para interpretar: [' + linesGenerated.join(', ') + ']');
+      } else {
+        // En modo final, el botón invita a develar
+        btnGenerate.textContent = 'Revelar Hexagrama';
+        btnGenerate.disabled = false;
+      }
+    }
+  });
+
+  function renderSlot(lineNumber, value) {
+    const slot = document.getElementById(`slot-${lineNumber}`);
+    slot.innerHTML = `<span class="val">${value}</span><span class="glyph">${lineGlyphs[value]}</span>`;
+    slot.classList.add('visible');
+  }
+
+  function revealFullHexagram() {
+    hexStack.classList.remove('hidden-mode');
+    linesGenerated.forEach((val, idx) => {
+      renderSlot(idx + 1, val);
+    });
+    btnGenerate.textContent = 'Consultar Interpretación';
+    btnGenerate.onclick = () => alert('Listo para interpretar: [' + linesGenerated.join(', ') + ']');
+  }
+</script>
+
+</body>
+</html>
