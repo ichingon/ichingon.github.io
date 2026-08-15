@@ -14,8 +14,15 @@
     -webkit-tap-highlight-color: transparent;
   }
 
+  /* El Vacío Cuántico */
   html, body {
-    background-color: #0d0d0d !important;
+    background-color: #080a0f !important;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(30, 50, 100, 0.6) 0px, transparent 45%),    
+      radial-gradient(at 100% 0%, rgba(70, 30, 90, 0.5) 0px, transparent 45%),   
+      radial-gradient(at 50% 100%, rgba(15, 32, 67, 0.7) 0px, transparent 50%) !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
     color: #ee5 !important;
     font-family: system-ui, -apple-system, sans-serif;
     display: flex;
@@ -31,7 +38,7 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
-    background-color: #0d0d0d;
+    background: transparent;
     padding: 0 10px;
   }
 
@@ -45,13 +52,16 @@
   }
 
   .progress-box {
+    flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.4em 0.8em;
     border: 1px solid rgba(238, 238, 85, 0.4);
     border-radius: 2px;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
     font-size: 1.2rem;
     color: #ee5;
@@ -71,10 +81,13 @@
   }
 
   .btn-generate {
-    background: #000000;
+    flex: 1;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border: 1px solid #ee5;
     color: #ee5;
-    padding: 0.6em 1.2em;
+    padding: 0.6em 0.8em;
     font-family: inherit;
     font-size: 0.85rem;
     letter-spacing: 1px;
@@ -85,6 +98,7 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    text-align: center;
   }
 
   .btn-generate:hover:not(:disabled), .btn-generate:active:not(:disabled) {
@@ -95,7 +109,7 @@
   .btn-generate:disabled {
     border-color: rgba(255, 255, 255, 0.15);
     color: rgba(255, 255, 255, 0.2);
-    background: #111111;
+    background: rgba(0, 0, 0, 0.4);
     cursor: not-allowed;
     pointer-events: none;
   }
@@ -106,7 +120,9 @@
     width: 100%;
     aspect-ratio: 1 / 1;
     border: 1px solid #ee5;
-    background-color: #000000;
+    background-color: rgba(4, 6, 12, 0.85);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     cursor: crosshair;
     overflow: hidden;
     touch-action: none;
@@ -147,7 +163,7 @@
     touch-action: none;
   }
 
-  /* Pila del Hexagrama */
+  /* Pila del Hexagrama Centrada */
   .hexagram-stack {
     display: flex;
     flex-direction: column-reverse;
@@ -155,7 +171,9 @@
     gap: 0.35em;
     padding: 0.8em 1em;
     border: 1px solid rgba(238, 238, 85, 0.4);
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
     font-size: 1.25rem;
     color: #ee5;
@@ -169,9 +187,9 @@
   }
 
   .hex-slot {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    justify-content: center;
     height: 1.6em;
     white-space: pre;
     visibility: hidden;
@@ -182,17 +200,16 @@
   }
 
   .hex-slot .val {
-    display: inline-block;
-    width: 2.5ch;
+    justify-self: end;
+    margin-right: 2.5ch;
     opacity: 0.6;
     font-size: 0.95em;
-    text-align: right;
-    margin-right: 1.5ch;
   }
 
   .hex-slot .glyph {
     letter-spacing: 0;
     color: #ee5;
+    text-align: center;
   }
 </style>
 </head>
@@ -203,7 +220,7 @@
     <!-- Panel Superior -->
     <div class="control-panel">
       <div class="progress-box" id="hexProgress">
-        <span class="block" id="block-1">░</span><span class="block" id="block-2">░</span><span class="block" id="block-3">░</span><span class="block" id="block-4">░</span><span class="block" id="block-5">░</span><span class="block" id="block-6">░</span>
+        <span class="block" id="block-1">▓</span><span class="block" id="block-2">▓</span><span class="block" id="block-3">▓</span><span class="block" id="block-4">▓</span><span class="block" id="block-5">▓</span><span class="block" id="block-6">▓</span>
       </div>
       <button class="btn-generate" id="btnGenerate" disabled autocomplete="off"></button>
     </div>
@@ -231,24 +248,24 @@
 (() => {
   const i18nTexts = {
     es: {
-      genLine: (n) => `Generar Línea ${n}`,
+      genLine: (n) => `Línea ${n}`,
       complete: "Hexagrama Completo",
-      reveal: "Revelar Hexagrama",
-      process: "Consultar Interpretación",
+      reveal: "Revelar",
+      process: "Continuar",
       alertDone: (lines) => `Listo para interpretar: [${lines.join(', ')}]`
     },
     en: {
-      genLine: (n) => `Generate Line ${n}`,
+      genLine: (n) => `Line ${n}`,
       complete: "Hexagram Complete",
-      reveal: "Reveal Hexagram",
-      process: "Consult Interpretation",
+      reveal: "Reveal",
+      process: "Continue",
       alertDone: (lines) => `Ready to interpret: [${lines.join(', ')}]`
     },
     de: {
-      genLine: (n) => `Linie ${n} erzeugen`,
+      genLine: (n) => `Linie ${n}`,
       complete: "Hexagramm vollständig",
-      reveal: "Hexagramm aufdecken",
-      process: "Interpretation ansehen",
+      reveal: "Aufdecken",
+      process: "Weiter",
       alertDone: (lines) => `Bereit zur Interpretation: [${lines.join(', ')}]`
     }
   };
@@ -276,8 +293,6 @@
   const ENTROPY_THRESHOLD = 20;
   let entropyPool = [];
   const linesGenerated = [];
-
-  // Partículas para la estela desvaneciente
   let particles = [];
 
   const lineGlyphs = {
@@ -298,14 +313,13 @@
   window.addEventListener('resize', resizeCanvas);
   resizeCanvas();
 
-  // Bucle de animación para desvanecer la estela de puntos
   function animateTrail() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     for (let i = particles.length - 1; i >= 0; i--) {
       const p = particles[i];
-      p.alpha -= 0.02; // Velocidad de desvanecimiento
-      p.radius *= 0.98; // Se reducen ligeramente
+      p.alpha -= 0.025;
+      p.radius *= 0.97;
 
       if (p.alpha <= 0 || p.radius <= 0.5) {
         particles.splice(i, 1);
@@ -339,12 +353,11 @@
     entropyPool.push({ x: Math.round(x), y: Math.round(y), t: Math.round(timestamp) });
     accumulatedEntropy++;
 
-    // Crear partículas en la posición del puntero
     particles.push({
       x: x,
       y: y,
       radius: Math.random() * 2.5 + 2.5,
-      alpha: 0.9
+      alpha: 0.95
     });
 
     if (accumulatedEntropy >= ENTROPY_THRESHOLD && btnGenerate.disabled) {
@@ -352,7 +365,6 @@
     }
   }
 
-  // Pointer Events
   canvas.addEventListener('pointerdown', (e) => {
     isInteracting = true;
     try { canvas.setPointerCapture(e.pointerId); } catch (err) {}
@@ -430,7 +442,6 @@
       renderSlot(currentLine, lineValue);
     }
 
-    // Resetear datos y partículas
     particles = [];
     accumulatedEntropy = 0;
     entropyPool = [];
@@ -456,7 +467,7 @@
   function renderSlot(lineNumber, value) {
     const slot = document.getElementById(`slot-${lineNumber}`);
     if (slot) {
-      slot.innerHTML = `<span class="val">${value}</span><span class="glyph">${lineGlyphs[value]}</span>`;
+      slot.innerHTML = `<span class="val">${value}</span><span class="glyph">${lineGlyphs[value]}</span><span></span>`;
       slot.classList.add('visible');
     }
   }
