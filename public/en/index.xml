@@ -150,23 +150,13 @@
     </item>
     
     <item>
-      <title>Entropy Generator</title>
-      <link>http://localhost:1313/en/iching-entropy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en/iching-entropy/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>I Ching Oracle Consultation</title>
       <link>http://localhost:1313/en/iching-consultation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/en/iching-consultation/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/consulta-iching/featured.jpg" />
     </item>
     
   </channel>

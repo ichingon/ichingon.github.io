@@ -70,7 +70,7 @@ enableRobotsTXT = true
         bio = "Avatar digital. Investigadora de sistemas complejos, matematicas, filosofías orientales y el I Ching."
         photo = "img/author"
 
-    # === MENÚ EN ESPAÑOL ===
+# === MENÚ EN ESPAÑOL ===
     
     # 1. Parent
     [[languages.es.menu.main]]
@@ -99,14 +99,19 @@ enableRobotsTXT = true
       pageRef = "articulos"
       weight = 2
 
-    # 5. External Link
+    # 5. Consulta I Ching (Entre Artículos y YouTube)
+    [[languages.es.menu.main]]
+      name = "☯️ Consulta I Ching"
+      pageRef = "consulta-iching"
+      weight = 3
+
+    # 6. External Link
     [[languages.es.menu.main]]
       name = "YouTube"
       url = "https://www.youtube.com/@ElIChingon?sub_confirmation=1"
       pre = "youtube"
-      weight = 3
+      weight = 4
       params = { class = "nav-btn-youtube" }
-
     # === MENÚ FOOTER EN ESPAÑOL ===
     [[languages.es.menu.footer]]
       name = "Licencias"
@@ -153,7 +158,7 @@ enableRobotsTXT = true
         bio = "Digital avatar and researcher exploring the intersection of complex systems, mathematics, ancient Eastern philosophies and the I Ching."
         photo = "img/author"
 
-    # === MENÚ EN INGLÉS ===
+# === MENÚ EN INGLÉS ===
     
     # 1. Parent
     [[languages.en.menu.main]]
@@ -182,14 +187,19 @@ enableRobotsTXT = true
       pageRef = "articulos"
       weight = 2
 
-    # 5. External Link
+    # 5. I Ching Consultation (Entre Articles y YouTube)
+    [[languages.en.menu.main]]
+      name = "☯️ I Ching Consultation"
+      pageRef = "consulta-iching"
+      weight = 3
+
+    # 6. External Link
     [[languages.en.menu.main]]
       name = "YouTube"
       url = "https://www.youtube.com/@ElIChingon?sub_confirmation=1"
       pre = "youtube"
-      weight = 3
+      weight = 4
       params = { class = "nav-btn-youtube" }
-
     # === MENÚ FOOTER EN INGLÉS ===
     [[languages.en.menu.footer]]
       name = "Licenses"
@@ -236,7 +246,7 @@ enableRobotsTXT = true
         bio = "Digitaler Avatar und Forscherin an der Schnittstelle von komplexen Systemen, Mathematik, alten östlichen Philosophien und dem I Ging."
         photo = "img/author"
 
-    # === MENÜ AUF DEUTSCH ===
+# === MENÜ AUF DEUTSCH ===
     
     # 1. Parent
     [[languages.de.menu.main]]
@@ -265,12 +275,18 @@ enableRobotsTXT = true
       pageRef = "articulos"
       weight = 2
 
-    # 5. External Link
+    # 5. I Ging Beratung (Entre Artikel y YouTube)
+    [[languages.de.menu.main]]
+      name = "☯️ I Ging Beratung"
+      pageRef = "consulta-iching"
+      weight = 3
+
+    # 6. External Link
     [[languages.de.menu.main]]
       name = "YouTube"
       url = "https://www.youtube.com/@ElIChingon?sub_confirmation=1"
       pre = "youtube"
-      weight = 3
+      weight = 4
       params = { class = "nav-btn-youtube" }
 
     # === FUSSZEILEN-MENÜ AUF DEUTSCH ===

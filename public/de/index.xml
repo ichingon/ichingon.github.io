@@ -150,23 +150,13 @@
     </item>
     
     <item>
-      <title>Entropie-Generator</title>
-      <link>http://localhost:1313/de/iging-entropie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/de/iging-entropie/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>I-Ging-Orakelbefragung</title>
       <link>http://localhost:1313/de/iging-befragung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/de/iging-befragung/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/consulta-iching/featured.jpg" />
     </item>
     
   </channel>
