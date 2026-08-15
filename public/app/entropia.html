@@ -277,6 +277,9 @@
   let entropyPool = [];
   const linesGenerated = [];
 
+  // Partículas para la estela desvaneciente
+  let particles = [];
+
   const lineGlyphs = {
     6: '━━━x━━━',
     7: '━━━━━━━',
@@ -295,8 +298,35 @@
   window.addEventListener('resize', resizeCanvas);
   resizeCanvas();
 
+  // Bucle de animación para desvanecer la estela de puntos
+  function animateTrail() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    for (let i = particles.length - 1; i >= 0; i--) {
+      const p = particles[i];
+      p.alpha -= 0.02; // Velocidad de desvanecimiento
+      p.radius *= 0.98; // Se reducen ligeramente
+
+      if (p.alpha <= 0 || p.radius <= 0.5) {
+        particles.splice(i, 1);
+        continue;
+      }
+
+      ctx.save();
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(238, 238, 85, ${p.alpha})`;
+      ctx.shadowColor = '#ee5';
+      ctx.shadowBlur = 6;
+      ctx.fill();
+      ctx.restore();
+    }
+
+    requestAnimationFrame(animateTrail);
+  }
+  requestAnimationFrame(animateTrail);
+
   let isInteracting = false;
-  let lastX = 0, lastY = 0;
 
   function addEntropy(clientX, clientY) {
     if (currentLine > 6) return;
@@ -309,16 +339,13 @@
     entropyPool.push({ x: Math.round(x), y: Math.round(y), t: Math.round(timestamp) });
     accumulatedEntropy++;
 
-    ctx.strokeStyle = 'rgba(238, 238, 85, 0.5)';
-    ctx.lineWidth = 3;
-    ctx.lineCap = 'round';
-    ctx.beginPath();
-    ctx.moveTo(lastX || x, lastY || y);
-    ctx.lineTo(x, y);
-    ctx.stroke();
-
-    lastX = x;
-    lastY = y;
+    // Crear partículas en la posición del puntero
+    particles.push({
+      x: x,
+      y: y,
+      radius: Math.random() * 2.5 + 2.5,
+      alpha: 0.9
+    });
 
     if (accumulatedEntropy >= ENTROPY_THRESHOLD && btnGenerate.disabled) {
       btnGenerate.disabled = false;
@@ -328,10 +355,8 @@
   // Pointer Events
   canvas.addEventListener('pointerdown', (e) => {
     isInteracting = true;
-    const rect = canvas.getBoundingClientRect();
-    lastX = e.clientX - rect.left;
-    lastY = e.clientY - rect.top;
     try { canvas.setPointerCapture(e.pointerId); } catch (err) {}
+    addEntropy(e.clientX, e.clientY);
   });
 
   canvas.addEventListener('pointermove', (e) => {
@@ -342,8 +367,6 @@
   function stopInteraction(e) {
     if (isInteracting) {
       isInteracting = false;
-      lastX = 0;
-      lastY = 0;
       try { canvas.releasePointerCapture(e.pointerId); } catch (err) {}
     }
   }
@@ -351,12 +374,10 @@
   canvas.addEventListener('pointerup', stopInteraction);
   canvas.addEventListener('pointercancel', stopInteraction);
 
-  // Motor de cálculo sincrónico y robusto
   function computeLineValueSync(userPool, method) {
     let rand = 0;
     const rawData = userPool.map(p => `${p.x},${p.y},${p.t}`).join(';') + ';' + Date.now() + ';' + Math.random();
 
-    // Algoritmo FNV-1a mezclado con entropía temporal
     let h = 0x811c9dc5;
     for (let i = 0; i < rawData.length; i++) {
       h ^= rawData.charCodeAt(i);
@@ -394,35 +415,28 @@
       return;
     }
 
-    // 1. Deshabilitar botón de inmediato
     btnGenerate.disabled = true;
 
-    // 2. Calcular valor
     const lineValue = computeLineValueSync(entropyPool, metodo);
     linesGenerated.push(lineValue);
 
-    // 3. Actualizar bloque en barra superior
     const block = document.getElementById(`block-${currentLine}`);
     if (block) {
       block.textContent = '█';
       block.classList.add('completed');
     }
 
-    // 4. Renderizar línea en la pila si es progresivo
     if (revealMode === 'progressive') {
       renderSlot(currentLine, lineValue);
     }
 
-    // 5. Limpieza garantizada del lienzo
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    // Resetear datos y partículas
+    particles = [];
     accumulatedEntropy = 0;
     entropyPool = [];
-    lastX = 0;
-    lastY = 0;
 
     currentLine++;
 
-    // 6. Actualizar botón para la siguiente fase
     if (currentLine <= 6) {
       btnGenerate.textContent = i18n.genLine(currentLine);
     } else {
@@ -436,7 +450,6 @@
     }
   }
 
-  // Soporte directo para clic y toque en el botón
   btnGenerate.addEventListener('click', handleProcessAction);
   btnGenerate.addEventListener('touchend', handleProcessAction);
 
