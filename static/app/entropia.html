@@ -9,13 +9,15 @@
     color-scheme: dark;
   }
 
-  * {
+  *, *::before, *::after {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
   }
 
   /* El Vacío Cuántico */
   html, body {
+    width: 100%;
+    height: 100%;
     background-color: #080a0f !important;
     background-image: 
       radial-gradient(at 0% 0%, rgba(30, 50, 100, 0.6) 0px, transparent 45%),    
@@ -27,43 +29,47 @@
     font-family: system-ui, -apple-system, sans-serif;
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    align-items: flex-start;
+    padding: 8px 0;
     margin: 0;
     overflow: hidden;
   }
 
   .app-wrapper {
     width: 100%;
-    max-width: 420px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 12px;
     background: transparent;
-    padding: 0 10px;
+    padding: 0 8px;
+    margin: 0 auto;
   }
 
-  /* Panel Superior */
+  /* Panel Superior: Fijo y Bloqueado */
   .control-panel {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
     width: 100%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
   }
 
   .progress-box {
-    flex-shrink: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0.4em 0.8em;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
     border: 1px solid rgba(238, 238, 85, 0.4);
     border-radius: 2px;
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: #ee5;
     letter-spacing: 4px;
     user-select: none;
@@ -81,24 +87,29 @@
   }
 
   .btn-generate {
-    flex: 1;
+    width: 100%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid #ee5;
     color: #ee5;
-    padding: 0.6em 0.8em;
+    padding: 0;
     font-family: inherit;
-    font-size: 0.85rem;
-    letter-spacing: 1px;
+    font-size: 0.82rem;
+    letter-spacing: 0.5px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: background 0.2s ease, border-color 0.2s ease;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     border-radius: 2px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .btn-generate:hover:not(:disabled), .btn-generate:active:not(:disabled) {
@@ -119,6 +130,7 @@
     position: relative;
     width: 100%;
     aspect-ratio: 1 / 1;
+    max-height: 384px;
     border: 1px solid #ee5;
     background-color: rgba(4, 6, 12, 0.85);
     backdrop-filter: blur(4px);
@@ -163,23 +175,25 @@
     touch-action: none;
   }
 
-  /* Pila del Hexagrama Centrada */
+  /* Pila del Hexagrama */
   .hexagram-stack {
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
-    gap: 0.35em;
-    padding: 0.8em 1em;
+    justify-content: space-evenly;
+    padding: 0.4em 0.8em;
     border: 1px solid rgba(238, 238, 85, 0.4);
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: #ee5;
     user-select: none;
     -webkit-user-select: none;
-    transition: opacity 0.4s ease;
   }
 
   .hexagram-stack.hidden-mode {
@@ -190,7 +204,7 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    height: 1.6em;
+    height: 1.4em;
     white-space: pre;
     visibility: hidden;
   }
@@ -201,7 +215,7 @@
 
   .hex-slot .val {
     justify-self: end;
-    margin-right: 2.5ch;
+    margin-right: 2ch;
     opacity: 0.6;
     font-size: 0.95em;
   }
@@ -246,27 +260,94 @@
 
 <script>
 (() => {
+  // Matriz de 6 líneas (Fila 0 = Línea 6, Fila 5 = Línea 1)
+  const RAW_TABLE = [
+    "1001010011011100010111101110010010101100110100000101100110101001", // L6
+    "1010110111011000100100001001101010001010011110111000100011111010", // L5
+    "1000010001011101100010001001011111100101001110101110011101000101", // L4
+    "1000100010101110010001000101011111011010001101011101101110000110", // L3
+    "1001111011100100011000000101100101000101101101110100010011111001", // L2
+    "1010100011101100101011011110010001011100111000001010011001011010"  // L1
+  ];
+
+  // Construcción del diccionario binario -> King Wen ID
+  const BINARY_TO_HEXAGRAM = {};
+  for (let col = 0; col < 64; col++) {
+    const binaryKey = [
+      RAW_TABLE[5][col], // L1
+      RAW_TABLE[4][col], // L2
+      RAW_TABLE[3][col], // L3
+      RAW_TABLE[2][col], // L4
+      RAW_TABLE[1][col], // L5
+      RAW_TABLE[0][col]  // L6
+    ].join('');
+    BINARY_TO_HEXAGRAM[binaryKey] = col + 1;
+  }
+
+  function resolverHexagramas(lines) {
+    const baseBits = [];
+    const mutatedBits = [];
+    const changingLines = [];
+
+    lines.forEach((val, idx) => {
+      const lineNum = idx + 1;
+      if (val === 6) {
+        baseBits.push('0');
+        mutatedBits.push('1');
+        changingLines.push(lineNum);
+      } else if (val === 7) {
+        baseBits.push('1');
+        mutatedBits.push('1');
+      } else if (val === 8) {
+        baseBits.push('0');
+        mutatedBits.push('0');
+      } else if (val === 9) {
+        baseBits.push('1');
+        mutatedBits.push('0');
+        changingLines.push(lineNum);
+      }
+    });
+
+    const baseBinary = baseBits.join('');
+    const mutatedBinary = mutatedBits.join('');
+
+    const baseHexNumber = BINARY_TO_HEXAGRAM[baseBinary];
+    const hasMutations = changingLines.length > 0;
+    const mutatedHexNumber = hasMutations ? BINARY_TO_HEXAGRAM[mutatedBinary] : null;
+
+    return {
+      rawLines: lines,
+      hexagram: baseHexNumber,
+      derivedHexagram: mutatedHexNumber,
+      changingLines: changingLines,
+      binary: {
+        base: baseBinary,
+        mutated: hasMutations ? mutatedBinary : null
+      }
+    };
+  }
+
   const i18nTexts = {
     es: {
       genLine: (n) => `Línea ${n}`,
       complete: "Hexagrama Completo",
       reveal: "Revelar",
       process: "Continuar",
-      alertDone: (lines) => `Listo para interpretar: [${lines.join(', ')}]`
+      alertDone: (res) => `Hexagrama ${res.hexagram}${res.derivedHexagram ? ` -> Mutado a ${res.derivedHexagram}` : ''} | Líneas móviles: [${res.changingLines.join(', ')}]`
     },
     en: {
       genLine: (n) => `Line ${n}`,
       complete: "Hexagram Complete",
       reveal: "Reveal",
       process: "Continue",
-      alertDone: (lines) => `Ready to interpret: [${lines.join(', ')}]`
+      alertDone: (res) => `Hexagram ${res.hexagram}${res.derivedHexagram ? ` -> Mutated to ${res.derivedHexagram}` : ''} | Moving lines: [${res.changingLines.join(', ')}]`
     },
     de: {
       genLine: (n) => `Linie ${n}`,
       complete: "Hexagramm vollständig",
       reveal: "Aufdecken",
       process: "Weiter",
-      alertDone: (lines) => `Bereit zur Interpretation: [${lines.join(', ')}]`
+      alertDone: (res) => `Hexagramm ${res.hexagram}${res.derivedHexagram ? ` -> Mutiert zu ${res.derivedHexagram}` : ''} | Wandlungslinien: [${res.changingLines.join(', ')}]`
     }
   };
 
@@ -481,20 +562,34 @@
   }
 
   function concludeConsultation() {
-    sessionStorage.setItem('lastHexagram', JSON.stringify({
-      lines: linesGenerated,
+    const resultado = resolverHexagramas(linesGenerated);
+
+    const payload = {
+      rawLines: resultado.rawLines,
+      hexagram: resultado.hexagram,
+      derivedHexagram: resultado.derivedHexagram,
+      changingLines: resultado.changingLines,
       method: metodo,
       timestamp: Date.now()
-    }));
+    };
+
+    sessionStorage.setItem('lastHexagram', JSON.stringify(payload));
 
     if (window.parent !== window) {
-      window.parent.postMessage({ type: 'ICHING_COMPLETE', lines: linesGenerated, method: metodo }, '*');
+      window.parent.postMessage({ type: 'ICHING_COMPLETE', data: payload }, '*');
     }
 
     if (redirectTarget) {
-      window.location.href = `${redirectTarget}?lines=${linesGenerated.join(',')}&metodo=${metodo}`;
+      const queryParams = new URLSearchParams({
+        lines: payload.rawLines.join(','),
+        hexagram: payload.hexagram,
+        derived: payload.derivedHexagram || '',
+        changing: payload.changingLines.join(','),
+        metodo: payload.method
+      });
+      window.location.href = `${redirectTarget}?${queryParams.toString()}`;
     } else {
-      alert(i18n.alertDone(linesGenerated));
+      alert(i18n.alertDone(resultado));
     }
   }
 })();
