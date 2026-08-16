@@ -234,4 +234,22 @@ ul.lista-articulos-chingona li {
     transform: rotate(180deg);
 }
 
+/*---------------------------------------------------------------------*/
 
+/* Holgura y separación controlada en la barra de navegación (Desktop) */
+@media (min-width: 768px) {
+  /* 1. Incrementar la separación entre todos los elementos del nav */
+  nav.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    margin-left: 1.5rem !important; /* Espacio uniforme y amplio entre cada ítem */
+  }
+
+  /* 2. Evitar saltos de línea en el texto largo de la consulta */
+  nav.space-x-4 a.font-medium {
+    white-space: nowrap !important;
+  }
+
+  /* 3. Darle un respiro adicional exclusivo al botón de YouTube */
+  nav.space-x-4 a.nav-btn-youtube {
+    margin-left: 2rem !important;
+  }
+}
