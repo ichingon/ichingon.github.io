@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>I Ching Manual Input</title>
+<style>
+  :root { color-scheme: dark; }
+  *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  html, body {
+    width: 100%; height: 100%;
+    background-color: #080a0f !important;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(30, 50, 100, 0.6) 0px, transparent 45%),    
+      radial-gradient(at 100% 0%, rgba(70, 30, 90, 0.5) 0px, transparent 45%),   
+      radial-gradient(at 50% 100%, rgba(15, 32, 67, 0.7) 0px, transparent 50%) !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    color: #ee5 !important;
+    font-family: system-ui, -apple-system, sans-serif;
+    display: flex; justify-content: center; align-items: flex-start;
+    padding: 12px 0; margin: 0; overflow-y: auto;
+  }
+
+  .app-wrapper {
+    width: 100%; max-width: 420px;
+    display: flex; flex-direction: column; gap: 12px;
+    background: transparent; padding: 0 10px; margin: 0 auto;
+  }
+
+  .header-box {
+    text-align: center;
+    border: 1px solid rgba(238, 238, 85, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    border-radius: 2px;
+    padding: 8px 12px;
+  }
+
+  .header-box h2 {
+    margin: 0 0 4px 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #ee5;
+  }
+
+  .header-box p {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #aaa;
+    line-height: 1.3;
+  }
+
+  .lines-builder {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .line-row {
+    display: grid;
+    grid-template-columns: 55px 1fr auto;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(238, 238, 85, 0.3);
+    border-radius: 2px;
+    padding: 6px 10px;
+  }
+
+  .line-label {
+    font-family: "SF Mono", "Fira Code", "Cascadia Code", monospace;
+    font-size: 0.78rem;
+    color: #888;
+  }
+
+  .line-preview {
+    font-family: "SF Mono", "Fira Code", "Cascadia Code", monospace;
+    font-size: 1.1rem;
+    color: #ee5;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: pre;
+  }
+
+  .line-selector {
+    display: flex;
+    gap: 4px;
+  }
+
+  .btn-val {
+    width: 32px;
+    height: 32px;
+    background: #111;
+    border: 1px solid #444;
+    color: #888;
+    font-family: "SF Mono", "Fira Code", "Cascadia Code", monospace;
+    font-size: 0.85rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-val:hover {
+    border-color: #777;
+    color: #eee;
+  }
+
+  .btn-val.active {
+    background: rgba(238, 238, 85, 0.2);
+    border-color: #ee5;
+    color: #ee5;
+    font-weight: bold;
+  }
+
+  .btn-submit {
+    width: 100%;
+    padding: 12px;
+    background: rgba(238, 238, 85, 0.2);
+    border: 1px solid #ee5;
+    color: #fff;
+    font-family: inherit;
+    font-size: 0.88rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background 0.2s, box-shadow 0.2s;
+    margin-top: 4px;
+  }
+
+  .btn-submit:hover {
+    background: rgba(238, 238, 85, 0.35);
+    box-shadow: 0 0 10px rgba(238, 238, 85, 0.3);
+  }
+</style>
+</head>
+<body>
+
+  <div class="app-wrapper">
+    <div class="header-box">
+      <h2 id="txtTitle">Entrada Manual de Tirada</h2>
+      <p id="txtSubtitle">Selecciona el valor obtenido en cada línea (L1 abajo a L6 arriba)</p>
+    </div>
+
+    <div class="lines-builder" id="linesContainer"></div>
+
+    <button type="button" class="btn-submit" id="btnConfirm">Confirmar Tirada →</button>
+  </div>
+
+<script>
+(() => {
+  const RAW_TABLE = [
+    "1001010011011100010111101110010010101100110100000101100110101001",
+    "1010110111011000100100001001101010001010011110111000100011111010",
+    "1000010001011101100010001001011111100101001110101110011101000101",
+    "1000100010101110010001000101011111011010001101011101101110000110",
+    "1001111011100100011000000101100101000101101101110100010011111001",
+    "1010100011101100101011011110010001011100111000001010011001011010"
+  ];
+
+  const BINARY_TO_HEXAGRAM = {};
+  for (let col = 0; col < 64; col++) {
+    const binaryKey = [
+      RAW_TABLE[5][col], RAW_TABLE[4][col], RAW_TABLE[3][col],
+      RAW_TABLE[2][col], RAW_TABLE[1][col], RAW_TABLE[0][col]
+    ].join('');
+    BINARY_TO_HEXAGRAM[binaryKey] = col + 1;
+  }
+
+  function resolverHexagramas(lines) {
+    const baseBits = [];
+    const mutatedBits = [];
+    const changingLines = [];
+
+    lines.forEach((val, idx) => {
+      const lineNum = idx + 1;
+      if (val === 6) {
+        baseBits.push('0'); mutatedBits.push('1'); changingLines.push(lineNum);
+      } else if (val === 7) {
+        baseBits.push('1'); mutatedBits.push('1');
+      } else if (val === 8) {
+        baseBits.push('0'); mutatedBits.push('0');
+      } else if (val === 9) {
+        baseBits.push('1'); mutatedBits.push('0'); changingLines.push(lineNum);
+      }
+    });
+
+    const baseBinary = baseBits.join('');
+    const mutatedBinary = mutatedBits.join('');
+
+    return {
+      rawLines: lines,
+      hexagram: BINARY_TO_HEXAGRAM[baseBinary],
+      derivedHexagram: changingLines.length > 0 ? BINARY_TO_HEXAGRAM[mutatedBinary] : null,
+      changingLines: changingLines
+    };
+  }
+
+  const i18nTexts = {
+    es: {
+      title: "Entrada Manual de Tirada",
+      subtitle: "Selecciona el valor obtenido en cada línea (L1 abajo a L6 arriba)",
+      lineLabel: (n) => `Línea ${n}`,
+      confirm: "Procesar Hexagramas →"
+    },
+    en: {
+      title: "Manual Cast Input",
+      subtitle: "Select the value obtained for each line (L1 bottom to L6 top)",
+      lineLabel: (n) => `Line ${n}`,
+      confirm: "Process Hexagrams →"
+    },
+    de: {
+      title: "Manuelle Eingabe",
+      subtitle: "Wähle den Wert für jede Linie (L1 unten bis L6 oben)",
+      lineLabel: (n) => `Linie ${n}`,
+      confirm: "Hexagramme berechnen →"
+    }
+  };
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const requestedLang = urlParams.get('lang') || 'es';
+  const i18n = i18nTexts[requestedLang] || i18nTexts['es'];
+
+  // Lectura estandarizada de parámetros URL
+  const methodParam = urlParams.get('method') || 'manual';
+  const modeParam = urlParams.get('mode') || 'final';
+
+  document.getElementById('txtTitle').textContent = i18n.title;
+  document.getElementById('txtSubtitle').textContent = i18n.subtitle;
+  document.getElementById('btnConfirm').textContent = i18n.confirm;
+
+  const lineGlyphs = {
+    6: '━━━x━━━',
+    7: '━━━━━━━',
+    8: '━━╸ ╺━━',
+    9: '━━━o━━━'
+  };
+
+  const currentLines = [7, 7, 7, 7, 7, 7];
+  const container = document.getElementById('linesContainer');
+
+  for (let i = 1; i <= 6; i++) {
+    const row = document.createElement('div');
+    row.className = 'line-row';
+    row.innerHTML = `
+      <div class="line-label">${i18n.lineLabel(i)}</div>
+      <div class="line-preview" id="preview-${i}">${lineGlyphs[currentLines[i - 1]]}</div>
+      <div class="line-selector">
+        <button type="button" class="btn-val" data-line="${i}" data-val="6">6</button>
+        <button type="button" class="btn-val active" data-line="${i}" data-val="7">7</button>
+        <button type="button" class="btn-val" data-line="${i}" data-val="8">8</button>
+        <button type="button" class="btn-val" data-line="${i}" data-val="9">9</button>
+      </div>
+    `;
+    container.appendChild(row);
+  }
+
+  container.addEventListener('click', (e) => {
+    const btn = e.target.closest('.btn-val');
+    if (!btn) return;
+
+    const lineIndex = parseInt(btn.getAttribute('data-line'), 10) - 1;
+    const value = parseInt(btn.getAttribute('data-val'), 10);
+
+    currentLines[lineIndex] = value;
+    document.getElementById(`preview-${lineIndex + 1}`).textContent = lineGlyphs[value];
+
+    const parent = btn.parentElement;
+    parent.querySelectorAll('.btn-val').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+
+  document.getElementById('btnConfirm').addEventListener('click', () => {
+    const resultado = resolverHexagramas(currentLines);
+
+    // Payload canónico idéntico al de entropia-iching
+    const payload = {
+      rawLines: resultado.rawLines,
+      hexagram: resultado.hexagram,
+      derivedHexagram: resultado.derivedHexagram,
+      changingLines: resultado.changingLines,
+      method: methodParam,
+      mode: modeParam,
+      timestamp: Date.now()
+    };
+
+    sessionStorage.setItem('lastHexagram', JSON.stringify(payload));
+
+    if (window.parent !== window) {
+      window.parent.postMessage({ type: 'ICHING_COMPLETE', data: payload }, '*');
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

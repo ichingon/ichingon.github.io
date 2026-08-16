@@ -27,6 +27,7 @@ Sin embargo, no se puede hablar de un verdadero dualismo, pues existe entre ambo
 
 {{< youtube-short "m9YMoOc5-Xk" "Instantánea del hexagrama 2" >}}
 
+---
 
 ## El Dictamen
 
@@ -46,6 +47,7 @@ Transferido a las relaciones humanas, se trata de comportarse de acuerdo con la 
 
 Como uno debe rendir algo, necesita de los ayudantes y amigos en el tiempo del trabajo y el esfuerzo, cuando los pensamientos que se han de ejecutar ya están fijados. El tiempo del trabajo y el esfuerzo se expresa a través del oeste y el sur. Pues el sur y el oeste son el símbolo del lugar donde Lo Receptivo trabaja para Lo Creativo - como la naturaleza en verano y otoño -; si allí no se concentran todas las fuerzas, uno no termina con el trabajo que tiene que rendir. Por lo tanto, conseguir amigos aquí significa precisamente lograr resultados. Pero además del trabajo y el esfuerzo, hay también un tiempo para planificar y ordenar; allí se necesita la soledad. El este simboliza el lugar donde uno recibe los encargos de su señor, y el norte el lugar donde uno informa sobre lo realizado. Allí se requiere estar solo y ser objetivo. En esta hora sagrada se debe prescindir de los compañeros, para que la pureza no se enturbie por el odio y el favor de los bandos.
 
+---
 
 ## La Imagen
 
@@ -54,6 +56,7 @@ Como uno debe rendir algo, necesita de los ayudantes y amigos en el tiempo del t
 
 Del mismo modo que solo hay un cielo, también hay una sola tierra. Pero mientras que en el cielo la duplicación del signo significa duración temporal, en la tierra significa extensión espacial y firmeza con la que sostiene y conserva a todo lo que allí vive y se mueve. La tierra en su entrega sostiene sin excepción el bien y el mal. Así, el Noble hace su carácter amplio, sólido y resistente, de modo que sea capaz de sostener y soportar a los hombres y las cosas.
 
+---
 
 ## Las Líneas Individuales
 

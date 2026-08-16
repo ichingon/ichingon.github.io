@@ -104,39 +104,21 @@ def clean_markdown_text(text):
     if not text:
         return ""
     text = text.replace('\r\n', '\n').replace('\r', '\n')
-    
-    # 1. Reemplazar SVG de la torre por ⛩
     text = re.sub(r'<svg\b[^>]*>.*?</svg>', '⛩', text, flags=re.DOTALL)
-    
-    # 2. Remover etiquetas HTML generales
     text = re.sub(r'<p\b[^>]*>.*?</p>', '', text, flags=re.DOTALL)
     text = re.sub(r'</?[a-zA-Z0-9_-]+[^>]*>', '', text)
-    
-    # 3. Remover tooltips manteniendo su texto interior[cite: 8]
     text = re.sub(r'\{\{<\s*tooltip\s+[^>]*>\}\}(.*?)\{\{<\s*/tooltip\s*>\}\}', r'\1', text, flags=re.DOTALL)
-    
-    # 4. Remover shortcodes y notas al pie por completo[cite: 6, 7, 8]
     text = re.sub(r'\{\{<[^>]+>\}\}', '', text)
     text = re.sub(r'\[\^\d+\]:?.*', '', text)
-    
-    # 5. Remover enlaces markdown [Texto](url) -> Texto
     text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
-    
-    # 6. Remover prefijos de blockquote '>' y sangrías de citas poéticas[cite: 8]
     text = re.sub(r'^[ \t]*>[ \t]?', '', text, flags=re.MULTILINE)
-    
-    # 7. Remover formato Markdown inline
     text = re.sub(r'\*{2,}(.*?)\*{2,}', r'\1', text)
     text = re.sub(r'_{2,}(.*?)_{2,}', r'\1', text)
     text = re.sub(r'\*([^*\n]+)\*', r'\1', text)
     text = re.sub(r'_([^_\n]+)_', r'\1', text)
     text = re.sub(r'`([^`\n]+)`', r'\1', text)
     text = re.sub(r'~~(.*?)~~', r'\1', text)
-    
-    # 8. Remover separadores horizontales (---, ***, ___)[cite: 8]
     text = re.sub(r'^[ \t]*[-*_]{3,}[ \t]*$', '', text, flags=re.MULTILINE)
-    
-    # 9. Normalizar saltos de línea
     text = re.sub(r'\n{3,}', '\n\n', text)
     return text.strip()
 
@@ -186,14 +168,13 @@ def parse_hexagram_md(file_path, hex_number, lang):
     except Exception:
         frontmatter = {}
 
-    # Descartar enlaces de pie y bloque Nostr[cite: 10]
+    # Limpieza de pies de página, referencias y shorts de YouTube del cuerpo bruto
     body = re.split(r'\n#{2,4}\s+(?:Enlaces de Consulta|Reference links|Referenzlinks)', body, flags=re.IGNORECASE)[0]
     body = re.split(r'\n\*\*🔐\s+VERIFICACIÓN', body, flags=re.IGNORECASE)[0]
 
     yt_match = re.search(r'\{\{<\s*youtube-short\s+"([^"]+)"', body)
     youtube_id = yt_match.group(1) if yt_match else ""
 
-    # Trigramas descriptivos[cite: 10]
     tri_above_raw = ""
     tri_below_raw = ""
     tri_above_match = re.search(r'\*\s*(?:\*\*Arriba:\*\*|Above:|oben)\s*(.*)', body, re.IGNORECASE)
@@ -203,42 +184,81 @@ def parse_hexagram_md(file_path, hex_number, lang):
     if tri_below_match:
         tri_below_raw = clean_markdown_text(tri_below_match.group(1))
 
-    # Segmentación de secciones[cite: 10]
-    dictamen_split = re.split(r'\n#{2,4}\s+(?:El Dictamen|The Judgment|The Judgement|Das Urteil).*?\n', body, flags=re.IGNORECASE)
-    intro_raw = dictamen_split[0] if len(dictamen_split) > 1 else ""
-    rest_after_dict = dictamen_split[1] if len(dictamen_split) > 1 else body
+    # Extracción inteligente por máquina de estados de líneas (línea por línea)
+    intro_lines = []
+    dictamen_lines = []
+    imagen_lines = []
+    lines_lines = []
 
-    imagen_split = re.split(r'\n#{2,4}\s+(?:La Imagen|The Image|Das Bild).*?\n', rest_after_dict, flags=re.IGNORECASE)
-    dictamen_raw = imagen_split[0] if len(imagen_split) > 1 else ""
-    rest_after_img = imagen_split[1] if len(imagen_split) > 1 else ""
+    current_section = "intro"
+    lines_array = body.splitlines()
 
-    lineas_split = re.split(r'\n#{2,4}\s+.*?(?:Líneas|Lines|Linien).*?\n', rest_after_img, flags=re.IGNORECASE)
-    imagen_raw = lineas_split[0] if len(lineas_split) > 1 else rest_after_img
-    lines_body = lineas_split[1] if len(lineas_split) > 1 else ""
+    for line in lines_array:
+        stripped_lower = line.strip().lower()
+        # Detectar encabezados H2 (## ...)
+        if line.strip().startswith("## "):
+            header_text = line.strip()[3:].lower()
+            if any(k in header_text for k in ["dictamen", "judgment", "judgement", "urteil"]):
+                current_section = "dictamen"
+                continue
+            elif any(k in header_text for k in ["imagen", "image", "bild"]):
+                current_section = "imagen"
+                continue
+            elif any(k in header_text for k in ["líneas", "lineas", "lines", "linien"]):
+                current_section = "lines"
+                continue
 
-    # Limpieza de Intro[cite: 10]
+        # Acumular texto según la sección activa
+        if current_section == "intro":
+            intro_lines.append(line)
+        elif current_section == "dictamen":
+            dictamen_lines.append(line)
+        elif current_section == "imagen":
+            imagen_lines.append(line)
+        elif current_section == "lines":
+            lines_lines.append(line)
+
+    intro_raw = "\n".join(intro_lines)
+    dictamen_raw = "\n".join(dictamen_lines)
+    imagen_raw = "\n".join(imagen_lines)
+    lines_body = "\n".join(lines_lines)
+
+    # Limpieza de metadatos sobrantes en la introducción
     intro_cleaned = re.sub(r'#{2,3}\s*Trigram[a-z]*.*?\n\n', '', intro_raw, flags=re.DOTALL | re.IGNORECASE)
     intro_text = clean_markdown_text(intro_cleaned)
 
-    # Extracción de Dictamen e Imagen[cite: 10]
     dictamen_data = extract_quote_and_commentary(dictamen_raw)
     imagen_data = extract_quote_and_commentary(imagen_raw)
 
-    # Extracción de Líneas[cite: 10]
+    # Procesamiento de líneas individuales y caso especial "all"
     subsections = re.split(r'\n#{3,4}\s+', "\n" + lines_body)
     lineas_dict = {}
     valid_subsections = [s.strip() for s in subsections if s.strip()]
 
     for idx, sec in enumerate(valid_subsections, start=1):
-        lines_in_sec = sec.splitlines()
-        header = clean_markdown_text(lines_in_sec[0].strip())
-        content = "\n".join(lines_in_sec[1:]).strip()
+        sec_lines = sec.splitlines()
+        if not sec_lines:
+            continue
+        header = clean_markdown_text(sec_lines[0].strip())
+        content = "\n".join(sec_lines[1:]).strip()
 
-        line_key = str(idx) if idx <= 6 else "all"
+        header_lower = header.lower()
+        if any(k in header_lower for k in ["all", "sechsen", "nines", "todas", "lines are"]):
+            line_key = "all"
+        elif idx <= 6:
+            line_key = str(idx)
+        else:
+            line_key = "all"
 
         extracted = extract_quote_and_commentary(content)
         extracted["title"] = header
         lineas_dict[line_key] = extracted
+
+    # Respaldo por si frontmatter tiene descripciones predeterminadas
+    if not dictamen_data["text"] and not dictamen_data["commentary"]:
+        dictamen_data = {"text": frontmatter.get("description", ""), "commentary": ""}
+    if not imagen_data["text"] and not imagen_data["commentary"]:
+        imagen_data = {"text": frontmatter.get("title", ""), "commentary": ""}
 
     canon = HEX_CANONICAL.get(hex_number, {})
     unicode_code = 0x4DC0 + (hex_number - 1)
@@ -298,7 +318,7 @@ def main():
     for lang, config in LANG_CONFIG.items():
         compiled_hexes = {}
         candidates = config["files"]
-        print(f"Procesando idioma '{lang}'...")
+        print(f"Compilando idioma '{lang}'...")
 
         for n in range(1, 65):
             hex_dir = CONTENT_DIR / f"hex{n:02d}"

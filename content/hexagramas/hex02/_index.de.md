@@ -44,6 +44,12 @@ Auf menschliche Verhältnisse übertragen, handelt es sich darum, der Lage entsp
 
 Da man etwas leisten soll, bedarf man der Gehilfen und Freunde zu Zeit der Arbeit und Anstrengung, wenn die Gedanken, die ausgeführt werden sollen, schon festliegen. Die Zeit der Arbeit und Anstrengung wird durch den Westen und Süden ausgedrückt. Denn der Süden und Westen ist das Symbol für den Ort, da das Empfangende für das Schöpferische arbeitet - wie die Natur im Sommer und Herbst - ; wenn man da nicht alle Kräfte zusammenfaßt, wird man nicht fertig mit der Arbeit, die man zu leisten hat. Darum bedeutet hier, Freunde zu bekommen, eben ,daß man Leistung findet. Aber außer der Arbeit und Anstrengung gibt es auch eine Zeit des Planens und Ordnens; da bedarf´s der Einsamkeit. Der Osten symbolisiert den Ort, da man die Aufträge von seinem Herrn erhält , und der Norden den Ort da man über das Geleistete berichtet. Da gilt es allein und sachlich zu sein. In dieser Heiligen Stunde muß man der Genossen entraten, damit nicht durch der Parteien Haß und Gunst die Reinheit getrübt wird.
 
+---
+## Das Bild
+
+> Die Beschaffenheit der Erde ist das Empfangende.
+> So trägt der Edle mit seinem weiten Charakter die äußere Welt.
+
 Ebenso wie es nur einen Himmel gibt, gibt es auch nur eine Erde. Während aber beim Himmel die Verdoppelung des Zeichens zeitliche Dauer bedeutet, bedeutet sie bei der Erde die räumliche Ausdehnung und Festigkeit, mit der sie alles, was da lebt und webt, trägt und erhält. Die Erde in ihrer Hingebung trägt ohne Ausnahme Gut und Böse. So macht der Edle seinen Charakter weiträumig, gediegen und tragfähig, so daß er Menschen und Dinge zu tragen und ertragen vermag.
 
 ---

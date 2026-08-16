@@ -44,6 +44,12 @@ Applied to human affairs, the lesson is to act in accordance with one's situatio
 
 Since there is work to be done, one needs helpers and friends during times of labor and effort, once the ideas to be executed are already established. This period of work and effort is symbolized by the west and south. The south and west represent the place where The Receptive works on behalf of The Creative - just as nature does in summer and autumn. If one does not gather all available strength during this time, the task at hand will remain unfinished. Therefore, finding friends here means securing cooperation and productivity. However, besides work and effort, there is also a time for planning and organizing, which requires solitude. The east symbolizes the place where one receives orders from their master, and the north represents where one reports on what has been accomplished. In these moments, one must stand alone and objective. In this sacred hour, one must forego companions so that the purity of thought is not clouded by partisan hatred or favoritism.
 
+---
+
+## The Image
+> The condition of the earth is receptive devotion.
+> Thus the superior man, of broad character, carries the outer world.
+
 Just as there is only one heaven, there is only one earth. While the doubling of the hexagram for heaven implies temporal duration, for the earth it signifies spatial expansion and the stability with which it carries and sustains all living things. In its devotion, the earth sustains both good and evil without exception. Likewise, the superior man makes his character broad, solid, and enduring, so that he is capable of supporting and tolerating both people and things.
 
 ---

@@ -344,8 +344,10 @@
   const currentLang = i18nTexts[requestedLang] ? requestedLang : 'es';
   const i18n = i18nTexts[currentLang];
 
-  const metodo = urlParams.get('metodo') || 'monedas';
-  const revealMode = urlParams.get('revelacion') || urlParams.get('mode') || 'progressive'; 
+  const rawMethod = urlParams.get('method') || urlParams.get('metodo') || 'coins';
+  const metodo = (rawMethod === 'yarrow' || rawMethod === 'milenrama' || rawMethod === 'varillas') ? 'varillas' : 'monedas';
+
+  const revealMode = urlParams.get('mode') || urlParams.get('revelacion') || 'progressive';
   const redirectTarget = urlParams.get('redirect') || null;
 
   const btnGenerate = document.getElementById('btnGenerate');
@@ -466,7 +468,7 @@
     }
     rand = ((h ^ (Math.random() * 0xFFFFFFFF)) >>> 0) / 4294967296;
 
-    if (method === 'milenrama') {
+    if (method === 'varillas') {
       if (rand < 0.0625) return 6;
       if (rand < 0.3750) return 7;
       if (rand < 0.8125) return 8;
@@ -487,10 +489,11 @@
 
     if (btnGenerate.disabled) return;
 
+    // Si ya se generaron las 6 líneas:
     if (currentLine > 6) {
       if (revealMode === 'final' && hexStack.classList.contains('hidden-mode')) {
         revealFullHexagram();
-        return;
+        return; // SE DETIENE AQUÍ para contemplar el hexagrama
       }
       concludeConsultation();
       return;
@@ -531,7 +534,6 @@
   }
 
   btnGenerate.addEventListener('click', handleProcessAction);
-  btnGenerate.addEventListener('touchend', handleProcessAction);
 
   function renderSlot(lineNumber, value) {
     const slot = document.getElementById(`slot-${lineNumber}`);
@@ -558,6 +560,7 @@
       derivedHexagram: resultado.derivedHexagram,
       changingLines: resultado.changingLines,
       method: metodo,
+      mode: revealMode,
       timestamp: Date.now()
     };
 

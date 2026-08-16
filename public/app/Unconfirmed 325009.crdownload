@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>I Ching Entropy Generator</title>
+<style>
+  :root {
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #080a0f !important;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(30, 50, 100, 0.6) 0px, transparent 45%),    
+      radial-gradient(at 100% 0%, rgba(70, 30, 90, 0.5) 0px, transparent 45%),   
+      radial-gradient(at 50% 100%, rgba(15, 32, 67, 0.7) 0px, transparent 50%) !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    color: #ee5 !important;
+    font-family: system-ui, -apple-system, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .app-wrapper {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: transparent;
+    padding: 0 8px;
+    margin: 0 auto;
+  }
+
+  .control-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+  }
+
+  .progress-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    border: 1px solid rgba(238, 238, 85, 0.4);
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
+    font-size: 1.25rem;
+    color: #ee5;
+    letter-spacing: 4px;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .progress-box .block {
+    opacity: 0.25;
+    transition: opacity 0.3s ease, color 0.3s ease;
+  }
+
+  .progress-box .block.completed {
+    opacity: 1;
+    color: #ee5;
+  }
+
+  .btn-generate {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid #ee5;
+    color: #ee5;
+    padding: 0;
+    font-family: inherit;
+    font-size: 0.82rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 2px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-generate:hover:not(:disabled), .btn-generate:active:not(:disabled) {
+    background: rgba(238, 238, 85, 0.2);
+    box-shadow: 0 0 10px rgba(238, 238, 85, 0.25);
+  }
+
+  .btn-generate:disabled {
+    border-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.4);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    max-height: 384px;
+    border: 1px solid #ee5;
+    background-color: rgba(4, 6, 12, 0.85);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    cursor: crosshair;
+    overflow: hidden;
+    touch-action: none;
+  }
+  
+  .heaven-in-container {
+    position: absolute;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid #ee5;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .earth-in-container {
+    position: absolute;
+    width: 70.90%; 
+    aspect-ratio: 1 / 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ee5;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  #entropyCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    touch-action: none;
+  }
+
+  .hexagram-stack {
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    padding: 0.4em 0.8em;
+    border: 1px solid rgba(238, 238, 85, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    font-family: "SF Mono", "Fira Code", "Cascadia Code", "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+    color: #ee5;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .hexagram-stack.hidden-mode {
+    display: none;
+  }
+
+  .hex-slot {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    height: 1.4em;
+    white-space: pre;
+    visibility: hidden;
+  }
+
+  .hex-slot.visible {
+    visibility: visible;
+  }
+
+  .hex-slot .val {
+    justify-self: end;
+    margin-right: 2ch;
+    opacity: 0.6;
+    font-size: 0.95em;
+  }
+
+  .hex-slot .glyph {
+    letter-spacing: 0;
+    color: #ee5;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+  <div class="app-wrapper">
+
+    <div class="control-panel">
+      <div class="progress-box" id="hexProgress">
+        <span class="block" id="block-1">▓</span><span class="block" id="block-2">▓</span><span class="block" id="block-3">▓</span><span class="block" id="block-4">▓</span><span class="block" id="block-5">▓</span><span class="block" id="block-6">▓</span>
+      </div>
+      <button class="btn-generate" id="btnGenerate" disabled autocomplete="off"></button>
+    </div>
+
+    <div class="container" id="containerBox">
+      <canvas id="entropyCanvas"></canvas>
+      <div class="heaven-in-container"></div>
+      <div class="earth-in-container"></div>
+    </div>
+
+    <div class="hexagram-stack" id="hexStack">
+      <div class="hex-slot" id="slot-1"></div>
+      <div class="hex-slot" id="slot-2"></div>
+      <div class="hex-slot" id="slot-3"></div>
+      <div class="hex-slot" id="slot-4"></div>
+      <div class="hex-slot" id="slot-5"></div>
+      <div class="hex-slot" id="slot-6"></div>
+    </div>
+
+  </div>
+
+<script>
+(() => {
+  const RAW_TABLE = [
+    "1001010011011100010111101110010010101100110100000101100110101001", // L6
+    "1010110111011000100100001001101010001010011110111000100011111010", // L5
+    "1000010001011101100010001001011111100101001110101110011101000101", // L4
+    "1000100010101110010001000101011111011010001101011101101110000110", // L3
+    "1001111011100100011000000101100101000101101101110100010011111001", // L2
+    "1010100011101100101011011110010001011100111000001010011001011010"  // L1
+  ];
+
+  const BINARY_TO_HEXAGRAM = {};
+  for (let col = 0; col < 64; col++) {
+    const binaryKey = [
+      RAW_TABLE[5][col], // L1
+      RAW_TABLE[4][col], // L2
+      RAW_TABLE[3][col], // L3
+      RAW_TABLE[2][col], // L4
+      RAW_TABLE[1][col], // L5
+      RAW_TABLE[0][col]  // L6
+    ].join('');
+    BINARY_TO_HEXAGRAM[binaryKey] = col + 1;
+  }
+
+  function resolverHexagramas(lines) {
+    const baseBits = [];
+    const mutatedBits = [];
+    const changingLines = [];
+
+    lines.forEach((val, idx) => {
+      const lineNum = idx + 1;
+      if (val === 6) {
+        baseBits.push('0');
+        mutatedBits.push('1');
+        changingLines.push(lineNum);
+      } else if (val === 7) {
+        baseBits.push('1');
+        mutatedBits.push('1');
+      } else if (val === 8) {
+        baseBits.push('0');
+        mutatedBits.push('0');
+      } else if (val === 9) {
+        baseBits.push('1');
+        mutatedBits.push('0');
+        changingLines.push(lineNum);
+      }
+    });
+
+    const baseBinary = baseBits.join('');
+    const mutatedBinary = mutatedBits.join('');
+
+    const baseHexNumber = BINARY_TO_HEXAGRAM[baseBinary];
+    const hasMutations = changingLines.length > 0;
+    const mutatedHexNumber = hasMutations ? BINARY_TO_HEXAGRAM[mutatedBinary] : null;
+
+    return {
+      rawLines: lines,
+      hexagram: baseHexNumber,
+      derivedHexagram: mutatedHexNumber,
+      changingLines: changingLines,
+      binary: {
+        base: baseBinary,
+        mutated: hasMutations ? mutatedBinary : null
+      }
+    };
+  }
+
+  const i18nTexts = {
+    es: {
+      genLine: (n) => `Línea ${n}`,
+      complete: "Hexagrama Completo",
+      reveal: "Revelar Hexagrama",
+      process: "Continuar →"
+    },
+    en: {
+      genLine: (n) => `Line ${n}`,
+      complete: "Hexagram Complete",
+      reveal: "Reveal Hexagram",
+      process: "Continue →"
+    },
+    de: {
+      genLine: (n) => `Linie ${n}`,
+      complete: "Hexagramm vollständig",
+      reveal: "Hexagramm aufdecken",
+      process: "Weiter →"
+    }
+  };
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const requestedLang = urlParams.get('lang') || navigator.language.slice(0, 2);
+  const currentLang = i18nTexts[requestedLang] ? requestedLang : 'es';
+  const i18n = i18nTexts[currentLang];
+
+  // Soporta tanto los nombres en inglés del formulario como los clásicos
+  const rawMethod = urlParams.get('method') || urlParams.get('metodo') || 'coins';
+  const metodo = (rawMethod === 'yarrow' || rawMethod === 'milenrama' || rawMethod === 'varillas') ? 'varillas' : 'monedas';
+
+  const rawMode = urlParams.get('mode') || urlParams.get('revelacion') || 'progressive';
+  const isDirectMode = (rawMode === 'direct' || rawMode === 'final');
+
+  const redirectTarget = urlParams.get('redirect') || null;
+
+  const btnGenerate = document.getElementById('btnGenerate');
+  const hexStack = document.getElementById('hexStack');
+  const canvas = document.getElementById('entropyCanvas');
+  const ctx = canvas.getContext('2d');
+
+  if (isDirectMode) {
+    hexStack.classList.add('hidden-mode');
+  }
+
+  let currentLine = 1;
+  let accumulatedEntropy = 0;
+  const ENTROPY_THRESHOLD = 20;
+  let entropyPool = [];
+  const linesGenerated = [];
+  let particles = [];
+  let state = 'GENERATING'; // 'GENERATING' | 'READY_TO_REVEAL' | 'READY_TO_CONTINUE'
+
+  const lineGlyphs = {
+    6: '━━━x━━━',
+    7: '━━━━━━━',
+    8: '━━╸ ╺━━',
+    9: '━━━o━━━'
+  };
+
+  btnGenerate.disabled = true;
+  btnGenerate.textContent = i18n.genLine(currentLine);
+
+  function resizeCanvas() {
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = rect.width;
+    canvas.height = rect.height;
+  }
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+
+  function animateTrail() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    for (let i = particles.length - 1; i >= 0; i--) {
+      const p = particles[i];
+      p.alpha -= 0.025;
+      p.radius *= 0.97;
+
+      if (p.alpha <= 0 || p.radius <= 0.5) {
+        particles.splice(i, 1);
+        continue;
+      }
+
+      ctx.save();
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(238, 238, 85, ${p.alpha})`;
+      ctx.shadowColor = '#ee5';
+      ctx.shadowBlur = 6;
+      ctx.fill();
+      ctx.restore();
+    }
+
+    requestAnimationFrame(animateTrail);
+  }
+  requestAnimationFrame(animateTrail);
+
+  let isInteracting = false;
+
+  function addEntropy(clientX, clientY) {
+    if (currentLine > 6) return;
+
+    const rect = canvas.getBoundingClientRect();
+    const x = clientX - rect.left;
+    const y = clientY - rect.top;
+
+    const timestamp = performance.now();
+    entropyPool.push({ x: Math.round(x), y: Math.round(y), t: Math.round(timestamp) });
+    accumulatedEntropy++;
+
+    particles.push({
+      x: x,
+      y: y,
+      radius: Math.random() * 2.5 + 2.5,
+      alpha: 0.95
+    });
+
+    if (accumulatedEntropy >= ENTROPY_THRESHOLD && btnGenerate.disabled && state === 'GENERATING') {
+      btnGenerate.disabled = false;
+    }
+  }
+
+  canvas.addEventListener('pointerdown', (e) => {
+    isInteracting = true;
+    try { canvas.setPointerCapture(e.pointerId); } catch (err) {}
+    addEntropy(e.clientX, e.clientY);
+  });
+
+  canvas.addEventListener('pointermove', (e) => {
+    if (!isInteracting) return;
+    addEntropy(e.clientX, e.clientY);
+  });
+
+  function stopInteraction(e) {
+    if (isInteracting) {
+      isInteracting = false;
+      try { canvas.releasePointerCapture(e.pointerId); } catch (err) {}
+    }
+  }
+
+  canvas.addEventListener('pointerup', stopInteraction);
+  canvas.addEventListener('pointercancel', stopInteraction);
+
+  function computeLineValueSync(userPool, method) {
+    let rand = 0;
+    const rawData = userPool.map(p => `${p.x},${p.y},${p.t}`).join(';') + ';' + Date.now() + ';' + Math.random();
+
+    let h = 0x811c9dc5;
+    for (let i = 0; i < rawData.length; i++) {
+      h ^= rawData.charCodeAt(i);
+      h = Math.imul(h, 0x01000193);
+    }
+    rand = ((h ^ (Math.random() * 0xFFFFFFFF)) >>> 0) / 4294967296;
+
+    if (method === 'varillas') {
+      // Probabilidades clásicas de tallos de aquilea
+      if (rand < 0.0625) return 6;
+      if (rand < 0.3750) return 7;
+      if (rand < 0.8125) return 8;
+      return 9;
+    } else {
+      // Probabilidades clásicas de 3 monedas
+      if (rand < 0.125) return 6;
+      if (rand < 0.500) return 7;
+      if (rand < 0.875) return 8;
+      return 9;
+    }
+  }
+
+  function renderSlot(lineNumber, value) {
+    const slot = document.getElementById(`slot-${lineNumber}`);
+    if (slot) {
+      slot.innerHTML = `<span class="val">${value}</span><span class="glyph">${lineGlyphs[value]}</span><span></span>`;
+      slot.classList.add('visible');
+    }
+  }
+
+  function revealFullHexagram() {
+    hexStack.classList.remove('hidden-mode');
+    linesGenerated.forEach((val, idx) => {
+      renderSlot(idx + 1, val);
+    });
+    state = 'READY_TO_CONTINUE';
+    btnGenerate.textContent = i18n.process;
+    btnGenerate.disabled = false;
+  }
+
+  function handleProcessAction(e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+
+    if (btnGenerate.disabled) return;
+
+    // Fase final: el usuario hace clic para continuar a la Fase 3
+    if (state === 'READY_TO_CONTINUE') {
+      concludeConsultation();
+      return;
+    }
+
+    // Fase intermedia para modo directo: el usuario hace clic para revelar
+    if (state === 'READY_TO_REVEAL') {
+      revealFullHexagram();
+      return;
+    }
+
+    // Generar línea
+    btnGenerate.disabled = true;
+
+    const lineValue = computeLineValueSync(entropyPool, metodo);
+    linesGenerated.push(lineValue);
+
+    const block = document.getElementById(`block-${currentLine}`);
+    if (block) {
+      block.textContent = '█';
+      block.classList.add('completed');
+    }
+
+    if (!isDirectMode) {
+      renderSlot(currentLine, lineValue);
+    }
+
+    particles = [];
+    accumulatedEntropy = 0;
+    entropyPool = [];
+
+    currentLine++;
+
+    if (currentLine <= 6) {
+      btnGenerate.textContent = i18n.genLine(currentLine);
+    } else {
+      // Las 6 líneas han sido generadas
+      if (isDirectMode) {
+        state = 'READY_TO_REVEAL';
+        btnGenerate.textContent = i18n.reveal;
+        btnGenerate.disabled = false;
+      } else {
+        state = 'READY_TO_CONTINUE';
+        btnGenerate.textContent = i18n.process;
+        btnGenerate.disabled = false;
+      }
+    }
+  }
+
+  btnGenerate.addEventListener('click', handleProcessAction);
+  btnGenerate.addEventListener('touchend', handleProcessAction);
+
+  function concludeConsultation() {
+    const resultado = resolverHexagramas(linesGenerated);
+
+    const payload = {
+      rawLines: resultado.rawLines,
+      hexagram: resultado.hexagram,
+      derivedHexagram: resultado.derivedHexagram,
+      changingLines: resultado.changingLines,
+      method: metodo,
+      mode: isDirectMode ? 'direct' : 'progressive',
+      timestamp: Date.now()
+    };
+
+    sessionStorage.setItem('lastHexagram', JSON.stringify(payload));
+
+    if (window.parent !== window) {
+      window.parent.postMessage({ type: 'ICHING_COMPLETE', data: payload }, '*');
+    }
+
+    if (redirectTarget) {
+      const queryParams = new URLSearchParams({
+        lines: payload.rawLines.join(','),
+        hexagram: payload.hexagram,
+        derived: payload.derivedHexagram || '',
+        changing: payload.changingLines.join(','),
+        metodo: payload.method
+      });
+      window.location.href = `${redirectTarget}?${queryParams.toString()}`;
+    }
+  }
+})();
+</script>
+
+</body>
+</html>
