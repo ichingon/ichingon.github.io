@@ -376,10 +376,32 @@ window.copiarCuerpo = function(btn) {
   });
 };
 
+window.registrarMetricaAnonima = function(metodo, modo) {
+  const payload = {
+    metodo: metodo || 'monedas',
+    modo: modo || 'desconocido',
+    idioma: '{{ .Language.Lang }}' || 'es'
+  };
+
+  fetch('/api/log-consulta', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  }).catch(() => {
+    // Si la red falla o está offline, no interrumpe la experiencia
+  });
+};
+
 window.addEventListener('message', function(e) {
   if (e.data && e.data.type === 'ICHING_COMPLETE') {
     const data = e.data.data;
     window.appState.result = data;
+
+// --- REGISTRO ANÓNIMO EN CLOUDFLARE D1 ---
+    const metodoNormalizado = window.appState.method === 'yarrow' ? 'varillas' : 'monedas';
+    const modoNormalizado = data.mode || data.modo || (data.progressive ? 'progresivo' : 'directo');
+    window.registrarMetricaAnonima(metodoNormalizado, modoNormalizado);
+// ----------------------------------------
 
     document.getElementById('simulationWrap').style.display = 'none';
     document.getElementById('resLines').innerText = data.rawLines ? data.rawLines.join(', ') : '-';
