@@ -727,7 +727,7 @@
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
         
-<div class="consulta-iching-page" id="ichingAppRoot" data-lang="es" data-default-date="2026-08-16">
+<div class="consulta-iching-page" id="ichingAppRoot" data-lang="es" data-default-date="2026-08-21">
   <div class="iching-consultation-container">
 
     
@@ -755,7 +755,7 @@
           <label class="form-label" for="consultationDate">
             Fecha de la Consulta (AAAA-MM-DD)
           </label>
-          <input type="text" id="consultationDate" value="2026-08-16" class="form-input" maxlength="10" placeholder="YYYY-MM-DD" style="background-color: #1a1a1a; cursor: not-allowed;" readonly>
+          <input type="text" id="consultationDate" value="2026-08-21" class="form-input" maxlength="10" placeholder="YYYY-MM-DD" style="background-color: #1a1a1a; cursor: not-allowed;" readonly>
           <div id="dateErrorMsg" style="display: none; color: #ff6b6b; font-size: 0.78rem; margin-top: 4px;"></div>
         </div>
 
@@ -931,7 +931,7 @@
 .summary-val { color: #eee; font-weight: 500; }
 .copy-field-group { margin-bottom: 8px; width: 100%; box-sizing: border-box; }
 .copy-field-label { display: block; font-size: 0.72rem; color: #888; margin-bottom: 3px; }
-.copy-input-row { display: flex; gap: 6px; width: 100%; box-sizing: border-box; }
+.copy-input-row { define: flex; gap: 6px; width: 100%; box-sizing: border-box; }
 .copy-input { flex: 1; min-width: 0; background: #111; border: 1px solid #444; color: #ddd; padding: 8px 10px; font-size: 0.78rem; border-radius: 2px; box-sizing: border-box; }
 .btn-copy-mini { width: 90px; flex-shrink: 0; padding: 8px 6px; font-size: 0.75rem; background: #222; border: 1px solid #555; color: #fff; cursor: pointer; border-radius: 2px; box-sizing: border-box; text-align: center; }
 .btn-copy-mini:hover { background: #333; }
@@ -941,7 +941,23 @@
 (function() {
   var root = document.getElementById('ichingAppRoot');
   window.appLang = root ? root.getAttribute('data-lang') : 'es';
-  var defaultDate = root ? root.getAttribute('data-default-date') : '2026-08-16';
+  
+  
+  
+  var hoyLocal = new Date();
+  var anioLoc = hoyLocal.getFullYear();
+  var mesLoc = String(hoyLocal.getMonth() + 1).padStart(2, '0');
+  var diaLoc = String(hoyLocal.getDate()).padStart(2, '0');
+  var fechaActualStr = anioLoc + '-' + mesLoc + '-' + diaLoc;
+
+  var attrDate = root ? root.getAttribute('data-default-date') : '';
+  var defaultDate = attrDate || fechaActualStr;
+
+  
+  var dateInputEl = document.getElementById('consultationDate');
+  if (dateInputEl) {
+    dateInputEl.value = defaultDate;
+  }
 
   window.appState = {
     userName: '',
