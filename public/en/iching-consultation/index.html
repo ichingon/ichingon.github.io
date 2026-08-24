@@ -727,7 +727,11 @@
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
         
-<div class="consulta-iching-page" id="ichingAppRoot" data-lang="en" data-default-date="2026-08-21">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
+<div class="consulta-iching-page" id="ichingAppRoot" data-lang="en" data-default-date="2026-08-24">
   <div class="iching-consultation-container">
 
     
@@ -755,7 +759,7 @@
           <label class="form-label" for="consultationDate">
             Consultation Date (YYYY-MM-DD)
           </label>
-          <input type="text" id="consultationDate" value="2026-08-21" class="form-input" maxlength="10" placeholder="YYYY-MM-DD" style="background-color: #1a1a1a; cursor: not-allowed;" readonly>
+          <input type="text" id="consultationDate" value="2026-08-24" class="form-input" maxlength="10" placeholder="YYYY-MM-DD" style="background-color: #1a1a1a; cursor: not-allowed;" readonly>
           <div id="dateErrorMsg" style="display: none; color: #ff6b6b; font-size: 0.78rem; margin-top: 4px;"></div>
         </div>
 
@@ -860,49 +864,49 @@
 
       
       <div class="privacy-banner" style="margin-top: 14px; border-left: 2px solid var(--app-accent, #eeee55); background: rgba(238, 238, 85, 0.05); padding: 12px; text-align: left; box-sizing: border-box;">
-        <strong style="color: var(--app-accent, #eeee55); font-size: 0.9rem;">
-          Personalized Reading (Paid Service)
+        <strong style="color: var(--app-accent, #eeee55); font-size: 0.9rem;" id="uiConsultTitle">
+          Closed Beta: AI-Assisted Interpretation (Free)
         </strong>
         
-        <p style="margin: 6px 0 12px 0; font-size: 0.82rem; line-height: 1.45; color: #ccc;">
+        <p style="margin: 6px 0 12px 0; font-size: 0.82rem; line-height: 1.45; color: #ccc;" id="uiConsultText">
           
-            If you would like an in-depth human interpretation tailored to your personal situation, you can request a personalized report via email (available for a fee). Response time: 24–48 hrs.
+            Would you like to see how an in-depth AI-assisted reading illuminates your situation? Send us your report via email. In exchange for your valuable feedback, we will send you the full AI interpretation for free.
           
         </p>
         
         <a id="btnHumanConsult" href="#" class="btn-action" style="display: block; text-align: center; text-decoration: none; font-size: 0.82rem; background: rgba(238, 238, 85, 0.2); border-color: var(--app-accent, #eeee55); color: #fff; margin-bottom: 12px;">
-          ✉️ Open in Mail App
+          ✉️ <span id="uiOpenMail">Open in Mail App</span>
         </a>
 
         <div style="padding-top: 10px; border-top: 1px solid #333;">
-          <div style="font-size: 0.78rem; color: #aaa; margin-bottom: 8px;">
+          <div style="font-size: 0.78rem; color: #aaa; margin-bottom: 8px;" id="uiWebmailLabel">
             For Webmail (Gmail, Proton, Outlook Web, etc.):
           </div>
           
           <div class="copy-field-group">
-            <label class="copy-field-label">Recipient</label>
+            <label class="copy-field-label" id="uiRecipientLabel">Recipient</label>
             <div class="copy-input-row">
               <input type="text" id="copyFieldTo" value="dailingna@elichingon.com" readonly class="copy-input">
-              <button type="button" onclick="window.copiarCampo('copyFieldTo', this)" class="btn-copy-mini">📋 Copy</button>
+              <button type="button" onclick="window.copiarCampo('copyFieldTo', this)" class="btn-copy-mini" data-i18n-copy>📋 Copy</button>
             </div>
           </div>
 
           <div class="copy-field-group">
-            <label class="copy-field-label">Subject</label>
+            <label class="copy-field-label" id="uiSubjectLabel">Subject</label>
             <div class="copy-input-row">
               <input type="text" id="copyFieldSubject" value="" readonly class="copy-input">
-              <button type="button" onclick="window.copiarCampo('copyFieldSubject', this)" class="btn-copy-mini">📋 Copy</button>
+              <button type="button" onclick="window.copiarCampo('copyFieldSubject', this)" class="btn-copy-mini" data-i18n-copy>📋 Copy</button>
             </div>
           </div>
 
-          <button type="button" onclick="window.copiarCuerpo(this)" class="btn-action" style="margin-top: 10px; padding: 10px; font-size: 0.8rem; background: #1a1a1a; border-color: #444; color: #eee;">
+          <button type="button" onclick="window.copiarCuerpo(this)" class="btn-action" id="uiCopyBodyBtn" style="margin-top: 10px; padding: 10px; font-size: 0.8rem; background: #1a1a1a; border-color: #444; color: #eee;">
             📋 Copy Message Body
           </button>
         </div>
       </div>
 
       <button type="button" class="btn-action" style="border-color:#555; color:#888; background:transparent; margin-top:10px;" id="btnRestart" onclick="window.reiniciarConsulta()">
-        🔄 New Query
+        🔄 <span id="uiNewQuery">New Query</span>
       </button>
     </div>
 
@@ -931,18 +935,17 @@
 .summary-val { color: #eee; font-weight: 500; }
 .copy-field-group { margin-bottom: 8px; width: 100%; box-sizing: border-box; }
 .copy-field-label { display: block; font-size: 0.72rem; color: #888; margin-bottom: 3px; }
-.copy-input-row { define: flex; gap: 6px; width: 100%; box-sizing: border-box; }
+.copy-input-row { display: flex; gap: 6px; width: 100%; box-sizing: border-box; }
 .copy-input { flex: 1; min-width: 0; background: #111; border: 1px solid #444; color: #ddd; padding: 8px 10px; font-size: 0.78rem; border-radius: 2px; box-sizing: border-box; }
 .btn-copy-mini { width: 90px; flex-shrink: 0; padding: 8px 6px; font-size: 0.75rem; background: #222; border: 1px solid #555; color: #fff; cursor: pointer; border-radius: 2px; box-sizing: border-box; text-align: center; }
 .btn-copy-mini:hover { background: #333; }
 </style>
 
 <script>
+ 
 (function() {
   var root = document.getElementById('ichingAppRoot');
   window.appLang = root ? root.getAttribute('data-lang') : 'es';
-  
-  
   
   var hoyLocal = new Date();
   var anioLoc = hoyLocal.getFullYear();
@@ -950,10 +953,8 @@
   var diaLoc = String(hoyLocal.getDate()).padStart(2, '0');
   var fechaActualStr = anioLoc + '-' + mesLoc + '-' + diaLoc;
 
-  var attrDate = root ? root.getAttribute('data-default-date') : '';
-  var defaultDate = attrDate || fechaActualStr;
+  var defaultDate = fechaActualStr;
 
-  
   var dateInputEl = document.getElementById('consultationDate');
   if (dateInputEl) {
     dateInputEl.value = defaultDate;
@@ -979,7 +980,7 @@
     es: {
       btnCopied: "✓ Copiado",
       btnMsgCopied: "✓ ¡Mensaje Copiado!",
-      btnGenerating: "⏳ Preparando documento...",
+      btnGenerating: "⏳ Generando PDF con PDFMake...",
       btnDefaultPdf: "📄 Descargar Informe Canónico PDF (Gratis)",
       errorName: "Por favor introduce tu nombre o pseudónimo.",
       errorDate: "Por favor ingresa una fecha válida en formato AAAA-MM-DD (no futura).",
@@ -1005,8 +1006,8 @@
       p2Title: "Parte 2: Entendiendo tu Lectura - Guía de Terminología",
       p2Intro: "Cada consulta del I Ching contiene componentes esenciales estructurados para describir la dinámica del cambio:",
       p2CastHex: "• Hexagrama Base (La Situación Manifestada): Representa la energía central de tu realidad tangible presente en el momento de la consulta.",
-      p2MovingLines: "• Las Líneas Móviles (La Dinámica del Cambio): Son los puntos focales específicos en proceso de transformación activa. Ofrecen advertencias, consejos y pautas de acción inmediata. Si no hay líneas móviles, el hexagrama es «estático», señalando una energía consolidada e indivisa.",
-      p2FutureHex: "• Hexagrama Futuro o Derivado (El Resultado Potencial): Surge cuando las líneas móviles mutan (el Yin se convierte en Yang y viceversa). Señala la fase emergente y la tendencia hacia donde fluye la energía.",
+      p2MovingLines: "• Las Líneas Móviles (La Dinámica del Cambio): Son los puntos focales específicos en proceso de transformación activa.",
+      p2FutureHex: "• Hexagrama Futuro o Derivado (El Resultado Potencial): Surge cuando las líneas móviles mutan.",
       p2CanonicalNote: "Los textos canónicos tradicionales de esta lectura proceden de la traducción clásica de Richard Wilhelm y están disponibles en:",
       p2Url: "https://elichingon.com/hexagramas/buscador-hexagramas-i-ching/",
       p3Title: "Parte 3: Tu Lectura de un Vistazo",
@@ -1023,24 +1024,16 @@
       p4Image: "La Imagen",
       p4MovingLinesTitle: "Líneas Móviles Específicas",
       p4DerivedSectionTitle: "Hexagrama Futuro (Derivado)",
-      p5Title: "Parte 5: Integración de la Lectura y Próximos Pasos",
-      p5Paragraph1: "Este informe describe la topología de fuerzas y tendencias presentes en el momento de tu consulta. El I Ching no postula un destino rígido o ineludible; muestra la corriente natural del cambio y los puntos de equilibrio posibles.",
-      p5GuidelinesTitle: "Pautas de Interpretación:",
-      p5GuidelineTrigrams: "Considera primero la Imagen del hexagrama como la interacción entre tu situación interna (trigrama inferior) y el mundo exterior (trigrama superior). El Dictamen revela la energía del arquetipo en su conjunto.",
-      p5GuidelineMoving: "Si tu tirada contiene líneas móviles, la situación está en plena transformación. Examina la tensión entre el estado inicial y el potencial emergente. Las líneas mutantes son los pivotes donde tu discernimiento y oportunidad de acción cobran mayor peso.",
-      p5GuidelineStatic: "Si tu tirada es estática (sin líneas móviles), la energía arquetípica se manifiesta en su forma pura, firme e indivisa. No hay un vector de transición inminente; el consejo reside plenamente en el Dictamen y la Imagen del Hexagrama Base, indicando una condición consolidada donde la tarea es integrar la cualidad esencial del símbolo.",
-      p5GuidelineSettle: "Vuelve a leer este documento después de 48 a 72 horas. La resonancia simbólica de las imágenes suele esclarecerse conforme se despliegan los acontecimientos.",
-      p5ConsultTitle: "Consultas y Análisis Personalizado",
-      p5ConsultText: "Si tu situación involucra decisiones complejas, encrucijadas estratégicas o dinámicas relacionales que requieran un análisis contextualizado y en profundidad, puedes solicitar una interpretación personalizada por correo electrónico.",
-      p5EmailLabel: "Escribe a dailingna@elichingon.com para consultar disponibilidad, tarifas y modalidades de pago.",
-      p5SignatureName: "Dài Líng Nà (黛灵娜)",
+      p5Title: "Parte 5: Integración de la Lectura y Beta Test de IA",
+      p5Paragraph1: "Este informe describe la topología de fuerzas y tendencias presentes en el momento de tu consulta. Si deseas probar nuestra interpretación experimental asistida por IA y contribuir con tu feedback para mejorar el oráculo, envía este reporte por correo a dailingna@elichingon.com y te responderemos de forma totalmente gratuita.",
+      p5SignatureName: "黛灵娜 (Dài Líng Nà)",
       p5SignatureSite: "https://elichingon.com",
       p5SignatureQuote: "«El cambio es la única constante; claridad, tu mejor instrumento para navegarlo.»"
     },
     en: {
       btnCopied: "✓ Copied",
       btnMsgCopied: "✓ Message Copied!",
-      btnGenerating: "⏳ Preparing document...",
+      btnGenerating: "⏳ Generating PDF with PDFMake...",
       btnDefaultPdf: "📄 Download Free PDF Report",
       errorName: "Please enter your name or pseudonym.",
       errorDate: "Please enter a valid date in YYYY-MM-DD format (not in the future).",
@@ -1066,8 +1059,8 @@
       p2Title: "Part 2: Understanding Your Reading - A Quick Guide",
       p2Intro: "Every I Ching consultation contains essential components structured to describe the dynamics of change:",
       p2CastHex: "• Your Cast Hexagram (The Manifested Situation): Describes the core energy of your tangible reality at the time of consultation.",
-      p2MovingLines: "• The Moving Lines (The Dynamics of Change): The specific areas actively transforming. They offer precise warnings and guidance. If there are no moving lines, the hexagram is 'locked' or static, representing stable and undivided energy.",
-      p2FutureHex: "• The Future or Derived Hexagram (The Potential Outcome): Formed when moving lines transform into their opposites. It points toward the emerging phase and the direction of energy flow.",
+      p2MovingLines: "• The Moving Lines (The Dynamics of Change): The specific areas actively transforming.",
+      p2FutureHex: "• The Future or Derived Hexagram (The Potential Outcome): Formed when moving lines transform into their opposites.",
       p2CanonicalNote: "The canonical source texts for this reading are based on Richard Wilhelm's classical translation and are available at:",
       p2Url: "https://elichingon.com/en/hexagrams/i-ching-lookup-chart/",
       p3Title: "Part 3: Your Reading at a Glance",
@@ -1084,24 +1077,16 @@
       p4Image: "The Image",
       p4MovingLinesTitle: "Specific Moving Lines",
       p4DerivedSectionTitle: "Future (Derived) Hexagram",
-      p5Title: "Part 5: Integrating Your Reading & Next Steps",
-      p5Paragraph1: "This report outlines the forces and dynamics at play at the time of your consultation. The I Ching does not dictate a rigid or unavoidable fate; it maps the natural currents of transformation and points of balance.",
-      p5GuidelinesTitle: "Guidelines for Interpretation:",
-      p5GuidelineTrigrams: "Consider the cast hexagram's Image first as an interaction between your internal state (lower trigram) and the external world (upper trigram). The Judgment reveals the overarching archetypal energy.",
-      p5GuidelineMoving: "If your reading contains moving lines, the situation is actively transforming. Observe the relationship between your initial state and emerging potential. Moving lines indicate where your insight and timely action carry the greatest weight.",
-      p5GuidelineStatic: "If your reading is static (no moving lines), the archetypal energy is manifested in its pure, undivided state. There is no imminent vector of transition; the core guidance rests on the Judgment and Image of the Cast Hexagram.",
-      p5GuidelineSettle: "Revisit this document after 48 to 72 hours. The symbolic resonance of the imagery often becomes clearer as events unfold.",
-      p5ConsultTitle: "Inquiries & Personalized Analysis",
-      p5ConsultText: "If your situation involves complex decisions, strategic crossroads, or relational dynamics that call for an in-depth reading, you may request a personalized interpretation via email.",
-      p5EmailLabel: "Email dailingna@elichingon.com to consult availability, fees, and methods of payment.",
-      p5SignatureName: "Dài Líng Nà (黛灵娜)",
+      p5Title: "Part 5: Integrating Your Reading & AI Beta Test",
+      p5Paragraph1: "This report outlines the forces and dynamics at play at the time of your consultation. If you would like to test our experimental AI-assisted interpretation and contribute feedback to improve the oracle, email this report to dailingna@elichingon.com and we will reply free of charge.",
+      p5SignatureName: "黛灵娜 (Dài Líng Nà)",
       p5SignatureSite: "https://elichingon.com",
       p5SignatureQuote: "«Change is the only constant; clarity, your best tool to navigate it.»"
     },
     de: {
       btnCopied: "✓ Kopiert",
       btnMsgCopied: "✓ Nachricht kopiert!",
-      btnGenerating: "⏳ Druckvorschau wird geöffnet...",
+      btnGenerating: "⏳ PDF-Bericht wird mit PDFMake erstellt...",
       btnDefaultPdf: "📄 Kostenlosen PDF-Bericht herunterladen",
       errorName: "Bitte gib deinen Namen oder dein Pseudonym ein.",
       errorDate: "Bitte gib ein gültiges Datum im Format JJJJ-MM-TT ein (nicht in der Zukunft).",
@@ -1119,22 +1104,14 @@
       p1Method: "Konsultationsmethode:",
       p1MethodCoins: "3 Münzen (Klassisch)",
       p1MethodYarrow: "50 Schafgarbenstängel (Traditionell)",
-      p1MethodManual: "Frühere manuelle Abfrage",
-      p1Mode: "Art der Enthüllung:",
-      p1ModeProg: "Fortlaufend (Linie für Linie)",
-      p1ModeFinal: "Vollständig am Ende",
-      p1ModeManual: "Direct / Manuell",
       p2Title: "Teil 2: Deine Abfrage verstehen - Terminologie",
       p2Intro: "Jede I Ging Abfrage enthält wesentliche Komponenten zur Beschreibung der Wandlungsmuster:",
-      p2CastHex: "• Haupthexagramm (Die manifestierte Situation): Beschreibt die Grundenergie deiner greifbaren Realität zum Zeitpunkt der Abfrage.",
-      p2MovingLines: "• Wandelnde Linien (Dynamik des Wandels): Die aktiven Transformationspunkte. Sie bieten konkrete Ratschläge und Warnungen. Wenn keine Linien wandeln, ist das Hexagramm «statisch» und ungeteilt.",
-      p2FutureHex: "• Gewandeltes Hexagramm (Das Potenzial): Entsteht durch die Wandlung der beweglichen Linien. Es zeigt die Richtung des Wandels und die Folgesituation an.",
+      p2CastHex: "• Haupthexagramm (Die manifestierte Situation): Beschreibt die Grundenergie deiner greifbaren Realität.",
+      p2MovingLines: "• Wandelnde Linien (Dynamik des Wandels): Die aktiven Transformationspunkte.",
+      p2FutureHex: "• Gewandeltes Hexagramm (Das Potenzial): Entsteht durch die Wandlung der beweglichen Linien.",
       p2CanonicalNote: "Die kanonischen Quellentexte stammen aus der Übersetzung von Richard Wilhelm und sind abrufbar unter:",
       p2Url: "https://elichingon.com/de/hexagramme/i-ging-nachschlagetabelle/",
       p3Title: "Teil 3: Deine Abfrage im Überblick",
-      p3ColCast: "Gezogene Linien",
-      p3ColBase: "Haupthexagramm",
-      p3ColFuture: "Gewandeltes Hexagramm",
       p3SummaryManifest: "• Manifestierte Situation (Haupthexagramm):",
       p3SummaryDynamics: "• Dynamik des Wandels (Wandelnde Linien):",
       p3SummaryNoMoving: "Keine (Statisches Hexagramm)",
@@ -1145,21 +1122,76 @@
       p4Image: "Das Bild",
       p4MovingLinesTitle: "Spezifische wandelnde Linien",
       p4DerivedSectionTitle: "Zukünftiges (Gewandeltes) Hexagramm",
-      p5Title: "Teil 5: Integration der Abfrage & Nächste Schritte",
-      p5Paragraph1: "Dieser Bericht beschreibt das Kräftespiel zum Zeitpunkt deiner Konsultation. Das I Ging legt kein starres Schicksal fest; es verdeutlicht den natürlichen Fluss der Veränderung.",
-      p5GuidelinesTitle: "Hinweise zur Deutung:",
-      p5GuidelineTrigrams: "Betrachte zuerst das Bild als Zusammenspiel von innerer Haltung (unteres Trigramm) und Außenwelt (oberes Trigramm). Das Urteil offenbart die archetypische Energie im Ganzen.",
-      p5GuidelineMoving: "Wenn wandelnde Linien vorliegen, befindet sich die Situation in aktiver Transformation. Beachte das Verhältnis zwischen Ausgangslage und Ziel. Die Linien sind deine Handlungsschwerpunkte.",
-      p5GuidelineStatic: "Wenn dein Hexagramm statisch ist, wirkt die Kraft in ihrer reinen und ungeteilten Form. Es gibt keinen unmittelbaren Übergangsvektor; die Führung liegt ganz im Urteil und Bild des Haupthexagramms.",
-      p5GuidelineSettle: "Lies diesen Bericht nach 48 bis 72 Stunden erneut. Die symbolische Tiefe entfaltet sich oft erst im Laufe der Zeit.",
-      p5ConsultTitle: "Persönliche Interpretation & Vertiefung",
-      p5ConsultText: "Wenn deine Situation strategische Entscheidungen oder komplexe Beziehungsdynamiken betrifft, kannst du eine vertiefte Interpretation per E-Mail anfragen.",
-      p5EmailLabel: "Schreibe an dailingna@elichingon.com für Tarife, Verfügbarkeit und Zahlungsmodalitäten.",
-      p5SignatureName: "Dài Líng Nà (黛灵娜)",
+      p5Title: "Teil 5: Integration der Abfrage & KI-Beta-Test",
+      p5Paragraph1: "Dieser Bericht beschreibt das Kräftespiel zum Zeitpunkt deiner Konsultation. Wenn du unsere experimentelle KI-gestützte Interpretation testen und mit deinem Feedback zur Verbesserung des Orakels beitragen möchtest, sende diesen Bericht per E-Mail an dailingna@elichingon.com – wir antworten dir völlig kostenlos.",
+      p5SignatureName: "黛灵娜 (Dài Líng Nà)",
       p5SignatureSite: "https://elichingon.com",
       p5SignatureQuote: "«Wandel ist die einzige Konstante; Klarheit dein bestes Werkzeug.»"
     }
   };
+
+  
+  var UI_I18N = {
+    es: {
+      copyBtn: "📋 Copiar",
+      copied: "✓ Copiado",
+      msgCopied: "✓ ¡Mensaje Copiado!",
+      openMail: "Abrir en App de Correo",
+      webmailLabel: "Para Webmail (Gmail, Proton, Outlook Web, etc.):",
+      recipientLabel: "Destinatario",
+      subjectLabel: "Asunto",
+      copyBodyBtn: "📋 Copiar Mensaje Completo",
+      consultTitle: "Prueba Beta: Interpretación Asistida por IA (Gratis)",
+      consultText: "¿Quieres ver cómo una lectura profunda asistida por IA ilumina tu situación? Envíanos tu reporte por correo. A cambio de tu valioso feedback para mejorar el oráculo, te enviaremos la interpretación completa de IA sin costo.",
+      newQuery: "Nueva Consulta"
+    },
+    en: {
+      copyBtn: "📋 Copy",
+      copied: "✓ Copied",
+      msgCopied: "✓ Message Copied!",
+      openMail: "Open in Mail App",
+      webmailLabel: "For Webmail (Gmail, Proton, Outlook Web, etc.):",
+      recipientLabel: "Recipient",
+      subjectLabel: "Subject",
+      copyBodyBtn: "📋 Copy Message Body",
+      consultTitle: "Closed Beta: AI-Assisted Interpretation (Free)",
+      consultText: "Would you like to see how an in-depth AI-assisted reading illuminates your situation? Send us your report via email. In exchange for your valuable feedback, we will send you the full AI interpretation for free.",
+      newQuery: "New Query"
+    },
+    de: {
+      copyBtn: "📋 Kopieren",
+      copied: "✓ Kopiert",
+      msgCopied: "✓ Nachricht kopiert!",
+      openMail: "In Mail-App öffnen",
+      webmailLabel: "Für Webmail (Gmail, Proton, Outlook Web usw.):",
+      recipientLabel: "Empfänger",
+      subjectLabel: "Betreff",
+      copyBodyBtn: "📋 Nachrichtentext kopieren",
+      consultTitle: "Beta-Test: KI-gestützte Interpretation (Kostenlos)",
+      consultText: "Möchtest du sehen, wie eine vertiefte, KI-gestützte Deutung deine Situation beleuchtet? Schicke uns deinen Bericht per E-Mail. Als Gegenleistung für dein wertvolles Feedback senden wir dir die vollständige AI-Interpretation kostenlos zu.",
+      newQuery: "Neue Abfrage"
+    }
+  };
+
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    var l = window.appLang || "es";
+    var t = UI_I18N[l] || UI_I18N["es"];
+    
+    var elTitle = document.getElementById('uiConsultTitle'); if(elTitle) elTitle.innerText = t.consultTitle;
+    var elText = document.getElementById('uiConsultText'); if(elText) elText.innerText = t.consultText;
+    var elOpenMail = document.getElementById('uiOpenMail'); if(elOpenMail) elOpenMail.innerText = t.openMail;
+    var elWebmail = document.getElementById('uiWebmailLabel'); if(elWebmail) elWebmail.innerText = t.webmailLabel;
+    var elRecip = document.getElementById('uiRecipientLabel'); if(elRecip) elRecip.innerText = t.recipientLabel;
+    var elSubj = document.getElementById('uiSubjectLabel'); if(elSubj) elSubj.innerText = t.subjectLabel;
+    var elCopyBody = document.getElementById('uiCopyBodyBtn'); if(elCopyBody) elCopyBody.innerText = t.copyBodyBtn;
+    var elNewQuery = document.getElementById('uiNewQuery'); if(elNewQuery) elNewQuery.innerText = t.newQuery;
+
+    var copyButtons = document.querySelectorAll('[data-i18n-copy]');
+    copyButtons.forEach(function(btn) {
+      btn.innerText = t.copyBtn;
+    });
+  });
 
   function validarFechaISO(fechaStr) {
     var match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(fechaStr);
@@ -1274,10 +1306,10 @@
 
   window.copiarCampo = function(elementId, btn) {
     var input = document.getElementById(elementId);
-    var i18n = I18N_PDF[window.appLang] || I18N_PDF["es"];
+    var t = UI_I18N[window.appLang] || UI_I18N["es"];
     navigator.clipboard.writeText(input.value).then(function() {
       var originalText = btn.innerText;
-      btn.innerText = i18n.btnCopied;
+      btn.innerText = t.copied;
       btn.style.borderColor = "var(--app-accent, #eeee55)";
       btn.style.color = "var(--app-accent, #eeee55)";
       setTimeout(function() {
@@ -1289,10 +1321,10 @@
   };
 
   window.copiarCuerpo = function(btn) {
-    var i18n = I18N_PDF[window.appLang] || I18N_PDF["es"];
+    var t = UI_I18N[window.appLang] || UI_I18N["es"];
     navigator.clipboard.writeText(window.consultaEmailData.body).then(function() {
       var originalText = btn.innerText;
-      btn.innerText = i18n.btnMsgCopied;
+      btn.innerText = t.msgCopied;
       btn.style.borderColor = "var(--app-accent, #eeee55)";
       btn.style.color = "var(--app-accent, #eeee55)";
       setTimeout(function() {
@@ -1333,17 +1365,75 @@
       var lang = window.appLang;
       var toEmail = "dailingna@elichingon.com";
 
-      var subjectText = '[Servicio Pago] Consulta Personalizada I Ching - Hexagrama #' + data.hexagram;
-      if (lang === 'de') subjectText = '[Kostenpflichtiger Dienst] Persönliche Interpretation - Hexagramm #' + data.hexagram;
-      else if (lang === 'en') subjectText = '[Paid Service] Personalized Reading - Hexagram #' + data.hexagram;
+      
+      var subjectText = '[Beta Test AI] Solicitud de Interpretación I Ching - Hexagrama #' + data.hexagram;
+      if (lang === 'de') subjectText = '[KI Beta-Test] Anfrage für I Ging Interpretation - Hexagramm #' + data.hexagram;
+      else if (lang === 'en') subjectText = '[AI Beta Test] I Ching Reading Request - Hexagram #' + data.hexagram;
 
       var bodyText = "";
       if (lang === 'de') {
-        bodyText = ['Hallo Dài Líng Nà,', '', 'Ich habe eine Abfrage auf elichingon.com durchgeführt und möchte mich über die Tarife und Verfügbarkeit für eine persönliche Interpretation erkundigen.', '', 'Name des Fragenden: ' + window.appState.userName, 'Datum der Konsultation: ' + window.appState.consultationDate, 'Frage / Thema: ' + (window.appState.question || '(In Gedanken gehalten)'), 'Haupthexagramm: #' + data.hexagram, 'Gewandeltes Hexagramm: ' + (data.derivedHexagram ? '#' + data.derivedHexagram : 'Keines (Statisch)'), 'Wandlungslinien: [' + data.changingLines.join(', ') + ']', '', 'Zusätzlicher Kontext oder Details zur Situation:', ''].join('\n');
+        bodyText = [
+          'Hallo Dài Líng Nà,',
+          '',
+          'ich habe eine Konsultation auf elichingon.com durchgeführt und möchte gerne am geschlossenen Beta-Test für die KI-gestützte Interpretation teilnehmen.',
+          '',
+          '--- KONSULTATIONSDATEN ---',
+          'Fragender: ' + window.appState.userName,
+          'Datum: ' + window.appState.consultationDate,
+          'Frage / Thema: ' + (window.appState.question || '(In Gedanken gehalten)'),
+          'Haupthexagramm: #' + data.hexagram,
+          'Gewandeltes Hexagramm: ' + (data.derivedHexagram ? '#' + data.derivedHexagram : 'Keines (Statisch)'),
+          'Wandlungslinien: [' + data.changingLines.join(', ') + ']',
+          '',
+          '--- MEIN KONTEXT ODER ANLIEGEN (Optional) ---',
+          '[Füge hier optional weitere Details zu deiner Situation ein]',
+          '',
+          '--- MEIN FEEDBACK ZUM SYSTEM ---',
+          '[Deine Eindrücke zur Lesung, zum Orakel oder zur Benutzeroberfläche]',
+          ''
+        ].join('\n');
       } else if (lang === 'en') {
-        bodyText = ['Hello Dài Líng Nà,', '', 'I have completed a consultation on elichingon.com and would like to inquire about rates and availability for a personalized reading.', '', 'Querent: ' + window.appState.userName, 'Consultation Date: ' + window.appState.consultationDate, 'Question / Topic: ' + (window.appState.question || '(Kept in mind)'), 'Primary Hexagram: #' + data.hexagram, 'Relating Hexagram: ' + (data.derivedHexagram ? '#' + data.derivedHexagram : 'None (Static)'), 'Moving Lines: [' + data.changingLines.join(', ') + ']', '', 'Additional context or details regarding the situation:', ''].join('\n');
+        bodyText = [
+          'Hello Dài Líng Nà,',
+          '',
+          'I have completed a consultation on elichingon.com and would like to join the closed beta test for the AI-assisted interpretation.',
+          '',
+          '--- CONSULTATION DATA ---',
+          'Querent: ' + window.appState.userName,
+          'Date: ' + window.appState.consultationDate,
+          'Question / Topic: ' + (window.appState.question || '(Kept in mind)'),
+          'Primary Hexagram: #' + data.hexagram,
+          'Relating Hexagram: ' + (data.derivedHexagram ? '#' + data.derivedHexagram : 'None (Static)'),
+          'Moving Lines: [' + data.changingLines.join(', ') + ']',
+          '',
+          '--- MY CONTEXT OR SITUATION (Optional) ---',
+          '[Add any additional details about your situation here]',
+          '',
+          '--- MY FEEDBACK FOR THE SYSTEM ---',
+          '[Please leave your feedback regarding the reading or user interface here]',
+          ''
+        ].join('\n');
       } else {
-        bodyText = ['Hola Dài Líng Nà,', '', 'He realizado una tirada en elichingon.com y deseo consultar las tarifas y disponibilidad para una interpretación personalizada.', '', 'Consultante: ' + window.appState.userName, 'Fecha de Consulta: ' + window.appState.consultationDate, 'Pregunta / Asunto: ' + (window.appState.question || '(Mantenida en mente)'), 'Hexagrama Base: #' + data.hexagram, 'Hexagrama Derivado: ' + (data.derivedHexagram ? '#' + data.derivedHexagram : 'Ninguno (Estático)'), 'Líneas Móviles: [' + data.changingLines.join(', ') + ']', '', 'Contexto o detalles adicionales sobre la situación:', ''].join('\n');
+        bodyText = [
+          'Hola Dài Líng Nà,',
+          '',
+          'He realizado una consulta en elichingon.com y me gustaría participar en la prueba beta cerrada de interpretación asistida por IA.',
+          '',
+          '--- DATOS DE LA TIRADA ---',
+          'Consultante: ' + window.appState.userName,
+          'Fecha: ' + window.appState.consultationDate,
+          'Pregunta / Asunto: ' + (window.appState.question || '(Mantenida en mente)'),
+          'Hexagrama Base: #' + data.hexagram,
+          'Hexagrama Derivado: ' + (data.derivedHexagram ? '#' + data.derivedHexagram : 'Ninguno (Estático)'),
+          'Líneas Móviles: [' + data.changingLines.join(', ') + ']',
+          '',
+          '--- MI CONTEXTO O SITUACIÓN (Opcional) ---',
+          '[Escribe aquí opcionalmente detalles sobre tu situación]',
+          '',
+          '--- MI FEEDBACK PARA EL SISTEMA ---',
+          '[Por favor déjanos aquí tus impresiones sobre la lectura o la interfaz]',
+          ''
+        ].join('\n');
       }
 
       window.consultaEmailData.subject = subjectText;
@@ -1374,12 +1464,11 @@
         });
       })
       .catch(function(err) {
-        console.warn("Imagen de portada no disponible:", err);
-        return '';
+        console.warn("Logotipo no disponible para el PDF:", err);
+        return null;
       });
   }
 
-  
   function extraerBloque(obj) {
     if (!obj) return { text: '', commentary: '' };
     if (typeof obj === 'string') return { text: obj, commentary: '' };
@@ -1403,13 +1492,32 @@
 
     try {
       var jsonPath = '/data/hexagramas.' + lang + '.json';
-      var response = await fetch(jsonPath);
-      if (!response.ok) {
-        throw new Error("No se pudo cargar el archivo " + jsonPath + " (HTTP " + response.status + ")");
-      }
-      var hexData = await response.json();
+      
+      var [responseHex, responseFont, logoData] = await Promise.all([
+        fetch(jsonPath),
+        fetch('/data/iching-font.b64'),
+        cargarImagenBase64('/img/iching-cover-bagua.png')
+      ]);
 
-      var coverBase64 = await cargarImagenBase64('/img/iching-cover-bagua.png');
+      if (!responseHex.ok || !responseFont.ok) {
+        throw new Error("No se pudieron cargar los recursos del PDF.");
+      }
+
+      var hexData = await responseHex.json();
+      var base64FontData = await responseFont.text();
+
+      pdfMake.vfs = {
+        "IChingCustom.ttf": base64FontData.trim()
+      };
+
+      pdfMake.fonts = {
+        IChingCustom: {
+          normal: 'IChingCustom.ttf',
+          bold: 'IChingCustom.ttf',
+          italics: 'IChingCustom.ttf',
+          bolditalics: 'IChingCustom.ttf'
+        }
+      };
 
       var result = window.appState.result;
       var baseHexId = result.hexagram.toString();
@@ -1419,254 +1527,264 @@
       var derivedHexObj = derivedHexId ? hexData[derivedHexId] : null;
       var rawLines = result.rawLines || [];
 
-      function generarSvgLinea(tipo) {
-        if (tipo === 7) {
-          return '<svg width="100" height="10" viewBox="0 0 100 10"><rect x="0" y="2" width="100" height="6" fill="#000" /></svg>';
-        } else if (tipo === 8) {
-          return '<svg width="100" height="10" viewBox="0 0 100 10"><rect x="0" y="2" width="44" height="6" fill="#000" /><rect x="56" y="2" width="44" height="6" fill="#000" /></svg>';
-        } else if (tipo === 9) {
-          return '<svg width="100" height="10" viewBox="0 0 100 10"><rect x="0" y="2" width="40" height="6" fill="#000" /><circle cx="50" cy="5" r="3.5" fill="none" stroke="#000" stroke-width="1.8" /><rect x="60" y="2" width="40" height="6" fill="#000" /></svg>';
-        } else if (tipo === 6) {
-          return '<svg width="100" height="10" viewBox="0 0 100 10"><rect x="0" y="2" width="40" height="6" fill="#000" /><line x1="46.5" y1="1.5" x2="53.5" y2="8.5" stroke="#000" stroke-width="1.8" /><line x1="46.5" y1="8.5" x2="53.5" y2="1.5" stroke="#000" stroke-width="1.8" /><rect x="60" y="2" width="40" height="6" fill="#000" /></svg>';
+      var prepText = i18n.preparedFor
+        .replace('{date}', window.appState.consultationDate)
+        .replace('{name}', window.appState.userName || 'Consultante');
+
+      var baseIntro = (baseHexObj && baseHexObj.intro) || '';
+      var baseDictamen = extraerBloque(baseHexObj ? baseHexObj.dictamen : null);
+      var baseImagen = extraerBloque(baseHexObj ? baseHexObj.imagen : null);
+
+      var derivedIntro = (derivedHexObj && derivedHexObj.intro) || '';
+      var derivedDictamen = extraerBloque(derivedHexObj ? derivedHexObj.dictamen : null);
+      var derivedImagen = extraerBloque(derivedHexObj ? derivedHexObj.imagen : null);
+
+      function generarCanvasLinea(val) {
+        if (val === 7) {
+          return { canvas: [{ type: 'rect', x: 0, y: 3, w: 70, h: 5, color: '#000000' }] };
+        } else if (val === 8) {
+          return {
+            canvas: [
+              { type: 'rect', x: 0, y: 3, w: 31, h: 5, color: '#000000' },
+              { type: 'rect', x: 39, y: 3, w: 31, h: 5, color: '#000000' }
+            ]
+          };
+        } else if (val === 9) {
+          return {
+            canvas: [
+              { type: 'rect', x: 0, y: 3, w: 27, h: 5, color: '#000000' },
+              { type: 'ellipse', x: 35, y: 5.5, r1: 3.5, r2: 3.5, color: '#ffffff', lineWidth: 1.5, lineColor: '#000000' },
+              { type: 'rect', x: 43, y: 3, w: 27, h: 5, color: '#000000' }
+            ]
+          };
+        } else if (val === 6) {
+          return {
+            canvas: [
+              { type: 'rect', x: 0, y: 3, w: 27, h: 5, color: '#000000' },
+              { type: 'line', x1: 31.5, y1: 2, x2: 38.5, y2: 9, lineWidth: 1.5, lineColor: '#000000' },
+              { type: 'line', x1: 31.5, y1: 9, x2: 38.5, y2: 2, lineWidth: 1.5, lineColor: '#000000' },
+              { type: 'rect', x: 43, y: 3, w: 27, h: 5, color: '#000000' }
+            ]
+          };
         }
-        return '';
+        return { canvas: [] };
       }
 
-      var filasLineasHtml = '';
+      
+      var tableBody = [
+        [
+          { text: i18n.p3ColCast || "Líneas Obtenidas", fontSize: 10 },
+          { text: "", fontSize: 10 },
+          { text: (i18n.p3ColBase || "Hexagrama Base") + " (" + baseHexId + ")", fontSize: 10 },
+          { text: (i18n.p3ColFuture || "Hexagrama Futuro") + (derivedHexId ? " (" + derivedHexId + ")" : ""), fontSize: 10 }
+        ]
+      ];
+
       for (var i = 5; i >= 0; i--) {
         var lineNum = i + 1;
         var val = rawLines[i] || 7;
-        var tipoBase = (val === 9 || val === 7) ? 7 : 8;
-        var tipoFuturo = derivedHexId ? ((val === 6 || val === 7) ? 7 : 8) : tipoBase;
+        var tipoBaseVal = (val === 9 || val === 7) ? 7 : 8;
+        var tipoFuturoVal = derivedHexId ? ((val === 6 || val === 7) ? 7 : 8) : tipoBaseVal;
 
-        filasLineasHtml += [
-          '<tr style="border-bottom: 1px solid #e5e5e5;">',
-          '<td style="padding: 6px 4px; font-family: monospace; font-size: 13px; font-weight: bold; width: 70px;">L' + lineNum + ' (' + val + ')</td>',
-          '<td style="padding: 6px 4px; text-align: center;">' + generarSvgLinea(val) + '</td>',
-          '<td style="padding: 6px 4px; text-align: center;">' + generarSvgLinea(tipoBase) + '</td>',
-          '<td style="padding: 6px 4px; text-align: center;">' + generarSvgLinea(tipoFuturo) + '</td>',
-          '</tr>'
-        ].join('');
+        tableBody.push([
+          { text: "L " + lineNum + " (" + val + ")", fontSize: 9.5, margin: [0, 4, 0, 0] },
+          generarCanvasLinea(val),          
+          generarCanvasLinea(tipoBaseVal),  
+          generarCanvasLinea(tipoFuturoVal) 
+        ]);
       }
 
-      var lineasMutantesHtml = '';
-      if (baseHexObj && baseHexObj.lines) {
-        var isHex1All = (baseHexId === "1" && rawLines.length === 6 && rawLines.every(function(v) { return Number(v) === 9; }));
-        var isHex2All = (baseHexId === "2" && rawLines.length === 6 && rawLines.every(function(v) { return Number(v) === 6; }));
-
-        if (isHex1All || isHex2All || (baseHexId === "2" && result.changingLines && result.changingLines.length === 6)) {
-          var specialObj = baseHexObj.lines.all || baseHexObj.lines["all"] || baseHexObj.lines["7"] || baseHexObj.lines[7] || null;
-          if (specialObj) {
-            lineasMutantesHtml += renderizarLinea(specialObj, specialObj.title || i18n.p4MovingLinesTitle);
+      var movingLinesStack = [];
+      if (baseHexObj && baseHexObj.lines && result.changingLines && result.changingLines.length > 0) {
+        movingLinesStack.push({ text: i18n.p4MovingLinesTitle || "Líneas Móviles Específicas", fontSize: 11, margin: [0, 15, 0, 6] });
+        
+        var esHexagramaPuroConTodoMovil = (baseHexId === "1" || baseHexId === "2") && result.changingLines.length === 6;
+        
+        if (esHexagramaPuroConTodoMovil && baseHexObj.lines["all"]) {
+          var specialLine = baseHexObj.lines["all"];
+          movingLinesStack.push({ text: specialLine.title || "Todas las líneas son móviles", fontSize: 10.5, margin: [0, 8, 0, 2] });
+          if (specialLine.text) {
+            movingLinesStack.push({ text: specialLine.text, fontSize: 10, margin: [15, 0, 0, 4] });
           }
-        } else if (result.changingLines && result.changingLines.length > 0) {
+          if (specialLine.commentary) {
+            movingLinesStack.push({ text: specialLine.commentary, fontSize: 10, margin: [0, 0, 0, 10] });
+          }
+        } else {
           result.changingLines.forEach(function(lNum) {
-            var lin = baseHexObj.lines[lNum.toString()];
-            if (lin) {
-              lineasMutantesHtml += renderizarLinea(lin, lin.title || ('Line ' + lNum));
+            var lineObj = baseHexObj.lines[lNum.toString()];
+            if (lineObj) {
+              movingLinesStack.push({ text: lineObj.title || ("Línea " + lNum), fontSize: 10.5, margin: [0, 8, 0, 2] });
+              if (lineObj.text) {
+                movingLinesStack.push({ text: lineObj.text, fontSize: 10, margin: [15, 0, 0, 4] });
+              }
+              if (lineObj.commentary) {
+                movingLinesStack.push({ text: lineObj.commentary, fontSize: 10, margin: [0, 0, 0, 10] });
+              }
             }
           });
         }
       }
 
-      function renderizarLinea(linObj, fallbackTitle) {
-        var titulo = linObj.title || fallbackTitle;
-        var texto = linObj.text || '';
-        var comentario = linObj.commentary || '';
-        return [
-          '<div style="margin-top: 14px; page-break-inside: avoid; break-inside: avoid;">',
-          '<h4 style="margin: 0 0 4px 0; font-size: 13.5px; color: #000;">' + titulo + '</h4>',
-          (texto ? '<p style="margin: 0 0 4px 0; font-style: italic; font-size: 12.5px; color: #111;">' + texto + '</p>' : ''),
-          (comentario ? '<p style="margin: 0 0 12px 0; font-size: 12.5px; color: #222; text-align: justify;">' + comentario + '</p>' : ''),
-          '</div>'
-        ].join('');
+      var coverStack = [
+        { text: i18n.coverMainTitle, fontSize: 24, alignment: 'center', margin: [0, 30, 0, 10] },
+        { text: prepText, fontSize: 11, color: '#555555', alignment: 'center', margin: [0, 0, 0, 15] }
+      ];
+
+      if (logoData) {
+        coverStack.push({ image: logoData, width: 140, alignment: 'center', margin: [0, 10, 0, 15] });
+      } else {
+        coverStack.push({ text: '☰   I CHING   ☷', fontSize: 16, alignment: 'center', margin: [0, 20, 0, 20] });
       }
 
-      var prepText = i18n.preparedFor
-        .replace('{date}', window.appState.consultationDate)
-        .replace('{name}', window.appState.userName || 'Consultante');
+      coverStack.push(
+        { text: '«黛灵娜 (Dài Líng Nà)»', fontSize: 10, color: '#666666', alignment: 'center', margin: [0, 5, 0, 0] },
+        { text: 'elichingon.com', fontSize: 9, color: '#888888', alignment: 'center', margin: [0, 5, 0, 0] }
+      );
 
-      var baseDictamen = extraerBloque(baseHexObj ? baseHexObj.dictamen : null);
-      var baseImagen = extraerBloque(baseHexObj ? baseHexObj.imagen : null);
-      var baseIntro = (baseHexObj && baseHexObj.intro) || '';
+      var docDefinition = {
+        pageSize: 'A4',
+        pageMargins: [40, 40, 40, 50],
+        defaultStyle: {
+          font: 'IChingCustom',
+          fontSize: 10,
+          color: '#111111',
+          lineHeight: 1.4
+        },
+        header: function(currentPage, pageCount) {
+          if (currentPage === 1) return null;
+          return {
+            margin: [40, 20, 40, 0],
+            columns: [
+              { text: 'elichingon.com — ' + i18n.coverMainTitle, fontSize: 8, color: '#666666' },
+              { text: 'Página ' + currentPage + ' / ' + pageCount, fontSize: 8, color: '#666666', alignment: 'right' }
+            ]
+          };
+        },
+        footer: function(currentPage, pageCount) {
+          return {
+            margin: [40, 0, 40, 20],
+            columns: [
+              { text: '黛灵娜 (Dài Líng Nà) • elichingon.com', fontSize: 8, color: '#666666' }
+            ]
+          };
+        },
+        content: [
+          
+          { stack: coverStack, pageBreak: 'after' },
 
-      var derivedDictamen = extraerBloque(derivedHexObj ? derivedHexObj.dictamen : null);
-      var derivedImagen = extraerBloque(derivedHexObj ? derivedHexObj.imagen : null);
-      var derivedIntro = (derivedHexObj && derivedHexObj.intro) || '';
+          
+          {
+            stack: [
+              { text: i18n.p1Title, fontSize: 15, margin: [0, 0, 0, 10] },
+              { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 515, y2: 0, lineWidth: 1, lineColor: '#000000' }], margin: [0, 0, 0, 15] },
+              { text: i18n.p1Name, fontSize: 10.5, margin: [0, 0, 0, 2] },
+              { text: window.appState.userName || '-', fontSize: 10, margin: [0, 0, 0, 10] },
+              { text: i18n.p1Date, fontSize: 10.5, margin: [0, 0, 0, 2] },
+              { text: window.appState.consultationDate || '-', fontSize: 10, margin: [0, 0, 0, 10] },
+              { text: i18n.p1Question, fontSize: 10.5, margin: [0, 0, 0, 2] },
+              { text: window.appState.question || i18n.p1QuestionEmpty, fontSize: 10, margin: [0, 0, 0, 10] },
+              { text: i18n.p1Type, fontSize: 10.5, margin: [0, 0, 0, 2] },
+              { text: window.appState.entryType === 'manual' ? i18n.p1TypeManual : i18n.p1TypeInteractive, fontSize: 10, margin: [0, 0, 0, 10] },
+              { text: i18n.p1Method, fontSize: 10.5, margin: [0, 0, 0, 2] },
+              { text: window.appState.entryType === 'manual' ? i18n.p1MethodManual : (window.appState.method === 'yarrow' ? i18n.p1MethodYarrow : i18n.p1MethodCoins), fontSize: 10, margin: [0, 0, 0, 10] }
+            ],
+            pageBreak: 'after'
+          },
 
-      var printIframe = document.createElement('iframe');
-      printIframe.style.position = 'fixed';
-      printIframe.style.right = '0';
-      printIframe.style.bottom = '0';
-      printIframe.style.width = '0';
-      printIframe.style.height = '0';
-      printIframe.style.border = '0';
-      document.body.appendChild(printIframe);
+          
+          {
+            stack: [
+              { text: i18n.p2Title, fontSize: 15, margin: [0, 0, 0, 10] },
+              { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 515, y2: 0, lineWidth: 1, lineColor: '#000000' }], margin: [0, 0, 0, 15] },
+              { text: i18n.p2Intro, fontSize: 10, margin: [0, 0, 0, 10] },
+              { text: i18n.p2CastHex, fontSize: 10, margin: [0, 0, 0, 8] },
+              { text: i18n.p2MovingLines, fontSize: 10, margin: [0, 0, 0, 8] },
+              { text: i18n.p2FutureHex, fontSize: 10, margin: [0, 0, 0, 15] },
+              { text: i18n.p2CanonicalNote, fontSize: 9.5, color: '#444444', margin: [0, 0, 0, 4] },
+              { text: i18n.p2Url, fontSize: 9.5, color: '#0055aa', margin: [0, 0, 0, 0] }
+            ],
+            pageBreak: 'after'
+          },
 
-      var docContent = [
-        '<!DOCTYPE html>',
-        '<html>',
-        '<head>',
-        '<meta charset="utf-8">',
-        '<title>I-Ching-Report-' + window.appState.consultationDate + '-Hex' + baseHexId + '</title>',
-        '<style>',
-        '@page { size: A4 portrait; margin: 18mm 20mm; }',
-        '* { box-sizing: border-box; }',
-        'body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; color: #000; background: #fff; margin: 0; padding: 0; font-size: 12.5px; line-height: 1.55; }',
-        '.page { page-break-after: always; break-after: page; min-height: 240mm; display: block; }',
-        '.page:last-child { page-break-after: avoid; break-after: avoid; }',
-        '.cover-page { height: 240mm; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }',
-        '.cover-img-wrap { width: 220px; height: 220px; margin: 40px auto; display: flex; align-items: center; justify-content: center; }',
-        '.cover-img-wrap img { max-width: 100%; max-height: 100%; object-fit: contain; }',
-        'h1 { font-size: 24px; font-weight: 700; margin: 0 0 10px 0; color: #000; }',
-        'h2 { font-size: 17px; font-weight: 700; border-bottom: 1.5px solid #000; padding-bottom: 5px; margin: 0 0 18px 0; color: #000; }',
-        'h3 { font-size: 14.5px; font-weight: 700; margin: 0 0 8px 0; color: #000; }',
-        'h4 { font-size: 13px; font-weight: 700; margin: 0 0 3px 0; color: #000; }',
-        'p { margin: 0 0 10px 0; text-align: justify; }',
-        '.meta-row { margin-bottom: 14px; }',
-        '.meta-label { font-weight: 700; font-size: 12.5px; margin-bottom: 2px; }',
-        '.meta-val { font-size: 12.5px; color: #222; }',
-        'table { width: 100%; border-collapse: collapse; margin-bottom: 22px; }',
-        'th { padding: 6px 4px; border-bottom: 1.5px solid #000; font-size: 12.5px; text-align: center; }',
-        'th:first-child { text-align: left; }',
-        'td { padding: 5px 4px; }',
-        '.avoid-break { page-break-inside: avoid; break-inside: avoid; }',
-        '</style>',
-        '</head>',
-        '<body>',
-        
-        '\x3C!-- PÁGINA 1: PORTADA -->',
-        '<div class="page cover-page">',
-        '<h1>' + i18n.coverMainTitle + '</h1>',
-        '<p style="font-size: 13px; color: #444; margin: 0;">' + prepText + '</p>',
-        '<div class="cover-img-wrap">',
-        (coverBase64 ? '<img src="' + coverBase64 + '" alt="I Ching">' : ''),
-        '</div>',
-        '<p style="font-size: 11.5px; color: #666; margin-top: 20px;">elichingon.com</p>',
-        '</div>',
+          
+          {
+            stack: [
+              { text: i18n.p3Title, fontSize: 15, margin: [0, 0, 0, 10] },
+              { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 515, y2: 0, lineWidth: 1, lineColor: '#000000' }], margin: [0, 0, 0, 15] },
+              {
+                table: {
+                  headerRows: 1,
+                  widths: [65, 120, 165, 165],
+                  body: tableBody
+                },
+                layout: 'lightHorizontalLines',
+                margin: [0, 0, 0, 15]
+              },
+              { text: (i18n.p3SummaryManifest || "Hexagrama Base:") + " " + (baseHexObj ? (baseHexObj.title || baseHexObj.name) : baseHexId), fontSize: 10, margin: [0, 0, 0, 6] },
+              { text: (i18n.p3SummaryDynamics || "Líneas Móviles:") + " " + ((result.changingLines && result.changingLines.length > 0) ? result.changingLines.join(', ') : (i18n.p3SummaryNoMoving || "Ninguna")), fontSize: 10, margin: [0, 0, 0, 6] },
+              { text: (i18n.p3SummaryFuture || "Hexagrama Derivado:") + " " + (derivedHexId && derivedHexObj ? (derivedHexObj.title || derivedHexObj.name) : (i18n.p3SummaryNoFuture || "Ninguno")), fontSize: 10, margin: [0, 0, 0, 0] }
+            ],
+            pageBreak: 'after'
+          },
 
-        '\x3C!-- PÁGINA 2: PARTE 1 -->',
-        '<div class="page">',
-        '<h2>' + i18n.p1Title + '</h2>',
-        '<div class="meta-row"><div class="meta-label">' + i18n.p1Name + '</div><div class="meta-val">' + (window.appState.userName || '-') + '</div></div>',
-        '<div class="meta-row"><div class="meta-label">' + i18n.p1Date + '</div><div class="meta-val">' + (window.appState.consultationDate || '-') + '</div></div>',
-        '<div class="meta-row"><div class="meta-label">' + i18n.p1Question + '</div><div class="meta-val">' + (window.appState.question || i18n.p1QuestionEmpty) + '</div></div>',
-        '<div class="meta-row"><div class="meta-label">' + i18n.p1Type + '</div><div class="meta-val">' + (window.appState.entryType === 'manual' ? i18n.p1TypeManual : i18n.p1TypeInteractive) + '</div></div>',
-        '<div class="meta-row"><div class="meta-label">' + i18n.p1Method + '</div><div class="meta-val">' + (window.appState.entryType === 'manual' ? i18n.p1MethodManual : (window.appState.method === 'yarrow' ? i18n.p1MethodYarrow : i18n.p1MethodCoins)) + '</div></div>',
-        '<div class="meta-row"><div class="meta-label">' + i18n.p1Mode + '</div><div class="meta-val">' + (window.appState.entryType === 'manual' ? i18n.p1ModeManual : (window.appState.mode === 'final' ? i18n.p1ModeFinal : i18n.p1ModeProg)) + '</div></div>',
-        '</div>',
+          
+          {
+            stack: [
+              { text: i18n.p4Title, fontSize: 15, margin: [0, 0, 0, 10] },
+              { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 515, y2: 0, lineWidth: 1, lineColor: '#000000' }], margin: [0, 0, 0, 15] },
+              baseHexObj ? {
+                stack: [
+                  { text: 'Hexagrama Base #' + baseHexId + ': ' + (baseHexObj.title || baseHexObj.name), fontSize: 12, margin: [0, 0, 0, 10] },
+                  baseIntro ? { text: baseIntro, fontSize: 10, margin: [0, 0, 0, 10] } : {},
+                  baseDictamen.text ? { text: i18n.p4Judgment, fontSize: 11, margin: [0, 5, 0, 2] } : {},
+                  baseDictamen.text ? { text: baseDictamen.text, fontSize: 10, margin: [15, 0, 0, 6] } : {},
+                  baseDictamen.commentary ? { text: baseDictamen.commentary, fontSize: 10, margin: [0, 0, 0, 12] } : {},
+                  baseImagen.text ? { text: i18n.p4Image, fontSize: 11, margin: [0, 5, 0, 2] } : {},
+                  baseImagen.text ? { text: baseImagen.text, fontSize: 10, margin: [15, 0, 0, 6] } : {},
+                  baseImagen.commentary ? { text: baseImagen.commentary, fontSize: 10, margin: [0, 0, 0, 12] } : {},
+                  { stack: movingLinesStack }
+                ]
+              } : {}
+            ],
+            pageBreak: 'after'
+          },
 
-        '\x3C!-- PÁGINA 3: PARTE 2 -->',
-        '<div class="page">',
-        '<h2>' + i18n.p2Title + '</h2>',
-        '<p>' + i18n.p2Intro + '</p>',
-        '<p>' + i18n.p2CastHex + '</p>',
-        '<p>' + i18n.p2MovingLines + '</p>',
-        '<p>' + i18n.p2FutureHex + '</p>',
-        '<p style="margin-top: 18px;">' + i18n.p2CanonicalNote + '</p>',
-        '<p style="font-weight: 700; color: #0055aa;">' + i18n.p2Url + '</p>',
-        '</div>',
+          
+          derivedHexObj ? {
+            stack: [
+              { text: (i18n.p4DerivedSectionTitle || "Hexagrama Futuro (Derivado)") + ' #' + derivedHexId + ': ' + (derivedHexObj.title || derivedHexObj.name), fontSize: 12, margin: [0, 0, 0, 10] },
+              derivedIntro ? { text: derivedIntro, fontSize: 10, margin: [0, 0, 0, 10] } : {},
+              derivedDictamen.text ? { text: i18n.p4Judgment, fontSize: 11, margin: [0, 5, 0, 2] } : {},
+              derivedDictamen.text ? { text: derivedDictamen.text, fontSize: 10, margin: [15, 0, 0, 6] } : {},
+              derivedDictamen.commentary ? { text: derivedDictamen.commentary, fontSize: 10, margin: [0, 0, 0, 12] } : {},
+              derivedImagen.text ? { text: i18n.p4Image, fontSize: 11, margin: [0, 5, 0, 2] } : {},
+              derivedImagen.text ? { text: derivedImagen.text, fontSize: 10, margin: [15, 0, 0, 6] } : {},
+              derivedImagen.commentary ? { text: derivedImagen.commentary, fontSize: 10, margin: [0, 0, 0, 15] } : {}
+            ],
+            pageBreak: 'after'
+          } : null,
 
-        '\x3C!-- PÁGINA 4: PARTE 3 -->',
-        '<div class="page">',
-        '<h2>' + i18n.p3Title + '</h2>',
-        '<table><thead><tr><th>' + i18n.p3ColCast + '</th><th></th><th>' + i18n.p3ColBase + ' (' + baseHexId + ')</th><th>' + i18n.p3ColFuture + ' (' + (derivedHexId || '-') + ')</th></tr></thead><tbody>' + filasLineasHtml + '</tbody></table>',
-        '<div class="meta-row"><div class="meta-label">' + i18n.p3SummaryManifest + '</div><div class="meta-val">' + (baseHexObj ? (baseHexObj.title || baseHexObj.name) : baseHexId) + '</div></div>',
-        '<div class="meta-row"><div class="meta-label">' + i18n.p3SummaryDynamics + '</div><div class="meta-val">' + ((result.changingLines && result.changingLines.length > 0) ? result.changingLines.join(', ') : i18n.p3SummaryNoMoving) + '</div></div>',
-        '<div class="meta-row"><div class="meta-label">' + i18n.p3SummaryFuture + '</div><div class="meta-val">' + (derivedHexId && derivedHexObj ? (derivedHexObj.title || derivedHexObj.name) : i18n.p3SummaryNoFuture) + '</div></div>',
-        '</div>',
-
-        '\x3C!-- PÁGINA 5+: PARTE 4 (TEXTOS CANÓNICOS) -->',
-        '<div class="page">',
-        '<h2>' + i18n.p4Title + '</h2>',
-        baseHexObj ? (
-          '<div style="margin-bottom: 22px;">' +
-          '<h3>' + (baseHexObj.title || baseHexObj.name) + '</h3>' +
-          (baseIntro ? '<p>' + baseIntro + '</p>' : '') +
-          (baseDictamen.text || baseDictamen.commentary ? (
-            '<div class="avoid-break" style="margin-bottom: 14px;">' +
-            '<h4>' + i18n.p4Judgment + '</h4>' +
-            (baseDictamen.text ? '<p style="font-style: italic; color: #111; margin-bottom: 4px;">' + baseDictamen.text + '</p>' : '') +
-            (baseDictamen.commentary ? '<p>' + baseDictamen.commentary + '</p>' : '') +
-            '</div>'
-          ) : '') +
-          (baseImagen.text || baseImagen.commentary ? (
-            '<div class="avoid-break" style="margin-bottom: 14px;">' +
-            '<h4>' + i18n.p4Image + '</h4>' +
-            (baseImagen.text ? '<p style="font-style: italic; color: #111; margin-bottom: 4px;">' + baseImagen.text + '</p>' : '') +
-            (baseImagen.commentary ? '<p>' + baseImagen.commentary + '</p>' : '') +
-            '</div>'
-          ) : '') +
-          (lineasMutantesHtml ? (
-            '<div style="margin-top: 16px;">' +
-            '<h4 style="border-bottom: 1px solid #ccc; padding-bottom: 3px; margin-bottom: 8px;">' + i18n.p4MovingLinesTitle + '</h4>' +
-            lineasMutantesHtml +
-            '</div>'
-          ) : '') +
-          '</div>'
-        ) : '',
-        derivedHexObj ? (
-          '<div class="avoid-break" style="margin-top: 28px; border-top: 1.5px dashed #aaa; padding-top: 18px;">' +
-          '<h3>' + i18n.p4DerivedSectionTitle + ': ' + (derivedHexObj.title || derivedHexObj.name) + '</h3>' +
-          (derivedIntro ? '<p>' + derivedIntro + '</p>' : '') +
-          (derivedDictamen.text || derivedDictamen.commentary ? (
-            '<div class="avoid-break" style="margin-bottom: 14px;">' +
-            '<h4>' + i18n.p4Judgment + '</h4>' +
-            (derivedDictamen.text ? '<p style="font-style: italic; color: #111; margin-bottom: 4px;">' + derivedDictamen.text + '</p>' : '') +
-            (derivedDictamen.commentary ? '<p>' + derivedDictamen.commentary + '</p>' : '') +
-            '</div>'
-          ) : '') +
-          (derivedImagen.text || derivedImagen.commentary ? (
-            '<div class="avoid-break" style="margin-bottom: 14px;">' +
-            '<h4>' + i18n.p4Image + '</h4>' +
-            (derivedImagen.text ? '<p style="font-style: italic; color: #111; margin-bottom: 4px;">' + derivedImagen.text + '</p>' : '') +
-            (derivedImagen.commentary ? '<p>' + derivedImagen.commentary + '</p>' : '') +
-            '</div>'
-          ) : '') +
-          '</div>'
-        ) : '',
-        '</div>',
-
-        '\x3C!-- PÁGINA FINAL: PARTE 5 -->',
-        '<div class="page" style="display: flex; flex-direction: column; justify-content: space-between; height: 240mm;">',
-        '<div>',
-        '<h2>' + i18n.p5Title + '</h2>',
-        '<p>' + i18n.p5Paragraph1 + '</p>',
-        '<h4 style="margin-top: 14px;">' + i18n.p5GuidelinesTitle + '</h4>',
-        '<p>• ' + i18n.p5GuidelineTrigrams + '</p>',
-        '<p>• ' + ((result.changingLines && result.changingLines.length > 0) ? i18n.p5GuidelineMoving : i18n.p5GuidelineStatic) + '</p>',
-        '<p>• ' + i18n.p5GuidelineSettle + '</p>',
-        '<h4 style="margin-top: 18px;">' + i18n.p5ConsultTitle + '</h4>',
-        '<p>' + i18n.p5ConsultText + '</p>',
-        '<p style="font-weight: 700;">' + i18n.p5EmailLabel + '</p>',
-        '</div>',
-        '<div style="border-top: 1px solid #ccc; padding-top: 12px; margin-top: 24px;">',
-        '<div style="font-weight: 700;">' + i18n.p5SignatureName + '</div>',
-        '<div style="color: #0055aa; margin: 2px 0 4px 0;">' + i18n.p5SignatureSite + '</div>',
-        '<div style="font-style: italic; color: #333;">' + i18n.p5SignatureQuote + '</div>',
-        '</div>',
-        '</div>',
-        '</body>',
-        '</html>'
-      ].join('\n');
-
-      var iframeDoc = printIframe.contentWindow.document;
-      iframeDoc.open();
-      iframeDoc.write(docContent);
-      iframeDoc.close();
-
-      setTimeout(function() {
-        printIframe.contentWindow.focus();
-        printIframe.contentWindow.print();
-        setTimeout(function() {
-          if (printIframe.parentNode) {
-            document.body.removeChild(printIframe);
+          
+          {
+            stack: [
+              { text: i18n.p5Title, fontSize: 15, margin: [0, 0, 0, 10] },
+              { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 515, y2: 0, lineWidth: 1, lineColor: '#000000' }], margin: [0, 0, 0, 15] },
+              { text: i18n.p5Paragraph1, fontSize: 10, margin: [0, 0, 0, 30] },
+              { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 120, y2: 0, lineWidth: 0.5, lineColor: '#555555' }], margin: [0, 0, 0, 8] },
+              { text: i18n.p5SignatureName, fontSize: 10.5, margin: [0, 0, 0, 2] },
+              { text: i18n.p5SignatureSite, color: '#0055aa', fontSize: 9.5, margin: [0, 0, 0, 4] },
+              { text: i18n.p5SignatureQuote, fontSize: 9.5, color: '#444444' }
+            ],
+            pageBreak: 'before'
           }
-        }, 1500);
-      }, 350);
+        ].filter(Boolean)
+      };
+
+      var filename = 'I-Ching-Report-' + window.appState.consultationDate + '-Hex' + baseHexId + '.pdf';
+      pdfMake.createPdf(docDefinition).download(filename);
 
     } catch (err) {
-      console.error("Error al generar el PDF:", err);
+      console.error("Error al generar el PDF con PDFMake:", err);
       alert(i18n.errorPdf + "\nDetalle: " + err.message);
     } finally {
       btn.innerText = originalText;
@@ -1674,6 +1792,7 @@
     }
   };
 })();
+ 
 </script>
 
         

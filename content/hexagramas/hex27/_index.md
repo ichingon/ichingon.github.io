@@ -22,6 +22,7 @@ translationKey: "hex27"
 
 El signo representa la imagen de una boca abierta: arriba y abajo se encuentran los labios firmes, y entre ellos queda el espacio de la cavidad bucal. A partir de la imagen de la boca, a través de la cual se asimilan los alimentos para el sustento, la idea se expande hacia el concepto mismo de la nutrición. En las tres líneas inferiores se escenifica la propia nutrición, específicamente la corporal; en las tres líneas superiores se despliega la nutrición y el cuidado de los demás, enfocándose en la vertiente espiritual y superior.
 
+---
 
 ## El Dictamen
 
@@ -31,6 +32,7 @@ El signo representa la imagen de una boca abierta: arriba y abajo se encuentran 
 
 Al brindar cuidado y nutrición, lo fundamental es que se provea a las personas adecuadas y que uno asegure su propio sustento de manera correcta. Si se desea conocer a fondo a alguien, basta con observar a quiénes dispensa su cuidado y qué aspectos de su propio ser alimenta y cultiva. La naturaleza nutre a todos los seres vivos. El gran hombre nutre y cultiva a los capaces para, a través de ellos, velar por la humanidad entera. Mengzi (VI A, 14) señala al respecto: si se desea conocer si alguien es apto o inepto, basta observar qué parte de su propio ser considera más importante. El cuerpo posee partes nobles y partes vulgares, partes cruciales y partes menores. No se debe dañar lo importante en favor de lo menor, ni lo noble en beneficio de lo vulgar. Quien cultiva las partes insignificantes de su ser es un hombre vulgar. Quien cultiva las partes nobles de su ser es un hombre noble.
 
+---
 
 ## La Imagen
 
@@ -41,6 +43,8 @@ Al brindar cuidado y nutrición, lo fundamental es que se provea a las personas 
 «Dios surge en el signo de Lo excitante.» Cuando las fuerzas vitales vuelven a agitarse en la primavera, todas las cosas emergen renovadas. «Él consuma en el signo del Reposo.» Así, en los albores de la primavera, cuando las semillas caen a la tierra, todos los seres completan su ciclo. Esto configura la imagen de la nutrición mediante la alternancia del movimiento y la quietud.
 
 El noble toma este fenómeno como modelo para el cultivo y cuidado de su propio carácter. Las palabras constituyen un movimiento que va desde el interior hacia el exterior; el comer y el beber representan el movimiento que se dirige desde el exterior hacia el interior. Ambos tipos de dinamismo deben ser moderados por la quietud. Así, la calma interior evita que las palabras que salen de la boca excedan la medida justa, y que el alimento que ingresa en ella sobrepase el límite debido. A través de este equilibrio se templa el carácter.
+
+---
 
 ## Las Líneas Individuales
 

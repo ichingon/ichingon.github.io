@@ -27,6 +27,7 @@ El signo representa la imagen de una casa. El trazo superior es el techo. Al rom
 
 El signo está asignado al noveno mes (octubre-noviembre). La fuerza yin penetra cada vez más poderosa y está a punto de desplazar por completo a la fuerza yang.
 
+---
 
 ## El Dictamen
 
@@ -35,6 +36,7 @@ El signo está asignado al noveno mes (octubre-noviembre). La fuerza yin penetra
 
 Es una época en la que los hombres vulgares avanzan y están a punto de desplazar a los últimos fuertes y nobles. Por ello, como esto está fundado en el curso del tiempo, no es propicio para el Noble emprender algo bajo tales circunstancias. De las imágenes y sus propiedades se puede extraer la conducta correcta en tiempos adversos. El signo inferior significa la Tierra, cuya propiedad es la flexibilidad y la entrega; el signo superior significa la Montaña, cuya propiedad es el reposo. Esto sugiere el consejo de adaptarse al mal momento y permanecer en calma. No se trata aquí de acción humana, sino de condiciones temporales que, según leyes celestiales, muestran también un cambio de aumento y disminución, plenitud y vacío. A estas condiciones temporales no se les puede oponer resistencia. Por lo tanto, no es cobardía sino sabiduría adaptarse y evitar actuar.
 
+---
 
 ## La Imagen
 
@@ -43,6 +45,7 @@ Es una época en la que los hombres vulgares avanzan y están a punto de desplaz
 
 La montaña reposa sobre la tierra. Si es escarpada y estrecha y no tiene una base amplia, entonces debe derrumbarse. Solo si se eleva desde la tierra de manera ancha y grande, no orgullosa ni empinada, su posición está asegurada. Así también los gobernantes reposan sobre la amplia base del pueblo. También para ellos es válido ser generosos y magnánimos, como la tierra que todo lo sostiene; entonces pondrán su posición a salvo como el reposo de una montaña.
 
+---
 
 ## Las Líneas Individuales
 
