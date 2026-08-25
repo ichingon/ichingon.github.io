@@ -692,7 +692,7 @@
     };
   }
 
-  // MOTOR DEFINITIVO PDFMAKE: JERARQUÍA ESTRICTA, SALTO FORZADO Y REGLA ESPECIAL "ALL" PARA HEX 1 Y 2
+  // MOTOR DEFINITIVO PDFMAKE
   window.generarPdf = async function() {
     var btn = document.getElementById('btnMakePdf');
     if (!window.appState.result) return;
@@ -713,8 +713,11 @@
         cargarImagenBase64('/img/iching-cover-bagua.png')
       ]);
 
-      if (!responseHex.ok || !responseFont.ok) {
-        throw new Error("No se pudieron cargar los recursos del PDF.");
+      if (!responseHex.ok) {
+        throw new Error("No se pudo cargar el archivo JSON: " + jsonPath + " (Status: " + responseHex.status + ")");
+      }
+      if (!responseFont.ok) {
+        throw new Error("No se pudo cargar la fuente: /data/iching-font.b64 (Status: " + responseFont.status + ")");
       }
 
       var hexData = await responseHex.json();
@@ -784,7 +787,6 @@
         return { canvas: [] };
       }
 
-      // Tabla de 4 columnas para la Parte 3
       var tableBody = [
         [
           { text: i18n.p3ColCast || "Líneas Obtenidas", fontSize: 10 },
@@ -883,10 +885,7 @@
           };
         },
         content: [
-          // PÁGINA 1: PORTADA
           { stack: coverStack, pageBreak: 'after' },
-
-          // PARTE 1: H2
           {
             stack: [
               { text: i18n.p1Title, fontSize: 15, margin: [0, 0, 0, 10] },
@@ -904,8 +903,6 @@
             ],
             pageBreak: 'after'
           },
-
-          // PARTE 2: H2
           {
             stack: [
               { text: i18n.p2Title, fontSize: 15, margin: [0, 0, 0, 10] },
@@ -919,8 +916,6 @@
             ],
             pageBreak: 'after'
           },
-
-          // PARTE 3: H2
           {
             stack: [
               { text: i18n.p3Title, fontSize: 15, margin: [0, 0, 0, 10] },
@@ -940,8 +935,6 @@
             ],
             pageBreak: 'after'
           },
-
-          // PARTE 4: H2 (Hexagrama Base y Líneas Móviles)
           {
             stack: [
               { text: i18n.p4Title, fontSize: 15, margin: [0, 0, 0, 10] },
@@ -962,8 +955,6 @@
             ],
             pageBreak: 'after'
           },
-
-          // SECCIÓN INTERMEDIA: HEXAGRAMA FUTURO / DERIVADO
           derivedHexObj ? {
             stack: [
               { text: (i18n.p4DerivedSectionTitle || "Hexagrama Futuro (Derivado)") + ' #' + derivedHexId + ': ' + (derivedHexObj.title || derivedHexObj.name), fontSize: 12, margin: [0, 0, 0, 10] },
@@ -977,8 +968,6 @@
             ],
             pageBreak: 'after'
           } : null,
-
-          // PARTE 5: INTEGRACIÓN Y BETA TEST DE IA
           {
             stack: [
               { text: i18n.p5Title, fontSize: 15, margin: [0, 0, 0, 10] },
@@ -999,7 +988,7 @@
 
     } catch (err) {
       console.error("Error al generar el PDF con PDFMake:", err);
-      alert(i18n.errorPdf + "\nDetalle: " + err.message);
+      alert("Error exacto: " + err.message);
     } finally {
       btn.innerText = originalText;
       btn.disabled = false;
