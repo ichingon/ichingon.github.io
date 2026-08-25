@@ -3,7 +3,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
 
-<div class="consulta-iching-page" id="ichingAppRoot" data-lang="{{ .Language.Lang }}" data-default-date="{{ now.Format "2006-01-02" }}" data-baseurl="{{ .Site.BaseURL }}">
+<div class="consulta-iching-page" id="ichingAppRoot" data-lang="{{ .Language.Lang }}" data-default-date="{{ now.Format "2006-01-02" }}">
   <div class="iching-consultation-container">
 
     <!-- FASE 1: Formulario de Preparación -->
@@ -222,8 +222,6 @@
 (function() {
   var root = document.getElementById('ichingAppRoot');
   window.appLang = root ? root.getAttribute('data-lang') : 'es';
-  var siteBaseUrl = root ? root.getAttribute('data-baseurl') : '/';
-  if (!siteBaseUrl.endsWith('/')) siteBaseUrl += '/';
   
   var hoyLocal = new Date();
   var anioLoc = hoyLocal.getFullYear();
@@ -450,7 +448,7 @@
       modo: modo || 'progresivo',
       idioma: window.appLang || 'es'
     };
-    fetch(siteBaseUrl + 'api/log-consulta', {
+    fetch('/api/log-consulta', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -501,9 +499,9 @@
     var frame = document.getElementById('ichingFrame');
     
     if (window.appState.entryType === 'manual') {
-      frame.src = siteBaseUrl + 'app/manual-iching.html?lang=' + encodeURIComponent(window.appLang);
+      frame.src = '/app/manual-iching.html?lang=' + encodeURIComponent(window.appLang);
     } else {
-      frame.src = siteBaseUrl + 'app/entropia-iching.html?lang=' + encodeURIComponent(window.appLang) +
+      frame.src = '/app/entropia-iching.html?lang=' + encodeURIComponent(window.appLang) +
         '&method=' + encodeURIComponent(window.appState.method) +
         '&mode=' + encodeURIComponent(window.appState.mode);
     }
@@ -694,7 +692,7 @@
     };
   }
 
-  // MOTOR DEFINITIVO PDFMAKE (Usando siteBaseUrl dinámico)
+  // MOTOR SECUENCIAL BLINDADO PARA CHROMIUM/BRAVE
   window.generarPdf = async function() {
     var btn = document.getElementById('btnMakePdf');
     if (!window.appState.result) return;
@@ -707,23 +705,24 @@
     btn.disabled = true;
 
     try {
-      var jsonPath = siteBaseUrl + 'data/hexagramas.' + lang + '.json';
-      
-      var [responseHex, responseFont, logoData] = await Promise.all([
-        fetch(jsonPath),
-        fetch(siteBaseUrl + 'data/iching-font.b64'),
-        cargarImagenBase64(siteBaseUrl + 'img/iching-cover-bagua.png')
-      ]);
+      var jsonPath = '/data/hexagramas.' + lang + '.json';
+      var fontPath = '/data/iching-font.b64';
+      var imgPath = '/img/iching-cover-bagua.png';
 
-      if (!responseHex.ok) {
-        throw new Error("No se pudo cargar el archivo JSON: " + jsonPath + " (Status: " + responseHex.status + ")");
-      }
-      if (!responseFont.ok) {
-        throw new Error("No se pudo cargar la fuente: " + siteBaseUrl + "data/iching-font.b64 (Status: " + responseFont.status + ")");
-      }
+      var resHex = await fetch(jsonPath);
+      if (!resHex.ok) throw new Error("No se pudo cargar el JSON: " + jsonPath + " (Status: " + resHex.status + ")");
+      var hexData = await resHex.json();
 
-      var hexData = await responseHex.json();
-      var base64FontData = await responseFont.text();
+      var resFont = await fetch(fontPath);
+      if (!resFont.ok) throw new Error("No se pudo cargar la fuente: " + fontPath + " (Status: " + resFont.status + ")");
+      var base64FontData = await resFont.text();
+
+      var logoData = null;
+      try {
+        logoData = await cargarImagenBase64(imgPath);
+      } catch (imgErr) {
+        console.warn("Imagen omitida por restricciones del navegador:", imgErr);
+      }
 
       pdfMake.vfs = {
         "IChingCustom.ttf": base64FontData.trim()
@@ -821,23 +820,15 @@
         if (esHexagramaPuroConTodoMovil && baseHexObj.lines["all"]) {
           var specialLine = baseHexObj.lines["all"];
           movingLinesStack.push({ text: specialLine.title || "Todas las líneas son móviles", fontSize: 10.5, margin: [0, 8, 0, 2] });
-          if (specialLine.text) {
-            movingLinesStack.push({ text: specialLine.text, fontSize: 10, margin: [15, 0, 0, 4] });
-          }
-          if (specialLine.commentary) {
-            movingLinesStack.push({ text: specialLine.commentary, fontSize: 10, margin: [0, 0, 0, 10] });
-          }
+          if (specialLine.text) movingLinesStack.push({ text: specialLine.text, fontSize: 10, margin: [15, 0, 0, 4] });
+          if (specialLine.commentary) movingLinesStack.push({ text: specialLine.commentary, fontSize: 10, margin: [0, 0, 0, 10] });
         } else {
           result.changingLines.forEach(function(lNum) {
             var lineObj = baseHexObj.lines[lNum.toString()];
             if (lineObj) {
               movingLinesStack.push({ text: lineObj.title || ("Línea " + lNum), fontSize: 10.5, margin: [0, 8, 0, 2] });
-              if (lineObj.text) {
-                movingLinesStack.push({ text: lineObj.text, fontSize: 10, margin: [15, 0, 0, 4] });
-              }
-              if (lineObj.commentary) {
-                movingLinesStack.push({ text: lineObj.commentary, fontSize: 10, margin: [0, 0, 0, 10] });
-              }
+              if (lineObj.text) movingLinesStack.push({ text: lineObj.text, fontSize: 10, margin: [15, 0, 0, 4] });
+              if (lineObj.commentary) movingLinesStack.push({ text: lineObj.commentary, fontSize: 10, margin: [0, 0, 0, 10] });
             }
           });
         }
@@ -989,7 +980,7 @@
       pdfMake.createPdf(docDefinition).download(filename);
 
     } catch (err) {
-      console.error("Error al generar el PDF con PDFMake:", err);
+      console.error("Error secuencial en PDFMake:", err);
       alert("Error exacto: " + err.message);
     } finally {
       btn.innerText = originalText;
