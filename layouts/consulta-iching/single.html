@@ -963,7 +963,7 @@
             pageBreak: 'after'
           },
 
-          // SECCIÓN INTERMEDIA: HEXAGRAMA FUTURO / DERIVADO (Nodular independiente)
+          // SECCIÓN INTERMEDIA: HEXAGRAMA FUTURO / DERIVADO
           derivedHexObj ? {
             stack: [
               { text: (i18n.p4DerivedSectionTitle || "Hexagrama Futuro (Derivado)") + ' #' + derivedHexId + ': ' + (derivedHexObj.title || derivedHexObj.name), fontSize: 12, margin: [0, 0, 0, 10] },
@@ -978,7 +978,7 @@
             pageBreak: 'after'
           } : null,
 
-          // PARTE 5: INTEGRACIÓN Y BETA TEST DE IA (Aislada estrictamente con pageBreak before)
+          // PARTE 5: INTEGRACIÓN Y BETA TEST DE IA
           {
             stack: [
               { text: i18n.p5Title, fontSize: 15, margin: [0, 0, 0, 10] },
@@ -1001,7 +1001,7 @@
       console.error("Error al generar el PDF con PDFMake:", err);
       alert(i18n.errorPdf + "\nDetalle: " + err.message);
     } finally {
-      btn.innerText = originalText; // <--- CORREGIDO AQUÍ DEFINITIVAMENTE
+      btn.innerText = originalText;
       btn.disabled = false;
     }
   };
