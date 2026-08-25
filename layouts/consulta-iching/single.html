@@ -134,7 +134,7 @@
         📄 {{ if eq .Language.Lang "de" }}Kostenlosen PDF-Bericht herunterladen{{ else if eq .Language.Lang "en" }}Download Free PDF Report{{ else }}Descargar Informe Canónico PDF (Gratis){{ end }}
       </button>
 
-      <!-- Bloque de Invitación Beta Tester / IA (Con textos fijos directos por idioma para evitar fallos de DOM) -->
+      <!-- Bloque de Invitación Beta Tester / IA -->
       <div class="privacy-banner" style="margin-top: 14px; border-left: 2px solid var(--app-accent, #eeee55); background: rgba(238, 238, 85, 0.05); padding: 12px; text-align: left; box-sizing: border-box;">
         <strong style="color: var(--app-accent, #eeee55); font-size: 0.9rem;">
           {{ if eq .Language.Lang "de" }}Beta-Test: KI-gestützte Interpretation (Kostenlos){{ else if eq .Language.Lang "en" }}Closed Beta: AI-Assisted Interpretation (Free){{ else }}Prueba Beta: Interpretación Asistida por IA (Gratis){{ end }}
@@ -393,7 +393,7 @@
       p3SummaryNoMoving: "Keine (Statisches Hexagramm)",
       p3SummaryFuture: "• Zukünftiges Potenzial (Gewandeltes Hexagramm):",
       p3SummaryNoFuture: "Keines (Konsolidierte Situation)",
-      p4Title: "Teil 4: Kanonische Texte des I Ging",
+      p4Title: "Parte 4: Kanonische Texte des I Ging",
       p4Judgment: "Das Urteil",
       p4Image: "Das Bild",
       p4MovingLinesTitle: "Spezifische wandelnde Linien",
@@ -600,7 +600,7 @@
           'Wandlungslinien: [' + data.changingLines.join(', ') + ']',
           '',
           '--- MEIN KONTEXT ODER ANLIEGEN (Optional) ---',
-          '[Füge hier optional weitere Details zu deiner Situation ein]',
+          '[Füge hier optional weitere Details zur Situation ein]',
           '',
           '--- MEIN FEEDBACK ZUM SYSTEM ---',
           '[Deine Eindrücke zur Lesung, zum Orakel oder zur Benutzeroberfläche]',
@@ -1001,7 +1001,7 @@
       console.error("Error al generar el PDF con PDFMake:", err);
       alert(i18n.errorPdf + "\nDetalle: " + err.message);
     } finally {
-      btn.innerText = originalTest;
+      btn.innerText = originalText; // <--- CORREGIDO AQUÍ DEFINITIVAMENTE
       btn.disabled = false;
     }
   };
