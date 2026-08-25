@@ -692,7 +692,7 @@
     };
   }
 
-  // MOTOR SECUENCIAL BLINDADO PARA CHROMIUM/BRAVE
+  // MOTOR DEFINITIVO PDFMAKE CON RUTAS EXPLICITAS LIBRES DE UNDEFINED
   window.generarPdf = async function() {
     var btn = document.getElementById('btnMakePdf');
     if (!window.appState.result) return;
@@ -721,7 +721,7 @@
       try {
         logoData = await cargarImagenBase64(imgPath);
       } catch (imgErr) {
-        console.warn("Imagen omitida por restricciones del navegador:", imgErr);
+        console.warn("Imagen omitida:", imgErr);
       }
 
       pdfMake.vfs = {
@@ -980,7 +980,7 @@
       pdfMake.createPdf(docDefinition).download(filename);
 
     } catch (err) {
-      console.error("Error secuencial en PDFMake:", err);
+      console.error("Error al generar el PDF con PDFMake:", err);
       alert("Error exacto: " + err.message);
     } finally {
       btn.innerText = originalText;
