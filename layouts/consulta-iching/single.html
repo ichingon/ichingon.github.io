@@ -692,7 +692,7 @@
     };
   }
 
-  // MOTOR DEFINITIVO PDFMAKE
+  // MOTOR DEFINITIVO PDFMAKE (Ruta relativa limpia sin barra inicial)
   window.generarPdf = async function() {
     var btn = document.getElementById('btnMakePdf');
     if (!window.appState.result) return;
@@ -705,19 +705,19 @@
     btn.disabled = true;
 
     try {
-      var jsonPath = '/data/hexagramas.' + lang + '.json';
+      var jsonPath = 'data/hexagramas.' + lang + '.json';
       
       var [responseHex, responseFont, logoData] = await Promise.all([
         fetch(jsonPath),
-        fetch('/data/iching-font.b64'),
-        cargarImagenBase64('/img/iching-cover-bagua.png')
+        fetch('data/iching-font.b64'),
+        cargarImagenBase64('img/iching-cover-bagua.png')
       ]);
 
       if (!responseHex.ok) {
         throw new Error("No se pudo cargar el archivo JSON: " + jsonPath + " (Status: " + responseHex.status + ")");
       }
       if (!responseFont.ok) {
-        throw new Error("No se pudo cargar la fuente: /data/iching-font.b64 (Status: " + responseFont.status + ")");
+        throw new Error("No se pudo cargar la fuente: data/iching-font.b64 (Status: " + responseFont.status + ")");
       }
 
       var hexData = await responseHex.json();
