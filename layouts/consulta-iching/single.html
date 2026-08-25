@@ -31,7 +31,7 @@
           <label class="form-label" for="consultationDate">
             {{ if eq .Language.Lang "de" }}Datum der Konsultation (JJJJ-MM-TT){{ else if eq .Language.Lang "en" }}Consultation Date (YYYY-MM-DD){{ else }}Fecha de la Consulta (AAAA-MM-DD){{ end }}
           </label>
-          <input type="text" id="consultationDate" value="{{ now.Format "2006-01-02" }}" class="form-input" maxlength="10" placeholder="YYYY-MM-DD" style="background-color: #1a1a1a; cursor: not-allowed;" readonly>
+          <input type="text" id="consultationDate" value="" class="form-input" maxlength="10" placeholder="YYYY-MM-DD" style="background-color: #1a1a1a; cursor: not-allowed;" readonly>
           <div id="dateErrorMsg" style="display: none; color: #ff6b6b; font-size: 0.78rem; margin-top: 4px;"></div>
         </div>
 
