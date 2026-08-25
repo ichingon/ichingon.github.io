@@ -3,7 +3,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
 
-<div class="consulta-iching-page" id="ichingAppRoot" data-lang="{{ .Language.Lang }}" data-default-date="{{ now.Format "2006-01-02" }}">
+<div class="consulta-iching-page" id="ichingAppRoot" data-lang="{{ .Language.Lang }}" data-default-date="{{ now.Format "2006-01-02" }}" data-baseurl="{{ .Site.BaseURL }}">
   <div class="iching-consultation-container">
 
     <!-- FASE 1: Formulario de Preparación -->
@@ -222,6 +222,8 @@
 (function() {
   var root = document.getElementById('ichingAppRoot');
   window.appLang = root ? root.getAttribute('data-lang') : 'es';
+  var siteBaseUrl = root ? root.getAttribute('data-baseurl') : '/';
+  if (!siteBaseUrl.endsWith('/')) siteBaseUrl += '/';
   
   var hoyLocal = new Date();
   var anioLoc = hoyLocal.getFullYear();
@@ -448,7 +450,7 @@
       modo: modo || 'progresivo',
       idioma: window.appLang || 'es'
     };
-    fetch('/api/log-consulta', {
+    fetch(siteBaseUrl + 'api/log-consulta', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -499,9 +501,9 @@
     var frame = document.getElementById('ichingFrame');
     
     if (window.appState.entryType === 'manual') {
-      frame.src = '/app/manual-iching.html?lang=' + encodeURIComponent(window.appLang);
+      frame.src = siteBaseUrl + 'app/manual-iching.html?lang=' + encodeURIComponent(window.appLang);
     } else {
-      frame.src = '/app/entropia-iching.html?lang=' + encodeURIComponent(window.appLang) +
+      frame.src = siteBaseUrl + 'app/entropia-iching.html?lang=' + encodeURIComponent(window.appLang) +
         '&method=' + encodeURIComponent(window.appState.method) +
         '&mode=' + encodeURIComponent(window.appState.mode);
     }
@@ -692,7 +694,7 @@
     };
   }
 
-  // MOTOR DEFINITIVO PDFMAKE
+  // MOTOR DEFINITIVO PDFMAKE (Usando siteBaseUrl dinámico)
   window.generarPdf = async function() {
     var btn = document.getElementById('btnMakePdf');
     if (!window.appState.result) return;
@@ -705,19 +707,19 @@
     btn.disabled = true;
 
     try {
-      var jsonPath = '/data/hexagramas.' + lang + '.json';
+      var jsonPath = siteBaseUrl + 'data/hexagramas.' + lang + '.json';
       
       var [responseHex, responseFont, logoData] = await Promise.all([
         fetch(jsonPath),
-        fetch('/data/iching-font.b64'),
-        cargarImagenBase64('/img/iching-cover-bagua.png')
+        fetch(siteBaseUrl + 'data/iching-font.b64'),
+        cargarImagenBase64(siteBaseUrl + 'img/iching-cover-bagua.png')
       ]);
 
       if (!responseHex.ok) {
         throw new Error("No se pudo cargar el archivo JSON: " + jsonPath + " (Status: " + responseHex.status + ")");
       }
       if (!responseFont.ok) {
-        throw new Error("No se pudo cargar la fuente: /data/iching-font.b64 (Status: " + responseFont.status + ")");
+        throw new Error("No se pudo cargar la fuente: " + siteBaseUrl + "data/iching-font.b64 (Status: " + responseFont.status + ")");
       }
 
       var hexData = await responseHex.json();
