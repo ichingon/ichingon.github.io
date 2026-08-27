@@ -127,4 +127,4 @@ Das ist Körperalchemie. Das ist das Hexagramm 11. Und das ist die verborgene Le
 
 Wenn du diese Konzepte lieber visuell vertiefen und die detaillierte Analyse anhören möchtest, lade ich dich ein, das vollständige Video auf meinem Kanal anzusehen:
 
-{{< youtube "_xsRNLd2SG8" >}}
+{{< youtube "6o6jfoAsCTQ" >}}
