@@ -110,7 +110,7 @@ Al presenciar una función de Ópera de Pekín, no estamos viendo simplemente un
 
 Para una exploración audiovisual de estos conceptos, recomiendo el vídeo que acompaña a este artículo en mi canal de YouTube.
 
-{{< youtube-short "zjKTf55QXSY" "Is there a Connection Between the Peking Opera and the I Ching?" >}}
+{{< youtube "OFPSVhfRzRI" >}}
 
 ---
 

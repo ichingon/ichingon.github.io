@@ -109,7 +109,7 @@ Wenn wir eine Peking-Oper-Aufführung erleben, sehen wir nicht einfach nur ein T
 
 Für eine audiovisuelle Erkundung dieser Konzepte empfehle ich das Video, das diesen Artikel auf meinem YouTube-Kanal begleitet.
 
-{{< youtube-short "zjKTf55QXSY" "Gibt es einen Zusammenhang zwischen der Peking-Oper und dem I Ging?" >}}
+{{< youtube "-s3xlzXqMHg" >}}
 
 ---
 

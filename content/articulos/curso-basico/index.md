@@ -44,7 +44,7 @@ Esta Unidad es una introducción al I Ching y para qué sirve. Exploraremos cóm
 
 #### Recursos de aprendizaje 
 * Video (Short): {{< youtube-short "IsICgqv4BFs" "¿Para qué sirve realmente el I Ching? ䷓ ䷼" >}} (Enfocado en cómo el azar bloquea la elección a conveniencia y conecta con el subconsciente)
-* Video (Short): {{< youtube-short "zEkBFNleziw" "El I Ching como un espejo 🪞🔥" >}} (Enfocado en romper las ilusiones de la mente para ver la realidad de nuestro presente)
+* Video (Short): {{< youtube-short "S45hSl9hh7o" "El I Ching como un espejo 🪞🔥" >}} (Enfocado en romper las ilusiones de la mente para ver la realidad de nuestro presente)
 
 #### Auto-evaluación
 
