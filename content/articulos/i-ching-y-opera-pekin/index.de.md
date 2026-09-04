@@ -97,7 +97,7 @@ Westlichen Lesern mag es paradox erscheinen, dass bei der Sparsamkeit der Bühne
 
 Die Antwort ist keine gerade Linie, wie viele vielleicht denken, sondern eine Zykloide oder Brachistochrone. So gehorcht die Rundheit oder Kreisförmigkeit der Bewegungen in der chinesischen Oper nicht nur einem ästhetischen Prinzip, sondern in gewisser Weise auch einem Prinzip der Einfachheit, Effizienz und Sparsamkeit.
 
-Ein visuelles Beispiel für diese Prinzipien bietet die Aufführung von Hou Dan Mei in dem Stück *Das Schicksal des Eisenbogens*, verfügbar auf dem Kanal von Arthur Banks (2022). Auf dieser Aufführung basiert ein Teil des Audiomaterials in dem Video auf meinem Kanal, das diesen Artikel begleitet.
+Ein visuelles Beispiel für diese Prinzipien bietet die Aufführung von Hou Dan Mei in dem Stück *Das Schicksal des Eisenbogens*, verfügbar auf dem Kanal von Arthur Banks (2022). Auf dieser Aufführung basiert ein Teil des audiovisuellen Materials im Video auf meinem Kanal, das diesen Artikel begleitet.
 
 ![Szene aus „Die Hochzeit des Eisenbogens“ oder 铁弓缘 (Tiě Gōng Yuán)](ironbow3.webp "Szene aus „Die Hochzeit des Eisenbogens“ oder 铁弓缘 (Tiě Gōng Yuán). In dieser Szene führt Chen Xiu-Ying das Qǐbà (起霸) auf, vorbereitende Übungen vor dem Eintritt in die Schlacht.")
 
