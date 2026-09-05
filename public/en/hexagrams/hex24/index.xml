@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hexagram 24 復 - FÚ / THE TURNING POINT on I Chingon</title>
-    <link>https://elichingon.com/en/hexagrams/hex24/</link>
+    <link>http://localhost:1313/en/hexagrams/hex24/</link>
     <description>Recent content in Hexagram 24 復 - FÚ / THE TURNING POINT on I Chingon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <atom:link href="https://elichingon.com/en/hexagrams/hex24/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/hexagrams/hex24/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

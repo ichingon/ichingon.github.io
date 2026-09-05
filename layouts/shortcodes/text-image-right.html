@@ -1,0 +1,13 @@
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
+  <div style="flex: 1; min-width: 250px;">
+    {{ .Get "text" | markdownify }}
+  </div>
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    {{ $img := .Page.Resources.Get (.Get "image") }}
+    {{ if $img }}
+      <img src="{{ $img.RelPermalink }}" alt="{{ .Get "alt" }}" style="max-width: 100%; height: auto; border-radius: 8px;">
+    {{ else }}
+      <p style="color: red;">[Imagen "{{ .Get "image" }}" no encontrada]</p>
+    {{ end }}
+  </div>
+</div>
