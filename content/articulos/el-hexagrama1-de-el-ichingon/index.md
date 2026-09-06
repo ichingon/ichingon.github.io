@@ -6,8 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["El Tao del creador de contenidos"]
-description: ""
-summary: ""
+description: "Una reflexión íntima sobre la búsqueda personal de Dài Líng Nà, los lenguajes formales y la profunda significancia del I Ching en su vida."
+summary: "El origen del proyecto a través de la búsqueda personal, los lenguajes formales y la sabiduría del I Ching."
 math: false
 draft: false
 ---

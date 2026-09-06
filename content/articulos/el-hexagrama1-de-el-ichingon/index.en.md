@@ -6,8 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["The Tao of the Content Creator"]
-description: ""
-summary: ""
+description: "An intimate reflection on Dài Líng Nà’s personal quest, formal languages, and the deep significance of the I Ching in her life."
+summary: "The project's origins through personal search, formal languages, and the wisdom of the I Ching."
 math: false
 draft: false
 slug: "hexagram-1-why-el-ichingon-was-born"

@@ -6,8 +6,8 @@ showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
 tags: ["Der Tao des Content Creators"]
-description: ""
-summary: ""
+description: "Eine intime Reflexion über Dài Líng Näs persönliche Suche, formale Sprachen und die tiefe Bedeutung des I Ging."
+summary: "Die Ursprünge des Projekts durch persönliche Suche, formale Sprachen und die Weisheit des I Ging."
 math: false
 draft: false
 slug: "hexagramm-1-warum-el-ichingon-geboren-wurde"
@@ -25,7 +25,7 @@ Aus diesem Grund habe ich diese Kategorie mit dem Namen „Der Tao des Content C
 
 > **Neun am Anfang bedeutet:**
 >
-> Verborgener Drache. Handle nicht.
+> Verdeckter Drache. Handle nicht.
 
 Um diese Geschichte zu beginnen, muss ich auf eine Kindheitserinnerung zurückgreifen, als meine Eltern mir eine Videospielkonsole namens Odyssey 2 und eine Spielkassette namens „Computer Intro“ schenkten.
 
@@ -47,9 +47,9 @@ In diesem Moment konnte ich es nicht wissen, aber das hatte eine enorme Relevanz
 
 > **Neun an zweiter Stelle bedeutet:**
 >
-> Drache erscheint auf dem Felde.
+> Erscheinender Drache auf dem Feld.
 >
-> Es fördert, den großen Mann zu sehen.
+> Fördernd ist es, den großen Mann zu sehen.
 
 Mein Interesse an Computern wuchs *in crescendo*, und gegen Ende des Sommers 1983 schenkten mir meine Eltern meinen ersten Personal Computer:
 
@@ -61,15 +61,15 @@ Da es damals das Internet noch nicht gab, waren meine wichtigsten Lernressourcen
 
 Kurz darauf meldeten mich meine Eltern zu einem Sommer-Computerkurs an, der an meiner Schule angeboten wurde. Und so erschien der Drache auf dem Felde, aber das I Ging, der andere Drache, blieb in irgendeiner Ecke der Hausbibliothek verborgen.
 
-## Der Edle ist schöpferisch tätig
+## Der Edle ist den ganzen Tag schöpferisch tätig
 
 > **Neun an dritter Stelle bedeutet:**
 >
 > Der Edle ist den ganzen Tag schöpferisch tätig.
 >
-> Abends ist er noch voll innerer Besorgnis.
+> Des Abends noch ist er voll innerer Sorge.
 >
-> Gefahr. Kein Tadel.
+> Gefahr. Kein Makel.
 
 Ich wurde schnell zur Computerexpertin der Familie. Sogar meine älteren Cousins kamen zu mir, um Hilfe bei ihren FORTRAN-Projekten für die Universität zu bitten.
 
@@ -83,11 +83,13 @@ An diesem Punkt empfahl Alice, eine Freundin meiner Mutter, eine ältere amerika
 
 Alice war übrigens eine sehr interessante alte Dame, immer neugierig, und übrigens auch eine Studentin des I Ging. Meine Mutter sagte, dass die Befragung des I Ging mit Alice ein echtes Abenteuer sei. Zu diesem Zeitpunkt begann ich mich für das I Ging zu begeistern, weil ich, wie Leibniz, fasziniert davon war, wie die alten Chinesen ebenfalls ein Binärsystem verwendeten, das, wie jenes Computer Intro-Handbuch erwähnte, auch die einzige Sprache war, die alle Computer wirklich verstanden.
 
-## Ein schwankender Flug über die Tiefe
+## Ein schwankender Aufschwung über die Tiefe
 
 > **Neun an vierter Stelle bedeutet:**
 >
-> Schwankender Flug über die Tiefe. Kein Tadel.
+> Schwankender Aufschwung über die Tiefe.
+>
+> Kein Makel.
 
 So vergingen einige Jahre, und für niemanden überraschend begann ich mein Universitätsstudium in Informatik. Allerdings wurde ich bald desillusioniert von dieser Welt, die ich als sehr wandelbar ansah und in der man immer auf dem neuesten Stand der Entwicklungen sein musste. Aber im Informatik-Lehrplan gibt es viel Mathematik, und diese kam nie aus der Mode. Ohne mein Interesse an Programmierung, an Künstlicher Intelligenz, an formal-logischen Systemen oder an universellen analytischen Sprachen, mit denen man eine „Kalkül des Denkens“ durchführen könnte, zu schmälern, entschloss ich mich in einem schwankenden Flug über die Tiefe, das Informatikstudium abzubrechen und begann einige Jahre später ein Bachelor-Studium der Mathematik.
 
@@ -95,7 +97,7 @@ So vergingen einige Jahre, und für niemanden überraschend begann ich mein Univ
 
 Im Bereich der Künstlichen Intelligenz verliefen während der neunziger Jahre und des ersten und eines großen Teils des zweiten Jahrzehnts der 2000er Jahre der Aufstieg und Fall der berühmten Expertensysteme und der Erfolg von Deep Blue, einem IBM-Supercomputer, der durch bloße Gewaltanwendung einen Schachweltmeister besiegen konnte.
 
-Bei alledem waren die berühmten Expertensysteme nichts weiter als Entscheidungsbäume, wie jenes ELIZA-Programm, das ein System von verschachtelten WENN‑DANN‑Bedingungen war. Sie funktionierten vielleicht in bestimmten, sehr spezifischen Kontexten, in denen bestimmte heuristische Regeln gelten, aber nicht bei allgemeinen Problemen, bei denen der gesunde Menschenverstand (der, wie mein Vater sarkastisch sagte, der ungewöhnlichste aller Sinne war) immer noch Vorrang vor Maschinen hatte. Und einen Schachweltmeister zu besiegen, auch wenn es wie eine Meisterleistung der Künstlichen Intelligenz erscheint, könnte nicht als Triumph der Künstlichen Intelligenz verbucht werden, wenn sie auf einer Brute-Force-Suche mit Rechenleistung beruht – oder etwa doch?
+Bei alledem waren die berühmten Expertensysteme nichts weiter als Entscheidungsbäume, wie jenes ELIZA-Programm, das ein System von verschachtelten IF-THEN‑Bedingungen war. Sie funktionierten vielleicht in bestimmten, sehr spezifischen Kontexten, in denen bestimmte heuristische Regeln gelten, aber nicht bei allgemeinen Problemen, bei denen der gesunde Menschenverstand (der, wie mein Vater sarkastisch sagte, der ungewöhnlichste aller Sinne war) immer noch Vorrang vor Maschinen hatte. Und einen Schachweltmeister zu besiegen, auch wenn es wie eine Meisterleistung der Künstlichen Intelligenz erscheint, könnte nicht als Triumph der Künstlichen Intelligenz verbucht werden, wenn sie auf einer Brute-Force-Suche mit Rechenleistung beruht – oder etwa doch?
 
 Und dort war immer noch das alte I Ging, das den Menschen seit Jahrhunderten Ratschläge erteilte und ihnen half, über alle Probleme ihres Lebens in jedem Bereich nachzudenken (oder zu kalkulieren). Offensichtlich, wenn das I Ging dazu in der Lage war, dann deshalb, weil es im Kern ein formales System (wie die Mathematik) ist, das es uns ermöglichte, über uns selbst und über das Universum nachzudenken. Zumindest dachte ich das, schon in meinem Mathematikstudium vertieft. Und außerdem schien das I Ging, wie die Mathematik, nie aus der Mode zu kommen.
 
@@ -103,9 +105,9 @@ Und dort war immer noch das alte I Ging, das den Menschen seit Jahrhunderten Rat
 
 > **Neun an fünfter Stelle bedeutet:**
 >
-> Drache fliegt am Himmel.
+> Fliegender Drache am Himmel.
 >
-> Es fördert, den großen Mann zu sehen.
+> Fördernd ist es, den großen Mann zu sehen.
 
 Ich glaube, es ist Konfuzius, dem der Ausspruch zugeschrieben wird, dass man erst ab dem fünfzigsten Lebensjahr die nötige Reife besitzt, um das I Ging wirklich zu verstehen. Das genaue Zitat von Konfuzius lautet:
 
@@ -119,21 +121,21 @@ Was ist, wenn Yin und Yang des I Ging die Grundlage einer universellen Sprache s
 
 Und so sah ich mich, mit mehr Fragen als Antworten, dieses wunderbare Buch noch einmal an, das uns die Tür zur Sphäre des Himmlischen öffnet. Wie Konfuzius wusste ich, dass die Jahre meines natürlichen Lebens nicht ausreichen würden, um all seine Rätsel zu entschlüsseln, aber es war einen Versuch wert.
 
-## Übermütiger Drache muß bereuen
+## Hochmütiger Drache wird zu bereuen haben.
 
 > **Eine Neun oben bedeutet:**
 >
-> Übermütiger Drache muß bereuen.
+> Hochmütiger Drache wird zu bereuen haben.
 
 Vielleicht ist es dir, lieber Leser, aufgefallen, dass dieser erzählerische Bogen der Abfolge der sich wandelnden Linien des Hexagramms 1 folgt, dem ersten Hexagramm des I Ging nach der König-Wen-Sequenz. Dieses Hexagramm 1 erzählt uns, wie sich die Yang-Energie (das Schöpferische) ursprünglich in der Welt manifestiert, und warnt uns davor, wie sich die Dynamik der Beziehung dieser Kraft zu ihrer Umgebung verändert.
 
-![Eine etwas ältere Dailingna](dailingna_with_iching.webp "Ich, bereits mit genügend Reife, um das Buch der Wandlungen zu verstehen")
+![Eine etwas ältere Dailingna](dailingna_with_iching.webp "Eine etwas ältere Dailingna")
 
 Das Hexagramm 1 ist ein Archetyp, der uns daran erinnert, dass alles in der Welt als Idee geboren wird, und warnt uns vor den Gefahren in jeder Phase des Prozesses. Deshalb ist es der unsichtbare Faden dieser Geschichte, die ich erzähle, in der ich die Beweggründe und das Warum des Projekts El I Chingón erkläre.
 
 Aber die Linie 6, die letzte bewegliche Linie dieses Hexagramms, droht uns mit einem übermütigen Drachen, der bereuen muss. Das ist eine Warnung, und Richard Wilhelm kommentiert dazu:
 
-> Wenn man so hoch steigen will, dass man den Kontakt zu anderen Menschen verliert, wird man isoliert, und das führt zwangsläufig zum Scheitern. Hierin liegt eine Warnung vor einem titanischen Streben, das die eigenen Kräfte übersteigt. Ein Sturz in die Tiefe wäre die Folge.
+> Wenn man so hoch emporsteigen will, daß man die Fühlung mit den übrigen Menschen verliert, so wird man vereinsamt, und das führt notwendig zu Mißerfolg. Hier liegt eine Warnung gegen ein titanisches Emporstreben, das über die Kraft geht. Ein Sturz zur Tiefe würde die Folge sein.
 
 Sicherlich ist die Aufgabe, das I Ging zu entschlüsseln, eine titanische Aufgabe, die die eigenen Kräfte übersteigt, aber was wäre, wenn ich stattdessen versuche, mein geringes Wissen mit anderen Menschen zu teilen und ihnen ein Werkzeug vorzustellen, das in ihrem Leben sehr nützlich sein könnte? Genau daraus entsteht dieses Projekt.
 
