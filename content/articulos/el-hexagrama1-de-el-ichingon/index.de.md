@@ -91,6 +91,8 @@ Alice war übrigens eine sehr interessante alte Dame, immer neugierig, und übri
 >
 > Kein Makel.
 
+![Auf dem Universitätscampus. 1992](dailingna20.webp "Auf dem Universitätscampus. 1992")
+
 So vergingen einige Jahre, und für niemanden überraschend begann ich mein Universitätsstudium in Informatik. Allerdings wurde ich bald desillusioniert von dieser Welt, die ich als sehr wandelbar ansah und in der man immer auf dem neuesten Stand der Entwicklungen sein musste. Aber im Informatik-Lehrplan gibt es viel Mathematik, und diese kam nie aus der Mode. Ohne mein Interesse an Programmierung, an Künstlicher Intelligenz, an formal-logischen Systemen oder an universellen analytischen Sprachen, mit denen man eine „Kalkül des Denkens“ durchführen könnte, zu schmälern, entschloss ich mich in einem schwankenden Flug über die Tiefe, das Informatikstudium abzubrechen und begann einige Jahre später ein Bachelor-Studium der Mathematik.
 
 ![Wushu-Training auf dem Universitätscampus. 1994](dailingna22b.webp "Wushu-Training auf dem Universitätscampus. 1994")
@@ -98,6 +100,8 @@ So vergingen einige Jahre, und für niemanden überraschend begann ich mein Univ
 Im Bereich der Künstlichen Intelligenz verliefen während der neunziger Jahre und des ersten und eines großen Teils des zweiten Jahrzehnts der 2000er Jahre der Aufstieg und Fall der berühmten Expertensysteme und der Erfolg von Deep Blue, einem IBM-Supercomputer, der durch bloße Gewaltanwendung einen Schachweltmeister besiegen konnte.
 
 Bei alledem waren die berühmten Expertensysteme nichts weiter als Entscheidungsbäume, wie jenes ELIZA-Programm, das ein System von verschachtelten IF-THEN‑Bedingungen war. Sie funktionierten vielleicht in bestimmten, sehr spezifischen Kontexten, in denen bestimmte heuristische Regeln gelten, aber nicht bei allgemeinen Problemen, bei denen der gesunde Menschenverstand (der, wie mein Vater sarkastisch sagte, der ungewöhnlichste aller Sinne war) immer noch Vorrang vor Maschinen hatte. Und einen Schachweltmeister zu besiegen, auch wenn es wie eine Meisterleistung der Künstlichen Intelligenz erscheint, könnte nicht als Triumph der Künstlichen Intelligenz verbucht werden, wenn sie auf einer Brute-Force-Suche mit Rechenleistung beruht – oder etwa doch?
+
+![Parque Cachamay, Ciudad Guayana, Venezuela. 1996](dailingna24-cachamay.webp "Parque Cachamay, Ciudad Guayana, Venezuela. 1996")
 
 Und dort war immer noch das alte I Ging, das den Menschen seit Jahrhunderten Ratschläge erteilte und ihnen half, über alle Probleme ihres Lebens in jedem Bereich nachzudenken (oder zu kalkulieren). Offensichtlich, wenn das I Ging dazu in der Lage war, dann deshalb, weil es im Kern ein formales System (wie die Mathematik) ist, das es uns ermöglichte, über uns selbst und über das Universum nachzudenken. Zumindest dachte ich das, schon in meinem Mathematikstudium vertieft. Und außerdem schien das I Ging, wie die Mathematik, nie aus der Mode zu kommen.
 
@@ -127,7 +131,7 @@ Und so sah ich mich, mit mehr Fragen als Antworten, dieses wunderbare Buch noch 
 >
 > Hochmütiger Drache wird zu bereuen haben.
 
-Vielleicht ist es dir, lieber Leser, aufgefallen, dass dieser erzählerische Bogen der Abfolge der sich wandelnden Linien des Hexagramms 1 folgt, dem ersten Hexagramm des I Ging nach der König-Wen-Sequenz. Dieses Hexagramm 1 erzählt uns, wie sich die Yang-Energie (das Schöpferische) ursprünglich in der Welt manifestiert, und warnt uns davor, wie sich die Dynamik der Beziehung dieser Kraft zu ihrer Umgebung verändert.
+Vielleicht ist es dir, lieber Leser, aufgefallen, dass dieser erzählerische Bogen der Abfolge der sich wandelnden Linien des [Hexagramms 1]({{% relref "/hexagramas/hex01" %}}) folgt, dem ersten Hexagramm des I Ging nach der König-Wen-Sequenz. Dieses Hexagramm 1 erzählt uns, wie sich die Yang-Energie (das Schöpferische) ursprünglich in der Welt manifestiert, und warnt uns davor, wie sich die Dynamik der Beziehung dieser Kraft zu ihrer Umgebung verändert.
 
 ![Eine etwas ältere Dailingna](dailingna_with_iching.webp "Eine etwas ältere Dailingna")
 
@@ -146,3 +150,5 @@ Trotz der enormen Komplexität dieser Modelle mit Milliarden von Parametern ist 
 Wenn du wirklich untersuchst, wie diese Large Language Models (LLMs) – Große Sprachmodelle – aufgebaut sind, wirst du verstehen, dass sie nicht fähig sind zu denken, nicht bewusst sind und auch keine Kreativität besitzen. Obwohl sie wirklich gut darin sind, von einer Sprache in eine andere zu übersetzen und für viele Dinge nützlich sind, werden sie uns Menschen niemals ersetzen. Offenbar haben die großen Technologiekonzerne, die heute die Motoren der Weltwirtschaft sind, Versprechungen verkauft, die sie nicht halten können, und in diesem Sinne werden auch jene übermütigen Drachen bereuen müssen.
 
 Und das I Ging, jener verborgene Drache, der seit Jahrtausenden dort ist, wartet immer noch darauf, dass wir uns ihm nähern, um seine Weisheit zu erlangen.
+
+{{< youtube "gRiGBEptT2s" >}}

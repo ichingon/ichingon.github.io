@@ -550,6 +550,17 @@
     });
   };
 
+  function obtenerUrlHexagrama(hexNum, lang) {
+    var hexStr = String(hexNum).padStart(2, '0');
+    if (lang === 'de') {
+      return 'https://elichingon.com/de/hexagramme/hex' + hexStr + '/';
+    } else if (lang === 'en') {
+      return 'https://elichingon.com/en/hexagrams/hex' + hexStr + '/';
+    } else {
+      return 'https://elichingon.com/hexagramas/hex' + hexStr + '/';
+    }
+  }
+
   window.addEventListener('message', function(e) {
     if (e.data && e.data.type === 'ICHING_COMPLETE') {
       var data = e.data.data;
@@ -571,13 +582,41 @@
       document.getElementById('simulationWrap').style.display = 'none';
       document.getElementById('resDate').innerText = window.appState.consultationDate || '-';
       document.getElementById('resLines').innerText = data.rawLines ? data.rawLines.join(', ') : '-';
-      document.getElementById('resBaseHex').innerText = '#' + data.hexagram;
       
-      var i18n = I18N_PDF[window.appLang] || I18N_PDF["es"];
-      document.getElementById('resDerivedHex').innerText = data.derivedHexagram ? '#' + data.derivedHexagram : i18n.p3SummaryNoFuture;
+      var lang = window.appLang || 'es';
+      var i18n = I18N_PDF[lang] || I18N_PDF["es"];
+
+      // Hexagrama Base como hiperenlace
+      var baseHexCont = document.getElementById('resBaseHex');
+      baseHexCont.innerHTML = '';
+      var linkBase = document.createElement('a');
+      linkBase.href = obtenerUrlHexagrama(data.hexagram, lang);
+      linkBase.target = '_blank';
+      linkBase.rel = 'noopener noreferrer';
+      linkBase.textContent = '#' + data.hexagram;
+      linkBase.style.color = 'var(--app-accent, #eeee55)';
+      linkBase.style.textDecoration = 'underline';
+      baseHexCont.appendChild(linkBase);
+
+      // Hexagrama Futuro / Derivado como hiperenlace (si existe)
+      var derivedHexCont = document.getElementById('resDerivedHex');
+      derivedHexCont.innerHTML = '';
+      
+      if (data.derivedHexagram) {
+        var linkDerived = document.createElement('a');
+        linkDerived.href = obtenerUrlHexagrama(data.derivedHexagram, lang);
+        linkDerived.target = '_blank';
+        linkDerived.rel = 'noopener noreferrer';
+        linkDerived.textContent = '#' + data.derivedHexagram;
+        linkDerived.style.color = 'var(--app-accent, #eeee55)';
+        linkDerived.style.textDecoration = 'underline';
+        derivedHexCont.appendChild(linkDerived);
+      } else {
+        derivedHexCont.textContent = i18n.p3SummaryNoFuture;
+      }
+
       document.getElementById('resChangingLines').innerText = (data.changingLines && data.changingLines.length > 0) ? data.changingLines.join(', ') : i18n.p3SummaryNoMoving;
 
-      var lang = window.appLang;
       var toEmail = "dailingna@elichingon.com";
 
       var subjectText = '[Beta Test AI] Solicitud de Interpretación I Ching - Hexagrama #' + data.hexagram;

@@ -88,6 +88,8 @@ Alice por cierto era una viejita muy interesante, siempre curiosa, y por cierto,
 >
 > Impulso vacilante sobre la profundidad. Sin error.
 
+![En la universidad. 1992](dailingna20.webp "En la universidad. 1992")
+
 Así pasaron unos años y, sin ser sorpresa para nadie, inicié mis estudios universitarios en ciencias de computación. Sin embargo, pronto me desencantaría de ese mundo, que veía como muy cambiante y en el cual siempre había que estar a la moda con los últimos desarrollos. Pero en el pensum universitario de computación hay muchas matemática, y esta nunca pasaba de moda. Sin que mermara mi interés por la programación, ni mi interés por la inteligencia artificial ni los sistemas lógico-formales ni los lenguajes universales analíticos con los que se podría realizar un "cálculo del pensamiento", en un impulso vacilante sobre la profundidad, decidi abandonar la carrera de computación y un par de años después comenzar a estudiar la licenciatura en matemáticas.
 
 ![Practicando Wushu en el campus universitario. 1994](dailingna22b.webp "Practicando Wushu en el campus universitario. 1994")
@@ -95,6 +97,8 @@ Así pasaron unos años y, sin ser sorpresa para nadie, inicié mis estudios uni
 En el ámbito de la inteligencia artificial, durante la decada de los noventa y la primera decada del 2000 y buena parte de la segunda, discurrieron aquellos años en el auge y caida de los famosos sistemas expertos y el éxito de Deep Blue, una supercomputadora de IBM que fue capaz de derrotar a un campeón mundial de ajedrez a punta de fuerza bruta.
 
 Con todo eso, los famosos sistemas expertos no eran más que árboles de decisiones, como aquel programa de ELIZA que era un sistema de condicionales IF THEN anidados. Podrían funcionar en ciertos contextos muy especificos donde se aplican reglas heuristicas determinadas, pero no en problemas generales donde el sentido común humano (que era el menos común de los sentidos, como decía con sarcasmo mi papá) prevalecia todavía sobre las máquinas. Y ganarle a un campeon mundial de ajedrez, aunque parezca una proeza de la inteligencia artificial, no podría apuntarse como un triunfo de la inteligencia artificial si esta se basa en búsqueda de fuerza bruta de poder de cómputo, ¿o si?
+
+![Parque Cachamay, Ciudad Guayana, Venezuela. 1996](dailingna24-cachamay.webp "Parque Cachamay, Ciudad Guayana, Venezuela. 1996")
 
 Y ahi seguía el antiguo I Ching, ofreciendo consejo a las personas durante siglos, ayudándolos a pensar (o a calcular) sobre cualquier problema de sus vidas en cualquier ámbito. Claramente, si el I Ching era capaz de hacer esto, era porque en el fondo es un sistema formal (como las matemáticas) que nos permitía pensar sobre nosotros mismos y sobre el universo. O por lo menos así pensaba yo, ya adentrándome en mis estudios de matemáticas. Y además, como las matemáticas, el I Ching tampoco parecía pasar de moda.
 
@@ -124,7 +128,7 @@ Y así con más preguntas que respuestas, volvia a echar una segunda mirada a es
 >
 > Dragón arrogante tendrá que arrepentirse.
 
-Quizás te habrás dado cuenta, querido lector, que este arco narrativo sigue la secuencia de las líneas mutantes del Hexagrama 1, el primer Hexagrama del I Ching según la secuencia del Rey Wen. Este Hexagrama 1 nos habla de cómo la energía yang (lo creativo) se manifiesta de forma primogénita en el mundo, y nos advierte como va cambiando la dinámica de la relación de esa fuerza con su entorno.
+Quizás te habrás dado cuenta, querido lector, que este arco narrativo sigue la secuencia de las líneas mutantes del [Hexagrama 1]({{% relref "/hexagramas/hex01" %}}), el primer Hexagrama del I Ching según la secuencia del Rey Wen. Este Hexagrama 1 nos habla de cómo la energía yang (lo creativo) se manifiesta de forma primogénita en el mundo, y nos advierte como va cambiando la dinámica de la relación de esa fuerza con su entorno.
 
 ![Una Dailingna ya mayorcita](dailingna_with_iching.webp "Yo, ya con la madurez suficiente para comenzar a entender el Libro de las Mutaciones")
 
@@ -143,3 +147,5 @@ A pesar de la enorme complejidad de estos modelos, con miles de millones de para
 Si investigas realmente como se construyen esos LLMs (Large Language Models), entenderas que no son capaces de razonar, no son conscientes, ni tampoco tienen creatividad. Aunque son realmente buenos traduciendo de un lenguaje a otro y son utiles para muchas cosas, jamás nos reemplazaran a nosotros los humanos. Al parecer las grandes corporaciones tecnologicas, que son el motor ahora de la economía mundial, han vendido promesas que no podrán cumplir, y en ese sentido, aquellos dragones arrogantes también tendrán que arrepentirse.
 
 Y el I Ching, aquel dragón oculto que ha estado ahí desde hace miles de años, sigue esperando a que nosotros nos acerquemos a él para acceder a su sabiduría.
+
+{{< youtube "gRiGBEptT2s" >}}

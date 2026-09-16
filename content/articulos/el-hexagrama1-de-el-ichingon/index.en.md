@@ -89,6 +89,8 @@ Alice, by the way, was a very interesting old lady, always curious, and also a s
 >
 > A wavering flight over the depths. No blame.
 
+![At the university. 1992](dailingna20.webp "At the university. 1992")
+
 So a few years passed and, unsurprisingly, I began my university studies in computer science. However, I soon became disillusioned with that world, which I saw as very changeable and where one always had to be in vogue with the latest developments. But in the computer science curriculum there is a lot of mathematics, and this never went out of fashion. Without diminishing my interest in programming, nor my interest in artificial intelligence, nor in formal logical systems, nor in universal analytical languages with which one could perform a "calculus of thought", in a wavering flight over the depths, I decided to abandon the computer science degree and a couple of years later I began studying for a bachelor's degree in mathematics.
 
 ![Practicing Wushu on the university campus. 1994](dailingna22b.webp "Practicing Wushu on the university campus. 1994")
@@ -97,7 +99,9 @@ In the field of artificial intelligence, during the nineties and the first decad
 
 With all that, the famous expert systems were nothing more than decision trees, like that ELIZA program which was a system of nested IF‑THEN conditionals. They might work in certain very specific contexts where determined heuristic rules apply, but not in general problems where human common sense (which was the least common of the senses, as my dad sarcastically said) still prevailed over machines. And beating a world chess champion, although it seems like a feat of artificial intelligence, could not be counted as a triumph of artificial intelligence if it is based on brute‑force search of computing power, or could it?
 
-And there the ancient I Ching still was, offering advice to people for centuries, helping them think (or calculate) about any problem in their lives in any domain. Clearly, if the I Ching was capable of doing that, it was because at its core it is a formal system (like mathematics) that allowed us to think about ourselves and about the universe. At least that is what I thought, already delving into my mathematics studies. And moreover, like mathematics, the I Ching did not seem to go out of fashion.
+![Parque Cachamay, Ciudad Guayana, Venezuela. 1996](dailingna24-cachamay.webp "Parque Cachamay, Ciudad Guayana, Venezuela. 1996")
+
+And there was the ancient I Ching, still offering advice to people for centuries, helping them think (or calculate) about any problem in their lives in any domain. Clearly, if the I Ching was capable of doing that, it was because at its core it is a formal system (like mathematics) that allowed us to think about ourselves and about the universe. At least that is what I thought, already delving into my mathematics studies. And moreover, like mathematics, the I Ching did not seem to go out of fashion.
 
 ## Arriving at the Celestial Sphere
 
@@ -125,7 +129,7 @@ And so, with more questions than answers, I turned a second look at this wonderf
 >
 > Arrogant dragon will have cause to repent.
 
-Perhaps you have noticed, dear reader, that this narrative arc follows the sequence of the changing lines of Hexagram 1, the first Hexagram of the I Ching according to the King Wen sequence. This Hexagram 1 tells us how the yang energy (the creative) manifests itself primordially in the world, and warns us how the dynamics of the relationship of that force with its environment change.
+Perhaps you have noticed, dear reader, that this narrative arc follows the sequence of the changing lines of [Hexagram 1]({{% relref "/hexagramas/hex01" %}}), the first Hexagram of the I Ching according to the King Wen sequence. This Hexagram 1 tells us how the yang energy (the creative) manifests itself primordially in the world, and warns us how the dynamics of the relationship of that force with its environment change.
 
 ![A somewhat older Dailingna](dailingna_with_iching.webp "Me, already with enough maturity to begin to understand the Book of Changes")
 
@@ -144,3 +148,5 @@ Despite the enormous complexity of these models, with billions of parameters, it
 If you really investigate how these LLMs (Large Language Models) are built, you will understand that they are not capable of reasoning, they are not conscious, nor do they have creativity. Although they are really good at translating from one language to another and are useful for many things, they will never replace us humans. Apparently the big tech corporations, which are now the engine of the global economy, have sold promises they will not be able to keep, and in that sense, those arrogant dragons will also have to repent.
 
 And the I Ching, that hidden dragon that has been there for thousands of years, is still waiting for us to approach it for wisdom.
+
+{{< youtube "gRiGBEptT2s" >}}
