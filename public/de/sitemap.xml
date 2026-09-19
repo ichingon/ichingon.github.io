@@ -525,6 +525,48 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/de/</loc>
+    <lastmod>2026-09-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/ki-dienst-bedingungen/</loc>
+    <lastmod>2026-09-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/terminos-servicio-ia/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/ai-service-terms/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/ki-dienst-bedingungen/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/de/artikel/</loc>
     <lastmod>2026-09-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -543,27 +585,6 @@
       rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/artikel/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/de/</loc>
-    <lastmod>2026-09-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="http://localhost:1313/de/"
     />
   </url>
   <url>
