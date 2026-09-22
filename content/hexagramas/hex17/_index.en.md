@@ -23,7 +23,7 @@ The upper trigram is Duì, the Joyous, characterized by pleasure; the lower is Z
 
 ---
 
-<h2>The Judgment</h2>
+## The Judgment
 
 > FOLLOWING has supreme success.
 > Perseverance furthers. No blame.
@@ -36,7 +36,7 @@ The idea of following while adapting to the demands of the time is great and sig
 
 ---
 
-<h2>The Image</h2>
+## The Image
 
 > Thunder in the middle of the lake: the
 > image of FOLLOWING. Thus the superior man, as darkness
@@ -46,21 +46,24 @@ In autumn, electricity retreats into the earth to rest. Thunder in the middle of
 
 ---
 
-<h2>The Individual Lines</h2>
+## The Individual Lines
 
 ### Nine at the beginning means:
+
 > The standard changes. Perseverance brings good fortune.
 > Going out of the door to interact with others brings achievements.
 
 Exceptional conditions arise when the relationship between leader and follower changes. The very idea of adaptation and following implies that if one wishes to lead others, one must remain accessible and allow oneself to be guided by the views of subordinates. However, one must maintain firm principles to avoid wavering when facing mere passing opinions. Once ready to listen to others, one must not strictly associate with like-minded people or faction members. Instead, one must step out the door and mingle freely with all kinds of people, whether friend or foe. Only in this way can one achieve anything lasting.
 
 ### Six in the second place means:
+
 > If one clings to the little boy,
 > one loses the strong man.
 
 One must be cautious when choosing friends and close relationships. A person keeps either good company or bad company; it is impossible to have both at once. By throwing oneself away on unworthy individuals, one loses connection with spiritually significant people who can foster one's better nature.
 
 ### Six in the third place means:
+
 > If one clings to the strong man,
 > one loses the little boy.
 > Through following, one finds what one seeks.
@@ -69,6 +72,7 @@ One must be cautious when choosing friends and close relationships. A person kee
 Connecting with significant individuals naturally involves a certain degree of loss. One must part ways with what is base and superficial. Yet, one will feel deeply satisfied because one finds exactly what is sought and needed for personal growth. The crucial point is to remain firm. One must know what one wants and avoid being led astray by fleeting inclinations.
 
 ### Nine in the fourth place means:
+
 > Following creates success. Perseverance brings misfortune.
 > To walk the path with sincerity brings clarity.
 > How could this be a blame?
@@ -76,6 +80,7 @@ Connecting with significant individuals naturally involves a certain degree of l
 Those with a certain degree of influence often succeed in gathering followers by displaying condescending affability toward subordinates. However, the people who attach themselves are often insincere. They seek personal advantage and try to make themselves indispensable through flattery and subservience. If one becomes accustomed to such partisans and can no longer manage without them, it brings misfortune. Only by remaining completely free from the ego and focusing with conviction solely on what is right and objective does one gain the clarity to see through such people, thereby remaining free of blame.
 
 ### Nine in the fifth place means:
+
 > Sincere in what is good. Good fortune!
 
 Everyone must have something to follow, something that serves as a guiding star. Anyone who follows the beautiful and the good with conviction will find encouragement in these words.
