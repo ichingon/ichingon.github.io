@@ -957,7 +957,6 @@
 
       if (datosIA) {
         var textoIA = datosIA.interpretation || datosIA.texto || datosIA.response;
-        // AQUÍ ESTÁ LA CORRECCIÓN CLAVE:
         var preguntaIA = datosIA.question || window.appState.consultationTitle || 'N/A';
         
         docContent.push({
@@ -980,7 +979,7 @@
       ];
 
       if (dailingnaData) {
-        epilogueStack.push({ image: dailingnaData, width: 170, alignment: 'center', margin: [0, 10, 0, 15] });
+        epilogueStack.push({ image: dailingnaData, width: 240, alignment: 'center', margin: [0, 10, 0, 15] });
       }
 
       epilogueStack.push(

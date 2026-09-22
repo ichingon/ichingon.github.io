@@ -52,20 +52,28 @@ Cuando en la vida pública reina la desconfianza mutua a causa de la influencia 
 > Cada uno según su especie.
 > La perseverancia trae ventura y éxito.
 
+El texto es casi el mismo que en la primera línea del hexagrama anterior, solo que en sentido inverso. Allí uno arrastra al otro por el camino de la carrera oficial. Aquí uno arrastra al otro en el retiro de la vida pública. Por eso aquí no se dice «las empresas traen ventura», sino «la perseverancia trae ventura y éxito». Solo porque uno comprende que, cuando ya no existen las posibilidades de actuar, debe retirarse a tiempo, se ahorra la vergüenza y tiene éxito en un sentido superior, al saber preservar su personalidad en su valor.
+
 ### Seis en el segundo puesto significa:
 
 > Ellos llevan y soportan;
 > eso significa ventura para los hombres vulgares.
 > Al Gran Hombre le sirve el estancamiento para el éxito.
 
+Los vulgares están dispuestos a adular servilmente a sus superiores. También tolerarían al noble si este les ayudara a resolver la confusión. Eso es beneficioso para ellos. Pero el hombre grande soporta tranquilamente las consecuencias de la obstrucción. No se mezcla con las multitudes de los vulgares. Ese no es su lugar. De ese modo, aunque personalmente haya de sufrir, procura el éxito a sus principios.
+
 ### Seis en el tercer puesto significa:
 
 > Ellos soportan la vergüenza.
+
+Los vulgares que han ascendido de manera ilegítima no se sienten a la altura de la responsabilidad que han asumido. Comienzan -al principio aún sin mostrarlo hacia fuera- a avergonzarse en silencio. Ese es el comienzo del giro hacia lo mejor.
 
 ### Nueve en el cuarto puesto significa:
 
 > Quien actúa por mandato de lo supremo permanece sin falta.
 > Los de igual disposición disfrutan de la bendición.
+
+El tiempo de la obstrucción se acerca al cambio. Quien quiera restablecer el orden debe estar llamado a ello y poseer la autoridad necesaria. Quien quisiera erigirse en ordenador por su propio arbitrio podría provocar errores y fracasos. Pero a quien está llamado, las circunstancias del tiempo le salen al encuentro, y su bendición alcanza a todos los afines.
 
 ### Nueve en el quinto puesto significa:
 
@@ -73,10 +81,14 @@ Cuando en la vida pública reina la desconfianza mutua a causa de la influencia 
 > »Si tan solo saliera mal, si tan solo saliera mal«
 > Así lo ata a un manojo de brotes de morera. [^1]
 
+El tiempo cambia. Ha llegado el hombre justo que puede restablecer el orden. ¡Por eso, ventura! Pero precisamente en tales tiempos de transición son necesarios el miedo y el temblor. Solo mediante la más extrema solicitud, que piensa continuamente: «Si fracasara», se consolida el éxito. Cuando se corta una morera, brotan de la raíz una serie de renuevos especialmente firmes. Por eso la consolidación del éxito está simbolizada bajo la imagen de atarlo a moreras.
+
 ### Nueve arriba significa:
 
 > El estancamiento cesa.
 > Primero estancamiento, luego ventura.
+
+La obstrucción no dura eternamente. Sin embargo, no cesa por sí sola, sino que se requiere del hombre justo para ponerle fin. Esa es la diferencia entre la paz y la obstrucción. La paz requiere un esfuerzo constante para ser mantenida. Abandonada a sí misma, se convertiría en obstrucción y decadencia. El tiempo de decadencia no se transforma por sí solo en paz y florecimiento, sino que requiere esfuerzo para ser eliminado. En esto se caracteriza la posición creadora del ser humano, necesaria para que el mundo llegue al orden.
 
 [^1]: Confucio dice al respecto: »El peligro surge donde uno se siente seguro en su puesto. La ruina amenaza donde uno procura mantener su existencia. La confusión surge donde uno tiene todo en orden. Por ello el Noble, cuando está seguro, no olvida el peligro; cuando existe, no olvida la ruina; y cuando tiene orden, no olvida la confusión. Así su persona permanece a salvo, y el reino se mantiene.«
 
