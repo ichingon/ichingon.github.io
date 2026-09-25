@@ -193,9 +193,15 @@
 
     <form id="aiRequestForm" onsubmit="window.enviarSolicitudIA(event)">
       
+      <!-- NUEVO CAMPO: Título de la Consulta -->
       <div class="form-group">
-        <label class="form-label" id="lblContextTitle">Contexto detallado de tu situación:</label>
-        <textarea id="userContext" class="form-textarea" required maxlength="800" placeholder="Ej: Estoy evaluando cambiar de empleo pero me preocupa la estabilidad familiar..."></textarea>
+        <label class="form-label" id="lblModalTitleField">Título de la Consulta:</label>
+        <input type="text" id="modalConsultationTitle" class="form-input" required autocomplete="off" placeholder="Ej: Dilema laboral">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" id="lblContextTitle">Contexto detallado de tu situación (Opcional):</label>
+        <textarea id="userContext" class="form-textarea" maxlength="800" placeholder="Ej: Estoy evaluando cambiar de empleo pero me preocupa la estabilidad familiar..."></textarea>
         
         <div class="help-box" id="helpBoxText">
           <strong>💡 Tip para una mejor lectura:</strong> Describe el contexto de tu tirada. El oráculo ha expuesto las fuerzas en juego; la IA, como cualquier interprete humano, necesita conocer tu dilema real para traducir esas fuerzas a tu situación práctica. Evita preguntas de 'sí o no'.
@@ -233,7 +239,6 @@
   <div id="resultState">
     <h2 class="title" id="lblResultTitle" style="color: var(--app-accent, #eeee55); margin-bottom: 10px;">El Oráculo ha hablado</h2>
     
-    <!-- Contenedor para visualizar los créditos restantes -->
     <div id="creditsRemainingMsg" class="credits-info"></div>
     
     <div id="aiResponseText" class="result-box"></div>
@@ -257,7 +262,8 @@
     es: {
       title: "Interpretación Asistida por IA",
       subtitle: "Conecta el oráculo con la realidad de tu pregunta a través de la traducción inteligente (Costo: 1 Crédito).",
-      contextTitle: "Contexto detallado de tu situación:",
+      titleField: "Título de la Consulta:",
+      contextTitle: "Contexto detallado de tu situación (Opcional):",
       contextPlaceholder: "Ej: Estoy evaluando cambiar de empleo pero me preocupa la estabilidad familiar...",
       tip: "<strong>💡 Tip para una mejor lectura:</strong> Describe el contexto de tu tirada. El oráculo ha expuesto las fuerzas en juego; la IA, como cualquier interprete humano, necesita conocer tu dilema real para traducir esas fuerzas a tu situación práctica. Evita preguntas de 'sí o no'.",
       codeTitle: "Código de Gift Card:",
@@ -267,7 +273,7 @@
       loading: "黛靈娜 está contemplando las líneas... Por favor, no cierres ni actualices esta ventana.",
       errInvalid: "El código de Gift Card no es válido o está inactivo.",
       errDepleted: "La Gift Card no tiene créditos disponibles.",
-      errComplexity: "La consulta superó la complejidad estimada. Se ha derivado al servicio humano.",
+      errComplexity: "El oráculo no pudo procesar tu consulta. Esto ocurre si el texto contiene caracteres aleatorios, carece de sentido lógico, o es excesivamente complejo. Por favor, reformula tu pregunta con claridad y vuelve a intentarlo.",
       errServer: "Ocurrió un error en el servidor. Inténtalo de nuevo.",
       errLength: "El contexto no puede superar los 800 caracteres.",
       resultTitle: "El Oráculo ha hablado",
@@ -278,7 +284,8 @@
     en: {
       title: "AI-Assisted Interpretation",
       subtitle: "Connect the oracle to the reality of your question through intelligent translation (Cost: 1 Credit).",
-      contextTitle: "Detailed context of your situation:",
+      titleField: "Consultation Title:",
+      contextTitle: "Detailed context of your situation (Optional):",
       contextPlaceholder: "E.g.: I am considering changing jobs but I worry about family stability...",
       tip: "<strong>💡 Tip for a better reading:</strong> Describe the context of your cast. The oracle has exposed the forces at play; the AI, like any human interpreter, needs to know your real dilemma to translate these forces into your practical situation. Avoid 'yes or no' questions.",
       codeTitle: "Gift Card Code:",
@@ -288,7 +295,7 @@
       loading: "黛靈娜 is contemplating the lines... Please do not close or refresh this window.",
       errInvalid: "The Gift Card code is invalid or inactive.",
       errDepleted: "The Gift Card has no available credits.",
-      errComplexity: "The query exceeded expected complexity. It has been redirected to human support.",
+      errComplexity: "The oracle could not process your query. This occurs if the text contains random characters, lacks logical sense, or is excessively complex. Please rephrase your question clearly and try again.",
       errServer: "A server error occurred. Please try again.",
       errLength: "Context cannot exceed 800 characters.",
       resultTitle: "The Oracle has spoken",
@@ -299,7 +306,8 @@
     de: {
       title: "KI-gestützte Interpretation",
       subtitle: "Verbinde das Orakel durch intelligente Übersetzung mit der Realität deiner Frage (Kosten: 1 Credit).",
-      contextTitle: "Detaillierter Kontext deiner Situation:",
+      titleField: "Titel der Konsultation:",
+      contextTitle: "Detaillierter Kontext deiner Situation (Optional):",
       contextPlaceholder: "Z.B.: Ich erwäge einen Jobwechsel, mache mir aber Sorgen um die familiäre Stabilität...",
       tip: "<strong>💡 Tipp für eine bessere Lesung:</strong> Beschreibe den Kontext deines Wurfs. Das Orakel hat die wirkenden Kräfte offengelegt; die KI muss, wie jeder menschliche Interpret, dein reales Dilemma kennen, um diese Kräfte auf deine praktische Situation zu übertragen. Vermeide 'Ja oder Nein'-Fragen.",
       codeTitle: "Gift Card Code:",
@@ -309,7 +317,7 @@
       loading: "黛靈娜 betrachtet die Linien... Bitte schließe oder aktualisiere dieses Fenster nicht.",
       errInvalid: "Der Gift Card Code ist ungültig oder inaktiv.",
       errDepleted: "Die Gift Card hat keine verfügbaren Credits mehr.",
-      errComplexity: "Die Abfrage hat die Komplexitätsschwelle überschritten.",
+      errComplexity: "Das Orakel konnte deine Abfrage nicht verarbeiten. Dies geschieht, wenn der Text zufällige Zeichen enthält, keinen logischen Sinn ergibt oder übermäßig komplex ist. Bitte formuliere deine Frage klar und versuche es erneut.",
       errServer: "Ein Serverfehler ist aufgetreten. Bitte versuche es erneut.",
       errLength: "Der Kontext darf 800 Zeichen nicht überschreiten.",
       resultTitle: "Das Orakel hat gesprochen",
@@ -323,6 +331,7 @@
 
   document.getElementById('lblTitle').innerText = t.title;
   document.getElementById('lblSubtitle').innerText = t.subtitle;
+  document.getElementById('lblModalTitleField').innerText = t.titleField;
   document.getElementById('lblContextTitle').innerText = t.contextTitle;
   document.getElementById('userContext').placeholder = t.contextPlaceholder;
   document.getElementById('helpBoxText').innerHTML = t.tip;
@@ -335,11 +344,17 @@
   document.getElementById('btnDownloadPdf').innerText = t.btnPdf;
   document.getElementById('btnCloseModal').innerText = t.btnClose;
 
+  // Pre-carga del título original desde la ventana principal
+  if (window.parent && window.parent.appState && window.parent.appState.consultationTitle) {
+    document.getElementById('modalConsultationTitle').value = window.parent.appState.consultationTitle;
+  }
+
   let currentAiResult = null;
 
   window.enviarSolicitudIA = async function(e) {
     e.preventDefault();
 
+    const titleVal = document.getElementById('modalConsultationTitle').value.trim();
     const contextVal = document.getElementById('userContext').value.trim();
     const codeVal = document.getElementById('giftCode').value.trim();
     const errorDiv = document.getElementById('codeError');
@@ -364,10 +379,12 @@
     document.getElementById('aiFormContainer').style.display = 'none';
     document.getElementById('loadingState').style.display = 'block';
 
-    // Objeto JS nativo: JSON.stringify escapa automáticamente comillas dobles, apóstrofes y saltos de línea
+    // Se unifican el título y el contexto en un solo bloque coherente para la IA
+    const finalQuestion = "Tema de consulta: " + titleVal + (contextVal ? "\nContexto adicional: " + contextVal : "");
+
     const payload = {
       code: codeVal,
-      question: contextVal,
+      question: finalQuestion,
       resulting_hexagram: rawTirada.hexagram,
       moving_lines: rawTirada.changingLines || [],
       future_hexagram: rawTirada.derivedHexagram || null,
@@ -391,7 +408,7 @@
 
       if (result.success) {
         currentAiResult = result;
-        currentAiResult.question = contextVal;
+        currentAiResult.question = finalQuestion;
         
         document.getElementById('loadingState').style.display = 'none';
         document.getElementById('resultState').style.display = 'block';
@@ -404,6 +421,7 @@
         document.getElementById('aiResponseText').textContent = textoRespuesta;
         
       } else {
+        // En caso de error, regresamos a la vista inicial del modal para permitir correcciones
         document.getElementById('loadingState').style.display = 'none';
         document.getElementById('aiFormContainer').style.display = 'block';
 
@@ -415,7 +433,9 @@
             msg += ` (Créditos: ${result.remaining_credits})`;
           }
         }
-        else if (result.error === 'exceeded_complexity') msg = t.errComplexity;
+        else if (result.error === 'exceeded_complexity') {
+          msg = t.errComplexity;
+        }
 
         errorDiv.textContent = msg;
         errorDiv.style.display = 'block';
