@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Fri, 04 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I Ching Fundamentals</title>
+      <link>http://localhost:1313/en/tags/i-ching-fundamentals/</link>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/tags/i-ching-fundamentals/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>The Tao of the Content Creator</title>
@@ -35,16 +45,6 @@
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/en/tags/philosophy-science-and-technology/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>I Ching Fundamentals</title>
-      <link>http://localhost:1313/en/tags/i-ching-fundamentals/</link>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en/tags/i-ching-fundamentals/</guid>
       <description></description>
       
     </item>

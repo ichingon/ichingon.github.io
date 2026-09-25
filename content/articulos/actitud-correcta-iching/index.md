@@ -55,7 +55,7 @@ La imagen de la montaña bajo el cielo resuena profundamente en el espíritu hum
 
 Esta simbología es magistralmente capturada en la novela *El Monte Análogo* del poeta surrealista René Daumal, donde se describe una montaña cuya base es accesible a cualquiera - como la vida cotidiana -, pero cuya cumbre es invisible a menos que el buscador esté en la frecuencia espiritual correcta. El I Ching funciona exactamente igual: su base (el texto y el método) está ahí para todos, pero su verdadera sabiduría solo se revela a quien adopta la actitud correcta al iniciar el ascenso.
 
-Las líneas móviles (4, 5 y 6) del [Hexagrama 33]({{% relref "/hexagramas/hex33" %}}) nos muestran los peldaños de este ascenso, indicando que la consulta debe ser una decisión voluntaria donde se suelta la carga innecesaria, manteniendo una actitud serena que culmina en la liberación de la necesidad de controlar el resultado, un estado donde "todo es favorable". Este proceso transforma el Hexagrama 33 en el Hexagrama 15, *La Modestia*, revelando que el éxito de la retirada conduce a un estado de ecuanimidad y equilibrio. Al igual que enseñan otras tradiciones sagradas, la humildad - vaciarse de las propias expectativas - es la llave maestra para recibir la gracia o la sabiduría.
+Las líneas móviles (4, 5 y 6) del [Hexagrama 33]({{% relref "/hexagramas/hex33" %}}) nos muestran los peldaños de este ascenso, indicando que la consulta debe ser una decisión voluntaria donde se suelta la carga innecesaria, manteniendo una actitud serena que culmina en la liberación de la necesidad de controlar el resultado, un estado donde "todo es favorable". Este proceso transforma el Hexagrama 33 en el [Hexagrama 15]({{% relref "/hexagramas/hex15" %}}), *La Modestia*, revelando que el éxito de la retirada conduce a un estado de ecuanimidad y equilibrio. Al igual que enseñan otras tradiciones sagradas, la humildad - vaciarse de las propias expectativas - es la llave maestra para recibir la gracia o la sabiduría.
 
 ---
 
@@ -115,3 +115,5 @@ Si prefieres profundizar en estos conceptos de forma visual, te invito a ver los
 {{< youtube "jJtNCKuzzME" >}}
 
 {{< youtube-short "S45hSl9hh7o" "El I Ching como un espejo" >}}
+
+Puedes revisar el reporte de interpretación generado por mi app de consulta de I ching [aqui](I-Ching-Report-2026-09-19-Hex25-IA.es.pdf).

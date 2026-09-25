@@ -26,7 +26,7 @@ Was macht eine Konsultation des I Ging wahrhaft bedeutsam und gültig?
 
 In unserem digitalen Zeitalter ist es leicht anzunehmen, dass die Wirksamkeit eines modernen Orakels, wie es meine App sein möchte, in der Präzision ihres Codes oder in der Raffinesse ihres Algorithmus liege (das heißt, in den Entscheidungen, die ich als Entwicklerin der App treffe). Wie wir in diesem Artikel jedoch sehen werden, hängt die Klarheit der Antworten dieses digitalen Orakels nicht allein davon ab, wie gut meine Software ist, sondern vom inneren Zustand des Fragenden im genauen Moment der Formulierung der Frage.
 
-Diese Reflexion ist das Ergebnis der Zusammenführung der Botschaften zweier Konsultationen des I Ging zu verschiedenen Zeitpunkten: einer über die erforderliche geistige Verfassung, um sich dem Orakel zu nähern, die uns das Hexagramm 33 (Der Rückzug) ergab, und einer jüngeren über die technischen Anforderungen unserer Anwendung, die uns mit dem Hexagramm 25 (Die Unschuld) antwortete. Beide Antworten, scheinbar weit voneinander entfernt, laufen auf dieselbe Wahrheit hinaus.
+Diese Erkenntnis ergibt sich aus der Verknüpfung der Botschaften zweier Konsultationen des I Ging zu verschiedenen Zeitpunkten: einer über die erforderliche geistige Verfassung, um sich dem Orakel zu nähern, die uns das Hexagramm 33 (Der Rückzug) ergab, und einer jüngeren über die technischen Anforderungen unserer Anwendung, die uns mit dem Hexagramm 25 (Die Unschuld) antwortete. Beide Antworten, scheinbar weit voneinander entfernt, laufen auf dieselbe Wahrheit hinaus.
 
 ---
 
@@ -56,7 +56,7 @@ Das Bild des Berges unter dem Himmel schwingt tief in der menschlichen Seele als
 
 Diese Symbolik wird meisterhaft in dem Roman *Der analoge Berg* des surrealistischen Dichters René Daumal eingefangen, in dem ein Berg beschrieben wird, dessen Basis für jeden zugänglich ist – wie das Alltagsleben –, dessen Gipfel jedoch unsichtbar bleibt, es sei denn, der Suchende befindet sich auf der richtigen spirituellen Frequenz. Das I Ging funktioniert genau so: Seine Basis (der Text und die Methode) steht allen zur Verfügung, doch seine wahre Weisheit offenbart sich nur demjenigen, der beim Beginn des Aufstiegs die richtige Haltung einnimmt.
 
-Die beweglichen Linien (4, 5 und 6) des [Hexagramms 33]({{% relref "/hexagramas/hex33" %}}) zeigen uns die Sprossen dieses Aufstiegs und deuten an, dass die Konsultation eine freiwillige Entscheidung sein muss, bei der man die unnötige Last abwirft und eine gelassene Haltung bewahrt, die in der Befreiung von der Notwendigkeit kulminiert, das Ergebnis zu kontrollieren – ein Zustand, in dem „alles günstig" ist. Dieser Prozess verwandelt das Hexagramm 33 in das Hexagramm 15, *Die Bescheidenheit*, und offenbart, dass der Erfolg des Rückzugs zu einem Zustand der Gleichmut und des Gleichgewichts führt. Wie andere heilige Traditionen lehren, ist die Demut – sich von den eigenen Erwartungen zu leeren – der Hauptschlüssel, um Gnade oder Weisheit zu empfangen.
+Die beweglichen Linien (4, 5 und 6) des [Hexagramms 33]({{% relref "/hexagramas/hex33" %}}) zeigen uns die Sprossen dieses Aufstiegs und deuten an, dass die Konsultation eine freiwillige Entscheidung sein muss, bei der man die unnötige Last abwirft und eine gelassene Haltung bewahrt, die in der Befreiung von der Notwendigkeit kulminiert, das Ergebnis zu kontrollieren – ein Zustand, in dem „alles günstig" ist. Dieser Prozess verwandelt das Hexagramm 33 in das [Hexagramm 15]({{% relref "/hexagramas/hex15" %}}), *Die Bescheidenheit*, und offenbart, dass der Erfolg des Rückzugs zu einem Zustand der Gleichmut und des Gleichgewichts führt. Wie andere heilige Traditionen lehren, ist die Demut – sich von den eigenen Erwartungen zu leeren – der Hauptschlüssel, um Gnade oder Weisheit zu empfangen.
 
 ---
 
@@ -115,3 +115,5 @@ Wenn du diese Konzepte lieber visuell vertiefen möchtest, lade ich dich ein, di
 {{< youtube "jJtNCKuzzME" >}}
 
 {{< youtube-short "J2EqCK8q6yI" "Das I Ging als Spiegel" >}}
+
+Den von meiner I-Ging-Konsultations-App generierten Interpretationsbericht kannst du dir [hier](I-Ching-Report-2026-09-19-Hex25-IA.de.pdf) ansehen.
