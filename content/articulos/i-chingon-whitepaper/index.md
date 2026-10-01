@@ -241,4 +241,10 @@ La plataforma opera con una arquitectura estricta de "sin inicio de sesión"; no
 
 La confianza en un marco de toma de decisiones descentralizado y no determinista no puede depender de promesas corporativas. La arquitectura CSHC exige transparencia total. La base de código completa — incluyendo la lógica de ejecución de Cloudflare Worker, los algoritmos de Captura de Entropía Cinestésica (KEC) y los prompts del sistema del Motor Hermenéutico — es completamente de código abierto. Al publicar la infraestructura, el protocolo invita a desarrolladores, criptógrafos y filósofos a auditar independientemente la base de código, verificando que la CSHC opera exactamente como se describe, sin tuberías de datos ocultas.
 
+---
 
+### Declaración Criptográfica de Autoría
+
+Este documento establece el *Prior Art* (Arte Previo) del protocolo Constrained Stochastic Hermeneutical Computing (CSHC). Su autoría, fecha de publicación e integridad estructural están selladas criptográficamente a través del historial inmutable de Git.
+
+**Verificación Inmutable:** [Auditar el hash del commit génesis en GitHub](https://github.com/ichingon/ichingon.github.io/commit/855b64532fb065bfb7db0ab97e2abd1a97b196ff)

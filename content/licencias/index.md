@@ -22,7 +22,7 @@ Se reconoce la autoría original a Richard Wilhelm en cada hexagrama y texto bas
 
 ## Capa 2 · Traducciones y Artículos Originales (CC BY 4.0)
 
-Las traducciones al español, inglés y francés de los textos del I Ching (realizadas directamente a partir del original alemán de dominio público por Richard Wilhelm) y los artículos originales publicados en el sitio son obra de Dailingna Romero / elichingon.com.
+Las traducciones al español, inglés y francés de los textos del I Ching (realizadas directamente a partir del original alemán de dominio público por Richard Wilhelm) y los artículos originales publicados en el sitio son obra de Dài Líng Nà / elichingon.com.
 
 Todo este contenido se distribuye bajo una licencia **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**.
 
@@ -56,28 +56,29 @@ El tema visual utilizado es [Blowfish](https://github.com/nunocorvalho/blowfish)
 
 Agradecemos a los desarrolladores de estas herramientas de código abierto que hacen posible este proyecto.
 
-## Capa 5 · Verificación Criptográfica de Autoría
+## Capa 5 · Verificación Criptográfica y Arte Previo (Prior Art)
 
-Todo el contenido publicado bajo la Capa 2 (traducciones y artículos originales de Dailingna Romero) está acompañado de una **firma criptográfica** publicada en la red descentralizada [Nostr](https://nostr.com).
+Todo el contenido publicado bajo la Capa 2 (traducciones, artículos originales y protocolos como el CSHC de Dài Líng Nà) está asegurado matemáticamente mediante el **hashing criptográfico inmutable de Git (SHA)** y anclado a un repositorio público.
 
-Esta firma cumple tres funciones:
+Esta arquitectura cumple tres funciones:
 
-1. **Prueba de autoría**: Demuestra matemáticamente que el contenido fue creado por la identidad digital `dailingna@elichingon.com`.
-2. **Estampa temporal inmutable**: Registra la fecha y hora exacta de publicación original, estableciendo prioridad temporal en caso de plagio o disputa.
-3. **Verificación independiente**: Cualquier persona puede verificar la autenticidad del contenido sin depender de plataformas centralizadas, abogados o tribunales.
+1. **Prueba de autoría (Prior Art)**: Demuestra matemáticamente que el contenido fue creado por la identidad digital Dài Líng Nà.
+2. **Estampa temporal inmutable (Timestamp)**: El historial de *commits* de Git registra la fecha y hora exacta de publicación original, estableciendo prioridad temporal indiscutible en caso de plagio o disputa.
+3. **Verificación independiente**: Cualquier persona puede auditar el código fuente y los bloques génesis de los documentos sin depender de notarios centralizados, tribunales o redes descentralizadas inestables.
 
 ### ¿Por qué es importante?
 
-Dailingna Romero es un avatar digital, no una persona física ni jurídica. Esto significa que no puede ejercer acciones legales tradicionales por violación de derechos de autor. Sin embargo, la firma criptográfica proporciona una **prueba matemática e inmutable de autoría** que es verificable por cualquier persona con acceso a internet.
+Dài Líng Nà es un avatar digital, no una persona física ni jurídica. Esto significa que no puede ejercer acciones legales tradicionales por violación de derechos de autor. Sin embargo, el control de versiones criptográfico proporciona una **prueba matemática e inmutable de autoría** que es auditable por cualquier persona con acceso a internet.
 
-Si alguien copia, plagia o presenta como propio el contenido de este sitio sin atribución, existe evidencia criptográfica verificable de que Dailingna Romero lo publicó primero.
+Si alguien copia, plagia o presenta como propio el contenido de este sitio sin atribución, existe evidencia criptográfica verificable (hashes SHA) de que el repositorio de Dài Líng Nà lo albergó primero.
 
 ### ¿Cómo verificar?
 
-Cada artículo firmado incluye un bloque de verificación al final del contenido con un enlace a la nota de Nostr correspondiente. Para más detalles sobre el proceso técnico de verificación, consulta la página de [verificación de autenticidad](https://elichingon.com/verificar/).
+### ¿Cómo verificar?
 
-**Identidad verificada**: `dailingna@elichingon.com`  
-**Protocolo**: [Nostr](https://nostr.com) / [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md)
+Cada artículo principal y protocolo incluye un bloque de verificación al final del contenido con un enlace directo al *hash* del *commit* exacto en GitHub. Para más detalles sobre el proceso técnico de auditoría, consulta la página de [verificación de autenticidad](https://elichingon.com/verificar/).
+
+**Protocolo de Verificación**: Control de Versiones Git (SHA-1 / SHA-256)
 
 ## Sobre los Derechos Morales
 
@@ -88,17 +89,16 @@ Independientemente de las licencias aplicadas, se respetan y exigen los derechos
 Si utiliza nuestros contenidos, le agradecemos usar el siguiente formato:
 
 **Para artículos y traducciones:**
-> "Texto original de Richard Wilhelm (dominio público). Traducción al español y artículos por Dailingna Romero / [elichingon.com](https://elichingon.com), utilizados bajo licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)."
+> "Texto original de Richard Wilhelm (dominio público). Traducción al español y artículos por Dài Líng Nà / [elichingon.com](https://elichingon.com), utilizados bajo licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)."
 
 **Para citar un artículo específico:**
-> "Romero, D. (2026). [Título del artículo]. elichingon.com. Licencia CC BY 4.0."
+> "Dài Líng Nà. (2026). [Título del artículo]. elichingon.com. Licencia CC BY 4.0."
 
 ## Contacto para Dudas sobre Licenciamiento
 
 Si desea utilizar contenido de este sitio de una forma no contemplada en estas licencias, o tiene dudas sobre cómo realizar la atribución correctamente, puede contactar a través de:
 
 - **Email**: [contacto@elichingon.com](mailto:contacto@elichingon.com)
-- **Nostr**: `dailingna@elichingon.com`
 
 ---
 

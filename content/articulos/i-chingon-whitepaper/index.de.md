@@ -233,3 +233,11 @@ Die Plattform operiert mit einer strikten „Kein-Login"-Architektur; sie sammel
 ### Open-Source-Auditierbarkeit
 
 Vertrauen in ein dezentrales, nicht-deterministisches Entscheidungsfindungsrahmenwerk kann sich nicht auf Unternehmensversprechen stützen. Die CSHC-Architektur verlangt totale Transparenz. Die vollständige Codebasis – einschließlich der Ausführungslogik des Cloudflare Workers, der Algorithmen der Kinästhetischen Entropieerfassung (KEC) und der System-Prompts der hermeneutischen Maschine – ist vollständig quelloffen. Durch die Veröffentlichung der Infrastruktur lädt das Protokoll Entwickler, Kryptografen und Philosophen ein, die Codebasis unabhängig zu auditieren und zu verifizieren, dass CSHC genau wie beschrieben operiert, ohne verborgene Datenpipelines.
+
+---
+
+### Kryptographischer Autorschaftsnachweis
+
+Dieses Whitepaper etabliert den Stand der Technik (*Prior Art*) für das Constrained Stochastic Hermeneutical Computing (CSHC) Protokoll. Seine Autorschaft, der Veröffentlichungszeitstempel und die strukturelle Integrität sind durch den unveränderlichen Versionsverlauf von Git kryptographisch versiegelt.
+
+**Unveränderliche Verifikation:** [Den Genesis-Commit-Hash auf GitHub überprüfen](https://github.com/ichingon/ichingon.github.io/commit/855b64532fb065bfb7db0ab97e2abd1a97b196ff)

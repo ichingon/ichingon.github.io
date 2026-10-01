@@ -251,7 +251,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "909"
+    "wordCount": "962"
   }]
   </script>
 
@@ -859,7 +859,7 @@
     </span>
     
 </h2>
-<p>Las traducciones al español, inglés y francés de los textos del I Ching (realizadas directamente a partir del original alemán de dominio público por Richard Wilhelm) y los artículos originales publicados en el sitio son obra de Dailingna Romero / elichingon.com.</p>
+<p>Las traducciones al español, inglés y francés de los textos del I Ching (realizadas directamente a partir del original alemán de dominio público por Richard Wilhelm) y los artículos originales publicados en el sitio son obra de Dài Líng Nà / elichingon.com.</p>
 <p>Todo este contenido se distribuye bajo una licencia <strong>Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</strong>.</p>
 <p>Usted es libre de:</p>
 <ul>
@@ -907,21 +907,21 @@
 <p>El tema visual utilizado es <a href="https://github.com/nunocorvalho/blowfish"  target="_blank" rel="noreferrer">Blowfish</a>, desarrollado por <a href="https://github.com/nunocorvalho"  target="_blank" rel="noreferrer">Nuno Corvalho</a>, distribuido bajo licencia <a href="https://opensource.org/licenses/MIT"  target="_blank" rel="noreferrer">MIT</a>.</p>
 <p>Agradecemos a los desarrolladores de estas herramientas de código abierto que hacen posible este proyecto.</p>
 
-<h2 class="relative group">Capa 5 · Verificación Criptográfica de Autoría
-    <div id="capa-5--verificación-criptográfica-de-autoría" class="anchor"></div>
+<h2 class="relative group">Capa 5 · Verificación Criptográfica y Arte Previo (Prior Art)
+    <div id="capa-5--verificación-criptográfica-y-arte-previo-prior-art" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#capa-5--verificaci%c3%b3n-criptogr%c3%a1fica-de-autor%c3%ada" aria-label="Ancla">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#capa-5--verificaci%c3%b3n-criptogr%c3%a1fica-y-arte-previo-prior-art" aria-label="Ancla">#</a>
     </span>
     
 </h2>
-<p>Todo el contenido publicado bajo la Capa 2 (traducciones y artículos originales de Dailingna Romero) está acompañado de una <strong>firma criptográfica</strong> publicada en la red descentralizada <a href="https://nostr.com"  target="_blank" rel="noreferrer">Nostr</a>.</p>
-<p>Esta firma cumple tres funciones:</p>
+<p>Todo el contenido publicado bajo la Capa 2 (traducciones, artículos originales y protocolos como el CSHC de Dài Líng Nà) está asegurado matemáticamente mediante el <strong>hashing criptográfico inmutable de Git (SHA)</strong> y anclado a un repositorio público.</p>
+<p>Esta arquitectura cumple tres funciones:</p>
 <ol>
-<li><strong>Prueba de autoría</strong>: Demuestra matemáticamente que el contenido fue creado por la identidad digital <code>dailingna@elichingon.com</code>.</li>
-<li><strong>Estampa temporal inmutable</strong>: Registra la fecha y hora exacta de publicación original, estableciendo prioridad temporal en caso de plagio o disputa.</li>
-<li><strong>Verificación independiente</strong>: Cualquier persona puede verificar la autenticidad del contenido sin depender de plataformas centralizadas, abogados o tribunales.</li>
+<li><strong>Prueba de autoría (Prior Art)</strong>: Demuestra matemáticamente que el contenido fue creado por la identidad digital Dài Líng Nà.</li>
+<li><strong>Estampa temporal inmutable (Timestamp)</strong>: El historial de <em>commits</em> de Git registra la fecha y hora exacta de publicación original, estableciendo prioridad temporal indiscutible en caso de plagio o disputa.</li>
+<li><strong>Verificación independiente</strong>: Cualquier persona puede auditar el código fuente y los bloques génesis de los documentos sin depender de notarios centralizados, tribunales o redes descentralizadas inestables.</li>
 </ol>
 
 <h3 class="relative group">¿Por qué es importante?
@@ -933,8 +933,8 @@
     </span>
     
 </h3>
-<p>Dailingna Romero es un avatar digital, no una persona física ni jurídica. Esto significa que no puede ejercer acciones legales tradicionales por violación de derechos de autor. Sin embargo, la firma criptográfica proporciona una <strong>prueba matemática e inmutable de autoría</strong> que es verificable por cualquier persona con acceso a internet.</p>
-<p>Si alguien copia, plagia o presenta como propio el contenido de este sitio sin atribución, existe evidencia criptográfica verificable de que Dailingna Romero lo publicó primero.</p>
+<p>Dài Líng Nà es un avatar digital, no una persona física ni jurídica. Esto significa que no puede ejercer acciones legales tradicionales por violación de derechos de autor. Sin embargo, el control de versiones criptográfico proporciona una <strong>prueba matemática e inmutable de autoría</strong> que es auditable por cualquier persona con acceso a internet.</p>
+<p>Si alguien copia, plagia o presenta como propio el contenido de este sitio sin atribución, existe evidencia criptográfica verificable (hashes SHA) de que el repositorio de Dài Líng Nà lo albergó primero.</p>
 
 <h3 class="relative group">¿Cómo verificar?
     <div id="cómo-verificar" class="anchor"></div>
@@ -945,9 +945,18 @@
     </span>
     
 </h3>
-<p>Cada artículo firmado incluye un bloque de verificación al final del contenido con un enlace a la nota de Nostr correspondiente. Para más detalles sobre el proceso técnico de verificación, consulta la página de <a href="https://elichingon.com/verificar/"  target="_blank" rel="noreferrer">verificación de autenticidad</a>.</p>
-<p><strong>Identidad verificada</strong>: <code>dailingna@elichingon.com</code><br>
-<strong>Protocolo</strong>: <a href="https://nostr.com"  target="_blank" rel="noreferrer">Nostr</a> / <a href="https://github.com/nostr-protocol/nips/blob/master/05.md"  target="_blank" rel="noreferrer">NIP-05</a></p>
+
+<h3 class="relative group">¿Cómo verificar?
+    <div id="cómo-verificar-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#c%c3%b3mo-verificar-1" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<p>Cada artículo principal y protocolo incluye un bloque de verificación al final del contenido con un enlace directo al <em>hash</em> del <em>commit</em> exacto en GitHub. Para más detalles sobre el proceso técnico de auditoría, consulta la página de <a href="https://elichingon.com/verificar/"  target="_blank" rel="noreferrer">verificación de autenticidad</a>.</p>
+<p><strong>Protocolo de Verificación</strong>: Control de Versiones Git (SHA-1 / SHA-256)</p>
 
 <h2 class="relative group">Sobre los Derechos Morales
     <div id="sobre-los-derechos-morales" class="anchor"></div>
@@ -971,9 +980,9 @@
 </h2>
 <p>Si utiliza nuestros contenidos, le agradecemos usar el siguiente formato:</p>
 <p><strong>Para artículos y traducciones:</strong></p>
-<blockquote><p>&ldquo;Texto original de Richard Wilhelm (dominio público). Traducción al español y artículos por Dailingna Romero / <a href="https://elichingon.com"  target="_blank" rel="noreferrer">elichingon.com</a>, utilizados bajo licencia <a href="https://creativecommons.org/licenses/by/4.0/"  target="_blank" rel="noreferrer">CC BY 4.0</a>.&rdquo;</p>
+<blockquote><p>&ldquo;Texto original de Richard Wilhelm (dominio público). Traducción al español y artículos por Dài Líng Nà / <a href="https://elichingon.com"  target="_blank" rel="noreferrer">elichingon.com</a>, utilizados bajo licencia <a href="https://creativecommons.org/licenses/by/4.0/"  target="_blank" rel="noreferrer">CC BY 4.0</a>.&rdquo;</p>
 </blockquote><p><strong>Para citar un artículo específico:</strong></p>
-<blockquote><p>&ldquo;Romero, D. (2026). [Título del artículo]. elichingon.com. Licencia CC BY 4.0.&rdquo;</p>
+<blockquote><p>&ldquo;Dài Líng Nà. (2026). [Título del artículo]. elichingon.com. Licencia CC BY 4.0.&rdquo;</p>
 </blockquote>
 <h2 class="relative group">Contacto para Dudas sobre Licenciamiento
     <div id="contacto-para-dudas-sobre-licenciamiento" class="anchor"></div>
@@ -987,7 +996,6 @@
 <p>Si desea utilizar contenido de este sitio de una forma no contemplada en estas licencias, o tiene dudas sobre cómo realizar la atribución correctamente, puede contactar a través de:</p>
 <ul>
 <li><strong>Email</strong>: <a href="mailto:contacto@elichingon.com" >contacto@elichingon.com</a></li>
-<li><strong>Nostr</strong>: <code>dailingna@elichingon.com</code></li>
 </ul>
 <hr>
 <p><strong>Última actualización</strong>: 7 de junio de 2026</p>

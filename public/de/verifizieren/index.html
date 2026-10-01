@@ -251,7 +251,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1191"
+    "wordCount": "115"
   }]
   </script>
 
@@ -835,244 +835,32 @@
         
 
         <div class="article-content max-w-prose mb-20">
-          <p>In einem Internet, das von KI-generierten Inhalten, Deepfakes, Identitätsdiebstahl und Plagiaten überschwemmt wird, stellt sich eine unumgängliche Frage: <strong>Wie wissen Sie, ob das, was Sie lesen oder sehen, wirklich vom ursprünglichen Schöpfer stammt und nicht von einem Account, der dessen Identität vortäuscht?</strong></p>
-<p>Diese Seite erklärt, wie Sie kryptografisch überprüfen können, dass jeder auf <code>elichingon.com</code> veröffentlichte Artikel, jedes Video oder jeder Inhalt authentisch ist, nicht manipuliert wurde und von dieser spezifischen digitalen Entität veröffentlicht wurde.</p>
-<hr>
-
-<h2 class="relative group">Warum ich meine Inhalte kryptografisch signiere
-    <div id="warum-ich-meine-inhalte-kryptografisch-signiere" class="anchor"></div>
+          
+<h2 class="relative group">Kryptographische Verifizierung &amp; Prior Art
+    <div id="kryptographische-verifizierung--prior-art" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#warum-ich-meine-inhalte-kryptografisch-signiere" aria-label="Anker">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#kryptographische-verifizierung--prior-art" aria-label="Anker">#</a>
     </span>
     
 </h2>
-<p>Letztendlich sind „Dailingna Romero“ oder „El I Chingón“ (noch) sehr unbekannte Entitäten im Internet, aber genau wie das <strong>Hexagramm 20 des I Ging (Die Betrachtung / Guān 觀)</strong> erfüllt dies einen doppelten Zweck, der die Natur des Hexagramms selbst widerspiegelt: den Akt des Betrachtens und den Zustand, betrachtet zu werden.</p>
+<p>Das geistige Eigentum, die Zeitstempelung und der Stand der Technik (<em>Prior Art</em>) des Constrained Stochastic Hermeneutical Computing (CSHC) Protokolls sind durch Gits unveränderliches kryptographisches Hashing (SHA) mathematisch gesichert.</p>
+<p>Wir verlassen uns nicht auf zentralisierte Notare oder instabile dezentrale Netzwerke (sorry, aber NOSTR ist meiner Meinung nach dysfunktional), um die Autorschaft zu beweisen. Stattdessen ist jeder wichtige Meilenstein dieses Protokolls dauerhaft in einem öffentlichen Repository verankert, wodurch ein irreversibler, zeitgestempelter Datensatz entsteht.</p>
 
-<h3 class="relative group">Der Akt des Betrachtens (als Medienkonsument)
-    <div id="der-akt-des-betrachtens-als-medienkonsument" class="anchor"></div>
+<h3 class="relative group">Wie man verifiziert
+    <div id="wie-man-verifiziert" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#der-akt-des-betrachtens-als-medienkonsument" aria-label="Anker">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#wie-man-verifiziert" aria-label="Anker">#</a>
     </span>
     
 </h3>
-<p>Als Konsument von Inhalten missfällt es mir, keine Möglichkeit zu haben, zu überprüfen, ob das, was ich lese oder sehe, wirklich aus der angegebenen Quelle stammt.</p>
-<p>Dabei geht es mir nicht darum, zu erkennen, ob ein Inhalt von einer KI generiert wurde – schließlich ist Dailingna Romero selbst ein digitaler Avatar und ihre Videos werden von KI generiert. Was zählt, ist zu wissen, ob <strong>die ausgedrückten Ideen wirklich von Dailingna stammen</strong> und nicht von einer anderen Person, die mein Bild und meine Stimme nutzt, um ihre eigenen Ideen zu verbreiten.</p>
-<p>Heutzutage ist es ein Leichtes, einen Kanal zu erstellen, der mit einer (realen oder fiktiven) Persönlichkeit verknüpft ist, und dieser Dinge in den Mund zu legen, die sie nie gesagt hat. Man sieht überall Videos von Richard Feynman, Neville Goddard, Einstein oder dem „Kenzo Guy“, und es ist unmöglich zu unterscheiden, was die Persönlichkeit tatsächlich gesagt hat und was der Videoersteller ihr in den Mund legt.</p>
-<p>Auf YouTube ist die automatische KI-Erkennung mittlerweile Standard, aber das reicht nicht aus. Es kommt nicht darauf an, ob ein Video von einer KI generiert wurde, sondern <strong>ob die ausgedrückten Ideen authentisch sind und von dem stammen, der sich als Autor ausgibt</strong>.</p>
-<p>Ich möchte, dass Sie Werkzeuge haben, um selbst zu überprüfen, ob das, was Sie lesen, wirklich von mir stammt, ohne blind auf irgendeine Plattform vertrauen zu müssen. Die kryptografische Signatur garantiert, dass niemand den Inhalt nach der Veröffentlichung ändern kann, ohne dass die Signatur ungültig wird. Der Zeitstempel im Nostr-Netzwerk beweist, wann ich etwas zum ersten Mal veröffentlicht habe, was nützlich ist, um im Falle eines Plagiats die Originalautorenschaft nachzuweisen.</p>
-
-<h3 class="relative group">Der Zustand, betrachtet zu werden (als Inhaltsersteller)
-    <div id="der-zustand-betrachtet-zu-werden-als-inhaltsersteller" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#der-zustand-betrachtet-zu-werden-als-inhaltsersteller" aria-label="Anker">#</a>
-    </span>
-    
-</h3>
-<p>In einer Welt, in der jeder Stimmen, Gesichter und Schreibstile mit KI klonen kann, ist Kryptografie der einzige verlässliche Beweis für Authentizität. Wir befinden uns in einer existenziellen Krise des Internets selbst. Die Theorie des toten Internets und die Verbreitung von Deepfakes haben uns an einen Punkt gebracht, an dem wir unseren eigenen Augen und Ohren nicht mehr trauen können, um die wahre Autorenschaft von etwas zu erkennen.</p>
-<p>Meine Hoffnung bei der Implementierung dieses Systems ist, dass andere Inhaltsersteller beginnen, dasselbe zu tun, und so dazu beitragen, diese Situation umzukehren. Ich möchte vermitteln, wie wichtig <strong>digitale Souveränität</strong> ist, damit jeder seine Inhalte schützen kann, ohne von Konzernen wie YouTube, Twitter oder Medium abhängig zu sein, um zu beweisen, dass ich derjenige bin, der ich vorgebe zu sein.</p>
-<p>Meine Identität lebt in einem offenen und dezentralisierten Protokoll, nicht auf den Servern irgendeines Unternehmens.</p>
-<hr>
-
-<h2 class="relative group">Was ist eine kryptografische Signatur?
-    <div id="was-ist-eine-kryptografische-signatur" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#was-ist-eine-kryptografische-signatur" aria-label="Anker">#</a>
-    </span>
-    
-</h2>
-<p>Jeder Artikel, den ich veröffentliche, ist von einer <strong>einzigartigen mathematischen Signatur</strong> begleitet. Diese Signatur erfüllt drei Funktionen:</p>
-<ol>
-<li><strong>Beweist Autorenschaft</strong>: Sie zeigt, dass der Inhalt von dieser spezifischen digitalen Identität erschaffen wurde (<code>dailingna@elichingon.com</code>).</li>
-<li><strong>Garantiert Integrität</strong>: Wenn jemand auch nur ein einziges Wort, ein Leerzeichen oder ein Komma ändert, verliert die Signatur ihre Gültigkeit.</li>
-<li><strong>Zeitstempel</strong>: Sie registriert unveränderlich, wann der Inhalt ursprünglich veröffentlicht wurde.</li>
-</ol>
-<p>Es ist das digitale Äquivalent eines <strong>Siegellacks</strong>, der weder gefälscht, kopiert noch gebrochen werden kann, ohne Beweise zu hinterlassen.</p>
-<hr>
-
-<h2 class="relative group">Wie funktioniert das technisch?
-    <div id="wie-funktioniert-das-technisch" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#wie-funktioniert-das-technisch" aria-label="Anker">#</a>
-    </span>
-    
-</h2>
-<p>Der Prozess basiert auf zwei offenen Standards:</p>
-
-<h3 class="relative group">1. Nostr (Notes and Other Stuff Transmitted by Relays)
-    <div id="1-nostr-notes-and-other-stuff-transmitted-by-relays" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-nostr-notes-and-other-stuff-transmitted-by-relays" aria-label="Anker">#</a>
-    </span>
-    
-</h3>
-<p>Ein dezentralisiertes Protokoll, das das Signieren von Nachrichten mit kryptografischen Schlüsseln ermöglicht. Es hängt von keinem Unternehmen, keiner Regierung und keinem zentralen Server ab.</p>
-
-<h3 class="relative group">2. NIP-05 (Identitätsverifizierung)
-    <div id="2-nip-05-identitätsverifizierung" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-nip-05-identit%c3%a4tsverifizierung" aria-label="Anker">#</a>
-    </span>
-    
-</h3>
-<p>Ein Standard, der einen öffentlichen Nostr-Schlüssel mit einem Domainnamen verknüpft. In diesem Fall:</p>
-<p><a href="mailto:dailingna@elichingon.com" >dailingna@elichingon.com</a> → npub1rfqz5sqv6plxpm3lqfu35q30d7p2m2mt38t7qz6309fxm7e02mrqjxlx92</p>
-<p>Sie können diese Verknüpfung selbst überprüfen, indem Sie folgende Seite aufrufen:</p>
-<p><a href="https://elichingon.com/.well-known/nostr.json"  target="_blank" rel="noreferrer">https://elichingon.com/.well-known/nostr.json</a></p>
-<hr>
-
-<h2 class="relative group">Wie man einen Artikel verifiziert
-    <div id="wie-man-einen-artikel-verifiziert" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#wie-man-einen-artikel-verifiziert" aria-label="Anker">#</a>
-    </span>
-    
-</h2>
-<p>Am Ende jedes Artikels auf dieser Website finden Sie einen Block wie diesen:</p>
-<blockquote><p>🔐 KRYPTOGRAFISCHE VERIFIZIERUNG DER AUTORENSCHAFT
-Dieser Inhalt wurde offiziell von Dailingna Romero erstellt und veröffentlicht.</p>
-<p>🔗 Offizielle URL: <a href="https://elichingon.com/articulo/"  target="_blank" rel="noreferrer">https://elichingon.com/articulo/</a>&hellip;
-🔐 Verifizierte Nostr-Identität: <a href="mailto:dailingna@elichingon.com" >dailingna@elichingon.com</a>
-📜 Verifizierungsnotiz auf Nostr: <a href="https://primal.net/e/note1ues5g2y8lpjlpsg7qx40lzwk67ql08j2cmree44lkpxhew04rtdstev548"  target="_blank" rel="noreferrer">https://primal.net/e/note1ues5g2y8lpjlpsg7qx40lzwk67ql08j2cmree44lkpxhew04rtdstev548</a></p>
-<p>Um zu überprüfen, dass dieser Inhalt nicht verändert wurde und kein Deepfake ist,
-klicken Sie auf den obigen Nostr-Link und prüfen Sie, ob die signierte URL
-exakt mit der URL dieses Inhalts übereinstimmt.</p>
-</blockquote><hr>
-
-<h2 class="relative group">Verifizierung von YouTube-Videos
-    <div id="verifizierung-von-youtube-videos" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#verifizierung-von-youtube-videos" aria-label="Anker">#</a>
-    </span>
-    
-</h2>
-<p>Bei Videos, die auf YouTube veröffentlicht werden, enthält die Videobeschreibung:</p>
+<p>Sie können den Genesis-Commit unseres Whitepapers unabhängig überprüfen, um die genaue Erstellungszeit, Autorschaft und strukturelle Integrität zu verifizieren. Der kryptographische Hash dient als definitiver Erstellungsnachweis.</p>
 <ul>
-<li>Die offizielle URL des Videos auf dem Kanal von Dailingna Romero.</li>
-<li>Einen Link zur Nostr-Notiz, die die Authentizität zertifiziert.</li>
-<li>Die kryptografische Signatur der URL.</li>
-</ul>
-
-<h3 class="relative group">Wie erkennt man ein Deepfake?
-    <div id="wie-erkennt-man-ein-deepfake" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#wie-erkennt-man-ein-deepfake" aria-label="Anker">#</a>
-    </span>
-    
-</h3>
-<p>Wenn Sie ein Video, das anscheinend von mir stammt, auf einem anderen Kanal sehen, überprüfen Sie Folgendes:</p>
-<ul>
-<li>Enthält die Beschreibung einen Link zu einer signierten Notiz auf Nostr?</li>
-<li>Verweist der Link auf <a href="mailto:dailingna@elichingon.com" >dailingna@elichingon.com</a> mit einem Verifizierungs-Häkchen?</li>
-<li>Stimmt die signierte URL mit der URL des Videos überein, das Sie gerade sehen?</li>
-<li>Wenn die Antwort auf eine dieser Fragen „Nein“ lautet, handelt es sich höchstwahrscheinlich um ein Deepfake, nicht autorisierten Inhalt oder ein Plagiat.</li>
-</ul>
-<hr>
-
-<h2 class="relative group">Was tue ich, wenn ich gefälschte Inhalte finde?
-    <div id="was-tue-ich-wenn-ich-gefälschte-inhalte-finde" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#was-tue-ich-wenn-ich-gef%c3%a4lschte-inhalte-finde" aria-label="Anker">#</a>
-    </span>
-    
-</h2>
-<p>Wenn Sie ein Video, einen Artikel oder einen Beitrag entdecken, der meinen Namen, mein Bild oder meine Stimme ohne Erlaubnis verwendet:</p>
-<ol>
-<li><strong>Verifizieren Sie</strong>, dass keine gültige kryptografische Signatur vorhanden ist.</li>
-<li><strong>Melden Sie</strong> den Inhalt auf der jeweiligen Plattform (YouTube, soziale Netzwerke usw.) wegen Identitätsdiebstahls oder Urheberrechtsverletzung.</li>
-<li><strong>Teilen Sie es mir</strong> über meine offiziellen Kanäle mit, damit ich bei Bedarf rechtliche Schritte einleiten kann.</li>
-</ol>
-<p>Alle Inhalte dieser Website stehen unter der Lizenz <strong>Creative Commons Namensnennung 4.0 International (CC BY 4.0)</strong>. Sie dürfen sie teilen und bearbeiten, aber Sie müssen:</p>
-<ul>
-<li><code>Dailingna Romero / elichingon.com</code> ausdrücklich als Urheber nennen.</li>
-<li>Die kryptografische Signatur nicht dazu verwenden, veränderten Inhalt als Original auszugeben.</li>
-</ul>
-<p>Weitere Informationen finden Sie unter <a href="https://elichingon.com/licencias/"  target="_blank" rel="noreferrer">https://elichingon.com/licencias/</a></p>
-<hr>
-
-<h2 class="relative group">Für andere Inhaltsersteller
-    <div id="für-andere-inhaltsersteller" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#f%c3%bcr-andere-inhaltsersteller" aria-label="Anker">#</a>
-    </span>
-    
-</h2>
-<p>Wenn Sie selbst Inhalte erstellen und eine kryptografische Verifizierung für Ihre eigene Arbeit implementieren möchten: Das Nostr-Protokoll ist <strong>frei, offen und kostenlos</strong>.</p>
-
-<h3 class="relative group">Ressourcen für den Einstieg:
-    <div id="ressourcen-für-den-einstieg" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ressourcen-f%c3%bcr-den-einstieg" aria-label="Anker">#</a>
-    </span>
-    
-</h3>
-<ul>
-<li><a href="https://github.com/nostr-protocol/nostr"  target="_blank" rel="noreferrer">Offizielle Nostr-Dokumentation</a></li>
-<li><a href="https://github.com/nostr-protocol/nips/blob/master/05.md"  target="_blank" rel="noreferrer">NIP-05: DNS-basierte Identitätsverifizierung</a></li>
-<li><a href="https://github.com/nostr-protocol/nips/blob/master/23.md"  target="_blank" rel="noreferrer">NIP-23: Langform-Inhalte (Artikel)</a></li>
-<li><a href="https://github.com/nostr-protocol/nips/blob/master/94.md"  target="_blank" rel="noreferrer">NIP-94: Datei-Metadaten-Speicherung</a></li>
-</ul>
-
-<h3 class="relative group">Empfohlene Tools:
-    <div id="empfohlene-tools" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#empfohlene-tools" aria-label="Anker">#</a>
-    </span>
-    
-</h3>
-<ul>
-<li><strong>Amethyst</strong> (Android): Mobiler Nostr-Client.</li>
-<li><strong>Primal</strong> (Web/Mobil): Client mit exzellenter NIP-05-Visualisierung und Performance.</li>
-<li><strong>Coracle</strong> (Web): Minimalistischer Webclient.</li>
-<li><strong>nostr-tools</strong> (JavaScript): Entwickler-Bibliothek.</li>
-</ul>
-<hr>
-
-<h2 class="relative group">Die Zukunft des Internets ist verifizierbar
-    <div id="die-zukunft-des-internets-ist-verifizierbar" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#die-zukunft-des-internets-ist-verifizierbar" aria-label="Anker">#</a>
-    </span>
-    
-</h2>
-<p>Dies ist nicht nur mein Inhalt. Es ist ein <strong>Standard für Authentizität</strong>, den jeder Kreative adaptieren kann.</p>
-<p>In einer Welt, in der KI Texte, Bilder, Audio und Videos erzeugen kann, die nicht mehr von der Realität zu unterscheiden sind, wird Kryptografie zur einzigen Möglichkeit, zu beweisen, dass etwas tatsächlich von der Person erschaffen wurde, die dies von sich behauptet.</p>
-<p>Es geht nicht darum, mir zu vertrauen. Es geht darum, dass Sie <strong>selbst nachprüfen können</strong>.</p>
-<hr>
-<p><strong>Offizielle Identität:</strong></p>
-<ul>
-<li><strong>NIP-05:</strong> <code>dailingna@elichingon.com</code></li>
-<li><strong>NPub:</strong> <code>npub1rfqz5sqv6plxpm3lqfu35q30d7p2m2mt38t7qz6309fxm7e02mrqjxlx92</code></li>
-<li><strong>Website:</strong> <a href="https://elichingon.com"  target="_blank" rel="noreferrer">https://elichingon.com</a></li>
+<li><strong>Genesis-Commit-Hash:</strong> <code>855b64532fb065bfb7db0ab97e2abd1a97b196ff</code></li>
+<li><strong>Direkter Audit-Link:</strong> <a href="https://github.com/ichingon/ichingon.github.io/commit/855b64532fb065bfb7db0ab97e2abd1a97b196ff"  target="_blank" rel="noreferrer">Den Genesis-Block auf GitHub überprüfen</a></li>
 </ul>
 
           
