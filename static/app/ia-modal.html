@@ -279,7 +279,9 @@
       resultTitle: "El Oráculo ha hablado",
       creditsMsg: "Créditos restantes en tu Gift Card: ",
       btnPdf: "📄 Descargar Reporte PDF",
-      btnClose: "Cerrar"
+      btnClose: "Cerrar",
+      promptTopic: "Tema de consulta: ",
+      promptContext: "\nContexto adicional: "
     },
     en: {
       title: "AI-Assisted Interpretation",
@@ -301,7 +303,9 @@
       resultTitle: "The Oracle has spoken",
       creditsMsg: "Remaining credits on your Gift Card: ",
       btnPdf: "📄 Download PDF Report",
-      btnClose: "Close"
+      btnClose: "Close",
+      promptTopic: "Consultation Topic: ",
+      promptContext: "\nAdditional context: "
     },
     de: {
       title: "KI-gestützte Interpretation",
@@ -323,7 +327,9 @@
       resultTitle: "Das Orakel hat gesprochen",
       creditsMsg: "Verbleibende Credits auf deiner Gift Card: ",
       btnPdf: "📄 PDF-Bericht herunterladen",
-      btnClose: "Schließen"
+      btnClose: "Schließen",
+      promptTopic: "Thema der Konsultation: ",
+      promptContext: "\nZusätzlicher Kontext: "
     }
   };
 
@@ -379,9 +385,25 @@
     document.getElementById('aiFormContainer').style.display = 'none';
     document.getElementById('loadingState').style.display = 'block';
 
-    // Se unifican el título y el contexto en un solo bloque coherente para la IA
-    const finalQuestion = "Tema de consulta: " + titleVal + (contextVal ? "\nContexto adicional: " + contextVal : "");
+    // Se unifican el título y el contexto usando las variables traducidas
+    const finalQuestion = t.promptTopic + titleVal + (contextVal ? t.promptContext + contextVal : "");
 
+    // Determinar el método y modo exacto leyendo el estado de la ventana padre
+    let metodoNormalizado = 'monedas';
+    let modoNormalizado = 'progresivo';
+
+    if (window.parent && window.parent.appState) {
+      const state = window.parent.appState;
+      if (state.entryType === 'manual' || rawTirada.method === 'manual') {
+        metodoNormalizado = 'manual';
+        modoNormalizado = 'manual';
+      } else {
+        if (state.method === 'yarrow' || rawTirada.method === 'yarrow') metodoNormalizado = 'varillas';
+        if (state.mode === 'final' || rawTirada.mode === 'final') modoNormalizado = 'final';
+      }
+    }
+
+    // Se eliminó el "pais: 'VE'" duro, y se usan las variables normalizadas
     const payload = {
       code: codeVal,
       question: finalQuestion,
@@ -389,9 +411,8 @@
       moving_lines: rawTirada.changingLines || [],
       future_hexagram: rawTirada.derivedHexagram || null,
       language: lang,
-      pais: "VE", 
-      metodo: rawTirada.method || "monedas",
-      modo: rawTirada.mode || "progressive"
+      metodo: metodoNormalizado,
+      modo: modoNormalizado
     };
 
     const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';

@@ -526,7 +526,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2026-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -546,8 +546,29 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/articulos/i-chingon-whitepaper/</loc>
+    <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/constrained-stochastic-hermeneutical-computing-a-kinesthetic-entropy-i-ching-protocol/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/eingeschr%C3%A4nktes-stochastisches-hermeneutisches-rechnen-ein-kin%C3%A4sthetisch-entropisches-i-ging-protokoll/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/i-chingon-whitepaper/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
