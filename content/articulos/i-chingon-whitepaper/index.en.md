@@ -9,6 +9,7 @@ description: "Introducing Constrained Stochastic Hermeneutical Computing (CSHC):
 summary: "This white paper outlines Constrained Stochastic Hermeneutical Computing (CSHC), a framework that strips mysticism from the I Ching to deploy it as a finite-state reasoning engine."
 math: true
 draft: false
+slug: "i-chingon-whitepaper"
 ---
 
 **Abstract.** We propose a decentralized, non-deterministic decision-making framework - Constrained Stochastic Hermeneutical Computing (CSHC) - that resolves the inherent sycophancy of commercial Large Language Models (LLMs) and the deterministic limitations of pseudo-random number generation. By utilizing Kinesthetic Entropy Capture (KEC) to harness physical human movement, the system establishes a hardware-level filter against cognitive bias and ego projection. This raw entropy is processed through a finite-state reasoning engine based on the I Ching, mapping the data onto a 4,096-state semantic vector space to compute structural causality. Finally, an edge-computed, strictly constrained LLM acts as a neutral hermeneutic translator, bridging the algorithmic output with the user's context. The result is a mathematically rigorous, privacy-first protocol that processes physical chaos into actionable insight without centralized data extraction or AI adulation.
