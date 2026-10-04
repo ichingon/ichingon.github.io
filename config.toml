@@ -42,6 +42,9 @@ enableRobotsTXT = true
     name = "Dài Líng Nà (黛灵娜)"
     photo = "img/author"
 
+[params.favicons]
+    src="img/logo.png"
+
 # 2. Personalización Visual del Menú
 [params.header]
   layout = "basic"
