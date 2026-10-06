@@ -13,3 +13,5 @@ Here, we explore the Book of Changes not from vague mysticism or "new age" falla
 But we also keep our feet firmly on the ground: if this does not help make your life a little better, or help you grasp the underlying dynamics of your reality, it serves no purpose."
 
 {{< youtube-short "3lNXdLAGa_Q" "Website presentation" >}}
+
+{{< popup-ia >}}

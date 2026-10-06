@@ -193,7 +193,6 @@
 
     <form id="aiRequestForm" onsubmit="window.enviarSolicitudIA(event)">
       
-      <!-- NUEVO CAMPO: Título de la Consulta -->
       <div class="form-group">
         <label class="form-label" id="lblModalTitleField">Título de la Consulta:</label>
         <input type="text" id="modalConsultationTitle" class="form-input" required autocomplete="off" placeholder="Ej: Dilema laboral">
@@ -203,13 +202,20 @@
         <label class="form-label" id="lblContextTitle">Contexto detallado de tu situación (Opcional):</label>
         <textarea id="userContext" class="form-textarea" maxlength="800" placeholder="Ej: Estoy evaluando cambiar de empleo pero me preocupa la estabilidad familiar..."></textarea>
         
-        <div class="help-box" id="helpBoxText">
-          <strong>💡 Tip para una mejor lectura:</strong> Describe el contexto de tu tirada. El oráculo ha expuesto las fuerzas en juego; la IA, como cualquier interprete humano, necesita conocer tu dilema real para traducir esas fuerzas a tu situación práctica. Evita preguntas de 'sí o no'.
-        </div>
+        <div class="help-box" id="helpBoxText"></div>
+      </div>
+
+      <!-- NUEVO: Contenedor Dinámico de Reclamo Gratis -->
+      <div id="free-claim-container" style="margin-bottom: 16px; background: rgba(238, 238, 85, 0.05); border: 1px dashed rgba(238, 238, 85, 0.3); padding: 12px; border-radius: 4px; text-align: center;">
+        <p id="status-message" style="font-weight: bold; margin: 0 0 8px 0; color: #ca8a04; font-size: 0.85rem;"></p>
+        <button id="claim-free-btn" type="button" disabled style="background-color: #eab308; color: #1f2937; font-weight: bold; padding: 8px 12px; border: none; border-radius: 4px; cursor: not-allowed; opacity: 0.6; width: 100%; font-size: 0.85rem;">
+          ✨ Reclamar consulta gratis
+        </button>
+        <p id="claim-message" style="font-size: 0.8rem; margin: 8px 0 0 0; display: none;"></p>
       </div>
 
       <div class="form-group">
-        <label class="form-label" id="lblCodeTitle">Código de Gift Card:</label>
+        <label class="form-label" id="lblCodeTitle">O usa un Código manual (si tienes uno):</label>
         <input type="text" id="giftCode" class="form-input" required autocomplete="off" placeholder="Ej: DAILINGNA-XXXX-XXXX">
         <div id="codeError" class="error-msg"></div>
       </div>
@@ -227,7 +233,7 @@
     </form>
   </div>
 
-  <!-- VISTA 2: Estado de Carga (Animación WebP) -->
+  <!-- VISTA 2: Estado de Carga -->
   <div id="loadingState">
     <img class="loading-video" src="/video/hidden_dragon.webp" alt="黛靈娜 contemplando las líneas">
     <div class="loading-text" id="lblLoadingText">
@@ -281,7 +287,16 @@
       btnPdf: "📄 Descargar Reporte PDF",
       btnClose: "Cerrar",
       promptTopic: "Tema de consulta: ",
-      promptContext: "\nContexto adicional: "
+      promptContext: "\nContexto adicional: ",
+      lblManualCode: "O ingresa tu código de Gift Card manualmente:",
+      statusChecking: "Verificando cupos diarios...",
+      statusClaimed: "Ya usaste tu cupo de hoy. ¡Vuelve mañana!",
+      statusAvailable: "🟢 Quedan {n} consultas gratuitas hoy.",
+      statusEmpty: "🔴 Se agotaron los 10 cupos. Vuelve mañana.",
+      btnClaimFree: "✨ Reclamar cupo gratis",
+      msgClaiming: "Reclamando...",
+      msgSuccess: "¡Cupo reclamado! Procesando...",
+      msgError: "Los cupos se agotaron o hubo un error."
     },
     en: {
       title: "AI-Assisted Interpretation",
@@ -305,7 +320,16 @@
       btnPdf: "📄 Download PDF Report",
       btnClose: "Close",
       promptTopic: "Consultation Topic: ",
-      promptContext: "\nAdditional context: "
+      promptContext: "\nAdditional context: ",
+      lblManualCode: "Or enter your Gift Card code manually:",
+      statusChecking: "Checking daily availability...",
+      statusClaimed: "You have used your free daily slot. Come back tomorrow!",
+      statusAvailable: "🟢 {n} free consultations left today.",
+      statusEmpty: "🔴 All 10 daily slots are gone. Come back tomorrow.",
+      btnClaimFree: "✨ Claim free consultation",
+      msgClaiming: "Claiming...",
+      msgSuccess: "Successfully claimed! Processing...",
+      msgError: "Slots are depleted or a network error occurred."
     },
     de: {
       title: "KI-gestützte Interpretation",
@@ -329,7 +353,16 @@
       btnPdf: "📄 PDF-Bericht herunterladen",
       btnClose: "Schließen",
       promptTopic: "Thema der Konsultation: ",
-      promptContext: "\nZusätzlicher Kontext: "
+      promptContext: "\nZusätzlicher Kontext: ",
+      lblManualCode: "Oder gib deinen Gift Card Code manuell ein:",
+      statusChecking: "Tägliche Verfügbarkeit wird geprüft...",
+      statusClaimed: "Du hast deinen heutigen Platz bereits genutzt. Komm morgen wieder!",
+      statusAvailable: "🟢 Heute noch {n} kostenlose Konsultationen verfügbar.",
+      statusEmpty: "🔴 Alle 10 Plätze sind belegt. Komm morgen wieder.",
+      btnClaimFree: "✨ Kostenlose Konsultation anfordern",
+      msgClaiming: "Anfordern...",
+      msgSuccess: "Erfolgreich angefordert! Wird verarbeitet...",
+      msgError: "Plätze sind erschöpft oder Netzwerkfehler."
     }
   };
 
@@ -341,7 +374,6 @@
   document.getElementById('lblContextTitle').innerText = t.contextTitle;
   document.getElementById('userContext').placeholder = t.contextPlaceholder;
   document.getElementById('helpBoxText').innerHTML = t.tip;
-  document.getElementById('lblCodeTitle').innerText = t.codeTitle;
   document.getElementById('lblDisclaimer').innerText = t.disclaimer;
   document.getElementById('lblTerms').innerHTML = t.terms;
   document.getElementById('btnSubmitAi').innerText = t.btn;
@@ -350,7 +382,89 @@
   document.getElementById('btnDownloadPdf').innerText = t.btnPdf;
   document.getElementById('btnCloseModal').innerText = t.btnClose;
 
-  // Pre-carga del título original desde la ventana principal
+  // Lógica del Reclamo Diario
+  document.getElementById('lblCodeTitle').innerText = t.lblManualCode;
+  const statusMsg = document.getElementById('status-message');
+  const claimBtn = document.getElementById('claim-free-btn');
+  const claimMsg = document.getElementById('claim-message');
+  const giftCodeInput = document.getElementById('giftCode');
+
+  statusMsg.innerText = t.statusChecking;
+  claimBtn.innerText = t.btnClaimFree;
+
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const lastClaimDate = localStorage.getItem("free_claimed_date");
+
+  async function checkAvailability() {
+    try {
+      const response = await fetch("/api/daily-status");
+      const data = await response.json();
+      
+      if (lastClaimDate === todayStr) {
+        statusMsg.textContent = t.statusClaimed;
+        statusMsg.style.color = "#854d0e";
+        claimBtn.style.display = "none";
+      } else if (data.available > 0) {
+        statusMsg.textContent = t.statusAvailable.replace('{n}', data.available);
+        statusMsg.style.color = "#166534";
+        claimBtn.disabled = false;
+        claimBtn.style.cursor = "pointer";
+        claimBtn.style.opacity = "1";
+      } else {
+        statusMsg.textContent = t.statusEmpty;
+        statusMsg.style.color = "#991b1b";
+        claimBtn.style.display = "none";
+      }
+    } catch (e) {
+      statusMsg.style.display = "none";
+      claimBtn.style.display = "none";
+    }
+  }
+  checkAvailability();
+
+  if (claimBtn) {
+    claimBtn.addEventListener('click', async () => {
+      claimBtn.disabled = true;
+      claimBtn.innerText = t.msgClaiming;
+      claimBtn.style.opacity = "0.6";
+      claimBtn.style.cursor = "wait";
+
+      try {
+        const response = await fetch("/api/claim-daily");
+        const data = await response.json();
+        
+        if (data.success && data.code) {
+           giftCodeInput.value = data.code;
+           localStorage.setItem("free_claimed_date", todayStr);
+           
+           claimBtn.style.display = "none";
+           statusMsg.style.display = "none";
+           claimMsg.style.color = "#166534";
+           claimMsg.textContent = t.msgSuccess;
+           claimMsg.style.display = "block";
+           
+           setTimeout(() => {
+             document.getElementById('btnSubmitAi').click();
+           }, 800);
+        } else {
+           claimBtn.style.display = "none";
+           statusMsg.style.display = "none";
+           claimMsg.style.color = "#991b1b";
+           claimMsg.textContent = data.error || t.msgError;
+           claimMsg.style.display = "block";
+        }
+      } catch(e) {
+         claimBtn.disabled = false;
+         claimBtn.innerText = t.btnClaimFree;
+         claimBtn.style.opacity = "1";
+         claimBtn.style.cursor = "pointer";
+         claimMsg.style.color = "#991b1b";
+         claimMsg.textContent = t.msgError;
+         claimMsg.style.display = "block";
+      }
+    });
+  }
+
   if (window.parent && window.parent.appState && window.parent.appState.consultationTitle) {
     document.getElementById('modalConsultationTitle').value = window.parent.appState.consultationTitle;
   }
@@ -385,10 +499,8 @@
     document.getElementById('aiFormContainer').style.display = 'none';
     document.getElementById('loadingState').style.display = 'block';
 
-    // Se unifican el título y el contexto usando las variables traducidas
     const finalQuestion = t.promptTopic + titleVal + (contextVal ? t.promptContext + contextVal : "");
 
-    // Determinar el método y modo exacto leyendo el estado de la ventana padre
     let metodoNormalizado = 'monedas';
     let modoNormalizado = 'progresivo';
 
@@ -403,7 +515,6 @@
       }
     }
 
-    // Se eliminó el "pais: 'VE'" duro, y se usan las variables normalizadas
     const payload = {
       code: codeVal,
       question: finalQuestion,
@@ -442,7 +553,6 @@
         document.getElementById('aiResponseText').textContent = textoRespuesta;
         
       } else {
-        // En caso de error, regresamos a la vista inicial del modal para permitir correcciones
         document.getElementById('loadingState').style.display = 'none';
         document.getElementById('aiFormContainer').style.display = 'block';
 

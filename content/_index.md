@@ -13,3 +13,5 @@ Aquí exploramos el Libro de los Cambios no desde el misticismo difuso o las fal
 Pero también manteniendo los pies sobre la tierra: si esto no sirve para hacer tu vida un poco mejor o para ayudarte a concientizar las dinamicas subyacentes de tu realidad, no sirve para nada.
 
 {{< youtube-short "STGCMii1iuk" "Presentación del sitio" >}}
+
+{{< popup-ia >}}

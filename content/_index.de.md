@@ -13,3 +13,5 @@ Hier erkunden wir das Buch der Wandlungen nicht aus diffusem Mystizismus oder de
 Aber immer mit beiden Beinen auf dem Boden: Wenn dies nicht dazu dient, dein Leben ein kleines bisschen besser zu machen oder dir zu helfen, die zugrundeliegenden Dynamiken deiner Realität bewusst zu machen, dann nützt es nichts.
 
 {{< youtube-short "rgToMd5pUbo" "Vorstellung der Website" >}}
+
+{{< popup-ia >}}

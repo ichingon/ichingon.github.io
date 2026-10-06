@@ -144,11 +144,11 @@
         
         <p style="margin: 6px 0 12px 0; font-size: 0.82rem; line-height: 1.45; color: #ccc;">
           {{ if eq .Language.Lang "de" }}
-            Unsere KI übersetzt die archaische Sprache des I Ging in klare Begriffe, die auf den Kontext deiner Frage abgestimmt sind und die du verstehen kannst. Da wir uns in der Beta-Phase befinden, verschenken wir Gift Card Codes, um das System zu testen. Schreibe an <b>dailingna@elichingon.com</b>, um deinen Gift Card Code kostenlos zu erhalten.
+            Unsere KI übersetzt die archaische Sprache des I Ging in klare Begriffe, die auf den Kontext deiner Frage abgestimmt sind. Wir bieten 10 kostenlose tägliche Konsultationen an (Noch <strong id="contador-fuera" style="color: #eab308;">10</strong> heute verfügbar). Klicke auf die Schaltfläche unten, um deinen Platz zu beanspruchen oder deinen eigenen Gift Card Code zu verwenden.
           {{ else if eq .Language.Lang "en" }}
-            Our AI translates the archaic language of the I Ching into clear terms ajusted to the context of your question that you can understand. As we are in Beta, we are gifting Gift Card codes to test the system. Email <b>dailingna@elichingon.com</b> to get your Gift Card code for free.
+            Our AI translates the archaic language of the I Ching into clear terms adjusted to the context of your question. We offer 10 free daily consultations (<strong id="contador-fuera" style="color: #eab308;">10</strong> available today). Click the button below to claim yours or use your own Gift Card code.
           {{ else }}
-            Nuestra IA traduce el idioma arcaico del I Ching a un lenguaje claro ajustado al contexto de tu pregunta que puedas entender. Al estar en fase Beta, estamos obsequiando códigos de Gift Card para probar el sistema. Escribe a <b>dailingna@elichingon.com</b> para recibir tu código de Gift Card sin costo.
+            Nuestra IA traduce el idioma arcaico del I Ching a un lenguaje claro ajustado al contexto de tu pregunta. Ofrecemos 10 consultas gratuitas cada día (quedan <strong id="contador-fuera" style="color: #eab308;">10</strong> disponibles hoy). Haz clic en el botón de abajo para reclamar la tuya o usar tu propio código de Gift Card.
           {{ end }}
         </p>
         
@@ -1037,5 +1037,25 @@
   };
 })();
 /*]]>*/
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    try {
+      const response = await fetch("/api/daily-status");
+      const data = await response.json();
+      
+      const contadorEl = document.getElementById("contador-fuera");
+      if (contadorEl && data.available !== undefined) {
+        contadorEl.innerText = data.available;
+        
+        if (data.available === 0) {
+          contadorEl.style.color = "#ef4444"; 
+        }
+      }
+    } catch (e) {
+      console.warn("No se pudo cargar el contador de cupos.");
+    }
+  });
 </script>
 {{ end }}

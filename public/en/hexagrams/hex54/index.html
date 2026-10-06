@@ -1057,7 +1057,22 @@ Nothing that would be furthered.</p>
   
   
     
-<button id="pwa-share-btn" class="fixed bottom-6 left-6 z-50 flex items-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-transform scale-100 rounded-full shadow-lg bg-primary-600 hover:bg-primary-700 hover:scale-105 active:scale-95" aria-label="Compartir página">
+
+
+
+
+
+  
+  
+  
+
+
+
+<button id="pwa-share-btn" 
+  data-share-text="Check this out on El I Chingón:"
+  data-copied-text="Copied!"
+  class="fixed bottom-6 left-6 z-50 flex items-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-transform scale-100 rounded-full shadow-lg bg-primary-600 hover:bg-primary-700 hover:scale-105 active:scale-95" 
+  aria-label="Share página">
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="18" cy="5" r="3"></circle>
     <circle cx="6" cy="12" r="3"></circle>
@@ -1065,19 +1080,24 @@ Nothing that would be furthered.</p>
     <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
     <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
   </svg>
-  <span class="hidden sm:inline">Compartir</span>
+  <span id="pwa-share-text" class="hidden sm:inline">Share</span>
 </button>
 
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const shareBtn = document.getElementById("pwa-share-btn");
+    const spanText = document.getElementById("pwa-share-text");
     
     if (shareBtn) {
+      const shareMessage = shareBtn.getAttribute("data-share-text");
+      const copiedMessage = shareBtn.getAttribute("data-copied-text");
+      const originalBtnText = spanText ? spanText.innerHTML : "";
+
       shareBtn.addEventListener("click", async () => {
         const shareData = {
           title: document.title,
-          text: "Mira esto en El I Chingón:",
+          text: shareMessage,
           url: window.location.href 
         };
 
@@ -1090,10 +1110,14 @@ Nothing that would be furthered.</p>
         } else {
           try {
             await navigator.clipboard.writeText(shareData.url);
-            
-            const originalText = shareBtn.innerHTML;
-            shareBtn.innerHTML = "¡Copiado!";
-            setTimeout(() => { shareBtn.innerHTML = originalText; }, 2000);
+            if (spanText) {
+              spanText.innerHTML = copiedMessage;
+              spanText.classList.remove("hidden"); 
+              setTimeout(() => { 
+                spanText.innerHTML = originalBtnText; 
+                spanText.classList.add("hidden", "sm:inline"); 
+              }, 2000);
+            }
           } catch (err) {
             console.error("No se pudo copiar el enlace", err);
           }

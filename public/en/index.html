@@ -772,6 +772,77 @@
   }
 </style>
 
+<div id="promoIaPopup" style="display: none; position: fixed; bottom: 20px; right: 20px; background: rgba(20, 20, 20, 0.98); border: 1px solid #eab308; border-radius: 6px; padding: 16px; z-index: 99999; box-shadow: 0 8px 24px rgba(0,0,0,0.6); width: calc(100% - 40px); max-width: 320px; font-family: system-ui, -apple-system, sans-serif; color: #eee; flex-direction: column; gap: 12px; opacity: 0; transform: translateY(20px); transition: opacity 0.4s ease, transform 0.4s ease; box-sizing: border-box;">
+  
+  
+  <button onclick="window.cerrarPromoIa(event)" style="position: absolute; top: 6px; right: 8px; background: transparent; border: none; color: #888; font-size: 1.4rem; cursor: pointer; line-height: 1; padding: 0;">&times;</button>
+  
+  
+  <div style="display: flex; gap: 12px; align-items: center; margin-top: 4px;">
+    <img src="/video/hidden_dragon.webp" alt="I Ching IA" style="width: 75px; height: 75px; object-fit: cover; border-radius: 4px; border: 1px solid #444; flex-shrink: 0;">
+    
+    <div style="font-size: 0.85rem; line-height: 1.4;">
+      
+        <strong id="promo-contador" style="color: #eab308; font-size: 1.1rem;">...</strong> free I Ching consultations with AI-assisted interpretation left today!
+      
+    </div>
+  </div>
+  
+  
+  <a href="http://localhost:1313/en/iching-consultation/" onclick="window.cerrarPromoIa(event)" style="display: block; text-align: center; background: #eab308; color: #111; font-weight: 600; padding: 8px; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: opacity 0.2s;">
+    Consult now ✨
+  </a>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const today = new Date().toISOString().slice(0, 10);
+    const lastClosed = localStorage.getItem("promo_ia_closed_date");
+    const lastClaim = localStorage.getItem("free_claimed_date");
+
+    if (lastClosed === today || lastClaim === today) return;
+
+    try {
+      const response = await fetch("/api/daily-status");
+      const data = await response.json();
+      
+      
+      if (data.available !== undefined && data.available > 0) {
+        const contadorEl = document.getElementById("promo-contador");
+        if (contadorEl) contadorEl.innerText = data.available;
+        
+        const popup = document.getElementById("promoIaPopup");
+        popup.style.display = "flex";
+        
+        setTimeout(() => {
+          popup.style.opacity = "1";
+          popup.style.transform = "translateY(0)";
+        }, 100);
+      }
+    } catch (e) {
+      console.warn("No se pudo cargar el estado de la promo IA.");
+    }
+  });
+
+  window.cerrarPromoIa = function(e) {
+    
+    if (e && e.target.tagName === 'BUTTON') {
+      e.preventDefault();
+    }
+    
+    const popup = document.getElementById("promoIaPopup");
+    popup.style.opacity = "0";
+    popup.style.transform = "translateY(20px)";
+    
+    setTimeout(() => {
+      popup.style.display = "none";
+    }, 400);
+
+    const today = new Date().toISOString().slice(0, 10);
+    localStorage.setItem("promo_ia_closed_date", today);
+  };
+</script>
+
   </section>
 </article>
 
