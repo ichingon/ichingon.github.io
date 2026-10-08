@@ -24,14 +24,45 @@
   .modal-wrapper {
     width: 100%;
     max-width: 480px;
-    background: rgba(20, 20, 20, 0.95);
-    border: 1px solid #333;
+    background: rgba(20, 20, 20, 0.98);
+    border: 1px solid #444;
     padding: 24px;
     border-radius: 4px;
     box-sizing: border-box;
+    position: relative; /* Clave para el posicionamiento absoluto del botón */
   }
 
-  .title { font-size: 1.2rem; margin: 0 0 6px 0; text-align: center; color: #fff; }
+  /* Botón de cierre absoluto garantizado en la esquina */
+  .close-btn-abs {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #222;
+    border: 1px solid #666;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .close-btn-abs:hover {
+    background: #ef4444;
+    border-color: #f87171;
+  }
+
+  .modal-header {
+    margin-bottom: 6px;
+    padding-right: 30px; /* Espacio para que el título largo no pise el botón absoluto */
+  }
+
+  .title { font-size: 1.1rem; margin: 0; color: #fff; text-align: center; }
   .subtitle { font-size: 0.8rem; color: #888; text-align: center; margin-bottom: 20px; line-height: 1.4; }
 
   .form-group { margin-bottom: 16px; }
@@ -122,11 +153,8 @@
   }
   .btn-secondary:hover { background: rgba(255, 255, 255, 0.05); }
 
-  #loadingState, #resultState {
-    display: none;
-    text-align: center;
-    padding: 10px 0;
-  }
+  .modal-view { display: none; }
+  .modal-view.active { display: block; }
   
   .loading-video {
     width: 100%;
@@ -182,13 +210,17 @@
   }
 </style>
 </head>
-<body>
+<body onclick="if(event.target === this) window.cerrarModal();">
 
 <div class="modal-wrapper">
   
   <!-- VISTA 1: Formulario de Solicitud de IA -->
-  <div id="aiFormContainer">
-    <h1 class="title" id="lblTitle">Interpretación Asistida por IA</h1>
+  <div id="aiFormContainer" class="modal-view active">
+    <button type="button" class="close-btn-abs" onclick="window.cerrarModal()" aria-label="Cerrar">&times;</button>
+    
+    <div class="modal-header">
+      <h1 class="title" id="lblTitle">Interpretación Asistida por IA</h1>
+    </div>
     <p class="subtitle" id="lblSubtitle">Conecta el oráculo con la realidad de tu pregunta a través del motor de 黛靈娜 (Costo: 1 Crédito).</p>
 
     <form id="aiRequestForm" onsubmit="window.enviarSolicitudIA(event)">
@@ -205,7 +237,7 @@
         <div class="help-box" id="helpBoxText"></div>
       </div>
 
-      <!-- NUEVO: Contenedor Dinámico de Reclamo Gratis -->
+      <!-- Contenedor Dinámico de Reclamo Gratis -->
       <div id="free-claim-container" style="margin-bottom: 16px; background: rgba(238, 238, 85, 0.05); border: 1px dashed rgba(238, 238, 85, 0.3); padding: 12px; border-radius: 4px; text-align: center;">
         <p id="status-message" style="font-weight: bold; margin: 0 0 8px 0; color: #ca8a04; font-size: 0.85rem;"></p>
         <button id="claim-free-btn" type="button" disabled style="background-color: #eab308; color: #1f2937; font-weight: bold; padding: 8px 12px; border: none; border-radius: 4px; cursor: not-allowed; opacity: 0.6; width: 100%; font-size: 0.85rem;">
@@ -234,7 +266,9 @@
   </div>
 
   <!-- VISTA 2: Estado de Carga -->
-  <div id="loadingState">
+  <div id="loadingState" class="modal-view">
+    <button type="button" class="close-btn-abs" onclick="window.cerrarModal()" aria-label="Cerrar">&times;</button>
+    <div style="height: 15px;"></div>
     <img class="loading-video" src="/video/hidden_dragon.webp" alt="黛靈娜 contemplando las líneas">
     <div class="loading-text" id="lblLoadingText">
       黛靈娜 está contemplando las líneas... Por favor, no cierres ni actualices esta ventana.
@@ -242,8 +276,11 @@
   </div>
 
   <!-- VISTA 3: Lectura Encapsulada y Generación de PDF -->
-  <div id="resultState">
-    <h2 class="title" id="lblResultTitle" style="color: var(--app-accent, #eeee55); margin-bottom: 10px;">El Oráculo ha hablado</h2>
+  <div id="resultState" class="modal-view">
+    <button type="button" class="close-btn-abs" onclick="window.cerrarModal()" aria-label="Cerrar">&times;</button>
+    <div class="modal-header">
+      <h2 class="title" id="lblResultTitle" style="color: var(--app-accent, #eeee55);">El Oráculo ha hablado</h2>
+    </div>
     
     <div id="creditsRemainingMsg" class="credits-info"></div>
     
@@ -382,7 +419,11 @@
   document.getElementById('btnDownloadPdf').innerText = t.btnPdf;
   document.getElementById('btnCloseModal').innerText = t.btnClose;
 
-  // Lógica del Reclamo Diario
+  function cambiarVista(vistaId) {
+    document.querySelectorAll('.modal-view').forEach(el => el.classList.remove('active'));
+    document.getElementById(vistaId).classList.add('active');
+  }
+
   document.getElementById('lblCodeTitle').innerText = t.lblManualCode;
   const statusMsg = document.getElementById('status-message');
   const claimBtn = document.getElementById('claim-free-btn');
@@ -496,8 +537,7 @@
       return;
     }
 
-    document.getElementById('aiFormContainer').style.display = 'none';
-    document.getElementById('loadingState').style.display = 'block';
+    cambiarVista('loadingState');
 
     const finalQuestion = t.promptTopic + titleVal + (contextVal ? t.promptContext + contextVal : "");
 
@@ -542,8 +582,7 @@
         currentAiResult = result;
         currentAiResult.question = finalQuestion;
         
-        document.getElementById('loadingState').style.display = 'none';
-        document.getElementById('resultState').style.display = 'block';
+        cambiarVista('resultState');
         
         if (result.remaining_credits !== undefined) {
           document.getElementById('creditsRemainingMsg').textContent = t.creditsMsg + result.remaining_credits;
@@ -553,8 +592,7 @@
         document.getElementById('aiResponseText').textContent = textoRespuesta;
         
       } else {
-        document.getElementById('loadingState').style.display = 'none';
-        document.getElementById('aiFormContainer').style.display = 'block';
+        cambiarVista('aiFormContainer');
 
         let msg = t.errServer;
         if (result.error === 'gift_card_invalid') msg = t.errInvalid;
@@ -573,8 +611,7 @@
       }
 
     } catch (err) {
-      document.getElementById('loadingState').style.display = 'none';
-      document.getElementById('aiFormContainer').style.display = 'block';
+      cambiarVista('aiFormContainer');
       errorDiv.textContent = "Error técnico: " + err.message;
       errorDiv.style.display = 'block';
     }
@@ -591,6 +628,8 @@
   };
 
 })();
+
+  
 </script>
 
 </body>
