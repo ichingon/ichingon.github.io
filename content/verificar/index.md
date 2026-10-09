@@ -1,7 +1,7 @@
 ---
 title: "Verificación de autenticidad"
 translationKey: "verificar"
-description: "Cómo verificar criptográficamente que el contenido de elichingon.com es auténtico, no ha sido alterado y proviene realmente de Dailingna Romero."
+description: "Cómo verificar criptográficamente que el contenido de elichingon.com es auténtico, no ha sido alterado y proviene realmente de Dài Líng Nà (黛灵娜)."
 date: 2026-06-07
 draft: false
 showDate: false

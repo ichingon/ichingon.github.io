@@ -206,6 +206,8 @@ Now, write the interpretation following all these guidelines.
 
 This is probably not the definitive version of the prompt, but it has yielded very good results so far in the test interpretations users have requested for their real life cases.
 
+The genesis of this protocol - from the Odyssey 2 and the "Computer Intro" manual to the rereading of the I Ching in midlife - is documented in [Hexagram 1 of this project]({{< relref "el-hexagrama1-de-el-ichingon" >}}).
+
 ---
 
 ## The Sovereign Architecture: Edge AI and Zero Data Extraction

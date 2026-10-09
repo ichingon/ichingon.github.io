@@ -212,6 +212,8 @@ Ahora, escribe la interpretación siguiendo todas estas directrices.
 
 Esta probablemente no es la versión definitiva del prompt, pero ha dado muy buenos resultados hasta ahora en las interpretaciones de prueba que los usuarios han solicitado para sus casos de la vida real.
 
+La génesis de este protocolo - desde la Odyssey 2 y el manual de "Computer Intro" hasta la relectura del I Ching en la edad madura - se documenta en [el Hexagrama 1 de este proyecto]({{< relref "el-hexagrama1-de-el-ichingon" >}}).
+
 ---
 
 ## La Arquitectura Soberana: IA de Borde y Extracción Cero de Datos

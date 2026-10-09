@@ -206,6 +206,8 @@ Nun schreibe die Interpretation unter Befolgung all dieser Richtlinien.
 
 Dies ist wahrscheinlich nicht die endgültige Version des Prompts, aber er hat bisher sehr gute Ergebnisse in den Testinterpretationen geliefert, die Nutzer für ihre realen Fälle angefordert haben.
 
+Die Entstehung dieses Protokolls — von der Odyssey 2 und dem Handbuch „Computer Intro" bis zur Wiederentdeckung des I Ging im mittleren Alter — ist in [Hexagramm 1 dieses Projekts]({{< relref "el-hexagrama1-de-el-ichingon" >}}) dokumentiert.
+
 ---
 
 ## Die souveräne Architektur: Edge-KI und Null-Datenextraktion

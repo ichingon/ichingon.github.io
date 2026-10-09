@@ -1,0 +1,123 @@
+{{ if .IsHome -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": {{ site.Home.Permalink | safeURL }},
+    "name": "{{ .Site.Title | safeJS }}",
+    {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
+    "url": {{ site.Home.Permalink | safeURL }},
+    {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
+    "publisher" : {
+      "@type": "Person",
+      "name": "{{ .Site.Params.Author.name | safeJS }}"
+    }
+  }
+  </script>
+
+{{ else if eq .Type "consulta-iching" -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "{{ .Title | safeJS }}",
+    "url": {{ .Permalink }},
+    "inLanguage": "{{ site.Language.Locale }}",
+    "applicationCategory": "LifestyleApplication",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/I_Ching",
+      "https://en.wikipedia.org/wiki/Divination",
+      "https://en.wikipedia.org/wiki/Decision-making"
+    ],
+    "operatingSystem": "Web, iOS, Android",
+    "description": "{{ .Description | safeJS }}",
+    "author": {
+      "@type": "Person",
+      "name": "Dài Líng Nà (黛灵娜)"
+    },
+    "isAccessibleForFree": true,
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free Tier",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "10 free AI-assisted I Ching consultations per day.",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "name": "Premium Vouchers",
+        "priceCurrency": "USD",
+        "description": "Premium consultation credits via voucher or gift card.",
+        "availability": "https://schema.org/PreOrder"
+      }
+    ],
+    "featureList": [
+      "Kinesthetic Entropy Capture",
+      "AI-assisted interpretation",
+      "No login required",
+      "No tracking",
+      "Installable PWA",
+      "Open source"
+    ]
+  }
+  </script>
+
+{{ else -}}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
+    "url" : {{ .Permalink }},
+    "author" : {
+      "@type": "Person",
+      "name": "{{ .Site.Params.Author.name | safeJS }}"
+    },
+    {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" }}",{{ end }}
+    {{ with .Date }}"dateCreated": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .ExpiryDate }}"expires": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
+    {{ if .Keywords }}
+    {{ with .Keywords }}"keywords": {{ . }},{{ end }}
+    {{ else }}
+    {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
+    {{ end }}
+    "mainEntityOfPage": "true",
+    "wordCount": "{{ .WordCount }}"
+  }{{ if site.Params.enableStructuredBreadcrumbs | default false }},
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{- $position := 0 -}}
+      {{- range .Ancestors -}}
+        {{- if not .IsHome -}}
+          {{- $position = add $position 1 -}}
+          {
+            "@type": "ListItem",
+            "position": {{ $position }},
+            "name": "{{ .Title }}",
+            "item": {{ .Permalink }}
+          },
+        {{- end -}}
+      {{- end -}}
+      {{- $position = add $position 1 -}}
+      {
+        "@type": "ListItem",
+        "position": {{ $position }},
+        "name": "{{ .Title }}",
+        "item": {{ .Permalink }}
+      }
+    ]
+  }{{ end }}]
+  </script>
+{{ end }}

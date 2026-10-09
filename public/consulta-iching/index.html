@@ -221,30 +221,51 @@
 
   
   <script type="application/ld+json">
-  [{
+  {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "articleSection": "El I Chingón",
+    "@type": "SoftwareApplication",
     "name": "Consulta Oracular del I Ching",
-    "headline": "Consulta Oracular del I Ching",
-    "description": "Oráculo interactivo del I Ching. Simulación matemática de 3 monedas o 50 varillas con entropía local generada en tu navegador.",
+    "url": "http://localhost:1313/consulta-iching/",
     "inLanguage": "es",
-    "url" : "http://localhost:1313/consulta-iching/",
-    "author" : {
+    "applicationCategory": "LifestyleApplication",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/I_Ching",
+      "https://en.wikipedia.org/wiki/Divination",
+      "https://en.wikipedia.org/wiki/Decision-making"
+    ],
+    "operatingSystem": "Web, iOS, Android",
+    "description": "Oráculo interactivo del I Ching. Simulación matemática de 3 monedas o 50 varillas con entropía local generada en tu navegador.",
+    "author": {
       "@type": "Person",
       "name": "Dài Líng Nà (黛灵娜)"
     },
-    
-    
-    
-    
-    
-    
-    
-    
-    "mainEntityOfPage": "true",
-    "wordCount": "0"
-  }]
+    "isAccessibleForFree": true,
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free Tier",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "10 free AI-assisted I Ching consultations per day.",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "name": "Premium Vouchers",
+        "priceCurrency": "USD",
+        "description": "Premium consultation credits via voucher or gift card.",
+        "availability": "https://schema.org/PreOrder"
+      }
+    ],
+    "featureList": [
+      "Kinesthetic Entropy Capture",
+      "AI-assisted interpretation",
+      "No login required",
+      "No tracking",
+      "Installable PWA",
+      "Open source"
+    ]
+  }
   </script>
 
 
@@ -298,6 +319,7 @@
       }, 250); 
     });
   </script>
+
 </head>
 
 
