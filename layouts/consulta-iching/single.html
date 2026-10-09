@@ -108,13 +108,24 @@
         </div>
 
         <div class="privacy-banner" style="display: flex; flex-direction: column; gap: 4px;">
-          <span>🔒 {{ if eq .Language.Lang "de" }}Alle Berechnungen finden lokal in deinem Browser statt. Keine Daten werden gespeichert.{{ else if eq .Language.Lang "en" }}All entropy and calculations are performed locally in your browser. Zero tracking.{{ else }}Privacidad absoluta. Toda la entropía y cálculo se ejecutan localmente en tu navegador.[cite: 12]{{ end }}</span>
-          <span style="font-size: 0.7rem; color: #555;">{{ if eq .Language.Lang "en" }}Mathematical simulation of 3 coins or 50 stalks with local entropy.[cite: 12]{{ else }}Simulación matemática de 3 monedas o 50 varillas con entropía local.[cite: 12]{{ end }}</span>
+          <span>🔒 {{ if eq .Language.Lang "de" }}Alle Berechnungen finden lokal in deinem Browser statt. Keine Daten werden gespeichert.{{ else if eq .Language.Lang "en" }}All entropy and calculations are performed locally in your browser. Zero tracking.{{ else }}Privacidad absoluta. Toda la entropía y cálculo se ejecutan localmente en tu navegador.{{ end }}</span>
+          <span style="font-size: 0.7rem; color: #555;">{{ if eq .Language.Lang "en" }}Mathematical simulation of 3 coins or 50 stalks with local entropy.{{ else }}Simulación matemática de 3 monedas o 50 varillas con entropía local.{{ end }}</span>
         </div>
 
         <button type="submit" class="btn-action" id="btnStart" style="background-color: #f59e0b; border-color: #d97706; color: #111827; font-weight: 600;">
           {{ if eq .Language.Lang "de" }}Orakel beginnen{{ else if eq .Language.Lang "en" }}Begin Consultation{{ else }}Comenzar Consulta{{ end }}
         </button>
+
+        <!-- Aviso de IA gratuita en la primera pantalla -->
+        <div style="margin-top: 12px; font-size: 0.78rem; color: #aaa; text-align: center; line-height: 1.4;">
+          {{ if eq .Language.Lang "de" }}
+            Wir bieten täglich kostenlose KI-Interpretationen pro Person an (noch <strong class="contador-consultas" style="color: #eab308;">...</strong> heute verfügbar).
+          {{ else if eq .Language.Lang "en" }}
+            We offer free AI interpretations every day, per person (<strong class="contador-consultas" style="color: #eab308;">...</strong> available today).
+          {{ else }}
+            Ofrecemos interpretaciones por IA gratuitas cada día, por persona (quedan <strong class="contador-consultas" style="color: #eab308;">...</strong> disponibles hoy).
+          {{ end }}
+        </div>
       </form>
     </div>
 
@@ -167,11 +178,11 @@
         
         <p style="margin: 6px 0 12px 0; font-size: 0.82rem; line-height: 1.45; color: #ccc;">
           {{ if eq .Language.Lang "de" }}
-            Unsere KI übersetzt die archaische Sprache des I Ging in klare Begriffe, die auf den Kontext deiner Frage abgestimmt sind. Wir bieten 10 kostenlose tägliche Konsultationen an (Noch <strong id="contador-fuera" style="color: #eab308;">10</strong> heute verfügbar). Klicke auf die Schaltfläche unten, um deinen Platz zu beanspruchen oder deinen eigenen Gift Card Code zu verwenden.
+            Unsere KI übersetzt die archaische Sprache des I Ging in klare Begriffe, die auf den Kontext deiner Frage abgestimmt sind. Wir bieten 10 kostenlose tägliche Konsultationen an (Noch <strong class="contador-consultas" style="color: #eab308;">...</strong> heute verfügbar). Klicke auf die Schaltfläche unten, um deinen Platz zu beanspruchen oder deinen eigenen Gift Card Code zu verwenden.
           {{ else if eq .Language.Lang "en" }}
-            Our AI translates the archaic language of the I Ching into clear terms adjusted to the context of your question. We offer 10 free daily consultations (<strong id="contador-fuera" style="color: #eab308;">10</strong> available today). Click the button below to claim yours or use your own Gift Card code.
+            Our AI translates the archaic language of the I Ching into clear terms adjusted to the context of your question. We offer 10 free daily consultations (<strong class="contador-consultas" style="color: #eab308;">...</strong> available today). Click the button below to claim yours or use your own Gift Card code.
           {{ else }}
-            Nuestra IA traduce el idioma arcaico del I Ching a un lenguaje claro ajustado al contexto de tu pregunta. Ofrecemos 10 consultas gratuitas cada día (quedan <strong id="contador-fuera" style="color: #eab308;">10</strong> disponibles hoy). Haz clic en el botón de abajo para reclamar la tuya o usar tu propio código de Gift Card.
+            Nuestra IA traduce el idioma arcaico del I Ching a un lenguaje claro ajustado al contexto de tu pregunta. Ofrecemos 10 consultas gratuitas cada día (quedan <strong class="contador-consultas" style="color: #eab308;">...</strong> disponibles hoy). Haz clic en el botón de abajo para reclamar la tuya o usar tu propio código de Gift Card.
           {{ end }}
         </p>
         
@@ -1119,13 +1130,15 @@
       const response = await fetch("/api/daily-status");
       const data = await response.json();
       
-      const contadorEl = document.getElementById("contador-fuera");
-      if (contadorEl && data.available !== undefined) {
-        contadorEl.innerText = data.available;
-        
-        if (data.available === 0) {
-          contadorEl.style.color = "#ef4444"; 
-        }
+      if (data.available !== undefined) {
+        // Actualizar simultáneamente todos los elementos que compartan la clase del contador
+        const elementosContador = document.querySelectorAll(".contador-consultas");
+        elementosContador.forEach(el => {
+          el.innerText = data.available;
+          if (data.available === 0) {
+            el.style.color = "#ef4444"; 
+          }
+        });
       }
     } catch (e) {
       console.warn("No se pudo cargar el contador de cupos.");

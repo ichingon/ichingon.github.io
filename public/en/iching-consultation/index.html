@@ -731,7 +731,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
 
-<div class="consulta-iching-page" id="ichingAppRoot" data-lang="en" data-default-date="2026-10-08">
+<div class="consulta-iching-page" id="ichingAppRoot" data-lang="en" data-default-date="2026-10-09">
   <div class="iching-consultation-container">
 
     
@@ -837,12 +837,19 @@
 
         <div class="privacy-banner" style="display: flex; flex-direction: column; gap: 4px;">
           <span>🔒 All entropy and calculations are performed locally in your browser. Zero tracking.</span>
-          <span style="font-size: 0.7rem; color: #555;">Mathematical simulation of 3 coins or 50 stalks with local entropy.[cite: 12]</span>
+          <span style="font-size: 0.7rem; color: #555;">Mathematical simulation of 3 coins or 50 stalks with local entropy.</span>
         </div>
 
         <button type="submit" class="btn-action" id="btnStart" style="background-color: #f59e0b; border-color: #d97706; color: #111827; font-weight: 600;">
           Begin Consultation
         </button>
+
+        
+        <div style="margin-top: 12px; font-size: 0.78rem; color: #aaa; text-align: center; line-height: 1.4;">
+          
+            We offer free AI interpretations every day, per person (<strong class="contador-consultas" style="color: #eab308;">...</strong> available today).
+          
+        </div>
       </form>
     </div>
 
@@ -895,7 +902,7 @@
         
         <p style="margin: 6px 0 12px 0; font-size: 0.82rem; line-height: 1.45; color: #ccc;">
           
-            Our AI translates the archaic language of the I Ching into clear terms adjusted to the context of your question. We offer 10 free daily consultations (<strong id="contador-fuera" style="color: #eab308;">10</strong> available today). Click the button below to claim yours or use your own Gift Card code.
+            Our AI translates the archaic language of the I Ching into clear terms adjusted to the context of your question. We offer 10 free daily consultations (<strong class="contador-consultas" style="color: #eab308;">...</strong> available today). Click the button below to claim yours or use your own Gift Card code.
           
         </p>
         
@@ -1843,13 +1850,15 @@
       const response = await fetch("/api/daily-status");
       const data = await response.json();
       
-      const contadorEl = document.getElementById("contador-fuera");
-      if (contadorEl && data.available !== undefined) {
-        contadorEl.innerText = data.available;
+      if (data.available !== undefined) {
         
-        if (data.available === 0) {
-          contadorEl.style.color = "#ef4444"; 
-        }
+        const elementosContador = document.querySelectorAll(".contador-consultas");
+        elementosContador.forEach(el => {
+          el.innerText = data.available;
+          if (data.available === 0) {
+            el.style.color = "#ef4444"; 
+          }
+        });
       }
     } catch (e) {
       console.warn("No se pudo cargar el contador de cupos.");
@@ -1967,8 +1976,8 @@
 <button id="pwa-share-btn" 
   data-share-text="Check this out on El I Chingón:"
   data-copied-text="Copied!"
-  class="fixed bottom-6 left-6 z-50 flex items-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-transform scale-100 rounded-full shadow-lg bg-primary-600 hover:bg-primary-700 hover:scale-105 active:scale-95" 
-  aria-label="Share página">
+  class="fixed bottom-6 left-6 z-[99999] flex items-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-transform scale-100 rounded-full shadow-lg bg-primary-600 hover:bg-primary-700 hover:scale-105 active:scale-95 cursor-pointer" 
+  aria-label="Share página" style="position: fixed; bottom: 24px; left: 24px; z-index: 99999; cursor: pointer;">
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="18" cy="5" r="3"></circle>
     <circle cx="6" cy="12" r="3"></circle>
@@ -1981,46 +1990,52 @@
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const shareBtn = document.getElementById("pwa-share-btn");
-    const spanText = document.getElementById("pwa-share-text");
-    
-    if (shareBtn) {
+  (function() {
+    document.addEventListener("click", async function(e) {
+      const shareBtn = e.target.closest("#pwa-share-btn");
+      if (!shareBtn) return;
+      
+      e.preventDefault();
+      e.stopPropagation();
+
+      const spanText = document.getElementById("pwa-share-text");
       const shareMessage = shareBtn.getAttribute("data-share-text");
       const copiedMessage = shareBtn.getAttribute("data-copied-text");
       const originalBtnText = spanText ? spanText.innerHTML : "";
 
-      shareBtn.addEventListener("click", async () => {
-        const shareData = {
-          title: document.title,
-          text: shareMessage,
-          url: window.location.href 
-        };
+      const shareData = {
+        title: document.title,
+        text: shareMessage,
+        url: window.location.href 
+      };
 
-        if (navigator.share) {
-          try {
-            await navigator.share(shareData);
-          } catch (err) {
-            console.log("Acción de compartir cancelada.");
-          }
-        } else {
-          try {
-            await navigator.clipboard.writeText(shareData.url);
-            if (spanText) {
-              spanText.innerHTML = copiedMessage;
-              spanText.classList.remove("hidden"); 
-              setTimeout(() => { 
-                spanText.innerHTML = originalBtnText; 
-                spanText.classList.add("hidden", "sm:inline"); 
-              }, 2000);
-            }
-          } catch (err) {
-            console.error("No se pudo copiar el enlace", err);
+      if (navigator.share) {
+        try {
+          await navigator.share(shareData);
+        } catch (err) {
+          if (err.name !== 'AbortError') {
+            console.log("Acción de compartir cancelada o error:", err);
           }
         }
-      });
-    }
-  });
+      } else {
+        try {
+          await navigator.clipboard.writeText(shareData.url);
+          if (spanText) {
+            spanText.innerHTML = copiedMessage;
+            spanText.classList.remove("hidden");
+            setTimeout(() => { 
+              spanText.innerHTML = originalBtnText; 
+              spanText.classList.add("hidden", "sm:inline");
+            }, 2000);
+          } else {
+            alert(copiedMessage);
+          }
+        } catch (err) {
+          console.error("No se pudo copiar el enlace", err);
+        }
+      }
+    });
+  })();
 </script>
   
 </footer>
