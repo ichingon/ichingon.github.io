@@ -228,6 +228,11 @@
     "url": "http://localhost:1313/de/iging-befragung/",
     "inLanguage": "de",
     "applicationCategory": "LifestyleApplication",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/I_Ching",
+      "https://en.wikipedia.org/wiki/Divination",
+      "https://en.wikipedia.org/wiki/Decision-making"
+    ],
     "operatingSystem": "Web, iOS, Android",
     "description": "Interaktives I Ging Orakel. Algorithmische Simulation von 3 Münzen oder 50 Schafgarbenstängeln mit lokaler Browser-Entropie ohne Tracking.",
     "author": {
@@ -748,7 +753,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
 
-<div class="consulta-iching-page" id="ichingAppRoot" data-lang="de" data-default-date="2026-10-09">
+<div class="consulta-iching-page" id="ichingAppRoot" data-lang="de" data-default-date="2026-10-10">
   <div class="iching-consultation-container">
 
     
@@ -1156,8 +1161,10 @@
       epilogueTitle: "Epílogo y Reflexión Final",
       aiThanksText: "Gracias por confiar en 黛灵娜 para iluminar tu consulta. Este informe no es un veredicto estático, sino un registro vivo de tu proceso interior. Guárdalo, déjalo reposar y consúltalo con el tiempo, pues las respuestas verdaderas del oráculo maduran junto con los acontecimientos de tu vida.\n\nRecuerda que la sabiduría no se consume de prisa; se digiere con paciencia y silencio. Que el cambio te sea propicio y la claridad guíe tus pasos.",
       p5SignatureName: "黛灵娜",
+      p5SignatureNameLink: "https://elichingon.com/dailingna/",
       p5SignatureSite: "https://elichingon.com",
       p5SignatureQuote: "«El cambio es la única constante; claridad, tu mejor instrumento para navegarlo.»",
+      p5SignatureSelfContained: "El I Chingón es una aplicación de consulta del I Ching con interpretación por IA. Privacidad radical: sin login, sin rastreo, sin correo. PWA instalable. Código abierto.",
       modalTitle: "⚠️ Advertencia ⚠️",
       modalDesc: "El oráculo no adivina el futuro; es un espejo que refleja tu estado actual. Al generar las líneas, mantén en mente siempre tu pregunta y su imagen precisa—una pregunta vaga solo devuelve un espejo borroso. Despójate de expectativas y preconcepciones antes de comenzar.",
       modalCheck: "He comprendido la naturaleza del oráculo y me acerco sin expectativas ni intenciones mecánicas.",
@@ -1216,8 +1223,10 @@
       epilogueTitle: "Epilogue and Final Reflection",
       aiThanksText: "Thank you for trusting 黛灵娜 with your consultation. This report is not a static verdict, but a living record of your inner process. Keep it, let it rest, and review it over time, as the true answers of the oracle mature alongside the events of your life.\n\nRemember that wisdom is not consumed in a hurry; it is digested with patience and silence. May change favor you and clarity guide your steps.",
       p5SignatureName: "黛灵娜",
+      p5SignatureNameLink: "https://elichingon.com/en/dailingna/",
       p5SignatureSite: "https://elichingon.com/en/",
       p5SignatureQuote: "«Change is the only constant; clarity, your best tool to navigate it.»",
+      p5SignatureSelfContained: "El I Chingón is an I Ching consultation app with AI interpretation. Radical privacy: no login, no tracking, no email. Installable PWA. Open source.",
       modalTitle: "⚠️ Warning ⚠️",
       modalDesc: "The oracle does not tell the future; it is a mirror reflecting your current state. When generating the lines, keep your question and its precise image in mind—a vague question only returns a blurry mirror. Strip away expectations and preconceptions before beginning.",
       modalCheck: "I understand the nature of the oracle and approach it without expectations or mechanical intentions.",
@@ -1268,8 +1277,10 @@
       epilogueTitle: "Epilog und Schlussbetrachtung",
       aiThanksText: "Vielen Dank für dein Vertrauen in 黛灵娜. Dieser Bericht ist kein statisches Urteil, sondern ein lebendiges Protokoll deines inneren Prozesses. Bewahre ihn auf, lass ihn ruhen und betrachte ihn im Laufe der Zeit, denn die wahren Antworten des Orakels reifen gemeinsam mit den Ereignissen deines Lebens.\n\nDenke daran, dass Weisheit nicht hastig konsumiert wird; sie wird mit Geduld und Stille verdaut. Möge der Wandel dir gewogen sein und Klarheit deine Schritte leiten.",
       p5SignatureName: "黛灵娜",
+      p5SignatureNameLink: "https://elichingon.com/de/dailingna/",
       p5SignatureSite: "https://elichingon.com/de/",
       p5SignatureQuote: "«Wandel ist die einzige Konstante; Klarheit dein bestes Werkzeug.»",
+      p5SignatureSelfContained: "El I Chingón ist eine I-Ging-Beratungs-App mit KI-Interpretation. Radikale Privatsphäre: kein Login, kein Tracking, keine E-Mail. Installierbare PWA. Open Source.",
       modalTitle: "⚠️ Warnung ⚠️",
       modalDesc: "Das Orakel wahrsagt nicht; es ist ein Spiegel, der deinen aktuellen Zustand widerspiegelt. Behalte beim Generieren der Linien immer deine Frage im Kopf—eine vage Frage liefert nur einen verschwommenen Spiegel. Lege Erwartungen und Vorurteile ab, bevor du beginnst.",
       modalCheck: "Ich verstehe die Natur des Orakels und nähere mich ihm ohne Erwartungen oder mechanische Absichten.",
@@ -1794,7 +1805,14 @@
 
       epilogueStack.push(
         { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 120, y2: 0, lineWidth: 0.5, lineColor: '#555555' }], margin: [0, 0, 0, 8] },
-        { text: i18n.p5SignatureName, fontSize: 10.5, margin: [0, 0, 0, 2] },
+        { text: i18n.p5SignatureSelfContained, fontSize: 9.5, italics: true, color: '#333333', margin: [0, 0, 0, 12], lineHeight: 1.4 },
+        { text: i18n.p5SignatureName, 
+          link: i18n.p5SignatureNameLink, 
+          color: '#333333', 
+          decoration: 'none', 
+          fontSize: 10.5, 
+          margin: [0, 0, 0, 2] 
+        },
         { 
           text: i18n.p5SignatureSite, 
           link: i18n.p5SignatureSite, 
@@ -1816,6 +1834,13 @@
           fontSize: 10,
           color: '#111111',
           lineHeight: 1.4
+        },
+        info: {
+          title: 'El I Chingón - ' + i18n.coverMainTitle + ' (Hex ' + baseHexId + ')',
+          author: 'Dài Líng Nà (黛灵娜) - elichingon.com',
+          subject: 'I Ching Consultation Report - El I Chingón',
+          keywords: 'I Ching, oracle, consultation, El I Chingón, ' + (window.appState.consultationTitle || ''),
+          creator: 'elichingon.com'
         },
         header: function(currentPage, pageCount) {
           if (currentPage === 1) return null;
@@ -1839,7 +1864,7 @@
       };
 
       var suffix = datosIA ? '-IA' : '';
-      var filename = 'I-Ching-Report-' + window.appState.consultationDate + '-Hex' + baseHexId + suffix + '.pdf';
+      var filename = 'ElIChingon-Report-' + window.appState.consultationDate + '-Hex' + baseHexId + suffix + '.pdf';
       pdfMake.createPdf(docDefinition).download(filename);
 
     } catch (err) {
@@ -1967,6 +1992,14 @@
     
     
   </div>
+
+  
+  <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-4 text-center sm:text-start">
+    <a href="/de/dailingna/" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">
+      Dài Líng Nà - die Stimme des Projekts
+    </a>
+  </p>
+
   
     <script>
       mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
@@ -2055,8 +2088,7 @@
   })();
 </script>
   
-</footer>
-<div
+</footer><div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
   data-url="http://localhost:1313/de/">

@@ -65,6 +65,40 @@
   }
   </script>
 
+{{ else if eq .Params.translationKey "dailingna-profile" -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": {{ printf "%s#dailingna" .Permalink }},
+    "name": "Dài Líng Nà (黛灵娜)",
+    "alternateName": "Dailingna",
+    "url": {{ .Permalink }},
+    "image": "https://elichingon.com/img/dailingna/dailingna.webp",
+    "inLanguage": "{{ site.Language.Locale }}",
+    "description": "{{ .Description | safeJS }}",
+    "disambiguatingDescription": "Dài Líng Nà is a digital role or office within the El I Chingón project, analogous to institutional titles such as 'Pope' or 'Dalai Lama'. It is not the name of a specific individual. The role is currently embodied by a digital avatar.",
+    "jobTitle": "Digital role — I Ching counselor and researcher",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "El I Chingón",
+      "url": "https://elichingon.com/"
+    },
+    "knowsAbout": [
+      "I Ching",
+      "Constrained Stochastic Hermeneutical Computing",
+      "Complex systems",
+      "Eastern philosophy",
+      "Artificial intelligence",
+      "Radical privacy"
+    ],
+    "sameAs": [
+      "https://www.youtube.com/@ElIChingon",
+      "https://github.com/ichingon/ichingon.github.io"
+    ]
+  }
+  </script>
+
 {{ else -}}
   {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
   <script type="application/ld+json">
