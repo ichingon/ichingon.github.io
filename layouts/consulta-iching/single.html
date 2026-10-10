@@ -11,7 +11,7 @@
       <h1 class="title">{{ .Title }}</h1>
       <p class="subtitle" style="display:none;">{{ .Description }}</p>
       
-      <!-- Nuevo botón de Ayuda / Tutorial -->
+      <!-- Botón de Ayuda / Tutorial -->
       <div style="display: flex; justify-content: flex-end; margin-bottom: 15px;">
         <button type="button" onclick="window.abrirTutorial(1)" style="background: none; border: none; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0.8; transition: opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" aria-label="Ver Tutorial">❓</button>
       </div>
@@ -137,7 +137,6 @@
     <!-- FASE 3: Presentación, PDF y Contacto Beta Tester -->
     <div class="consultation-card" id="resultWrap" style="display: none;">
       
-      <!-- Contenedor flex para alinear título y botón -->
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
         <h1 class="title" style="margin: 0; flex-grow: 1;">{{ if eq .Language.Lang "de" }}Orakel abgeschlossen{{ else if eq .Language.Lang "en" }}Oracle Complete{{ else }}Tirada Completada{{ end }}</h1>
         
@@ -423,6 +422,7 @@
       p5SignatureSite: "https://elichingon.com",
       p5SignatureQuote: "«El cambio es la única constante; claridad, tu mejor instrumento para navegarlo.»",
       p5SignatureSelfContained: "El I Chingón es una aplicación de consulta del I Ching con interpretación por IA. Privacidad radical: sin login, sin rastreo, sin correo. PWA instalable. Código abierto.",
+      p5SignatureProfileLink: "Ver perfil de Dài Líng Nà",
       modalTitle: "⚠️ Advertencia ⚠️",
       modalDesc: "El oráculo no adivina el futuro; es un espejo que refleja tu estado actual. Al generar las líneas, mantén en mente siempre tu pregunta y su imagen precisa—una pregunta vaga solo devuelve un espejo borroso. Despójate de expectativas y preconcepciones antes de comenzar.",
       modalCheck: "He comprendido la naturaleza del oráculo y me acerco sin expectativas ni intenciones mecánicas.",
@@ -485,6 +485,7 @@
       p5SignatureSite: "https://elichingon.com/en/",
       p5SignatureQuote: "«Change is the only constant; clarity, your best tool to navigate it.»",
       p5SignatureSelfContained: "El I Chingón is an I Ching consultation app with AI interpretation. Radical privacy: no login, no tracking, no email. Installable PWA. Open source.",
+      p5SignatureProfileLink: "View Dài Líng Nà's profile",
       modalTitle: "⚠️ Warning ⚠️",
       modalDesc: "The oracle does not tell the future; it is a mirror reflecting your current state. When generating the lines, keep your question and its precise image in mind—a vague question only returns a blurry mirror. Strip away expectations and preconceptions before beginning.",
       modalCheck: "I understand the nature of the oracle and approach it without expectations or mechanical intentions.",
@@ -539,6 +540,7 @@
       p5SignatureSite: "https://elichingon.com/de/",
       p5SignatureQuote: "«Wandel ist die einzige Konstante; Klarheit dein bestes Werkzeug.»",
       p5SignatureSelfContained: "El I Chingón ist eine I-Ging-Beratungs-App mit KI-Interpretation. Radikale Privatsphäre: kein Login, kein Tracking, keine E-Mail. Installierbare PWA. Open Source.",
+      p5SignatureProfileLink: "Dài Líng Nà's Profil ansehen",
       modalTitle: "⚠️ Warnung ⚠️",
       modalDesc: "Das Orakel wahrsagt nicht; es ist ein Spiegel, der deinen aktuellen Zustand widerspiegelt. Behalte beim Generieren der Linien immer deine Frage im Kopf—eine vage Frage liefert nur einen verschwommenen Spiegel. Lege Erwartungen und Vorurteile ab, bevor du beginnst.",
       modalCheck: "Ich verstehe die Natur des Orakels und nähere mich ihm ohne Erwartungen oder mechanische Absichten.",
@@ -1064,11 +1066,14 @@
       epilogueStack.push(
         { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 120, y2: 0, lineWidth: 0.5, lineColor: '#555555' }], margin: [0, 0, 0, 8] },
         { text: i18n.p5SignatureSelfContained, fontSize: 9.5, italics: true, color: '#333333', margin: [0, 0, 0, 12], lineHeight: 1.4 },
-        { text: i18n.p5SignatureName, 
+        { text: i18n.p5SignatureName, fontSize: 10.5, margin: [0, 0, 0, 2] },
+        { 
+          text: i18n.p5SignatureProfileLink, 
           link: i18n.p5SignatureNameLink, 
-          color: '#333333', 
-          fontSize: 10.5, 
-          margin: [0, 0, 0, 2] 
+          color: '#0055aa', 
+          decoration: 'underline', 
+          fontSize: 9.5, 
+          margin: [0, 0, 0, 4] 
         },
         { 
           text: i18n.p5SignatureSite, 
@@ -1140,7 +1145,6 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", async () => {
-    // Popup automático del tutorial para nuevos usuarios
     if (!localStorage.getItem('iching_tutorial_visto')) {
       window.abrirTutorial(1);
     }
@@ -1150,7 +1154,6 @@
       const data = await response.json();
       
       if (data.available !== undefined) {
-        // Actualizar simultáneamente todos los elementos que compartan la clase del contador
         const elementosContador = document.querySelectorAll(".contador-consultas");
         elementosContador.forEach(el => {
           el.innerText = data.available;
