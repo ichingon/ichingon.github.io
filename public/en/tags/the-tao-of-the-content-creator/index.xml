@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Tao of the Content Creator on I Chingon</title>
+    <link>http://localhost:1313/en/tags/the-tao-of-the-content-creator/</link>
+    <description>Recent content in The Tao of the Content Creator on I Chingon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
+    <lastBuildDate>Fri, 04 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/the-tao-of-the-content-creator/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hexagram 1 of this project - Why was El I Chingón born? (About @ElIChingon)</title>
+      <link>http://localhost:1313/en/articles/hexagram-1-why-el-ichingon-was-born/</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/articles/hexagram-1-why-el-ichingon-was-born/</guid>
+      <description>The project&amp;rsquo;s origins through personal search, formal languages, and the wisdom of the I Ching.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-hexagrama1-de-el-ichingon/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

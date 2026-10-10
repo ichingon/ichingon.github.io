@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://elichingon.com/sitemap.xml
+
+# LLM guidance
+LLMs-Txt: https://elichingon.com/llms.txt

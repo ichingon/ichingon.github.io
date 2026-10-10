@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Interpretación IA - El I Chingón</title>
+<style>
+  :root { color-scheme: dark; }
+  *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  html, body {
+    width: 100%;
+    min-height: 100%;
+    background-color: #080a0f !important;
+    color: #ee5 !important;
+    font-family: system-ui, -apple-system, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 0;
+  }
+
+  .modal-wrapper {
+    width: 100%;
+    max-width: 480px;
+    background: rgba(20, 20, 20, 0.98);
+    border: 1px solid #444;
+    padding: 24px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative; /* Clave para el posicionamiento absoluto del botón */
+  }
+
+  /* Botón de cierre absoluto garantizado en la esquina */
+  .close-btn-abs {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #222;
+    border: 1px solid #666;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .close-btn-abs:hover {
+    background: #ef4444;
+    border-color: #f87171;
+  }
+
+  .modal-header {
+    margin-bottom: 6px;
+    padding-right: 30px; /* Espacio para que el título largo no pise el botón absoluto */
+  }
+
+  .title { font-size: 1.1rem; margin: 0; color: #fff; text-align: center; }
+  .subtitle { font-size: 0.8rem; color: #888; text-align: center; margin-bottom: 20px; line-height: 1.4; }
+
+  .form-group { margin-bottom: 16px; }
+  .form-label { display: block; font-size: 0.85rem; color: #ccc; margin-bottom: 6px; }
+  
+  .form-textarea {
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+    background: #111;
+    border: 1px solid #444;
+    color: #fff;
+    font-size: 0.88rem;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-family: inherit;
+    resize: vertical;
+  }
+  .form-textarea:focus, .form-input:focus { border-color: var(--app-accent, #eeee55); outline: none; }
+
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    background: #111;
+    border: 1px solid #444;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+
+  .help-box {
+    font-size: 0.75rem;
+    color: #999;
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 2px solid #555;
+    padding: 8px 10px;
+    margin-top: 6px;
+    line-height: 1.4;
+  }
+  .help-box strong { color: #bbb; }
+
+  .legal-disclaimer {
+    font-size: 0.7rem;
+    color: #777;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border: 1px solid #222;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    border-radius: 2px;
+    text-align: justify;
+  }
+
+  .checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin: 0 0 16px 0;
+    cursor: pointer;
+  }
+  .checkbox-group input { margin-top: 2px; cursor: pointer; }
+
+  .btn-action {
+    width: 100%;
+    padding: 12px;
+    background: #222;
+    border: 1px solid var(--app-accent, #eeee55);
+    color: #fff;
+    font-size: 0.88rem;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background 0.2s;
+    box-sizing: border-box;
+    font-weight: 500;
+  }
+  .btn-action:hover { background: rgba(238, 238, 85, 0.15); }
+  .btn-action:disabled { border-color: #444; color: #666; background: #111; cursor: not-allowed; }
+  
+  .btn-secondary {
+    background: transparent;
+    border: 1px solid #444;
+    color: #ccc;
+    margin-top: 8px;
+  }
+  .btn-secondary:hover { background: rgba(255, 255, 255, 0.05); }
+
+  .modal-view { display: none; }
+  .modal-view.active { display: block; }
+  
+  .loading-video {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 4px;
+    border: 1px solid #444;
+    margin: 0 auto 14px auto;
+    display: block;
+  }
+  
+  .loading-text {
+    font-size: 0.85rem;
+    color: #ccc;
+    animation: pulse 2s infinite ease-in-out;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+  }
+
+  .result-box {
+    width: 100%;
+    max-height: 240px;
+    overflow-y: auto;
+    background: #111;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 16px;
+    color: #eee;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: left;
+    white-space: pre-wrap;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+  .credits-info {
+    font-size: 0.8rem;
+    color: var(--app-accent, #eeee55);
+    margin-bottom: 12px;
+    background: rgba(238, 238, 85, 0.05);
+    border: 1px dashed rgba(238, 238, 85, 0.3);
+    padding: 6px;
+    border-radius: 2px;
+  }
+
+  .error-msg {
+    color: #ff6b6b;
+    font-size: 0.78rem;
+    margin-top: 6px;
+    display: none;
+  }
+</style>
+</head>
+<body onclick="if(event.target === this) window.cerrarModal();">
+
+<div class="modal-wrapper">
+  
+  <!-- VISTA 1: Formulario de Solicitud de IA -->
+  <div id="aiFormContainer" class="modal-view active">
+    <button type="button" class="close-btn-abs" onclick="window.cerrarModal()" aria-label="Cerrar">&times;</button>
+    
+    <div class="modal-header">
+      <h1 class="title" id="lblTitle">Interpretación Asistida por IA</h1>
+    </div>
+    <p class="subtitle" id="lblSubtitle">Conecta el oráculo con la realidad de tu pregunta a través del motor de 黛靈娜 (Costo: 1 Crédito).</p>
+
+    <form id="aiRequestForm" onsubmit="window.enviarSolicitudIA(event)">
+      
+      <div class="form-group">
+        <label class="form-label" id="lblModalTitleField">Título de la Consulta:</label>
+        <input type="text" id="modalConsultationTitle" class="form-input" required autocomplete="off" placeholder="Ej: Dilema laboral">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" id="lblContextTitle">Contexto detallado de tu situación (Opcional):</label>
+        <textarea id="userContext" class="form-textarea" maxlength="800" placeholder="Ej: Estoy evaluando cambiar de empleo pero me preocupa la estabilidad familiar..."></textarea>
+        
+        <div class="help-box" id="helpBoxText"></div>
+      </div>
+
+      <!-- Contenedor Dinámico de Reclamo Gratis -->
+      <div id="free-claim-container" style="margin-bottom: 16px; background: rgba(238, 238, 85, 0.05); border: 1px dashed rgba(238, 238, 85, 0.3); padding: 12px; border-radius: 4px; text-align: center;">
+        <p id="status-message" style="font-weight: bold; margin: 0 0 8px 0; color: #ca8a04; font-size: 0.85rem;"></p>
+        <button id="claim-free-btn" type="button" disabled style="background-color: #eab308; color: #1f2937; font-weight: bold; padding: 8px 12px; border: none; border-radius: 4px; cursor: not-allowed; opacity: 0.6; width: 100%; font-size: 0.85rem;">
+          ✨ Reclamar consulta gratis
+        </button>
+        <p id="claim-message" style="font-size: 0.8rem; margin: 8px 0 0 0; display: none;"></p>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" id="lblCodeTitle">O usa un Código manual (si tienes uno):</label>
+        <input type="text" id="giftCode" class="form-input" required autocomplete="off" placeholder="Ej: DAILINGNA-XXXX-XXXX">
+        <div id="codeError" class="error-msg"></div>
+      </div>
+
+      <div class="legal-disclaimer" id="lblDisclaimer"></div>
+
+      <label class="checkbox-group">
+        <input type="checkbox" id="acceptTerms" required>
+        <span id="lblTerms">Acepto los <a href="/terminos-servicio-ia/" target="_blank" style="color: var(--app-accent, #eeee55);">Términos de Servicio</a> y las políticas de uso del oráculo.</span>
+      </label>
+
+      <button type="submit" class="btn-action" id="btnSubmitAi">
+        ✨ Solicitar tu interpretación por IA (1 Crédito)
+      </button>
+    </form>
+  </div>
+
+  <!-- VISTA 2: Estado de Carga -->
+  <div id="loadingState" class="modal-view">
+    <button type="button" class="close-btn-abs" onclick="window.cerrarModal()" aria-label="Cerrar">&times;</button>
+    <div style="height: 15px;"></div>
+    <img class="loading-video" src="/video/hidden_dragon.webp" alt="黛靈娜 contemplando las líneas">
+    <div class="loading-text" id="lblLoadingText">
+      黛靈娜 está contemplando las líneas... Por favor, no cierres ni actualices esta ventana.
+    </div>
+  </div>
+
+  <!-- VISTA 3: Lectura Encapsulada y Generación de PDF -->
+  <div id="resultState" class="modal-view">
+    <button type="button" class="close-btn-abs" onclick="window.cerrarModal()" aria-label="Cerrar">&times;</button>
+    <div class="modal-header">
+      <h2 class="title" id="lblResultTitle" style="color: var(--app-accent, #eeee55);">El Oráculo ha hablado</h2>
+    </div>
+    
+    <div id="creditsRemainingMsg" class="credits-info"></div>
+    
+    <div id="aiResponseText" class="result-box"></div>
+    
+    <button type="button" class="btn-action" id="btnDownloadPdf" onclick="window.generarPDF()">
+      📄 Descargar Reporte PDF
+    </button>
+    <button type="button" class="btn-action btn-secondary" id="btnCloseModal" onclick="window.cerrarModal()">
+      Cerrar
+    </button>
+  </div>
+
+</div>
+
+<script>
+(() => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const lang = urlParams.get('lang') || 'es';
+
+  const i18nTexts = {
+    es: {
+      title: "Interpretación Asistida por IA",
+      subtitle: "Conecta el oráculo con la realidad de tu pregunta a través de la traducción inteligente (Costo: 1 Crédito).",
+      titleField: "Título de la Consulta:",
+      contextTitle: "Contexto detallado de tu situación (Opcional):",
+      contextPlaceholder: "Ej: Estoy evaluando cambiar de empleo pero me preocupa la estabilidad familiar...",
+      tip: "<strong>💡 Tip para una mejor lectura:</strong> Describe el contexto de tu tirada. El oráculo ha expuesto las fuerzas en juego; la IA, como cualquier interprete humano, necesita conocer tu dilema real para traducir esas fuerzas a tu situación práctica. Evita preguntas de 'sí o no'.",
+      codeTitle: "Código de Gift Card:",
+      disclaimer: "Toda la información contenida en elichingon.com (incluyendo las intervenciones de nuestro avatar digital 黛靈娜) se proporciona únicamente con fines de investigación y entretenimiento intelectual. Los operadores y propietarios del sitio no asumen ninguna responsabilidad por las interpretaciones o acciones derivadas de su uso.",
+      terms: 'Acepto los <a href="/terminos-servicio-ia/" target="_blank" style="color: var(--app-accent, #eeee55);">Términos de Servicio</a> y las políticas de uso.',
+      btn: "✨ Solicitar tu interpretación por IA (1 Crédito)",
+      loading: "黛靈娜 está contemplando las líneas... Por favor, no cierres ni actualices esta ventana.",
+      errInvalid: "El código de Gift Card no es válido o está inactivo.",
+      errDepleted: "La Gift Card no tiene créditos disponibles.",
+      errComplexity: "El oráculo no pudo procesar tu consulta. Esto ocurre si el texto contiene caracteres aleatorios, carece de sentido lógico, o es excesivamente complejo. Por favor, reformula tu pregunta con claridad y vuelve a intentarlo.",
+      errServer: "Ocurrió un error en el servidor. Inténtalo de nuevo.",
+      errLength: "El contexto no puede superar los 800 caracteres.",
+      resultTitle: "El Oráculo ha hablado",
+      creditsMsg: "Créditos restantes en tu Gift Card: ",
+      btnPdf: "📄 Descargar Reporte PDF",
+      btnClose: "Cerrar",
+      promptTopic: "Tema de consulta: ",
+      promptContext: "\nContexto adicional: ",
+      lblManualCode: "O ingresa tu código de Gift Card manualmente:",
+      statusChecking: "Verificando cupos diarios...",
+      statusClaimed: "Ya usaste tu cupo de hoy. ¡Vuelve mañana!",
+      statusAvailable: "🟢 Quedan {n} consultas gratuitas hoy.",
+      statusEmpty: "🔴 Se agotaron los 10 cupos. Vuelve mañana.",
+      btnClaimFree: "✨ Reclamar cupo gratis",
+      msgClaiming: "Reclamando...",
+      msgSuccess: "¡Cupo reclamado! Procesando...",
+      msgError: "Los cupos se agotaron o hubo un error."
+    },
+    en: {
+      title: "AI-Assisted Interpretation",
+      subtitle: "Connect the oracle to the reality of your question through intelligent translation (Cost: 1 Credit).",
+      titleField: "Consultation Title:",
+      contextTitle: "Detailed context of your situation (Optional):",
+      contextPlaceholder: "E.g.: I am considering changing jobs but I worry about family stability...",
+      tip: "<strong>💡 Tip for a better reading:</strong> Describe the context of your cast. The oracle has exposed the forces at play; the AI, like any human interpreter, needs to know your real dilemma to translate these forces into your practical situation. Avoid 'yes or no' questions.",
+      codeTitle: "Gift Card Code:",
+      disclaimer: "All information contained on elichingon.com (including the statements made by our digital avatar, 黛靈娜) is provided solely for research and intellectual entertainment purposes. The site's operators and owners assume no liability for any interpretations or actions derived from its use.",
+      terms: 'I accept the <a href="/en/ai-service-terms/" target="_blank" style="color: var(--app-accent, #eeee55);">Terms of Service</a> and usage policies.',
+      btn: "✨ Request your AI interpretation (1 Credit)",
+      loading: "黛靈娜 is contemplating the lines... Please do not close or refresh this window.",
+      errInvalid: "The Gift Card code is invalid or inactive.",
+      errDepleted: "The Gift Card has no available credits.",
+      errComplexity: "The oracle could not process your query. This occurs if the text contains random characters, lacks logical sense, or is excessively complex. Please rephrase your question clearly and try again.",
+      errServer: "A server error occurred. Please try again.",
+      errLength: "Context cannot exceed 800 characters.",
+      resultTitle: "The Oracle has spoken",
+      creditsMsg: "Remaining credits on your Gift Card: ",
+      btnPdf: "📄 Download PDF Report",
+      btnClose: "Close",
+      promptTopic: "Consultation Topic: ",
+      promptContext: "\nAdditional context: ",
+      lblManualCode: "Or enter your Gift Card code manually:",
+      statusChecking: "Checking daily availability...",
+      statusClaimed: "You have used your free daily slot. Come back tomorrow!",
+      statusAvailable: "🟢 {n} free consultations left today.",
+      statusEmpty: "🔴 All 10 daily slots are gone. Come back tomorrow.",
+      btnClaimFree: "✨ Claim free consultation",
+      msgClaiming: "Claiming...",
+      msgSuccess: "Successfully claimed! Processing...",
+      msgError: "Slots are depleted or a network error occurred."
+    },
+    de: {
+      title: "KI-gestützte Interpretation",
+      subtitle: "Verbinde das Orakel durch intelligente Übersetzung mit der Realität deiner Frage (Kosten: 1 Credit).",
+      titleField: "Titel der Konsultation:",
+      contextTitle: "Detaillierter Kontext deiner Situation (Optional):",
+      contextPlaceholder: "Z.B.: Ich erwäge einen Jobwechsel, mache mir aber Sorgen um die familiäre Stabilität...",
+      tip: "<strong>💡 Tipp für eine bessere Lesung:</strong> Beschreibe den Kontext deines Wurfs. Das Orakel hat die wirkenden Kräfte offengelegt; die KI muss, wie jeder menschliche Interpret, dein reales Dilemma kennen, um diese Kräfte auf deine praktische Situation zu übertragen. Vermeide 'Ja oder Nein'-Fragen.",
+      codeTitle: "Gift Card Code:",
+      disclaimer: "Alle auf elichingon.com bereitgestellten Informationen (einschließlich der Aussagen unseres digitalen Avatars 黛靈娜) dienen ausschließlich zu Forschungs- und intellektuellen Unterhaltungszwecken. Die Betreiber und Eigentümer der Website übernehmen keinerlei Haftung für Interpretationen oder Handlungen, die aus deren Nutzung abgeleitet werden.",
+      terms: 'Ich akzeptiere die <a href="/de/ki-dienst-bedingungen/" target="_blank" style="color: var(--app-accent, #eeee55);">Nutzungsbedingungen</a>.',
+      btn: "✨ Fordere deine KI-Interpretation an (1 Credit)",
+      loading: "黛靈娜 betrachtet die Linien... Bitte schließe oder aktualisiere dieses Fenster nicht.",
+      errInvalid: "Der Gift Card Code ist ungültig oder inaktiv.",
+      errDepleted: "Die Gift Card hat keine verfügbaren Credits mehr.",
+      errComplexity: "Das Orakel konnte deine Abfrage nicht verarbeiten. Dies geschieht, wenn der Text zufällige Zeichen enthält, keinen logischen Sinn ergibt oder übermäßig komplex ist. Bitte formuliere deine Frage klar und versuche es erneut.",
+      errServer: "Ein Serverfehler ist aufgetreten. Bitte versuche es erneut.",
+      errLength: "Der Kontext darf 800 Zeichen nicht überschreiten.",
+      resultTitle: "Das Orakel hat gesprochen",
+      creditsMsg: "Verbleibende Credits auf deiner Gift Card: ",
+      btnPdf: "📄 PDF-Bericht herunterladen",
+      btnClose: "Schließen",
+      promptTopic: "Thema der Konsultation: ",
+      promptContext: "\nZusätzlicher Kontext: ",
+      lblManualCode: "Oder gib deinen Gift Card Code manuell ein:",
+      statusChecking: "Tägliche Verfügbarkeit wird geprüft...",
+      statusClaimed: "Du hast deinen heutigen Platz bereits genutzt. Komm morgen wieder!",
+      statusAvailable: "🟢 Heute noch {n} kostenlose Konsultationen verfügbar.",
+      statusEmpty: "🔴 Alle 10 Plätze sind belegt. Komm morgen wieder.",
+      btnClaimFree: "✨ Kostenlose Konsultation anfordern",
+      msgClaiming: "Anfordern...",
+      msgSuccess: "Erfolgreich angefordert! Wird verarbeitet...",
+      msgError: "Plätze sind erschöpft oder Netzwerkfehler."
+    }
+  };
+
+  const t = i18nTexts[lang] || i18nTexts.es;
+
+  document.getElementById('lblTitle').innerText = t.title;
+  document.getElementById('lblSubtitle').innerText = t.subtitle;
+  document.getElementById('lblModalTitleField').innerText = t.titleField;
+  document.getElementById('lblContextTitle').innerText = t.contextTitle;
+  document.getElementById('userContext').placeholder = t.contextPlaceholder;
+  document.getElementById('helpBoxText').innerHTML = t.tip;
+  document.getElementById('lblDisclaimer').innerText = t.disclaimer;
+  document.getElementById('lblTerms').innerHTML = t.terms;
+  document.getElementById('btnSubmitAi').innerText = t.btn;
+  document.getElementById('lblLoadingText').innerText = t.loading;
+  document.getElementById('lblResultTitle').innerText = t.resultTitle;
+  document.getElementById('btnDownloadPdf').innerText = t.btnPdf;
+  document.getElementById('btnCloseModal').innerText = t.btnClose;
+
+  function cambiarVista(vistaId) {
+    document.querySelectorAll('.modal-view').forEach(el => el.classList.remove('active'));
+    document.getElementById(vistaId).classList.add('active');
+  }
+
+  document.getElementById('lblCodeTitle').innerText = t.lblManualCode;
+  const statusMsg = document.getElementById('status-message');
+  const claimBtn = document.getElementById('claim-free-btn');
+  const claimMsg = document.getElementById('claim-message');
+  const giftCodeInput = document.getElementById('giftCode');
+
+  statusMsg.innerText = t.statusChecking;
+  claimBtn.innerText = t.btnClaimFree;
+
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const lastClaimDate = localStorage.getItem("free_claimed_date");
+
+  async function checkAvailability() {
+    try {
+      const response = await fetch("/api/daily-status");
+      const data = await response.json();
+      
+      if (lastClaimDate === todayStr) {
+        statusMsg.textContent = t.statusClaimed;
+        statusMsg.style.color = "#854d0e";
+        claimBtn.style.display = "none";
+      } else if (data.available > 0) {
+        statusMsg.textContent = t.statusAvailable.replace('{n}', data.available);
+        statusMsg.style.color = "#166534";
+        claimBtn.disabled = false;
+        claimBtn.style.cursor = "pointer";
+        claimBtn.style.opacity = "1";
+      } else {
+        statusMsg.textContent = t.statusEmpty;
+        statusMsg.style.color = "#991b1b";
+        claimBtn.style.display = "none";
+      }
+    } catch (e) {
+      statusMsg.style.display = "none";
+      claimBtn.style.display = "none";
+    }
+  }
+  checkAvailability();
+
+  if (claimBtn) {
+    claimBtn.addEventListener('click', async () => {
+      claimBtn.disabled = true;
+      claimBtn.innerText = t.msgClaiming;
+      claimBtn.style.opacity = "0.6";
+      claimBtn.style.cursor = "wait";
+
+      try {
+        const response = await fetch("/api/claim-daily");
+        const data = await response.json();
+        
+        if (data.success && data.code) {
+           giftCodeInput.value = data.code;
+           localStorage.setItem("free_claimed_date", todayStr);
+           
+           claimBtn.style.display = "none";
+           statusMsg.style.display = "none";
+           claimMsg.style.color = "#166534";
+           claimMsg.textContent = t.msgSuccess;
+           claimMsg.style.display = "block";
+           
+           setTimeout(() => {
+             document.getElementById('btnSubmitAi').click();
+           }, 800);
+        } else {
+           claimBtn.style.display = "none";
+           statusMsg.style.display = "none";
+           claimMsg.style.color = "#991b1b";
+           claimMsg.textContent = data.error || t.msgError;
+           claimMsg.style.display = "block";
+        }
+      } catch(e) {
+         claimBtn.disabled = false;
+         claimBtn.innerText = t.btnClaimFree;
+         claimBtn.style.opacity = "1";
+         claimBtn.style.cursor = "pointer";
+         claimMsg.style.color = "#991b1b";
+         claimMsg.textContent = t.msgError;
+         claimMsg.style.display = "block";
+      }
+    });
+  }
+
+  if (window.parent && window.parent.appState && window.parent.appState.consultationTitle) {
+    document.getElementById('modalConsultationTitle').value = window.parent.appState.consultationTitle;
+  }
+
+  let currentAiResult = null;
+
+  window.enviarSolicitudIA = async function(e) {
+    e.preventDefault();
+
+    const titleVal = document.getElementById('modalConsultationTitle').value.trim();
+    const contextVal = document.getElementById('userContext').value.trim();
+    const codeVal = document.getElementById('giftCode').value.trim();
+    const errorDiv = document.getElementById('codeError');
+    errorDiv.style.display = 'none';
+
+    if (contextVal.length > 800) {
+      errorDiv.textContent = t.errLength;
+      errorDiv.style.display = 'block';
+      return;
+    }
+
+    let rawTirada = {};
+    try {
+      rawTirada = JSON.parse(sessionStorage.getItem('lastHexagram') || '{}');
+    } catch (err) {}
+
+    if (!rawTirada.hexagram) {
+      alert("No se encontró una tirada activa. Por favor realiza el ritual de entropía primero.");
+      return;
+    }
+
+    cambiarVista('loadingState');
+
+    const finalQuestion = t.promptTopic + titleVal + (contextVal ? t.promptContext + contextVal : "");
+
+    let metodoNormalizado = 'monedas';
+    let modoNormalizado = 'progresivo';
+
+    if (window.parent && window.parent.appState) {
+      const state = window.parent.appState;
+      if (state.entryType === 'manual' || rawTirada.method === 'manual') {
+        metodoNormalizado = 'manual';
+        modoNormalizado = 'manual';
+      } else {
+        if (state.method === 'yarrow' || rawTirada.method === 'yarrow') metodoNormalizado = 'varillas';
+        if (state.mode === 'final' || rawTirada.mode === 'final') modoNormalizado = 'final';
+      }
+    }
+
+    const payload = {
+      code: codeVal,
+      question: finalQuestion,
+      resulting_hexagram: rawTirada.hexagram,
+      moving_lines: rawTirada.changingLines || [],
+      future_hexagram: rawTirada.derivedHexagram || null,
+      language: lang,
+      metodo: metodoNormalizado,
+      modo: modoNormalizado
+    };
+
+    const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    const endpointIA = isLocalhost ? 'http://localhost:8787/' : 'https://interprete-ia-i-ching.oraculo-dailingna.workers.dev/'; 
+
+    try {
+      const response = await fetch(endpointIA, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json; charset=UTF-8' },
+        body: JSON.stringify(payload)
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        currentAiResult = result;
+        currentAiResult.question = finalQuestion;
+        
+        cambiarVista('resultState');
+        
+        if (result.remaining_credits !== undefined) {
+          document.getElementById('creditsRemainingMsg').textContent = t.creditsMsg + result.remaining_credits;
+        }
+
+        const textoRespuesta = result.interpretation || result.texto || result.response || "El oráculo ha respondido de forma silente.";
+        document.getElementById('aiResponseText').textContent = textoRespuesta;
+        
+      } else {
+        cambiarVista('aiFormContainer');
+
+        let msg = t.errServer;
+        if (result.error === 'gift_card_invalid') msg = t.errInvalid;
+        else if (result.error === 'gift_card_depleted') {
+          msg = t.errDepleted;
+          if (result.remaining_credits !== undefined) {
+            msg += ` (Créditos: ${result.remaining_credits})`;
+          }
+        }
+        else if (result.error === 'exceeded_complexity') {
+          msg = t.errComplexity;
+        }
+
+        errorDiv.textContent = msg;
+        errorDiv.style.display = 'block';
+      }
+
+    } catch (err) {
+      cambiarVista('aiFormContainer');
+      errorDiv.textContent = "Error técnico: " + err.message;
+      errorDiv.style.display = 'block';
+    }
+  };
+
+  window.generarPDF = function() {
+    if (currentAiResult) {
+      window.parent.postMessage({ type: 'GENERATE_AI_PDF', data: currentAiResult }, '*');
+    }
+  };
+
+  window.cerrarModal = function() {
+    window.parent.postMessage({ type: 'CLOSE_MODAL' }, '*');
+  };
+
+})();
+
+  
+</script>
+
+</body>
+</html>

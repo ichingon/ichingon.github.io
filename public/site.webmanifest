@@ -1,0 +1,77 @@
+{
+  "id": "el-i-chingon",
+  "name": "El I Chingón",
+  "short_name": "I Chingón",
+  "description": "The I Ching as history's first information protocol. Tools, hexagrams, tutorials, articles, and modern decision-making stripped of mysticism.",
+  "categories": ["lifestyle", "productivity", "education", "utilities", "books", "reference", "philosophy"],
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "/?utm_source=pwa&utm_medium=app",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+"screenshots": [
+    {
+      "src": "/screenshots/mobile-6.webp",
+      "sizes": "720x1280",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/mobile-5.webp",
+      "sizes": "720x1280",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/mobile-11.webp",
+      "sizes": "720x1280",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/mobile-3.webp",
+      "sizes": "720x1280",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nueva consulta",
+      "short_name": "Consulta",
+      "description": "Iniciar una nueva consulta del I Ching",
+      "url": "/consulta-iching/",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Buscar hexagrama",
+      "short_name": "Hexagramas",
+      "description": "Buscar un hexagrama en el diccionario",
+      "url": "/hexagramas/buscador-hexagramas-i-ching/",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Artículos",
+      "short_name": "Artículos",
+      "description": "Leer los artículos sobre el I Ching",
+      "url": "/articulos/",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+     }
+  ]
+}
