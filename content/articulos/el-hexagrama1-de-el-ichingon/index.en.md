@@ -149,4 +149,8 @@ If you really investigate how these LLMs (Large Language Models) are built, you 
 
 And the I Ching, that hidden dragon that has been there for thousands of years, is still waiting for us to approach it for wisdom.
 
+---
+
+*Author's note.* This project did not come out of nowhere. It is the continuation of a line of work I began more than a decade ago, when I was a mathematics lecturer at the Universidad Nacional Abierta. Everything I published then —interactive tools for students, essays on distance education, reflections on information and attention— is archived at [U.N.A. Matemáticas El Tigre](https://unamatematicaseltigre.blogspot.com/). That blog was the first serious attempt to apply the ideas that now sustain El I Chingón: that knowledge is not transmitted, it is built; that tools must adapt to those who use them; and that technology can be a bridge between people, not a barrier. It is still alive, and still receives visits from students looking for mathematics and statistics materials.
+
 {{< youtube "gRiGBEptT2s" >}}

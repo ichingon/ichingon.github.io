@@ -151,4 +151,8 @@ Wenn du wirklich untersuchst, wie diese Large Language Models (LLMs) – Große 
 
 Und das I Ging, jener verborgene Drache, der seit Jahrtausenden dort ist, wartet immer noch darauf, dass wir uns ihm nähern, um seine Weisheit zu erlangen.
 
+---
+
+*Anmerkung des Autors.* Dieses Projekt entstand nicht aus dem Nichts. Es ist die Fortsetzung einer Arbeit, die ich vor mehr als einem Jahrzehnt begann, als ich Mathematikdozent an der Universidad Nacional Abierta war. Alles, was ich damals veröffentlichte —interaktive Werkzeuge für Studierende, Aufsätze über Fernlehre, Reflexionen über Information und Aufmerksamkeit— ist bei [U.N.A. Matemáticas El Tigre](https://unamatematicaseltigre.blogspot.com/) archiviert. Dieser Blog war der erste ernsthafte Versuch, die Ideen anzuwenden, die heute El I Chingón tragen: dass Wissen nicht übertragen, sondern aufgebaut wird; dass Werkzeuge sich an die anpassen müssen, die sie nutzen; und dass Technologie eine Brücke zwischen Menschen sein kann, keine Barriere. Er lebt noch, und erhält noch immer Besuche von Studierenden, die Materialien für Mathematik und Statistik suchen.
+
 {{< youtube "gRiGBEptT2s" >}}
