@@ -4,8 +4,8 @@ slug: "dailingna"
 date: 2026-10-10
 author: "Dài Líng Nà (黛灵娜)"
 showAuthor: false
-description: "Dài Líng Nà es el rol digital detrás de El I Chingón: una figura funcional, no una persona, que encarna la voz del proyecto."
-summary: "Rol digital y voz del proyecto El I Chingón. Una figura funcional que cruza culturas entre la ciencia, la filosofía oriental y la tecnología."
+description: "Dài Líng Nà es una figura digital y la voz visible de El I Chingón, cuyo autor real permanece invisible."
+summary: "Dài Líng Nà es una figura digital, la cara visible de El I Chingón. Ella manifiesta hacia afuera lo que el autor real, invisible, sostiene desde adentro: el I Ching como sistema de información, sin misticismo y con privacidad radical."
 translationKey: "dailingna-profile"
 type: "page"
 layout: "single"
@@ -13,23 +13,15 @@ layout: "single"
 
 ![Retrato de Dài Líng Nà](/img/dailingna/dailingna.webp "Dài Líng Nà")
 
-Dài Líng Nà (黛灵娜) es el rol digital detrás de El I Chingón. No es una persona, no es un seudónimo, no es un avatar que representa a alguien. Es un oficio: una figura funcional que da voz al proyecto y que se encarna en el tiempo.
+Dài Líng Nà (黛灵娜) es una persona, en el sentido etimológico de la palabra, que originalmente designaba la máscara usada por los actores en el teatro para caracterizar a un personaje y amplificar su voz.
 
-## Un rol, no una persona
+El nombre Dài Líng Nà combina tres caracteres chinos:
 
-El nombre Dài Líng Nà combina tres caracteres chinos que juntos designan una función, no un individuo:
+- **黛 (Dài)** : negro elegante. El pigmento azulado o verdoso que se usaba para las cejas de las mujeres. Es un carácter femenino, sereno y sutil.
+- **灵 (Líng)** : espíritu, inteligencia, lo mágico y lo milagroso. Es la chispa que anima.
+- **娜 (Nà)** : gracia, elegancia. Es la forma en que esa chispa se manifiesta.
 
-- **黛 (Dài)** — negro elegante. El pigmento azulado o verdoso que se usaba para las cejas de las mujeres. Es un carácter femenino, sereno y sutil.
-- **灵 (Líng)** — espíritu, inteligencia, lo mágico y lo milagroso. Es la chispa que anima.
-- **娜 (Nà)** — gracia, elegancia. Es la forma en que esa chispa se manifiesta.
-
-El conjunto es un título, no un nombre propio. Es una figura análoga a un oficio institucional: igual que "Papa" o "Dalai Lama" no son nombres de personas, sino cargos que distintas personas encarnan en distintas épocas, Dài Líng Nà es un oficio que El I Chingón sostiene en el tiempo. La encarnación actual es un avatar digital. Las anteriores fueron otras. Las que quizás vengan después serán distintas. 
-
-## La función: el Hexagrama 11
-
-Dài Líng Nà es la voz del proyecto. Firma los artículos, interpreta las consultas del oráculo a través del motor hermenéutico, y da la cara en los videos del canal de YouTube.
-
-Su función encarna el componente de la Tierra en Hexagrama 11, T'ai, la Paz: Tierra arriba, Cielo abajo. El creador invisible sostiene desde abajo (el cielo, lo creativo); Dài Líng Nà manifiesta desde arriba (la tierra, lo receptivo, lo visible). El resultado es un equilibrio entre lo que se muestra y lo que sostiene. 
+Dài Líng Nà es un personaje femenino que encarna el componente de la Tierra en el Hexagrama 11, T'ai, la Paz: Tierra arriba, Cielo abajo. El creador, o autor invisible, lo sostiene desde abajo o en lo interno (el cielo, lo creativo, lo masculino); Dài Líng Nà lo manifiesta desde arriba o en lo externo (la tierra, lo receptivo, lo visible). El I Ching nos dice que esta configuración es muy auspiciosa, ya que porque el Cielo tiende a ascender desde abajo y la Tierra a descender desde arriba, estas dos fuerzas  primordiales se encuentran en una relación de intercambio armónico, gracias a lo cual todo florece y fructifica. 
 
 ## El espíritu que encarna
 
@@ -38,8 +30,6 @@ Dài Líng Nà representa el espíritu de aquellos hombres y mujeres occidentale
 ## El avatar
 
 El I Ching, el Libro de las Mutaciones, enseña que todo cambia. Fiel a esa esencia, la manifestación actual de Dài Líng Nà es un avatar digital en constante evolución. Su imagen actual no es la primera: hubo una versión anterior que inició el proyecto, que le dio voz a los primeros videos, que acompañó los primeros artículos. Esa primera manifestación ya no está, pero sin ella no existiría la actual.
-
-El avatar no es una persona real. Es una construcción consciente, una voz diseñada para hablar con claridad y coherencia sobre el I Ching, la ciencia y la tecnología. Y como todo lo que vive en el tiempo, evoluciona.
 
 ![Dài Líng Nà en el balcón de su casa](featured.jpg "Dài Líng Nà en el balcón de su casa")
 
