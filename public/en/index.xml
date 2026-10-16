@@ -209,5 +209,25 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/consulta-iching/featured.jpg" />
     </item>
     
+    <item>
+      <title>Liu Yao Consultation — Lost Objects</title>
+      <link>http://localhost:1313/en/lost-objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/lost-objects/</guid>
+      <description>Oracle consultation to locate lost objects using the Liu Yao method.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/objetos-perdidos/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Oracle Consultation</title>
+      <link>http://localhost:1313/en/oracle-consultation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/oracle-consultation/</guid>
+      <description>Oracle consultation method selector.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/consulta-oraculo/featured.jpg" />
+    </item>
+    
   </channel>
 </rss>

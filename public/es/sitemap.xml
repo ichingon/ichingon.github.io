@@ -525,29 +525,35 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/dailingna/</loc>
-    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/articulos/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/dailingna/"
+      href="http://localhost:1313/en/articles/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/dailingna/"
+      href="http://localhost:1313/de/artikel/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/dailingna/"
+      href="http://localhost:1313/articulos/"
     />
   </url>
   <url>
+    <loc>http://localhost:1313/articulos/consulta-i-ching-caso-dengue-hijo/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -567,24 +573,24 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/dailingna/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/articles/"
+      href="http://localhost:1313/en/dailingna/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/artikel/"
+      href="http://localhost:1313/de/dailingna/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/articulos/"
+      href="http://localhost:1313/dailingna/"
     />
   </url>
   <url>
@@ -948,6 +954,46 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:1313/articulos/azar-ciencia-i-ching/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/objetos-perdidos/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/lost-objects/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/verlorene-objekte/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/objetos-perdidos/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/consulta-oraculo/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/oracle-consultation/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/orakel-konsultation/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/consulta-oraculo/"
     />
   </url>
   <url>

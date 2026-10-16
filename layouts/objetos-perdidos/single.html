@@ -1,0 +1,1129 @@
+{{ define "main" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+<script src="{{ "app/lib/najia-core.bundle.js" | relURL }}"></script>
+
+<div class="objetos-page" id="objetosAppRoot" data-lang="{{ .Language.Lang }}">
+  <div class="objetos-container">
+
+    <!-- FASE 1: Formulario -->
+    <div class="consultation-card" id="formWrap">
+      <h1 class="title">{{ .Title }}</h1>
+      <p class="subtitle">{{ .Description }}</p>
+
+      <!-- Botón de Ayuda / Tutorial -->
+      <div style="display: flex; justify-content: flex-end; margin-bottom: 15px;">
+        <button type="button" onclick="window.abrirTutorialObjetos(1)" style="background: none; border: none; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0.8; transition: opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" aria-label="Ver Tutorial">❓</button>
+      </div>
+
+      <form id="objetosSetupForm" onsubmit="window.interceptarInicio(event)">
+
+        <div class="form-group">
+          <label class="form-label" for="objetoBuscado">
+            {{ if eq .Language.Lang "de" }}Was suchst du?
+            {{ else if eq .Language.Lang "en" }}What are you looking for?
+            {{ else }}¿Qué buscas?{{ end }}
+          </label>
+          <input type="text" id="objetoBuscado" class="form-input" required autocomplete="off"
+            placeholder="{{ if eq .Language.Lang "de" }}z.B. Wohnungsschlüssel
+            {{ else if eq .Language.Lang "en" }}e.g. House keys
+            {{ else }}Ej. Llaves de casa{{ end }}">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="objetoContexto">
+            {{ if eq .Language.Lang "de" }}Kontext (optional)
+            {{ else if eq .Language.Lang "en" }}Context (optional)
+            {{ else }}Contexto (opcional){{ end }}
+          </label>
+          <textarea id="objetoContexto" class="form-textarea" rows="3"
+            placeholder="{{ if eq .Language.Lang "de" }}Wo hast du es zuletzt gesehen? Was ist passiert?
+            {{ else if eq .Language.Lang "en" }}Where did you last see it? What was happening?
+            {{ else }}¿Dónde lo viste por última vez? ¿Qué estaba pasando?{{ end }}"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="objetoCategoria">
+            {{ if eq .Language.Lang "de" }}Art des Objekts
+            {{ else if eq .Language.Lang "en" }}Type of object
+            {{ else }}Tipo de objeto{{ end }}
+          </label>
+          <select id="objetoCategoria" class="form-input" required>
+            <option value="父母">
+              {{ if eq .Language.Lang "de" }}Dokumente, Schlüssel, Fahrzeuge, Infrastruktur
+              {{ else if eq .Language.Lang "en" }}Documents, keys, vehicles, infrastructure
+              {{ else }}Documentos, llaves, vehículos, infraestructura{{ end }}
+            </option>
+            <option value="妻财">
+              {{ if eq .Language.Lang "de" }}Wertgegenstände, Geld, Schmuck
+              {{ else if eq .Language.Lang "en" }}Valuables, money, jewelry
+              {{ else }}Objetos de valor, dinero, joyas{{ end }}
+            </option>
+            <option value="子孙">
+              {{ if eq .Language.Lang "de" }}Tiere, Haustiere
+              {{ else if eq .Language.Lang "en" }}Animals, pets
+              {{ else }}Animales, mascotas{{ end }}
+            </option>
+            <option value="兄弟">
+              {{ if eq .Language.Lang "de" }}Gemeinsame oder unklare Gegenstände
+              {{ else if eq .Language.Lang "en" }}Shared or unclear objects
+              {{ else }}Objetos de uso común o sin dueño claro{{ end }}
+            </option>
+          </select>
+        </div>
+
+        <details style="background:#111;border:1px solid #333;border-radius:4px;padding:10px;cursor:pointer;margin-bottom:16px;">
+          <summary style="font-size:0.85rem;color:#aaa;font-weight:500;outline:none;">
+            ⚙️ {{ if eq .Language.Lang "de" }}Erweiterte Optionen
+            {{ else if eq .Language.Lang "en" }}Advanced options
+            {{ else }}Opciones avanzadas{{ end }}
+          </summary>
+          <div style="margin-top:15px;padding-top:15px;border-top:1px solid #222;cursor:default;">
+
+            <div class="form-group">
+              <label class="form-label">{{ if eq .Language.Lang "de" }}Art der Konsultation
+                {{ else if eq .Language.Lang "en" }}Consultation type
+                {{ else }}Tipo de consulta{{ end }}</label>
+              <div class="method-options">
+                <label class="method-label">
+                  <input type="radio" name="entryType" value="interactive" checked onchange="window.toggleEntrada()">
+                  {{ if eq .Language.Lang "de" }}Interaktiv
+                  {{ else if eq .Language.Lang "en" }}Interactive
+                  {{ else }}Simulación interactiva{{ end }}
+                </label>
+                <label class="method-label">
+                  <input type="radio" name="entryType" value="manual" onchange="window.toggleEntrada()">
+                  {{ if eq .Language.Lang "de" }}Manuell
+                  {{ else if eq .Language.Lang "en" }}Manual
+                  {{ else }}Entrada manual{{ end }}
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group" id="dateGroup" style="display:none;">
+              <label class="form-label" for="consultationDate">
+                {{ if eq .Language.Lang "de" }}Datum der Konsultation
+                {{ else if eq .Language.Lang "en" }}Consultation date
+                {{ else }}Fecha de la consulta{{ end }} (AAAA-MM-DD)
+              </label>
+              <input type="text" id="consultationDate" class="form-input" maxlength="10"
+                value="{{ now.Format "2006-01-02" }}" readonly
+                style="background:#1a1a1a;cursor:not-allowed;">
+            </div>
+
+            <div id="interactiveOptions">
+              <div class="form-group">
+                <label class="form-label">{{ if eq .Language.Lang "de" }}Methode
+                  {{ else if eq .Language.Lang "en" }}Method
+                  {{ else }}Método{{ end }}</label>
+                <div class="method-options">
+                  <label class="method-label">
+                    <input type="radio" name="method" value="coins" checked>
+                    {{ if eq .Language.Lang "de" }}3 Münzen
+                    {{ else if eq .Language.Lang "en" }}3 Coins
+                    {{ else }}3 Monedas{{ end }}
+                  </label>
+                  <label class="method-label">
+                    <input type="radio" name="method" value="yarrow">
+                    {{ if eq .Language.Lang "de" }}50 Schafgarbenstängel
+                    {{ else if eq .Language.Lang "en" }}50 Yarrow Stalks
+                    {{ else }}50 Varillas de Aquilea{{ end }}
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">{{ if eq .Language.Lang "de" }}Enthüllung
+                  {{ else if eq .Language.Lang "en" }}Revelation
+                  {{ else }}Modo de revelación{{ end }}</label>
+                <div class="method-options">
+                  <label class="method-label">
+                    <input type="radio" name="mode" value="progressive" checked>
+                    {{ if eq .Language.Lang "de" }}Fortlaufend
+                    {{ else if eq .Language.Lang "en" }}Progressive
+                    {{ else }}Progresivo{{ end }}
+                  </label>
+                  <label class="method-label">
+                    <input type="radio" name="mode" value="final">
+                    {{ if eq .Language.Lang "de" }}Am Ende
+                    {{ else if eq .Language.Lang "en" }}At the end
+                    {{ else }}Al final{{ end }}
+                  </label>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </details>
+
+        <div class="privacy-banner">
+          🔒 {{ if eq .Language.Lang "de" }}Alle Berechnungen erfolgen lokal in deinem Browser.
+          {{ else if eq .Language.Lang "en" }}All calculations run locally in your browser.
+          {{ else }}Todos los cálculos se ejecutan localmente en tu navegador.{{ end }}
+        </div>
+
+        <button type="submit" class="btn-action primary">
+          {{ if eq .Language.Lang "de" }}Konsultation beginnen
+          {{ else if eq .Language.Lang "en" }}Begin consultation
+          {{ else }}Comenzar consulta{{ end }}
+        </button>
+
+      </form>
+    </div>
+
+    <!-- FASE 2: Iframe motor -->
+    <div id="simulationWrap" style="display:none;width:100%;">
+      <iframe id="motorFrame" src="" title="Motor"
+        style="width:100%;height:680px;border:1px solid #333;background:#000;display:block;border-radius:4px;"></iframe>
+    </div>
+
+    <!-- FASE 3: Resultado -->
+    <div class="consultation-card" id="resultWrap" style="display:none;">
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <h1 class="title" style="margin: 0; flex-grow: 1;">{{ if eq .Language.Lang "de" }}Konsultation abgeschlossen
+          {{ else if eq .Language.Lang "en" }}Consultation complete
+          {{ else }}Consulta completada{{ end }}</h1>
+
+        <button type="button" onclick="window.abrirTutorialObjetos(6)" style="background: none; border: none; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0.8; transition: opacity 0.2s; margin-left: 10px;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" aria-label="Ver Tutorial">❓</button>
+      </div>
+
+      <div class="result-summary">
+        <div class="summary-row">
+          <span class="summary-label">{{ if eq .Language.Lang "de" }}Datum
+            {{ else if eq .Language.Lang "en" }}Date
+            {{ else }}Fecha{{ end }}</span>
+          <span class="summary-val" id="resFecha">-</span>
+        </div>
+        <div class="summary-row">
+          <span class="summary-label">{{ if eq .Language.Lang "de" }}Objekt
+            {{ else if eq .Language.Lang "en" }}Object
+            {{ else }}Objeto{{ end }}</span>
+          <span class="summary-val" id="resObjeto">-</span>
+        </div>
+        <div class="summary-row">
+          <span class="summary-label">{{ if eq .Language.Lang "de" }}Linien
+            {{ else if eq .Language.Lang "en" }}Lines
+            {{ else }}Líneas{{ end }}</span>
+          <span class="summary-val" id="resLineas">-</span>
+        </div>
+        <div class="summary-row">
+          <span class="summary-label">{{ if eq .Language.Lang "de" }}Haupthexagramm
+            {{ else if eq .Language.Lang "en" }}Primary hexagram
+            {{ else }}Hexagrama base{{ end }}</span>
+          <span class="summary-val" id="resHexBase">-</span>
+        </div>
+        <div class="summary-row">
+          <span class="summary-label">{{ if eq .Language.Lang "de" }}Wandlungslinien
+            {{ else if eq .Language.Lang "en" }}Moving lines
+            {{ else }}Líneas móviles{{ end }}</span>
+          <span class="summary-val" id="resLineasMov">-</span>
+        </div>
+        <div class="summary-row">
+          <span class="summary-label">{{ if eq .Language.Lang "de" }}Zukünftiges Hexagramm
+            {{ else if eq .Language.Lang "en" }}Future hexagram
+            {{ else }}Hexagrama futuro{{ end }}</span>
+          <span class="summary-val" id="resHexFuturo">-</span>
+        </div>
+      </div>
+
+      <button type="button" class="btn-action primary" id="btnPdf" onclick="window.generarPdfObjetos()">
+        📄 {{ if eq .Language.Lang "de" }}Kostenlosen PDF-Bericht herunterladen
+        {{ else if eq .Language.Lang "en" }}Download free PDF report
+        {{ else }}Descargar informe PDF gratuito{{ end }}
+      </button>
+
+      <!-- Bloque de Interpretación IA -->
+      <div class="privacy-banner" style="margin-top:14px;border-left:2px solid #f59e0b;background:rgba(245,158,11,0.05);padding:12px;text-align:left;box-sizing:border-box;">
+        <strong style="color:#f59e0b;font-size:0.9rem;">
+          {{ if eq .Language.Lang "de" }}KI-gestützte Interpretation
+          {{ else if eq .Language.Lang "en" }}AI-Assisted Interpretation
+          {{ else }}Interpretación Asistida por IA{{ end }}
+        </strong>
+        <p style="margin:6px 0 12px 0;font-size:0.82rem;line-height:1.45;color:#ccc;">
+          {{ if eq .Language.Lang "de" }}Unsere KI übersetzt die Kräfte des Objekts in konkrete Hinweise zu seinem Zustand, seiner Lage und seiner wahrscheinlichen Richtung.
+          {{ else if eq .Language.Lang "en" }}Our AI translates the forces of the object into concrete clues about its state, location and likely direction.
+          {{ else }}Nuestra IA traduce las fuerzas del objeto en pistas concretas sobre su estado, ubicación y dirección probable.{{ end }}
+        </p>
+        <button type="button" class="btn-action"
+          style="background:rgba(245,158,11,0.1);border-color:#f59e0b;color:#fff;"
+          onclick="document.getElementById('modalContenedorIAObjetos').style.display='flex'">
+          ✨ {{ if eq .Language.Lang "de" }}KI-Interpretation anfordern
+          {{ else if eq .Language.Lang "en" }}Request AI Interpretation
+          {{ else }}Solicitar Interpretación por IA{{ end }}
+        </button>
+      </div>
+
+      <button type="button" class="btn-action secondary" onclick="window.reiniciar()">
+        🔄 {{ if eq .Language.Lang "de" }}Neue Konsultation
+        {{ else if eq .Language.Lang "en" }}New consultation
+        {{ else }}Nueva consulta{{ end }}
+      </button>
+    </div>
+
+    <!-- Contenedor del modal IA -->
+    <div id="modalContenedorIAObjetos" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;padding:20px;box-sizing:border-box;">
+      <iframe src="/app/ia-objetos-perdidos-modal.html?lang={{ .Language.Lang }}"
+        style="width:100%;max-width:520px;height:85vh;max-height:680px;border:none;background:transparent;border-radius:4px;"></iframe>
+    </div>
+
+    <!-- Contenedor del Tutorial -->
+    <div id="tutorialObjetosContenedor" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 10000; background: rgba(0, 0, 0, 0.85); justify-content: center; align-items: center; padding: 16px; box-sizing: border-box;">
+      <iframe id="tutorialObjetosFrame" src="" allowtransparency="true" style="width: 100%; max-width: 400px; height: 90vh; border: none; background: transparent;"></iframe>
+    </div>
+
+  </div>
+</div>
+
+<style>
+.objetos-page { display:flex; justify-content:center; padding:20px 10px; }
+.objetos-container { width:100%; max-width:580px; box-sizing:border-box; }
+.consultation-card { background:rgba(20,20,20,0.95); border:1px solid #333; padding:20px 16px; border-radius:4px; box-sizing:border-box; width:100%; }
+.title { font-size:1.3rem; margin:0 0 8px 0; text-align:center; color:#fff; }
+.subtitle { font-size:0.85rem; color:#888; text-align:center; margin-bottom:20px; }
+.form-group { margin-bottom:16px; }
+.form-label { display:block; font-size:0.85rem; color:#ccc; margin-bottom:6px; }
+.form-input, .form-textarea { width:100%; padding:10px; background:#111; border:1px solid #444; color:#fff; font-size:0.9rem; border-radius:2px; box-sizing:border-box; font-family:inherit; }
+.form-textarea { resize:vertical; min-height:70px; }
+.form-input:focus, .form-textarea:focus { border-color:#777; outline:none; }
+.method-options { display:flex; gap:16px; flex-wrap:wrap; }
+.method-label { font-size:0.82rem; color:#aaa; cursor:pointer; }
+.privacy-banner { font-size:0.78rem; color:#777; border:1px dashed #333; padding:8px 10px; margin:18px 0; border-radius:2px; box-sizing:border-box; }
+.btn-action { width:100%; padding:12px; background:#222; border:1px solid #555; color:#fff; font-size:0.88rem; cursor:pointer; border-radius:2px; transition:background 0.2s, border-color 0.2s; box-sizing:border-box; margin-top:10px; }
+.btn-action.primary { background:#f59e0b; border-color:#d97706; color:#111827; font-weight:600; }
+.btn-action.secondary { border-color:#555; color:#888; background:transparent; }
+.btn-action:hover { opacity:0.9; }
+.result-summary { background:#111; border:1px solid #282828; padding:12px; margin-bottom:16px; box-sizing:border-box; }
+.summary-row { display:flex; justify-content:space-between; font-size:0.85rem; padding:4px 0; border-bottom:1px solid #1a1a1a; }
+.summary-row:last-child { border-bottom:none; }
+.summary-label { color:#888; }
+.summary-val { color:#eee; font-weight:500; }
+</style>
+
+<script>
+/*<![CDATA[*/
+(function() {
+  var root = document.getElementById('objetosAppRoot');
+  window.objetosLang = root ? root.getAttribute('data-lang') : 'es';
+  var hoy = new Date();
+  var fechaHoy = hoy.getFullYear() + '-' + String(hoy.getMonth()+1).padStart(2,'0') + '-' + String(hoy.getDate()).padStart(2,'0');
+
+  window.objetosState = {
+    objeto: '',
+    contexto: '',
+    categoria: '父母',
+    fecha: fechaHoy,
+    entryType: 'interactive',
+    method: 'coins',
+    mode: 'progressive',
+    result: null,
+    liuyao: null
+  };
+
+  window.abrirTutorialObjetos = function(slideNum) {
+    var slide = slideNum || 1;
+    var frame = document.getElementById('tutorialObjetosFrame');
+    var contenedor = document.getElementById('tutorialObjetosContenedor');
+    var tiempo = new Date().getTime();
+    frame.src = '/app/tutorial-objeto-perdido-modal.html?lang=' + encodeURIComponent(window.objetosLang) + '&slide=' + slide + '&t=' + tiempo;
+    contenedor.style.display = 'flex';
+  };
+
+  window.toggleEntrada = function() {
+    var entry = document.querySelector('input[name="entryType"]:checked');
+    var isManual = entry && entry.value === 'manual';
+    var dateGroup = document.getElementById('dateGroup');
+    var dateInput = document.getElementById('consultationDate');
+    document.getElementById('interactiveOptions').style.display = isManual ? 'none' : 'block';
+    dateGroup.style.display = isManual ? 'block' : 'none';
+    if (isManual) {
+      dateInput.removeAttribute('readonly');
+      dateInput.style.background = '#111';
+      dateInput.style.cursor = 'text';
+    } else {
+      dateInput.setAttribute('readonly', 'readonly');
+      dateInput.value = fechaHoy;
+      dateInput.style.background = '#1a1a1a';
+      dateInput.style.cursor = 'not-allowed';
+    }
+  };
+
+  window.interceptarInicio = function(e) {
+    if (e && e.preventDefault) e.preventDefault();
+
+    var objeto = document.getElementById('objetoBuscado').value.trim();
+    var contexto = document.getElementById('objetoContexto').value.trim();
+    var categoria = document.getElementById('objetoCategoria').value;
+    var fecha = document.getElementById('consultationDate').value.trim() || fechaHoy;
+    var entry = document.querySelector('input[name="entryType"]:checked');
+    var method = document.querySelector('input[name="method"]:checked');
+    var mode = document.querySelector('input[name="mode"]:checked');
+
+    if (!objeto) { document.getElementById('objetoBuscado').focus(); return false; }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha)) { alert('Fecha inválida (AAAA-MM-DD)'); return false; }
+
+    window.objetosState.objeto = objeto;
+    window.objetosState.contexto = contexto;
+    window.objetosState.categoria = categoria;
+    window.objetosState.fecha = fecha;
+    window.objetosState.entryType = entry ? entry.value : 'interactive';
+    window.objetosState.method = method ? method.value : 'coins';
+    window.objetosState.mode = mode ? mode.value : 'progressive';
+
+    document.getElementById('formWrap').style.display = 'none';
+    document.getElementById('resultWrap').style.display = 'none';
+
+    var frame = document.getElementById('motorFrame');
+    if (window.objetosState.entryType === 'manual') {
+      frame.src = '{{ "app/manual-iching.html" | relURL }}?lang=' + encodeURIComponent(window.objetosLang);
+    } else {
+      frame.src = '{{ "app/entropia-iching.html" | relURL }}?lang=' + encodeURIComponent(window.objetosLang) +
+        '&method=' + encodeURIComponent(window.objetosState.method) +
+        '&mode=' + encodeURIComponent(window.objetosState.mode);
+    }
+    document.getElementById('simulationWrap').style.display = 'block';
+    return false;
+  };
+
+  // ===================== MÉTRICA ANÓNIMA =====================
+  window.registrarMetricaAnonima = function(metodo, modo, divinacion) {
+    var payload = {
+      metodo: metodo || 'monedas',
+      modo: modo || 'progresivo',
+      idioma: window.objetosLang || 'es',
+      divinacion: divinacion || 'objetos perdidos'
+    };
+    fetch('/api/log-consulta', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).catch(function() {});
+  };
+
+  window.addEventListener('message', function(e) {
+    if (e.data && e.data.type === 'ICHING_COMPLETE') {
+      window.objetosState.result = e.data.data;
+
+      var metodoNormalizado = 'monedas';
+      var modoNormalizado = 'progresivo';
+      if (window.objetosState.entryType === 'manual' || e.data.data.method === 'manual') {
+        metodoNormalizado = 'manual';
+        modoNormalizado = 'manual';
+      } else {
+        if (window.objetosState.method === 'yarrow') metodoNormalizado = 'varillas';
+        if (window.objetosState.mode === 'final' || e.data.data.mode === 'final') modoNormalizado = 'final';
+      }
+
+      window.registrarMetricaAnonima(metodoNormalizado, modoNormalizado, 'objetos perdidos');
+
+      document.getElementById('simulationWrap').style.display = 'none';
+      window.procesarResultado(e.data.data);
+    }
+    if (e.data && e.data.type === 'CLOSE_OBJETOS_MODAL') {
+      document.getElementById('modalContenedorIAObjetos').style.display = 'none';
+    }
+    if (e.data && e.data.type === 'CLOSE_TUTORIAL') {
+      document.getElementById('tutorialObjetosContenedor').style.display = 'none';
+      document.getElementById('tutorialObjetosFrame').src = '';
+      localStorage.setItem('objetos_tutorial_visto', 'true');
+    }
+  });
+
+  function valorANombre(v) {
+    if (v === 6) return 'old_yin';
+    if (v === 7) return 'young_yang';
+    if (v === 8) return 'young_yin';
+    if (v === 9) return 'old_yang';
+    return 'young_yang';
+  }
+
+  // ===================== DIRECCIONES DESDE TRIGRAMAS =====================
+  var DIRECCIONES_TRIGRAMA = {
+    '000': 'Suroeste',
+    '100': 'Este',
+    '010': 'Norte',
+    '001': 'Noreste',
+    '110': 'Oeste',
+    '101': 'Sur',
+    '011': 'Sureste',
+    '111': 'Noroeste'
+  };
+
+  function calcularDireccionesTrigrama(rawLines) {
+    var bit = function(v) { return (v === 7 || v === 9) ? 1 : 0; };
+    var codInf = '' + bit(rawLines[0]) + bit(rawLines[1]) + bit(rawLines[2]);
+    var codSup = '' + bit(rawLines[3]) + bit(rawLines[4]) + bit(rawLines[5]);
+    return {
+      inferior: DIRECCIONES_TRIGRAMA[codInf] || 'No definida',
+      superior: DIRECCIONES_TRIGRAMA[codSup] || 'No definida'
+    };
+  }
+
+  window.procesarResultado = function(data) {
+    var rawLines = data.rawLines || [];
+    var hexagrama = { lines: rawLines.map(valorANombre) };
+    var fechaConsulta = new Date(window.objetosState.fecha + 'T12:00:00');
+
+    var benGua, zhiGua, analisis, indicadores;
+    try {
+      benGua = najiaCore.getNaJiaData(hexagrama, fechaConsulta);
+      zhiGua = najiaCore.getNaJiaData(najiaCore.getTransformedHexagram(hexagrama), fechaConsulta);
+      analisis = najiaCore.performAnalysis(hexagrama.lines, benGua, zhiGua, window.objetosState.categoria, fechaConsulta);
+      indicadores = najiaCore.analyzeGlobalIndicators(
+        benGua.map(function(l){ return l.branch; }),
+        zhiGua.map(function(l){ return l.branch; }),
+        data.changingLines ? data.changingLines.map(function(n){ return n-1; }) : [],
+        benGua[0] ? benGua[0].branch : '',
+        benGua[0] ? benGua[0].branch : ''
+      );
+    } catch (err) {
+      console.error('Error en el cálculo de Liu Yao:', err);
+      alert('Error al calcular los datos de Liu Yao: ' + err.message);
+      return;
+    }
+
+    window.objetosState.liuyao = {
+      benGua: benGua,
+      zhiGua: zhiGua,
+      analisis: analisis,
+      indicadores: indicadores,
+      yongShen: window.objetosState.categoria
+    };
+
+    document.getElementById('resFecha').textContent = window.objetosState.fecha;
+    document.getElementById('resObjeto').textContent = window.objetosState.objeto;
+    document.getElementById('resLineas').textContent = rawLines.join(', ');
+    document.getElementById('resHexBase').textContent = '#' + data.hexagram;
+    document.getElementById('resLineasMov').textContent = (data.changingLines && data.changingLines.length) ? data.changingLines.join(', ') : '—';
+    document.getElementById('resHexFuturo').textContent = data.derivedHexagram ? ('#' + data.derivedHexagram) : '—';
+
+    document.getElementById('resultWrap').style.display = 'block';
+
+    guardarPayloadObjetos();
+  };
+
+  // ===================== PAYLOAD PARA EL MODAL IA =====================
+  function guardarPayloadObjetos() {
+    var st = window.objetosState;
+    var ly = st.liuyao;
+    var result = st.result;
+    if (!ly || !result) return;
+
+    var lang = window.objetosLang || 'es';
+    var rawLines = result.rawLines || [];
+
+    var lineasTexto = ly.benGua.map(function(l, i) {
+      var pos = '';
+      if (l.shiYing === '世') pos = 'Consultante';
+      else if (l.shiYing === '应') pos = 'Respuesta';
+      if (l.liuQin === st.categoria) {
+        pos = pos ? ('Foco del objeto · ' + pos) : 'Foco del objeto';
+      }
+      var elemento = getTerm(lang, 'wuxing', l.fiveElement);
+      var categoria = getTerm(lang, 'liuqin', l.liuQin);
+      var espiritu = getTerm(lang, 'liushen', l.sixGod);
+      return 'Elemento ' + elemento + ', categoría ' + categoria + ', espíritu ' + espiritu + ', posición ' + (pos || 'ninguna');
+    });
+
+    var estadoYongShen = 'Estable';
+    var relacionConsultante = 'Sin relación clara';
+    var indiceObjeto = -1;
+    var elementoObjeto = '';
+
+    if (ly.analisis && ly.analisis.length > 0) {
+      var a = ly.analisis[0];
+      indiceObjeto = a.lineIndex;
+      elementoObjeto = a.yongShenLine.fiveElement;
+
+      var estados = [];
+      if (a.self && a.self.isXunKong) estados.push('vacío');
+      if (a.self && a.self.isRuMu) estados.push('en túmulo');
+      if (a.dayMonth) {
+        if (a.dayMonth.monthRelation) {
+          estados.push(traducirRelacionEstado(lang, a.dayMonth.monthRelation) + ' por el mes');
+        }
+        if (a.dayMonth.dayRelation) {
+          estados.push(traducirRelacionEstado(lang, a.dayMonth.dayRelation) + ' por el día');
+        }
+        if (a.dayMonth.dayClash) estados.push('chocado por el día');
+        if (a.dayMonth.dayCombine) estados.push('unido por el día');
+      }
+      if (estados.length > 0) estadoYongShen = estados.join(', ');
+
+      var lineaConsultante = ly.benGua.find(function(l) { return l.shiYing === '世'; });
+      if (lineaConsultante) {
+        var elemCons = lineaConsultante.fiveElement;
+        var ciclos = {
+          '木': { genera: '火', controla: '土' },
+          '火': { genera: '土', controla: '金' },
+          '土': { genera: '金', controla: '水' },
+          '金': { genera: '水', controla: '木' },
+          '水': { genera: '木', controla: '火' }
+        };
+        if (elementoObjeto === elemCons) {
+          relacionConsultante = 'El objeto y el consultante comparten naturaleza';
+        } else if (ciclos[elementoObjeto] && ciclos[elementoObjeto].genera === elemCons) {
+          relacionConsultante = 'El objeto favorece al consultante';
+        } else if (ciclos[elemCons] && ciclos[elemCons].genera === elementoObjeto) {
+          relacionConsultante = 'El consultante sostiene al objeto';
+        } else if (ciclos[elementoObjeto] && ciclos[elementoObjeto].controla === elemCons) {
+          relacionConsultante = 'El objeto presiona al consultante';
+        } else if (ciclos[elemCons] && ciclos[elemCons].controla === elementoObjeto) {
+          relacionConsultante = 'El consultante retiene al objeto';
+        }
+      }
+    }
+
+    var dirs = calcularDireccionesTrigrama(rawLines);
+
+    var payload = {
+      tipo_objeto: st.objeto,
+      contexto: st.contexto || '',
+      dia_sexagenario: 'Deducido de la fecha ' + st.fecha,
+      vacio_decenario: 'Deducido de la fecha ' + st.fecha,
+      linea_1: lineasTexto[0],
+      linea_2: lineasTexto[1],
+      linea_3: lineasTexto[2],
+      linea_4: lineasTexto[3],
+      linea_5: lineasTexto[4],
+      linea_6: lineasTexto[5],
+      lineas_moviles: (result.changingLines && result.changingLines.length) ? result.changingLines.join(', ') : 'Ninguna',
+      yong_shen: st.categoria,
+      posicion_yong_shen: 'Línea ' + (indiceObjeto + 1),
+      estado_yong_shen: estadoYongShen,
+      relacion_consultante: relacionConsultante,
+      direccion_inferior: dirs.inferior,
+      direccion_superior: dirs.superior,
+      hexagrama_cambio: result.derivedHexagram || 'Ninguno',
+      language: lang,
+      metodo: st.method,
+      modo: st.mode
+    };
+
+    try {
+      sessionStorage.setItem('lastObjetosPayload', JSON.stringify(payload));
+    } catch (err) {
+      console.warn('No se pudo guardar el payload en sessionStorage:', err);
+    }
+  }
+
+  window.reiniciar = function() {
+    document.getElementById('simulationWrap').style.display = 'none';
+    document.getElementById('motorFrame').src = '';
+    document.getElementById('resultWrap').style.display = 'none';
+    document.getElementById('formWrap').style.display = 'block';
+    window.objetosState.result = null;
+    window.objetosState.liuyao = null;
+    try { sessionStorage.removeItem('lastObjetosPayload'); } catch (e) {}
+  };
+
+  // ===================== DICCIONARIOS =====================
+  var I18N_TERMS = {
+    es: {
+      liuqin: { '父母': 'Documentos', '兄弟': 'Hermanos', '子孙': 'Hijos', '妻财': 'Riqueza', '官鬼': 'Oficial' },
+      liuqinFull: { '父母': 'Documentos e infraestructura', '兄弟': 'Pares y objetos compartidos', '子孙': 'Animales y mascotas', '妻财': 'Objetos de valor', '官鬼': 'Trámites y autoridad' },
+      liushen: { '青龙': 'Dragón verde', '朱雀': 'Gorrión bermellón', '勾陈': 'Tierra amarilla', '螣蛇': 'Serpiente', '白虎': 'Tigre blanco', '玄武': 'Tortuga oscura' },
+      wuxing: { '金': 'Metal', '木': 'Madera', '水': 'Agua', '火': 'Fuego', '土': 'Tierra' },
+      tablaHeader: ['Línea', 'Valor', 'Tipo', 'Elemento', 'Relación', 'Espíritu', 'Posición'],
+      posiciones: { shi: 'Consultante', ying: 'Respuesta', foco: 'Foco del objeto' },
+      tiposLinea: { '6': 'Yin móvil', '7': 'Yang estática', '8': 'Yin estática', '9': 'Yang móvil' }
+    },
+    en: {
+      liuqin: { '父母': 'Documents', '兄弟': 'Siblings', '子孙': 'Children', '妻财': 'Wealth', '官鬼': 'Official' },
+      liuqinFull: { '父母': 'Documents and infrastructure', '兄弟': 'Peers and shared objects', '子孙': 'Animals and pets', '妻财': 'Valuables', '官鬼': 'Procedures and authority' },
+      liushen: { '青龙': 'Azure Dragon', '朱雀': 'Vermilion Bird', '勾陈': 'Yellow Earth', '螣蛇': 'Serpent', '白虎': 'White Tiger', '玄武': 'Dark Tortoise' },
+      wuxing: { '金': 'Metal', '木': 'Wood', '水': 'Water', '火': 'Fire', '土': 'Earth' },
+      tablaHeader: ['Line', 'Value', 'Type', 'Element', 'Relation', 'Spirit', 'Position'],
+      posiciones: { shi: 'Consultant', ying: 'Response', foco: 'Object focus' },
+      tiposLinea: { '6': 'Moving Yin', '7': 'Static Yang', '8': 'Static Yin', '9': 'Moving Yang' }
+    },
+    de: {
+      liuqin: { '父母': 'Dokumente', '兄弟': 'Geschwister', '子孙': 'Kinder', '妻财': 'Reichtum', '官鬼': 'Beamter' },
+      liuqinFull: { '父母': 'Dokumente und Infrastruktur', '兄弟': 'Gleichgestellte und geteilte Objekte', '子孙': 'Tiere und Haustiere', '妻财': 'Wertgegenstände', '官鬼': 'Verfahren und Autorität' },
+      liushen: { '青龙': 'Azurdrache', '朱雀': 'Zinnobervogel', '勾陈': 'Gelbe Erde', '螣蛇': 'Schlange', '白虎': 'Weißer Tiger', '玄武': 'Dunkle Schildkröte' },
+      wuxing: { '金': 'Metall', '木': 'Holz', '水': 'Wasser', '火': 'Feuer', '土': 'Erde' },
+      tablaHeader: ['Linie', 'Wert', 'Typ', 'Element', 'Beziehung', 'Geist', 'Position'],
+      posiciones: { shi: 'Konsultant', ying: 'Antwort', foco: 'Objektfokus' },
+      tiposLinea: { '6': 'Bewegtes Yin', '7': 'Statisches Yang', '8': 'Statisches Yin', '9': 'Bewegtes Yang' }
+    }
+  };
+
+  var I18N_ESTADOS = {
+    es: {
+      '空亡': 'Vacío', '假空': 'Vacío aparente', '真空': 'Vacío real', '入墓': 'En túmulo',
+      '月破': 'Roto por el mes', '日破': 'Roto por el día', '暗动': 'Movimiento oculto',
+      '日冲': 'Chocado por el día', '日合': 'Unido por el día', '合起': 'Unido y activado',
+      '合处逢冲': 'Unión que encuentra choque', '真入墓': 'En túmulo real', '假入墓': 'En túmulo aparente',
+      '旺': 'Próspero', '相': 'Fuerte', '休': 'En reposo', '囚': 'Encerrado', '死': 'Débil',
+      '合旺': 'Unido y próspero', '回头生': 'Retorno generativo', '回头克': 'Retorno de control',
+      '化进': 'Avanza', '化退': 'Retrocede', '化墓': 'Entra en túmulo', '化绝': 'Entra en extinción',
+      '化空': 'Entra en vacío', '化破': 'Entra en ruptura'
+    },
+    en: {
+      '空亡': 'Empty', '假空': 'Apparent empty', '真空': 'True empty', '入墓': 'In tomb',
+      '月破': 'Broken by month', '日破': 'Broken by day', '暗动': 'Hidden movement',
+      '日冲': 'Clashed by day', '日合': 'Combined by day', '合起': 'Combined and activated',
+      '合处逢冲': 'Combination that finds clash', '真入墓': 'In true tomb', '假入墓': 'In apparent tomb',
+      '旺': 'Prosperous', '相': 'Strong', '休': 'At rest', '囚': 'Imprisoned', '死': 'Weak',
+      '合旺': 'Combined and prosperous', '回头生': 'Generative return', '回头克': 'Controlling return',
+      '化进': 'Advances', '化退': 'Retreats', '化墓': 'Enters tomb', '化绝': 'Enters extinction',
+      '化空': 'Enters emptiness', '化破': 'Enters rupture'
+    },
+    de: {
+      '空亡': 'Leer', '假空': 'Scheinbar leer', '真空': 'Wahrhaft leer', '入墓': 'Im Grab',
+      '月破': 'Vom Monat gebrochen', '日破': 'Vom Tag gebrochen', '暗动': 'Verborgene Bewegung',
+      '日冲': 'Vom Tag gestoßen', '日合': 'Vom Tag verbunden', '合起': 'Verbunden und aktiviert',
+      '合处逢冲': 'Verbindung, die Zusammenstoß findet', '真入墓': 'Im wahren Grab', '假入墓': 'Im scheinbaren Grab',
+      '旺': 'Blühend', '相': 'Stark', '休': 'Ruhend', '囚': 'Eingesperrt', '死': 'Schwach',
+      '合旺': 'Verbunden und blühend', '回头生': 'Generative Rückkehr', '回头克': 'Kontrollierende Rückkehr',
+      '化进': 'Fortschritt', '化退': 'Rückschritt', '化墓': 'Eintritt ins Grab', '化绝': 'Eintritt in die Auslöschung',
+      '化空': 'Eintritt in die Leere', '化破': 'Eintritt in den Bruch'
+    }
+  };
+
+  var I18N_RELACIONES = {
+    es: { 'sheng': 'Genera', 'ke': 'Controla', 'xie': 'Drena', 'hao': 'Consume', 'wang': 'Igual', 'hua_jin': 'Avanza', 'hua_tui': 'Retrocede' },
+    en: { 'sheng': 'Generates', 'ke': 'Controls', 'xie': 'Drains', 'hao': 'Consumes', 'wang': 'Equal', 'hua_jin': 'Advances', 'hua_tui': 'Retreats' },
+    de: { 'sheng': 'Erzeugt', 'ke': 'Kontrolliert', 'xie': 'Entleert', 'hao': 'Verbraucht', 'wang': 'Gleich', 'hua_jin': 'Fortschritt', 'hua_tui': 'Rückschritt' }
+  };
+
+  var I18N_RELACION_ESTADO = {
+    es: { 'sheng': 'generado', 'ke': 'controlado', 'xie': 'drenado', 'hao': 'consumido', 'wang': 'igual' },
+    en: { 'sheng': 'generated', 'ke': 'controlled', 'xie': 'drained', 'hao': 'consumed', 'wang': 'equal' },
+    de: { 'sheng': 'erzeugt', 'ke': 'kontrolliert', 'xie': 'entleert', 'hao': 'verbraucht', 'wang': 'gleich' }
+  };
+
+  var I18N_INDICADORES = {
+    es: {
+      sanhe: 'Trinidad armónica', sanheMissing: 'Trinidad armónica incompleta',
+      sanxing: 'Trinidad de castigo', sanxingMissing: 'Trinidad de castigo incompleta',
+      liuchong: 'Seis choques', liuchongMain: 'Hexagrama principal en seis choques',
+      liuchongToChong: 'Seis choques que cambian a seis choques',
+      liuhe: 'Seis uniones', liuheMain: 'Hexagrama principal en seis uniones',
+      liuheToHe: 'Seis uniones que cambian a seis uniones',
+      chongToHe: 'Choque que encuentra unión', heToChong: 'Unión que encuentra choque',
+      fanyin: 'Rebeldía', fanyinHex: 'Rebeldía del hexagrama', fanyinLine: 'Rebeldía de la línea {n}',
+      fuyin: 'Eco', fuyinLine: 'Eco de la línea {n}',
+      lianru: 'Cadena generativa', lianruChain: 'Cadena generativa de {n} elementos',
+      sanheDetail: 'Múltiples fuerzas convergen. Si la trinidad favorece al objeto, es muy auspicioso; si lo perjudica, es muy desfavorable.',
+      sanxingDetail: 'Extremadamente desfavorable. Ciclos de castigo y choque, conflictos y daños.',
+      sanxingAlert: 'Alerta. Si aparece la rama faltante, el conflicto estalla.',
+      liuchongDetail: 'Las cosas se dispersan. El choque dispersa; los planes no se concretan.',
+      liuchongTotal: 'Dispersión total, sin remedio.',
+      chongToHeDetail: 'Primero sobresalto, luego alegría; primero dispersión, luego éxito.',
+      heToChongDetail: 'Primero bueno, luego malo; primero se logra, luego se dispersa.',
+      liuheDetail: 'Las cosas se logran, pero se estancan. Estabilidad que retrasa.',
+      liuheTotal: 'Enredo permanente, sin salida.',
+      fanyinDetail: 'Cambios constantes, hay que empezar de nuevo.',
+      fanyinLineDetail: 'Movimiento que choca, una y otra vez.',
+      fuyinDetail: 'Atrapado entre avanzar y retroceder, lamento doloroso.',
+      lianruDetail: 'Los cinco elementos se generan en cadena; el flujo de energía está abierto.'
+    },
+    en: {
+      sanhe: 'Harmonic triad', sanheMissing: 'Incomplete harmonic triad',
+      sanxing: 'Punishment triad', sanxingMissing: 'Incomplete punishment triad',
+      liuchong: 'Six clashes', liuchongMain: 'Primary hexagram in six clashes',
+      liuchongToChong: 'Six clashes changing to six clashes',
+      liuhe: 'Six combinations', liuheMain: 'Primary hexagram in six combinations',
+      liuheToHe: 'Six combinations changing to six combinations',
+      chongToHe: 'Clash that finds combination', heToChong: 'Combination that finds clash',
+      fanyin: 'Rebellion', fanyinHex: 'Hexagram rebellion', fanyinLine: 'Rebellion of line {n}',
+      fuyin: 'Echo', fuyinLine: 'Echo of line {n}',
+      lianru: 'Generative chain', lianruChain: 'Generative chain of {n} elements',
+      sanheDetail: 'Multiple forces converge. If the triad favors the object, it is very auspicious; if it harms it, very unfavorable.',
+      sanxingDetail: 'Extremely unfavorable. Cycles of punishment and clash, conflict and damage.',
+      sanxingAlert: 'Alert. If the missing branch appears, conflict erupts.',
+      liuchongDetail: 'Things disperse. Clash disperses; plans do not materialize.',
+      liuchongTotal: 'Total dispersion, beyond remedy.',
+      chongToHeDetail: 'First shock, then joy; first dispersion, then success.',
+      heToChongDetail: 'First good, then bad; first achieved, then dispersed.',
+      liuheDetail: 'Things are achieved but stall. Stability that delays.',
+      liuheTotal: 'Permanent entanglement, no way out.',
+      fanyinDetail: 'Constant changes, must start over.',
+      fanyinLineDetail: 'Movement that clashes, over and over.',
+      fuyinDetail: 'Caught between advancing and retreating, painful lament.',
+      lianruDetail: 'The five elements generate in chain; the energy flow is open.'
+    },
+    de: {
+      sanhe: 'Harmonische Triade', sanheMissing: 'Unvollständige harmonische Triade',
+      sanxing: 'Bestrafungstriade', sanxingMissing: 'Unvollständige Bestrafungstriade',
+      liuchong: 'Sechs Zusammenstöße', liuchongMain: 'Haupthexagramm in sechs Zusammenstößen',
+      liuchongToChong: 'Sechs Zusammenstöße wechseln zu sechs Zusammenstößen',
+      liuhe: 'Sechs Verbindungen', liuheMain: 'Haupthexagramm in sechs Verbindungen',
+      liuheToHe: 'Sechs Verbindungen wechseln zu sechs Verbindungen',
+      chongToHe: 'Zusammenstoß, der Verbindung findet', heToChong: 'Verbindung, die Zusammenstoß findet',
+      fanyin: 'Rebellion', fanyinHex: 'Hexagramm-Rebellion', fanyinLine: 'Rebellion der Linie {n}',
+      fuyin: 'Echo', fuyinLine: 'Echo der Linie {n}',
+      lianru: 'Generative Kette', lianruChain: 'Generative Kette aus {n} Elementen',
+      sanheDetail: 'Mehrere Kräfte konvergieren. Wenn die Triade das Objekt begünstigt, ist sie sehr günstig; wenn sie es schädigt, sehr ungünstig.',
+      sanxingDetail: 'Äußerst ungünstig. Zyklen von Bestrafung und Zusammenstoß, Konflikt und Schaden.',
+      sanxingAlert: 'Alarm. Wenn der fehlende Zweig erscheint, bricht der Konflikt aus.',
+      liuchongDetail: 'Die Dinge zerstreuen sich. Zusammenstoß zerstreut; Pläne verwirklichen sich nicht.',
+      liuchongTotal: 'Völlige Zerstreuung, ohne Heilung.',
+      chongToHeDetail: 'Erst Schock, dann Freude; erst Zerstreuung, dann Erfolg.',
+      heToChongDetail: 'Erst gut, dann schlecht; erst erreicht, dann zerstreut.',
+      liuheDetail: 'Die Dinge werden erreicht, stocken aber. Stabilität, die verzögert.',
+      liuheTotal: 'Dauerhafte Verstrickung, kein Ausweg.',
+      fanyinDetail: 'Ständige Veränderungen, muss von vorne beginnen.',
+      fanyinLineDetail: 'Bewegung, die zusammenstößt, immer wieder.',
+      fuyinDetail: 'Gefangen zwischen Vorwärts und Rückwärts, schmerzhaftes Klagen.',
+      lianruDetail: 'Die fünf Elemente erzeugen sich in Kette; der Energiefluss ist offen.'
+    }
+  };
+
+  function getTerm(lang, group, key) {
+    var dict = I18N_TERMS[lang] || I18N_TERMS.es;
+    return (dict[group] && dict[group][key]) || key;
+  }
+
+  function traducirRelacionExt(lang, v) {
+    var d = I18N_RELACIONES[lang] || I18N_RELACIONES.es;
+    return d[v] || v || '';
+  }
+
+  function traducirRelacionEstado(lang, v) {
+    var d = I18N_RELACION_ESTADO[lang] || I18N_RELACION_ESTADO.es;
+    return d[v] || v || '';
+  }
+
+  function traducirEstadoCompleto(lang, v) {
+    var d = I18N_ESTADOS[lang] || I18N_ESTADOS.es;
+    return d[v] || v || '';
+  }
+
+  function traducirIndicadorCompleto(lang, ind) {
+    var dict = I18N_INDICADORES[lang] || I18N_INDICADORES.es;
+    var tipo = ind.type || '';
+    var msg = ind.message || '';
+    var msgTrad = msg;
+
+    if (tipo === 'SanHe') {
+      msgTrad = msg.indexOf('缺一') > -1 ? dict.sanheMissing : dict.sanhe;
+    } else if (tipo === 'SanXing') {
+      msgTrad = msg.indexOf('缺一') > -1 ? dict.sanxingMissing : dict.sanxing;
+    } else if (tipo === 'LiuChong') {
+      if (msg.indexOf('主卦') > -1) msgTrad = dict.liuchongMain;
+      else if (msg.indexOf('变') > -1) msgTrad = dict.liuchongToChong;
+      else msgTrad = dict.liuchong;
+    } else if (tipo === 'LiuHe') {
+      if (msg.indexOf('主卦') > -1) msgTrad = dict.liuheMain;
+      else if (msg.indexOf('变') > -1) msgTrad = dict.liuheToHe;
+      else msgTrad = dict.liuhe;
+    } else if (tipo === 'FanYin') {
+      var nF = msg.match(/第(\d+)/);
+      msgTrad = nF ? dict.fanyinLine.replace('{n}', nF[1]) : dict.fanyinHex;
+    } else if (tipo === 'FuYin') {
+      var nFu = msg.match(/第(\d+)/);
+      msgTrad = nFu ? dict.fuyinLine.replace('{n}', nFu[1]) : dict.fuyin;
+    } else if (tipo === 'LianRu') {
+      var nL = msg.match(/(\d+)/);
+      msgTrad = nL ? dict.lianruChain.replace('{n}', nL[1]) : dict.lianru;
+    }
+
+    var ramas = msg.match(/[子丑寅卯辰巳午未申酉戌亥]/g);
+    var extraRamas = ramas && ramas.length > 0 ? ' (' + ramas.join(' ') + ')' : '';
+
+    var det = ind.details || '';
+    var detTrad = det;
+    if (det.indexOf('多方力量汇聚') > -1) detTrad = dict.sanheDetail;
+    else if (det.indexOf('极度凶险') > -1) detTrad = dict.sanxingDetail;
+    else if (det.indexOf('危险预警') > -1) detTrad = dict.sanxingAlert;
+    else if (det.indexOf('事散') > -1) detTrad = dict.liuchongDetail;
+    else if (det.indexOf('彻底离散') > -1) detTrad = dict.liuchongTotal;
+    else if (det.indexOf('先惊后喜') > -1) detTrad = dict.chongToHeDetail;
+    else if (det.indexOf('先好后坏') > -1) detTrad = dict.heToChongDetail;
+    else if (det.indexOf('事成') > -1) detTrad = dict.liuheDetail;
+    else if (det.indexOf('永远纠缠') > -1) detTrad = dict.liuheTotal;
+    else if (det.indexOf('反复无常') > -1) detTrad = dict.fanyinDetail;
+    else if (det.indexOf('进退两难') > -1) detTrad = dict.fuyinDetail;
+    else if (det.indexOf('五行连续相生') > -1) detTrad = dict.lianruDetail;
+
+    return msgTrad + extraRamas + (detTrad && detTrad !== det ? ' — ' + detTrad : '');
+  }
+
+  // ===================== PDF =====================
+  var I18N_PDF = {
+    es: {
+      coverTitle: 'Informe de Consulta Liu Yao',
+      preparedFor: 'Generado el {date} por elichingon.com para {name}',
+      prefaceTitle: '⚠️ Advertencia del Oráculo ⚠️',
+      prefaceText: 'Este informe no entrega respuestas predigeridas ni soluciones automáticas. Es un mapa de las fuerzas en juego, pero el trabajo de asimilación recae enteramente sobre ti.\n\nMuchas de las indicaciones quizás no cobren sentido de inmediato. Guarda este documento y vuelve a revisarlo con el tiempo.',
+      p1Title: 'Parte 1: Tu Consulta',
+      p1Objeto: 'Objeto buscado:', p1Contexto: 'Contexto:', p1Fecha: 'Fecha de la consulta:', p1Categoria: 'Categoría:',
+      p2Title: 'Parte 2: El Método Liu Yao',
+      p2Text1: 'El método Liu Yao, también conocido como Wen Wang Gua o método de las seis líneas, es un sistema tradicional chino de interpretación que se remonta a la dinastía Han. A diferencia de la consulta clásica del I Ching, que se apoya en los textos canónicos de los hexagramas, este método asigna a cada una de las seis líneas un elemento, un tronco y una rama del calendario chino, y establece entre ellas relaciones de generación y control. Esas relaciones permiten identificar qué línea representa el objeto perdido, en qué estado se encuentra y qué factores favorecen o dificultan su aparición.',
+      p2Text2: 'En la búsqueda de objetos perdidos, el método se centra en la línea que corresponde al objeto según su naturaleza. A partir de ahí, se analiza su posición dentro del hexagrama, su relación con la línea que representa al consultante, y las direcciones y condiciones que sugieren las imágenes. El resultado no es una predicción cerrada, sino un mapa de las fuerzas en juego que orienta la búsqueda hacia los lugares y las circunstancias más probables.',
+      p2UrlLabel: 'Para una explicación más detallada del método, consulta:',
+      p2Url: 'https://www.wikiwand.com/es/Wen_Wang_Gua',
+      p3Title: 'Parte 3: Tu Lectura',
+      p3SummaryObjeto: 'Objeto buscado:', p3SummaryCategoria: 'Línea representativa:', p3SummaryFecha: 'Fecha de la consulta:',
+      p3TableTitle: 'Tabla de líneas (de arriba a abajo, L6 a L1):',
+      p3AnalysisTitle: 'Análisis del objeto',
+      p3AnalysisEmpty: 'Sin datos de análisis disponibles.',
+      p3IndicatorsTitle: 'Indicadores globales',
+      p3IndicatorsEmpty: 'No se detectaron patrones globales relevantes.',
+      epilogueTitle: 'Epílogo',
+      epilogueText: 'Gracias por confiar en 黛灵娜. Este informe es un registro vivo de tu consulta. Guárdalo, déjalo reposar y vuelve a él cuando los acontecimientos maduren.\n\nLa sabiduría no se consume de prisa; se digiere con paciencia y silencio.',
+      signatureName: '黛灵娜', signatureSite: 'elichingon.com'
+    },
+    en: {
+      coverTitle: 'Liu Yao Consultation Report',
+      preparedFor: 'Generated on {date} by elichingon.com for {name}',
+      prefaceTitle: '⚠️ Oracle Warning ⚠️',
+      prefaceText: 'This report does not offer ready-made answers or automatic solutions. It serves as a map of the forces at play, but the work of assimilation rests entirely upon you.\n\nMany of the indications may not make sense immediately. Keep this document and revisit it over time.',
+      p1Title: 'Part 1: Your Consultation',
+      p1Objeto: 'Object sought:', p1Contexto: 'Context:', p1Fecha: 'Consultation date:', p1Categoria: 'Category:',
+      p2Title: 'Part 2: The Liu Yao Method',
+      p2Text1: 'The Liu Yao method, also known as Wen Wang Gua or the six-line method, is a traditional Chinese system of interpretation dating back to the Han dynasty. Unlike the classic I Ching consultation, which relies on the canonical texts of the hexagrams, this method assigns each of the six lines an element, a stem and a branch of the Chinese calendar, and establishes generation and control relationships between them. These relationships allow identifying which line represents the lost object, its state, and the factors that favor or hinder its appearance.',
+      p2Text2: 'In the search for lost objects, the method focuses on the line that corresponds to the object according to its nature. From there, its position within the hexagram, its relationship with the line representing the consultant, and the directions and conditions suggested by the images are analyzed. The result is not a closed prediction, but a map of the forces at play that guides the search toward the most likely places and circumstances.',
+      p2UrlLabel: 'For a more detailed explanation of the method, see:',
+      p2Url: 'https://en.wikipedia.org/wiki/Wen_Wang_Gua',
+      p3Title: 'Part 3: Your Reading',
+      p3SummaryObjeto: 'Object sought:', p3SummaryCategoria: 'Representative line:', p3SummaryFecha: 'Consultation date:',
+      p3TableTitle: 'Line table (top to bottom, L6 to L1):',
+      p3AnalysisTitle: 'Object analysis',
+      p3AnalysisEmpty: 'No analysis data available.',
+      p3IndicatorsTitle: 'Global indicators',
+      p3IndicatorsEmpty: 'No relevant global patterns detected.',
+      epilogueTitle: 'Epilogue',
+      epilogueText: 'Thank you for trusting 黛灵娜. This report is a living record of your consultation. Keep it, let it rest, and return to it as events mature.\n\nWisdom is not consumed in haste; it is digested with patience and silence.',
+      signatureName: '黛灵娜', signatureSite: 'elichingon.com'
+    },
+    de: {
+      coverTitle: 'Liu Yao Konsultationsbericht',
+      preparedFor: 'Erstellt am {date} von elichingon.com für {name}',
+      prefaceTitle: '⚠️ Warnung des Orakels ⚠️',
+      prefaceText: 'Dieser Bericht liefert keine vorgefertigten Antworten oder mechanischen Lösungen. Er dient als Landkarte der wirkenden Kräfte, doch die Arbeit der inneren Verarbeitung liegt ganz bei dir.\n\nViele der Hinweise werden vielleicht nicht sofort Sinn ergeben. Bewahre dieses Dokument auf und kehre mit der Zeit zu ihm zurück.',
+      p1Title: 'Teil 1: Deine Konsultation',
+      p1Objeto: 'Gesuchtes Objekt:', p1Contexto: 'Kontext:', p1Fecha: 'Datum der Konsultation:', p1Categoria: 'Kategorie:',
+      p2Title: 'Teil 2: Die Liu-Yao-Methode',
+      p2Text1: 'Die Liu-Yao-Methode, auch bekannt als Wen Wang Gua oder Sechs-Linien-Methode, ist ein traditionelles chinesisches Interpretationssystem, das bis in die Han-Dynastie zurückreicht. Anders als die klassische I-Ging-Konsultation, die auf den kanonischen Texten der Hexagramme beruht, ordnet diese Methode jeder der sechs Linien ein Element, einen Stamm und einen Zweig des chinesischen Kalenders zu und stellt Erzeugungs- und Kontrollbeziehungen zwischen ihnen her. Diese Beziehungen ermöglichen es, die Linie zu identifizieren, die das verlorene Objekt repräsentiert, seinen Zustand sowie die Faktoren, die sein Erscheinen begünstigen oder behindern.',
+      p2Text2: 'Bei der Suche nach verlorenen Objekten konzentriert sich die Methode auf die Linie, die dem Objekt je nach seiner Natur entspricht. Von dort aus werden seine Position im Hexagramm, seine Beziehung zur Linie des Konsultanten und die von den Bildern vorgeschlagenen Richtungen und Bedingungen analysiert. Das Ergebnis ist keine geschlossene Vorhersage, sondern eine Landkarte der wirkenden Kräfte, die die Suche zu den wahrscheinlichsten Orten und Umständen lenkt.',
+      p2UrlLabel: 'Für eine ausführlichere Erklärung der Methode siehe:',
+      p2Url: 'https://uaya.org/de/learn/iching/advanced-studies/wen-wang-gua/reference/terminology/',
+      p3Title: 'Teil 3: Deine Lesung',
+      p3SummaryObjeto: 'Gesuchtes Objekt:', p3SummaryCategoria: 'Repräsentative Linie:', p3SummaryFecha: 'Datum der Konsultation:',
+      p3TableTitle: 'Linientabelle (oben nach unten, L6 bis L1):',
+      p3AnalysisTitle: 'Analyse des Objekts',
+      p3AnalysisEmpty: 'Keine Analysedaten verfügbar.',
+      p3IndicatorsTitle: 'Globale Indikatoren',
+      p3IndicatorsEmpty: 'Keine relevanten globalen Muster erkannt.',
+      epilogueTitle: 'Epilog',
+      epilogueText: 'Vielen Dank für dein Vertrauen in 黛灵娜. Dieser Bericht ist ein lebendiges Protokoll deiner Konsultation. Bewahre ihn auf, lass ihn ruhen und kehre zu ihm zurück, wenn die Ereignisse reifen.\n\nWeisheit wird nicht in Eile konsumiert; sie wird mit Geduld und Stille verdaut.',
+      signatureName: '黛灵娜', signatureSite: 'elichingon.com'
+    }
+  };
+
+  function cargarImagenBase64(url) {
+    return fetch(url).then(function(r){ if(!r.ok) throw new Error(r.status); return r.blob(); })
+      .then(function(b){ return new Promise(function(res){ var fr=new FileReader(); fr.onloadend=function(){res(fr.result);}; fr.readAsDataURL(b); }); })
+      .catch(function(){ return null; });
+  }
+
+  window.generarPdfObjetos = async function() {
+    var lang = window.objetosLang || 'es';
+    var t = I18N_PDF[lang] || I18N_PDF.es;
+    var btn = document.getElementById('btnPdf');
+    var originalText = btn.innerText;
+    btn.innerText = '⏳ ...';
+    btn.disabled = true;
+
+    try {
+      var fontPath = '{{ "data/iching-font.b64" | relURL }}';
+      var resFont = await fetch(fontPath);
+      if (!resFont.ok) throw new Error('No se pudo cargar la fuente: ' + resFont.status);
+      var base64FontData = await resFont.text();
+
+      var logoData = await cargarImagenBase64('{{ "img/iching-cover-bagua.png" | relURL }}');
+      var dailingnaData = await cargarImagenBase64('{{ "img/dailingna-hexagrama33.jpg" | relURL }}');
+
+      pdfMake.vfs = { 'IChingCustom.ttf': base64FontData.trim() };
+      pdfMake.fonts = { IChingCustom: { normal:'IChingCustom.ttf', bold:'IChingCustom.ttf', italics:'IChingCustom.ttf', bolditalics:'IChingCustom.ttf' } };
+
+      var st = window.objetosState;
+      var ly = st.liuyao;
+      var result = st.result;
+      var rawLines = result.rawLines || [];
+
+      var prepText = t.preparedFor.replace('{date}', st.fecha).replace('{name}', st.objeto);
+
+      function traducirLiuQin(v) { return getTerm(lang, 'liuqin', v); }
+      function traducirLiuShen(v) { return getTerm(lang, 'liushen', v); }
+      function traducirWuXing(v) { return getTerm(lang, 'wuxing', v); }
+      function traducirTipo(v) { return getTerm(lang, 'tiposLinea', String(v)); }
+
+      var headers = (I18N_TERMS[lang] || I18N_TERMS.es).tablaHeader;
+      var tableBody = [[
+        { text: headers[0], fontSize: 8.5, bold: true },
+        { text: headers[1], fontSize: 8.5, bold: true },
+        { text: headers[2], fontSize: 8.5, bold: true },
+        { text: headers[3], fontSize: 8.5, bold: true },
+        { text: headers[4], fontSize: 8.5, bold: true },
+        { text: headers[5], fontSize: 8.5, bold: true },
+        { text: headers[6], fontSize: 8.5, bold: true }
+      ]];
+
+      for (var i = 5; i >= 0; i--) {
+        var l = ly.benGua[i];
+        var valor = rawLines[i];
+        var posicion = '';
+        if (l.shiYing === '世') posicion = getTerm(lang, 'posiciones', 'shi');
+        else if (l.shiYing === '应') posicion = getTerm(lang, 'posiciones', 'ying');
+        if (l.liuQin === st.categoria && !posicion) posicion = getTerm(lang, 'posiciones', 'foco');
+        else if (l.liuQin === st.categoria) posicion = getTerm(lang, 'posiciones', 'foco') + ' · ' + posicion;
+        if (!posicion) posicion = '—';
+
+        tableBody.push([
+          { text: 'L' + (i+1), fontSize: 8.5 },
+          { text: String(valor || ''), fontSize: 8.5 },
+          { text: traducirTipo(valor), fontSize: 8.5 },
+          { text: traducirWuXing(l.fiveElement), fontSize: 8.5 },
+          { text: traducirLiuQin(l.liuQin), fontSize: 8.5 },
+          { text: traducirLiuShen(l.sixGod), fontSize: 8.5 },
+          { text: posicion, fontSize: 8.5 }
+        ]);
+      }
+
+      var analysisLines = [];
+      if (ly.analisis && ly.analisis.length > 0) {
+        ly.analisis.forEach(function(a) {
+          var line = a.yongShenLine;
+          analysisLines.push({ text: 'L' + (a.lineIndex+1) + ' (' + traducirWuXing(line.fiveElement) + '):', fontSize: 10, bold: true, margin: [0,6,0,2] });
+          var estados = [];
+          if (a.self && a.self.isXunKong) estados.push(traducirEstadoCompleto(lang, '空亡'));
+          if (a.self && a.self.isRuMu) estados.push(traducirEstadoCompleto(lang, '入墓'));
+          if (a.dayMonth) {
+            if (a.dayMonth.monthRelation) estados.push(traducirRelacionEstado(lang, a.dayMonth.monthRelation) + ' (' + (lang==='es'?'mes':lang==='en'?'month':'Monat') + ')');
+            if (a.dayMonth.dayRelation) estados.push(traducirRelacionEstado(lang, a.dayMonth.dayRelation) + ' (' + (lang==='es'?'día':lang==='en'?'day':'Tag') + ')');
+            if (a.dayMonth.dayClash) estados.push(traducirEstadoCompleto(lang, '日冲'));
+            if (a.dayMonth.dayCombine) estados.push(traducirEstadoCompleto(lang, '日合'));
+          }
+          analysisLines.push({ text: estados.join(' · ') || '—', fontSize: 9.5, margin: [10,0,0,4] });
+          if (a.movingLines && a.movingLines.length) {
+            var movs = a.movingLines.map(function(m){ return 'L' + (m.index+1) + ' ' + traducirRelacionExt(lang, m.relation); }).join(', ');
+            analysisLines.push({ text: movs, fontSize: 9.5, margin: [10,0,0,4] });
+          }
+          if (a.transformation && a.transformation.hasTransformation) {
+            analysisLines.push({ text: traducirRelacionExt(lang, a.transformation.relation), fontSize: 9.5, margin: [10,0,0,4] });
+          }
+        });
+      } else {
+        analysisLines.push({ text: t.p3AnalysisEmpty, fontSize: 9.5, italics: true });
+      }
+
+      var indicatorLines = [];
+      if (ly.indicadores && ly.indicadores.length > 0) {
+        ly.indicadores.forEach(function(ind) {
+          indicatorLines.push({ text: '• ' + traducirIndicadorCompleto(lang, ind), fontSize: 9.5, margin: [0,2,0,2] });
+        });
+      } else {
+        indicatorLines.push({ text: t.p3IndicatorsEmpty, fontSize: 9.5, italics: true });
+      }
+
+      var coverStack = [
+        { text: t.coverTitle, fontSize: 24, alignment: 'center', margin: [0,30,0,10] },
+        { text: prepText, fontSize: 11, color: '#555555', alignment: 'center', margin: [0,0,0,15] }
+      ];
+      if (logoData) coverStack.push({ image: logoData, width: 140, alignment: 'center', margin: [0,10,0,30] });
+      else coverStack.push({ text: '☰   LIU YAO   ☷', fontSize: 16, alignment: 'center', margin: [0,20,0,40] });
+      coverStack.push(
+        { text: t.prefaceTitle, fontSize: 12, alignment: 'center', bold: true, margin: [0,0,0,10] },
+        { text: t.prefaceText, fontSize: 10, alignment: 'justify', italics: true, color: '#333333', margin: [30,0,30,30] },
+        { text: '«黛灵娜 (Dài Líng Nà)»', fontSize: 10, color: '#666666', alignment: 'center', margin: [0,5,0,0] },
+        { text: 'elichingon.com', link: 'https://elichingon.com/', color: '#0055aa', decoration: 'underline', fontSize: 9, alignment: 'center', margin: [0,5,0,0] }
+      );
+
+      var docContent = [
+        { stack: coverStack, pageBreak: 'after' },
+        {
+          stack: [
+            { text: t.p1Title, fontSize: 15, margin: [0,0,0,10] },
+            { canvas: [{ type:'line', x1:0, y1:0, x2:515, y2:0, lineWidth:1, lineColor:'#000' }], margin: [0,0,0,15] },
+            { text: t.p1Objeto, fontSize: 10.5, margin: [0,0,0,2] },
+            { text: st.objeto || '-', fontSize: 10, bold: true, margin: [0,0,0,10] },
+            st.contexto ? { text: t.p1Contexto, fontSize: 10.5, margin: [0,0,0,2] } : {},
+            st.contexto ? { text: st.contexto, fontSize: 10, margin: [0,0,0,10] } : {},
+            { text: t.p1Fecha, fontSize: 10.5, margin: [0,0,0,2] },
+            { text: st.fecha, fontSize: 10, margin: [0,0,0,10] },
+            { text: t.p1Categoria, fontSize: 10.5, margin: [0,0,0,2] },
+            { text: getTerm(lang, 'liuqinFull', st.categoria), fontSize: 10, margin: [0,0,0,10] }
+          ],
+          pageBreak: 'after'
+        },
+        {
+          stack: [
+            { text: t.p2Title, fontSize: 15, margin: [0,0,0,10] },
+            { canvas: [{ type:'line', x1:0, y1:0, x2:515, y2:0, lineWidth:1, lineColor:'#000' }], margin: [0,0,0,15] },
+            { text: t.p2Text1, fontSize: 10, alignment: 'justify', margin: [0,0,0,10], lineHeight: 1.5 },
+            { text: t.p2Text2, fontSize: 10, alignment: 'justify', margin: [0,0,0,15], lineHeight: 1.5 },
+            { text: t.p2UrlLabel, fontSize: 9.5, color: '#444', margin: [0,0,0,4] },
+            { text: t.p2Url, link: t.p2Url, color: '#0055aa', decoration: 'underline', fontSize: 9.5 }
+          ],
+          pageBreak: 'after'
+        },
+        {
+          stack: [
+            { text: t.p3Title, fontSize: 15, margin: [0,0,0,10] },
+            { canvas: [{ type:'line', x1:0, y1:0, x2:515, y2:0, lineWidth:1, lineColor:'#000' }], margin: [0,0,0,15] },
+            { text: t.p3SummaryObjeto + ' ' + st.objeto, fontSize: 10, margin: [0,0,0,4] },
+            { text: t.p3SummaryCategoria + ' ' + getTerm(lang, 'liuqinFull', st.categoria), fontSize: 10, margin: [0,0,0,4] },
+            { text: t.p3SummaryFecha + ' ' + st.fecha, fontSize: 10, margin: [0,0,0,15] },
+            { text: t.p3TableTitle, fontSize: 11, margin: [0,0,0,8] },
+            { table: { headerRows: 1, widths: ['auto','auto','auto','auto','auto','auto','*'], body: tableBody }, layout: 'lightHorizontalLines', margin: [0,0,0,20] },
+            { text: t.p3AnalysisTitle, fontSize: 11, margin: [0,0,0,6] },
+            { stack: analysisLines },
+            { text: t.p3IndicatorsTitle, fontSize: 11, margin: [0,15,0,6] },
+            { stack: indicatorLines }
+          ],
+          pageBreak: 'after'
+        }
+      ];
+
+      var epilogueStack = [
+        { text: t.epilogueTitle, fontSize: 15, margin: [0,0,0,10] },
+        { canvas: [{ type:'line', x1:0, y1:0, x2:515, y2:0, lineWidth:1, lineColor:'#000' }], margin: [0,0,0,15] },
+        { text: t.epilogueText, fontSize: 10, alignment: 'justify', margin: [0,0,0,15], lineHeight: 1.5 }
+      ];
+      if (dailingnaData) epilogueStack.push({ image: dailingnaData, width: 240, alignment: 'center', margin: [0,10,0,15] });
+      epilogueStack.push(
+        { canvas: [{ type:'line', x1:0, y1:0, x2:120, y2:0, lineWidth:0.5, lineColor:'#555' }], margin: [0,0,0,8] },
+        { text: t.signatureName, fontSize: 10.5, margin: [0,0,0,2] },
+        { text: t.signatureSite, link: 'https://elichingon.com/', color: '#0055aa', decoration: 'underline', fontSize: 9.5 }
+      );
+      docContent.push({ stack: epilogueStack });
+
+      var docDefinition = {
+        pageSize: 'A4',
+        pageMargins: [40,40,40,50],
+        defaultStyle: { font: 'IChingCustom', fontSize: 10, color: '#111111', lineHeight: 1.4 },
+        info: {
+          title: 'El I Chingón - ' + t.coverTitle,
+          author: 'Dài Líng Nà (黛灵娜) - elichingon.com',
+          subject: 'Liu Yao Consultation Report',
+          creator: 'elichingon.com'
+        },
+        content: docContent
+      };
+
+      var filename = 'ElIChingon-LiuYao-' + st.fecha + '-Hex' + result.hexagram + '.pdf';
+      pdfMake.createPdf(docDefinition).download(filename);
+
+    } catch (err) {
+      console.error('Error al generar el PDF:', err);
+      alert('Error: ' + err.message);
+    } finally {
+      btn.innerText = originalText;
+      btn.disabled = false;
+    }
+  };
+
+  // Auto-apertura del tutorial la primera vez
+  document.addEventListener('DOMContentLoaded', function() {
+    if (!localStorage.getItem('objetos_tutorial_visto')) {
+      window.abrirTutorialObjetos(1);
+    }
+  });
+
+})();
+/*]]>*/
+</script>
+{{ end }}

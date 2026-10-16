@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tabla para buscar los hexagramas del I Ching</title>
@@ -26,6 +26,16 @@
       
       <guid>http://localhost:1313/hexagramas/tabla-avanzada-correspondencias-i-ching/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Sobre esta Tabla Estructural&#xA;    &lt;div id=&#34;sobre-esta-tabla-estructural&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#sobre-esta-tabla-estructural&#34; aria-label=&#34;Ancla&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Esta matriz cruza el ordenamiento clásico del rey Wen con sus nombres en castellano, pinyin y chino simplificado, una brevísima descripción de su esencia, su &lt;strong&gt;Hexagrama Nuclear&lt;/strong&gt; interno y su correspondencia arquetípica en el &lt;strong&gt;Cielo Anterior&lt;/strong&gt; (先天八卦 - Xiān Tiān Bāguà, u ordenamiento del Cielo Anterior, o 伏羲八卦 - Fú Xī Bāguà, el ordenamiento según el emperador Fu Xi).&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Caso de estudio: una consulta del I Ching durante la fase crítica del dengue de un niño autista no verbal</title>
+      <link>http://localhost:1313/articulos/consulta-i-ching-caso-dengue-hijo/</link>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/consulta-i-ching-caso-dengue-hijo/</guid>
+      <description>Un amigo, padre de un niño autista no verbal, consultó el I Ching a través de esta app durante la fase crítica del dengue de su hijo. La lectura se releyó después del diagnóstico médico. Este caso de estudio analiza qué capas de la interpretación se sostuvieron, cuáles no, y qué enseña sobre el uso del I Ching como herramienta de orientación en situaciones de crisis.</description>
       
     </item>
     
@@ -207,6 +217,26 @@
       <guid>http://localhost:1313/articulos/azar-ciencia-i-ching/</guid>
       <description>¿Es el azar una herramienta de conocimiento? Este artículo conecta el I Ching con la mecánica cuántica, la teoría del caos, los teoremas de Gödel y el bootstrapping para mostrar cómo el azar, lejos de ser un obstáculo, más bién filtra nuestra subjetividad y nos permite acceder a órdenes más profundos.</description>
       
+    </item>
+    
+    <item>
+      <title>Consulta Liu Yao — Objetos Perdidos</title>
+      <link>http://localhost:1313/objetos-perdidos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/objetos-perdidos/</guid>
+      <description>Consulta oracular para localizar objetos perdidos mediante el método Liu Yao.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/objetos-perdidos/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Consulta Oracular</title>
+      <link>http://localhost:1313/consulta-oraculo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/consulta-oraculo/</guid>
+      <description>Selector de métodos de consulta oracular.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/consulta-oraculo/featured.jpg" />
     </item>
     
     <item>

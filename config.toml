@@ -102,10 +102,10 @@ enableRobotsTXT = true
       pageRef = "articulos"
       weight = 2
 
-    # 5. Consulta I Ching (Entre Artículos y YouTube)
+    # 5. Consulta Oracular (Entre Artículos y YouTube)
     [[languages.es.menu.main]]
-      name = "☯️ Consulta I Ching"
-      pageRef = "consulta-iching"
+      name = "☯️ Consulta Oracular"
+      pageRef = "consulta-oraculo"
       weight = 3
 
     # 6. External Link
@@ -192,8 +192,8 @@ enableRobotsTXT = true
 
     # 5. I Ching Consultation (Entre Articles y YouTube)
     [[languages.en.menu.main]]
-      name = "☯️ I Ching Consultation"
-      pageRef = "consulta-iching"
+      name = "☯️ Oracle Consultation"
+      pageRef = "consulta-oraculo"
       weight = 3
 
     # 6. External Link
@@ -280,8 +280,8 @@ enableRobotsTXT = true
 
     # 5. I Ging Beratung (Entre Artikel y YouTube)
     [[languages.de.menu.main]]
-      name = "☯️ I Ging Beratung"
-      pageRef = "consulta-iching"
+      name = "☯️ Befragung des Orakels"
+      pageRef = "consulta-oraculo"
       weight = 3
 
     # 6. External Link

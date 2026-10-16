@@ -1764,4 +1764,44 @@
       href="http://localhost:1313/de/iging-befragung/"
     />
   </url>
+  <url>
+    <loc>http://localhost:1313/de/verlorene-objekte/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/objetos-perdidos/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/lost-objects/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/verlorene-objekte/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/orakel-konsultation/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/consulta-oraculo/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/oracle-consultation/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/orakel-konsultation/"
+    />
+  </url>
 </urlset>
