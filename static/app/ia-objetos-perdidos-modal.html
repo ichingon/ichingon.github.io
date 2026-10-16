@@ -273,6 +273,9 @@
     </div>
     <div id="creditsRemainingMsg" class="credits-info"></div>
     <div id="aiResponseText" class="result-box"></div>
+    <button type="button" class="btn-action" id="btnDownloadPdfIA" onclick="window.descargarPdfIA()">
+      📄 Descargar informe PDF con IA
+    </button>
     <button type="button" class="btn-action btn-secondary" onclick="window.cerrarModal()">Cerrar</button>
   </div>
 
@@ -294,9 +297,11 @@
       loading: "黛靈娜 está contemplando las líneas del objeto perdido...",
       errInvalid: "El código de Gift Card no es válido o está inactivo.",
       errDepleted: "La Gift Card no tiene créditos disponibles.",
+      errTruncated: "La respuesta se cortó por límite de tokens. Intenta con un contexto más breve.",
       errServer: "Ocurrió un error en el servidor. Inténtalo de nuevo.",
       resultTitle: "El Oráculo ha hablado",
       creditsMsg: "Créditos restantes en tu Gift Card: ",
+      btnPdf: "📄 Descargar informe PDF con IA",
       statusChecking: "Verificando cupos diarios...",
       statusClaimed: "Ya usaste tu cupo de hoy. ¡Vuelve mañana!",
       statusAvailable: "🟢 Quedan {n} consultas gratuitas hoy.",
@@ -317,9 +322,11 @@
       loading: "黛靈娜 is contemplating the lines of the lost object...",
       errInvalid: "The Gift Card code is invalid or inactive.",
       errDepleted: "The Gift Card has no available credits.",
+      errTruncated: "The response was cut off due to token limit. Try with a shorter context.",
       errServer: "A server error occurred. Please try again.",
       resultTitle: "The Oracle has spoken",
       creditsMsg: "Remaining credits on your Gift Card: ",
+      btnPdf: "📄 Download PDF report with AI",
       statusChecking: "Checking daily availability...",
       statusClaimed: "You have used your free daily slot. Come back tomorrow!",
       statusAvailable: "🟢 {n} free consultations left today.",
@@ -340,9 +347,11 @@
       loading: "黛靈娜 betrachtet die Linien des verlorenen Objekts...",
       errInvalid: "Der Gift Card Code ist ungültig oder inaktiv.",
       errDepleted: "Die Gift Card hat keine verfügbaren Credits mehr.",
+      errTruncated: "Die Antwort wurde aufgrund des Token-Limits abgeschnitten. Versuche es mit einem kürzeren Kontext.",
       errServer: "Ein Serverfehler ist aufgetreten. Bitte versuche es erneut.",
       resultTitle: "Das Orakel hat gesprochen",
       creditsMsg: "Verbleibende Credits auf deiner Gift Card: ",
+      btnPdf: "📄 PDF-Bericht mit KI herunterladen",
       statusChecking: "Tägliche Verfügbarkeit wird geprüft...",
       statusClaimed: "Du hast deinen heutigen Platz bereits genutzt. Komm morgen wieder!",
       statusAvailable: "🟢 Heute noch {n} kostenlose Konsultationen verfügbar.",
@@ -365,6 +374,7 @@
   document.getElementById('btnSubmitAi').innerText = t.btn;
   document.getElementById('lblLoadingText').innerText = t.loading;
   document.getElementById('lblResultTitle').innerText = t.resultTitle;
+  document.getElementById('btnDownloadPdfIA').innerText = t.btnPdf;
   document.getElementById('claim-free-btn').innerText = t.btnClaimFree;
 
   function cambiarVista(vistaId) {
@@ -440,6 +450,8 @@
   });
 
   // ===== Envío al worker =====
+  let currentAiResult = null;
+
   window.enviarSolicitudIA = async function(e) {
     e.preventDefault();
 
@@ -447,7 +459,6 @@
     const errorDiv = document.getElementById('codeError');
     errorDiv.style.display = 'none';
 
-    // Leer el payload que dejó single.html
     let payload = null;
     try {
       const raw = sessionStorage.getItem('lastObjetosPayload');
@@ -462,9 +473,7 @@
       return;
     }
 
-    // Agregar el código de la gift card al payload
     payload.code = codeVal;
-
     cambiarVista('loadingState');
 
     const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
@@ -482,17 +491,21 @@
       const result = await response.json();
 
       if (result.success) {
+        currentAiResult = result;
+        currentAiResult.objeto = payload.tipo_objeto;
+        currentAiResult.contexto = payload.contexto;
+
         cambiarVista('resultState');
         if (result.remaining_credits !== undefined) {
           document.getElementById('creditsRemainingMsg').textContent = t.creditsMsg + result.remaining_credits;
         }
-        document.getElementById('aiResponseText').textContent =
-          result.interpretation || 'El oráculo ha respondido de forma silente.';
+        document.getElementById('aiResponseText').textContent = result.interpretation;
       } else {
         cambiarVista('aiFormContainer');
         let msg = t.errServer;
         if (result.error === 'gift_card_invalid') msg = t.errInvalid;
         else if (result.error === 'gift_card_depleted') msg = t.errDepleted;
+        else if (result.error === 'response_truncated') msg = t.errTruncated;
         errorDiv.textContent = msg;
         errorDiv.style.display = 'block';
       }
@@ -501,6 +514,14 @@
       errorDiv.textContent = "Error técnico: " + err.message;
       errorDiv.style.display = 'block';
     }
+  };
+
+  window.descargarPdfIA = function() {
+    if (!currentAiResult) return;
+    window.parent.postMessage({
+      type: 'GENERATE_OBJETOS_AI_PDF',
+      data: currentAiResult
+    }, '*');
   };
 
   window.cerrarModal = function() {

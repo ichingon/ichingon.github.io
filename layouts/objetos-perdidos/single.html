@@ -11,7 +11,6 @@
       <h1 class="title">{{ .Title }}</h1>
       <p class="subtitle">{{ .Description }}</p>
 
-      <!-- Botón de Ayuda / Tutorial -->
       <div style="display: flex; justify-content: flex-end; margin-bottom: 15px;">
         <button type="button" onclick="window.abrirTutorialObjetos(1)" style="background: none; border: none; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0.8; transition: opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" aria-label="Ver Tutorial">❓</button>
       </div>
@@ -324,7 +323,7 @@
     var frame = document.getElementById('tutorialObjetosFrame');
     var contenedor = document.getElementById('tutorialObjetosContenedor');
     var tiempo = new Date().getTime();
-    frame.src = '/app/tutorial-objeto-perdido-modal.html?lang=' + encodeURIComponent(window.objetosLang) + '&slide=' + slide + '&t=' + tiempo;
+    frame.src = '/app/tutorial-objetos-perdidos-modal.html?lang=' + encodeURIComponent(window.objetosLang) + '&slide=' + slide + '&t=' + tiempo;
     contenedor.style.display = 'flex';
   };
 
@@ -425,6 +424,9 @@
       document.getElementById('tutorialObjetosContenedor').style.display = 'none';
       document.getElementById('tutorialObjetosFrame').src = '';
       localStorage.setItem('objetos_tutorial_visto', 'true');
+    }
+    if (e.data && e.data.type === 'GENERATE_OBJETOS_AI_PDF') {
+      window.generarPdfObjetos(e.data.data);
     }
   });
 
@@ -861,6 +863,9 @@
       p3AnalysisEmpty: 'Sin datos de análisis disponibles.',
       p3IndicatorsTitle: 'Indicadores globales',
       p3IndicatorsEmpty: 'No se detectaron patrones globales relevantes.',
+      iaTitle: 'Análisis de 黛灵娜 (Interpretación IA)',
+      iaObjeto: 'Objeto:',
+      iaContexto: 'Contexto:',
       epilogueTitle: 'Epílogo',
       epilogueText: 'Gracias por confiar en 黛灵娜. Este informe es un registro vivo de tu consulta. Guárdalo, déjalo reposar y vuelve a él cuando los acontecimientos maduren.\n\nLa sabiduría no se consume de prisa; se digiere con paciencia y silencio.',
       signatureName: '黛灵娜', signatureSite: 'elichingon.com'
@@ -884,6 +889,9 @@
       p3AnalysisEmpty: 'No analysis data available.',
       p3IndicatorsTitle: 'Global indicators',
       p3IndicatorsEmpty: 'No relevant global patterns detected.',
+      iaTitle: "黛灵娜's Analysis (AI Interpretation)",
+      iaObjeto: 'Object:',
+      iaContexto: 'Context:',
       epilogueTitle: 'Epilogue',
       epilogueText: 'Thank you for trusting 黛灵娜. This report is a living record of your consultation. Keep it, let it rest, and return to it as events mature.\n\nWisdom is not consumed in haste; it is digested with patience and silence.',
       signatureName: '黛灵娜', signatureSite: 'elichingon.com'
@@ -907,6 +915,9 @@
       p3AnalysisEmpty: 'Keine Analysedaten verfügbar.',
       p3IndicatorsTitle: 'Globale Indikatoren',
       p3IndicatorsEmpty: 'Keine relevanten globalen Muster erkannt.',
+      iaTitle: 'Analyse von 黛灵娜 (KI-Interpretation)',
+      iaObjeto: 'Objekt:',
+      iaContexto: 'Kontext:',
       epilogueTitle: 'Epilog',
       epilogueText: 'Vielen Dank für dein Vertrauen in 黛灵娜. Dieser Bericht ist ein lebendiges Protokoll deiner Konsultation. Bewahre ihn auf, lass ihn ruhen und kehre zu ihm zurück, wenn die Ereignisse reifen.\n\nWeisheit wird nicht in Eile konsumiert; sie wird mit Geduld und Stille verdaut.',
       signatureName: '黛灵娜', signatureSite: 'elichingon.com'
@@ -919,13 +930,16 @@
       .catch(function(){ return null; });
   }
 
-  window.generarPdfObjetos = async function() {
+  window.generarPdfObjetos = async function(datosIA) {
     var lang = window.objetosLang || 'es';
     var t = I18N_PDF[lang] || I18N_PDF.es;
     var btn = document.getElementById('btnPdf');
     var originalText = btn.innerText;
-    btn.innerText = '⏳ ...';
-    btn.disabled = true;
+    var hayIA = datosIA && datosIA.interpretation;
+    if (!hayIA) {
+      btn.innerText = '⏳ ...';
+      btn.disabled = true;
+    }
 
     try {
       var fontPath = '{{ "data/iching-font.b64" | relURL }}';
@@ -1078,6 +1092,23 @@
         }
       ];
 
+      // Sección IA (si existe)
+      if (hayIA) {
+        var iaStack = [
+          { text: t.iaTitle, fontSize: 15, margin: [0,0,0,10] },
+          { canvas: [{ type:'line', x1:0, y1:0, x2:515, y2:0, lineWidth:1, lineColor:'#000' }], margin: [0,0,0,15] },
+          { text: t.iaObjeto + ' ' + (datosIA.objeto || st.objeto), fontSize: 10.5, bold: true, margin: [0,0,0,4] }
+        ];
+        if (datosIA.contexto) {
+          iaStack.push({ text: t.iaContexto, fontSize: 10.5, bold: true, margin: [0,0,0,2] });
+          iaStack.push({ text: datosIA.contexto, fontSize: 10, italics: true, margin: [0,0,0,15], lineHeight: 1.3 });
+        } else {
+          iaStack.push({ canvas: [{ type:'line', x1:0, y1:0, x2:515, y2:0, lineWidth:0.5, lineColor:'#cccccc' }], margin: [0,0,0,15] });
+        }
+        iaStack.push({ text: datosIA.interpretation, fontSize: 10, lineHeight: 1.5, alignment: 'justify' });
+        docContent.push({ stack: iaStack, pageBreak: 'after' });
+      }
+
       var epilogueStack = [
         { text: t.epilogueTitle, fontSize: 15, margin: [0,0,0,10] },
         { canvas: [{ type:'line', x1:0, y1:0, x2:515, y2:0, lineWidth:1, lineColor:'#000' }], margin: [0,0,0,15] },
@@ -1104,15 +1135,18 @@
         content: docContent
       };
 
-      var filename = 'ElIChingon-LiuYao-' + st.fecha + '-Hex' + result.hexagram + '.pdf';
+      var suffix = hayIA ? '-IA' : '';
+      var filename = 'ElIChingon-LiuYao-' + st.fecha + '-Hex' + result.hexagram + suffix + '.pdf';
       pdfMake.createPdf(docDefinition).download(filename);
 
     } catch (err) {
       console.error('Error al generar el PDF:', err);
       alert('Error: ' + err.message);
     } finally {
-      btn.innerText = originalText;
-      btn.disabled = false;
+      if (!hayIA) {
+        btn.innerText = originalText;
+        btn.disabled = false;
+      }
     }
   };
 
