@@ -526,7 +526,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -546,14 +546,29 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/articulos/consulta-i-ching-caso-dengue-hijo/</loc>
-    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/articulos/encontrar-objetos-perdidos/</loc>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/find-lost-objects/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/verlorene-gegenstaende-finden/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/encontrar-objetos-perdidos/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link

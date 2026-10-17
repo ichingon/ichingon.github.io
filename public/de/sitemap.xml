@@ -525,29 +525,29 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/de/dailingna/</loc>
-    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/de/artikel/</loc>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/dailingna/"
+      href="http://localhost:1313/articulos/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/dailingna/"
+      href="http://localhost:1313/en/articles/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/dailingna/"
+      href="http://localhost:1313/de/artikel/"
     />
   </url>
   <url>
     <loc>http://localhost:1313/de/</loc>
-    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -567,24 +567,45 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/de/artikel/</loc>
-    <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/de/artikel/verlorene-gegenstaende-finden/</loc>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/articulos/"
+      href="http://localhost:1313/articulos/encontrar-objetos-perdidos/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/articles/"
+      href="http://localhost:1313/en/articles/find-lost-objects/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/artikel/"
+      href="http://localhost:1313/de/artikel/verlorene-gegenstaende-finden/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/dailingna/</loc>
+    <lastmod>2026-10-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/dailingna/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/dailingna/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/dailingna/"
     />
   </url>
   <url>

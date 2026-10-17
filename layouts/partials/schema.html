@@ -72,6 +72,63 @@
   }
   </script>
 
+{{ else if eq .Type "objetos-perdidos" -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Búsqueda de Objetos Perdidos — El I Chingón",
+    "alternateName": [
+      "Liu Yao Objetos Perdidos",
+      "Consulta Liu Yao para Objetos Perdidos",
+      "Encontrar Objetos Perdidos con I Ching",
+      "El I Chingón — Objetos Perdidos"
+    ],
+    "url": {{ .Permalink }},
+    "inLanguage": "{{ site.Language.Locale }}",
+    "applicationCategory": "LifestyleApplication",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/I_Ching",
+      "https://en.wikipedia.org/wiki/Wen_Wang_Gua",
+      "https://en.wikipedia.org/wiki/Divination"
+    ],
+    "operatingSystem": "Web, iOS, Android",
+    "description": "{{ .Description | safeJS }}",
+    "author": {
+      "@type": "Person",
+      "name": "Dài Líng Nà (黛灵娜)"
+    },
+    "isAccessibleForFree": true,
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free Tier",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "10 free AI-assisted Liu Yao consultations per day for lost object searches.",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "name": "Premium Vouchers",
+        "priceCurrency": "USD",
+        "description": "Premium consultation credits via voucher or gift card.",
+        "availability": "https://schema.org/PreOrder"
+      }
+    ],
+    "featureList": [
+      "Liu Yao (Wen Wang Gua) method",
+      "Kinesthetic Entropy Capture",
+      "AI-assisted interpretation",
+      "Downloadable PDF report",
+      "No login required",
+      "No tracking",
+      "Installable PWA",
+      "Open source"
+    ]
+  }
+  </script>
+
 {{ else if eq .Params.translationKey "dailingna-profile" -}}
   <script type="application/ld+json">
   {

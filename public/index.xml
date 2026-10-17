@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tabla para buscar los hexagramas del I Ching</title>
@@ -30,13 +30,13 @@
     </item>
     
     <item>
-      <title>Caso de estudio: una consulta del I Ching durante la fase crítica del dengue de un niño autista no verbal</title>
-      <link>http://localhost:1313/articulos/consulta-i-ching-caso-dengue-hijo/</link>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <title>Cómo utilizar el método Liu Yao para encontrar objetos perdidos</title>
+      <link>http://localhost:1313/articulos/encontrar-objetos-perdidos/</link>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articulos/consulta-i-ching-caso-dengue-hijo/</guid>
-      <description>Un amigo, padre de un niño autista no verbal, consultó el I Ching a través de esta app durante la fase crítica del dengue de su hijo. La lectura se releyó después del diagnóstico médico. Este caso de estudio analiza qué capas de la interpretación se sostuvieron, cuáles no, y qué enseña sobre el uso del I Ching como herramienta de orientación en situaciones de crisis.</description>
-      
+      <guid>http://localhost:1313/articulos/encontrar-objetos-perdidos/</guid>
+      <description>&lt;p&gt;Perder objetos es una de las situaciones más comunes de la vida cotidiana, que además es sumamente estresante y nos hace perder tiempo, casi siempre cuando estamos más apurados. Si bien podríamos hacer una consulta clásica al I Ching para ayudarnos a encontrar objetos perdidos y estas consultas nos pueden dar pistas según las imágenes de los textos de los hexagramas, consultar al I Ching según la manera clásica no es la manera más eficiente para encontrar objetos perdidos. ¿Sabías que existe un método divinatorio basado en el I Ching específicamente para este tipo de situaciones?&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/encontrar-objetos-perdidos/featured.jpg" />
     </item>
     
     <item>

@@ -20,23 +20,30 @@
   </div>
   
   <!-- Botón de Enlace Directo (Usa ref para buscar el slug automáticamente) -->
-  <a href="{{ ref . "consulta-iching" }}" onclick="window.cerrarPromoIa(event)" style="display: block; text-align: center; background: #eab308; color: #111; font-weight: 600; padding: 8px; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: opacity 0.2s;">
+  <a href="{{ ref . "consulta-oraculo" }}" onclick="window.cerrarPromoIa(event)" style="display: block; text-align: center; background: #eab308; color: #111; font-weight: 600; padding: 8px; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: opacity 0.2s;">
     {{ if eq .Page.Language.Lang "de" }}Jetzt konsultieren ✨{{ else if eq .Page.Language.Lang "en" }}Consult now ✨{{ else }}Consultar ahora ✨{{ end }}
   </a>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", async () => {
+    // 1. Validar si estamos en la página principal (Home).
+    // Nota: Si manejas multi-idioma con prefijos en la URL (ej: /en/ o /de/), 
+    // puedes ajustar esta condición si la ruta incluye el idioma.
+    const path = window.location.pathname;
+    const isHome = path === "/" || path === "/en/" || path === "/de/"; 
+    
+    if (!isHome) return;
+
+    // 2. Validar si ya reclamó su consulta hoy
     const today = new Date().toISOString().slice(0, 10);
-    const lastClosed = localStorage.getItem("promo_ia_closed_date");
     const lastClaim = localStorage.getItem("free_claimed_date");
 
-    if (lastClosed === today || lastClaim === today) return;
+    if (lastClaim === today) return;
 
     try {
       const response = await fetch("/api/daily-status");
       const data = await response.json();
-      // const data = { available: 10 }; // Forzamos el valor para probar visualmente local
       
       if (data.available !== undefined && data.available > 0) {
         const contadorEl = document.getElementById("promo-contador");
@@ -56,7 +63,6 @@
   });
 
   window.cerrarPromoIa = function(e) {
-    // Si el clic viene del botón "X", prevenimos que navegue
     if (e && e.target.tagName === 'BUTTON') {
       e.preventDefault();
     }
@@ -68,8 +74,5 @@
     setTimeout(() => {
       popup.style.display = "none";
     }, 400);
-
-    const today = new Date().toISOString().slice(0, 10);
-    localStorage.setItem("promo_ia_closed_date", today);
   };
 </script>

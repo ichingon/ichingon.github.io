@@ -790,23 +790,30 @@
   </div>
   
   
-  <a href="http://localhost:1313/consulta-iching/" onclick="window.cerrarPromoIa(event)" style="display: block; text-align: center; background: #eab308; color: #111; font-weight: 600; padding: 8px; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: opacity 0.2s;">
+  <a href="http://localhost:1313/consulta-oraculo/" onclick="window.cerrarPromoIa(event)" style="display: block; text-align: center; background: #eab308; color: #111; font-weight: 600; padding: 8px; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: opacity 0.2s;">
     Consultar ahora ✨
   </a>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", async () => {
+    
+    
+    
+    const path = window.location.pathname;
+    const isHome = path === "/" || path === "/en/" || path === "/de/"; 
+    
+    if (!isHome) return;
+
+    
     const today = new Date().toISOString().slice(0, 10);
-    const lastClosed = localStorage.getItem("promo_ia_closed_date");
     const lastClaim = localStorage.getItem("free_claimed_date");
 
-    if (lastClosed === today || lastClaim === today) return;
+    if (lastClaim === today) return;
 
     try {
       const response = await fetch("/api/daily-status");
       const data = await response.json();
-      
       
       if (data.available !== undefined && data.available > 0) {
         const contadorEl = document.getElementById("promo-contador");
@@ -826,7 +833,6 @@
   });
 
   window.cerrarPromoIa = function(e) {
-    
     if (e && e.target.tagName === 'BUTTON') {
       e.preventDefault();
     }
@@ -838,9 +844,6 @@
     setTimeout(() => {
       popup.style.display = "none";
     }, 400);
-
-    const today = new Date().toISOString().slice(0, 10);
-    localStorage.setItem("promo_ia_closed_date", today);
   };
 </script>
 
