@@ -46,6 +46,8 @@ Estas son las cuatro categorías disponibles:
 
 Una vez suministrada toda la información sobre el objeto extraviado en el formulario, al darle clic al botón amarillo que dice "Comenzar consulta", la aplicación te lleva a la pantalla de captura de entropía, donde debes hacer trazos con el dedo sobre la pantalla táctil (o con el ratón, si usas una PC de escritorio) hasta que se habiliten los botones para ir generando las seis líneas sucesivamente. De esta forma, se generan las 6 líneas del hexagrama que el método Liu Yao requiere.
 
+Es importante señalar que el proceso de captura de entropía kinestésica - el equivalente digital en nuestro sitio al lanzamiento tradicional de monedas o a la manipulación de los tallos de milenrama - constituye un auténtico ritual. Para ello, se requiere que el consultante mantenga una atención plena en su pregunta, así como una actitud serena y receptiva, un estado mental que de por sí ya favorece la resolución del problema planteado al oráculo. Puedes leer más sobre esto en [este artículo]({{< relref "actitud-correcta-iching" >}}).
+
 ![Pantalla de captura de entropía kinestésica](captura-entropia.webp "Pantalla de captura de entropía kinestésica")
 
 Si quieres generar una lectura en base a una tirada que hiciste en una fecha previa, quizás con tus propias monedas, entonces en la pantalla previa (el formulario principal), tenías que desplegar las Opciones avanzadas y seleccionar "Entrada manual". Bajo esta opción, debes indicar la fecha en que hiciste esa consulta previa, ya que no necesariamente será la misma fecha actual. Indicar la fecha correctamente es crítico para una lectura correcta, ya que el método de adivinación Liu Yao utiliza la fecha de la consulta como dato.

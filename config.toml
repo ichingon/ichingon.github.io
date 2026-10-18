@@ -115,6 +115,23 @@ enableRobotsTXT = true
       pre = "youtube"
       weight = 4
       params = { class = "nav-btn-youtube" }
+
+      # Telegram
+    [[languages.es.menu.main]]
+      name = "Telegram"
+      url = "https://t.me/ElIChingon"
+      pre = "telegram"
+      weight = 5
+      params = { class = "nav-btn-telegram" }
+
+    # Reddit
+    [[languages.es.menu.main]]
+      name = "Reddit"
+      url = "https://www.reddit.com/user/El_I_Chingon/"
+      pre = "reddit"
+      weight = 6
+      params = { class = "nav-btn-reddit" }
+
     # === MENÚ FOOTER EN ESPAÑOL ===
     [[languages.es.menu.footer]]
       name = "Licencias"
@@ -203,6 +220,23 @@ enableRobotsTXT = true
       pre = "youtube"
       weight = 4
       params = { class = "nav-btn-youtube" }
+
+    # Telegram
+    [[languages.en.menu.main]]
+      name = "Telegram"
+      url = "https://t.me/ElIChingon"
+      pre = "telegram"
+      weight = 5
+      params = { class = "nav-btn-telegram" }
+
+    # Reddit
+    [[languages.en.menu.main]]
+      name = "Reddit"
+      url = "https://www.reddit.com/user/El_I_Chingon/"
+      pre = "reddit"
+      weight = 6
+      params = { class = "nav-btn-reddit" }
+
     # === MENÚ FOOTER EN INGLÉS ===
     [[languages.en.menu.footer]]
       name = "Licenses"
@@ -291,6 +325,22 @@ enableRobotsTXT = true
       pre = "youtube"
       weight = 4
       params = { class = "nav-btn-youtube" }
+
+    # Telegram
+    [[languages.de.menu.main]]
+      name = "Telegram"
+      url = "https://t.me/ElIChingon"
+      pre = "telegram"
+      weight = 5
+      params = { class = "nav-btn-telegram" }
+
+    # Reddit
+    [[languages.de.menu.main]]
+      name = "Reddit"
+      url = "https://www.reddit.com/user/El_I_Chingon/"
+      pre = "reddit"
+      weight = 6
+      params = { class = "nav-btn-reddit" }
 
     # === FUSSZEILEN-MENÜ AUF DEUTSCH ===
     [[languages.de.menu.footer]]

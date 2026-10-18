@@ -13,11 +13,11 @@ draft: false
 slug: "find-lost-objects"
 ---
 
-Losing objects is one of the most common situations in daily life. It is also deeply stressful and makes us waste time, almost always when we are in the greatest hurry. While we could certainly perform a classic I Ching consultation to help us find lost objects, and such consultations can give us clues based on the images in the hexagram texts, consulting the I Ching in the classic way is not the most efficient method for finding lost objects. Did you know that there is a divination method based on the I Ching specifically designed for this kind of situation?
+Losing objects is one of the most common situations in daily life. It is also deeply stressful becuase it makes us waste time almost always when we least can afford to. While we could certainly perform a classic I Ching consultation to help us find lost objects, and such consultations can give us clues based on the images in the hexagram texts, consulting the I Ching in the classic way is not the most efficient method for finding lost objects. Did you know that there is a divination method based on the I Ching specifically designed for this kind of situation?
 
 This divination method is called the Liu Yao method, also known as Wen Wang Gua or the six-line method. It is, in fact, a family of methods with different variants depending on their application: diagnosing illnesses or energetic blockages, evaluating romantic or interpersonal relationships, making career or business decisions, and of course, finding lost objects, which is the use we are concerned with here.
 
-In this article, we will briefly explain how to use our oracle consultation app based on the Liu Yao method to find lost objects. This app guides you step by step, allowing you to cast the lines of the hexagram and generating a report for your consultation. We will not explain the theory behind the method (we leave that for other articles aimed at interested readers). Here we will only give you practical guidance on how to use our app to find your lost object.
+In this article, we will briefly explain how to use our oracle consultation app based on the Liu Yao method to find lost objects. This app guides you step by step, allowing you to cast the lines of the hexagram and generating a report for your consultation. We will not explain the theory behind the method (we leave that for other articles aimed at curious readers). Here we will only give you practical guidance on how to use our app to find your lost object.
 
 ## Preparing the consultation in the app
 
@@ -25,9 +25,9 @@ You can open the app through this [link]({{< relref "objetos-perdidos" >}}) or f
 
 ![Main form of the lost objects search app](main-screen.en.webp "Main form of the lost objects search app")
 
-From there, you enter the object you are looking for, for example "car keys". In the field below, you provide some context, for example: "I don't know if I left them at home or at the office, or maybe at the store when I got out to buy something." In the context, it helps to clarify whether you are consulting on behalf of another person or whether the object is yours, where you last saw it, and any other detail that helps situate the loss. The more context you provide, the more informative the response from the AI that interprets your consultation will be, but also be brief and only provide the key information.
+On that form, you indicate the object you are looking for, for example "car keys". In the field below, you provide some context, for example: "I don't know if I left them at home or at the office, or maybe at the store when I got out to buy something." As you enter the context, it helps to clarify whether you are consulting on behalf of another person or whether the object is yours, where you last saw it, and any other details that can provide clues. The more context you provide, the more informative the response from the AI that interprets your consultation will be, but keep in mind that providing too much information can be detrimental, so only add the essential details.
 
-It is also worth mentioning one detail: the Liu Yao method often provides directions where the object may be found, expressed as cardinal points (north, south, east, west, northeast, etc.). For this reason, it is useful to indicate in the context the relative orientation of the places you mention. For example, if you say you don't know whether the keys were left at home or at the office, it helps to add that the house is to the west and the office is to the east. That way, if the cast suggests a specific direction, you can cross-reference that clue with the places you know.
+One detail is worth mentioning: the Liu Yao method often provides directions where the object may be found, expressed as cardinal points (north, south, east, west, northeast, etc.). For this reason, it is useful to indicate in the context the relative orientation of the places you mention. For example, if you say you don't know whether the keys were left at home or at the office, it helps to add that the house is to the west and the office is to the east. That way, if the cast suggests a specific direction, you can cross-reference that clue with the places you know.
 
 Finally, the method requires indicating the category of the lost object. Choosing the right category is important, because the reading depends on it pointing to the correct line of the hexagram.
 
@@ -45,7 +45,9 @@ These are the four available categories:
 
 ## Generating the cast (the lines of the hexagrams)
 
-Once all the information about the lost object has been entered in the form, clicking the yellow button that says "Begin consultation" takes you to the entropy capture screen, where you must draw strokes with your finger on the touchscreen (or with the mouse, if you are using a desktop PC) until the buttons become enabled to generate the six lines successively. In this way, the 6 lines of the hexagram required by the Liu Yao method are generated.
+Once all the information about the lost object has been entered in the form, clicking the yellow button that says "Begin consultation" takes you to the entropy capture screen, where you must draw strokes with your finger on the touchscreen (or with the mouse, if you are using a desktop PC) until the buttons become enabled to generate the six lines successively. In this way, you generate the 6 lines of the hexagram required by the Liu Yao one by one.
+
+It is important to note that the kinesthesic entropy capture process —the digital equivalent on our site to the traditional casting of coins or the manipulation of yarrow stalks— constitutes a true ritual. This requires the consultant to maintain a focused attention on their question, alongside a calm and receptive mindset, a state of mind that in itself already favors the resolution of the problem presented to the oracle. You can read more about this in [this article]({{< relref "actitud-correcta-iching" >}}).
 
 ![Kinesthetic entropy capture screen](captura-entropia.webp "Kinesthetic entropy capture screen")
 
@@ -57,7 +59,7 @@ Once the cast is complete, with the resulting hexagram and its six lines, the ap
 
 This free PDF report contains the essential data of the consultation and the tables that serve as input for the Liu Yao analysis. These tables are for people who know this divination system, but for the general public who consult, the ideal is to download a complete report of the consultation that includes the AI interpretation. This complete report costs one (1) credit.
 
-The AI interpretation translates the tables of the free report into plain language: it tells you whether the object is near or far, whether it is covered or in plain sight, in which direction it is worth searching, and what type of places to check. It is, in essence, a map of probabilities, not a promise that you will find what you are looking for.
+The AI interpretation translates the tables of the free report into plain language: it tells you whether the object is near or far, whether it is covered or in plain sight, in which direction it is worth searching, and what type of places to check. It is, in essence, a map with probabilities, not a promise that you will find what you are looking for.
 
 ## How to read the clues and what to do if you find nothing
 

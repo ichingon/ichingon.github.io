@@ -76,9 +76,9 @@
   <div class="info-modal-box">
     <button type="button" class="info-modal-close" aria-label="Cerrar">×</button>
     <p>
-      {{ if eq .Language.Lang "de" }}Für konkrete Fragen nach dem Aufenthaltsort eines verlorenen Gegenstands. Die Antwort zeigt Richtung, Ort und Zustand.
-      {{ else if eq .Language.Lang "en" }}For concrete questions about the whereabouts of a lost object. The answer shows direction, place and condition.
-      {{ else }}Para preguntas concretas sobre el paradero de un objeto perdido. La respuesta indica dirección, lugar y estado.{{ end }}
+      {{ if eq .Language.Lang "de" }}Für konkrete Fragen nach dem Aufenthaltsort eines verlorenen Gegenstands. Die Antwort zeigt Richtung, Ort und Zustand. <a href="{{ relref . "encontrar-objetos-perdidos" }}">Mehr dazu hier</a>.
+      {{ else if eq .Language.Lang "en" }}For concrete questions about the whereabouts of a lost object. The answer shows direction, place and condition. <a href="{{ relref . "encontrar-objetos-perdidos" }}">Read more here</a>.
+      {{ else }}Para preguntas concretas sobre el paradero de un objeto perdido. La respuesta indica dirección, lugar y estado. <a href="{{ relref . "encontrar-objetos-perdidos" }}">Leer más aquí</a>.{{ end }}
     </p>
   </div>
 </div>
@@ -217,6 +217,13 @@
 }
 .info-modal-box p {
   margin: 0;
+}
+.info-modal-box a {
+  color: var(--app-accent, #eeee55);
+  text-decoration: underline;
+}
+.info-modal-box a:hover {
+  text-decoration: none;
 }
 .info-modal-close {
   position: absolute;
