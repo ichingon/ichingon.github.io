@@ -5,7 +5,7 @@ author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
-tags: ["I Ging Fundamentals"]
+tags: ["Grundlagen des I Ging"]
 description: ""
 summary: ""
 draft: false
