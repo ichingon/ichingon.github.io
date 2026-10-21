@@ -5,7 +5,7 @@ author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
-tags: ["Grundlagen des I Ging"]
+tags: ["Grundlagen des Liu Yao"]
 description: ""
 summary: ""
 math: false

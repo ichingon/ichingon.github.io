@@ -525,8 +525,29 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/en/articles/an-introduction-to-liu-yao/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/introduccion-liu-yao/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/eine-einf%C3%BChrung-in-liu-yao/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/an-introduction-to-liu-yao/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/en/articles/</loc>
-    <lastmod>2026-10-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -547,7 +568,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-10-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -571,6 +592,21 @@
     <lastmod>2026-10-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/que-podemos-preguntar/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/was-kann-man-das-i-ging-fragen/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/what-kind-of-questions-can-we-ask-the-i-ching/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/en/articles/find-lost-objects/</loc>
