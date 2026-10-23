@@ -5,7 +5,7 @@ author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
-tags: ["Der Tao des Content Creators"]
+tags: ["Das Tao des Content-Creators"]
 description: "Eine intime Reflexion über Dài Líng Näs persönliche Suche, formale Sprachen und die tiefe Bedeutung des I Ging."
 summary: "Die Ursprünge des Projekts durch persönliche Suche, formale Sprachen und die Weisheit des I Ging."
 math: false

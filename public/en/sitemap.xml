@@ -525,29 +525,8 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/en/articles/an-introduction-to-liu-yao/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/articulos/introduccion-liu-yao/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="http://localhost:1313/de/artikel/eine-einf%C3%BChrung-in-liu-yao/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/articles/an-introduction-to-liu-yao/"
-    />
-  </url>
-  <url>
     <loc>http://localhost:1313/en/articles/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -567,8 +546,29 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/en/articles/ai-era-branding-i-chingon/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/el-nombre-chingon/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/branding-im-ki-zeitalter-i-chingon/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/ai-era-branding-i-chingon/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -585,6 +585,27 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/articles/an-introduction-to-liu-yao/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/introduccion-liu-yao/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/eine-einf%C3%BChrung-in-liu-yao/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/an-introduction-to-liu-yao/"
     />
   </url>
   <url>
