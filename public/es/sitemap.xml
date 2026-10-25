@@ -588,6 +588,12 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/articulos/privacidad/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/articulos/introduccion-liu-yao/</loc>
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>

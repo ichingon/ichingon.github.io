@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Das Tao Des Content Creators on I Chingon</title>
+    <title>Das Tao Des Content-Creators on I Chingon</title>
     <link>http://localhost:1313/de/tags/das-tao-des-content-creators/</link>
-    <description>Recent content in Das Tao Des Content Creators on I Chingon</description>
+    <description>Recent content in Das Tao Des Content-Creators on I Chingon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
@@ -17,6 +17,16 @@
       <guid>http://localhost:1313/de/artikel/branding-im-ki-zeitalter-i-chingon/</guid>
       <description>Entdecke, wie eine respektlose Domain und &amp;rsquo;echte Seltsamkeit&amp;rsquo; zur besten GEO-Strategie im KI-Zeitalter werden.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-nombre-chingon/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Hexagramm 1 dieses Projekts – Warum wurde El I Chingón geboren? (Über @ElIChingon)</title>
+      <link>http://localhost:1313/de/artikel/hexagramm-1-warum-el-ichingon-geboren-wurde/</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/artikel/hexagramm-1-warum-el-ichingon-geboren-wurde/</guid>
+      <description>Die Ursprünge des Projekts durch persönliche Suche, formale Sprachen und die Weisheit des I Ging.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-hexagrama1-de-el-ichingon/featured.jpg" />
     </item>
     
   </channel>
