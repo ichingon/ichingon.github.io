@@ -10,6 +10,7 @@ description: "Erfahre, warum Privatsphäre bei einer Orakelbefragung lebenswicht
 summary: "Erfahre, warum Privatsphäre in einer Orakel-App kein Luxus, sondern eine Notwendigkeit ist, und wie wir elichingon.com mit struktureller Amnesie und blinden Zahlungen gebaut haben, um deine Geheimnisse abzuschirmen."
 draft: false
 slug: "privatsphaere-laut-elichingon-warum-das-dein-problem-ist"
+aliases: ["/de/datenschutz"]
 ---
 
 Im [Whitepaper meiner Anwendung]({{< relref "articulos/i-chingon-whitepaper" >}}), in dem ich über mein Protokoll des Constrained Stochastic Hermeneutic Computing (CSHC) spreche, erkläre ich, dass radikale Privatsphäre einer der Grundpfeiler meines Protokolls ist. In diesem Artikel werde ich dem normalen Nutzer erklären, warum das so wichtig ist, wie sich El I Chingón in dieser Hinsicht von anderen Orakel-Websites oder -Apps unterscheidet und wie du, ohne dich in viel technisches Fachjargon zu verstricken, die Privatsphäre von El I Chingón oder einer dieser Seiten überprüfen kannst.

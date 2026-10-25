@@ -526,7 +526,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -543,6 +543,48 @@
       rel="alternate"
       hreflang="es"
       href="http://localhost:1313/articulos/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/articulos/privacidad-segun-elichingon-por-que-deberia-importarte/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/articles/privacy-according-to-elichingon-why-should-you-care/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/privatsphaere-laut-elichingon-warum-das-dein-problem-ist/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/articulos/privacidad-segun-elichingon-por-que-deberia-importarte/"
     />
   </url>
   <url>
@@ -565,33 +607,6 @@
       hreflang="es"
       href="http://localhost:1313/articulos/el-nombre-chingon/"
     />
-  </url>
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="http://localhost:1313/de/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/articulos/privacidad/</loc>
-    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/articulos/introduccion-liu-yao/</loc>

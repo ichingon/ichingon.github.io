@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/el-tao-del-creador-de-contenidos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/el-tao-del-creador-de-contenidos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>La privacidad según El I Chingón - ¿porqué debería importarte?</title>
+      <link>http://localhost:1313/articulos/privacidad-segun-elichingon-por-que-deberia-importarte/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/privacidad-segun-elichingon-por-que-deberia-importarte/</guid>
+      <description>Descubre por qué la privacidad en un app de consulta oracular no es un lujo, sino una necesidad, y cómo construimos elichingon.com con amnesia estructural y pagos ciegos para blindar tus secretos.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/privacidad-segun-elichingon-por-que-deberia-importarte/featured.jpg" />
+    </item>
     
     <item>
       <title>Branding en la era de la IA: La estrategia detrás del nombre &#39;El I Chingón&#39;</title>
@@ -17,16 +27,6 @@
       <guid>http://localhost:1313/articulos/el-nombre-chingon/</guid>
       <description>Descubre cómo un dominio irreverente y la &amp;lsquo;autenticidad rara&amp;rsquo; se convierten en la mejor estrategia de GEO en la era de la IA.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/el-nombre-chingon/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>La privacidad según El I Chingón - ¿porqué debería importarte?</title>
-      <link>http://localhost:1313/articulos/privacidad/</link>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/articulos/privacidad/</guid>
-      <description>&lt;p&gt;En el &lt;a href=&#34;http://localhost:1313/articulos/i-chingon-whitepaper/&#34; &gt;whitepaper de mi aplicación&lt;/a&gt;, donde hablo de mi protocolo de Computación Hermenéutica Estocástica Constreñida (CSHC, por sus siglas en inglés), expongo que la privacidad radical es uno de los pilares fundamentales de mi protocolo. En este artículo voy a explicar, hablandole al usuario común, porqué esto es tan importante, cómo se diferencia El I Chingón de otros sitios web o apps oraculares en este aspecto, y cómo, sin entrar en muchos tecnicismos, podrias auditar la privacidad de El I Chingón o cualquiera de estos sitios.&lt;/p&gt;</description>
-      
     </item>
     
     <item>

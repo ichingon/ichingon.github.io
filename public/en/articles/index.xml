@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Privacy according to El I Chingón - why should you care?</title>
+      <link>http://localhost:1313/en/articles/privacy-according-to-elichingon-why-should-you-care/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/articles/privacy-according-to-elichingon-why-should-you-care/</guid>
+      <description>Discover why privacy in an oracular consultation app is not a luxury, but a necessity, and how we built elichingon.com with structural amnesia and blind payments to shield your secrets.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/privacidad-segun-elichingon-por-que-deberia-importarte/featured.jpg" />
+    </item>
     
     <item>
       <title>Branding in the Age of AI: The Strategy Behind the Name &#39;El I Chingón&#39;</title>

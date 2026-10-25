@@ -149,9 +149,14 @@ enableRobotsTXT = true
       weight = 3
 
     [[languages.es.menu.footer]]
+      name = "Privacidad"
+      url = "/privacidad"
+      weight = 4
+
+    [[languages.es.menu.footer]]
       name = "Contacto"
       url = "mailto:contacto@elichingon.com"
-      weight = 4
+      weight = 5
 
   [languages.en]
     name = "EN"
@@ -254,9 +259,14 @@ enableRobotsTXT = true
       weight = 3
 
     [[languages.en.menu.footer]]
+      name = "Privacy"
+      url = "/en/privacy"
+      weight = 4
+
+    [[languages.en.menu.footer]]
       name = "Contact"
       url = "mailto:contact@elichingon.com"
-      weight = 4
+      weight = 5
 
   [languages.de]
     name = "DE"
@@ -355,13 +365,18 @@ enableRobotsTXT = true
 #
     [[languages.de.menu.footer]]
       name = "Verifizieren"
-      pageRef = "verificar"
+      pageRef = "/verificar"
       weight = 3
+
+    [[languages.de.menu.footer]]
+      name = "Datenschutz"
+      url = "/de/datenschutz"
+      weight = 4
 
     [[languages.de.menu.footer]]
       name = "Kontakt"
       url = "mailto:contact@elichingon.com"
-      weight = 4
+      weight = 5
 
 [markup]
   [markup.goldmark]
