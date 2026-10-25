@@ -9,6 +9,7 @@ tags: ["The Tao of the Content Creator"]
 description: "Discover why privacy is vital in an oracular consultation and how El I Chingón protects your privacy."
 summary: "Discover why privacy in an oracular consultation app is not a luxury, but a necessity, and how we built elichingon.com with structural amnesia and blind payments to shield your secrets."
 draft: false
+slug: "privacy-according-to-elichingon-why-should-you-care"
 ---
 
 In the [whitepaper for my application]({{< relref "articulos/i-chingon-whitepaper" >}}), where I discuss my Constrained Stochastic Hermeneutic Computing (CSHC) protocol, I state that radical privacy is one of the fundamental pillars of my protocol. In this article I'm going to explain, speaking to the everyday user, why this is so important, how El I Chingón differs from other oracular websites or apps in this regard, and how, without getting into too much technical jargon, you could audit the privacy of El I Chingón or any of these sites.
