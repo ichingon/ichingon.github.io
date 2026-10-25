@@ -1,6 +1,6 @@
 ---
 title: "Privatsphäre laut El I Chingón - warum das dein verdammtes Problem ist"
-date: 2026-10-22
+date: 2026-10-24
 author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true

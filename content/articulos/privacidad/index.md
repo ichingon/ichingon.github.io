@@ -1,6 +1,6 @@
 ---
 title: "La privacidad según El I Chingón - ¿porqué debería importarte?"
-date: 2026-10-22
+date: 2026-10-24
 author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
@@ -34,7 +34,7 @@ Si un sitio de internet te exige registrarte y hacer login para usarlo, es porqu
 
 ## Los riesgos verdaderos de no tener privacidad
 
-Si crees que esta posibilidad es remota y por lo tanto esto es un tema que no te afecta, piensa en la reciente vulnerabilidad, llamada PHP2Shell, que descubrieron en octubre del 2026. Para los que no saben, PHP es un lenguaje interpretado en servidores, que funciona en más del 70% de los sitios web en internet. La vulnerabilidad que descubrieron es que un atacante no autorizado puede inyectar codigo a un servidor desde afuera, y tomar el control remotamente, explotando una falla en el manejo que hace PHP en el manejo interno de su memoria. 
+Si crees que esta posibilidad es remota y por lo tanto esto es un tema que no te afecta, piensa en la reciente vulnerabilidad, llamada PHP2Shell, que descubrieron en octubre del 2026. Para los que no saben, PHP es un lenguaje interpretado en servidores, que funciona en más del 70% de los sitios web en internet. La vulnerabilidad que descubrieron es que un atacante no autorizado puede inyectar codigo a un servidor desde afuera, y tomar el control remotamente, explotando una falla de PHP en el manejo interno de su memoria. 
 
 Esta vulnerabilidad, que ha recibido una puntuación de 9,2 de 10 según el sistema CVSS, afecta como se dijo a más del 70% de los sitios web en todo el mundo, incluida las grandes plataformas como Joomla, Drupal o WordPress, siendo esta la más común para el hospedaje de sitios web. Vamos a analizar las vulnerabilidades de este sitio respecto al PHP2Shell.
 
