@@ -780,9 +780,8 @@
   </p>
   
   <section class="prose dark:prose-invert w-full mt-6">
-    <p>Diese Seite entsteht mit dem Ziel, das I Ging als das erste dezentralisierte Informationsprotokoll der Geschichte zu analysieren.</p>
-<p>Hier erkunden wir das Buch der Wandlungen nicht aus diffusem Mystizismus oder den Irrtümern der „New Age“-Bewegung, sondern als strenge Schnittstelle zwischen Philosophie, komplexen Systemen, Mathematik und Informatik - und bieten ein Werkzeug für systemische Analysen, um den Fluss des Hier und Jetzt zu verstehen.</p>
-<p>Aber immer mit beiden Beinen auf dem Boden: Wenn dies nicht dazu dient, dein Leben ein kleines bisschen besser zu machen oder dir zu helfen, die zugrundeliegenden Dynamiken deiner Realität bewusst zu machen, dann nützt es nichts.</p>
+    <p>Das I Ging ist das erste <strong>dezentrale Informationsprotokoll</strong> der Geschichte. Eine analytische Engine an der Schnittstelle von <strong>Philosophie, komplexen Systemen, Mathematik und Informatik</strong>, um den Fluss der Gegenwart zu verstehen und bessere Entscheidungen zu treffen.</p>
+<p>Kein Aberglaube, kein Mystizismus und absolute Privatsphäre.</p>
 <div class="custom-short-wrapper">
   <iframe 
     src="https://www.youtube.com/embed/rgToMd5pUbo" 
@@ -813,79 +812,60 @@
   }
 </style>
 
-<div id="promoIaPopup" style="display: none; position: fixed; bottom: 20px; right: 20px; background: rgba(20, 20, 20, 0.98); border: 1px solid #eab308; border-radius: 6px; padding: 16px; z-index: 99999; box-shadow: 0 8px 24px rgba(0,0,0,0.6); width: calc(100% - 40px); max-width: 320px; font-family: system-ui, -apple-system, sans-serif; color: #eee; flex-direction: column; gap: 12px; opacity: 0; transform: translateY(20px); transition: opacity 0.4s ease, transform 0.4s ease; box-sizing: border-box;">
+<div style="background: rgba(255, 255, 255, 0.03); border-left: 3px solid #eab308; padding: 12px 16px; margin: 16px 0; border-radius: 4px; font-size: 0.95rem;">
+  <strong>
+    Verfügbarkeit heute:
+  </strong> 
   
+    Noch <span id="promo-contador" style="color: #eab308; font-weight: bold;">10</span> kostenlose I Ging Konsultationen heute verfügbar.
   
-  <button onclick="window.cerrarPromoIa(event)" style="position: absolute; top: 6px; right: 8px; background: transparent; border: none; color: #888; font-size: 1.4rem; cursor: pointer; line-height: 1; padding: 0;">&times;</button>
-  
-  
-  <div style="display: flex; gap: 12px; align-items: center; margin-top: 4px;">
-    <img src="/video/hidden_dragon.webp" alt="I Ching IA" style="width: 75px; height: 75px; object-fit: cover; border-radius: 4px; border: 1px solid #444; flex-shrink: 0;">
-    
-    <div style="font-size: 0.85rem; line-height: 1.4;">
-      
-        Noch <strong id="promo-contador" style="color: #eab308; font-size: 1.1rem;">...</strong> kostenlose I Ging Konsultationen mit KI-gestützter Interpretation heute verfügbar!
-      
-    </div>
-  </div>
-  
-  
-  <a href="http://localhost:1313/de/orakel-konsultation/" onclick="window.cerrarPromoIa(event)" style="display: block; text-align: center; background: #eab308; color: #111; font-weight: 600; padding: 8px; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: opacity 0.2s;">
-    Jetzt konsultieren ✨
-  </a>
 </div>
+
 
 <script>
   document.addEventListener("DOMContentLoaded", async () => {
-    
-    
-    
-    const path = window.location.pathname;
-    const isHome = path === "/" || path === "/en/" || path === "/de/"; 
-    
-    if (!isHome) return;
+    const contadorEl = document.getElementById("promo-contador");
+    if (!contadorEl) return;
 
     
     const today = new Date().toISOString().slice(0, 10);
     const lastClaim = localStorage.getItem("free_claimed_date");
 
-    if (lastClaim === today) return;
+    if (lastClaim === today) {
+      contadorEl.innerText = "0";
+      return;
+    }
 
+    
     try {
       const response = await fetch("/api/daily-status");
-      const data = await response.json();
-      
-      if (data.available !== undefined && data.available > 0) {
-        const contadorEl = document.getElementById("promo-contador");
-        if (contadorEl) contadorEl.innerText = data.available;
-        
-        const popup = document.getElementById("promoIaPopup");
-        popup.style.display = "flex";
-        
-        setTimeout(() => {
-          popup.style.opacity = "1";
-          popup.style.transform = "translateY(0)";
-        }, 100);
+      if (response.ok) {
+        const data = await response.json();
+        if (data.available !== undefined) {
+          contadorEl.innerText = data.available;
+        }
       }
     } catch (e) {
-      console.warn("No se pudo cargar el estado de la promo IA.");
+      console.warn("Usando valor por defecto del contador.");
     }
   });
-
-  window.cerrarPromoIa = function(e) {
-    if (e && e.target.tagName === 'BUTTON') {
-      e.preventDefault();
-    }
-    
-    const popup = document.getElementById("promoIaPopup");
-    popup.style.opacity = "0";
-    popup.style.transform = "translateY(20px)";
-    
-    setTimeout(() => {
-      popup.style.display = "none";
-    }, 400);
-  };
 </script>
+<p><a href="/de/orakel-konsultation/" > Kostenlose Orakelbefragung durchführen </a></p>
+<hr>
+
+<h3 class="relative group">Tiefe Antworten, keine generischen Vorhersagen
+    <div id="tiefe-antworten-keine-generischen-vorhersagen" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tiefe-antworten-keine-generischen-vorhersagen" aria-label="Anker">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Die meisten Online-Tools liefern einabsikgige KI-Interpretationen, die kaum auf Ihre Frage zugeschnitten sind. Unsere Engine generiert einen strukturierten, mehrseitigen analytischen PDF-Bericht, der Ihre aktuelle Situation diagnostiziert, wie sie entstanden ist, worauf Sie achten müssen (sich verändernde Linien) und wie sie sich entwickeln könnte.</p>
+</blockquote><ul>
+<li><strong><a href="/pdf/I-Ching-Report-2026-09-19-Hex25-IA.de.pdf" > 📄 Muster-PDF-Dossier herunterladen </a></strong> <em>(Echtes Beispiel einer Situationsanalyse)</em></li>
+</ul>
 
   </section>
 </article>

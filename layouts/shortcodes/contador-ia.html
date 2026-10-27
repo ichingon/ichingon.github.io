@@ -1,0 +1,43 @@
+<!-- Contenedor con diseño de tarjeta/aviso limpio -->
+<div style="background: rgba(255, 255, 255, 0.03); border-left: 3px solid #eab308; padding: 12px 16px; margin: 16px 0; border-radius: 4px; font-size: 0.95rem;">
+  <strong>
+    {{ if eq .Page.Language.Lang "de" }}Verfügbarkeit heute:{{ else if eq .Page.Language.Lang "en" }}Daily availability:{{ else }}Disponibilidad diaria:{{ end }}
+  </strong> 
+  {{ if eq .Page.Language.Lang "de" }}
+    Noch <span id="promo-contador" style="color: #eab308; font-weight: bold;">10</span> kostenlose I Ging Konsultationen heute verfügbar.
+  {{ else if eq .Page.Language.Lang "en" }}
+    <span id="promo-contador" style="color: #eab308; font-weight: bold;">10</span> free I Ching consultations left today.
+  {{ else }}
+    Quedan <span id="promo-contador" style="color: #eab308; font-weight: bold;">10</span> consultas gratuitas disponibles hoy.
+  {{ end }}
+</div>
+
+<!-- Script que busca el ID e inyecta el número real -->
+<script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const contadorEl = document.getElementById("promo-contador");
+    if (!contadorEl) return;
+
+    // Validar si ya reclamó su consulta hoy en este dispositivo
+    const today = new Date().toISOString().slice(0, 10);
+    const lastClaim = localStorage.getItem("free_claimed_date");
+
+    if (lastClaim === today) {
+      contadorEl.innerText = "0";
+      return;
+    }
+
+    // Consultar el estado real de cupos en el servidor
+    try {
+      const response = await fetch("/api/daily-status");
+      if (response.ok) {
+        const data = await response.json();
+        if (data.available !== undefined) {
+          contadorEl.innerText = data.available;
+        }
+      }
+    } catch (e) {
+      console.warn("Usando valor por defecto del contador.");
+    }
+  });
+</script>

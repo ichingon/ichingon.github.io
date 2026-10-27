@@ -6,12 +6,20 @@ translationKey: "homepage"
 showAuthor: false
 ---
 
-The purpose of this space is to analyze the I Ching as the first decentralized information protocol in history.
+The I Ching is history's first **decentralized information protocol**. An analytical engine at the intersection of **philosophy, complex systems, mathematics, and computer science** to understand the flow of the present and make better decisions.
 
-Here, we explore the Book of Changes not from vague mysticism or "new age" fallacies, but as a rigorous intersection between philosophy, complex systems, mathematics, and computer science, offering a a tool for systemic analysis to understand the flow of the here and now.
-
-But we also keep our feet firmly on the ground: if this does not help make your life a little better, or help you grasp the underlying dynamics of your reality, it serves no purpose."
+No superstition, no mysticism, and absolute privacy.
 
 {{< youtube-short "3lNXdLAGa_Q" "Website presentation" >}}
 
-{{< popup-ia >}}
+{{< contador-ia >}}
+
+[ Perform a free oracle consultation ](/consulta-oraculo/)
+
+---
+
+### Deep answers, not generic predictions
+
+> Most online tools deliver one-paragraph AI interpretations poorly adapted to your question. Our engine generates a structured, multi-page analytical PDF report that diagnoses your current situation, how it developed, key points to watch out for (moving lines), and its possible evolution.
+
+* **[ 📄 Download Sample PDF Dossier ](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.en.pdf)** *(Real sample of a situation analysis)*

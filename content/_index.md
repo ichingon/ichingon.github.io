@@ -6,12 +6,20 @@ translationKey: "homepage"
 showAuthor: false
 ---
 
-Este espacio nace con el propósito de analizar el I Ching como el primer protocolo de información descentralizado de la historia. 
+El I Ching es el primer **protocolo de información descentralizado** de la historia. Un motor analítico en la intersección entre la **filosofía, los sistemas complejos, las matemáticas y las ciencias de la computación** para comprender el flujo del presente y tomar mejores decisiones.
 
-Aquí exploramos el Libro de los Cambios no desde el misticismo difuso o las falacias de la "nueva era", sino como una intersección rigurosa entre la filosofía, los sistemas complejos, las matemáticas y las ciencias de la computación, ofreciendo una herramienta de análisis sistémico para comprender el flujo del aquí y el ahora.
+Sin superstición, sin misticismos y con privacidad absoluta.
 
-Pero también manteniendo los pies sobre la tierra: si esto no sirve para hacer tu vida un poco mejor o para ayudarte a concientizar las dinamicas subyacentes de tu realidad, no sirve para nada.
+{{< youtube-short "IsICgqv4BFs" "¿Para qué sirve el I Ching?" >}}
 
-{{< youtube-short "STGCMii1iuk" "Presentación del sitio" >}}
+{{< contador-ia >}}
 
-{{< popup-ia >}}
+[ Realizar consulta oracular gratis ](/consulta-oraculo/)
+
+---
+
+### Respuestas profundas, no predicciones genéricas
+
+> La mayoría de las herramientas en red entregan interpretaciones por IA de un párrafo y poco adaptadas a tu pregunta. Nuestro motor genera un informe en PDF analítico estructurado de varias páginas que hace un diagnóstico de tu situación actual, cómo se generó, puntos especiales donde debes prestar atención (las líneas móviles) y su posible evolución.
+
+* **[ 📄 Descargar Dossier de Muestra en PDF ](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.es.pdf)** *(Muestra real de un análisis de situación)*

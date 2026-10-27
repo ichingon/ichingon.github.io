@@ -780,13 +780,12 @@
   </p>
   
   <section class="prose dark:prose-invert w-full mt-6">
-    <p>Este espacio nace con el propósito de analizar el I Ching como el primer protocolo de información descentralizado de la historia.</p>
-<p>Aquí exploramos el Libro de los Cambios no desde el misticismo difuso o las falacias de la &ldquo;nueva era&rdquo;, sino como una intersección rigurosa entre la filosofía, los sistemas complejos, las matemáticas y las ciencias de la computación, ofreciendo una herramienta de análisis sistémico para comprender el flujo del aquí y el ahora.</p>
-<p>Pero también manteniendo los pies sobre la tierra: si esto no sirve para hacer tu vida un poco mejor o para ayudarte a concientizar las dinamicas subyacentes de tu realidad, no sirve para nada.</p>
+    <p>El I Ching es el primer <strong>protocolo de información descentralizado</strong> de la historia. Un motor analítico en la intersección entre la <strong>filosofía, los sistemas complejos, las matemáticas y las ciencias de la computación</strong> para comprender el flujo del presente y tomar mejores decisiones.</p>
+<p>Sin superstición, sin misticismos y con privacidad absoluta.</p>
 <div class="custom-short-wrapper">
   <iframe 
-    src="https://www.youtube.com/embed/STGCMii1iuk" 
-    title="Presentación del sitio"
+    src="https://www.youtube.com/embed/IsICgqv4BFs" 
+    title="¿Para qué sirve el I Ching?"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
   </iframe>
@@ -813,79 +812,60 @@
   }
 </style>
 
-<div id="promoIaPopup" style="display: none; position: fixed; bottom: 20px; right: 20px; background: rgba(20, 20, 20, 0.98); border: 1px solid #eab308; border-radius: 6px; padding: 16px; z-index: 99999; box-shadow: 0 8px 24px rgba(0,0,0,0.6); width: calc(100% - 40px); max-width: 320px; font-family: system-ui, -apple-system, sans-serif; color: #eee; flex-direction: column; gap: 12px; opacity: 0; transform: translateY(20px); transition: opacity 0.4s ease, transform 0.4s ease; box-sizing: border-box;">
+<div style="background: rgba(255, 255, 255, 0.03); border-left: 3px solid #eab308; padding: 12px 16px; margin: 16px 0; border-radius: 4px; font-size: 0.95rem;">
+  <strong>
+    Disponibilidad diaria:
+  </strong> 
   
+    Quedan <span id="promo-contador" style="color: #eab308; font-weight: bold;">10</span> consultas gratuitas disponibles hoy.
   
-  <button onclick="window.cerrarPromoIa(event)" style="position: absolute; top: 6px; right: 8px; background: transparent; border: none; color: #888; font-size: 1.4rem; cursor: pointer; line-height: 1; padding: 0;">&times;</button>
-  
-  
-  <div style="display: flex; gap: 12px; align-items: center; margin-top: 4px;">
-    <img src="/video/hidden_dragon.webp" alt="I Ching IA" style="width: 75px; height: 75px; object-fit: cover; border-radius: 4px; border: 1px solid #444; flex-shrink: 0;">
-    
-    <div style="font-size: 0.85rem; line-height: 1.4;">
-      
-        ¡Quedan <strong id="promo-contador" style="color: #eab308; font-size: 1.1rem;">...</strong> consultas del I Ching con interpretación asistida por IA gratis hoy!
-      
-    </div>
-  </div>
-  
-  
-  <a href="http://localhost:1313/consulta-oraculo/" onclick="window.cerrarPromoIa(event)" style="display: block; text-align: center; background: #eab308; color: #111; font-weight: 600; padding: 8px; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: opacity 0.2s;">
-    Consultar ahora ✨
-  </a>
 </div>
+
 
 <script>
   document.addEventListener("DOMContentLoaded", async () => {
-    
-    
-    
-    const path = window.location.pathname;
-    const isHome = path === "/" || path === "/en/" || path === "/de/"; 
-    
-    if (!isHome) return;
+    const contadorEl = document.getElementById("promo-contador");
+    if (!contadorEl) return;
 
     
     const today = new Date().toISOString().slice(0, 10);
     const lastClaim = localStorage.getItem("free_claimed_date");
 
-    if (lastClaim === today) return;
+    if (lastClaim === today) {
+      contadorEl.innerText = "0";
+      return;
+    }
 
+    
     try {
       const response = await fetch("/api/daily-status");
-      const data = await response.json();
-      
-      if (data.available !== undefined && data.available > 0) {
-        const contadorEl = document.getElementById("promo-contador");
-        if (contadorEl) contadorEl.innerText = data.available;
-        
-        const popup = document.getElementById("promoIaPopup");
-        popup.style.display = "flex";
-        
-        setTimeout(() => {
-          popup.style.opacity = "1";
-          popup.style.transform = "translateY(0)";
-        }, 100);
+      if (response.ok) {
+        const data = await response.json();
+        if (data.available !== undefined) {
+          contadorEl.innerText = data.available;
+        }
       }
     } catch (e) {
-      console.warn("No se pudo cargar el estado de la promo IA.");
+      console.warn("Usando valor por defecto del contador.");
     }
   });
-
-  window.cerrarPromoIa = function(e) {
-    if (e && e.target.tagName === 'BUTTON') {
-      e.preventDefault();
-    }
-    
-    const popup = document.getElementById("promoIaPopup");
-    popup.style.opacity = "0";
-    popup.style.transform = "translateY(20px)";
-    
-    setTimeout(() => {
-      popup.style.display = "none";
-    }, 400);
-  };
 </script>
+<p><a href="/consulta-oraculo/" > Realizar consulta oracular gratis </a></p>
+<hr>
+
+<h3 class="relative group">Respuestas profundas, no predicciones genéricas
+    <div id="respuestas-profundas-no-predicciones-genéricas" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#respuestas-profundas-no-predicciones-gen%c3%a9ricas" aria-label="Ancla">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>La mayoría de las herramientas en red entregan interpretaciones por IA de un párrafo y poco adaptadas a tu pregunta. Nuestro motor genera un informe en PDF analítico estructurado de varias páginas que hace un diagnóstico de tu situación actual, cómo se generó, puntos especiales donde debes prestar atención (las líneas móviles) y su posible evolución.</p>
+</blockquote><ul>
+<li><strong><a href="/pdf/I-Ching-Report-2026-09-19-Hex25-IA.es.pdf" > 📄 Descargar Dossier de Muestra en PDF </a></strong> <em>(Muestra real de un análisis de situación)</em></li>
+</ul>
 
   </section>
 </article>

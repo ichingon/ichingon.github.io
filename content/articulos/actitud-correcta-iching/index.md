@@ -116,4 +116,4 @@ Si prefieres profundizar en estos conceptos de forma visual, te invito a ver los
 
 {{< youtube-short "S45hSl9hh7o" "El I Ching como un espejo" >}}
 
-Puedes revisar el reporte de interpretación generado por mi app de consulta de I ching [aqui](I-Ching-Report-2026-09-19-Hex25-IA.es.pdf).
+Puedes revisar el reporte de interpretación generado por mi app de consulta de I ching [aqui](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.es.pdf).

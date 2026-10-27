@@ -780,9 +780,8 @@
   </p>
   
   <section class="prose dark:prose-invert w-full mt-6">
-    <p>The purpose of this space is to analyze the I Ching as the first decentralized information protocol in history.</p>
-<p>Here, we explore the Book of Changes not from vague mysticism or &ldquo;new age&rdquo; fallacies, but as a rigorous intersection between philosophy, complex systems, mathematics, and computer science, offering a a tool for systemic analysis to understand the flow of the here and now.</p>
-<p>But we also keep our feet firmly on the ground: if this does not help make your life a little better, or help you grasp the underlying dynamics of your reality, it serves no purpose.&quot;</p>
+    <p>The I Ching is history&rsquo;s first <strong>decentralized information protocol</strong>. An analytical engine at the intersection of <strong>philosophy, complex systems, mathematics, and computer science</strong> to understand the flow of the present and make better decisions.</p>
+<p>No superstition, no mysticism, and absolute privacy.</p>
 <div class="custom-short-wrapper">
   <iframe 
     src="https://www.youtube.com/embed/3lNXdLAGa_Q" 
@@ -813,79 +812,60 @@
   }
 </style>
 
-<div id="promoIaPopup" style="display: none; position: fixed; bottom: 20px; right: 20px; background: rgba(20, 20, 20, 0.98); border: 1px solid #eab308; border-radius: 6px; padding: 16px; z-index: 99999; box-shadow: 0 8px 24px rgba(0,0,0,0.6); width: calc(100% - 40px); max-width: 320px; font-family: system-ui, -apple-system, sans-serif; color: #eee; flex-direction: column; gap: 12px; opacity: 0; transform: translateY(20px); transition: opacity 0.4s ease, transform 0.4s ease; box-sizing: border-box;">
+<div style="background: rgba(255, 255, 255, 0.03); border-left: 3px solid #eab308; padding: 12px 16px; margin: 16px 0; border-radius: 4px; font-size: 0.95rem;">
+  <strong>
+    Daily availability:
+  </strong> 
   
+    <span id="promo-contador" style="color: #eab308; font-weight: bold;">10</span> free I Ching consultations left today.
   
-  <button onclick="window.cerrarPromoIa(event)" style="position: absolute; top: 6px; right: 8px; background: transparent; border: none; color: #888; font-size: 1.4rem; cursor: pointer; line-height: 1; padding: 0;">&times;</button>
-  
-  
-  <div style="display: flex; gap: 12px; align-items: center; margin-top: 4px;">
-    <img src="/video/hidden_dragon.webp" alt="I Ching IA" style="width: 75px; height: 75px; object-fit: cover; border-radius: 4px; border: 1px solid #444; flex-shrink: 0;">
-    
-    <div style="font-size: 0.85rem; line-height: 1.4;">
-      
-        <strong id="promo-contador" style="color: #eab308; font-size: 1.1rem;">...</strong> free I Ching consultations with AI-assisted interpretation left today!
-      
-    </div>
-  </div>
-  
-  
-  <a href="http://localhost:1313/en/oracle-consultation/" onclick="window.cerrarPromoIa(event)" style="display: block; text-align: center; background: #eab308; color: #111; font-weight: 600; padding: 8px; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: opacity 0.2s;">
-    Consult now ✨
-  </a>
 </div>
+
 
 <script>
   document.addEventListener("DOMContentLoaded", async () => {
-    
-    
-    
-    const path = window.location.pathname;
-    const isHome = path === "/" || path === "/en/" || path === "/de/"; 
-    
-    if (!isHome) return;
+    const contadorEl = document.getElementById("promo-contador");
+    if (!contadorEl) return;
 
     
     const today = new Date().toISOString().slice(0, 10);
     const lastClaim = localStorage.getItem("free_claimed_date");
 
-    if (lastClaim === today) return;
+    if (lastClaim === today) {
+      contadorEl.innerText = "0";
+      return;
+    }
 
+    
     try {
       const response = await fetch("/api/daily-status");
-      const data = await response.json();
-      
-      if (data.available !== undefined && data.available > 0) {
-        const contadorEl = document.getElementById("promo-contador");
-        if (contadorEl) contadorEl.innerText = data.available;
-        
-        const popup = document.getElementById("promoIaPopup");
-        popup.style.display = "flex";
-        
-        setTimeout(() => {
-          popup.style.opacity = "1";
-          popup.style.transform = "translateY(0)";
-        }, 100);
+      if (response.ok) {
+        const data = await response.json();
+        if (data.available !== undefined) {
+          contadorEl.innerText = data.available;
+        }
       }
     } catch (e) {
-      console.warn("No se pudo cargar el estado de la promo IA.");
+      console.warn("Usando valor por defecto del contador.");
     }
   });
-
-  window.cerrarPromoIa = function(e) {
-    if (e && e.target.tagName === 'BUTTON') {
-      e.preventDefault();
-    }
-    
-    const popup = document.getElementById("promoIaPopup");
-    popup.style.opacity = "0";
-    popup.style.transform = "translateY(20px)";
-    
-    setTimeout(() => {
-      popup.style.display = "none";
-    }, 400);
-  };
 </script>
+<p><a href="/en/oracle-consultation/" > Perform a free oracle consultation </a></p>
+<hr>
+
+<h3 class="relative group">Deep answers, not generic predictions
+    <div id="deep-answers-not-generic-predictions" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#deep-answers-not-generic-predictions" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<blockquote><p>Most online tools deliver one-paragraph AI interpretations poorly adapted to your question. Our engine generates a structured, multi-page analytical PDF report that diagnoses your current situation, how it developed, key points to watch out for (moving lines), and its possible evolution.</p>
+</blockquote><ul>
+<li><strong><a href="/pdf/I-Ching-Report-2026-09-19-Hex25-IA.en.pdf" > 📄 Download Sample PDF Dossier </a></strong> <em>(Real sample of a situation analysis)</em></li>
+</ul>
 
   </section>
 </article>

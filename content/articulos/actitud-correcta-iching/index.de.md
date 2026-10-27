@@ -116,4 +116,4 @@ Wenn du diese Konzepte lieber visuell vertiefen möchtest, lade ich dich ein, di
 
 {{< youtube-short "J2EqCK8q6yI" "Das I Ging als Spiegel" >}}
 
-Den von meiner I-Ging-Konsultations-App generierten Interpretationsbericht kannst du dir [hier](I-Ching-Report-2026-09-19-Hex25-IA.de.pdf) ansehen.
+Den von meiner I-Ging-Konsultations-App generierten Interpretationsbericht kannst du dir [hier](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.de.pdf) ansehen.
