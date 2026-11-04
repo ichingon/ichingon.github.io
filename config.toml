@@ -154,9 +154,14 @@ enableRobotsTXT = true
       weight = 4
 
     [[languages.es.menu.footer]]
+      name = "Trustpilot"
+      url = "https://www.trustpilot.com/review/elichingon.com"
+      weight = 5
+
+    [[languages.es.menu.footer]]
       name = "Contacto"
       url = "mailto:contacto@elichingon.com"
-      weight = 5
+      weight = 6
 
   [languages.en]
     name = "EN"
@@ -264,9 +269,14 @@ enableRobotsTXT = true
       weight = 4
 
     [[languages.en.menu.footer]]
+      name = "Trustpilot"
+      url = "https://www.trustpilot.com/review/elichingon.com"
+      weight = 5
+
+    [[languages.en.menu.footer]]
       name = "Contact"
       url = "mailto:contact@elichingon.com"
-      weight = 5
+      weight = 6
 
   [languages.de]
     name = "DE"
@@ -374,9 +384,14 @@ enableRobotsTXT = true
       weight = 4
 
     [[languages.de.menu.footer]]
+      name = "Trustpilot"
+      url = "https://www.trustpilot.com/review/elichingon.com"
+      weight = 5
+
+    [[languages.de.menu.footer]]
       name = "Kontakt"
       url = "mailto:contact@elichingon.com"
-      weight = 5
+      weight = 6
 
 [markup]
   [markup.goldmark]

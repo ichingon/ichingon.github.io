@@ -253,3 +253,16 @@ ul.lista-articulos-chingona li {
     margin-left: 2rem !important;
   }
 }
+
+/* Busca el enlace exacto de Trustpilot en el footer y lo transforma en el logo */
+footer a[href*="trustpilot.com"] {
+    display: inline-block !important;
+    width: 90px !important; /* Aquí controlas el tamaño exacto que querías */
+    height: 23px !important;
+    background-image: url('/trustpilot.svg') !important; /* Carga el logo desde static */
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    font-size: 0 !important; /* Desaparece el texto "Trustpilot" */
+    color: transparent !important;
+}

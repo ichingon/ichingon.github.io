@@ -7,10 +7,10 @@ showAuthorBottom : true
 tags: ["Filosofía, Ciencia y Tecnología"]
 description: "Presentando la Computación Hermenéutica Estocástica Constreñida (CSHC): un protocolo descentralizado que combina entropía humana física, el I Ching y IA de Borde constreñida."
 summary: "Este libro blanco describe la Computación Hermenéutica Estocástica Constreñida (CSHC), un marco que despoja al I Ching de misticismo para desplegarlo como un motor de razonamiento de estados finitos."
-math: true
 draft: false
 ---
 
+{{< math >}}
 **Resumen.** Proponemos un marco de toma de decisiones descentralizado y no determinista — la Computación Hermenéutica Estocástica Constreñida (CSHC) — que resuelve la adulación inherente de los Grandes Modelos de Lenguaje (LLM) comerciales y las limitaciones deterministas de la generación de números pseudoaleatorios. Mediante la utilización de la Captura de Entropía Cinestésica (KEC) para aprovechar el movimiento físico humano, el sistema establece un filtro a nivel de hardware contra el sesgo cognitivo y la proyección del ego. Esta entropía cruda se procesa a través de un motor de razonamiento de estados finitos basado en el I Ching, mapeando los datos sobre un espacio vectorial semántico de 4.096 estados para computar causalidad estructural. Finalmente, un LLM estrictamente constreñido y computado en el borde actúa como un traductor hermenéutico neutral, tendiendo un puente entre la salida algorítmica y el contexto del usuario. El resultado es un protocolo matemáticamente riguroso y centrado en la privacidad que procesa el caos físico en información accionable sin extracción centralizada de datos ni adulación de la IA.
 
 ---
