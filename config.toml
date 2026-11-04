@@ -156,6 +156,7 @@ enableRobotsTXT = true
     [[languages.es.menu.footer]]
       name = "Trustpilot"
       url = "https://www.trustpilot.com/review/elichingon.com"
+      params = { target = "_blank", rel = "noopener noreferrer" }
       weight = 5
 
     [[languages.es.menu.footer]]
@@ -271,6 +272,7 @@ enableRobotsTXT = true
     [[languages.en.menu.footer]]
       name = "Trustpilot"
       url = "https://www.trustpilot.com/review/elichingon.com"
+      params = { target = "_blank", rel = "noopener noreferrer" }
       weight = 5
 
     [[languages.en.menu.footer]]
@@ -386,6 +388,7 @@ enableRobotsTXT = true
     [[languages.de.menu.footer]]
       name = "Trustpilot"
       url = "https://www.trustpilot.com/review/elichingon.com"
+      params = { target = "_blank", rel = "noopener noreferrer" }
       weight = 5
 
     [[languages.de.menu.footer]]

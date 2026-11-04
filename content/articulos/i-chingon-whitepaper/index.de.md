@@ -12,6 +12,7 @@ draft: false
 slug: "i-chingon-whitepaper"
 ---
 
+{{< math >}}
 **Zusammenfassung.** Wir schlagen ein dezentrales, nicht-deterministisches Entscheidungsfindungsrahmenwerk vor – das Constrained Stochastic Hermeneutical Computing (CSHC) –, das die inhärente Schmeichelei kommerzieller Large Language Models (LLMs) und die deterministischen Grenzen der pseudozufälligen Zahlengenerierung auflöst. Durch die Nutzung der Kinästhetischen Entropieerfassung (KEC) zur Nutzbarmachung physischer menschlicher Bewegung etabliert das System einen Filter auf Hardware-Ebene gegen kognitive Verzerrung und Ego-Projektion. Diese rohe Entropie wird durch eine endliche Zustands-Raisonniermaschine auf Basis des I Ging verarbeitet, die die Daten auf einen 4096-Zustands-semantischen Vektorraum abbildet, um strukturelle Kausalität zu berechnen. Schließlich fungiert ein am Edge berechnetes, streng eingeschränktes LLM als neutraler hermeneutischer Übersetzer, der die algorithmische Ausgabe mit dem Kontext des Nutzers verbindet. Das Ergebnis ist ein mathematisch rigoroses, datenschutzorientiertes Protokoll, das physisches Chaos in umsetzbare Erkenntnisse verwandelt – ohne zentralisierte Datenextraktion oder KI-Huldigung.
 
 ---

@@ -202,6 +202,24 @@
     border-radius: 2px;
   }
 
+  .trustpilot-prompt {
+    font-size: 0.8rem;
+    color: #aaa;
+    text-align: center;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    padding: 0 10px;
+  }
+  .trustpilot-prompt a {
+    color: var(--app-accent, #eeee55);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.2s;
+  }
+  .trustpilot-prompt a:hover {
+    color: #fff;
+  }
+
   .error-msg {
     color: #ff6b6b;
     font-size: 0.78rem;
@@ -285,7 +303,9 @@
     <div id="creditsRemainingMsg" class="credits-info"></div>
     
     <div id="aiResponseText" class="result-box"></div>
-    
+
+    <p id="lblTrustpilot" class="trustpilot-prompt"></p>
+
     <button type="button" class="btn-action" id="btnDownloadPdf" onclick="window.generarPDF()">
       📄 Descargar Reporte PDF
     </button>
@@ -333,7 +353,8 @@
       btnClaimFree: "✨ Reclamar cupo gratis",
       msgClaiming: "Reclamando...",
       msgSuccess: "¡Cupo reclamado! Procesando...",
-      msgError: "Los cupos se agotaron o hubo un error."
+      msgError: "Los cupos se agotaron o hubo un error.".
+      trustpilot: 'Si esta interpretación te ha resultado útil, por favor ayúdanos a crecer dejando una reseña en <a href="https://www.trustpilot.com/review/elichingon.com" target="_blank" rel="noopener noreferrer">Trustpilot</a>.'
     },
     en: {
       title: "AI-Assisted Interpretation",
@@ -366,7 +387,8 @@
       btnClaimFree: "✨ Claim free consultation",
       msgClaiming: "Claiming...",
       msgSuccess: "Successfully claimed! Processing...",
-      msgError: "Slots are depleted or a network error occurred."
+      msgError: "Slots are depleted or a network error occurred.",
+      trustpilot: 'If you found this interpretation valuable, please help us grow by leaving a review on <a href="https://www.trustpilot.com/review/elichingon.com" target="_blank" rel="noopener noreferrer">Trustpilot</a>.'
     },
     de: {
       title: "KI-gestützte Interpretation",
@@ -399,7 +421,8 @@
       btnClaimFree: "✨ Kostenlose Konsultation anfordern",
       msgClaiming: "Anfordern...",
       msgSuccess: "Erfolgreich angefordert! Wird verarbeitet...",
-      msgError: "Plätze sind erschöpft oder Netzwerkfehler."
+      msgError: "Plätze sind erschöpft oder Netzwerkfehler.",
+      trustpilot: 'Wenn diese Interpretation für Sie hilfreich war, unterstützen Sie unser Projekt bitte mit einer Bewertung auf <a href="https://www.trustpilot.com/review/elichingon.com" target="_blank" rel="noopener noreferrer">Trustpilot</a>.'
     }
   };
 
@@ -418,6 +441,7 @@
   document.getElementById('lblResultTitle').innerText = t.resultTitle;
   document.getElementById('btnDownloadPdf').innerText = t.btnPdf;
   document.getElementById('btnCloseModal').innerText = t.btnClose;
+  document.getElementById('lblTrustpilot').innerHTML = t.trustpilot;
 
   function cambiarVista(vistaId) {
     document.querySelectorAll('.modal-view').forEach(el => el.classList.remove('active'));
