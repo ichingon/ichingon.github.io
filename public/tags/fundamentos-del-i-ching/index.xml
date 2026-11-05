@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/fundamentos-del-i-ching/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/fundamentos-del-i-ching/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>¿Cómo consultar el I Ching sin monedas ni tallos de milenrama?</title>
+      <link>http://localhost:1313/articulos/como-consultar-con-app/</link>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/como-consultar-con-app/</guid>
+      <description>Los métodos tradicionales para trazar el I Ching requieren monedas o milenrama. Aprende cómo nuestra aplicación utiliza la Captura de Entropía Cinestésica para generar verdadera aleatoriedad a partir de tus movimientos físicos, haciendo que el antiguo oráculo sea accesible y sin fricciones.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-con-app/featured.jpg" />
+    </item>
     
     <item>
       <title>¿Qué clase de preguntas le podemos hacer al I Ching?</title>

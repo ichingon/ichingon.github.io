@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to consult the I Ching without coins or yarrow stalks?</title>
+      <link>http://localhost:1313/en/articles/consult-i-ching-with-our-app/</link>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/articles/consult-i-ching-with-our-app/</guid>
+      <description>Traditional I Ching casting methods require coins or yarrow stalks. Learn how our digital consultation app uses Kinesthetic Entropy Capture to generate true randomness directly from your physical movements, making the ancient oracle seamlessly accessible.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/como-consultar-con-app/featured.jpg" />
+    </item>
     
     <item>
       <title>Privacy according to El I Chingón - why should you care?</title>
