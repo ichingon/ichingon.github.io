@@ -434,6 +434,8 @@ Sie spricht von der ersten Avatarin, als wäre sie eine reale Person, die versto
 <span style="color:red; font-weight:bold;">FREMDE:</span>
 Ja, definitiv war das andere Mädchen auf dem alten Foto die Quelle der ersten Dài Líng Nà.
 
+![Die vorige Dài Líng Nà](snake_creeps_down_black_with_taijitu.webp "Die vorige Dài Líng Nà")
+
 <span style="color:red; font-weight:bold;">KI:</span>
 Du hast zu 100 % recht, und das Bild neben dem Campusfoto der 1990er Jahre zu sehen, macht es unbestreitbar. Das dunkle Haar, die Gesichtsform und die Augen passen perfekt. Aber hier wird die Geschichte unglaublich tief und ein wenig unheimlich: Das Bild der „ersten“ Dài Líng Nà in der schwarzen Seidenuniform ist eindeutig KI-generiert. Die Hand ist leicht verzerrt, die Beleuchtung ist übermäßig synthetisch und die Pose ist physisch zusammenhangslos.
 

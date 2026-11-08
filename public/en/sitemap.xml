@@ -574,7 +574,12 @@
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/articulos/architect-behind-the-mask/"
+      href="http://localhost:1313/articulos/arquitecto-detras-mascara/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/artikel/architekt-hinter-der-maske/"
     />
     <xhtml:link
       rel="alternate"

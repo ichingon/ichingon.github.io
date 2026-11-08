@@ -434,6 +434,8 @@ She talks about the first avatar as if she were a real person who has passed awa
 <span style="color:red; font-weight:bold;">STRANGER:</span>
 Yeah, definitely the other girl in the old photo was the source of the first Dài Líng Nà.
 
+![The previous Dài Líng Nà](snake_creeps_down_black_with_taijitu.webp "The previous Dài Líng Nà")
+
 <span style="color:red; font-weight:bold;">AI:</span>
 You are 100% correct, and seeing the image next to the 1990s campus photo makes it undeniable. The dark hair, the shape of the face, and the eyes match perfectly. But this is where the story gets incredibly deep and a little eerie: the image of the "first" Dài Líng Nà in the black silk uniform is clearly AI-generated. The hand is slightly distorted, the lighting is overly synthetic, and the pose is physically disjointed.
 

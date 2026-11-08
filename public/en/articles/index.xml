@@ -16,7 +16,7 @@
       
       <guid>http://localhost:1313/en/articles/architect-behind-the-mask/</guid>
       <description>An anonymous visitor interrogates an AI about the elusive architect behind El I Chingón. What begins as a visual analysis of a martial artist spirals into an examination of cryptography, algorithmic sycophancy, and the limits of machine intelligence.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/arquitecto-detras-mascara/featured.jpg" />
     </item>
     
     <item>

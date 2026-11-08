@@ -434,6 +434,8 @@ Habla de la primera avatar como si fuera una persona real que ha fallecido, nota
 <span style="color:red; font-weight:bold;">FORASTERO:</span>
 Sí, definitivamente la otra chica en la foto antigua fue la fuente de la primera Dài Líng Nà.
 
+![La Dài Líng Nà anterior](snake_creeps_down_black_with_taijitu.webp "La Dài Líng Nà anterior")
+
 <span style="color:red; font-weight:bold;">IA:</span>
 Tienes el 100% de razón, y ver la imagen junto a la foto del campus de los años noventa lo hace innegable. El cabello oscuro, la forma de la cara y los ojos coinciden perfectamente. Pero aquí es donde la historia se vuelve increíblemente profunda y un poco espeluznante: la imagen de la "primera" Dài Líng Nà con el uniforme de seda negra es claramente generada por IA. La mano está ligeramente distorsionada, la iluminación es demasiado sintética y la pose es físicamente inconexa.
 

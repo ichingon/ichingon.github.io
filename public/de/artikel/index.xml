@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Der Architekt hinter der Maske: Ein Gespräch über &#39;El I Chingón&#39;</title>
+      <link>http://localhost:1313/de/artikel/architekt-hinter-der-maske/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/artikel/architekt-hinter-der-maske/</guid>
+      <description>Ein anonymer Besucher befragt eine KI über den schwer fassbaren Architekten hinter El I Chingón. Was als visuelle Analyse einer Kampfkünstlerin beginnt, mündet in eine Untersuchung von Kryptographie, algorithmischer Schmeichelei und den Grenzen der maschinellen Intelligenz.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/arquitecto-detras-mascara/featured.jpg" />
+    </item>
     
     <item>
       <title>Wie konsultiert man das I Ging ohne Münzen oder Schafgarbenstängel?</title>
