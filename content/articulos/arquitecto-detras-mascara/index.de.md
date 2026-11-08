@@ -5,7 +5,7 @@ author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom: true
 showFooterAuthor: true
-tags: ["Das Tao des Content-Erstellers"]
+tags: ["Das Tao des Content-Creators"]
 description: "Eine technologische Detektivgeschichte, die über die Identität des schwer fassbaren Architekten hinter El I Chingón spekuliert und die Schmeichelei der KI sowie ihre Unzulänglichkeiten untersucht."
 summary: "Ein anonymer Besucher befragt eine KI über den schwer fassbaren Architekten hinter El I Chingón. Was als visuelle Analyse einer Kampfkünstlerin beginnt, mündet in eine Untersuchung von Kryptographie, algorithmischer Schmeichelei und den Grenzen der maschinellen Intelligenz."
 draft: false
