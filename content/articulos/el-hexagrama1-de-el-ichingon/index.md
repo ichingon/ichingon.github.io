@@ -80,6 +80,8 @@ Aquel programa de ELIZA fue mi iniciación en el mundo de la Inteligencia Artifi
 
 En este punto, Alice, una amiga de mi mama, quien era una señora norteamericana algo mayor que también era maestra en mi escuela, le recomendó que me comprase unos libros escritos por un autor llamado Douglas Hofstadter, un matemático que escribía sobre Inteligencia Artificial y sistemas auto-replicantes. Muchos de esos temabas estaban aún muy por encima de mi nivel infantíl pero estos libros tendrían una influencia perdurable sobre mi. 
 
+![Mamá. 1986](dailingnas_mother_1986.webp "Mamá. 1986")
+
 Alice por cierto era una viejita muy interesante, siempre curiosa, y por cierto, estudiosa del I Ching. Mi mamá decía que consultar el I Ching con Alice era toda una aventura. En ese punto, comencé a engancharme con el I Ching, porque como Leibniz, sentía fascinación sobre cómo los antiguos chinos también usaban un sistema binario, que como mencionaba aquél manual de Computer Intro, también era el único lenguaje que realmente entendían todas las computadoras.
 
 ## Un impulso vacilante sobre la profundidad
@@ -101,6 +103,8 @@ Con todo eso, los famosos sistemas expertos no eran más que árboles de decisio
 ![Parque Cachamay, Ciudad Guayana, Venezuela. 1996](dailingna24-cachamay.webp "Parque Cachamay, Ciudad Guayana, Venezuela. 1996")
 
 Y ahi seguía el antiguo I Ching, ofreciendo consejo a las personas durante siglos, ayudándolos a pensar (o a calcular) sobre cualquier problema de sus vidas en cualquier ámbito. Claramente, si el I Ching era capaz de hacer esto, era porque en el fondo es un sistema formal (como las matemáticas) que nos permitía pensar sobre nosotros mismos y sobre el universo. O por lo menos así pensaba yo, ya adentrándome en mis estudios de matemáticas. Y además, como las matemáticas, el I Ching tampoco parecía pasar de moda.
+
+![Con una amiga de la universidad. 1999](dailingna27.webp "Con una amiga de la universidad. 1999")
 
 ## Llegando a la esfera de los celestiales
 

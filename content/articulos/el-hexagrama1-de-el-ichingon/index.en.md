@@ -81,6 +81,8 @@ That ELIZA program was my initiation into the world of Artificial Intelligence, 
 
 At this point, Alice, a friend of my mother's, an older American lady who was also a teacher at my school, recommended that she buy me some books written by an author named Douglas Hofstadter, a mathematician who wrote about Artificial Intelligence and self‑replicating systems. Many of those topics were still far above my childish level, but these books would have a lasting influence on me.
 
+![Mom. 1986](dailingnas_mother_1986.webp "Mom. 1986")
+
 Alice, by the way, was a very interesting old lady, always curious, and also a student of the I Ching. My mother said that consulting the I Ching with Alice was quite an adventure. At that point, I began to get hooked on the I Ching, because like Leibniz, I felt fascination with how the ancient Chinese also used a binary system, which, as that Computer Intro manual mentioned, was also the only language that all computers truly understood.
 
 ## A Wavering Flight over the Depths
@@ -102,6 +104,8 @@ With all that, the famous expert systems were nothing more than decision trees, 
 ![Parque Cachamay, Ciudad Guayana, Venezuela. 1996](dailingna24-cachamay.webp "Parque Cachamay, Ciudad Guayana, Venezuela. 1996")
 
 And there was the ancient I Ching, still offering advice to people for centuries, helping them think (or calculate) about any problem in their lives in any domain. Clearly, if the I Ching was capable of doing that, it was because at its core it is a formal system (like mathematics) that allowed us to think about ourselves and about the universe. At least that is what I thought, already delving into my mathematics studies. And moreover, like mathematics, the I Ching did not seem to go out of fashion.
+
+![With a friend from university. 1999](dailingna27.webp "With a friend from university. 1999")
 
 ## Arriving at the Celestial Sphere
 

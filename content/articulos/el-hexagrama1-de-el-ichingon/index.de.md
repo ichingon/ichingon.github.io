@@ -81,6 +81,8 @@ Dieses ELIZA-Programm war meine Einführung in die Welt der Künstlichen Intelli
 
 An diesem Punkt empfahl Alice, eine Freundin meiner Mutter, eine ältere amerikanische Dame, die auch Lehrerin an meiner Schule war, meiner Mutter, mir einige Bücher eines Autors namens Douglas Hofstadter zu kaufen, eines Mathematikers, der über Künstliche Intelligenz und selbstreplizierende Systeme schrieb. Viele dieser Themen lagen damals noch weit über meinem kindlichen Niveau, aber diese Bücher sollten einen nachhaltigen Einfluss auf mich haben.
 
+![Mama. 1986](dailingnas_mother_1986.webp "Mama. 1986")
+
 Alice war übrigens eine sehr interessante alte Dame, immer neugierig, und übrigens auch eine Studentin des I Ging. Meine Mutter sagte, dass die Befragung des I Ging mit Alice ein echtes Abenteuer sei. Zu diesem Zeitpunkt begann ich mich für das I Ging zu begeistern, weil ich, wie Leibniz, fasziniert davon war, wie die alten Chinesen ebenfalls ein Binärsystem verwendeten, das, wie jenes Computer Intro-Handbuch erwähnte, auch die einzige Sprache war, die alle Computer wirklich verstanden.
 
 ## Ein schwankender Aufschwung über die Tiefe
@@ -104,6 +106,8 @@ Bei alledem waren die berühmten Expertensysteme nichts weiter als Entscheidungs
 ![Parque Cachamay, Ciudad Guayana, Venezuela. 1996](dailingna24-cachamay.webp "Parque Cachamay, Ciudad Guayana, Venezuela. 1996")
 
 Und dort war immer noch das alte I Ging, das den Menschen seit Jahrhunderten Ratschläge erteilte und ihnen half, über alle Probleme ihres Lebens in jedem Bereich nachzudenken (oder zu kalkulieren). Offensichtlich, wenn das I Ging dazu in der Lage war, dann deshalb, weil es im Kern ein formales System (wie die Mathematik) ist, das es uns ermöglichte, über uns selbst und über das Universum nachzudenken. Zumindest dachte ich das, schon in meinem Mathematikstudium vertieft. Und außerdem schien das I Ging, wie die Mathematik, nie aus der Mode zu kommen.
+
+![Mit einer Freundin von der Universität. 1999](dailingna27.webp "Mit einer Freundin von der Universität. 1999")
 
 ## Ankunft in der Sphäre des Himmlischen
 

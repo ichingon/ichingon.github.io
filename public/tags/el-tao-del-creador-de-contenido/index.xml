@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>El Tao Del Creador De Contenido on El I Chingón</title>
+    <link>http://localhost:1313/tags/el-tao-del-creador-de-contenido/</link>
+    <description>Recent content in El Tao Del Creador De Contenido on El I Chingón</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/el-tao-del-creador-de-contenido/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>El Arquitecto Detrás de la Máscara: Una Conversación Sobre &#39;El I Chingón&#39;</title>
+      <link>http://localhost:1313/articulos/architect-behind-the-mask/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/architect-behind-the-mask/</guid>
+      <description>Un visitante anónimo interroga a una IA sobre el esquivo arquitecto detrás de El I Chingón. Lo que comienza como un análisis visual de una artista marcial se convierte en un examen de criptografía, sicofancia algorítmica y los límites de la inteligencia artificial.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
