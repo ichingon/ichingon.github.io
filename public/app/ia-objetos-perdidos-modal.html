@@ -176,6 +176,24 @@
     border-radius: 2px;
   }
 
+  .trustpilot-prompt {
+    font-size: 0.8rem;
+    color: #aaa;
+    text-align: center;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    padding: 0 10px;
+  }
+  .trustpilot-prompt a {
+    color: var(--app-accent, #f59e0b);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.2s;
+  }
+  .trustpilot-prompt a:hover {
+    color: #fff;
+  }
+
   .error-msg {
     color: #ff6b6b;
     font-size: 0.78rem;
@@ -273,6 +291,9 @@
     </div>
     <div id="creditsRemainingMsg" class="credits-info"></div>
     <div id="aiResponseText" class="result-box"></div>
+    
+    <p id="lblTrustpilot" class="trustpilot-prompt"></p>
+    
     <button type="button" class="btn-action" id="btnDownloadPdfIA" onclick="window.descargarPdfIA()">
       📄 Descargar informe PDF con IA
     </button>
@@ -310,7 +331,8 @@
       msgClaiming: "Reclamando...",
       msgSuccess: "¡Cupo reclamado! Procesando...",
       msgError: "Los cupos se agotaron o hubo un error.",
-      errNoData: "No se encontró una consulta activa. Por favor realiza el ritual primero."
+      errNoData: "No se encontró una consulta activa. Por favor realiza el ritual primero.",
+      trustpilot: 'Si esta interpretación te ha resultado útil, por favor ayúdanos a crecer dejando una reseña en <a href="https://www.trustpilot.com/review/elichingon.com" target="_blank" rel="noopener noreferrer">Trustpilot</a>.'
     },
     en: {
       title: "AI-Assisted Interpretation",
@@ -335,7 +357,8 @@
       msgClaiming: "Claiming...",
       msgSuccess: "Successfully claimed! Processing...",
       msgError: "Slots are depleted or a network error occurred.",
-      errNoData: "No active consultation found. Please perform the ritual first."
+      errNoData: "No active consultation found. Please perform the ritual first.",
+      trustpilot: 'If you found this interpretation valuable, please help us grow by leaving a review on <a href="https://www.trustpilot.com/review/elichingon.com" target="_blank" rel="noopener noreferrer">Trustpilot</a>.'
     },
     de: {
       title: "KI-gestützte Interpretation",
@@ -360,7 +383,8 @@
       msgClaiming: "Anfordern...",
       msgSuccess: "Erfolgreich angefordert! Wird verarbeitet...",
       msgError: "Plätze sind erschöpft oder Netzwerkfehler.",
-      errNoData: "Keine aktive Konsultation gefunden. Bitte führe zuerst das Ritual durch."
+      errNoData: "Keine aktive Konsultation gefunden. Bitte führe zuerst das Ritual durch.",
+      trustpilot: 'Wenn diese Interpretation für Sie hilfreich war, unterstützen Sie unser Projekt bitte mit einer Bewertung auf <a href="https://www.trustpilot.com/review/elichingon.com" target="_blank" rel="noopener noreferrer">Trustpilot</a>.'
     }
   };
 
@@ -376,6 +400,9 @@
   document.getElementById('lblResultTitle').innerText = t.resultTitle;
   document.getElementById('btnDownloadPdfIA').innerText = t.btnPdf;
   document.getElementById('claim-free-btn').innerText = t.btnClaimFree;
+  
+  const lblTrustpilot = document.getElementById('lblTrustpilot');
+  if (lblTrustpilot) lblTrustpilot.innerHTML = t.trustpilot;
 
   function cambiarVista(vistaId) {
     document.querySelectorAll('.modal-view').forEach(el => el.classList.remove('active'));

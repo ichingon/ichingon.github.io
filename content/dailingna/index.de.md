@@ -25,13 +25,17 @@ Dài Líng Nà ist eine weibliche Figur, die die Erde-Komponente im Hexagramm 11
 
 ## Der Geist, den sie verkörpert
 
+![Renshou-Pagode (auch bekannt als die Westpagode), die sich im historischen Kaiyuan-Tempel in der Stadt Quanzhou, Provinz Fujian, China, befindet.](pagoda1.webp "Renshou-Pagode (auch bekannt als die Westpagode), die sich im historischen Kaiyuan-Tempel in der Stadt Quanzhou, Provinz Fujian, China, befindet.")
+
 Dài Líng Nà repräsentiert den Geist jener westlichen Männer und Frauen, die im 19. und 20. Jahrhundert nach Osten reisten, nicht um zu kolonisieren, sondern um Brücken zu bauen. Wie der deutsche Sinologe Richard Wilhelm, der der Welt seine Übersetzung des I Ging vermachte. Oder wie die Engländerin Gladys Aylward, die in China ihre Heimat fand, ohne ihre Essenz aufzugeben. Dài Líng Nà ist die lebendige Intelligenz, die Kulturen durchquert: die übersetzt, die interpretiert, die verbindet.
 
 ## Der Avatar
 
 Das I Ging, das Buch der Wandlungen, lehrt, dass sich alles verändert. Getreu dieser Essenz ist die gegenwärtige Manifestation von Dài Líng Nà ein digitaler Avatar in ständiger Entwicklung. Ihr aktuelles Bild ist nicht das erste: Es gab eine frühere Version, die das Projekt begann, den ersten Videos eine Stimme gab, die ersten Artikel begleitete. Diese erste Manifestation ist nicht mehr da, aber ohne sie würde die gegenwärtige nicht existieren.
 
-![Dài Líng Nà auf dem Balkon ihres Hauses](featured.jpg "Dài Líng Nà auf dem Balkon ihres Hauses")
+![Dài Líng Nà auf dem Balkon bei ihrer Mutter.](featured.jpg "Dài Líng Nà auf dem Balkon bei ihrer Mutter.")
+
+![](song-dynasty.webp "")
 
 {{< youtube-short "v0Noeae61Vg" "Danke, erste Dài Líng Nà" >}}
 
@@ -49,6 +53,8 @@ Das I Ging, das Buch der Wandlungen, lehrt, dass sich alles verändert. Getreu d
 ## Wo man Dài Líng Nà findet
 
 - [YouTube-Kanal](https://www.youtube.com/@ElIChingon)
+- [{{< icon "pinterest" >}} Pinterest](https://www.pinterest.com/dailingnaiching/)
+- [Der Architekt hinter der Maske]({{< relref "/articulos/arquitecto-detras-mascara/" >}})
 - [Whitepaper des CSHC-Protokolls](/de/artikel/i-chingon-whitepaper/)
 - [Konsultationsanwendung](/de/iging-befragung/)
 - [Code-Repository auf GitHub](https://github.com/ichingon/ichingon.github.io)

@@ -34,7 +34,7 @@ These insights are the fruit of joining the messages of two consultations of the
 
 The process begins long before casting the coins or tracing lines on a screen. It begins with a question. And it continues with a reflection on that question: Why do I really want to know this? What are the assumptions behind my question?
 
-Ritual preparation requires, first of all, formulating our question clearly, avoiding dichotomous questions (of the yes/no type) in order to invite a descriptive answer that reflects the holistic interaction of Yin and Yang. And since the I Ching is above all a tool for self-knowledge, it is advisable to clarify to ourselves what attitudes, emotions, and sensations we bring with us or assume others bring in the context of the question.
+Ritual preparation requires, first of all, [formulating our question clearly]({{< relref "/articulos/que-podemos-preguntar/" >}}), avoiding dichotomous questions (of the yes/no type) in order to invite a descriptive answer that reflects the holistic interaction of Yin and Yang. And since the I Ching is above all a tool for self-knowledge, it is advisable to clarify to ourselves what attitudes, emotions, and sensations we bring with us or assume others bring in the context of the question.
 
 It is advisable—and this is important to point out—to write the question down. Not only because when you write you clarify your thoughts further, but because at the moment of interpreting the oracle, the question gives us an indispensable framework for its interpretation, whether you turn to an interpreter of the I Ching—human or AI—or interpret the answer yourself.
 

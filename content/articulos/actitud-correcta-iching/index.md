@@ -33,7 +33,7 @@ Esta reflexión es el fruto de unir los mensajes de dos consultas realizadas al 
 
 El proceso comienza mucho antes de lanzar las monedas o trazar sobre una pantalla. Comienza con una pregunta. Y continúa con una reflexión sobre esa pregunta: ¿para qué quiero saber esto realmente? ¿cuáles son los supuestos detrás de mi pregunta?
 
-La preparación ritual requiere, en primer lugar, formular nuestra pregunta de forma clara, evitando cuestionamientos dicotómicos (de tipo sí/no) para invitar a una respuesta descriptiva que refleje la interacción holística del Yin y el Yang. Y como el I Ching es más que todo una herramienta de auto-conocimiento, conviene aclararnos a nosotros mismos cuáles son las actitudes, emociones y sensaciones que traemos con nosotros o que suponemos llevan los demás en el contexto de la pregunta.
+La preparación ritual requiere, en primer lugar, [formular nuestra pregunta de forma clara]({{< relref "/articulos/que-podemos-preguntar/" >}}), evitando cuestionamientos dicotómicos (de tipo sí/no) para invitar a una respuesta descriptiva que refleje la interacción holística del Yin y el Yang. Y como el I Ching es más que todo una herramienta de auto-conocimiento, conviene aclararnos a nosotros mismos cuáles son las actitudes, emociones y sensaciones que traemos con nosotros o que suponemos llevan los demás en el contexto de la pregunta.
 
 Conviene, y esto es importante señalar, escribir la pregunta. No solo porque cuando escribes aclaras más tus pensamientos, sino porque al momento de interpretar el oráculo, la pregunta nos da un marco imprescindible para su interpretación, bien sea si acudes a un intérprete del I Ching - humano o IA - o si interpretas la respuesta tú mismo. 
 

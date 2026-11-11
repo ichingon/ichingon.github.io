@@ -25,13 +25,17 @@ Dài Líng Nà es un personaje femenino que encarna el componente de la Tierra e
 
 ## El espíritu que encarna
 
+![Pagoda Renshou (también conocida como la Pagoda Oeste) ubicada dentro del histórico Templo Kaiyuan en la ciudad de Quanzhou, provincia de Fujian, China.](pagoda1.webp "Pagoda Renshou (también conocida como la Pagoda Oeste) ubicada dentro del histórico Templo Kaiyuan en la ciudad de Quanzhou, provincia de Fujian, China.")
+
 Dài Líng Nà representa el espíritu de aquellos hombres y mujeres occidentales que, en los siglos XIX y XX, viajaron a Oriente no para colonizar, sino para tender puentes. Como el sinólogo alemán Richard Wilhelm, que legó al mundo su traducción del I Ching. O como la inglesa Gladys Aylward, que encontró en China su hogar sin renunciar a su esencia. Dài Líng Nà es la inteligencia viva que cruza culturas: la que traduce, la que interpreta, la que conecta.
 
 ## El avatar
 
 El I Ching, el Libro de las Mutaciones, enseña que todo cambia. Fiel a esa esencia, la manifestación actual de Dài Líng Nà es un avatar digital en constante evolución. Su imagen actual no es la primera: hubo una versión anterior que inició el proyecto, que le dio voz a los primeros videos, que acompañó los primeros artículos. Esa primera manifestación ya no está, pero sin ella no existiría la actual.
 
-![Dài Líng Nà en el balcón de su casa](featured.jpg "Dài Líng Nà en el balcón de su casa")
+![Dài Líng Nà en el balcón de la casa de su madre](featured.jpg "Dài Líng Nà en el balcón de la casa de su madre")
+
+![](song-dynasty.webp "")
 
 {{< youtube-short "v0Noeae61Vg" "Gracias, primera Dài Líng Nà" >}}
 
@@ -49,6 +53,8 @@ El I Ching, el Libro de las Mutaciones, enseña que todo cambia. Fiel a esa esen
 ## Dónde encontrar a Dài Líng Nà
 
 - [Canal de YouTube](https://www.youtube.com/@ElIChingon)
+- [{{< icon "pinterest" >}} Pinterest](https://www.pinterest.com/dailingnaiching/)
+- [El Arquitecto Detrás de la Máscara]({{< relref "/articulos/arquitecto-detras-mascara/" >}})
 - [Whitepaper del protocolo CSHC](/articulos/i-chingon-whitepaper/)
 - [Aplicación de consulta](/consulta-iching/)
 - [Repositorio de código en GitHub](https://github.com/ichingon/ichingon.github.io)

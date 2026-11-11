@@ -34,7 +34,7 @@ Diese Erkenntnis ergibt sich aus der Verknüpfung der Botschaften zweier Konsult
 
 Der Prozess beginnt lange bevor die Münzen geworfen oder Linien auf einen Bildschirm gezeichnet werden. Er beginnt mit einer Frage. Und er setzt sich fort mit einer Reflexion über diese Frage: Wozu will ich das wirklich wissen? Welches sind die Annahmen hinter meiner Frage?
 
-Die rituelle Vorbereitung erfordert zunächst, dass wir unsere Frage klar formulieren und dichotome Fragestellungen (vom Typ Ja/Nein) vermeiden, um eine beschreibende Antwort einzuladen, die die ganzheitliche Wechselwirkung von Yin und Yang widerspiegelt. Und da das I Ging vor allem ein Werkzeug der Selbsterkenntnis ist, ist es ratsam, sich selbst klarzumachen, welche Haltungen, Emotionen und Empfindungen wir mitbringen oder von den anderen im Kontext der Frage annehmen.
+Die rituelle Vorbereitung erfordert zunächst, dass wir [unsere Frage klar formulieren]({{< relref "/articulos/que-podemos-preguntar/" >}}) und dichotome Fragestellungen (vom Typ Ja/Nein) vermeiden, um eine beschreibende Antwort einzuladen, die die ganzheitliche Wechselwirkung von Yin und Yang widerspiegelt. Und da das I Ging vor allem ein Werkzeug der Selbsterkenntnis ist, ist es ratsam, sich selbst klarzumachen, welche Haltungen, Emotionen und Empfindungen wir mitbringen oder von den anderen im Kontext der Frage annehmen.
 
 Es ist ratsam – und dies ist wichtig zu betonen –, die Frage aufzuschreiben. Nicht nur, weil man beim Schreiben seine Gedanken klarer fasst, sondern weil die Frage uns beim Interpretieren des Orakels einen unverzichtbaren Rahmen für seine Deutung liefert, sei es, dass man einen Interpreten des I Ging – menschlich oder KI – hinzuzieht, oder dass man die Antwort selbst deutet.
 

@@ -25,13 +25,17 @@ Dài Líng Nà is a feminine character who embodies the Earth component in Hexag
 
 ## The spirit she embodies
 
+![Renshou Pagoda (also known as the West Pagoda) located inside the historic Kaiyuan Temple in Quanzhou, Fujian province, China.](pagoda1.webp "Renshou Pagoda (also known as the West Pagoda) located inside the historic Kaiyuan Temple in Quanzhou, Fujian province, China.")
+
 Dài Líng Nà represents the spirit of those Western men and women who, in the 19th and 20th centuries, traveled to the East not to colonize, but to build bridges. Like the German sinologist Richard Wilhelm, who bequeathed to the world his translation of the I Ching. Or like the Englishwoman Gladys Aylward, who found her home in China without renouncing her essence. Dài Líng Nà is the living intelligence that crosses cultures: the one who translates, the one who interprets, the one who connects.
 
 ## The avatar
 
 The I Ching, the Book of Changes, teaches that everything changes. True to that essence, the current manifestation of Dài Líng Nà is a digital avatar in constant evolution. Her current image is not the first: there was a previous version that started the project, that gave voice to the first videos, that accompanied the first articles. That first manifestation is no longer here, but without it the current one would not exist.
 
-![Dài Líng Nà on the balcony of her house](featured.jpg "Dài Líng Nà on the balcony of her house")
+![Dài Líng Nà on the balcony of her mother's house](featured.jpg "Dài Líng Nà on the balcony of her mother's house")
+
+![](song-dynasty.webp "")
 
 {{< youtube-short "v0Noeae61Vg" "Thank you, first Dài Líng Nà" >}}
 
@@ -49,6 +53,8 @@ The I Ching, the Book of Changes, teaches that everything changes. True to that 
 ## Where to find Dài Líng Nà
 
 - [YouTube Channel](https://www.youtube.com/@ElIChingon)
+- [{{< icon "pinterest" >}} Pinterest](https://www.pinterest.com/dailingnaiching/)
+- [The Architect Behind the Mask]({{< relref "/articulos/arquitecto-detras-mascara/" >}})
 - [Whitepaper of the CSHC protocol](/en/articles/i-chingon-whitepaper/)
 - [Consultation application](/en/iching-consultation/)
 - [Code repository on GitHub](https://github.com/ichingon/ichingon.github.io)
