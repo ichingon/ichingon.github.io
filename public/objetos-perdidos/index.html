@@ -876,7 +876,7 @@
                 Fecha de la consulta (AAAA-MM-DD)
               </label>
               <input type="text" id="consultationDate" class="form-input" maxlength="10"
-                value="2026-11-12" readonly
+                value="2026-11-13" readonly
                 style="background:#1a1a1a;cursor:not-allowed;">
             </div>
 
@@ -1598,7 +1598,7 @@
       iaContexto: 'Contexto:',
       epilogueTitle: 'Epílogo',
       epilogueText: 'Gracias por confiar en 黛灵娜. Este informe es un registro vivo de tu consulta. Guárdalo, déjalo reposar y vuelve a él cuando los acontecimientos maduren.\n\nLa sabiduría no se consume de prisa; se digiere con paciencia y silencio.',
-      trustpilotCta: 'Si esta lectura te brindó claridad, apoya este santuario de privacidad compartiendo tu experiencia honesta en Trustpilot. No recopilamos correos electrónicos ni rastreamos usuarios; tu reseña es la única forma en que podemos dar a conocer este oráculo independiente y mantenerlo libre de IA aduladora.',
+      trustpilotCta: 'Si esta lectura te brindó claridad, apoya este santuario de privacidad compartiendo tu experiencia honesta en Trustpilot. No recopilamos correos electrónicos ni rastreamos usuarios; tu reseña es la única forma en que podemos dar a conocer este oráculo independiente a otros que puedan necesitar la sabiduría del I Ching.',
       signatureName: '黛灵娜', signatureSite: 'elichingon.com'
     },
     en: {
@@ -1625,7 +1625,7 @@
       iaContexto: 'Context:',
       epilogueTitle: 'Epilogue',
       epilogueText: 'Thank you for trusting 黛灵娜. This report is a living record of your consultation. Keep it, let it rest, and return to it as events mature.\n\nWisdom is not consumed in haste; it is digested with patience and silence.',
-      trustpilotCta: 'If this reading brought you clarity, support this privacy-first sanctuary by sharing your honest experience on Trustpilot. We do not collect emails or track users; your review is the only way we can make this independent oracle known and keep it free from sycophantic AI.',
+      trustpilotCta: 'If this reading brought you clarity, support this privacy-first sanctuary by sharing your honest experience on Trustpilot. We do not collect emails or track users; your review is the only way we can make this independent oracle known to others who might need the I Ching\'s wisdom.',
       signatureName: '黛灵娜', signatureSite: 'elichingon.com'
     },
     de: {
@@ -1652,7 +1652,7 @@
       iaContexto: 'Kontext:',
       epilogueTitle: 'Epilog',
       epilogueText: 'Vielen Dank für dein Vertrauen in 黛灵娜. Dieser Bericht ist ein lebendiges Protokoll deiner Konsultation. Bewahre ihn auf, lass ihn ruhen und kehre zu ihm zurück, wenn die Ereignisse reifen.\n\nWeisheit wird nicht in Eile konsumiert; sie wird mit Geduld und Stille verdaut.',
-      trustpilotCta: 'Wenn diese Lesung dir Klarheit gebracht hat, unterstütze diesen Zufluchtsort der Privatsphäre, indem du deine ehrliche Erfahrung auf Trustpilot teilst. Wir sammeln keine E-Mails und tracken keine Nutzer; deine Bewertung ist der einzige Weg, wie wir dieses unabhängige Orakel bekannt machen und es frei von schmeichelhafter KI halten können.',
+      trustpilotCta: 'Wenn diese Lesung dir Klarheit gebracht hat, unterstütze diesen Zufluchtsort der Privatsphäre, indem du deine ehrliche Erfahrung auf Trustpilot teilst. Wir sammeln keine E-Mails und tracken keine Nutzer; deine Bewertung ist der einzige Weg, wie wir dieses unabhängige Orakel anderen bekannt machen können, die die Weisheit des I Ging vielleicht brauchen.',
       signatureName: '黛灵娜', signatureSite: 'elichingon.com'
     }
   };
@@ -1842,6 +1842,10 @@
         docContent.push({ stack: iaStack, pageBreak: 'after' });
       }
 
+      var partesCta = t.trustpilotCta.split('Trustpilot');
+      var textoAntes = partesCta[0] || '';
+      var textoDespues = partesCta[1] || '';
+
       var epilogueStack = [
         { text: t.epilogueTitle, fontSize: 15, margin: [0,0,0,10] },
         { canvas: [{ type:'line', x1:0, y1:0, x2:515, y2:0, lineWidth:1, lineColor:'#000' }], margin: [0,0,0,15] },
@@ -1850,13 +1854,14 @@
         
         { 
           text: [
-            t.trustpilotCta,
+            textoAntes,
             { 
-              text: " Trustpilot", 
+              text: "Trustpilot", 
               link: "https://www.trustpilot.com/review/elichingon.com", 
               color: '#0055aa', 
               decoration: 'underline' 
-            }
+            },
+            textoDespues
           ], 
           fontSize: 10, 
           margin: [0, 0, 0, 20], 
