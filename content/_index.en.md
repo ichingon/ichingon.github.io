@@ -1,16 +1,16 @@
 ---
-title: "El I Chingón"
-description: "The I Ching as history's first information protocol. Tools, hexagrams, tutorials, articles, and modern decision-making stripped of mysticism."
+title: "El I Chingón: Augmented Intelligence without hallucinations"
+description: "Explore your present with the wisdom of the I Ching brought into the 21st century. A tool to enhance your thinking and make clear decisions, without mysticism and with absolute privacy."
 layout: "main"
 translationKey: "homepage"
 showAuthor: false
 ---
 
-The I Ching is history's first **decentralized information protocol**. An analytical engine at the intersection of **philosophy, complex systems, mathematics, and computer science** to understand the flow of the present and make better decisions.
+The I Ching is the first **decentralized information protocol** in history. An analytical engine at the intersection of **philosophy, complex systems, mathematics, and computer science** to understand the flow of the present and make better decisions.
 
-No superstition, no mysticism, and absolute privacy.
+Without superstition, without mysticism, and with absolute privacy.
 
-{{< youtube-short "3lNXdLAGa_Q" "Website presentation" >}}
+{{< youtube-short "ENGLISH_VIDEO_ID" "What is the I Ching for?" >}}
 
 {{< contador-ia >}}
 
@@ -20,6 +20,6 @@ No superstition, no mysticism, and absolute privacy.
 
 ### Deep answers, not generic predictions
 
-> Most online tools deliver one-paragraph AI interpretations poorly adapted to your question. Our engine generates a structured, multi-page analytical PDF report that diagnoses your current situation, how it developed, key points to watch out for (moving lines), and its possible evolution.
+> Most online tools deliver one-paragraph AI interpretations that barely adapt to your question. Our engine generates a structured, multi-page analytical PDF report that diagnoses your current situation, how it was generated, special points where you should pay attention (the moving lines), and its possible evolution.
 
-* **[ 📄 Download Sample PDF Dossier ](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.en.pdf)** *(Real sample of a situation analysis)*
+* **[ 📄 Download Sample Dossier in PDF ](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.en.pdf)** *(Real sample of a situation analysis)*

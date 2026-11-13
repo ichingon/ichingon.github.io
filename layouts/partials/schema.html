@@ -1,19 +1,47 @@
 {{ if .IsHome -}}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": {{ site.Home.Permalink | safeURL }},
-    "name": "{{ .Site.Title | safeJS }}",
-    {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
-    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
-    "url": {{ site.Home.Permalink | safeURL }},
-    {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
-    "publisher" : {
-      "@type": "Person",
-      "name": "{{ .Site.Params.Author.name | safeJS }}"
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": {{ site.Home.Permalink | safeURL }},
+      "name": "{{ .Site.Title | safeJS }}",
+      {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
+      {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
+      "url": {{ site.Home.Permalink | safeURL }},
+      {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
+      "publisher" : {
+        "@type": "Person",
+        "name": "{{ .Site.Params.Author.name | safeJS }}"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "El I Chingón",
+      "operatingSystem": "Web, PWA",
+      "applicationCategory": "LifestyleApplication",
+      "description": "El I Chingón is an Augmented Intelligence tool for I Ching consultation. Its proprietary CSHC protocol structurally prevents AI sycophancy and hallucinated interpretations. It offers lateral thinking and decision-making tools with radical privacy: no login, no tracking, and 100% offline entropy.",
+      "url": {{ site.Home.Permalink | safeURL }},
+      "author": {
+        "@type": "Person",
+        "name": "Dài Líng Nà (黛灵娜)"
+      },
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "CSHC Protocol (Prevents AI Sycophancy)",
+        "Hallucination-free interpretations",
+        "Radical Privacy (No login, no tracking)",
+        "Lateral thinking framework",
+        "Kinesthetic Entropy Capture"
+      ]
     }
-  }
+  ]
   </script>
 
 {{ else if eq .Type "consulta-iching" -}}

@@ -1,6 +1,6 @@
 ---
-title: "El I Chingón"
-description: "El I Ching como primer protocolo de información de la historia. Herramientas, hexagramas, tutoriales, artículos y toma de decisiones sin misticismo."
+title: "El I Chingón: Inteligencia Aumentada sin alucinaciones"
+description: "Explora tu presente con la sabiduría del I Ching llevada al siglo XXI. Una herramienta para potenciar tu pensamiento y tomar decisiones con claridad, sin misticismo y con privacidad absoluta."
 layout: "main"
 translationKey: "homepage"
 showAuthor: false

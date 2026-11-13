@@ -800,7 +800,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
 
-<div class="consulta-iching-page" id="ichingAppRoot" data-lang="en" data-default-date="2026-11-11">
+<div class="consulta-iching-page" id="ichingAppRoot" data-lang="en" data-default-date="2026-11-12">
   <div class="iching-consultation-container">
 
     
@@ -982,7 +982,6 @@
       <button type="button" class="btn-action" style="border-color:#555; color:#888; background:transparent; margin-top:10px;" id="btnRestart" onclick="window.reiniciarConsulta()">
         🔄 New Query
       </button>
-    </div>
 
     
     <div id="ritualWarningModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; padding: 16px; box-sizing: border-box;">
@@ -1206,6 +1205,7 @@
       aiContextLabel: "Pregunta / Contexto:",
       epilogueTitle: "Epílogo y Reflexión Final",
       aiThanksText: "Gracias por confiar en 黛灵娜 para iluminar tu consulta. Este informe no es un veredicto estático, sino un registro vivo de tu proceso interior. Guárdalo, déjalo reposar y consúltalo con el tiempo, pues las respuestas verdaderas del oráculo maduran junto con los acontecimientos de tu vida.\n\nRecuerda que la sabiduría no se consume de prisa; se digiere con paciencia y silencio. Que el cambio te sea propicio y la claridad guíe tus pasos.",
+      trustpilotCta: "Si esta lectura te brindó claridad, apoya este santuario de privacidad compartiendo tu experiencia honesta en Trustpilot. No recopilamos correos electrónicos ni rastreamos usuarios; tu reseña es la única forma en que podemos dar a conocer este oráculo independiente y mantenerlo libre de IA aduladora.",
       p5SignatureName: "黛灵娜",
       p5SignatureNameLink: "https://elichingon.com/dailingna/",
       p5SignatureSite: "https://elichingon.com",
@@ -1269,6 +1269,7 @@
       aiContextLabel: "Question / Context:",
       epilogueTitle: "Epilogue and Final Reflection",
       aiThanksText: "Thank you for trusting 黛灵娜 with your consultation. This report is not a static verdict, but a living record of your inner process. Keep it, let it rest, and review it over time, as the true answers of the oracle mature alongside the events of your life.\n\nRemember that wisdom is not consumed in a hurry; it is digested with patience and silence. May change favor you and clarity guide your steps.",
+      trustpilotCta: "If this reading brought you clarity, support this privacy-first sanctuary by sharing your honest experience on Trustpilot. We do not collect emails or track users; your review is the only way we can make this independent oracle known and keep it free from sycophantic AI.",
       p5SignatureName: "黛灵娜",
       p5SignatureNameLink: "https://elichingon.com/en/dailingna/",
       p5SignatureSite: "https://elichingon.com/en/",
@@ -1324,6 +1325,7 @@
       aiContextLabel: "Frage / Kontext:",
       epilogueTitle: "Epilog und Schlussbetrachtung",
       aiThanksText: "Vielen Dank für dein Vertrauen in 黛灵娜. Dieser Bericht ist kein statisches Urteil, sondern ein lebendiges Protokoll deines inneren Prozesses. Bewahre ihn auf, lass ihn ruhen und betrachte ihn im Laufe der Zeit, denn die wahren Antworten des Orakels reifen gemeinsam mit den Ereignissen deines Lebens.\n\nDenke daran, dass Weisheit nicht hastig konsumiert wird; sie wird mit Geduld und Stille verdaut. Möge der Wandel dir gewogen sein und Klarheit deine Schritte leiten.",
+      trustpilotCta: "Wenn diese Lesung dir Klarheit gebracht hat, unterstütze diesen Zufluchtsort der Privatsphäre, indem du deine ehrliche Erfahrung auf Trustpilot teilst. Wir sammeln keine E-Mails und tracken keine Nutzer; deine Bewertung ist der einzige Weg, wie wir dieses unabhängige Orakel bekannt machen und es frei von schmeichelhafter KI halten können.",
       p5SignatureName: "黛灵娜",
       p5SignatureNameLink: "https://elichingon.com/de/dailingna/",
       p5SignatureSite: "https://elichingon.com/de/",
@@ -1845,7 +1847,25 @@
       var epilogueStack = [
         { text: epilogueTitleStr, fontSize: 15, margin: [0, 0, 0, 10] },
         { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 515, y2: 0, lineWidth: 1, lineColor: '#000000' }], margin: [0, 0, 0, 15] },
-        { text: i18n.aiThanksText, fontSize: 10, margin: [0, 0, 0, 15], lineHeight: 1.5, alignment: 'justify' }
+        { text: i18n.aiThanksText, fontSize: 10, margin: [0, 0, 0, 15], lineHeight: 1.5, alignment: 'justify' },
+        
+        
+        { 
+          text: [
+            i18n.trustpilotCta,
+            { 
+              text: " Trustpilot", 
+              link: "https://www.trustpilot.com/review/elichingon.com", 
+              color: '#0055aa', 
+              decoration: 'underline' 
+            }
+          ], 
+          fontSize: 10, 
+          margin: [0, 0, 0, 20], 
+          lineHeight: 1.5, 
+          alignment: 'justify' 
+        },
+        
       ];
 
       if (dailingnaData) {
@@ -2021,8 +2041,8 @@
             <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/en/privacy"
-                title=""
+                href="/en/articles/privacy-according-to-elichingon-why-should-you-care/"
+                title="Privacy according to El I Chingón - why should you care?"
                 
                 >
                 

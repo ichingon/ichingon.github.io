@@ -890,7 +890,7 @@
                  (AAAA-MM-DD)
               </label>
               <input type="text" id="consultationDate" class="form-input" maxlength="10"
-                value="2026-11-11" readonly
+                value="2026-11-12" readonly
                 style="background:#1a1a1a;cursor:not-allowed;">
             </div>
 
@@ -1632,6 +1632,7 @@
       iaContexto: 'Contexto:',
       epilogueTitle: 'Epílogo',
       epilogueText: 'Gracias por confiar en 黛灵娜. Este informe es un registro vivo de tu consulta. Guárdalo, déjalo reposar y vuelve a él cuando los acontecimientos maduren.\n\nLa sabiduría no se consume de prisa; se digiere con paciencia y silencio.',
+      trustpilotCta: 'Si esta lectura te brindó claridad, apoya este santuario de privacidad compartiendo tu experiencia honesta en Trustpilot. No recopilamos correos electrónicos ni rastreamos usuarios; tu reseña es la única forma en que podemos dar a conocer este oráculo independiente y mantenerlo libre de IA aduladora.',
       signatureName: '黛灵娜', signatureSite: 'elichingon.com'
     },
     en: {
@@ -1658,6 +1659,7 @@
       iaContexto: 'Context:',
       epilogueTitle: 'Epilogue',
       epilogueText: 'Thank you for trusting 黛灵娜. This report is a living record of your consultation. Keep it, let it rest, and return to it as events mature.\n\nWisdom is not consumed in haste; it is digested with patience and silence.',
+      trustpilotCta: 'If this reading brought you clarity, support this privacy-first sanctuary by sharing your honest experience on Trustpilot. We do not collect emails or track users; your review is the only way we can make this independent oracle known and keep it free from sycophantic AI.',
       signatureName: '黛灵娜', signatureSite: 'elichingon.com'
     },
     de: {
@@ -1684,6 +1686,7 @@
       iaContexto: 'Kontext:',
       epilogueTitle: 'Epilog',
       epilogueText: 'Vielen Dank für dein Vertrauen in 黛灵娜. Dieser Bericht ist ein lebendiges Protokoll deiner Konsultation. Bewahre ihn auf, lass ihn ruhen und kehre zu ihm zurück, wenn die Ereignisse reifen.\n\nWeisheit wird nicht in Eile konsumiert; sie wird mit Geduld und Stille verdaut.',
+      trustpilotCta: 'Wenn diese Lesung dir Klarheit gebracht hat, unterstütze diesen Zufluchtsort der Privatsphäre, indem du deine ehrliche Erfahrung auf Trustpilot teilst. Wir sammeln keine E-Mails und tracken keine Nutzer; deine Bewertung ist der einzige Weg, wie wir dieses unabhängige Orakel bekannt machen und es frei von schmeichelhafter KI halten können.',
       signatureName: '黛灵娜', signatureSite: 'elichingon.com'
     }
   };
@@ -1876,8 +1879,27 @@
       var epilogueStack = [
         { text: t.epilogueTitle, fontSize: 15, margin: [0,0,0,10] },
         { canvas: [{ type:'line', x1:0, y1:0, x2:515, y2:0, lineWidth:1, lineColor:'#000' }], margin: [0,0,0,15] },
-        { text: t.epilogueText, fontSize: 10, alignment: 'justify', margin: [0,0,0,15], lineHeight: 1.5 }
+        { text: t.epilogueText, fontSize: 10, alignment: 'justify', margin: [0,0,0,15], lineHeight: 1.5 },
+        
+        
+        { 
+          text: [
+            t.trustpilotCta,
+            { 
+              text: " Trustpilot", 
+              link: "https://www.trustpilot.com/review/elichingon.com", 
+              color: '#0055aa', 
+              decoration: 'underline' 
+            }
+          ], 
+          fontSize: 10, 
+          margin: [0, 0, 0, 20], 
+          lineHeight: 1.5, 
+          alignment: 'justify' 
+        },
+        
       ];
+      
       if (dailingnaData) epilogueStack.push({ image: dailingnaData, width: 240, alignment: 'center', margin: [0,10,0,15] });
       epilogueStack.push(
         { canvas: [{ type:'line', x1:0, y1:0, x2:120, y2:0, lineWidth:0.5, lineColor:'#555' }], margin: [0,0,0,8] },
@@ -1989,8 +2011,8 @@
             <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/de/datenschutz"
-                title=""
+                href="/de/artikel/privatsphaere-laut-elichingon-warum-das-dein-problem-ist/"
+                title="Privatsphäre laut El I Chingón - warum das dein verdammtes Problem ist"
                 
                 >
                 

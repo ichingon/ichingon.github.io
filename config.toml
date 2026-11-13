@@ -266,7 +266,7 @@ enableRobotsTXT = true
 
     [[languages.en.menu.footer]]
       name = "Privacy"
-      url = "/en/privacy"
+      pageRef = "/articulos/privacidad"
       weight = 4
 
     [[languages.en.menu.footer]]
@@ -382,7 +382,7 @@ enableRobotsTXT = true
 
     [[languages.de.menu.footer]]
       name = "Datenschutz"
-      url = "/de/datenschutz"
+      pageRef = "/articulos/privacidad"
       weight = 4
 
     [[languages.de.menu.footer]]
