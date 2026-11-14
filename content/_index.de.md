@@ -10,7 +10,7 @@ Das I Ging ist das erste **dezentrale Informationsprotokoll** der Geschichte. Ei
 
 Ohne Aberglauben, ohne Mystizismus und mit absoluter Privatsphäre.
 
-{{< youtube-short "GERMAN_VIDEO_ID" "Wofür ist das I Ging gut?" >}}
+{{< youtube-short "rgToMd5pUbo" "Entdecke elichingon.com: Das I Ching des 21. Jahrhunderts 📱💻" >}}
 
 {{< contador-ia >}}
 
