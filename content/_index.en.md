@@ -10,7 +10,7 @@ The I Ching is the first **decentralized information protocol** in history. An a
 
 Without superstition, without mysticism, and with absolute privacy.
 
-{{< youtube-short "3lNXdLAGa_Q" "Discover the real I Ching - Your subconscious in binary code 📱💻" >}}
+{{< youtube-short "KWxTqn0-sQk" "What is the I Ching really for? ䷓ ䷼" >}}
 
 {{< contador-ia >}}
 
