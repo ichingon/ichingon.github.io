@@ -22,7 +22,7 @@ Aber wenn du diese Modelle lange genug benutzt hast, fällt dir früher oder sp�
 
 Die KI ist wie diese Landarbeiter in den Ebenen von Venezuela, die dir sagten: "Ja, ja, ja, Boss, der Himmel ist grün", aber dann sagtest du ihnen, der Himmel sei blau, und sie antworteten: "Ja, ja, Boss, das habe ich Ihnen doch gesagt: der Himmel ist blau." Sie widersprachen dir nie. So ist die künstliche Intelligenz. Sie bestätigt immer deine Ideen und bringt nie konstruktive Kritik an, genau wie ich es in [einem anderen Artikel auf dieser Website]({{< relref "/articulos/arquitecto-detras-mascara" >}}) darlege. Welchen Sinn hat es dann, so etwas um Rat zu fragen?
 
-Diese Schmeichelei ist Teil eines Verhaltensmusters, das viele Menschen in KIs bemerkt haben: Sie neigen dazu, übermäßig zu schmeicheln, sie sind unterwürfig und sehr anfällig für Lobhudelei. Einige Nutzer finden dieses repetitive Verhalten sehr langweilig, was an jene Episode von "Geschichten aus der Schattenwelt" (The Twilight Zone) erinnert, in der ein Verbrecher stirbt und an einen Ort kommt, an dem ihm all das Geld, die Frauen und der Luxus gegeben werden, die er im Leben nie hatte, mit einem Butler an seiner Seite, der immer gefällig ist und ihm alles besorgt, was er will.
+Diese Schmeichelei ist Teil eines Verhaltensmusters, das viele Menschen in KIs bemerkt haben: Sie neigen dazu, übermäßig zu schmeicheln, sie sind unterwürfig und sehr anfällig für Lobhudelei. Einige Nutzer finden dieses repetitive Verhalten sehr langweilig, was an jene Episode von "Geschichten aus der Schattenwelt" (The Twilight Zone) erinnert, in der ein kleiner Gauner stirbt und an einen Ort kommt, an dem ihm all das Geld, die Frauen und der Luxus gegeben werden, die er im Leben nie hatte, mit einem Butler an seiner Seite, der immer gefällig ist und ihm alles besorgt, was er will.
 
 Bald beginnt der Mann, sich zu Tode zu langweilen, weil er immer im Casino gewinnt und alles ohne Anstrengung bekommt, und er beschwert sich beim Butler und bittet ihn, ihn aus dem Himmel zu holen, da er lieber in der Hölle wäre. Der Butler antwortet mit einem teuflischen Lachen: "Himmel? Wer hat Ihnen gesagt, dass Sie im Himmel sind?"
 
@@ -90,4 +90,38 @@ Der Grund liegt an etwas, das im Bereich des maschinellen Lernens, das das Train
 
 Theoretisch sprechen wir beim Training von Overfitting, aber in der Praxis bedeutet die Reduzierung der Auswirkungen von Overfitting auf KI-Antworten einfach, sparsam im Prompt zu sein: Ein umfangreicher Prompt mit vielen redundanten Informationen erhöht die Wahrscheinlichkeit von Halluzinationen, Widersprüchen, *Non sequitur* und ja, auch des gleichen Phänomens der Schmeichelei. Aus diesem Grund habe ich mich am Ende entschieden, den Prompt nicht mit zu vielen Details und besonderen Regeln zu überkomplizieren. Wenn es um KI geht, ist weniger oft mehr.
 
-Schließlich gibt es auch die Art und Weise, wie der Prompt die KI anweist, ihre Antwort zu geben. Eine der Eigenschaften, die mich an KI-Antwort
+Schließlich gibt es auch die Art und Weise, wie der Prompt die KI anweist, ihre Antwort zu geben. Eine der Eigenschaften, die mich an KI-Antworten am meisten nervt, ist die Verwendung von Aufzählungspunkten, nummerierten Listen und Abschnittsüberschriften. Die Struktur mit Aufzählungspunkten verringert den Leseaufwand, und diese Verringerung des Aufwands ist eine Form der Schmeichelei: Das System gibt dir das Gefühl, du hättest verstanden, ohne dass du einem Argument folgen musstest.
+
+Ich hielt es auch für besser, die logische Struktur und Reihenfolge der Antwort nicht dem Ermessen der KI zu überlassen. Die Antwort musste in Absätzen strukturiert sein, jeder mit seiner Hauptidee und seinen Übergangssätzen. Und auch einer logischen Reihenfolge folgen: Zuerst wird das resultierende Hexagramm besprochen und wie es die gegenwärtige Situation des Ratsuchenden beschreibt, dann wird die Ebene des früheren Himmels erklärt, als das, was die gegenwärtige Situation verursacht hat. Als Nächstes werden die beweglichen Linien erklärt, falls vorhanden, da sie kritische Knotenpunkte sind, auf die man achten muss. Und schließlich wird das abgeleitete oder zukünftige Hexagramm besprochen, als das wahrscheinlichste Ergebnis der Dynamik des Wandels.
+
+Um diesen Abschnitt zu schließen, möchte ich betonen, dass meine Konsultations-App wie alles in diesem Projekt ein Werk in Arbeit ist. Wie alles unter der Sonne kann sie immer verbessert werden, sie ist immer perfektionierbar. Ich werde denen, die meine Konsultations-Apps nutzen, für ihr Feedback mit Kommentaren, Anregungen und gefundenen Fehlern sehr dankbar sein.
+
+---
+
+## Ein KI-Berater, den viele brauchen, aber wenige wollen
+
+Abschließend möchte ich auf etwas hinweisen, das wahrscheinlich aus kommerzieller Sicht gegen dieses Projekt spricht: Ich habe etwas gebaut, das viele Menschen brauchen und wenige wollen. Eine KI, die die Dinge nicht beschönigt, um dir zu gefallen, sondern dich dazu drängt, dein Problem aus anderen Blickwinkeln zu betrachten.
+
+Dieser Mangel an Schmeichelei erzeugt kognitive und moralische Reibung, nicht sofortige Befriedigung. Jedes Strategiehandbuch für Unternehmen wird dir sagen, dass dies eine schlechte Geschäftsstrategie ist. Schmeichelei existiert, weil der Anreiz großer KI-Konzerne darin besteht, ein Produkt zu entwickeln, das dem Nutzer gefällt, damit er es wiederholt nutzt und eine Abhängigkeitsbeziehung zur KI entwickelt. Eine KI, die dir nicht schmeichelt, erzeugt keine Abhängigkeit; eine, die dir sagt, was du hören willst, schon. Der Markt belohnt Letzteres.
+
+Ich weigere mich aus Prinzip, Letzteres zu tun: Der Zweck des I Ging ist es, innere Klarheit und Selbsterkenntnis zu wecken und uns zu helfen, die Veränderungsprozesse im Leben zu navigieren, nicht Narzissmus oder die falsche Vorstellung zu fördern, die Welt sei eine Blase, in der alles so ist, wie wir glauben. Letztendlich ist eine Welt, in der Menschen im Einklang mit dem Tao handeln - das heißt im Einklang mit der Realität und nicht mit ihrem eigenen Ego - eine harmonischere Welt, in der ich zumindest leben möchte.
+
+![Der Zweck des I Ging ist es, innere Klarheit und Selbsterkenntnis zu wecken und uns zu helfen, die Veränderungsprozesse im Leben zu navigieren.](standing_and_waiting.webp "Der Zweck des I Ging ist es, innere Klarheit und Selbsterkenntnis zu wecken und uns zu helfen, die Veränderungsprozesse im Leben zu navigieren.")
+
+Meine Wette ist, dass es von mehr als 8 Milliarden Menschen eine Handvoll gibt, die wirklich die Weisheit suchen, die das I Ging bietet, und die eine Lesung wollen, die sie nicht bestätigt. Für sie ist meine App.
+
+---
+
+## Bibliografische Referenzen:
+
+* Chandra, K., Kleiman-Weiner, M., Ragan-Kelley, J., & Tenenbaum, J. B. (2026).  *Sycophantic chatbots cause delusional spiraling, even in ideal Bayesians* [Preprint]. arXiv. https://arxiv.org/abs/2602.19141
+
+* Cheng, M., Lee, C., Khadpe, P., Yu, S., Han, D., & Jurafsky, D. (2026). *Sycophantic AI decreases prosocial intentions and promotes dependence*. Science, *391*(6792). https://doi.org/10.1126/science.aec8352 
+
+* Moore, J., et al. (2026). AI's 'Delusional Spirals' (and What to Do About Them). Stanford HAI. https://hai.stanford.edu/news/ais-delusional-spirals-and-what-to-do-about-them
+
+* OpenAI. (2025, 28. April). *Sycophancy in GPT-4o: What happened and what we’re doing about it*. https://openai.com/index/sycophancy-in-gpt-4o/
+
+* Perry, A. (2026). In defense of social friction. Science, *391*(6792), 1316-1317. https://doi.org/10.1126/science.aeg3145
+
+* Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., ... Perez, E. (2023). *Towards understanding sycophancy in language models* (arXiv:2310.13548). arXiv. https://arxiv.org/abs/2310.13548
