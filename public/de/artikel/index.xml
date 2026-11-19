@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dein KI-Berater verarscht dich (aber meiner nicht): Die Krise der Schmeichelei in der heutigen Künstlichen Intelligenz</title>
+      <link>http://localhost:1313/de/artikel/ki-schmeichelei-krise/</link>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/artikel/ki-schmeichelei-krise/</guid>
+      <description>Moderne KI sagt dir nicht die Wahrheit, sie sagt dir, was du hören willst. In diesem Artikel untersuche ich die Krise der algorithmischen Schmeichelei, warum sie ein strukturelles Problem von LLMs ist und wie ich eine App entworfen habe, die kognitive Reibung der Schmeichelei vorzieht.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/crisis-complacencia-ia/featured.jpg" />
+    </item>
     
     <item>
       <title>Der Architekt hinter der Maske: Ein Gespräch über &#39;El I Chingón&#39;</title>

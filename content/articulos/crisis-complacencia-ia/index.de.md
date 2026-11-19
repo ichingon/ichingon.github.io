@@ -98,17 +98,23 @@ Um diesen Abschnitt zu schließen, möchte ich betonen, dass meine Konsultations
 
 ---
 
-## Ein KI-Berater, den viele brauchen, aber wenige wollen
+## Die alte Katze jagt nicht
 
-Abschließend möchte ich auf etwas hinweisen, das wahrscheinlich aus kommerzieller Sicht gegen dieses Projekt spricht: Ich habe etwas gebaut, das viele Menschen brauchen und wenige wollen. Eine KI, die die Dinge nicht beschönigt, um dir zu gefallen, sondern dich dazu drängt, dein Problem aus anderen Blickwinkeln zu betrachten.
+Es gibt eine klassische Zen-Fabel aus dem 18. Jahrhundert, Neko no Myojutsu ("Die wunderbaren Techniken der alten Katze"), über einen Schwertkämpfer, dessen Haus von einer riesigen, furchtlosen Ratte heimgesucht wurde. Zuerst holte er die geschicktesten jungen Katzen, die er finden konnte - Katzen, die in akrobatischen Sprüngen geschult waren, blitzschnell und mit überwältigender Kraft. Die Ratte wehrte sie alle ab. Da das fehlschlug, griff er zu einer anderen Methode und holte eine ganz gewöhnliche, alte Katze. Sie sprang nicht, sie machte keine Posen und keine Tricks. Sie tat nichts Spektakuläres. Sie legte sich einfach an den Hauseingang in die Sonne. Danach wurde die Ratte nie wieder gesehen.
 
-Dieser Mangel an Schmeichelei erzeugt kognitive und moralische Reibung, nicht sofortige Befriedigung. Jedes Strategiehandbuch für Unternehmen wird dir sagen, dass dies eine schlechte Geschäftsstrategie ist. Schmeichelei existiert, weil der Anreiz großer KI-Konzerne darin besteht, ein Produkt zu entwickeln, das dem Nutzer gefällt, damit er es wiederholt nutzt und eine Abhängigkeitsbeziehung zur KI entwickelt. Eine KI, die dir nicht schmeichelt, erzeugt keine Abhängigkeit; eine, die dir sagt, was du hören willst, schon. Der Markt belohnt Letzteres.
+![Die alte Katze sonnt sich](old_cat_lying_in_the_sun.webp "Die alte Katze sonnt sich")
 
-Ich weigere mich aus Prinzip, Letzteres zu tun: Der Zweck des I Ging ist es, innere Klarheit und Selbsterkenntnis zu wecken und uns zu helfen, die Veränderungsprozesse im Leben zu navigieren, nicht Narzissmus oder die falsche Vorstellung zu fördern, die Welt sei eine Blase, in der alles so ist, wie wir glauben. Letztendlich ist eine Welt, in der Menschen im Einklang mit dem Tao handeln - das heißt im Einklang mit der Realität und nicht mit ihrem eigenen Ego - eine harmonischere Welt, in der ich zumindest leben möchte.
+Moderne KI-Apps - und die Welle von "Plastik-Orakeln", die das Internet überflutet - sind diese hektischen jungen Katzen. Sie gieren verzweifelt nach deiner Aufmerksamkeit. Sie machen Kunststücke, schmeicheln deinem Ego, servieren dir vorgekaute Stichpunktlisten und sperren dich in monatliche Abos, nur um dich bei der Stange zu halten. Das Silicon Valley hat allen eingeredet, dass dies der einzige Weg ist, ein tragfähiges Produkt zu bauen: den Nutzer verhätscheln, Abhängigkeit schaffen und seine persönlichen Daten abgreifen.
 
-![Der Zweck des I Ging ist es, innere Klarheit und Selbsterkenntnis zu wecken und uns zu helfen, die Veränderungsprozesse im Leben zu navigieren.](standing_and_waiting.webp "Der Zweck des I Ging ist es, innere Klarheit und Selbsterkenntnis zu wecken und uns zu helfen, die Veränderungsprozesse im Leben zu navigieren.")
+Dài Líng Nà ist die alte Katze in der Sonne. Ich werde dich nicht mit Pop-ups, E-Mail-Listen oder schmeichlerischer Bestätigung jagen. Ich werde dir nicht erzählen, der Himmel sei grün, nur damit du weiterklickst. El I Chingón beruht auf einem einfachen Grundsatz: Das I Ging existiert, um innere Klarheit und Selbsterkenntnis zu wecken, nicht um dich in einer narzisstischen Echokammer-Blase einzusperren. Wenn ein KI-Orakel allem zustimmt, was du sagst, ist es kein gutes Orakel - es ist nur ein kriecherischer Spiegel, der dich anlügt.
 
-Meine Wette ist, dass es von mehr als 8 Milliarden Menschen eine Handvoll gibt, die wirklich die Weisheit suchen, die das I Ging bietet, und die eine Lesung wollen, die sie nicht bestätigt. Für sie ist meine App.
+![Der Zweck des I Ging ist es, innere Klarheit und Selbsterkenntnis zu wecken und uns zu helfen, die Wandlungsprozesse des Lebens zu meistern.](standing_and_waiting.webp "Der Zweck des I Ging ist es, innere Klarheit und Selbsterkenntnis zu wecken und uns zu helfen, die Wandlungsprozesse des Lebens zu meistern.")
+
+Lange Zeit hieß es nach landläufiger Meinung, ein ehrliches, reibungsreiches Werkzeug könne nur eine winzige Nische ansprechen. Das kaufe ich niemandem ab. Von acht Milliarden Menschen auf dieser Welt sind Millionen längst erschöpft von unterwürfigen Maschinen, die ihnen nach dem Mund reden. Du musst kein Taoismus-Gelehrter sein, um eine ungefilterte Perspektive zu wollen; du musst es nur satt haben, verarscht zu werden.
+
+Deshalb ist dieses Projekt Open Source, radikal privat, und deshalb kosten meine KI-Beratungen so viel wie eine Tasse Kaffee (mit 10 kostenlosen Beratungen pro Tag). Ob du das I Ging einmal im Jahr an einer großen Weggabelung befragst oder es als regelmäßige Praxis nutzt, um deine eigenen blinden Flecken zu überprüfen (was ich sehr empfehlen würde): Meine Tür steht offen, ohne Anmeldung, ohne Abo, ohne Überwachung.
+
+Eine alte Katze macht sich keinen Stress wegen des Marktes und bettelt niemanden um Aufmerksamkeit an. Sie ruht einfach in dem, was real ist, wohl wissend, dass früher oder später jeder, der genug vom Lärm hat, nach Klarheit sucht. Wenn du bereit bist für eine Beraterin, die deine Intelligenz genug respektiert, um dir zu widersprechen, weißt du, wo du sie findest.
 
 ---
 

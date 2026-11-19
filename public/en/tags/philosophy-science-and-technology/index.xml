@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/philosophy-science-and-technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/philosophy-science-and-technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Your AI Advisor is Bullshitting You (But Mine Doesn&#39;t): The Crisis of Sycophancy in Modern Artificial Intelligence</title>
+      <link>http://localhost:1313/en/articles/ai-sycophancy-crisis/</link>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/articles/ai-sycophancy-crisis/</guid>
+      <description>Modern AI doesn&amp;rsquo;t tell you the truth; it tells you what you want to hear. In this article, I explore the crisis of algorithmic sycophancy, why it is a structural problem of LLMs, and how I designed an app that prefers cognitive friction over flattery.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/crisis-complacencia-ia/featured.jpg" />
+    </item>
     
     <item>
       <title>Constrained Stochastic Hermeneutical Computing: A Kinesthetic-Entropy I Ching Protocol</title>

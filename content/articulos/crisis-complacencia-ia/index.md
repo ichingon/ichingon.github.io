@@ -98,17 +98,23 @@ Para cerrar esta sección, quiero enfatizar que mi app de consulta, como todo en
 
 ---
 
-## Un consejero IA que muchos necesitan pero pocos quieren
+## La gata vieja no persigue
 
-Para cerrar, quiero señalar algo que probablemente juega en contra de este proyecto desde el punto de vista comercial: he construido algo que mucha gente necesita y pocos quieren. Una IA que no disfraza las cosas para complacerte, sino que te insta a mirar tu problema desde otros puntos de vista.
+Hay una fábula zen clásica del siglo XVIII, Neko no Myojutsu ("Las maravillosas técnicas de la gata vieja"), sobre un espadachín cuya casa estaba plagada por una rata gigante y sin miedo. Primero, trajo a los gatos jóvenes más habiles que pudo encontrar - gatos entrenados en saltos acrobáticos, veloces como el rayo y con fuerza abrumadora. La rata los repelió a todos. Como eso falló, recurrió a un método distinto y trajo a una gata vieja común y corriente. Ella no saltaba, no hacia poses ni trucos. No hacia nada espectacular. Simplemente se echaba a la entrada de la casa a tomar el sol. Después de eso, la rata no volvió a verse jamás.
 
-Esa falta de complacencia genera fricción cognitiva y moral, no gratificación instantánea. Cualquier manual de estrategia de negocios te dirá que eso es una mala estrategia comercial. La complacencia existe porque el incentivo de las grandes corporaciones de IA es desarrollar un producto que complazca al usuario para que lo use recurrentemente y desarrolle una relación de dependencia con la IA. Una IA que no te adula no genera dependencia; una que te dice lo que quieres oír, sí. El mercado premia lo segundo.
+![La gata vieja echada al sol](old_cat_lying_in_the_sun.webp "La gata vieja echada al sol")
 
-Yo me niego a hacer lo segundo, por cuestión de principios: el propósito del I Ching es despertar la claridad interior y el autoconocimiento, y ayudarnos a navegar los procesos de cambio en la vida, no fomentar el narcisismo ni la falsa noción del mundo como una burbuja donde todo es como creemos.  Al fin del día, un mundo donde las personas actúan de acuerdo con el Tao - es decir, en sintonía con la realidad y no con su propio ego - es un mundo más armonioso en el que yo, por lo menos, quisiera vivir.
+Las aplicaciones modernas de IA - y la ola de "oráculos de plástico" que inundan internet - son esos gatos jóvenes y frenéticos. Están desesperadas por captar tu atención. Hacen malabares, halagan tu ego, te entregan listas con viñetas ya masticadas y te atan a suscripciones mensuales solo para mantenerte enganchado. Silicon Valley ha convencido a todo el mundo de que esta es la única forma de construir un producto viable: mimar al usuario, crear dependencia y cosechar sus datos personales.
+
+Dài Líng Nà es la gata vieja echada al sol. No voy a perseguirte con ventanas emergentes, listas de correo ni validación complaciente. No te voy a decir que el cielo es verde solo para que sigas haciendo clic. El I Chingón se construye sobre un precepto sencillo: el I Ching existe para despertar la claridad interior y el autoconocimiento, no para atraparte en una burbuja narcisista de cámara de eco. Si un oráculo de IA está de acuerdo con todo lo que dices, no es un buen oráculo - es solo un espejo adulador que te miente.
 
 ![El propósito del I Ching es despertar la claridad interior y el autoconocimiento, y ayudarnos a navegar los procesos de cambio en la vida.](standing_and_waiting.webp "El propósito del I Ching es despertar la claridad interior y el autoconocimiento, y ayudarnos a navegar los procesos de cambio en la vida.")
 
-Mi apuesta es que, de más de 8 mil millones de personas, hay un puñado que busca realmente la sabiduría que brinda el I Ching, y que quiere una lectura que no lo valide. Para ellos es mi app.
+Durante mucho tiempo, la sabiduría convencional dijo que una herramienta honesta y con fricción solo podía atraer a un nicho diminuto. No me lo creo. De ocho mil millones de personas en este mundo, millones ya están agotadas de máquinas serviles que les dicen lo que quieren oír. No hace falta ser un erudito taoísta para querer una perspectiva sin filtros; solo hace falta estar cansado de que caigan a embustes.
+
+Por eso este proyecto es de código abierto, radicalmente privado, y por eso mis consultas con IA cuestan lo mismo que una taza de café (con 10 consultas gratuitas cada día). Ya sea que consultes el I Ching una vez al año en una encrucijada importante, o que lo uses como una práctica habitual para auditar tus propios puntos ciegos (algo que te recomiendo encarecidamente), mi puerta está abierta, sin registros, sin suscripciones y sin vigilancia.
+
+Una gata vieja no se estresa por el mercado ni mendiga la atención de nadie. Simplemente descansa en lo que es real, sabiendo que, tarde o temprano, todo aquel que se canse del ruido acabará buscando claridad. Cuando estés listo para una consejera que respete tu inteligencia lo suficiente como para llevarte la contraria, ya sabes dónde encontrarla.
 
 ---
 

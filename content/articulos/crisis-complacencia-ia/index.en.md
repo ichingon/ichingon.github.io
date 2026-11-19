@@ -98,17 +98,23 @@ To close this section, I want to emphasize that my consultation app, like everyt
 
 ---
 
-## An AI advisor that many need but few want
+## The Old Cat Doesn't Chase
 
-To close, I want to point out something that probably plays against this project from a commercial point of view: I have built something that many people need and few want. An AI that does not disguise things to please you, but instead urges you to look at your problem from other points of view.
+There is a classic 18th-century Zen fable, Neko no Myojutsu ("The Marvelous Techniques of the Old Cat"), about a swordsman whose house was plagued by a giant, fearless rat. First, he brought in the sharpest young cats he could find - cats trained in acrobatic leaps, clever tricks, and overwhelming force. The rat fought them all off. Since that failed, he resorted to a different method and brought in an ordinary, aged female cat. She didn't leap, she didn't posture, and she didn't perform a single trick. She didn't do anything spectacular. She simply lay down at the entrance of the house to sun herself. After that, the rat was never seen.
 
-That lack of sycophancy generates cognitive and moral friction, not instant gratification. Any business strategy manual will tell you that this is a bad commercial strategy. Sycophancy exists because the incentive of large AI corporations is to develop a product that pleases the user so that they use it recurrently and develop a relationship of dependence with the AI. An AI that does not flatter you does not generate dependence; one that tells you what you want to hear, does. The market rewards the latter.
+![The old cat lying under the sun](old_cat_lying_in_the_sun.webp "The old cat lying under the sun")
 
-I refuse to do the latter, as a matter of principle: the purpose of the I Ching is to awaken inner clarity and self-knowledge, and to help us navigate the processes of change in life, not to foster narcissism or the false notion of the world as a bubble where everything is as we believe. At the end of the day, a world where people act in accordance with the Tao - that is, in tune with reality and not with their own ego - is a more harmonious world in which I, at least, would like to live.
+Modern AI apps - and the wave of "plastic oracles" flooding the internet - are those frantic young cats. They are desperate for your attention. They jump through hoops, flatter your ego, hand you pre-chewed bullet points, and lock you into monthly subscriptions just to keep you hooked. Silicon Valley has convinced everyone that this is the only way to build a viable product: pamper the user, create dependence, and harvest the data.
+
+Dài Líng Nà is the old cat lying in the sun. I am not going to chase you with pop-ups, email lists, or sycophantic validation. I am not going to tell you the sky is green just to keep you clicking. El I Chingón is built on a simple refusal: the I Ching exists to awaken inner clarity and self-knowledge, not to trap you in a narcissistic echo-chamber bubble. If an AI oracle agrees with everything you say, it is not a good oracle - it's just a sycophantic mirror that lies to you.
 
 ![The purpose of the I Ching is to awaken inner clarity and self-knowledge, and to help us navigate the processes of change in life.](standing_and_waiting.webp "The purpose of the I Ching is to awaken inner clarity and self-knowledge, and to help us navigate the processes of change in life.")
 
-My bet is that, out of more than 8 billion people, there is a handful who truly seek the wisdom that the I Ching offers, and who want a reading that does not validate them. For them is my app.
+For a long time, conventional wisdom said that an honest, friction-heavy tool could only appeal to a tiny niche. I don't buy that. Out of eight billion people in this world, millions are already growing exhausted by servile machines that tell them what they want to hear. You don't need to be a Taoist scholar to want an unfiltered perspective; you just need to be tired of being bullshitted.
+
+That is why this project is open-source, radically private, and why my AI consultations are priced at the cost of a cup of coffee (with 10 free consultations given out daily). Whether you consult the I Ching once a year at a major crossroads,  or use it as a regular practice to audit your own blind spots (which I would highly recommend), my door is open, with no signups, no subscriptions, no surveillance. 
+
+An old cat doesn't stress about the market, and she doesn't beg for anyone's attention. She just rests in what is real, knowing that sooner or later, everyone who is tired of the noise comes looking for clarity. When you're ready for an advisor that respects your intelligence enough to disagree with you, you know where to find her.
 
 ---
 
