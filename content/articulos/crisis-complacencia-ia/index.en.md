@@ -82,7 +82,7 @@ With each additional component I supplied externally to my consultation prompt, 
 
 Through successive versions of the prompt, I began to realize the need to restrict within the prompt itself, through categorical prohibitions, the tendencies to flatter and affirm absolute truths, but on the contrary, to present several possible readings of a text to return to the user the responsibility of applying all this to their case. Finally, I also realized the need to present my own consultation as that of a third party, and not my own. AIs tend to be much more objective when it comes to a third person and not their interlocutor, because it is when speaking about the interlocutor that all their sycophantic and complacent mechanisms are activated.
 
-This is how, after several iterations of prompt engineering, I arrived at the definitive prompt (but still susceptible to improvement) that I published in my [whitepaper]({{< relref "/articulos/i-chingon-whitepaper" >}}). But there are other considerations that I did not explain in that whitepaper that would be worth addressing here.
+This is how, moving beyond simple prompt engineering, I developed the **CSHC (Constrained Stochastic Hermeneutical Computing) protocol** - an architecture designed to structurally prevent both sycophancy and hallucination - and arrived at the system prompt (still open to refinement) that I published in my [whitepaper]({{< relref "/articulos/i-chingon-whitepaper" >}}). But there are other considerations behind this protocol that I did not explain in that whitepaper and that are worth addressing here.
 
 In the whitepaper, I explain that the layer of interpretation of the earlier heaven, which in Chinese is 先天八卦 (Xiāntiān Bāguà), is offered to explain what gave rise to, the causal background of, the manifest situation of the present, according to the resulting hexagram. In my own essays with AI-interpreted I Ching readings, I realized that this layer of earlier heaven interpretation was something that enormously enriched the reading. In the classical tradition of I Ching interpretation, nuclear trigrams are also contemplated, to shed light on the core of the present situation. However, I omitted this component in the prompt. Why?
 
@@ -94,7 +94,9 @@ Finally, there is also the way the prompt orders the AI to give its response. On
 
 I considered it better also not to leave the logical structure and ordering of the response to the AI's discretion. The response had to be structured in paragraphs, each with its main idea and its transition sentences. And also follow a logical sequence: first, the resulting hexagram is discussed and how it describes the consultant's present situation, then the earlier heaven layer is explained, as that which gave rise to the current situation. Next, the moving lines are explained, if any, because they are critical nodes to pay attention to. And finally, the derived, or future, hexagram is discussed, as the most probable result of the dynamics of change.
 
-To close this section, I want to emphasize that my consultation app, like everything in this project, is a work in progress. Like everything under the sun, it can always be improved, it is always perfectible. I will greatly appreciate those who use my consultation apps for their feedback with comments, suggestions, and errors they found.
+The result is a reading that refuses to spoon-feed you - one that hands the responsibility of thinking back where it belongs[^2]. If you want to see what this looks like in practice, you can read a [sample consultation report (PDF)](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.en.pdf) generated with the CSHC protocol.[^2].
+
+[^2]: Like everything under the sun, the consultation app and the CSHC protocol are a work in progress, always open to refinement. If you use them and spot an error or have a suggestion, your feedback is always welcome.
 
 ---
 
@@ -102,7 +104,7 @@ To close this section, I want to emphasize that my consultation app, like everyt
 
 There is a classic 18th-century Zen fable, Neko no Myojutsu ("The Marvelous Techniques of the Old Cat"), about a swordsman whose house was plagued by a giant, fearless rat. First, he brought in the sharpest young cats he could find - cats trained in acrobatic leaps, clever tricks, and overwhelming force. The rat fought them all off. Since that failed, he resorted to a different method and brought in an ordinary, aged female cat. She didn't leap, she didn't posture, and she didn't perform a single trick. She didn't do anything spectacular. She simply lay down at the entrance of the house to sun herself. After that, the rat was never seen.
 
-![The old cat lying under the sun](old_cat_lying_in_the_sun.webp "The old cat lying under the sun")
+![Neko no Myojutsu: The old cat lying under the sun](old_cat_lying_in_the_sun.webp "Neko no Myojutsu: The old cat lying under the sun")
 
 Modern AI apps - and the wave of "plastic oracles" flooding the internet - are those frantic young cats. They are desperate for your attention. They jump through hoops, flatter your ego, hand you pre-chewed bullet points, and lock you into monthly subscriptions just to keep you hooked. Silicon Valley has convinced everyone that this is the only way to build a viable product: pamper the user, create dependence, and harvest the data.
 
@@ -114,7 +116,9 @@ For a long time, conventional wisdom said that an honest, friction-heavy tool co
 
 That is why this project is open-source, radically private, and why my AI consultations are priced at the cost of a cup of coffee (with 10 free consultations given out daily). Whether you consult the I Ching once a year at a major crossroads,  or use it as a regular practice to audit your own blind spots (which I would highly recommend), my door is open, with no signups, no subscriptions, no surveillance. 
 
-An old cat doesn't stress about the market, and she doesn't beg for anyone's attention. She just rests in what is real, knowing that sooner or later, everyone who is tired of the noise comes looking for clarity. When you're ready for an advisor that respects your intelligence enough to disagree with you, you know where to find her.
+An old cat doesn't stress about the market, and she doesn't beg for anyone's attention. She just rests in what is real, knowing that sooner or later, everyone who is tired of the noise comes looking for clarity. When you're ready for an advisor that respects your intelligence enough to disagree with you, [you know where to find her]({{< relref "/consulta-oraculo" >}}).
+
+
 
 ---
 

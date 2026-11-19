@@ -82,7 +82,7 @@ Mit jeder zusätzlichen Komponente, die ich extern zum Prompt meiner Konsultatio
 
 Durch aufeinanderfolgende Versionen des Prompts wurde mir die Notwendigkeit klar, im Prompt selbst durch kategorische Verbote die Tendenzen zu beschränken, zu schmeicheln und absolute Wahrheiten zu behaupten, sondern im Gegenteil mehrere mögliche Lesarten eines Textes zu präsentieren, um dem Nutzer die Verantwortung zurückzugeben, all dies auf seinen Fall anzuwenden. Schließlich wurde mir auch die Notwendigkeit klar, meine eigene Konsultation als die eines Dritten und nicht als meine eigene darzustellen. KIs sind in der Regel viel objektiver, wenn es um eine dritte Person und nicht um ihren Gesprächspartner geht, da beim Sprechen über den Gesprächspartner alle ihre schmeichelnden und gefälligen Mechanismen aktiviert werden.
 
-So kam ich nach mehreren Iterationen des Prompt-Engineerings zu dem endgültigen Prompt (der aber noch verbesserungswürdig ist), den ich in meinem [Whitepaper]({{< relref "/articulos/i-chingon-whitepaper" >}}) veröffentlicht habe. Es gibt jedoch andere Überlegungen, die ich in diesem Whitepaper nicht erklärt habe und die es wert wären, hier behandelt zu werden.
+So ging ich über bloßes Prompt-Engineering hinaus, entwickelte das **CSHC-Protokoll (Constrained Stochastic Hermeneutical Computing)** - eine Architektur, die sowohl Schmeichelei als auch Halluzinationen strukturell verhindert - und gelangte zu dem System-Prompt (der natürlich weiter verfeinert werden kann), den ich in meinem [Whitepaper]({{< relref "/articulos/i-chingon-whitepaper" >}}) veröffentlicht habe. Es gibt jedoch weitere Überlegungen hinter diesem Protokoll, die ich in jenem Whitepaper nicht erklärt habe und die es wert sind, hier behandelt zu werden.
 
 Im Whitepaper erkläre ich, dass die Interpretationsebene des früheren Himmels, die auf Chinesisch 先天八卦 (Xiāntiān Bāguà) heißt, angeboten wird, um zu erklären, was den gegenwärtigen manifesten Zustand gemäß dem resultierenden Hexagramm verursacht hat, den kausalen Hintergrund. In meinen eigenen Versuchen mit KI-interpretierten I Ging-Lesungen stellte ich fest, dass diese Interpretationsebene des früheren Himmels die Lesung enorm bereicherte. In der klassischen Tradition der I Ging-Interpretation werden auch die nuklearen Trigramme betrachtet, um den Kern der gegenwärtigen Situation zu erhellen. Diese Komponente habe ich jedoch im Prompt weggelassen. Warum?
 
@@ -94,7 +94,9 @@ Schließlich gibt es auch die Art und Weise, wie der Prompt die KI anweist, ihre
 
 Ich hielt es auch für besser, die logische Struktur und Reihenfolge der Antwort nicht dem Ermessen der KI zu überlassen. Die Antwort musste in Absätzen strukturiert sein, jeder mit seiner Hauptidee und seinen Übergangssätzen. Und auch einer logischen Reihenfolge folgen: Zuerst wird das resultierende Hexagramm besprochen und wie es die gegenwärtige Situation des Ratsuchenden beschreibt, dann wird die Ebene des früheren Himmels erklärt, als das, was die gegenwärtige Situation verursacht hat. Als Nächstes werden die beweglichen Linien erklärt, falls vorhanden, da sie kritische Knotenpunkte sind, auf die man achten muss. Und schließlich wird das abgeleitete oder zukünftige Hexagramm besprochen, als das wahrscheinlichste Ergebnis der Dynamik des Wandels.
 
-Um diesen Abschnitt zu schließen, möchte ich betonen, dass meine Konsultations-App wie alles in diesem Projekt ein Werk in Arbeit ist. Wie alles unter der Sonne kann sie immer verbessert werden, sie ist immer perfektionierbar. Ich werde denen, die meine Konsultations-Apps nutzen, für ihr Feedback mit Kommentaren, Anregungen und gefundenen Fehlern sehr dankbar sein.
+Das Ergebnis ist eine Deutung, die sich weigert, dir vorgekaute Antworten zu servieren - eine Deutung, die die Verantwortung für das eigene Denken dorthin zurückgibt, wo sie hingehört[^2]. Wenn du sehen möchtest, wie das in der Praxis aussieht, kannst du dir einen [Beispiel-Beratungsbericht (PDF)](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.de.pdf) ansehen, der mit dem CSHC-Protokoll erstellt wurde.
+
+[^2]: Wie alles unter der Sonne sind die Konsultations-App und das CSHC-Protokoll ein laufender Prozess, immer offen für Verbesserungen. Wenn du sie nutzt und auf einen Fehler stößt oder einen Vorschlag hast, ist dein Feedback jederzeit willkommen.
 
 ---
 
@@ -102,7 +104,7 @@ Um diesen Abschnitt zu schließen, möchte ich betonen, dass meine Konsultations
 
 Es gibt eine klassische Zen-Fabel aus dem 18. Jahrhundert, Neko no Myojutsu ("Die wunderbaren Techniken der alten Katze"), über einen Schwertkämpfer, dessen Haus von einer riesigen, furchtlosen Ratte heimgesucht wurde. Zuerst holte er die geschicktesten jungen Katzen, die er finden konnte - Katzen, die in akrobatischen Sprüngen geschult waren, blitzschnell und mit überwältigender Kraft. Die Ratte wehrte sie alle ab. Da das fehlschlug, griff er zu einer anderen Methode und holte eine ganz gewöhnliche, alte Katze. Sie sprang nicht, sie machte keine Posen und keine Tricks. Sie tat nichts Spektakuläres. Sie legte sich einfach an den Hauseingang in die Sonne. Danach wurde die Ratte nie wieder gesehen.
 
-![Die alte Katze sonnt sich](old_cat_lying_in_the_sun.webp "Die alte Katze sonnt sich")
+![Neko no Myojutsu: Die alte Katze sonnt sich](old_cat_lying_in_the_sun.webp "Neko no Myojutsu: Die alte Katze sonnt sich")
 
 Moderne KI-Apps - und die Welle von "Plastik-Orakeln", die das Internet überflutet - sind diese hektischen jungen Katzen. Sie gieren verzweifelt nach deiner Aufmerksamkeit. Sie machen Kunststücke, schmeicheln deinem Ego, servieren dir vorgekaute Stichpunktlisten und sperren dich in monatliche Abos, nur um dich bei der Stange zu halten. Das Silicon Valley hat allen eingeredet, dass dies der einzige Weg ist, ein tragfähiges Produkt zu bauen: den Nutzer verhätscheln, Abhängigkeit schaffen und seine persönlichen Daten abgreifen.
 
@@ -114,7 +116,7 @@ Lange Zeit hieß es nach landläufiger Meinung, ein ehrliches, reibungsreiches W
 
 Deshalb ist dieses Projekt Open Source, radikal privat, und deshalb kosten meine KI-Beratungen so viel wie eine Tasse Kaffee (mit 10 kostenlosen Beratungen pro Tag). Ob du das I Ging einmal im Jahr an einer großen Weggabelung befragst oder es als regelmäßige Praxis nutzt, um deine eigenen blinden Flecken zu überprüfen (was ich sehr empfehlen würde): Meine Tür steht offen, ohne Anmeldung, ohne Abo, ohne Überwachung.
 
-Eine alte Katze macht sich keinen Stress wegen des Marktes und bettelt niemanden um Aufmerksamkeit an. Sie ruht einfach in dem, was real ist, wohl wissend, dass früher oder später jeder, der genug vom Lärm hat, nach Klarheit sucht. Wenn du bereit bist für eine Beraterin, die deine Intelligenz genug respektiert, um dir zu widersprechen, weißt du, wo du sie findest.
+Eine alte Katze macht sich keinen Stress wegen des Marktes und bettelt niemanden um Aufmerksamkeit an. Sie ruht einfach in dem, was real ist, wohl wissend, dass früher oder später jeder, der genug vom Lärm hat, nach Klarheit sucht. Wenn du bereit bist für eine Beraterin, die deine Intelligenz genug respektiert, um dir zu widersprechen, [weißt du, wo du sie findest]({{< relref "/consulta-oraculo" >}}).
 
 ---
 

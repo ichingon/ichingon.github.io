@@ -249,7 +249,7 @@
     "keywords": ["Philosophy, Science and Technology"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2953"
+    "wordCount": "3006"
   }]
   </script>
 
@@ -834,7 +834,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-11-18T00:00:00&#43;00:00">18 November 2026</time><span class="px-2 text-primary-500">&middot;</span><span>2953 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">14 mins</span>
+      <time datetime="2026-11-18T00:00:00&#43;00:00">18 November 2026</time><span class="px-2 text-primary-500">&middot;</span><span>3006 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">15 mins</span>
     
 
     
@@ -967,13 +967,13 @@
 <p>Later I also realized that although the large commercial models have been trained on all kinds of texts, including the I Ching, this knowledge had gaps, and where there were gaps there was the possibility that the AI would invent or hallucinate the relevant text of that hexagram or its moving lines, so I began to supply the relevant I Ching texts for my consultation within the prompt myself.</p>
 <p>With each additional component I supplied externally to my consultation prompt, I realized that the quality of the AI&rsquo;s interpretation improved. This was evident: by giving it less margin of decision on which hexagrams, which version, or which parts of the I Ching text to take, I was also reducing the possibility of hallucinations, lies, omissions, and sycophantic behavior (the AI choosing which passage to interpret according to its sycophantic convenience).</p>
 <p>Through successive versions of the prompt, I began to realize the need to restrict within the prompt itself, through categorical prohibitions, the tendencies to flatter and affirm absolute truths, but on the contrary, to present several possible readings of a text to return to the user the responsibility of applying all this to their case. Finally, I also realized the need to present my own consultation as that of a third party, and not my own. AIs tend to be much more objective when it comes to a third person and not their interlocutor, because it is when speaking about the interlocutor that all their sycophantic and complacent mechanisms are activated.</p>
-<p>This is how, after several iterations of prompt engineering, I arrived at the definitive prompt (but still susceptible to improvement) that I published in my <a href="/en/articles/i-chingon-whitepaper/" >whitepaper</a>. But there are other considerations that I did not explain in that whitepaper that would be worth addressing here.</p>
+<p>This is how, moving beyond simple prompt engineering, I developed the <strong>CSHC (Constrained Stochastic Hermeneutical Computing) protocol</strong> - an architecture designed to structurally prevent both sycophancy and hallucination - and arrived at the system prompt (still open to refinement) that I published in my <a href="/en/articles/i-chingon-whitepaper/" >whitepaper</a>. But there are other considerations behind this protocol that I did not explain in that whitepaper and that are worth addressing here.</p>
 <p>In the whitepaper, I explain that the layer of interpretation of the earlier heaven, which in Chinese is 先天八卦 (Xiāntiān Bāguà), is offered to explain what gave rise to, the causal background of, the manifest situation of the present, according to the resulting hexagram. In my own essays with AI-interpreted I Ching readings, I realized that this layer of earlier heaven interpretation was something that enormously enriched the reading. In the classical tradition of I Ching interpretation, nuclear trigrams are also contemplated, to shed light on the core of the present situation. However, I omitted this component in the prompt. Why?</p>
 <p>The reason is due to something that in the field of machine learning, which encompasses the training of LLMs, is known as overfitting. Overfitting occurs when the trained algorithm learns the training data so precisely that it incorporates noise or accidental associations in that data into the general patterns it tries to form. This results in a model that responds exceptionally well when evaluated with the same training data (low <em>in-sample</em> error), but fails to generalize to data with which it has not been trained (high <em>out-of-sample</em> error).</p>
 <p>Theoretically, we speak of overfitting in training, but in practice, reducing the effects of overfitting in AI responses translates simply into being parsimonious in the prompt: an extensive prompt with a lot of redundant information increases the possibility of hallucinations, contradictions, <em>non sequitur</em>, and yes, also the same phenomenon of sycophancy. For this reason, in the end, I decided not to overcomplicate the prompt with too many details and particular rules. When it comes to AI, many times less is more.</p>
 <p>Finally, there is also the way the prompt orders the AI to give its response. One of the characteristics that particularly annoys me most about AI responses is the use of bullet points, numbered lists, and section subtitles. The bulleted structure reduces reading effort, and that reduction of effort is a form of flattery: the system makes you feel you understood without having had to follow an argument.</p>
 <p>I considered it better also not to leave the logical structure and ordering of the response to the AI&rsquo;s discretion. The response had to be structured in paragraphs, each with its main idea and its transition sentences. And also follow a logical sequence: first, the resulting hexagram is discussed and how it describes the consultant&rsquo;s present situation, then the earlier heaven layer is explained, as that which gave rise to the current situation. Next, the moving lines are explained, if any, because they are critical nodes to pay attention to. And finally, the derived, or future, hexagram is discussed, as the most probable result of the dynamics of change.</p>
-<p>To close this section, I want to emphasize that my consultation app, like everything in this project, is a work in progress. Like everything under the sun, it can always be improved, it is always perfectible. I will greatly appreciate those who use my consultation apps for their feedback with comments, suggestions, and errors they found.</p>
+<p>The result is a reading that refuses to spoon-feed you - one that hands the responsibility of thinking back where it belongs<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. If you want to see what this looks like in practice, you can read a <a href="/pdf/I-Ching-Report-2026-09-19-Hex25-IA.en.pdf" >sample consultation report (PDF)</a> generated with the CSHC protocol.<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
 <hr>
 
 <h2 class="relative group">The Old Cat Doesn&rsquo;t Chase
@@ -991,13 +991,13 @@
     loading="lazy"
     decoding="async"
     fetchpriority="auto"
-    alt="The old cat lying under the sun"
+    alt="Neko no Myojutsu: The old cat lying under the sun"
     width="640"
     height="480"
     src="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp"
     srcset="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp 800w, /articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
-    data-zoom-src="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp"><figcaption>The old cat lying under the sun</figcaption></figure>
+    data-zoom-src="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp"><figcaption>Neko no Myojutsu: The old cat lying under the sun</figcaption></figure>
 </p>
 <p>Modern AI apps - and the wave of &ldquo;plastic oracles&rdquo; flooding the internet - are those frantic young cats. They are desperate for your attention. They jump through hoops, flatter your ego, hand you pre-chewed bullet points, and lock you into monthly subscriptions just to keep you hooked. Silicon Valley has convinced everyone that this is the only way to build a viable product: pamper the user, create dependence, and harvest the data.</p>
 <p>Dài Líng Nà is the old cat lying in the sun. I am not going to chase you with pop-ups, email lists, or sycophantic validation. I am not going to tell you the sky is green just to keep you clicking. El I Chingón is built on a simple refusal: the I Ching exists to awaken inner clarity and self-knowledge, not to trap you in a narcissistic echo-chamber bubble. If an AI oracle agrees with everything you say, it is not a good oracle - it&rsquo;s just a sycophantic mirror that lies to you.</p>
@@ -1016,7 +1016,7 @@
 </p>
 <p>For a long time, conventional wisdom said that an honest, friction-heavy tool could only appeal to a tiny niche. I don&rsquo;t buy that. Out of eight billion people in this world, millions are already growing exhausted by servile machines that tell them what they want to hear. You don&rsquo;t need to be a Taoist scholar to want an unfiltered perspective; you just need to be tired of being bullshitted.</p>
 <p>That is why this project is open-source, radically private, and why my AI consultations are priced at the cost of a cup of coffee (with 10 free consultations given out daily). Whether you consult the I Ching once a year at a major crossroads,  or use it as a regular practice to audit your own blind spots (which I would highly recommend), my door is open, with no signups, no subscriptions, no surveillance.</p>
-<p>An old cat doesn&rsquo;t stress about the market, and she doesn&rsquo;t beg for anyone&rsquo;s attention. She just rests in what is real, knowing that sooner or later, everyone who is tired of the noise comes looking for clarity. When you&rsquo;re ready for an advisor that respects your intelligence enough to disagree with you, you know where to find her.</p>
+<p>An old cat doesn&rsquo;t stress about the market, and she doesn&rsquo;t beg for anyone&rsquo;s attention. She just rests in what is real, knowing that sooner or later, everyone who is tired of the noise comes looking for clarity. When you&rsquo;re ready for an advisor that respects your intelligence enough to disagree with you, <a href="/en/oracle-consultation/" >you know where to find her</a>.</p>
 <hr>
 
 <h2 class="relative group">Bibliographic References:
@@ -1053,6 +1053,9 @@
 <ol>
 <li id="fn:1">
 <p>Reviewing the websites of these applications, I found no mentions of the sycophancy problem nor that they have taken it into account for the development of their app. Since I do not have access to their prompts, I opted to publish mine in the <a href="/en/articles/i-chingon-whitepaper/" >whitepaper</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Like everything under the sun, the consultation app and the CSHC protocol are a work in progress, always open to refinement. If you use them and spot an error or have a suggestion, your feedback is always welcome.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

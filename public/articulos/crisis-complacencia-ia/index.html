@@ -249,7 +249,7 @@
     "keywords": ["Filosofía, Ciencia y Tecnología"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "3090"
+    "wordCount": "3159"
   }]
   </script>
 
@@ -834,7 +834,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-11-18T00:00:00&#43;00:00">18 de noviembre de 2026</time><span class="px-2 text-primary-500">&middot;</span><span>3090 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">15 mins</span>
+      <time datetime="2026-11-18T00:00:00&#43;00:00">18 de noviembre de 2026</time><span class="px-2 text-primary-500">&middot;</span><span>3159 palabras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">15 mins</span>
     
 
     
@@ -967,13 +967,13 @@
 <p>Más tarde me dí cuenta también que aunque los grandes modelos comerciales han sido entrenados con toda clase de textos, inclusive el I Ching, este conocimiento tenía lagunas, y ahí donde había lagunas existía la posibilidad de que la IA inventase, o alucináse el texto relevante de ese hexagrama o sus líneas móviles, por lo cual comencé yo mismo a suministrarle los textos del I Ching pertinentes a mi consulta dentro del prompt.</p>
 <p>Con cada componente adicional que suministraba externamente al prompt de mi consulta, me dí cuenta que la calidad de la interpretación de la IA mejoraba. Esto era evidente: al darle menos margen de decisión sobre cuales hexagramas, cual versión o cuales partes del texto del I Ching tomar, estaba reduciendo también la posibilidad de alucinaciones, mentiras, omisiones, y comportamiento complaciente (que la IA escoja cual pasaje interpretar según su conveniencia sicofante).</p>
 <p>A través de sucesivas versiones del prompt, me fui dando cuenta de la necesidad de restringir en el propio prompt, mediante prohibiciones taxativas, las tendencias de adular y de afirmar verdades absolutas, sino por el contrario, presentar varias posibles lecturas a un texto para devolverle al usuario la responsabilidad de aplicar todo esto a su caso. Por último, me di cuenta también de la necesidad de presentar mi propia consulta como la de un tercero, y no la mía. Las IAs suelen ser mucho más objetivas cuando se trata de una tercera persona y no de su interlocutor, porque es al hablar sobre el interlocutor cuando se activan todos sus mecanismos sicofantes y complacientes.</p>
-<p>Fue así como, tras varias iteraciones de ingeniería de prompt llegue al prompt definitivo (pero aún susceptible de mejorar) que publiqué en mi <a href="/articulos/i-chingon-whitepaper/" >whitepaper</a>. Pero hay otras consideraciones que no expliqué en ese whitepaper que valdría la pena abordar aquí.</p>
+<p>Fue así como, yendo más allá de la simple ingeniería de prompts, desarrollé el <strong>protocolo CSHC (Constrained Stochastic Hermeneutical Computing)</strong> - una arquitectura diseñada para prevenir estructuralmente tanto la complacencia como las alucinaciones - y llegué al prompt de sistema (aún susceptible de mejora) que publiqué en mi <a href="/articulos/i-chingon-whitepaper/" >whitepaper</a>. Pero hay otras consideraciones detrás de este protocolo que no expliqué en ese whitepaper y que vale la pena abordar aquí.</p>
 <p>En el whitepaper explico que la capa de interpretación del cielo anterior, que en chino es 先天八卦 (Xiāntiān Bāguà), se ofrece para explicar aquello que dio pie, el transfondo causal, a la situación manifiesta del presente, según el hexagrama resultante. En mis propios ensayos con las lecturas del I Ching interpretadas por IA, me di cuenta que esta capa de interpretación del cielo anterior era algo que enriquecía enormemente la lectura. En la tradición clásica de interpretación del I Ching, también se contemplan los trigramas nucleares, para esclarecer sobre el núcleo de la situación presente. Sin embargo, este componente lo omití en el prompt. ¿Por qué?</p>
 <p>La razón se debe a algo que en el ámbito del aprendizaje automatizado, que abarca el entrenamiento de los LLMs, se conoce como sobreajuste (<em>over-fitting</em> en inglés). El sobreajuste se produce cuando el algoritmo entrenado aprende los datos de entrenamiento tan precisamente que incorpora el ruido o asociaciones accidentales en esa data en los patrones generales que intenta formar. Esto resulta en un modelo que responde excepcionalmente bien cuando se evalúa con la misma data de entrenamiento (error <em>in-sample</em> bajo), pero falla en generalizar a data con la cual no ha sido entrenado (error <em>out-of-sample</em> alto).</p>
 <p>Teóricamente, hablamos de sobre ajuste en el entrenamiento, pero en la práctica, reducir los efectos del sobreajuste en las respuestas de la IA se traduce simplemente a ser parsimonioso en el prompt: un prompt extenso, con mucha información redundante aumenta la posibilidad de alucionaciones, contradicciones, <em>non sequitur</em>, y sí, también el mismo fenómeno de la complacencia. Por tal razón, al final decidí no sobrecomplicar el prompt con demasiados detalles y reglas particulares. Cuando se trata de la IA, muchas veces menos es más.</p>
 <p>Por último, está también la forma en que el prompt le ordena a la IA dar su respuesta. Una de las características que a mi particularmente más me fastidian de las respuestas de la IA es el uso de viñetas, listas enumeradas y subtítulos de secciones. La estructura en viñetas reduce el esfuerzo de lectura, y esa reducción de esfuerzo es una forma de adulación: el sistema te hace sentir que comprendiste sin que hayas tenido que seguir un argumento.</p>
 <p>Consideré que era mejor también no dejar a criterio de la IA la estructura lógica y el ordenamiento de la respuesta. La respuesta debía estructurarse en párrafos, cada uno con su idea principal y sus oraciones de transición. Y también seguir una secuencia lógica: primero se habla del hexagrama resultante y como describe la situación presente del consultante, luego se explica la capa del cielo anterior, como aquello que dio pie a la situación actual. Seguidamente se explican las líneas móviles, si las hay, porque son nodos críticos a los que hay que prestarle atención. Y finalmente se habla del hexagrama derivado, o futuro, como el resultado más probable de la dinámica de cambio.</p>
-<p>Para cerrar esta sección, quiero enfatizar que mi app de consulta, como todo en este proyecto, es un trabajo en proceso. Como todo bajo el sol, siempre se puede mejorar, siempre es perfectible. Mucho agradeceré a quienes usen mis apps de consulta, su feedback con comentarios, sugerencias y errores que encontraron.</p>
+<p>El resultado es una lectura que se niega a darte respuestas premasticadas - una lectura que devuelve la responsabilidad de pensar al lugar que le corresponde<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. Si quieres ver cómo luce esto en la práctica, puedes revisar un <a href="/pdf/I-Ching-Report-2026-09-19-Hex25-IA.es.pdf" >informe de consulta de muestra (PDF)</a> generado con el protocolo CSHC.</p>
 <hr>
 
 <h2 class="relative group">La gata vieja no persigue
@@ -991,13 +991,13 @@
     loading="lazy"
     decoding="async"
     fetchpriority="auto"
-    alt="La gata vieja echada al sol"
+    alt="Neko no Myojutsu: La gata vieja echada al sol"
     width="640"
     height="480"
     src="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp"
     srcset="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp 800w, /articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
-    data-zoom-src="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp"><figcaption>La gata vieja echada al sol</figcaption></figure>
+    data-zoom-src="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp"><figcaption>Neko no Myojutsu: La gata vieja echada al sol</figcaption></figure>
 </p>
 <p>Las aplicaciones modernas de IA - y la ola de &ldquo;oráculos de plástico&rdquo; que inundan internet - son esos gatos jóvenes y frenéticos. Están desesperadas por captar tu atención. Hacen malabares, halagan tu ego, te entregan listas con viñetas ya masticadas y te atan a suscripciones mensuales solo para mantenerte enganchado. Silicon Valley ha convencido a todo el mundo de que esta es la única forma de construir un producto viable: mimar al usuario, crear dependencia y cosechar sus datos personales.</p>
 <p>Dài Líng Nà es la gata vieja echada al sol. No voy a perseguirte con ventanas emergentes, listas de correo ni validación complaciente. No te voy a decir que el cielo es verde solo para que sigas haciendo clic. El I Chingón se construye sobre un precepto sencillo: el I Ching existe para despertar la claridad interior y el autoconocimiento, no para atraparte en una burbuja narcisista de cámara de eco. Si un oráculo de IA está de acuerdo con todo lo que dices, no es un buen oráculo - es solo un espejo adulador que te miente.</p>
@@ -1016,7 +1016,7 @@
 </p>
 <p>Durante mucho tiempo, la sabiduría convencional dijo que una herramienta honesta y con fricción solo podía atraer a un nicho diminuto. No me lo creo. De ocho mil millones de personas en este mundo, millones ya están agotadas de máquinas serviles que les dicen lo que quieren oír. No hace falta ser un erudito taoísta para querer una perspectiva sin filtros; solo hace falta estar cansado de que caigan a embustes.</p>
 <p>Por eso este proyecto es de código abierto, radicalmente privado, y por eso mis consultas con IA cuestan lo mismo que una taza de café (con 10 consultas gratuitas cada día). Ya sea que consultes el I Ching una vez al año en una encrucijada importante, o que lo uses como una práctica habitual para auditar tus propios puntos ciegos (algo que te recomiendo encarecidamente), mi puerta está abierta, sin registros, sin suscripciones y sin vigilancia.</p>
-<p>Una gata vieja no se estresa por el mercado ni mendiga la atención de nadie. Simplemente descansa en lo que es real, sabiendo que, tarde o temprano, todo aquel que se canse del ruido acabará buscando claridad. Cuando estés listo para una consejera que respete tu inteligencia lo suficiente como para llevarte la contraria, ya sabes dónde encontrarla.</p>
+<p>Una gata vieja no se estresa por el mercado ni mendiga la atención de nadie. Simplemente descansa en lo que es real, sabiendo que, tarde o temprano, todo aquel que se canse del ruido acabará buscando claridad. Cuando estés listo para una consejera que respete tu inteligencia lo suficiente como para llevarte la contraria, <a href="/consulta-oraculo/" >ya sabes dónde encontrarla</a>.</p>
 <hr>
 
 <h2 class="relative group">Referencias Bibliográficas:
@@ -1053,6 +1053,9 @@
 <ol>
 <li id="fn:1">
 <p>Revisando los sitios web de estas aplicaciones, no encontré menciones al problema de la complacencia ni que lo hayan tomado en cuenta para el desarrollo de su app. Como no tengo acceso a sus prompts, opté por publicar el mío en el <a href="/articulos/i-chingon-whitepaper/" >whitepaper</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Como todo bajo el sol, la app de consulta y el protocolo CSHC son un trabajo en progreso, siempre susceptibles de mejorar. Si las usas y encuentras algún error o tienes alguna sugerencia, tu feedback será siempre bienvenido.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

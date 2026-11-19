@@ -82,7 +82,7 @@ Con cada componente adicional que suministraba externamente al prompt de mi cons
 
 A través de sucesivas versiones del prompt, me fui dando cuenta de la necesidad de restringir en el propio prompt, mediante prohibiciones taxativas, las tendencias de adular y de afirmar verdades absolutas, sino por el contrario, presentar varias posibles lecturas a un texto para devolverle al usuario la responsabilidad de aplicar todo esto a su caso. Por último, me di cuenta también de la necesidad de presentar mi propia consulta como la de un tercero, y no la mía. Las IAs suelen ser mucho más objetivas cuando se trata de una tercera persona y no de su interlocutor, porque es al hablar sobre el interlocutor cuando se activan todos sus mecanismos sicofantes y complacientes. 
 
-Fue así como, tras varias iteraciones de ingeniería de prompt llegue al prompt definitivo (pero aún susceptible de mejorar) que publiqué en mi [whitepaper]({{< relref "/articulos/i-chingon-whitepaper" >}}). Pero hay otras consideraciones que no expliqué en ese whitepaper que valdría la pena abordar aquí.
+Fue así como, yendo más allá de la simple ingeniería de prompts, desarrollé el **protocolo CSHC (Constrained Stochastic Hermeneutical Computing)** - una arquitectura diseñada para prevenir estructuralmente tanto la complacencia como las alucinaciones - y llegué al prompt de sistema (aún susceptible de mejora) que publiqué en mi [whitepaper]({{< relref "/articulos/i-chingon-whitepaper" >}}). Pero hay otras consideraciones detrás de este protocolo que no expliqué en ese whitepaper y que vale la pena abordar aquí.
 
 En el whitepaper explico que la capa de interpretación del cielo anterior, que en chino es 先天八卦 (Xiāntiān Bāguà), se ofrece para explicar aquello que dio pie, el transfondo causal, a la situación manifiesta del presente, según el hexagrama resultante. En mis propios ensayos con las lecturas del I Ching interpretadas por IA, me di cuenta que esta capa de interpretación del cielo anterior era algo que enriquecía enormemente la lectura. En la tradición clásica de interpretación del I Ching, también se contemplan los trigramas nucleares, para esclarecer sobre el núcleo de la situación presente. Sin embargo, este componente lo omití en el prompt. ¿Por qué?
 
@@ -94,7 +94,9 @@ Por último, está también la forma en que el prompt le ordena a la IA dar su r
 
 Consideré que era mejor también no dejar a criterio de la IA la estructura lógica y el ordenamiento de la respuesta. La respuesta debía estructurarse en párrafos, cada uno con su idea principal y sus oraciones de transición. Y también seguir una secuencia lógica: primero se habla del hexagrama resultante y como describe la situación presente del consultante, luego se explica la capa del cielo anterior, como aquello que dio pie a la situación actual. Seguidamente se explican las líneas móviles, si las hay, porque son nodos críticos a los que hay que prestarle atención. Y finalmente se habla del hexagrama derivado, o futuro, como el resultado más probable de la dinámica de cambio.
 
-Para cerrar esta sección, quiero enfatizar que mi app de consulta, como todo en este proyecto, es un trabajo en proceso. Como todo bajo el sol, siempre se puede mejorar, siempre es perfectible. Mucho agradeceré a quienes usen mis apps de consulta, su feedback con comentarios, sugerencias y errores que encontraron.
+El resultado es una lectura que se niega a darte respuestas premasticadas - una lectura que devuelve la responsabilidad de pensar al lugar que le corresponde[^2]. Si quieres ver cómo luce esto en la práctica, puedes revisar un [informe de consulta de muestra (PDF)](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.es.pdf) generado con el protocolo CSHC.
+
+[^2]: Como todo bajo el sol, la app de consulta y el protocolo CSHC son un trabajo en progreso, siempre susceptibles de mejorar. Si las usas y encuentras algún error o tienes alguna sugerencia, tu feedback será siempre bienvenido.
 
 ---
 
@@ -102,7 +104,7 @@ Para cerrar esta sección, quiero enfatizar que mi app de consulta, como todo en
 
 Hay una fábula zen clásica del siglo XVIII, Neko no Myojutsu ("Las maravillosas técnicas de la gata vieja"), sobre un espadachín cuya casa estaba plagada por una rata gigante y sin miedo. Primero, trajo a los gatos jóvenes más habiles que pudo encontrar - gatos entrenados en saltos acrobáticos, veloces como el rayo y con fuerza abrumadora. La rata los repelió a todos. Como eso falló, recurrió a un método distinto y trajo a una gata vieja común y corriente. Ella no saltaba, no hacia poses ni trucos. No hacia nada espectacular. Simplemente se echaba a la entrada de la casa a tomar el sol. Después de eso, la rata no volvió a verse jamás.
 
-![La gata vieja echada al sol](old_cat_lying_in_the_sun.webp "La gata vieja echada al sol")
+![Neko no Myojutsu: La gata vieja echada al sol](old_cat_lying_in_the_sun.webp "Neko no Myojutsu: La gata vieja echada al sol")
 
 Las aplicaciones modernas de IA - y la ola de "oráculos de plástico" que inundan internet - son esos gatos jóvenes y frenéticos. Están desesperadas por captar tu atención. Hacen malabares, halagan tu ego, te entregan listas con viñetas ya masticadas y te atan a suscripciones mensuales solo para mantenerte enganchado. Silicon Valley ha convencido a todo el mundo de que esta es la única forma de construir un producto viable: mimar al usuario, crear dependencia y cosechar sus datos personales.
 
@@ -114,7 +116,7 @@ Durante mucho tiempo, la sabiduría convencional dijo que una herramienta honest
 
 Por eso este proyecto es de código abierto, radicalmente privado, y por eso mis consultas con IA cuestan lo mismo que una taza de café (con 10 consultas gratuitas cada día). Ya sea que consultes el I Ching una vez al año en una encrucijada importante, o que lo uses como una práctica habitual para auditar tus propios puntos ciegos (algo que te recomiendo encarecidamente), mi puerta está abierta, sin registros, sin suscripciones y sin vigilancia.
 
-Una gata vieja no se estresa por el mercado ni mendiga la atención de nadie. Simplemente descansa en lo que es real, sabiendo que, tarde o temprano, todo aquel que se canse del ruido acabará buscando claridad. Cuando estés listo para una consejera que respete tu inteligencia lo suficiente como para llevarte la contraria, ya sabes dónde encontrarla.
+Una gata vieja no se estresa por el mercado ni mendiga la atención de nadie. Simplemente descansa en lo que es real, sabiendo que, tarde o temprano, todo aquel que se canse del ruido acabará buscando claridad. Cuando estés listo para una consejera que respete tu inteligencia lo suficiente como para llevarte la contraria, [ya sabes dónde encontrarla]({{< relref "/consulta-oraculo" >}}).
 
 ---
 
