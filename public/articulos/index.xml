@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
-    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tu consejero IA te está cayendo a embustes (pero el mío no): La crisis de la complacencia de la Inteligencia Artificial actual</title>
+      <link>http://localhost:1313/articulos/crisis-complacencia-ia/</link>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articulos/crisis-complacencia-ia/</guid>
+      <description>La IA moderna no te dice la verdad, te dice lo que quieres oír. En este artículo exploro la crisis de la complacencia algorítmica, por qué es un problema estructural de los LLMs, y cómo diseñé una app que prefiere la fricción cognitiva a la adulación.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articulos/crisis-complacencia-ia/featured.jpg" />
+    </item>
     
     <item>
       <title>El Arquitecto Detrás de la Máscara: Una Conversación Sobre &#39;El I Chingón&#39;</title>
@@ -216,16 +226,6 @@
       
       <guid>http://localhost:1313/articulos/azar-ciencia-i-ching/</guid>
       <description>¿Es el azar una herramienta de conocimiento? Este artículo conecta el I Ching con la mecánica cuántica, la teoría del caos, los teoremas de Gödel y el bootstrapping para mostrar cómo el azar, lejos de ser un obstáculo, más bién filtra nuestra subjetividad y nos permite acceder a órdenes más profundos.</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/articulos/crisis-complacencia-ia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/articulos/crisis-complacencia-ia/</guid>
-      <description>&lt;p&gt;Tu consejero IA te está cayendo a embustes (pero el mío no): La crisis de la complacencia de la Inteligencia Artificial actual.&lt;/p&gt;&#xA;&lt;p&gt;Usamos la IA para todo. Le pedimos estrategias de negocio, le consultamos dudas técnicas, le contamos nuestros problemas personales y hasta le pedimos consejos sobre cómo manejar una ruptura amorosa o un conflicto familiar. Es ubícua y siempre esta disponible a cualquier hora. Parece el consejero perfecto.&lt;/p&gt;&#xA;&lt;p&gt;Pero si has usado estos modelos lo suficiente, tarde o temprano empiezas a notar que algo no está bien con esos aparatos. Siempre te dicen que si. Nunca te dicen que no.&lt;/p&gt;</description>
       
     </item>
     

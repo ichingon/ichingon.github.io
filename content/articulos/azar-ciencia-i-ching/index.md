@@ -179,7 +179,7 @@ Como escribí en otro lugar: *"para conocer lo que no puede ser conocido desde f
 
 Si deseas utilizar o citar este trabajo en tus investigaciones o publicaciones académicas, puedes emplear la siguiente referencia:
 
-> Romero, D. (2026, 25 de marzo). *El azar, la ciencia y el I Ching: una convergencia en la comprensión del orden y la incertidumbre*. El IChingón. https://elichingon.com/articulos/azar-ciencia-i-ching/
+> Dài Líng Nà. (2026, 25 de marzo). *El azar, la ciencia y el I Ching: una convergencia en la comprensión del orden y la incertidumbre*. El IChingón. https://elichingon.com/articulos/azar-ciencia-i-ching/
 
 ---
 

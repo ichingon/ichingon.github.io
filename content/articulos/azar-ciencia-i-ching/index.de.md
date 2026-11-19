@@ -180,7 +180,7 @@ Wie ich an anderer Stelle schrieb: *„Um das zu erkennen, was von außen nicht 
 
 Wenn Sie diese Arbeit in Ihrer Forschung oder in akademischen Veröffentlichungen verwenden oder zitieren möchten, können Sie folgende Referenz verwenden:
 
-> Romero, D. (2026, 25. März). *Der Zufall, die Wissenschaft und das I Ging: eine Konvergenz im Verständnis von Ordnung und Unsicherheit*. El IChingón. https://elichingon.com/articulos/azar-ciencia-i-ching/
+> Dài Líng Nà. (2026, 25. März). *Der Zufall, die Wissenschaft und das I Ging: eine Konvergenz im Verständnis von Ordnung und Unsicherheit*. El IChingón. https://elichingon.com/articulos/azar-ciencia-i-ching/
 
 ---
 

@@ -185,7 +185,7 @@ As I wrote elsewhere: *\"to know what cannot be known from the outside, one must
 
 If you wish to use or cite this work in your research or academic publications, please use the following reference:
 
-> Romero, D. (2026, March 25). *Chance, Science, and the I Ching: A Convergence in Understanding Order and Uncertainty*. El IChingón. https://elichingon.com/en/articles/chance-science-i-ching/
+> Dài Líng Nà. (2026, March 25). *Chance, Science, and the I Ching: A Convergence in Understanding Order and Uncertainty*. El IChingón. https://elichingon.com/en/articles/chance-science-i-ching/
 
 ---
 
