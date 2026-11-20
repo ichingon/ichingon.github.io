@@ -15,7 +15,7 @@ slug: "hexagram-1-why-el-ichingon-was-born"
 
 {{< audio src="/audio/Chypho-Boreal-III.mp3" title="Background music: Chypho - Boreal III" >}}
 
-## What is that "Tao of the Content Creator"?
+## What is this "Tao of the Content Creator"?
 
 First of all, before diving into the question posed by the title of this article, allow me to explain this new category called "The Tao of the Content Creator" in the articles section of my website. These articles touch on different aspects and facets of the I Ching, which is the central theme of my project, but I believe there are certain "meta" topics - not directly related to the Book of Changes, but to the project itself - that deserve to be told.
 
