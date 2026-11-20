@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Tao of the Content Creator on I Chingon</title>
+    <link>https://elichingon.com/en/tags/the-tao-of-the-content-creator/</link>
+    <description>Recent content in The Tao of the Content Creator on I Chingon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Dài Líng Nà (黛灵娜)</copyright>
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://elichingon.com/en/tags/the-tao-of-the-content-creator/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Architect Behind the Mask: A Conversation About &#39;El I Chingón&#39;</title>
+      <link>https://elichingon.com/en/articles/architect-behind-the-mask/</link>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://elichingon.com/en/articles/architect-behind-the-mask/</guid>
+      <description>An anonymous visitor interrogates an AI about the elusive architect behind El I Chingón. What begins as a visual analysis of a martial artist spirals into an examination of cryptography, algorithmic sycophancy, and the limits of machine intelligence.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/arquitecto-detras-mascara/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Privacy according to El I Chingón - why should you care?</title>
+      <link>https://elichingon.com/en/articles/privacy-according-to-elichingon-why-should-you-care/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://elichingon.com/en/articles/privacy-according-to-elichingon-why-should-you-care/</guid>
+      <description>Discover why privacy in an oracular consultation app is not a luxury, but a necessity, and how we built elichingon.com with structural amnesia and blind payments to shield your secrets.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/privacidad-segun-elichingon-por-que-deberia-importarte/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Branding in the Age of AI: The Strategy Behind the Name &#39;El I Chingón&#39;</title>
+      <link>https://elichingon.com/en/articles/ai-era-branding-i-chingon/</link>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://elichingon.com/en/articles/ai-era-branding-i-chingon/</guid>
+      <description>Discover how an irreverent domain and &amp;lsquo;authentic weirdness&amp;rsquo; become the best GEO strategy in the age of AI.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el-nombre-chingon/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Hexagram 1 of this project - Why was El I Chingón born? (About @ElIChingon)</title>
+      <link>https://elichingon.com/en/articles/hexagram-1-why-el-ichingon-was-born/</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://elichingon.com/en/articles/hexagram-1-why-el-ichingon-was-born/</guid>
+      <description>The project&amp;rsquo;s origins through personal search, formal languages, and the wisdom of the I Ching.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://elichingon.com/articulos/el-hexagrama1-de-el-ichingon/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

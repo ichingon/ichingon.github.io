@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial Onboarding</title>
+<style>
+    /* Blindaje absoluto de transparencia */
+    :root {
+      background: transparent !important;
+      color-scheme: dark; /* Evita el fogonazo blanco por defecto del navegador */
+    }
+    html, body { 
+      margin: 0; padding: 0; width: 100%; height: 100%; 
+      background: transparent !important; 
+      background-color: transparent !important; 
+    }
+    
+    /* El fondo oscuro semitransparente lo ponemos directamente aquí adentro */
+    .overlay { display: flex; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3); justify-content: center; align-items: center; padding: 16px; box-sizing: border-box; }
+    
+    .modal-box { background: rgba(20, 20, 20, 0.98); border: 1px solid #333; max-width: 400px; width: 100%; padding: 20px; border-radius: 4px; text-align: center; position: relative; box-sizing: border-box; box-shadow: 0 10px 30px rgba(0,0,0,0.8); font-family: sans-serif; max-height: 90vh; overflow-y: auto; }
+    
+    .close-btn { position: absolute; top: 12px; right: 16px; background: none; border: none; color: #888; font-size: 1.2rem; cursor: pointer; }
+    .tutorial-slide { display: none; }
+    
+    /* Estilo para las imágenes ilustrativas del tutorial */
+    .tutorial-img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid #444;
+      margin-bottom: 12px;
+    }
+
+    .btn-action { width: 100%; padding: 12px; border-radius: 2px; cursor: pointer; background-color: #f59e0b; border: 1px solid #d97706; color: #111827; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s; }
+    .btn-action:hover { opacity: 0.9; }
+    .btn-skip { background: none; border: none; color: #666; font-size: 0.8rem; text-decoration: underline; cursor: pointer; margin-top: 12px; }
+  </style>
+</head>
+<body>
+
+<div class="overlay">
+  <div class="modal-box">
+    <button type="button" class="close-btn" onclick="cerrar()">&times;</button>
+
+    <div id="slide1" class="tutorial-slide" style="display: block;">
+      <h3 id="tut-title1" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <img src="/img/ichingapp1.webp" alt="Ilustración inicial" class="tutorial-img">
+      <p id="tut-desc1" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="nextSlide(2)" id="tut-btn1"></button>
+    </div>
+
+    <div id="slide2" class="tutorial-slide">
+      <h3 id="tut-title2" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <p id="tut-desc2" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="nextSlide(3)" id="tut-btn2"></button>
+    </div>
+
+    <div id="slide3" class="tutorial-slide">
+      <h3 id="tut-title3" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <img src="/img/ichingapp3.webp" alt="Formulación de pregunta" class="tutorial-img">
+      <p id="tut-desc3" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="nextSlide(4)" id="tut-btn3"></button>
+    </div>
+
+    <div id="slide4" class="tutorial-slide">
+      <h3 id="tut-title4" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <img src="/img/ichingapp4.webp" alt="Generación de entropía" class="tutorial-img">
+      <p id="tut-desc4" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="nextSlide(5)" id="tut-btn4"></button>
+    </div>
+
+    <div id="slide5" class="tutorial-slide">
+      <h3 id="tut-title5" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <p id="tut-desc5" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="cerrar()" id="tut-btn5"></button>
+    </div>
+
+    <button type="button" class="btn-skip" id="tut-skip" onclick="cerrar()"></button>
+  </div>
+</div>
+
+<script>
+  var I18N_TUTORIAL = {
+    es: {
+      t1: "¿No sabes qué camino tomar?",
+      d1: "Si estás atravesando un momento de incertidumbre o tienes que tomar una decisión difícil, te ayudamos a ver lo que tu mente angustiada está pasando por alto. Cuando te sientas atascado en un problema y dar vueltas en círculos ya no funcione, aquí encontrarás una nueva perspectiva para avanzar.",
+      t2: "100% Privado y Anónimo",
+      d2: "Ofrecemos interpretaciones profundas asistidas por Inteligencia Artificial. No es necesario registrarse. Nuestro sitio no recopila tus datos personales ni te pide un correo electrónico. Tu consulta es completamente tuya.",
+      t3: "Formula tu pregunta",
+      d3: "Antes de empezar, piensa bien tu dilema y anota tu pregunta completa en un lugar aparte (la necesitarás al final). En esta pantalla, solo necesitas escribir tu Nombre (o seudónimo) y el Tema de tu consulta. Las demás opciones están configuradas automáticamente para ti.",
+      t4: "Tú generas la respuesta",
+      d4: "Para consultar, debes concentrarte en tu pregunta mientras dibujas trazos continuos en la pantalla. Esto genera la entropía necesaria. Cuando el botón se active, presiónalo para fijar la línea. Repite este proceso 6 veces para completar tu hexagrama.",
+      t5: "Obtén tu informe",
+      d5: "Al finalizar, verás tus hexagramas. Podrás descargar un reporte clásico gratuito o solicitar nuestro Informe de IA avanzado. En ese caso, se te pedirá ingresar la pregunta detallada que anotaste al principio para generar tu análisis profundo.",
+      btnNext: "Siguiente",
+      btnStart: "Entendido, empezar",
+      btnSkip: "Saltar tutorial"
+    },
+    en: {
+      t1: "Don't know which path to take?",
+      d1: "If you are going through a moment of uncertainty or facing a difficult decision, we help you see what your distressed mind might be missing. When you feel stuck in a problem and running in circles no longer works, you will find a new perspective here to move forward.",
+      t2: "100% Private and Anonymous",
+      d2: "We offer deep AI-assisted interpretations. No registration is required. Our site does not collect your personal data or ask for an email. Your consultation is entirely yours.",
+      t3: "Formulate your question",
+      d3: "Before starting, think carefully about your dilemma and write down your full question in a separate place (you will need it at the end). On this screen, you only need to enter your Name (or pseudonym) and the Topic of your consultation. The other options are automatically set for you.",
+      t4: "You generate the answer",
+      d4: "To consult, you must concentrate on your question while drawing continuous strokes on the screen. This generates the necessary entropy. When the button activates, press it to fix the line. Repeat this process 6 times to complete your hexagram.",
+      t5: "Get your report",
+      d5: "Upon finishing, you will see your hexagrams. You can download a free classic report or request our advanced AI Report. In that case, you will be asked to enter the detailed question you wrote down at the beginning to generate your deep analysis.",
+      btnNext: "Next",
+      btnStart: "Understood, begin",
+      btnSkip: "Skip tutorial"
+    },
+    de: {
+      t1: "Weißt du nicht, welchen Weg du einschlagen sollst?",
+      d1: "Wenn du dich in einem Moment der Ungewissheit befindest oder eine schwierige Entscheidung treffen musst, helfen wir dir zu erkennen, was dein gestresster Geist übersieht. Wenn du in einem Problem feststeckst und sich im Kreis drehen nicht mehr hilft, findest du hier eine neue Perspektive, um voranzukommen.",
+      t2: "100% Privat und Anonym",
+      d2: "Wir bieten tiefgehende KI-gestützte Interpretationen an. Es ist keine Registrierung erforderlich. Unsere Website sammelt keine persönlichen Daten und fragt nicht nach einer E-Mail-Adresse. Deine Konsultation gehört ganz dir.",
+      t3: "Formuliere deine Frage",
+      d3: "Bevor du beginnst, denke über dein Dilemma nach und notiere deine vollständige Frage an einem separaten Ort (du wirst sie am Ende brauchen). Auf diesem Bildschirm musst du nur deinen Namen (oder ein Pseudonym) und das Thema deiner Konsultation eingeben. Die anderen Optionen sind automatisch für dich eingestellt.",
+      t4: "Du generierst die Antwort",
+      d4: "Um zu konsultieren, musst du dich auf deine Frage konzentrieren, während du ununterbrochene Striche auf dem Bildschirm zeichnest. Dies erzeugt die notwendige Entropie. Wenn die Schaltfläche aktiv wird, drücke sie, um die Linie zu fixieren. Wiederhole diesen Vorgang 6 Mal, um dein Hexagramm zu vervollständigen.",
+      t5: "Hol dir deinen Bericht",
+      d5: "Nach Abschluss wirst du deine Hexagramme sehen. Du kannst einen kostenlosen klassischen Bericht herunterladen oder unseren erweiterten KI-Bericht anfordern. In diesem Fall wirst du gebeten, die detaillierte Frage einzugeben, die du zu Beginn notiert hast, um deine tiefe Analyse zu generieren.",
+      btnNext: "Weiter",
+      btnStart: "Verstanden, beginnen",
+      btnSkip: "Tutorial überspringen"
+    }
+  };
+
+  var params = new URLSearchParams(window.location.search);
+  var lang = params.get('lang') || 'es';
+  if (!I18N_TUTORIAL[lang]) lang = 'es';
+  
+  var startSlide = parseInt(params.get('slide')) || 1;
+  var dict = I18N_TUTORIAL[lang];
+
+  for (var i = 1; i <= 5; i++) {
+    document.getElementById('tut-title' + i).innerText = dict['t' + i];
+    document.getElementById('tut-desc' + i).innerText = dict['d' + i];
+    document.getElementById('tut-btn' + i).innerText = (i === 5) ? dict.btnStart : dict.btnNext;
+  }
+  document.getElementById('tut-skip').innerText = dict.btnSkip;
+
+  function nextSlide(num) {
+    document.querySelectorAll('.tutorial-slide').forEach(function(el) { el.style.display = 'none'; });
+    var targetSlide = document.getElementById('slide' + num);
+    if(targetSlide) targetSlide.style.display = 'block';
+  }
+
+  function cerrar() {
+    window.parent.postMessage({ type: 'CLOSE_TUTORIAL' }, '*');
+  }
+
+  nextSlide(startSlide);
+</script>
+</body>
+</html>

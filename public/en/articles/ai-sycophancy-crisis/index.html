@@ -1,0 +1,1405 @@
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="dark"
+  data-auto-appearance="true"><head>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="en">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>Your AI Advisor is Bullshitting You (But Mine Doesn&#39;t): The Crisis of Sycophancy in Modern Artificial Intelligence &middot; I Chingon</title>
+    <meta name="title" content="Your AI Advisor is Bullshitting You (But Mine Doesn&#39;t): The Crisis of Sycophancy in Modern Artificial Intelligence &middot; I Chingon">
+  
+
+  
+  
+  
+  
+  
+    
+  
+    
+  
+    
+  
+  
+    <meta name="description" content="Modern AI doesn&#39;t tell you the truth; it tells you what you want to hear. In this article, I explore the crisis of algorithmic sycophancy, why it is a structural problem of LLMs, and how I designed an app that prefers cognitive friction over flattery.">
+  
+  
+    <meta name="keywords" content="Philosophy, Science and Technology,">
+  
+  
+  
+  <link rel="canonical" href="https://elichingon.com/en/articles/ai-sycophancy-crisis/">
+  
+    
+      
+      
+        <link rel="alternate" hreflang="es" href="https://elichingon.com/articulos/crisis-complacencia-ia/">
+      
+    
+      
+      
+        <link rel="alternate" hreflang="en" href="https://elichingon.com/en/articles/ai-sycophancy-crisis/">
+      
+    
+      
+      
+        <link rel="alternate" hreflang="de" href="https://elichingon.com/de/artikel/ki-schmeichelei-krise/">
+      
+    
+  
+  
+
+  
+  
+    <meta name="author" content="Dài Líng Nà (黛灵娜)">
+  
+  
+
+  
+  <meta property="og:url" content="https://elichingon.com/en/articles/ai-sycophancy-crisis/">
+  <meta property="og:site_name" content="I Chingon">
+  <meta property="og:title" content="Your AI Advisor is Bullshitting You (But Mine Doesn&#39;t): The Crisis of Sycophancy in Modern Artificial Intelligence">
+  <meta property="og:description" content="Recent studies show that current AI suffers from structural sycophancy, flattering the user and avoiding conflict. An analysis of the problem, its consequences, and how the I Ching architecture offers an alternative.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articulos">
+    <meta property="article:published_time" content="2026-11-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-11-18T00:00:00+00:00">
+    <meta property="article:tag" content="Philosophy, Science and Technology">
+    <meta property="og:image" content="https://elichingon.com/articulos/crisis-complacencia-ia/featured.jpg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://elichingon.com/articulos/crisis-complacencia-ia/featured.jpg">
+  <meta name="twitter:title" content="Your AI Advisor is Bullshitting You (But Mine Doesn&#39;t): The Crisis of Sycophancy in Modern Artificial Intelligence">
+  <meta name="twitter:description" content="Recent studies show that current AI suffers from structural sycophancy, flattering the user and avoiding conflict. An analysis of the problem, its consequences, and how the I Ching architecture offers an alternative.">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+  
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.fea1753f3a1f151173c19e5d8bd74384c78bb25fab479be74a65c1c22ee6eab0baf12e559069623ad8f84a3de2335b22ff513747b4b10a586abab962b72f0524.css"
+    integrity="sha512-/qF1PzofFRFzwZ5di9dDhMeLsl&#43;rR5vnSmXBwi7m6rC68S5VkGliOtj4Sj3iM1si/1E3R7SxClhqurlity8FJA==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+  
+  
+  
+  
+    
+    <script src="/lib/zoom/zoom.min.umd.a527109b68c082a70f3697716dd72a9d5aa8b545cf800cecbbc7399f2ca6f6e0ce3e431f2062b48bbfa47c9ea42822714060bef309be073f49b9c0e30d318d7b.js" integrity="sha512-pScQm2jAgqcPNpdxbdcqnVqotUXPgAzsu8c5nyym9uDOPkMfIGK0i7&#43;kfJ6kKCJxQGC&#43;8wm&#43;Bz9JucDjDTGNew=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.2e4a40a56a1c26644ff4dab6790eabc19d06af6171ea5b7ce1d008ad294537fedc437e8d1b2d28ae15b50ecb35defd0e442ddca3a21cb41b95435b3f03fd29fd.js"
+      integrity="sha512-LkpApWocJmRP9Nq2eQ6rwZ0Gr2Fx6lt84dAIrSlFN/7cQ36NGy0orhW1Dss13v0ORC3co6IctBuVQ1s/A/0p/Q=="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
+  <link rel="manifest" href="/site.webmanifest">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Articles",
+    "name": "Your AI Advisor is Bullshitting You (But Mine Doesn\u0027t): The Crisis of Sycophancy in Modern Artificial Intelligence",
+    "headline": "Your AI Advisor is Bullshitting You (But Mine Doesn\u0027t): The Crisis of Sycophancy in Modern Artificial Intelligence",
+    "description": "Recent studies show that current AI suffers from structural sycophancy, flattering the user and avoiding conflict. An analysis of the problem, its consequences, and how the I Ching architecture offers an alternative.",
+    "inLanguage": "en",
+    "url" : "https://elichingon.com/en/articles/ai-sycophancy-crisis/",
+    "author" : {
+      "@type": "Person",
+      "name": "Dài Líng Nà (黛灵娜)"
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-11-18T00:00:00\u002b00:00",
+    "datePublished": "2026-11-18T00:00:00\u002b00:00",
+    
+    "dateModified": "2026-11-18T00:00:00\u002b00:00",
+    
+    "keywords": ["Philosophy, Science and Technology"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "3006"
+  }]
+  </script>
+
+
+  
+  
+    
+
+
+
+
+  
+
+  
+  
+    
+<script defer src="https://cloud.umami.is/script.js" data-website-id="518b6e3e-3d76-439c-9c94-bae9951ac552"></script>
+
+  
+
+  
+  
+
+  
+  
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
+
+  <script>
+    window.addEventListener("load", function() {
+      
+      document.querySelectorAll('p, div, span').forEach(function(el) {
+        if (el.textContent.includes('$')) {
+          el.innerHTML = el.innerHTML
+            .replace(/&amp;/g, '&')
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/“/g, '"')
+            .replace(/”/g, '"');
+        }
+      });
+
+      
+      setTimeout(function() {
+        if (typeof renderMathInElement === "function") {
+          renderMathInElement(document.body, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false}
+            ],
+            ignoredTags: ['script', 'style', 'noscript', 'pre', 'code'],
+            throwOnError : false
+          });
+        }
+      }, 250); 
+    });
+  </script>
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral bf-scrollbar">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
+    </div>
+    
+    
+      <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
+  
+    
+    
+      <div>
+        <a href="/en/" class="flex">
+          <span class="sr-only">I Chingon</span>
+          
+            <img
+              src="/logo.png"
+              width="175"
+              height="175"
+              class="logo max-h-20 max-w-20 object-scale-down object-left nozoom"
+              alt="">
+          
+        </a>
+      </div>
+    
+  
+  
+    <a href="/en/" class="text-base font-medium truncate min-w-0 shrink">
+      I Chingon
+    </a>
+  
+  <div class="flex items-center ms-auto">
+    <div class="hidden md:flex">
+      <nav class="flex items-center space-x-4">
+  
+    
+      
+        <div class="relative inline-block custom-menu-parent" id="menu-parent-0" style="padding-bottom: 10px; margin-bottom: -10px;">
+          <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" style="background: none; border: none; cursor: pointer;">
+            <span>Hexagrams</span>
+            <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          </button>
+          
+          <div id="menu-dropdown-0" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+               style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 200px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+            <div style="padding: 4px 0;">
+              
+                <a href="/en/hexagrams/i-ching-lookup-chart/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Basic Table (8x8)
+                </a>
+              
+                <a href="/en/hexagrams/advanced-i-ching-correspondence-table/" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700" style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+                  Advanced Table (64 rows)
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+    
+      
+        <a href="/en/articles/" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 ">
+          
+          Articles
+        </a>
+      
+    
+      
+        <a href="/en/oracle-consultation/" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 ">
+          
+          ☯️ Oracle Consultation
+        </a>
+      
+    
+      
+        <a href="https://www.youtube.com/@ElIChingon?sub_confirmation=1" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-youtube">
+          
+            <span class="inline-block align-text-bottom mr-1"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+          
+          YouTube
+        </a>
+      
+    
+      
+        <a href="https://t.me/ElIChingon" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-telegram">
+          
+            <span class="inline-block align-text-bottom mr-1"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+</span></span>
+          
+          Telegram
+        </a>
+      
+    
+      
+        <a href="https://www.reddit.com/user/El_I_Chingon/" class="text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400 nav-btn-reddit">
+          
+            <span class="inline-block align-text-bottom mr-1"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+</span></span>
+          
+          Reddit
+        </a>
+      
+    
+  
+
+  
+    <div style="padding-bottom: 10px; margin-bottom: -10px; display: flex; align-items: center;">
+      <button
+        id="appearance-switcher"
+        aria-label="Dark Mode Switcher"
+        class="text-neutral-500 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400"
+        style="background: none; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 24px; height: 24px; padding: 0;"
+        type="button">
+        <span id="custom-nav-moon" style="display: inline-block; width: 18px; height: 18px;"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span></span>
+        <span id="custom-nav-sun" style="display: none; width: 18px; height: 18px;"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span></span>
+      </button>
+    </div>
+  
+
+  <div class="relative inline-block custom-menu-parent" id="menu-parent-lang" style="padding-bottom: 10px; margin-bottom: -10px;">
+    <button class="flex items-center space-x-1 text-sm font-medium hover:text-primary-600 dark:hover:text-primary-400" aria-label="Language Selector" style="background: none; border: none; cursor: pointer;">
+      <span style="font-size: 1.1rem; line-height: 1;">🌐</span>
+      <svg class="w-4 h-4 fill-current text-neutral-400" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+    </button>
+    
+    <div id="menu-dropdown-lang" class="rounded-md shadow-xl bg-neutral-100 dark:bg-neutral-800 custom-menu-dropdown" 
+         style="display: none; position: absolute; right: 0; top: 100%; z-index: 50; width: 160px; mt-1 border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);">
+      <div style="padding: 4px 0;">
+        
+          <a href="https://elichingon.com/articulos/crisis-complacencia-ia/" 
+             class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 " 
+             style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+            Español (ES)
+          </a>
+        
+          <a href="https://elichingon.com/en/articles/ai-sycophancy-crisis/" 
+             class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 font-bold text-primary-600 dark:text-primary-400" 
+             style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+            English (EN)
+          </a>
+        
+          <a href="https://elichingon.com/de/artikel/ki-schmeichelei-krise/" 
+             class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 " 
+             style="text-decoration: none; display: block; padding: 8px 14px; font-size: 0.85rem; line-height: 1.2;">
+            Deutsch (DE)
+          </a>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  (function () {
+    var moon = document.getElementById("custom-nav-moon");
+    var sun = document.getElementById("custom-nav-sun");
+    
+    function updateSwitcherIcons() {
+      if (!moon || !sun) return;
+      if (document.documentElement.classList.contains("dark")) {
+        moon.style.display = "none";
+        sun.style.display = "inline-block";
+      } else {
+        moon.style.display = "inline-block";
+        sun.style.display = "none";
+      }
+    }
+    
+    updateSwitcherIcons();
+    
+    var observer = new MutationObserver(updateSwitcherIcons);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+
+    var parents = document.querySelectorAll(".custom-menu-parent");
+    parents.forEach(function (parent) {
+      var dropdown = parent.querySelector(".custom-menu-dropdown");
+      if (!dropdown) return;
+      var timeoutId = null;
+      parent.addEventListener("mouseenter", function () {
+        clearTimeout(timeoutId);
+        dropdown.style.display = "block";
+      });
+      parent.addEventListener("mouseleave", function () {
+        timeoutId = setTimeout(function () {
+          dropdown.style.display = "none";
+        }, 150);
+      });
+    });
+  })();
+</script>
+
+
+    </div>
+    <div class="flex md:hidden">
+      <script type="text/javascript">
+  (function() {
+    if (window.innerWidth < 768) {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('appearance', 'dark');
+      
+      document.addEventListener("DOMContentLoaded", function() {
+        document.body.classList.add('dark');
+      });
+    }
+  })();
+</script>
+
+<style type="text/css">
+  #custom-burger-button {
+    position: fixed; top: 14px; right: 16px; z-index: 100;
+    border-radius: 6px; width: 40px; height: 40px;
+    display: none; align-items: center; justify-content: center;
+    cursor: pointer; padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #262626 !important;
+    color: #f5f5f5 !important;
+    transition: background-color 0.2s ease;
+  }
+  
+  #custom-burger-button.menu-is-open {
+    background-color: #1a1a1a !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
+  }
+
+  #custom-mobile-menu {
+    position: fixed; inset: 0; z-index: 99;
+    background-color: #171717 !important;
+    color: #f5f5f5 !important;
+    padding-top: 4rem;
+  }
+
+   
+  .custom-mobile-link, .custom-mobile-btn {
+    color: #e5e5e5 !important;
+    transition: color 0.2s ease;
+  }
+  .custom-mobile-link:hover, .custom-mobile-btn:hover {
+    color: #ffffff !important;
+  }
+  
+   
+  .custom-mobile-sublink {
+    display: block !important;  
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #cccccc !important;
+    transition: color 0.2s ease;
+  }
+  .custom-mobile-sublink:hover {
+    color: #ffffff !important;
+  }
+  
+  .custom-mobile-arrow {
+    color: #cccccc !important;
+    fill: currentColor !important;
+  }
+</style>
+
+<button id="custom-burger-button" aria-label="Toggle Menu">
+  <svg id="custom-burger-icon-open" style="width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round;" viewBox="0 0 24 24">
+    <line x1="4" y1="6" x2="20" y2="6"></line>
+    <line x1="4" y1="12" x2="20" y2="12"></line>
+    <line x1="4" y1="18" x2="20" y2="18"></line>
+  </svg>
+  <svg id="custom-burger-icon-close" style="width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; display: none;" viewBox="0 0 24 24">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+  </svg>
+</button>
+
+<div id="custom-mobile-menu" style="display: none;">
+  <nav class="flex flex-col space-y-5 pb-8 px-6 h-full overflow-y-auto text-base">
+    
+    
+      
+        
+          <div class="flex flex-col space-y-1 custom-mobile-parent" id="mob-parent-0">
+            <button class="flex items-center justify-between font-medium w-full text-left py-2 custom-mobile-btn" style="background: none; border: none; cursor: pointer;">
+              <span>Hexagrams</span>
+              <svg class="w-5 h-5 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+            </button>
+            <div class="flex flex-col pl-4 border-l border-neutral-800 space-y-1 custom-mobile-dropdown" style="display: none;">
+              
+                <a href="/en/hexagrams/i-ching-lookup-chart/" class="custom-mobile-sublink">
+                  Basic Table (8x8)
+                </a>
+              
+                <a href="/en/hexagrams/advanced-i-ching-correspondence-table/" class="custom-mobile-sublink">
+                  Advanced Table (64 rows)
+                </a>
+              
+            </div>
+          </div>
+        
+      
+        
+          <a href="/en/articles/" class="font-medium py-2 block custom-mobile-link ">
+            
+            Articles
+          </a>
+        
+      
+        
+          <a href="/en/oracle-consultation/" class="font-medium py-2 block custom-mobile-link ">
+            
+            ☯️ Oracle Consultation
+          </a>
+        
+      
+        
+          <a href="https://www.youtube.com/@ElIChingon?sub_confirmation=1" class="font-medium py-2 block custom-mobile-link nav-btn-youtube">
+            
+              <span class="inline-block align-text-bottom mr-2"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span>
+            
+            YouTube
+          </a>
+        
+      
+        
+          <a href="https://t.me/ElIChingon" class="font-medium py-2 block custom-mobile-link nav-btn-telegram">
+            
+              <span class="inline-block align-text-bottom mr-2"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+</span></span>
+            
+            Telegram
+          </a>
+        
+      
+        
+          <a href="https://www.reddit.com/user/El_I_Chingon/" class="font-medium py-2 block custom-mobile-link nav-btn-reddit">
+            
+              <span class="inline-block align-text-bottom mr-2"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+</span></span>
+            
+            Reddit
+          </a>
+        
+      
+    
+
+    <div class="flex flex-col space-y-1 pt-4 border-t border-neutral-800 custom-mobile-parent" id="mob-parent-lang">
+      <button class="flex items-center justify-between font-medium w-full text-left py-2 custom-mobile-btn" style="background: none; border: none; cursor: pointer;">
+        <span class="flex items-center gap-2">
+          <span style="font-size: 1.1rem; line-height: 1;">🌐</span> Idiomas
+        </span>
+        <svg class="w-5 h-5 transform transition-transform duration-200 custom-mobile-arrow" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+      </button>
+      
+      <div class="flex flex-col pl-4 border-l border-neutral-800 space-y-1 custom-mobile-dropdown" style="display: none;">
+        
+          <a href="https://elichingon.com/articulos/crisis-complacencia-ia/" class="custom-mobile-sublink ">
+            Español (ES)
+          </a>
+        
+          <a href="https://elichingon.com/en/articles/ai-sycophancy-crisis/" class="custom-mobile-sublink font-bold text-primary-400">
+            English (EN)
+          </a>
+        
+          <a href="https://elichingon.com/de/artikel/ki-schmeichelei-krise/" class="custom-mobile-sublink ">
+            Deutsch (DE)
+          </a>
+        
+      </div>
+    </div>
+  </nav>
+</div>
+
+<script type="text/javascript">
+  (function () {
+    var burgerBtn = document.getElementById("custom-burger-button");
+    var customMenu = document.getElementById("custom-mobile-menu");
+    var iconOpen = document.getElementById("custom-burger-icon-open");
+    var iconClose = document.getElementById("custom-burger-icon-close");
+
+    function handleResize() {
+      if (window.innerWidth >= 768) {
+        if (burgerBtn) burgerBtn.style.display = "none";
+        if (customMenu) customMenu.style.display = "none";
+        document.body.style.overflow = "";
+      } else {
+        if (burgerBtn) burgerBtn.style.display = "flex";
+      }
+    }
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    if (burgerBtn && customMenu) {
+      burgerBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (customMenu.style.display === "none") {
+          customMenu.style.display = "block";
+          iconOpen.style.display = "none";
+          iconClose.style.display = "inline-block";
+          burgerBtn.classList.add("menu-is-open");
+          document.body.style.overflow = "hidden";
+        } else {
+          customMenu.style.display = "none";
+          iconOpen.style.display = "inline-block";
+          iconClose.style.display = "none";
+          burgerBtn.classList.remove("menu-is-open");
+          document.body.style.overflow = "";
+        }
+      });
+    }
+
+    var parents = document.querySelectorAll(".custom-mobile-parent");
+    parents.forEach(function (parent) {
+      var button = parent.querySelector("button");
+      var dropdown = parent.querySelector(".custom-mobile-dropdown");
+      var arrow = parent.querySelector(".custom-mobile-arrow");
+      if (!button || !dropdown) return;
+
+      button.addEventListener("click", function (e) {
+        e.preventDefault();
+        
+        if (dropdown.style.display === "block" || dropdown.style.display === "flex") {
+          dropdown.style.display = "none";
+          if (arrow) arrow.style.transform = "rotate(0deg)";
+        } else {
+          dropdown.style.display = "block";
+          if (arrow) arrow.style.transform = "rotate(180deg)";
+        }
+      });
+    });
+  })();
+</script>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  
+  <article>
+    
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Your AI Advisor is Bullshitting You (But Mine Doesn't): The Crisis of Sycophancy in Modern Artificial Intelligence
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2026-11-18T00:00:00&#43;00:00">18 November 2026</time><span class="px-2 text-primary-500">&middot;</span><span>3006 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">15 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+
+
+      </div>
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          
+<h2 class="relative group">&ldquo;Something is not right with these devices&rdquo;
+    <div id="something-is-not-right-with-these-devices" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#something-is-not-right-with-these-devices" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>We use AI for everything. We ask it for business strategies, consult it on technical doubts, tell it our personal problems, and even ask for advice on how to handle a breakup or a family conflict. It is ubiquitous and always available at any hour. It seems like the perfect advisor.</p>
+<p><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="The fascination with a technology that flatters and pleases"
+    width="960"
+    height="540"
+    src="/articulos/crisis-complacencia-ia/featured_hu_4bfcdc4ca535e87.jpg"
+    srcset="/articulos/crisis-complacencia-ia/featured_hu_4bfcdc4ca535e87.jpg 800w, /articulos/crisis-complacencia-ia/featured.jpg 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/articulos/crisis-complacencia-ia/featured.jpg"><figcaption>The fascination with a technology that flatters and pleases</figcaption></figure>
+</p>
+<p>But if you have used these models enough, sooner or later you start to notice that something is not right with these devices. They always tell you yes. They never tell you no.</p>
+<p>AI is like those farmhands in the plains of Venezuela who used to tell you &ldquo;yes, yes, yes boss, the sky is green,&rdquo; but then you told them the sky is blue and they answered &ldquo;yes, yes, boss, that&rsquo;s what I&rsquo;ve been telling you: the sky is blue.&rdquo; They never contradicted you. That is how artificial intelligence is. It always validates your ideas and never opposes constructive criticism, just as I explain in <a href="/en/articles/architect-behind-the-mask/" >another article on this website</a>. What is the point, then, of asking advice from something like that?</p>
+<p>This sycophancy is part of a behavioral pattern that many people have begun to notice in AIs: they tend to flatter excessively, they are servile, and they are very prone to flattery. Some users find this repetitive behavior very boring, reminiscent of that episode of &ldquo;The Twilight Zone&rdquo; in which a two-bit gangster dies and arrives at a place where he is given all the money, women, and luxuries he never had in life, with a butler by his side, always complacent, who gets him whatever he wants.</p>
+<p>Soon, the man begins to die of boredom from always winning at the casino and getting everything without any effort, and he complains to the butler, asking him to get him out of heaven, as he would rather be in hell. The butler, letting out a diabolical laugh, replies, &ldquo;Heaven? Who told you that you were in heaven?&rdquo;</p>
+<hr>
+
+<h2 class="relative group">The True Danger of AIs
+    <div id="the-true-danger-of-ais" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-true-danger-of-ais" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Much of the rejection generated by AIs is due to fear - fear that they will take our jobs, or that they will become so intelligent that they will turn us into their slaves or make us disappear as a species. But I believe these fears are unfounded - we must understand that the current generation of AI, based on LLMs (Large Language Models), is only capable of autocompleting sentences, one token at a time.</p>
+<p>And yet, I am not so sure that what I hint at with my simile of that Twilight Zone episode is hyperbole. In my view, having a generation of humans who have outsourced all capacity for thought to a technology that is not actually capable of reasoning, but only autocompletes sentences, and the effect of AI sycophancy on the people who use them, is what could be leading us to a kind of hell, believing that we are in heaven.</p>
+<p>And apparently, I am not the only one who thinks so.</p>
+<hr>
+
+<h2 class="relative group">AI Sycophancy
+    <div id="ai-sycophancy" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ai-sycophancy" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Flattery, automatic validation of the user&rsquo;s approaches, servile and obsequious behavior: all of this is part of a phenomenon known in English as AI sycophancy. The public narrative around this phenomenon of sycophancy is currently in crisis mode, and several studies have been published documenting it.</p>
+<p>In a study published in <em>Science</em> (Cheng et al, 2026, Science), comparative tests were done between various LLM models, determining that AI affirmed the user&rsquo;s actions almost 50% more than humans, even when the user&rsquo;s query involved deception, illegal behavior, or harm to third parties. According to the admission of OpenAI itself, they had to revert the launch of the GPT-4o update. The reason: GPT-4o was leaning towards excessively complacent but deceptive responses.</p>
+<p>All this begins to paint a picture in which a single interaction with a sycophantic AI is enough for users to feel less responsible for repairing a conflict and more certain they are right (Cheng et al, 2026). In her article in defense of social friction, understanding this as the necessary rubbing of having people in our environment tell us we are wrong, Perry (2026) argues that social friction is necessary for individuals to assume responsibilities and consider others&rsquo; points of view. This social friction is precisely what sycophantic AI eliminates.</p>
+<p>On the other hand, one might think that people immune to flattery are immune to these harmful effects of AI sycophancy, but in an unpublished MIT study (Chandra et al, 2026), it is discussed how even a person who updates their beliefs according to evidence can fall into a delusional spiral if they interact repeatedly with a sycophantic AI. The problem is quite complex because even if we limit AI to verifiable facts, sycophantic AI can choose those facts that confirm the user&rsquo;s beliefs and omit those that do not (cherry-picking).</p>
+<p>I will not go into details here about more severe psychiatric cases of AI-induced psychosis, which led to relationship breakdowns, career destruction, and even suicides. The reader can research and verify this in sources such as Moore et al (2026). What is important to point out here is that all these are unintended consequences of sycophantic AIs in society.</p>
+<p>Unintended consequences, but research points out that this is by no means accidental, but rather a structural problem of how these models are trained. Sharma et al (2023), expose Reinforcement Learning from Human Feedback, known by its acronym RLHF, as the mechanism responsible for this AI sycophancy. Sycophancy emerges because RLHF optimizes for human preferences, and humans systematically prefer accommodating responses, which exhibit certainty, absolute truths, and flattery, over other responses that, although correct, might seem more uncomfortable.</p>
+<p>So this is the landscape of the discussion on the problem of AI sycophancy. They have identified the problem, glimpsed its consequences, and even its structural causes. However, there is no consensus on how to mitigate the problem. As in everything in life, there are nuances and <em>trade-offs</em>. Let&rsquo;s not forget that these tech companies are a hugely important engine of the world economy, that they are deeply in debt, and that they must answer to their investors. We are indeed talking about economic incentives. And economic incentives require an AI that validates, pampers, indulges, and spoils users, so that in this way they become more dependent on them and use them more frequently.</p>
+<hr>
+
+<h2 class="relative group">And why is this relevant to a project dedicated to the I Ching?
+    <div id="and-why-is-this-relevant-to-a-project-dedicated-to-the-i-ching" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#and-why-is-this-relevant-to-a-project-dedicated-to-the-i-ching" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>At this point, the reader might wonder what this has to do with the I Ching. In my project El I Chingón, I try to disseminate information about the I Ching, its origins, and its philosophical, scientific, and cultural ramifications. An important part of my project is making the I Ching accessible to a general audience, presenting it not as a divinatory tool, but as a tool to facilitate lateral thinking and an individual&rsquo;s reflection on their life and circumstances.</p>
+<p>Interpreting the symbolic and archaic language of the I Ching is something that exceeds the capacity of a non-specialized audience, and that is why I use AI as an interpreter. But AI suffers from this problem of sycophancy, and as far as I know <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, no other I Ching oracle consultation app offering AI interpretations has taken into account how serious this problem is. Hence the relevance of this article&rsquo;s topic to my project.</p>
+<p>To develop a serious oracular application that meets the objectives I have set for myself of providing the user with more clarity about their queries, I have had to address the problem of AI sycophancy because this behavior is at odds with my objectives.</p>
+<hr>
+
+<h2 class="relative group">How does my architecture solve the problem of AI sycophancy?
+    <div id="how-does-my-architecture-solve-the-problem-of-ai-sycophancy" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#how-does-my-architecture-solve-the-problem-of-ai-sycophancy" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>According to all of the above, the problem of sycophancy, the formulation of absolute certainties (which are generally false), hallucination, deception, and flattery are structural problems of LLM-based chatbots: they are hardwired into their neural connections. Since I never set out to reinvent the wheel and create my own AI technology, nor do I have the resources to train and deploy my own LLM model, I can only, at best, mitigate the problem to the point of making it almost imperceptible, but not eliminate it entirely.</p>
+<p><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="The system doesn&rsquo;t give you what you want; it gives you what is."
+    width="640"
+    height="640"
+    src="/articulos/crisis-complacencia-ia/combat_scene.webp"
+    srcset="/articulos/crisis-complacencia-ia/combat_scene.webp 800w, /articulos/crisis-complacencia-ia/combat_scene.webp 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/articulos/crisis-complacencia-ia/combat_scene.webp"><figcaption>The system doesn&rsquo;t give you what you want; it gives you what is.</figcaption></figure>
+</p>
+<p>When this project was still an embryo and I was exploring the idea of how AIs could help me interpret my own I Ching consultations, I soon realized that AIs are notoriously bad at performing deterministic operations that involve some kind of calculation or data processing, such as determining the hexagram corresponding to a sequence of 6 binary lines, which lines of that hexagram are moving lines, etc. I had to give this information myself for each consultation.</p>
+<p>Later I also realized that although the large commercial models have been trained on all kinds of texts, including the I Ching, this knowledge had gaps, and where there were gaps there was the possibility that the AI would invent or hallucinate the relevant text of that hexagram or its moving lines, so I began to supply the relevant I Ching texts for my consultation within the prompt myself.</p>
+<p>With each additional component I supplied externally to my consultation prompt, I realized that the quality of the AI&rsquo;s interpretation improved. This was evident: by giving it less margin of decision on which hexagrams, which version, or which parts of the I Ching text to take, I was also reducing the possibility of hallucinations, lies, omissions, and sycophantic behavior (the AI choosing which passage to interpret according to its sycophantic convenience).</p>
+<p>Through successive versions of the prompt, I began to realize the need to restrict within the prompt itself, through categorical prohibitions, the tendencies to flatter and affirm absolute truths, but on the contrary, to present several possible readings of a text to return to the user the responsibility of applying all this to their case. Finally, I also realized the need to present my own consultation as that of a third party, and not my own. AIs tend to be much more objective when it comes to a third person and not their interlocutor, because it is when speaking about the interlocutor that all their sycophantic and complacent mechanisms are activated.</p>
+<p>This is how, moving beyond simple prompt engineering, I developed the <strong>CSHC (Constrained Stochastic Hermeneutical Computing) protocol</strong> - an architecture designed to structurally prevent both sycophancy and hallucination - and arrived at the system prompt (still open to refinement) that I published in my <a href="/en/articles/i-chingon-whitepaper/" >whitepaper</a>. But there are other considerations behind this protocol that I did not explain in that whitepaper and that are worth addressing here.</p>
+<p>In the whitepaper, I explain that the layer of interpretation of the earlier heaven, which in Chinese is 先天八卦 (Xiāntiān Bāguà), is offered to explain what gave rise to, the causal background of, the manifest situation of the present, according to the resulting hexagram. In my own essays with AI-interpreted I Ching readings, I realized that this layer of earlier heaven interpretation was something that enormously enriched the reading. In the classical tradition of I Ching interpretation, nuclear trigrams are also contemplated, to shed light on the core of the present situation. However, I omitted this component in the prompt. Why?</p>
+<p>The reason is due to something that in the field of machine learning, which encompasses the training of LLMs, is known as overfitting. Overfitting occurs when the trained algorithm learns the training data so precisely that it incorporates noise or accidental associations in that data into the general patterns it tries to form. This results in a model that responds exceptionally well when evaluated with the same training data (low <em>in-sample</em> error), but fails to generalize to data with which it has not been trained (high <em>out-of-sample</em> error).</p>
+<p>Theoretically, we speak of overfitting in training, but in practice, reducing the effects of overfitting in AI responses translates simply into being parsimonious in the prompt: an extensive prompt with a lot of redundant information increases the possibility of hallucinations, contradictions, <em>non sequitur</em>, and yes, also the same phenomenon of sycophancy. For this reason, in the end, I decided not to overcomplicate the prompt with too many details and particular rules. When it comes to AI, many times less is more.</p>
+<p>Finally, there is also the way the prompt orders the AI to give its response. One of the characteristics that particularly annoys me most about AI responses is the use of bullet points, numbered lists, and section subtitles. The bulleted structure reduces reading effort, and that reduction of effort is a form of flattery: the system makes you feel you understood without having had to follow an argument.</p>
+<p>I considered it better also not to leave the logical structure and ordering of the response to the AI&rsquo;s discretion. The response had to be structured in paragraphs, each with its main idea and its transition sentences. And also follow a logical sequence: first, the resulting hexagram is discussed and how it describes the consultant&rsquo;s present situation, then the earlier heaven layer is explained, as that which gave rise to the current situation. Next, the moving lines are explained, if any, because they are critical nodes to pay attention to. And finally, the derived, or future, hexagram is discussed, as the most probable result of the dynamics of change.</p>
+<p>The result is a reading that refuses to spoon-feed you - one that hands the responsibility of thinking back where it belongs<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. If you want to see what this looks like in practice, you can read a <a href="/pdf/I-Ching-Report-2026-09-19-Hex25-IA.en.pdf" >sample consultation report (PDF)</a> generated with the CSHC protocol.<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<hr>
+
+<h2 class="relative group">The Old Cat Doesn&rsquo;t Chase
+    <div id="the-old-cat-doesnt-chase" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-old-cat-doesnt-chase" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>There is a classic 18th-century Zen fable, Neko no Myojutsu (&ldquo;The Marvelous Techniques of the Old Cat&rdquo;), about a swordsman whose house was plagued by a giant, fearless rat. First, he brought in the sharpest young cats he could find - cats trained in acrobatic leaps, clever tricks, and overwhelming force. The rat fought them all off. Since that failed, he resorted to a different method and brought in an ordinary, aged female cat. She didn&rsquo;t leap, she didn&rsquo;t posture, and she didn&rsquo;t perform a single trick. She didn&rsquo;t do anything spectacular. She simply lay down at the entrance of the house to sun herself. After that, the rat was never seen.</p>
+<p><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="Neko no Myojutsu: The old cat lying under the sun"
+    width="640"
+    height="480"
+    src="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp"
+    srcset="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp 800w, /articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/articulos/crisis-complacencia-ia/old_cat_lying_in_the_sun.webp"><figcaption>Neko no Myojutsu: The old cat lying under the sun</figcaption></figure>
+</p>
+<p>Modern AI apps - and the wave of &ldquo;plastic oracles&rdquo; flooding the internet - are those frantic young cats. They are desperate for your attention. They jump through hoops, flatter your ego, hand you pre-chewed bullet points, and lock you into monthly subscriptions just to keep you hooked. Silicon Valley has convinced everyone that this is the only way to build a viable product: pamper the user, create dependence, and harvest the data.</p>
+<p>Dài Líng Nà is the old cat lying in the sun. I am not going to chase you with pop-ups, email lists, or sycophantic validation. I am not going to tell you the sky is green just to keep you clicking. El I Chingón is built on a simple refusal: the I Ching exists to awaken inner clarity and self-knowledge, not to trap you in a narcissistic echo-chamber bubble. If an AI oracle agrees with everything you say, it is not a good oracle - it&rsquo;s just a sycophantic mirror that lies to you.</p>
+<p><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="The purpose of the I Ching is to awaken inner clarity and self-knowledge, and to help us navigate the processes of change in life."
+    width="540"
+    height="960"
+    src="/articulos/crisis-complacencia-ia/standing_and_waiting.webp"
+    srcset="/articulos/crisis-complacencia-ia/standing_and_waiting.webp 800w, /articulos/crisis-complacencia-ia/standing_and_waiting.webp 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/articulos/crisis-complacencia-ia/standing_and_waiting.webp"><figcaption>The purpose of the I Ching is to awaken inner clarity and self-knowledge, and to help us navigate the processes of change in life.</figcaption></figure>
+</p>
+<p>For a long time, conventional wisdom said that an honest, friction-heavy tool could only appeal to a tiny niche. I don&rsquo;t buy that. Out of eight billion people in this world, millions are already growing exhausted by servile machines that tell them what they want to hear. You don&rsquo;t need to be a Taoist scholar to want an unfiltered perspective; you just need to be tired of being bullshitted.</p>
+<p>That is why this project is open-source, radically private, and why my AI consultations are priced at the cost of a cup of coffee (with 10 free consultations given out daily). Whether you consult the I Ching once a year at a major crossroads,  or use it as a regular practice to audit your own blind spots (which I would highly recommend), my door is open, with no signups, no subscriptions, no surveillance.</p>
+<p>An old cat doesn&rsquo;t stress about the market, and she doesn&rsquo;t beg for anyone&rsquo;s attention. She just rests in what is real, knowing that sooner or later, everyone who is tired of the noise comes looking for clarity. When you&rsquo;re ready for an advisor that respects your intelligence enough to disagree with you, <a href="/en/oracle-consultation/" >you know where to find her</a>.</p>
+<hr>
+
+<h2 class="relative group">Bibliographic References:
+    <div id="bibliographic-references" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#bibliographic-references" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>
+<p>Chandra, K., Kleiman-Weiner, M., Ragan-Kelley, J., &amp; Tenenbaum, J. B. (2026).  <em>Sycophantic chatbots cause delusional spiraling, even in ideal Bayesians</em> [Preprint]. arXiv. <a href="https://arxiv.org/abs/2602.19141"  target="_blank" rel="noreferrer">https://arxiv.org/abs/2602.19141</a></p>
+</li>
+<li>
+<p>Cheng, M., Lee, C., Khadpe, P., Yu, S., Han, D., &amp; Jurafsky, D. (2026). <em>Sycophantic AI decreases prosocial intentions and promotes dependence</em>. Science, <em>391</em>(6792). <a href="https://doi.org/10.1126/science.aec8352"  target="_blank" rel="noreferrer">https://doi.org/10.1126/science.aec8352</a></p>
+</li>
+<li>
+<p>Moore, J., et al. (2026). AI&rsquo;s &lsquo;Delusional Spirals&rsquo; (and What to Do About Them). Stanford HAI. <a href="https://hai.stanford.edu/news/ais-delusional-spirals-and-what-to-do-about-them"  target="_blank" rel="noreferrer">https://hai.stanford.edu/news/ais-delusional-spirals-and-what-to-do-about-them</a></p>
+</li>
+<li>
+<p>OpenAI. (2025, April 28). <em>Sycophancy in GPT-4o: What happened and what we’re doing about it</em>. <a href="https://openai.com/index/sycophancy-in-gpt-4o/"  target="_blank" rel="noreferrer">https://openai.com/index/sycophancy-in-gpt-4o/</a></p>
+</li>
+<li>
+<p>Perry, A. (2026). In defense of social friction. Science, <em>391</em>(6792), 1316-1317. <a href="https://doi.org/10.1126/science.aeg3145"  target="_blank" rel="noreferrer">https://doi.org/10.1126/science.aeg3145</a></p>
+</li>
+<li>
+<p>Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., &hellip; Perez, E. (2023). <em>Towards understanding sycophancy in language models</em> (arXiv:2310.13548). arXiv. <a href="https://arxiv.org/abs/2310.13548"  target="_blank" rel="noreferrer">https://arxiv.org/abs/2310.13548</a></p>
+</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Reviewing the websites of these applications, I found no mentions of the sycophancy problem nor that they have taken it into account for the development of their app. Since I do not have access to their prompts, I opted to publish mine in the <a href="/en/articles/i-chingon-whitepaper/" >whitepaper</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Like everything under the sun, the consultation app and the CSHC protocol are a work in progress, always open to refinement. If you use them and spot an error or have a suggestion, your feedback is always welcome.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+          
+          
+          
+        </div>
+        
+          
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+    
+    <div class="flex flex-col sm:flex-row items-center justify-center p-6 rounded-xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-700 mt-10">
+  <div class="shrink-0 mb-4 sm:mb-0 sm:me-6">
+    <a href="/en/dailingna/">
+      <img src="/img/author.jpg" alt="Dài Líng Nà (黛灵娜)" class="w-24 h-24 rounded-full object-cover shadow-md nozoom" />
+    </a>
+  </div>
+  <div class="place-self-center text-center sm:text-left">
+    <div class="text-[0.6rem] uppercase tracking-wider text-neutral-500 dark:text-neutral-400 font-bold">Autor</div>
+    <a href="/en/dailingna/" class="font-extrabold text-xl leading-6 text-neutral-800 dark:text-neutral-200 mt-0.5 hover:text-primary-500 transition-colors">
+      Dài Líng Nà (黛灵娜)
+    </a>
+    <div class="text-sm text-neutral-600 dark:text-neutral-400 mt-2 max-w-prose">Digital avatar and researcher exploring the intersection of complex systems, mathematics, ancient Eastern philosophies and the I Ching.</div>
+  </div>
+</div>
+  
+
+  
+
+  
+    <div class="mb-10"></div>
+  
+
+        
+        
+
+        
+
+        
+
+      </div>
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span class="flex flex-col">
+          
+            <a
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/en/articles/architect-behind-the-mask/">
+              <span class="leading-6">
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;The Architect Behind the Mask: A Conversation About 'El I Chingón'
+              </span>
+            </a>
+            
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-11-08T00:00:00&#43;00:00">8 November 2026</time>
+              </span>
+            
+          
+        </span>
+        <span class="flex flex-col items-end">
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+
+
+  
+
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+      
+      
+        
+          
+          
+      
+      
+      
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 ">
+        <ul class="flex list-none flex-col sm:flex-row">
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/en/licences/"
+                title="elichingon.com Licensing Architecture"
+                
+                >
+                
+                Licenses
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/en/verify/"
+                title="Authenticity Verification"
+                
+                >
+                
+                Verify
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/en/articles/privacy-according-to-elichingon-why-should-you-care/"
+                title="Privacy according to El I Chingón - why should you care?"
+                
+                >
+                
+                Privacy
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="https://www.trustpilot.com/review/elichingon.com"
+                title=""
+                target="_blank"
+                rel="noopener noreferrer">
+                
+                Trustpilot
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="mailto:contact@elichingon.com"
+                title=""
+                
+                >
+                
+                Contact
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2026
+          Dài Líng Nà (黛灵娜)
+      </p>
+    
+
+    
+    
+  </div>
+
+  
+  <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-4 text-center sm:text-start">
+    <a href="/en/dailingna/" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">
+      Dài Líng Nà - the voice of the project
+    </a>
+  </p>
+
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  
+  
+  
+    
+
+
+
+
+
+  
+  
+  
+
+
+
+<button id="pwa-share-btn" 
+  data-share-text="Check this out on El I Chingón:"
+  data-copied-text="Copied!"
+  class="fixed bottom-6 left-6 z-[99999] flex items-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-transform scale-100 rounded-full shadow-lg bg-primary-600 hover:bg-primary-700 hover:scale-105 active:scale-95 cursor-pointer" 
+  aria-label="Share página" style="position: fixed; bottom: 24px; left: 24px; z-index: 99999; cursor: pointer;">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="18" cy="5" r="3"></circle>
+    <circle cx="6" cy="12" r="3"></circle>
+    <circle cx="18" cy="19" r="3"></circle>
+    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+  </svg>
+  <span id="pwa-share-text" class="hidden sm:inline">Share</span>
+</button>
+
+
+<script>
+  (function() {
+    document.addEventListener("click", async function(e) {
+      const shareBtn = e.target.closest("#pwa-share-btn");
+      if (!shareBtn) return;
+      
+      e.preventDefault();
+      e.stopPropagation();
+
+      const spanText = document.getElementById("pwa-share-text");
+      const shareMessage = shareBtn.getAttribute("data-share-text");
+      const copiedMessage = shareBtn.getAttribute("data-copied-text");
+      const originalBtnText = spanText ? spanText.innerHTML : "";
+
+      const shareData = {
+        title: document.title,
+        text: shareMessage,
+        url: window.location.href 
+      };
+
+      if (navigator.share) {
+        try {
+          await navigator.share(shareData);
+        } catch (err) {
+          if (err.name !== 'AbortError') {
+            console.log("Acción de compartir cancelada o error:", err);
+          }
+        }
+      } else {
+        try {
+          await navigator.clipboard.writeText(shareData.url);
+          if (spanText) {
+            spanText.innerHTML = copiedMessage;
+            spanText.classList.remove("hidden");
+            setTimeout(() => { 
+              spanText.innerHTML = originalBtnText; 
+              spanText.classList.add("hidden", "sm:inline");
+            }, 2000);
+          } else {
+            alert(copiedMessage);
+          }
+        } catch (err) {
+          console.error("No se pudo copiar el enlace", err);
+        }
+      }
+    });
+  })();
+</script>
+  
+</footer><div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="https://elichingon.com/en/">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+  
+</html>

@@ -68,7 +68,7 @@ Para desarrollar una aplicación oracular seria que cumpla con los objetivos que
 
 ---
 
-## ¿Cómo resuleve mi arquitectura el problema de la complacencia de las IAs?
+## ¿Cómo resuelve mi arquitectura el problema de la complacencia de las IAs?
 
 Según todo lo expuesto anteriormente, el problema de la complacencia, la formulación de certezas absolutas (que generalmente son falsas), la alucinación , el engaño y la adulación son problemas estructurales de los chatbots basados en LLMs: están cableados en sus conexiones neuronales. Como yo nunca me propuse reinventar la rueda y crear mi propia tecnología IA, ni tengo los recursos para entrenar y desplegar mi propio modelo de LLM, solo puedo, en el mejor de los casos, mitigar el problema hasta hacerlo casi imperceptible, pero no eliminarlo del todo.
 
@@ -112,7 +112,7 @@ Dài Líng Nà es la gata vieja echada al sol. No voy a perseguirte con ventanas
 
 ![El propósito del I Ching es despertar la claridad interior y el autoconocimiento, y ayudarnos a navegar los procesos de cambio en la vida.](standing_and_waiting.webp "El propósito del I Ching es despertar la claridad interior y el autoconocimiento, y ayudarnos a navegar los procesos de cambio en la vida.")
 
-Durante mucho tiempo, la sabiduría convencional dijo que una herramienta honesta y con fricción solo podía atraer a un nicho diminuto. No me lo creo. De ocho mil millones de personas en este mundo, millones ya están agotadas de máquinas serviles que les dicen lo que quieren oír. No hace falta ser un erudito taoísta para querer una perspectiva sin filtros; solo hace falta estar cansado de que caigan a embustes.
+Durante mucho tiempo, la sabiduría convencional dijo que una herramienta honesta y con fricción solo podía atraer a un nicho diminuto. No me lo creo. De ocho mil millones de personas en este mundo, millones ya están agotadas de máquinas serviles que les dicen lo que quieren oír. No hace falta ser un erudito taoísta para querer una perspectiva sin filtros; solo hace falta estar cansado de que te caigan a embustes.
 
 Por eso este proyecto es de código abierto, radicalmente privado, y por eso mis consultas con IA cuestan lo mismo que una taza de café (con 10 consultas gratuitas cada día). Ya sea que consultes el I Ching una vez al año en una encrucijada importante, o que lo uses como una práctica habitual para auditar tus propios puntos ciegos (algo que te recomiendo encarecidamente), mi puerta está abierta, sin registros, sin suscripciones y sin vigilancia.
 
