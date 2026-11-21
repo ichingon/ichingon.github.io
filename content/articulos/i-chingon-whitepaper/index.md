@@ -207,6 +207,18 @@ La génesis de este protocolo - desde la Odyssey 2 y el manual de "Computer Intr
 
 ---
 
+## Validación Empírica: Prueba de Estrés del Protocolo
+
+Una arquitectura diseñada para eliminar la complacencia de la IA no puede evaluarse solo desde la teoría; debe someterse a una prueba de estrés real. Para verificar el comportamiento del protocolo CSHC - y permitir que cualquier lector audite la calidad de sus informes - sometí mi propia arquitectura al juicio del oráculo con una pregunta directa: si las lecturas generadas mediante la Captura de Entropía Cinestésica (KEC) y un LLM constreñido son válidas y respetan los principios funcionales del I Ching.
+
+El resultado de la consulta fue el **[Hexagrama 25]({{< relref "hexagramas/hex25" >}}) (無妄 - Wú Wàng, La Inocencia)** con la primera línea móvil, mutando hacia el **[Hexagrama 12]({{< relref "hexagramas/hex12" >}}) (否 - Pǐ, El Estancamiento)**. Lejos de validar el proyecto con el entusiasmo habitual de un chatbot comercial, el Motor Hermenéutico ejerció exactamente la fricción cognitiva para la que fue diseñado: cuestionó la pureza de la intención original detrás de la aplicación, advirtió sobre el riesgo de que el afán de "reparar" la transmisión del oráculo degenere en sobrecorrección o control, y señaló que cualquier rigidez excesiva en el diseño terminaría provocando el estancamiento del hexagrama 12, en el que "cielo y tierra no se comunican".
+
+Más allá de confirmar la resistencia del sistema a la adulación, esa lectura arrojó un hallazgo crucial para el diseño de la herramienta, del cual me di cuenta después tras reflexionar sobre esta respuesta del I Ching con mi aplicación: la validez de una consulta no depende exclusivamente de la solidez de la arquitectura técnica. El código puede garantizar entropía genuina, inyección determinista de los textos canónicos y privacidad radical, pero no puede garantizar la espontaneidad ni la disposición interior del consultante. Si el usuario se acerca al lienzo intentando forzar un resultado o buscando validación, la lectura pierde su raíz. Este descubrimiento motivó la incorporación de recordatorios explícitos sobre la disposición ritual dentro de la interfaz de la aplicación, así como un ensayo dedicado a [la actitud correcta al consultar el I Ching]({{< relref "articulos/actitud-correcta-iching/" >}}).
+
+El lector puede examinar el resultado íntegro de esta prueba de estrés y evaluar por sí mismo el nivel de rigor hermenéutico del protocolo descargando el [informe completo de la consulta de muestra (PDF)](/pdf/I-Ching-Report-2026-09-19-Hex25-IA.es.pdf).
+
+---
+
 ## La Arquitectura Soberana: IA de Borde y Extracción Cero de Datos
 
 Para capturar entropía cinestésica genuina y eludir la ventana de contexto del ego, el entorno de consulta debe permanecer como un espacio íntimo y no observado. Las arquitecturas modernas de IA comercial son inherentemente extractivas e invasivas; tratan los prompts de los usuarios, los dilemas personales y las consultas como materia prima para el entrenamiento de modelos. Este paradigma de vigilancia corrompe fundamentalmente el aislamiento hermenéutico requerido para una verdadera consulta oracular. Dentro del marco de la CSHC, la privacidad no se trata como una medida de cumplimiento legal, sino como un estricto requisito funcional.
