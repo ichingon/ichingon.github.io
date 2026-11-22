@@ -168,7 +168,7 @@ ${bloqueTextos}`;
       // 3. INVOCACIÓN A WORKERS AI
       let aiResponse;
       try {
-        aiResponse = await env.AI.run('@cf/deepseek-ai/deepseek-v4-flash-0731', {
+        aiResponse = await env.AI.run('@cf/deepseek-ai/deepseek-v4.1-flash-1017', {
           messages: [
             { role: "system", content: systemPrompt },
             { role: "user", content: userPayload }
