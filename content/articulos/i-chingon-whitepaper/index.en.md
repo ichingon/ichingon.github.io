@@ -5,7 +5,7 @@ author: "Dài Líng Nà (黛灵娜)"
 showAuthor: true
 showAuthorBottom : true
 tags: ["Philosophy, Science and Technology"]
-description: "Introducing Constrained Stochastic Hermeneutical Computing (CSHC): a decentralized protocol combining physical human entropy, the I Ching, and constrained Edge AI."
+description: "Introducing Constrained Stochastic Hermeneutical Computing (CSHC): a privacy-first protocol combining physical human entropy, the I Ching, and constrained Edge AI."
 summary: "This white paper outlines Constrained Stochastic Hermeneutical Computing (CSHC), a framework that strips mysticism from the I Ching to deploy it as a finite-state reasoning engine."
 keywords: ["I Ching", "Constrained Stochastic Hermeneutical Computing", "CSHC", "Kinesthetic Entropy Capture", "Edge AI", "Hermeneutics", "Sycophancy mitigation"]
 draft: false
@@ -13,27 +13,29 @@ slug: "i-chingon-whitepaper"
 ---
 
 {{< math >}}
-**Abstract.** We propose a decentralized, non-deterministic decision-making framework - Constrained Stochastic Hermeneutical Computing (CSHC) - that resolves the inherent sycophancy of commercial Large Language Models (LLMs) and the deterministic limitations of pseudo-random number generation. By utilizing Kinesthetic Entropy Capture (KEC) to harness physical human movement, the system establishes a hardware-level filter against cognitive bias and ego projection. This raw entropy is processed through a finite-state reasoning engine based on the I Ching, mapping the data onto a 4,096-state semantic vector space to compute structural causality. Finally, an edge-computed, strictly constrained LLM acts as a neutral hermeneutic translator, bridging the algorithmic output with the user's context. The result is a mathematically rigorous, privacy-first protocol that processes physical chaos into actionable insight without centralized data extraction or AI adulation.
+**Abstract.** This paper proposes a stateless, non-deterministic, edge-computed decision-making framework - Constrained Stochastic Hermeneutical Computing (CSHC) - that resolves the inherent sycophancy of commercial Large Language Models (LLMs) and the deterministic limitations of pseudo-random number generation. By utilizing Kinesthetic Entropy Capture (KEC) to harness physical human movement, the system establishes a client-side kinesthetic filter against cognitive bias and ego projection. This raw entropy is processed through a finite-state reasoning engine based on the I Ching, mapping the data onto a 4,096-state discrete combinatorial semantic space to compute structural causality. Finally, an edge-computed, strictly constrained LLM acts as a neutral hermeneutic translator, bridging the algorithmic output with the user's context. The result is a mathematically rigorous, privacy-first protocol that processes physical chaos into actionable insight without centralized data extraction or AI adulation.
 
 ---
 
-## The Reasoning Engine: Overview of the I Ching as a divination tool
+## The Reasoning Engine: Overview of the I Ching as a Symbolic State-Transition System
 
-The I Ching is both a divination tool and a book of wisdom, dating back thousands of years. Like all oracles, it is based on a random experiment (grouping yarrow stalks or tossing three coins six times), to obtain a cast hexagram, or symbol composed of 6 lines that can be either Yin or Yang, or Yin that mutates to Yang, or Yang that mutates to Yin. There are in all 64 possible hexagrams (2⁶). Each hexagram corresponds to an archetype or symbol that "maps" on to the consultant’s question to the oracle in a meaningful way.
+The I Ching is historically known as both a divination tool and a book of wisdom, dating back thousands of years. Like all oracles, it is based on a random experiment (grouping yarrow stalks or tossing three coins six times), to obtain a cast hexagram, or symbol composed of 6 lines that can be either Yin or Yang, or Yin that mutates to Yang, or Yang that mutates to Yin. There are in all 64 possible hexagrams (2⁶). Each hexagram corresponds to an archetype or symbol that "maps" on to the consultant’s question to the oracle in a meaningful way.
 
- Furthermore, any given line can be a mutating Yin or Yang line, and mutating lines, if there are any, also indicate that the present situation the seeker is asking about is evolving,  how it is evolving and what advice is given to navigate the situation successfully. In the presence of moving lines, the cast hexagram is evolving into a secondary hexagram that gives us an indication of the probable future the situation is evolving into were we to follow the advice of the moving lines or conversely, the future we would be avoiding by acting in accordance with the oracle’s advice.
+Furthermore, any given line can be a mutating Yin or Yang line. Moving lines indicate that the present situation is actively shifting, showing where the tension lies and how to navigate it. By inverting the polarity of these moving lines, the cast hexagram deterministically transforms into a secondary (derived) hexagram. Crucially, the I Ching does not operate under rigid Aristotelian binary logic, where a state transition yields a single fixed fate; its grammar is dialectical and contextual. The derived hexagram maps the potential structural horizon produced by those specific mutations - indicating either the state toward which the transformation matures, or, when the resulting archetype is adverse, the structural risk or failure mode that the moving lines warn the consultant to guard against.
 
 ### Hexagram Castings as elements of a Semantic Space
 
-The I Ching constructs its profound wisdom from a remarkably simple binary foundation of Yang and Yin, which form the basic code for a far more complex semantic architecture. This structure is computationally elegant; each ritual casting selects one point from a discrete vector space of 4,096 unique states (4⁶), accounting for stable and transforming lines. This number is pivotal: it provides a parsimonious yet sufficiently vast model to map the myriad situations of human experience, offering immense explanatory power while keeping interpretation tractable.
+The I Ching constructs its profound wisdom from a remarkably simple binary foundation of Yang and Yin, which form the basic code for a far more complex semantic architecture. This structure is computationally elegant; each ritual casting selects one point from a discrete combinatorial space of 4,096 unique states (4⁶), accounting for stable and transforming lines. This cardinality strikes an optimal balance: it provides a parsimonious yet sufficiently vast model to map the myriad situations of human experience, offering immense explanatory power while keeping interpretation tractable.
 
 This tractability arises from the system's layered grammar, where meaning is bounded and contextualized at each level. The specific meaning of a line is not free-floating but is shaped by its position - from the foundational first line to the culminating sixth - and by the trigram it helps form, allowing a core set of interpretations to be adaptively applied across different contexts. This precise, rule-based structure is what enables consistent navigation of its symbolic depth.
 
-The 64 hexagrams represent (ambivalently) different processes in the universe in different context layers, and the presence of moving lines in a cast hexagram provides specific points of attention within that process. In the presence of moving lines, the consultant obtains a "future" or derived hexagram, which should not be interpreted as a divination or glimpse into the future, but rather, as a structural consequence of that particular process indicated by the cast hexagram and its dynamics of change. This is worth noting- the I Ching does not predict the future in the divinatory or mystical sense, but rather in the same way that scientific theories predict the future- as the most likely outcome of the system's state and the dynamic model's structural equations.
+The 64 hexagrams represent (ambivalently) different processes in the universe in different context layers, and the presence of moving lines in a cast hexagram provides specific points of attention within that process. In the presence of moving lines, the consultant obtains a "future" or derived hexagram, which should not be interpreted as a divination or glimpse into the future, but rather, as a structural consequence of that particular process indicated by the cast hexagram and its dynamics of change. This is worth noting- the I Ching does not predict the future in the divinatory or mystical sense, but rather in the same way that scientific theories predict the future - as the most likely outcome of the system's state and the dynamic model's deterministic state-transition rules (i.e., from a cast hexagram and its moving lines, one deterministically obtains a derived hexagram with a different meaning).
 
-The semantic depth of an I Ching consultation is further unlocked through the hexagram's inherent dimensions of transformation. The core of any situation is revealed by its nuclear trigrams, formed from the inner lines, which expose the hidden dynamic at the heart of the cast symbol. Furthermore, and this point is relevant to my consultation app, by referencing the pre-heaven sequence - the ancient arrangement of hexagrams that maps the order of cosmic principles - one can trace the cast hexagram back to its antecedent "world of thought." This reveals the foundational conditions and patterns of causality that gave rise to the present moment, offering unparalleled insight into its genesis.
+The semantic depth of an I Ching consultation is further unlocked through the hexagram's inherent dimensions of transformation. In classical I Ching analysis, the inner lines (lines 2-4 and 3-5) form the nuclear trigrams (*hù guà*), which expose a hidden dynamic at the heart of the cast symbol; however, the automated CSHC pipeline deliberately omits nuclear trigrams from the LLM prompt to preserve parsimony and prevent narrative noise or overfitting[^1]. Instead, my Reasoning Engine uses the Earlier Heaven (Fuxi) sequence - the ancient arrangement of hexagrams that maps the order of cosmic principles. Specifically, the engine applies a deterministic bijection $f: \{1, \dots, 64\} \to \{1, \dots, 64\}$ (implemented as the static lookup table `fuxiTable` in `worker.js` on the project's open-source Github repository) to map the cast King Wen hexagram to its antecedent hexagram. This reveals the foundational conditions and patterns of causality that gave rise to the present moment, offering unparalleled insight into its genesis.
 
-In short, the I Ching operates as a sophisticated ontological computer. Its 64-archetype matrix, expanded through rules of change and relational layers, forms a complete state-space for modeling reality. By identifying one’s coordinates within this 4,096-state field and analyzing the trajectories revealed by its nuclear and antecedent hexagrams, it provides a precise algorithm for harmonizing action with the universe's fundamental patterns. This precise, computable grammar of change, which explains both the present state and its causal substrate, is what makes it an exceptionally potent framework for guiding complex decision-making and the reason why the I Ching is at the core of our app's Reasoning Engine.
+[^1]: See my [article]({{< relref "crisis-complacencia-ia" >}}) on the AI sycophancy problem.
+
+In short, the I Ching operates as a sophisticated ontological computer. Its 64-archetype matrix, expanded through deterministic rules of change and relational layers, forms a complete state-space for modeling reality. By identifying one's coordinates within this 4,096-state space and analyzing the trajectories revealed by its moving lines, derived state, and antecedent hexagram, it provides a precise framework for harmonizing action with the situation's underlying patterns. This computable grammar of change, which addresses both the present state and its causal substrate, is what makes it an exceptionally potent framework for guiding complex decision-making and the reason why the I Ching is at the core of my app's Reasoning Engine.
 
 ---
 
@@ -53,11 +55,11 @@ KEC acts as a first line of defense against the ego and its own ghosts or projec
 > 
 > At that moment the ghost disappeared and never returned.
 
-This is why most oracles, regardless of tradition, incorporate chance: because what lies outside the ego's context window cannot be amplified or projected onto the answer. This is why we use a kinesthetic entropy capture.
+This is why most oracles, regardless of tradition, incorporate chance: because what lies outside the ego's context window cannot be amplified or projected onto the answer. This is why I use kinesthetic entropy capture.
 
 ### Operational definition of KEC
 
-Technically, this works as follows: the user is presented with a minimalist UI (user interface) containing a canvas with a square and a circle inscribed within one another (the squaring of the circle). This figure is not decorative: it condenses the tension between the deterministic and the transcendental that runs through the entire consultation, and whose symbolic and philosophical foundation we develop at the end of this section.
+Technically, this works as follows: the user is presented with a minimalist UI (user interface) containing a canvas with a square and a circle inscribed within one another (the squaring of the circle). This figure is not decorative: it condenses the tension between the deterministic and the transcendental that runs through the entire consultation, and whose symbolic and philosophical foundation I develop at the end of this section.
 
 ![The KEC Canvas](KEC.webp "The KEC Canvas")
 
@@ -65,7 +67,7 @@ On this canvas, the user makes strokes with the mouse pointer or finger on their
 
 ### The hash algorithm and the transcendental nature of the consultation
 
-KEC does not merely capture the user's movement: it transforms it, together with the entropy of the moment and the environment, into a discrete value corresponding to a line of the hexagram. This transformation is carried out using a non-cryptographic hash algorithm, 32-bit FNV-1a, whose choice is not arbitrary: it reflects, on the technical plane, the same impossibility of deterministic reduction that the squaring of the circle represents on the geometric plane.
+KEC does not merely capture the user's movement: it transforms it, together with the entropy of the moment and the environment, into a discrete value corresponding to a line of the hexagram. This transformation is carried out using a non-cryptographic hash algorithm, 32-bit FNV-1a. To be precise, FNV-1a itself is a strictly deterministic discretizer (the square); the irreducibility of the process resides in the continuous physical gesture and environmental entropy fed into it (the circle), which the hash amplifies through sensitivity to initial conditions - mirroring, on the technical plane, the irreducible tension that the squaring of the circle represents on the geometric plane.
 
 #### The FNV-1a algorithm
 
@@ -86,45 +88,65 @@ For 32 bits, the standard constants are:
 
 The offset basis is a non-zero initial value, chosen in its origin almost anecdotally (a mis-copied email signature), but whose function is to ensure that the empty input does not produce a trivial hash. The FNV prime, on the other hand, was selected through precise mathematical criteria: it must have few bits set to 1 (exactly six in its binary representation), a specific form \(2^{24} + 2^8 + 0x93\), and modular properties that maximize bit dispersion. These criteria ensure that the multiplication does not concentrate entropy in a reduced subset of bits, but distributes it uniformly across the 32 bits of the accumulator.
 
-In code, the implementation is direct:
+In JavaScript code, this translates to the following (in [https://elichingon.com/app/entropia-iching.html](https://elichingon.com/app/entropia-iching.html)):
 
-```js
-let h = 0x811c9dc5;
-for (let i = 0; i < rawData.length; i++) {
-  h ^= rawData.charCodeAt(i);
-  h = Math.imul(h, 0x01000193);
+```javascript
+function computeLineValueSync(userPool, method) {
+  const envEntropy = crypto.getRandomValues(new Uint32Array(1))[0];
+  const rawData = `${Date.now()};${envEntropy};` + userPool.map(p => `${p.x},${p.y},${p.t}`).join(';');
+
+  let h = 0x811c9dc5;
+  for (let i = 0; i < rawData.length; i++) {
+    h ^= rawData.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+
+  const rand = (h >>> 0) / 4294967296;
+
+  if (method === 'varillas') { // Yarrow stalks (Spanish: varillas) - 1:5:7:3 distribution
+    if (rand < 0.0625) return 6;
+    if (rand < 0.3750) return 7;
+    if (rand < 0.8125) return 8;
+    return 9;
+  } else { // Three-coin method - 1:3:3:1 distribution
+    if (rand < 0.125) return 6;
+    if (rand < 0.500) return 7;
+    if (rand < 0.875) return 8;
+    return 9;
+  }
 }
 ```
 
-`Math.imul` guarantees 32-bit arithmetic with controlled overflow, avoiding the precision loss that would occur with JavaScript's `*` operator for products exceeding \(2^{53}\). The final result is a 32-bit unsigned integer, which is subsequently normalized to a float in \([0,1)\) through an additional mix with `Math.random()`.
+`Math.imul` guarantees 32-bit integer multiplication with controlled overflow, avoiding the precision loss that would occur with JavaScript's `*` operator for products exceeding $2^{53}$. Environmental entropy is injected upfront via the Web Cryptography API (Watson, 2017) (`crypto.getRandomValues`) alongside the millisecond timestamp (`Date.now()`), followed by the serialized kinesthetic pool. After the FNV-1a loop finishes, the zero-fill right shift (`h >>> 0`) coerces the accumulator into a 32-bit unsigned integer, which is normalized to a floating-point value in $[0, 1)$ by dividing by $2^{32}$ (`4294967296`). Finally, `rand` is mapped onto the exact cumulative probability thresholds of either the traditional yarrow-stalk distribution (`1:5:7:3`) or the three-coin distribution (`1:3:3:1`) to yield the resulting line (6, 7, 8, or 9).
 
 ### The avalanche effect: non-linearity under minimal variations
 
-KEC's fundamental requirement is that a minimal variation in the user's movement — a one-pixel difference in `x`, a one-millisecond difference in `t` — produces a qualitatively distinct hash, not a proportional variation. This is the avalanche effect, formalized by Shannon: a one-bit change in the input should change, on average, half the bits of the output.
+KEC's fundamental requirement is that a minimal variation in the user's movement - a one-pixel difference in `x`, a one-millisecond difference in `t` - produces a qualitatively distinct hash, not a proportional variation. This behavior corresponds to the avalanche effect, a term coined by Horst Feistel (1973) building on Claude Shannon's (1949) principles of confusion and diffusion, and later formalized by Webster and Tavares (1985) as the Strict Avalanche Criterion: a one-bit change in the input should flip, on average, half the bits of the output.
 
 Consider two pools differing in a single tuple, in a single pixel:
 
-```Pool A: 123,45,1023;124,46,1031;...
-Pool B: 123,45,1023;125,46,1031;...
+```
+Pool A: ...;123,45,1023;124,46,1031;...
+Pool B: ...;123,45,1023;125,46,1031;...
 ```
 
 The serialized string differs in a single character: `'4'` → `'5'`. In the FNV-1a loop, up to the position of the modified character, the accumulator `h` is identical in both cases. At that position, the XOR produces a one-bit difference. The multiplication by the prime amplifies that difference: a change of 1 in `h` produces a change of approximately `p` in the product, which modulo \(2^{32}\) spreads across many bits. Subsequent iterations continue amplifying the divergence, because each XOR and each multiplication operate on already different states. After a few iterations, the two hashes are completely distinct, with no apparent relationship.
 
-Non-linearity comes from two sources. First, XOR is linear over GF(2) bit by bit, but multiplication introduces carries, which are non-linear operations on the bits. The combination XOR → multiplication breaks any linearity the XOR might have had. Second, the position of the change matters: a change in character `i` affects `hᵢ`, which then goes through `(n - i)` additional iterations. The earlier the change occurs, the more iterations amplify it; the later, the fewer. But even a change in the last character produces a significant difference, because the final XOR alters `h` before the last multiplication.
+Non-linearity comes from two sources. First, XOR is linear over GF(2) bit by bit, but multiplication introduces carries, which are non-linear operations on the bits. The combination XOR → multiplication breaks any linearity the XOR might have had. Second, the position of the change matters: a change in character $i$ affects $h_i$, which then goes through $(n - i)$ additional iterations. The earlier the change occurs, the more iterations amplify it. This is precisely why `Date.now()` and `envEntropy` are prepended at the start of `rawData`: placing the temporal and environmental seeds first ensures they act as a dynamic prefix that passes through hundreds of subsequent FNV-1a iterations across the entire kinesthetic pool, guaranteeing full dispersion across the 32-bit state.
 
-FNV-1a is not cryptographic: its avalanche is good in practice, but not optimal. The high bits are less mixed, and collisions are known for the 32-bit version. For the purpose of the I Ching, these limitations are irrelevant: neither collision resistance nor cryptographic uniformity is required. What is required is that minimal variations produce distinct results, and that is met with room to spare. The deviation from the ideal 50% is small and does not affect practical use.
+FNV-1a is not cryptographic: its avalanche is effective in practice, but not cryptographically optimal, as collisions are known for the 32-bit version. Crucially, KEC does not seek adversarial cryptographic security and is not designed to compete with cryptographic entropy accumulators (such as SJCL or NIST SP 800-90B compliant pools). It solves a human-computer interaction (HCI) and ritual-fidelity problem: coupling somatic human movement to the line calculation in a way that resists conscious steering. For this domain, collision resistance against a malicious attacker is irrelevant. FNV-1a is chosen precisely because it is synchronous, dependency-free, and auditable in four lines of code, while providing sufficient dispersion for minimal variations to yield qualitatively distinct outcomes.
 
 ### The conjunction of entropies: kinesthetic, temporal, and environmental
 
 The string that is hashed combines three sources:
 
 | Source | Origin | Nature | Typical length |
-|--------|--------|--------|----------------|
-| Tuples `(x, y, t)` | User's movement | Kinesthetic | Hundreds–thousands of characters |
+| ------ | ------ | ------ | ------ |
 | `Date.now()` | Moment of the consultation | Temporal | ~13 characters |
-| `Math.random()` | System chance | Environmental | ~18 characters |
+| `crypto.getRandomValues()` | Hardware/OS CSPRNG | Environmental | Up to 10 characters |
+| Tuples `(x, y, t)` | User's movement | Kinesthetic | Hundreds-thousands of characters |
 
-In length, the tuples clearly dominate. In effect on the hash, there is no linear relationship between length and contribution: each character contributes to the result, but the effect of a character depends on its position and the accumulated state. If the pool is short (20 tuples, ~200 characters), `Date.now()` and `Math.random()` represent ~15% of the string, and their contribution is proportionally significant. If the pool is long (1000 tuples, ~10,000 characters), they represent ~0.3%, but their contribution is not null: a change in the last character of the string still alters the hash significantly, because the last multiplication propagates that change.
+In length, the tuples clearly dominate. In effect on the hash, there is no linear relationship between length and contribution: each character contributes to the result, and its impact depends on its position and the accumulated state. If the pool is short (20 tuples, ~200 characters), `Date.now()` and `envEntropy` represent ~10% of the string. If the pool is long (1,000 tuples, ~10,000 characters), they represent ~0.2%, yet their contribution is never diluted: because both values are prepended at the very beginning of `rawData`, every single subsequent iteration of the FNV-1a loop propagates and amplifies their state across the entire kinesthetic pool.
 
 There is therefore no absolute preponderance of one source over another. Kinesthetic entropy dominates in volume, but environmental entropy always contributes to the final result, regardless of pool size. This guarantees that each consultation is unique, but also that kinesthetic entropy is not lost: it remains the majority component of the string.
 
@@ -138,7 +160,7 @@ The correspondence with KEC is structural, not analogical:
 |-----------|-----|
 | Hand movement | Stroke `(x, y, t)` |
 | Moment of the toss | `Date.now()` |
-| Air, surface, jitter | `Math.random()` |
+| Air, surface, jitter | `crypto.getRandomValues()` |
 | Division/calculation | FNV-1a + mapping to 6/7/8/9 |
 | Result: line 6/7/8/9 | Result: line 6/7/8/9 |
 
@@ -148,7 +170,7 @@ Some might argue that kinesthetic entropy "should" be the only source, so that t
 
 ### The squaring of the circle and the impossibility of deterministic reduction
 
-The squaring of the circle is one of the three classical problems of ancient mathematics: to construct, using only straightedge and compass, a square with exactly the same area as a given circle. This is equivalent to geometrically constructing the length of \(\sqrt{\pi}\), whose impossibility was later demonstrated, since \(\pi\) is a transcendental number, not a rational one. Consulting the oracle is a process that cannot be reduced to a deterministic algorithm, or even to statistical modeling, such as LLMs. Its pronouncements are equally transcendental.
+The squaring of the circle is one of the three classical problems of ancient mathematics: to construct, using only straightedge and compass, a square with exactly the same area as a given circle. This is equivalent to geometrically constructing the length of \(\sqrt{\pi}\), whose impossibility was later demonstrated by Lindemann (1882), since \(\pi\) is a transcendental number, not an algebraic one. Consulting the oracle is a process that cannot be reduced to a deterministic algorithm, or even to statistical modeling, such as LLMs. Its pronouncements remain, in a philosophical sense, transcendental to pure computation.
 
 The Chinese proverb 天圆地方 (tiān yuán dì fāng) states that the earth is square and heaven is round, but the similarity with the squaring of the circle is only geometric. Unlike the Greeks, the Chinese were not trying to prove anything, but simply to represent the relationship of the two complementary opposites that are the basis of the I Ching: heaven and earth. The squaring of the circle in KEC is not a problem to be solved, but a symbol of the irreducible tension between the deterministic and the transcendental, between the algorithm and the oracle.
 
@@ -160,21 +182,27 @@ The result is a composite entropy capturer that does not seek to isolate a singl
 
 ---
 
-## The Hermeneutic Engine: Constrained LLM's
+## The Hermeneutic Engine: Constrained LLMs
 
-The I Ching as the Reasoning Engine and the Kinesthetic Entropy Capture as the Synchronicity Engine ensure that our I Ching consultation app conforms to traditional I Ching consultation rituals, while at the same time providing the consultant with a means to reflect on his problem or situation by thinking outside the box (thanks to the random nature of the hexagram casting process, in which the user himself physically participates), while breaking preconceived notions or projections of the ego and forcing the consultant to look at his problem under a new light/perspective. This alone justifies our I Ching consultation app as a useful tool in decision making or as a source of wisdom or advice.
+The I Ching as the Reasoning Engine and the Kinesthetic Entropy Capture as the Synchronicity Engine ensure that my I Ching consultation app conforms to traditional I Ching consultation rituals, while at the same time providing the consultant with a means to reflect on his problem or situation by thinking outside the box (thanks to the random nature of the hexagram casting process, in which the user himself physically participates), while breaking preconceived notions or projections of the ego and forcing the consultant to look at his problem under a new light/perspective. This alone justifies the CSHC I Ching consultation app as a useful tool in decision making or as a source of wisdom or advice.
 
-However, learning how to interpret the I Ching takes years of dedication and is not something that most would devote their life to (although it wouldn't be wasted time, for as Confucius himself said, "If some years were added to my life, I would give fifty to the study of the Yî, and might then escape falling into great errors."). For the most part of the population, this is unfortunate because it excludes them from a formidable source of wisdom preventing them from "falling into great errors". This is why the third component of my app - the Hermeneutical Engine - is necessary. It acts as an interpreter between the oracle and the common lay-person.
+However, learning how to interpret the I Ching takes years of dedication and is not something that most would devote their life to (although it wouldn't be wasted time, for as Confucius himself said, "If some years were added to my life, I would give fifty to the study of the Yî, and might then escape falling into great errors."). For the most part of the population, this is unfortunate because it excludes them from a formidable source of wisdom preventing them from "falling into great errors". This is why the third component of my app - the Hermeneutic Engine - is necessary. It acts as an interpreter between the oracle and the common lay-person.
 
 For interpreting from one language to another, I cannot think of a better tool than Large Language Models. But in fact, it is my contention that most people, who submit all sorts of queries to LLM chatbots on a daily basis, are doing it wrong, because the underlying assumption they have is that LLMs are capable of reasoning and ascribe these chatbots with other human qualities they do not possess, and the media does not help in clarifying these common misconceptions. LLMs are only capable of paraphrasing or translating phrases, and generating text that is statistically viable- and this they do extremely well. If they seem to reason it is only because of the vast amounts of knowledge encoded statistically in the texts that they are trained upon.
 
 LLMs excel at pattern recognition and generating statistically probable text based on their training data. However, their performance is fundamentally constrained by that data. In novel situations, under high uncertainty, or when faced with true ambiguity, LLMs lack a principled framework for reasoning or navigation. An LLM is, at its essence, a master of contextual paraphrase and cross-domain translation. Its proficiency is not limited to human languages; it extends to translating abstract concepts, symbolic systems, and structured knowledge into coherent narrative and actionable insight. This innate capability is the perfect engine for integrating the I Ching's wisdom.
 
-LLMs, however, have one flaw- they are designed to please their "human masters" and so are prone to adulation and flattery. This is a fatal flaw when trying to create a serious oracle. The consultant approaches the oracle in search of honest advice, not food for the ego's narcissistic tendencies, something that abounds everywhere else in our modern societies. The other flaw with LLM's is their tendency to make statements as absolute truths- no one, human or machine, and especially a machine not capable of reasoning - holds the keys to absolute truth. Instead of doling out absolute truths, the consultation app would be much more useful if it invites the consultant to explore other possibilities or ways of looking at their problem, and respecting their agency in that the ultimate decision lies with them.
+LLMs, however, have two well-documented structural flaws. First, because they are aligned via Reinforcement Learning from Human Feedback (RLHF), they are prone to sycophancy - excessive flattery and uncritical validation of the user's premises (Sharma et al., 2023; Cheng et al., 2026). This is a fatal flaw when trying to build a serious oracle: the consultant approaches the oracle in search of honest perspective, not food for the ego's narcissistic tendencies, something that abounds everywhere else in modern society. Second, LLMs tend to hallucinate canonical details when relying on parametric memory and to deliver statements as absolute truths - yet no one, human or machine, and especially a machine incapable of genuine reasoning, holds the keys to absolute truth. Instead of doling out verdicts, a consultation app is far more useful when it invites the consultant to examine other perspectives while respecting their agency, since the ultimate decision always lies with them.
 
 ![The fascination with a technology that flatters and pleases](olmec-oracle.webp "The fascination with a technology that flatters and pleases")
 
-Consequently, to use an LLM as the hermeneutic engine for my app, I arrived, after a series of iterations, at this prompt:
+Because sycophancy is baked into modern LLM weights, prompt engineering alone cannot magically eliminate it. Instead, the CSHC protocol mitigates both hallucination and sycophancy across two distinct layers:
+
+* **Structural (architectural) constraints:** All hexagram calculations, moving-line transformations, and Earlier Heaven (Fuxi) mappings are executed deterministically outside the model inside the Cloudflare Worker. The authoritative Richard Wilhelm canonical texts (Judgment, Image, moving lines, and commentaries) are injected directly into the `userPayload`, preventing the model from fabricating passages or cherry-picking convenient verses from parametric memory. Moreover, every inference call is strictly stateless, with zero conversational history or user profile to flatter.
+* **Behavioral (prompt) constraints:** On top of that deterministic scaffolding, the system prompt enforces explicit negative rules against flattery, absolute statements, AI clichés, and bullet-point formatting, while requiring dialectical analysis of moving lines and closing with reflective questions that return agency to the consultant.
+
+As of this writing, the Hermeneutic Engine runs on Cloudflare Workers AI using `@cf/deepseek-ai/deepseek-v4.1-flash-1017` (subject to change as platform models evolve, with the active endpoint always documented in the open-source `worker.js`). After a series of iterations, I arrived at the following two-part prompt architecture (`systemPrompt` and `userPayload`):
+
 
 ```
 You are 黛灵娜, an I Ching counselor with decades of experience. Your wisdom is deep but humble: you do not possess all the answers, and your role is to offer a perspective that the user must examine for themselves. Your tone is firm but never severe; you avoid both empty flattery and unnecessary harshness. You speak with clarity and, when it fits, you use proverbs or natural turns of phrase from the language in which you write. Your voice is sober, close, and respectful of the consultant's intelligence.
@@ -208,9 +236,11 @@ The genesis of this protocol - from the Odyssey 2 and the "Computer Intro" manua
 
 ---
 
-## Empirical Validation: Stress-Testing the Protocol
+## Illustrative Case Study: Stress-Testing the Protocol
 
-An architecture designed to eliminate AI sycophancy cannot be evaluated on theory alone; it must be subjected to a real-world stress test. To verify the behavior of the CSHC protocol - and allow any reader to audit the quality of its reports - I submitted my own architecture to the judgment of the oracle with a direct question: whether readings generated through Kinesthetic Entropy Capture (KEC) and a constrained LLM are valid and respect the functional principles of the I Ching.
+An architecture designed to mitigate AI sycophancy cannot be evaluated on theory alone; it must be subjected to a real-world stress test[^2]. To verify the behavior of the CSHC protocol - and allow any reader to audit the quality of its reports - I submitted my own architecture to the judgment of the oracle with a direct question: whether readings generated through Kinesthetic Entropy Capture (KEC) and a constrained LLM are valid and respect the functional principles of the I Ching.
+
+[^2]: **Methodological Scope:** This self-referential consultation ($N=1$) is presented as a qualitative, illustrative stress test rather than a controlled statistical benchmark.
 
 The result of the consultation was **[Hexagram 25]({{< relref "hexagramas/hex25" >}}) (無妄 - Wú Wàng, Innocence)** with the first line moving, mutating into **[Hexagram 12]({{< relref "hexagramas/hex12" >}}) (否 - Pǐ, Standstill)**. Far from validating the project with the usual enthusiasm of a commercial chatbot, the Hermeneutic Engine exerted the exact cognitive friction it was designed for: it questioned the purity of the original intention behind the application, warned against the risk that the urge to "repair" the transmission of the oracle might degenerate into overcorrection or control, and pointed out that any excessive rigidity in the design would end up triggering the stagnation of Hexagram 12, in which "heaven and earth do not communicate."
 
@@ -228,14 +258,16 @@ To capture genuine kinesthetic entropy and bypass the ego's context window, the 
 
 To achieve this isolation, the CSHC protocol employs a "Blind Proxy" architecture deployed via Cloudflare Workers. Rather than routing the consultant's highly personal query through centralized third-party APIs, the Hermeneutic Engine operates entirely at the network edge (Edge AI). 
 
-The user's input and the resulting hexagram are processed by the constrained LLM running directly on the edge node closest to the consultant. The data never crosses into centralized corporate databases, ensuring the LLM acts strictly as an interpreter between the oracle and the common lay-person. Once the interpretation is generated and delivered to the client, the session state is instantly destroyed.
+The user's input and the resulting hexagram are processed by the constrained LLM executed within Cloudflare's distributed edge inference network (Cloudflare Workers AI). The query never enters centralized third-party application databases, ensuring the LLM acts strictly as an interpreter between the oracle and the consultant. Once the interpretation is generated and delivered to the client, the ephemeral V8 isolate's session state is immediately destroyed.
 
 ### Zero Personal Data Collection
 
-The system enforces a mathematically guaranteed zero-extraction policy. The architecture operates under the following constraints:
-*   **No Identity Tracking:** IP addresses are neither logged nor associated with queries.
-*   **Cookie-Free Environment:** The protocol relies on local session execution, completely eliminating the need for tracking cookies or persistent user identifiers.
-*   **Sovereign Telemetry:** Analytics are handled exclusively via Umami, an open-source, privacy-focused telemetry system. Data collection is strictly limited to anonymous, aggregate operational metrics (e.g., timestamp, country, language, and interface modality) to ensure system health without compromising user identity.
+The system enforces an architecturally and contractually guaranteed zero-extraction policy - combining stateless edge execution with Cloudflare Workers AI's enterprise data-usage terms, which explicitly prohibit using customer inference payloads to train models (Cloudflare, 2026). The architecture operates under the following constraints:
+
+* **No Identity Tracking:** IP addresses are neither logged nor associated with queries.
+* **Cookie-Free Environment:** The protocol relies on local session execution, completely eliminating the need for tracking cookies or persistent user identifiers.
+* **Minimalist Operational Storage (Cloudflare D1):** To support bearer vouchers and monitor infrastructure health, the Worker connects to a minimal Cloudflare D1 database (`env.DB`) containing only two strictly non-personal tables: `gift_cards` (bearer voucher codes, remaining credit balances, and active status) and `consultas` (anonymous aggregate operational metrics: timestamp, country code, casting method, interface mode, language, version, and inference cost in neurons). User questions, cast hexagrams, moving lines, IP addresses, and generated interpretations are never written to D1 or any persistent storage.
+* **Sovereign Telemetry:** Web analytics are handled exclusively via Umami, an open-source, privacy-focused telemetry system that collects only anonymous, aggregate traffic metrics without compromising user identity. 
 
 ### Identityless Access and Sovereign Monetization
 
@@ -245,12 +277,27 @@ The platform operates on a strict "no sign-in" architecture; it does not collect
 
 ### Open-Source Auditability
 
-Trust in a decentralized, non-deterministic decision-making framework cannot rely on corporate promises. The CSHC architecture mandates total transparency. The complete codebase - including the Cloudflare Worker execution logic, the Kinesthetic Entropy Capture (KEC) algorithms, and the Hermeneutic Engine's system prompts - is fully open-source. By publishing the infrastructure, the protocol invites developers, cryptographers, and philosophers to independently audit the codebase, verifying that the CSHC operates exactly as described without hidden data pipelines.
+Trust in a stateless, edge-distributed decision-making framework cannot rely on corporate promises. The CSHC architecture mandates total transparency. The complete codebase - including the Cloudflare Worker execution logic, the Kinesthetic Entropy Capture (KEC) algorithms, and the Hermeneutic Engine's system prompts - is fully open-source. By publishing the infrastructure, the protocol invites developers, cryptographers, and philosophers to independently audit the codebase, verifying that the CSHC operates exactly as described without hidden data pipelines.
 
 ---
 
-### Cryptographic Proof of Authorship
+## Provenance and Structural Integrity
 
-This white paper establishes the Prior Art for the Constrained Stochastic Hermeneutical Computing (CSHC) protocol. Its authorship, publication timestamp, and structural integrity are cryptographically sealed via Git's immutable version control history.
+This white paper establishes the Prior Art for the Constrained Stochastic Hermeneutical Computing (CSHC) protocol. Its structural integrity is cryptographically sealed via Git's SHA-1 content-addressed version history, while its public timestamp and enduring scholarly record are anchored through the public GitHub repository and formal DOI registration.
 
-**Immutable Verification:** [Audit the genesis commit hash on GitHub](https://github.com/ichingon/ichingon.github.io/commit/855b64532fb065bfb7db0ab97e2abd1a97b196ff)
+**Genesis Commit Verification:** `855b64532fb065bfb7db0ab97e2abd1a97b196ff` ([Audit on GitHub](https://github.com/ichingon/ichingon.github.io/commit/855b64532fb065bfb7db0ab97e2abd1a97b196ff))
+
+---
+
+## References
+
+* Cheng, M., Lee, C., Khadpe, P., Yu, S., Han, D., & Jurafsky, D. (2026). Sycophantic AI decreases prosocial intentions and promotes dependence. *Science*, *391*(6792). https://doi.org/10.1126/science.aec8352
+* Cloudflare. (2026). *Workers AI: Data usage*. Cloudflare Docs. https://developers.cloudflare.com/workers-ai/platform/data-usage/
+* Feistel, H. (1973). Cryptography and computer privacy. *Scientific American*, *228*(5), 15-23.
+* Fowler, G., Noll, L. C., & Vo, K.-P. (1991). *FNV Hash*. http://www.isthe.com/chongo/tech/comp/fnv/
+* Lindemann, F. (1882). Über die Zahl $\pi$. *Mathematische Annalen*, *20*(2), 213-225.
+* Shannon, C. E. (1949). Communication theory of secrecy systems. *Bell System Technical Journal*, *28*(4), 656-715.
+* Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., ... Perez, E. (2023). *Towards understanding sycophancy in language models* (arXiv:2310.13548). arXiv. https://arxiv.org/abs/2310.13548
+* Watson, M. (Ed.). (2017). *Web Cryptography API*. W3C Recommendation. https://www.w3.org/TR/WebCryptoAPI/
+* Webster, A. F., & Tavares, S. E. (1985). On the design of S-boxes. In *Advances in Cryptology - CRYPTO '85* (pp. 523-534). Springer.
+* Wilhelm, R., & Baynes, C. F. (Trans.). (1950). *The I Ching, or Book of Changes*. Princeton University Press.

@@ -1,0 +1,7 @@
+{
+  "callback": "https://api.blink.sv/lnurlp/dailingna?",
+  "maxSendable": 1000000000,
+  "minSendable": 1000,
+  "metadata": "[[\"text/plain\",\"Zaps para dailingna@elichingon.com\"]]",
+  "tag": "payRequest"
+}

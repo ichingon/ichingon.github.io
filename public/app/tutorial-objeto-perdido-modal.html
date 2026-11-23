@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial Onboarding - Objetos Perdidos</title>
+<style>
+    :root {
+      background: transparent !important;
+      color-scheme: dark;
+    }
+    html, body {
+      margin: 0; padding: 0; width: 100%; height: 100%;
+      background: transparent !important;
+      background-color: transparent !important;
+    }
+
+    .overlay { display: flex; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3); justify-content: center; align-items: center; padding: 16px; box-sizing: border-box; }
+
+    .modal-box { background: rgba(20, 20, 20, 0.98); border: 1px solid #333; max-width: 400px; width: 100%; padding: 20px; border-radius: 4px; text-align: center; position: relative; box-sizing: border-box; box-shadow: 0 10px 30px rgba(0,0,0,0.8); font-family: sans-serif; max-height: 90vh; overflow-y: auto; }
+
+    .close-btn { position: absolute; top: 12px; right: 16px; background: none; border: none; color: #888; font-size: 1.2rem; cursor: pointer; }
+    .tutorial-slide { display: none; }
+
+    .tutorial-img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid #444;
+      margin-bottom: 12px;
+    }
+
+    .btn-action { width: 100%; padding: 12px; border-radius: 2px; cursor: pointer; background-color: #f59e0b; border: 1px solid #d97706; color: #111827; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s; }
+    .btn-action:hover { opacity: 0.9; }
+    .btn-skip { background: none; border: none; color: #666; font-size: 0.8rem; text-decoration: underline; cursor: pointer; margin-top: 12px; }
+
+    .categoria-bloque {
+      text-align: left;
+      background: rgba(255,255,255,0.03);
+      border-left: 2px solid #f59e0b;
+      padding: 8px 10px;
+      margin-bottom: 8px;
+      border-radius: 2px;
+    }
+    .categoria-bloque strong {
+      display: block;
+      color: #f59e0b;
+      font-size: 0.82rem;
+      margin-bottom: 3px;
+    }
+    .categoria-bloque p {
+      font-size: 0.78rem;
+      color: #ccc;
+      line-height: 1.4;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="overlay">
+  <div class="modal-box">
+    <button type="button" class="close-btn" onclick="cerrar()">&times;</button>
+
+    <div id="slide1" class="tutorial-slide" style="display: block;">
+      <h3 id="tut-title1" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <img src="/img/objperdido1.webp" alt="Ilustración inicial" class="tutorial-img">
+      <p id="tut-desc1" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="nextSlide(2)" id="tut-btn1"></button>
+    </div>
+
+    <div id="slide2" class="tutorial-slide">
+      <h3 id="tut-title2" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <p id="tut-desc2" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="nextSlide(3)" id="tut-btn2"></button>
+    </div>
+
+    <div id="slide3" class="tutorial-slide">
+      <h3 id="tut-title3" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <img src="/img/ichingapp3.webp" alt="Descripción del objeto" class="tutorial-img">
+      <p id="tut-desc3" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="nextSlide(4)" id="tut-btn3"></button>
+    </div>
+
+    <div id="slide4" class="tutorial-slide">
+      <h3 id="tut-title4" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <p id="tut-desc4" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 12px;"></p>
+
+      <div class="categoria-bloque">
+        <strong id="cat1-title"></strong>
+        <p id="cat1-desc"></p>
+      </div>
+      <div class="categoria-bloque">
+        <strong id="cat2-title"></strong>
+        <p id="cat2-desc"></p>
+      </div>
+      <div class="categoria-bloque">
+        <strong id="cat3-title"></strong>
+        <p id="cat3-desc"></p>
+      </div>
+      <div class="categoria-bloque">
+        <strong id="cat4-title"></strong>
+        <p id="cat4-desc"></p>
+      </div>
+
+      <p id="tut-cierre4" style="font-size: 0.78rem; color: #999; line-height: 1.4; margin: 12px 0 16px 0; font-style: italic;"></p>
+      <button type="button" class="btn-action" onclick="nextSlide(5)" id="tut-btn4"></button>
+    </div>
+
+    <div id="slide5" class="tutorial-slide">
+      <h3 id="tut-title5" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <img src="/img/ichingapp4.webp" alt="Generación de entropía" class="tutorial-img">
+      <p id="tut-desc5" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="nextSlide(6)" id="tut-btn5"></button>
+    </div>
+
+    <div id="slide6" class="tutorial-slide">
+      <h3 id="tut-title6" style="font-size: 1.1rem; color: #fff; margin-top: 0; margin-bottom: 10px;"></h3>
+      <p id="tut-desc6" style="font-size: 0.85rem; color: #ccc; line-height: 1.4; margin-bottom: 16px;"></p>
+      <button type="button" class="btn-action" onclick="cerrar()" id="tut-btn6"></button>
+    </div>
+
+    <button type="button" class="btn-skip" id="tut-skip" onclick="cerrar()"></button>
+  </div>
+</div>
+
+<script>
+  var I18N_TUTORIAL = {
+    es: {
+      t1: "¿Buscas algo que se ha perdido?",
+      d1: "Cuando un objeto importante desaparece, la mente se llena de ruido: dónde lo dejé, quién lo movió, si todavía está cerca. La búsqueda se vuelve ansiosa y repetitiva. Esta consulta no adivina el futuro ni promete que encontrarás lo que buscas, pero te ofrece un mapa de las fuerzas en juego: si el objeto está cerca o lejos, si alguien lo movió, si está oculto o a la vista, y hacia dónde conviene dirigir la búsqueda. Es una forma de mirar la pérdida con más calma y menos obsesión.",
+      t2: "100% privado y anónimo",
+      d2: "No necesitas registrarte ni dar tu correo electrónico. No recopilamos datos personales. La descripción que escribas sobre la pérdida se usa solo para generar la interpretación y no se guarda con tu identidad. Tu consulta es completamente tuya.",
+      t3: "Describe qué buscas y qué pasó",
+      d3: "Antes de empezar, piensa con claridad qué objeto buscas y en qué circunstancias se perdió. En la pantalla siguiente escribirás el nombre del objeto (por ejemplo, \"llaves de casa\" o \"libretas de trabajo\") y, si quieres, un contexto breve: dónde lo viste por última vez, quién más estaba, si hubo prisa o estrés. Cuanto más claro sea el contexto, más útil será la lectura.",
+      t4: "Elige bien el tipo de objeto",
+      d4: "El sistema necesita saber qué tipo de cosa buscas, porque de eso depende qué línea del hexagrama la representa. Estas son las cuatro categorías, con ejemplos comunes.",
+      cat1: "Documentos e infraestructura",
+      cat1d: "Papeles, libretas, contratos, llaves de casa, llaves del carro, documentos de identidad, pasaporte, licencia de conducir, bicicleta, coche, moto. También la cartera cuando contiene documentos y tarjetas de banco, porque lo que importa recuperar son los papeles.",
+      cat2: "Objetos de valor",
+      cat2d: "Dinero en efectivo, joyas, relojes caros, teléfono móvil, cartera con dinero y sin documentos, obras de arte, instrumentos musicales de valor, colecciones.",
+      cat3: "Animales y mascotas",
+      cat3d: "Perros, gatos, aves, peces, cualquier animal que se haya escapado o perdido, mascotas en general.",
+      cat4: "Objetos de uso común",
+      cat4d: "Lentes, gafas de sol, paraguas, bolígrafo, cargador, audífonos, herramientas pequeñas, ropa, mochila vacía, cosas que compartes con otros o que no son claramente tuyas.",
+      cierre4: "Si dudas entre dos categorías, piensa en la función principal del objeto: ¿es un documento o una herramienta que te permite funcionar? ¿Es riqueza? ¿Es un animal? ¿Es de uso personal cotidiano? Con eso sabrás dónde ponerlo.",
+      t5: "Tú generas la respuesta",
+      d5: "Para consultar, concéntrate en el objeto perdido mientras dibujas trazos continuos en la pantalla. Eso genera la entropía necesaria. Cuando el botón se active, presiónalo para fijar la línea. Repite el proceso seis veces para completar el hexagrama. Si prefieres usar monedas propias o registrar una tirada hecha antes, puedes activar la entrada manual en las opciones avanzadas.",
+      t6: "Obtén tu informe y la lectura de la IA",
+      d6: "Al terminar, verás una tabla con las seis líneas del hexagrama. Cada línea muestra su valor, el tipo (yin o yang, estática o móvil), su elemento, la relación que tiene con el objeto perdido, el espíritu que la acompaña y su posición dentro del conjunto. Esa tabla es la base del informe gratuito que puedes descargar. Si quieres una interpretación en lenguaje claro —dónde buscar, por qué no aparece, qué conviene hacer—, puedes solicitar la lectura asistida por IA usando tu cupo diario gratuito o un código de gift card.",
+      btnNext: "Siguiente",
+      btnStart: "Entendido, empezar",
+      btnSkip: "Saltar tutorial"
+    },
+    en: {
+      t1: "Looking for something you've lost?",
+      d1: "When an important object disappears, the mind fills with noise: where did I leave it, who moved it, is it still nearby. The search becomes anxious and repetitive. This consultation does not predict the future or promise you will find what you seek, but it offers a map of the forces at play: whether the object is near or far, whether someone moved it, whether it is hidden or in plain sight, and where to direct your search. It is a way of looking at the loss with more calm and less obsession.",
+      t2: "100% private and anonymous",
+      d2: "You don't need to register or give your email. We don't collect personal data. The description you write about the loss is used only to generate the interpretation and is not stored with your identity. Your consultation is entirely yours.",
+      t3: "Describe what you're looking for and what happened",
+      d3: "Before starting, think clearly about which object you're looking for and the circumstances in which it was lost. On the next screen you'll write the object's name (for example, \"house keys\" or \"work notebooks\") and, if you want, a brief context: where you last saw it, who else was there, whether there was haste or stress. The clearer the context, the more useful the reading.",
+      t4: "Choose the right type of object",
+      d4: "The system needs to know what type of thing you're looking for, because that determines which line of the hexagram represents it. These are the four categories, with common examples.",
+      cat1: "Documents and infrastructure",
+      cat1d: "Papers, notebooks, contracts, house keys, car keys, identity documents, passport, driver's license, bicycle, car, motorcycle. Also the wallet when it contains documents and bank cards, because what matters most to recover are the papers.",
+      cat2: "Valuables",
+      cat2d: "Cash, jewelry, expensive watches, mobile phone, wallet with money and no documents, artworks, valuable musical instruments, collections.",
+      cat3: "Animals and pets",
+      cat3d: "Dogs, cats, birds, fish, any animal that has escaped or been lost, pets in general.",
+      cat4: "Common use objects",
+      cat4d: "Glasses, sunglasses, umbrella, pen, charger, headphones, small tools, clothing, empty backpack, things you share with others or that aren't clearly yours.",
+      cierre4: "If you hesitate between two categories, think about the object's main function: is it a document or a tool that allows you to function? Is it wealth? Is it an animal? Is it for daily personal use? With that, you'll know where to place it.",
+      t5: "You generate the answer",
+      d5: "To consult, concentrate on the lost object while drawing continuous strokes on the screen. That generates the necessary entropy. When the button activates, press it to fix the line. Repeat the process six times to complete the hexagram. If you prefer to use your own coins or record a previous cast, you can enable manual input in the advanced options.",
+      t6: "Get your report and the AI reading",
+      d6: "When you finish, you'll see a table with the six lines of the hexagram. Each line shows its value, its type (yin or yang, static or moving), its element, its relationship to the lost object, the spirit that accompanies it, and its position within the whole. That table is the basis of the free report you can download. If you want an interpretation in plain language — where to search, why it hasn't appeared, what to do — you can request the AI-assisted reading using your free daily slot or a gift card code.",
+      btnNext: "Next",
+      btnStart: "Understood, begin",
+      btnSkip: "Skip tutorial"
+    },
+    de: {
+      t1: "Suchst du etwas, das du verloren hast?",
+      d1: "Wenn ein wichtiger Gegenstand verschwindet, füllt sich der Geist mit Lärm: Wo habe ich ihn gelassen, wer hat ihn bewegt, ist er noch in der Nähe. Die Suche wird ängstlich und repetitiv. Diese Konsultation sagt nicht die Zukunft voraus und verspricht nicht, dass du finden wirst, was du suchst, aber sie bietet dir eine Landkarte der wirkenden Kräfte: ob der Gegenstand nah oder fern ist, ob jemand ihn bewegt hat, ob er verborgen oder sichtbar ist und wohin du deine Suche lenken solltest. Es ist eine Möglichkeit, den Verlust mit mehr Ruhe und weniger Besessenheit zu betrachten.",
+      t2: "100% privat und anonym",
+      d2: "Du musst dich nicht registrieren und keine E-Mail-Adresse angeben. Wir sammeln keine persönlichen Daten. Die Beschreibung, die du über den Verlust schreibst, wird nur zur Erstellung der Interpretation verwendet und nicht mit deiner Identität gespeichert. Deine Konsultation gehört ganz dir.",
+      t3: "Beschreibe, was du suchst und was passiert ist",
+      d3: "Bevor du beginnst, überlege klar, welchen Gegenstand du suchst und unter welchen Umständen er verloren ging. Auf dem nächsten Bildschirm schreibst du den Namen des Gegenstands (zum Beispiel \"Haustürschlüssel\" oder \"Arbeitshefte\") und, wenn du möchtest, einen kurzen Kontext: wo du ihn zuletzt gesehen hast, wer sonst noch da war, ob es Eile oder Stress gab. Je klarer der Kontext, desto nützlicher die Lesung.",
+      t4: "Wähle die richtige Art des Gegenstands",
+      d4: "Das System muss wissen, welche Art von Ding du suchst, denn davon hängt ab, welche Linie des Hexagramms ihn repräsentiert. Dies sind die vier Kategorien, mit häufigen Beispielen.",
+      cat1: "Dokumente und Infrastruktur",
+      cat1d: "Papiere, Hefte, Verträge, Haustürschlüssel, Autoschlüssel, Ausweisdokumente, Reisepass, Führerschein, Fahrrad, Auto, Motorrad. Auch die Geldbörse, wenn sie Dokumente und Bankkarten enthält, denn was am wichtigsten wiederzufinden ist, sind die Papiere.",
+      cat2: "Wertgegenstände",
+      cat2d: "Bargeld, Schmuck, teure Uhren, Mobiltelefon, Geldbörse mit Geld und ohne Dokumente, Kunstwerke, wertvolle Musikinstrumente, Sammlungen.",
+      cat3: "Tiere und Haustiere",
+      cat3d: "Hunde, Katzen, Vögel, Fische, jedes Tier, das entlaufen oder verloren gegangen ist, Haustiere im Allgemeinen.",
+      cat4: "Gegenstände des täglichen Gebrauchs",
+      cat4d: "Brille, Sonnenbrille, Regenschirm, Stift, Ladegerät, Kopfhörer, kleine Werkzeuge, Kleidung, leerer Rucksack, Dinge, die du mit anderen teilst oder die nicht eindeutig dir gehören.",
+      cierre4: "Wenn du zwischen zwei Kategorien schwankst, denke an die Hauptfunktion des Gegenstands: Ist es ein Dokument oder ein Werkzeug, das dir ermöglicht zu funktionieren? Ist es Reichtum? Ist es ein Tier? Ist es für den täglichen persönlichen Gebrauch? Damit weißt du, wo du es einordnen kannst.",
+      t5: "Du erzeugst die Antwort",
+      d5: "Um zu konsultieren, konzentriere dich auf den verlorenen Gegenstand, während du kontinuierliche Striche auf dem Bildschirm zeichnest. Das erzeugt die notwendige Entropie. Wenn die Schaltfläche aktiv wird, drücke sie, um die Linie zu fixieren. Wiederhole den Vorgang sechs Mal, um das Hexagramm zu vervollständigen. Wenn du lieber eigene Münzen verwenden oder einen früheren Wurf eintragen möchtest, kannst du die manuelle Eingabe in den erweiterten Optionen aktivieren.",
+      t6: "Erhalte deinen Bericht und die KI-Lesung",
+      d6: "Wenn du fertig bist, siehst du eine Tabelle mit den sechs Linien des Hexagramms. Jede Linie zeigt ihren Wert, ihren Typ (Yin oder Yang, statisch oder bewegt), ihr Element, ihre Beziehung zum verlorenen Gegenstand, den begleitenden Geist und ihre Position im Ganzen. Diese Tabelle ist die Grundlage des kostenlosen Berichts, den du herunterladen kannst. Wenn du eine Interpretation in klarer Sprache möchtest — wo suchen, warum er nicht erscheint, was zu tun ist —, kannst du die KI-gestützte Lesung mit deinem kostenlosen Tageskontingent oder einem Gift-Card-Code anfordern.",
+      btnNext: "Weiter",
+      btnStart: "Verstanden, beginnen",
+      btnSkip: "Tutorial überspringen"
+    }
+  };
+
+  var params = new URLSearchParams(window.location.search);
+  var lang = params.get('lang') || 'es';
+  if (!I18N_TUTORIAL[lang]) lang = 'es';
+
+  var startSlide = parseInt(params.get('slide')) || 1;
+  var dict = I18N_TUTORIAL[lang];
+
+  // Slides 1 a 6
+  for (var i = 1; i <= 6; i++) {
+    document.getElementById('tut-title' + i).innerText = dict['t' + i];
+    document.getElementById('tut-desc' + i).innerText = dict['d' + i];
+    document.getElementById('tut-btn' + i).innerText = (i === 6) ? dict.btnStart : dict.btnNext;
+  }
+
+  // Slide 4: categorías
+  document.getElementById('cat1-title').innerText = dict.cat1;
+  document.getElementById('cat1-desc').innerText = dict.cat1d;
+  document.getElementById('cat2-title').innerText = dict.cat2;
+  document.getElementById('cat2-desc').innerText = dict.cat2d;
+  document.getElementById('cat3-title').innerText = dict.cat3;
+  document.getElementById('cat3-desc').innerText = dict.cat3d;
+  document.getElementById('cat4-title').innerText = dict.cat4;
+  document.getElementById('cat4-desc').innerText = dict.cat4d;
+  document.getElementById('tut-cierre4').innerText = dict.cierre4;
+
+  document.getElementById('tut-skip').innerText = dict.btnSkip;
+
+  function nextSlide(num) {
+    document.querySelectorAll('.tutorial-slide').forEach(function(el) { el.style.display = 'none'; });
+    var targetSlide = document.getElementById('slide' + num);
+    if (targetSlide) targetSlide.style.display = 'block';
+  }
+
+  function cerrar() {
+    window.parent.postMessage({ type: 'CLOSE_TUTORIAL' }, '*');
+  }
+
+  nextSlide(startSlide);
+</script>
+</body>
+</html>
