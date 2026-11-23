@@ -13,7 +13,9 @@ slug: "i-chingon-whitepaper"
 ---
 
 {{< math >}}
-**Resumen.** Este documento propone un marco de toma de decisiones sin estado, no determinista y computado en el borde - la Computación Hermenéutica Estocástica Constreñida (CSHC) - que resuelve la complacencia inherente de los Grandes Modelos de Lenguaje (LLM) comerciales y las limitaciones deterministas de la generación de números pseudoaleatorios. Mediante la Captura de Entropía Cinestésica (KEC) para aprovechar el movimiento físico humano, el sistema establece un filtro cinestésico del lado del cliente contra el sesgo cognitivo y la proyección del ego. Esta entropía cruda se procesa a través de un motor de razonamiento de estados finitos basado en el I Ching, mapeando los datos sobre un espacio semántico combinatorio discreto de 4.096 estados para computar causalidad estructural. Finalmente, un LLM estrictamente constreñido y computado en el borde actúa como un traductor hermenéutico neutral, tendiendo un puente entre la salida algorítmica y el contexto del usuario. El resultado es un protocolo matemáticamente riguroso y centrado en la privacidad que procesa el caos físico en conocimiento accionable sin extracción centralizada de datos ni adulación de la IA.
+**Resumen.** Este documento establece la Computación Hermenéutica Estocástica Constreñida (CSHC), un estándar para consultas de oráculo asistidas por IA como el I Ching, diseñado para evitar la complacencia y las alucinaciones de los Grandes Modelos de Lenguaje (LLM) sin restricciones, la pseudoaleatoriedad sintética y la exposición de los datos personales del usuario. Para calificar como CSHC, un sistema de consulta oracular debe cumplir cuatro condiciones: (1) Captura de Entropía Cinestésica (KEC), empleando el movimiento físico del usuario en lugar de la pseudoaleatoriedad determinista para introducir un filtro interactivo frente a la proyección del ego y el sesgo cognitivo; (2) un motor simbólico de estados estructurado, ejemplificado en el espacio de 4.096 estados del I Ching, que canalice el azar a través de dinámicas estructurales coherentes en vez de ruido sin estructura; (3) un LLM hermenéutico estrictamente constreñido, vinculado a un corpus canónico o de referencia cerrado, reglas fijas de interpretación y restricciones anti-complacencia; y (4) extracción cero de datos personales, sin registros, sin scripts de rastreo, sin historial almacenado de consultas personales y con ejecución en el borde para evitar que las consultas oraculares se usen como datos de entrenamiento. Aplicado aquí a una herramienta de consulta del I Ching, el CSHC ofrece un criterio verificable que separa una interpretación oracular disciplinada y privada de los wrappers de IA banales, aduladores o extractivos de datos.
+
+DOI Oficial: 10.5281/zenodo.24483432 (Versiones archivadas en PDF en español, inglés y alemán disponibles en Zenodo)
 
 ---
 
@@ -198,7 +200,7 @@ Los LLM, sin embargo, tienen dos fallos estructurales bien documentados. En prim
 
 Debido a que la complacencia está incrustada en los pesos de los LLM modernos, la ingeniería de prompts por sí sola no puede eliminarla mágicamente. En su lugar, el protocolo CSHC mitiga tanto las alucinaciones como la complacencia en dos capas distintas:
 
-* **Restricciones estructurales (arquitectónicas):** Todos los cálculos de hexagramas, transformaciones de líneas móviles y mapeos del Cielo Anterior (Fuxi) se ejecutan de forma determinista fuera del modelo dentro del Cloudflare Worker. Los textos canónicos autorizados de Richard Wilhelm (Dictamen, Imagen, líneas móviles y comentarios) se inyectan directamente en el `userPayload`, impidiendo que el modelo fabrique pasajes o seleccione a conveniencia versos de su memoria paramétrica. Además, cada llamada de inferencia es estrictamente sin estado (*stateless*), sin historial conversacional ni perfil de usuario que adular.
+* **Restricciones estructurales (arquitectónicas):** Todos los cálculos de hexagramas, transformaciones de líneas móviles y mapeos del Cielo Anterior (Fuxi) se ejecutan de forma determinista fuera del modelo dentro del Cloudflare Worker. Los textos canónicos autorizados de Richard Wilhelm (1924) (Dictamen, Imagen, líneas móviles y comentarios) se inyectan directamente en el `userPayload`, impidiendo que el modelo fabrique pasajes o seleccione a conveniencia versos de su memoria paramétrica. Además, cada llamada de inferencia es estrictamente sin estado (*stateless*), sin historial conversacional ni perfil de usuario que adular.
 * **Restricciones conductuales (prompt):** Sobre ese andamiaje determinista, el prompt del sistema impone reglas negativas explícitas contra la adulación, las afirmaciones absolutas, los clichés de IA y el formato de viñetas, al tiempo que exige un análisis dialéctico de las líneas móviles y cierra con preguntas reflexivas que devuelven la agencia al consultante.
 
 Al momento de redactar este documento, el Motor Hermenéutico se ejecuta en Cloudflare Workers AI utilizando `@cf/deepseek-ai/deepseek-v4.1-flash-1017` (sujeto a cambios a medida que evolucionan los modelos de la plataforma, con el endpoint activo siempre documentado en el `worker.js` de código abierto). Tras una serie de iteraciones, llegué a la siguiente arquitectura de prompt en dos partes (`systemPrompt` y `userPayload`):
@@ -284,7 +286,8 @@ La confianza en un marco de toma de decisiones sin estado y distribuido en el bo
 
 Este libro blanco establece el *Prior Art* (Arte Previo) del protocolo Constrained Stochastic Hermeneutical Computing (CSHC). Su integridad estructural está sellada criptográficamente mediante el historial de versiones direccionado por contenido SHA-1 de Git, mientras que su marca temporal pública y su registro académico perdurable están anclados a través del repositorio público en GitHub y el registro formal de DOI.
 
-**Verificación del Commit Génesis:** `855b64532fb065bfb7db0ab97e2abd1a97b196ff` ([Auditar en GitHub](https://github.com/ichingon/ichingon.github.io/commit/855b64532fb065bfb7db0ab97e2abd1a97b196ff))
+* **Verificación Inmutable:** [Auditar el hash del commit génesis en GitHub](https://github.com/ichingon/ichingon.github.io/commit/855b64532fb065bfb7db0ab97e2abd1a97b196ff)
+* **Registro DOI Permanente:** [10.5281/zenodo.24483432](https://doi.org/10.5281/zenodo.24483432)
 
 ---
 
@@ -299,4 +302,4 @@ Este libro blanco establece el *Prior Art* (Arte Previo) del protocolo Constrain
 * Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., ... Perez, E. (2023). *Towards understanding sycophancy in language models* (arXiv:2310.13548). arXiv. https://arxiv.org/abs/2310.13548
 * Watson, M. (Ed.). (2017). *Web Cryptography API*. W3C Recommendation. https://www.w3.org/TR/WebCryptoAPI/
 * Webster, A. F., & Tavares, S. E. (1985). On the design of S-boxes. In *Advances in Cryptology - CRYPTO '85* (pp. 523-534). Springer.
-* Wilhelm, R., & Baynes, C. F. (Trans.). (1950). *The I Ching, or Book of Changes*. Princeton University Press.
+* Wilhelm, R. (Trans.). (1924). I Ging: Das Buch der Wandlungen. Eugen Diederichs Verlag.

@@ -13,7 +13,9 @@ slug: "i-chingon-whitepaper"
 ---
 
 {{< math >}}
-**Abstract.** This paper proposes a stateless, non-deterministic, edge-computed decision-making framework - Constrained Stochastic Hermeneutical Computing (CSHC) - that resolves the inherent sycophancy of commercial Large Language Models (LLMs) and the deterministic limitations of pseudo-random number generation. By utilizing Kinesthetic Entropy Capture (KEC) to harness physical human movement, the system establishes a client-side kinesthetic filter against cognitive bias and ego projection. This raw entropy is processed through a finite-state reasoning engine based on the I Ching, mapping the data onto a 4,096-state discrete combinatorial semantic space to compute structural causality. Finally, an edge-computed, strictly constrained LLM acts as a neutral hermeneutic translator, bridging the algorithmic output with the user's context. The result is a mathematically rigorous, privacy-first protocol that processes physical chaos into actionable insight without centralized data extraction or AI adulation.
+**Abstract.** This paper establishes Constrained Stochastic Hermeneutical Computing (CSHC), a standard for AI-assisted oracle consultations such as the I Ching, designed to prevent the sycophancy and hallucinations of unguarded Large Language Models (LLMs), synthetic pseudo-randomness, and the exposure of the user's personal data. To qualify as CSHC, an oracle consultation system must satisfy four conditions: (1) Kinesthetic Entropy Capture (KEC), using physical user movement rather than deterministic pseudo-randomness to introduce an interactive filter against ego projection and cognitive bias; (2) a structured symbolic state engine - exemplified by the 4,096-state space of the I Ching -that channels chance through coherent structural dynamics rather than unstructured noise; (3) a strictly constrained hermeneutic LLM bound to a closed canonical or reference corpus, fixed rules of interpretation, and anti-sycophancy constraints; and (4) zero personal data extraction, with no sign-ups, no tracking scripts, no stored history of personal queries, and edge execution that keeps oracle consultations out of model training pipelines. Applied here to an I Ching consultation tool, CSHC provides a verifiable benchmark separating disciplined, private oracle interpretation from trite, flattering, or data-extractive AI wrappers.
+
+Official DOI: 10.5281/zenodo.24483432 (Archival PDF versions in English, Spanish, and German available via Zenodo)
 
 ---
 
@@ -198,7 +200,7 @@ LLMs, however, have two well-documented structural flaws. First, because they ar
 
 Because sycophancy is baked into modern LLM weights, prompt engineering alone cannot magically eliminate it. Instead, the CSHC protocol mitigates both hallucination and sycophancy across two distinct layers:
 
-* **Structural (architectural) constraints:** All hexagram calculations, moving-line transformations, and Earlier Heaven (Fuxi) mappings are executed deterministically outside the model inside the Cloudflare Worker. The authoritative Richard Wilhelm canonical texts (Judgment, Image, moving lines, and commentaries) are injected directly into the `userPayload`, preventing the model from fabricating passages or cherry-picking convenient verses from parametric memory. Moreover, every inference call is strictly stateless, with zero conversational history or user profile to flatter.
+* **Structural (architectural) constraints:** All hexagram calculations, moving-line transformations, and Earlier Heaven (Fuxi) mappings are executed deterministically outside the model inside the Cloudflare Worker. The authoritative Richard Wilhelm (1924) canonical texts (Judgment, Image, moving lines, and commentaries) are injected directly into the `userPayload`, preventing the model from fabricating passages or cherry-picking convenient verses from parametric memory. Moreover, every inference call is strictly stateless, with zero conversational history or user profile to flatter.
 * **Behavioral (prompt) constraints:** On top of that deterministic scaffolding, the system prompt enforces explicit negative rules against flattery, absolute statements, AI clichés, and bullet-point formatting, while requiring dialectical analysis of moving lines and closing with reflective questions that return agency to the consultant.
 
 As of this writing, the Hermeneutic Engine runs on Cloudflare Workers AI using `@cf/deepseek-ai/deepseek-v4.1-flash-1017` (subject to change as platform models evolve, with the active endpoint always documented in the open-source `worker.js`). After a series of iterations, I arrived at the following two-part prompt architecture (`systemPrompt` and `userPayload`):
@@ -285,7 +287,9 @@ Trust in a stateless, edge-distributed decision-making framework cannot rely on 
 
 This white paper establishes the Prior Art for the Constrained Stochastic Hermeneutical Computing (CSHC) protocol. Its structural integrity is cryptographically sealed via Git's SHA-1 content-addressed version history, while its public timestamp and enduring scholarly record are anchored through the public GitHub repository and formal DOI registration.
 
-**Genesis Commit Verification:** `855b64532fb065bfb7db0ab97e2abd1a97b196ff` ([Audit on GitHub](https://github.com/ichingon/ichingon.github.io/commit/855b64532fb065bfb7db0ab97e2abd1a97b196ff))
+* **Immutable Verification:** [Audit the genesis commit hash on GitHub](https://github.com/ichingon/ichingon.github.io/commit/855b64532fb065bfb7db0ab97e2abd1a97b196ff)
+
+* **Permanent DOI Record:** [10.5281/zenodo.24483432](https://doi.org/10.5281/zenodo.24483432)
 
 ---
 
@@ -300,4 +304,4 @@ This white paper establishes the Prior Art for the Constrained Stochastic Hermen
 * Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., ... Perez, E. (2023). *Towards understanding sycophancy in language models* (arXiv:2310.13548). arXiv. https://arxiv.org/abs/2310.13548
 * Watson, M. (Ed.). (2017). *Web Cryptography API*. W3C Recommendation. https://www.w3.org/TR/WebCryptoAPI/
 * Webster, A. F., & Tavares, S. E. (1985). On the design of S-boxes. In *Advances in Cryptology - CRYPTO '85* (pp. 523-534). Springer.
-* Wilhelm, R., & Baynes, C. F. (Trans.). (1950). *The I Ching, or Book of Changes*. Princeton University Press.
+* Wilhelm, R. (Trans.). (1924). I Ging: Das Buch der Wandlungen. Eugen Diederichs Verlag.
