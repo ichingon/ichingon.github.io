@@ -1,45 +1,172 @@
+{{- $lang := .Site.Language.Lang -}}
+{{- $orgId := printf "%s#organization" site.Home.Permalink -}}
+{{- $authorId := printf "%s#dailingna" site.Home.Permalink -}}
+
 {{ if .IsHome -}}
   <script type="application/ld+json">
   [
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": {{ site.Home.Permalink | safeURL }},
+      "@id": {{ printf "%s#website" site.Home.Permalink | safeURL }},
       "name": "{{ .Site.Title | safeJS }}",
       {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
       {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
       "url": {{ site.Home.Permalink | safeURL }},
-      {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
-      "publisher" : {
-        "@type": "Person",
-        "name": "{{ .Site.Params.Author.name | safeJS }}"
+      "publisher": {
+        "@type": "Organization",
+        "@id": {{ $orgId | safeURL }}
       }
     },
     {
       "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": {{ $orgId | safeURL }},
+      "name": "El I Chingón",
+      "alternateName": [
+        "El I Chingon",
+        "I Chingón",
+        "I Chingon",
+        "elichingon.com"
+      ],
+      "url": {{ site.Home.Permalink | safeURL }},
+      "logo": "https://elichingon.com/img/dailingna/dailingna.webp",
+      "founder": {
+        "@type": "Person",
+        "@id": {{ $authorId | safeURL }},
+        "name": "Dài Líng Nà (黛灵娜)"
+      },
+      {{- if eq $lang "es" }}
+      "description": "Plataforma de consulta del I Ching con privacidad estricta y repositorio de estudio y ensayos. El protocolo CSHC previene estructuralmente la complacencia y las alucinaciones de la IA mediante entropía cinestésica y textos canónicos de Richard Wilhelm.",
+      "disambiguatingDescription": "Proyecto digital de consulta del I Ching y repositorio de estudio bajo el protocolo CSHC, sin relación con restaurantes ni cantantes.",
+      "keywords": [
+        "I Ching",
+        "El I Chingón",
+        "consulta del I Ching",
+        "protocolo CSHC",
+        "Richard Wilhelm",
+        "Dài Líng Nà",
+        "privacidad",
+        "sin complacencia IA"
+      ]
+      {{- else if eq $lang "de" }}
+      "description": "Plattform für I-Ging-Konsultationen mit strikter Privatsphäre sowie Repository für Studium und Essays. Das CSHC-Protokoll verhindert strukturell KI-Schmeichelei und Halluzinationen durch kinästhetische Entropie und kanonische Texte von Richard Wilhelm.",
+      "disambiguatingDescription": "Digitales I-Ging-Konsultations- und Studienprojekt unter dem CSHC-Protokoll, ohne Bezug zu Restaurants oder Musikern.",
+      "keywords": [
+        "I Ging",
+        "I Ching",
+        "El I Chingón",
+        "I Ging Konsultation",
+        "CSHC-Protokoll",
+        "Richard Wilhelm",
+        "Dài Líng Nà",
+        "Datenschutz"
+      ]
+      {{- else }}
+      "description": "Private I Ching consultation platform and study and essay repository. The CSHC protocol structurally prevents AI sycophancy and hallucinations using kinesthetic entropy capture and Richard Wilhelm's canonical translations.",
+      "disambiguatingDescription": "Digital I Ching consultation platform and study repository under the CSHC protocol, unrelated to restaurants or musicians.",
+      "keywords": [
+        "I Ching",
+        "El I Chingón",
+        "I Ching consultation",
+        "CSHC protocol",
+        "Richard Wilhelm",
+        "Dài Líng Nà",
+        "privacy",
+        "anti-sycophancy AI"
+      ]
+      {{- end }},
+      "sameAs": [
+        "https://www.youtube.com/@ElIChingon",
+        "https://www.trustpilot.com/review/elichingon.com",
+        "https://github.com/ichingon/ichingon.github.io",
+        "https://t.me/ElIChingon",
+        "https://www.reddit.com/user/El_I_Chingon/",
+        "https://doi.org/10.5281/zenodo.24483432"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "SoftwareApplication",
+      "@id": {{ printf "%s#app" site.Home.Permalink | safeURL }},
       "name": "El I Chingón",
       "operatingSystem": "Web, PWA",
       "applicationCategory": "LifestyleApplication",
-      "description": "El I Chingón is an Augmented Intelligence tool for I Ching consultation. Its proprietary CSHC protocol structurally prevents AI sycophancy and hallucinated interpretations. It offers lateral thinking and decision-making tools with radical privacy: no login, no tracking, and 100% offline entropy.",
+      {{- if eq $lang "es" }}
+      "description": "Herramienta de consulta del I Ching bajo el protocolo CSHC para evitar respuestas complacientes o alucinaciones, con entropía cinestésica generada en el dispositivo del usuario, privacidad sin cuentas ni rastreo y acceso a los textos canónicos de Richard Wilhelm y ensayos originales.",
+      "keywords": [
+        "I Ching",
+        "app I Ching",
+        "consulta oracular I Ching",
+        "protocolo CSHC",
+        "entropía cinestésica",
+        "Richard Wilhelm",
+        "El I Chingón"
+      ],
+      "featureList": [
+        "Protocolo CSHC contra complacencia y alucinaciones",
+        "Captura de Entropía Cinestésica (KEC) en el cliente",
+        "Privacidad estricta sin inicio de sesión, cookies ni rastreo",
+        "Repositorio completo de los 64 hexagramas (traducción de Richard Wilhelm)",
+        "Ensayos originales, tutoriales e informes analíticos en PDF"
+      ]
+      {{- else if eq $lang "de" }}
+      "description": "I-Ging-Konsultationswerkzeug nach dem CSHC-Protokoll zur Vermeidung von Schmeichelei und Halluzinationen, mit kinästhetischer Entropieerfassung auf dem Gerät, Privatsphäre ohne Konto oder Tracking sowie Zugang zu Richard Wilhelms kanonischen Texten und Essays.",
+      "keywords": [
+        "I Ging",
+        "I Ching",
+        "I Ging App",
+        "I Ging Orakel",
+        "CSHC-Protokoll",
+        "kinästhetische Entropie",
+        "Richard Wilhelm",
+        "El I Chingón"
+      ],
+      "featureList": [
+        "CSHC-Protokoll gegen Schmeichelei und Halluzinationen",
+        "Clientseitige kinästhetische Entropieerfassung (KEC)",
+        "Strikte Privatsphäre ohne Login, Cookies oder Tracking",
+        "Vollständiges Repository der 64 Hexagramme (Übersetzung von Richard Wilhelm)",
+        "Eigene Essays, Anleitungen und strukturierte PDF-Berichte"
+      ]
+      {{- else }}
+      "description": "I Ching consultation tool under the CSHC protocol designed to prevent sycophancy and hallucinations, using client-side kinesthetic entropy capture, zero-login/zero-tracking privacy, and access to Richard Wilhelm's canonical translations and original essays.",
+      "keywords": [
+        "I Ching",
+        "I Ching app",
+        "I Ching oracle",
+        "CSHC protocol",
+        "kinesthetic entropy",
+        "Richard Wilhelm",
+        "El I Chingón"
+      ],
+      "featureList": [
+        "CSHC Protocol preventing AI sycophancy and hallucinations",
+        "Client-side Kinesthetic Entropy Capture (KEC)",
+        "Strict privacy with no logins, cookies, or tracking",
+        "Full repository of the 64 hexagrams (Richard Wilhelm translation)",
+        "Original essays, guides, and structured PDF reports"
+      ]
+      {{- end }},
       "url": {{ site.Home.Permalink | safeURL }},
+      "inLanguage": "{{ .Site.Language.Locale }}",
       "author": {
         "@type": "Person",
+        "@id": {{ $authorId | safeURL }},
         "name": "Dài Líng Nà (黛灵娜)"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": {{ $orgId | safeURL }},
+        "name": "El I Chingón"
       },
       "isAccessibleForFree": true,
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "USD"
-      },
-      "featureList": [
-        "CSHC Protocol (Prevents AI Sycophancy)",
-        "Hallucination-free interpretations",
-        "Radical Privacy (No login, no tracking)",
-        "Lateral thinking framework",
-        "Kinesthetic Entropy Capture"
-      ]
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
     }
   ]
   </script>
@@ -58,20 +185,104 @@
       "Consulta Oracular del I Ching"
     ],
     "url": {{ .Permalink }},
-    "inLanguage": "{{ site.Language.Locale }}",
+    "inLanguage": "{{ .Site.Language.Locale }}",
     "applicationCategory": "LifestyleApplication",
     "additionalType": [
       "https://en.wikipedia.org/wiki/I_Ching",
       "https://en.wikipedia.org/wiki/Divination",
       "https://en.wikipedia.org/wiki/Decision-making"
     ],
-    "operatingSystem": "Web, iOS, Android",
+    "operatingSystem": "Web, PWA, iOS, Android",
     "description": "{{ .Description | safeJS }}",
+    {{- if eq $lang "es" }}
+    "keywords": [
+      "consultar I Ching online",
+      "tirada I Ching",
+      "hexagramas I Ching",
+      "protocolo CSHC",
+      "El I Chingón"
+    ],
+    {{- else if eq $lang "de" }}
+    "keywords": [
+      "I Ging online befragen",
+      "I Ging Ziehung",
+      "Hexagramme I Ging",
+      "CSHC-Protokoll",
+      "El I Chingón"
+    ],
+    {{- else }}
+    "keywords": [
+      "I Ching consultation online",
+      "cast I Ching hexagram",
+      "I Ching readings",
+      "CSHC protocol",
+      "El I Chingón"
+    ],
+    {{- end }}
     "author": {
       "@type": "Person",
+      "@id": {{ $authorId | safeURL }},
       "name": "Dài Líng Nà (黛灵娜)"
     },
+    "publisher": {
+      "@type": "Organization",
+      "@id": {{ $orgId | safeURL }},
+      "name": "El I Chingón"
+    },
     "isAccessibleForFree": true,
+    {{- if eq $lang "es" }}
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Acceso gratuito diario",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "10 consultas gratuitas de I Ching asistidas por IA al día.",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "name": "Vales de consulta",
+        "priceCurrency": "USD",
+        "description": "Créditos prepagos mediante vale o tarjeta de regalo sin registro.",
+        "availability": "https://schema.org/InStock"
+      }
+    ],
+    "featureList": [
+      "Captura de Entropía Cinestésica (KEC)",
+      "Interpretación asistida por IA bajo protocolo CSHC",
+      "Textos canónicos de Richard Wilhelm",
+      "Sin registro de cuenta",
+      "Sin rastreo ni cookies",
+      "PWA instalable y código abierto"
+    ]
+    {{- else if eq $lang "de" }}
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Kostenloses Tageskontingent",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "10 kostenlose KI-gestützte I-Ging-Konsultationen pro Tag.",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "name": "Gutscheine",
+        "priceCurrency": "USD",
+        "description": "Prepaid-Guthaben über Gutscheine ohne Kontoanmeldung.",
+        "availability": "https://schema.org/InStock"
+      }
+    ],
+    "featureList": [
+      "Kinästhetische Entropieerfassung (KEC)",
+      "KI-gestützte Deutung nach dem CSHC-Protokoll",
+      "Kanonische Übersetzung von Richard Wilhelm",
+      "Kein Login erforderlich",
+      "Kein Tracking und keine Cookies",
+      "Installierbare PWA und Open Source"
+    ]
+    {{- else }}
     "offers": [
       {
         "@type": "Offer",
@@ -83,20 +294,21 @@
       },
       {
         "@type": "Offer",
-        "name": "Premium Vouchers",
+        "name": "Prepaid Vouchers",
         "priceCurrency": "USD",
-        "description": "Premium consultation credits via voucher or gift card.",
-        "availability": "https://schema.org/PreOrder"
+        "description": "Prepaid consultation credits via voucher or gift card without sign-up.",
+        "availability": "https://schema.org/InStock"
       }
     ],
     "featureList": [
-      "Kinesthetic Entropy Capture",
-      "AI-assisted interpretation",
+      "Kinesthetic Entropy Capture (KEC)",
+      "AI-assisted interpretation under the CSHC protocol",
+      "Richard Wilhelm canonical translations",
       "No login required",
-      "No tracking",
-      "Installable PWA",
-      "Open source"
+      "No tracking or cookies",
+      "Installable PWA and open source"
     ]
+    {{- end }}
   }
   </script>
 
@@ -105,7 +317,7 @@
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Búsqueda de Objetos Perdidos — El I Chingón",
+    "name": {{ if eq $lang "es" }}"Búsqueda de Objetos Perdidos — El I Chingón"{{ else if eq $lang "de" }}"Suche nach verlorenen Gegenständen — El I Chingón"{{ else }}"Lost Object Search — El I Chingón"{{ end }},
     "alternateName": [
       "Liu Yao Objetos Perdidos",
       "Consulta Liu Yao para Objetos Perdidos",
@@ -113,20 +325,106 @@
       "El I Chingón — Objetos Perdidos"
     ],
     "url": {{ .Permalink }},
-    "inLanguage": "{{ site.Language.Locale }}",
+    "inLanguage": "{{ .Site.Language.Locale }}",
     "applicationCategory": "LifestyleApplication",
     "additionalType": [
       "https://en.wikipedia.org/wiki/I_Ching",
       "https://en.wikipedia.org/wiki/Wen_Wang_Gua",
       "https://en.wikipedia.org/wiki/Divination"
     ],
-    "operatingSystem": "Web, iOS, Android",
+    "operatingSystem": "Web, PWA, iOS, Android",
     "description": "{{ .Description | safeJS }}",
+    {{- if eq $lang "es" }}
+    "keywords": [
+      "buscar objetos perdidos I Ching",
+      "Liu Yao objetos perdidos",
+      "Wen Wang Gua",
+      "I Ching",
+      "El I Chingón"
+    ],
+    {{- else if eq $lang "de" }}
+    "keywords": [
+      "verlorene Gegenstände I Ging",
+      "Liu Yao",
+      "Wen Wang Gua",
+      "I Ging",
+      "El I Chingón"
+    ],
+    {{- else }}
+    "keywords": [
+      "find lost objects I Ching",
+      "Liu Yao lost items",
+      "Wen Wang Gua",
+      "I Ching",
+      "El I Chingón"
+    ],
+    {{- end }}
     "author": {
       "@type": "Person",
+      "@id": {{ $authorId | safeURL }},
       "name": "Dài Líng Nà (黛灵娜)"
     },
+    "publisher": {
+      "@type": "Organization",
+      "@id": {{ $orgId | safeURL }},
+      "name": "El I Chingón"
+    },
     "isAccessibleForFree": true,
+    {{- if eq $lang "es" }}
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Acceso gratuito diario",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "10 consultas gratuitas diarias de Liu Yao asistidas por IA para búsqueda de objetos perdidos.",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "name": "Vales de consulta",
+        "priceCurrency": "USD",
+        "description": "Créditos prepagos mediante vale o tarjeta de regalo sin registro.",
+        "availability": "https://schema.org/InStock"
+      }
+    ],
+    "featureList": [
+      "Método Liu Yao (Wen Wang Gua)",
+      "Captura de Entropía Cinestésica (KEC)",
+      "Interpretación asistida por IA",
+      "Informe descargable en PDF",
+      "Sin registro de cuenta",
+      "Sin rastreo ni cookies",
+      "PWA instalable y código abierto"
+    ]
+    {{- else if eq $lang "de" }}
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Kostenloses Tageskontingent",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "10 kostenlose KI-gestützte Liu-Yao-Konsultationen pro Tag für verlorene Gegenstände.",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "name": "Gutscheine",
+        "priceCurrency": "USD",
+        "description": "Prepaid-Guthaben über Gutscheine ohne Kontoanmeldung.",
+        "availability": "https://schema.org/InStock"
+      }
+    ],
+    "featureList": [
+      "Liu-Yao-Methode (Wen Wang Gua)",
+      "Kinästhetische Entropieerfassung (KEC)",
+      "KI-gestützte Deutung",
+      "Herunterladbarer PDF-Bericht",
+      "Kein Login erforderlich",
+      "Kein Tracking und keine Cookies",
+      "Installierbare PWA und Open Source"
+    ]
+    {{- else }}
     "offers": [
       {
         "@type": "Offer",
@@ -138,22 +436,22 @@
       },
       {
         "@type": "Offer",
-        "name": "Premium Vouchers",
+        "name": "Prepaid Vouchers",
         "priceCurrency": "USD",
-        "description": "Premium consultation credits via voucher or gift card.",
-        "availability": "https://schema.org/PreOrder"
+        "description": "Prepaid consultation credits via voucher or gift card without sign-up.",
+        "availability": "https://schema.org/InStock"
       }
     ],
     "featureList": [
       "Liu Yao (Wen Wang Gua) method",
-      "Kinesthetic Entropy Capture",
+      "Kinesthetic Entropy Capture (KEC)",
       "AI-assisted interpretation",
       "Downloadable PDF report",
       "No login required",
-      "No tracking",
-      "Installable PWA",
-      "Open source"
+      "No tracking or cookies",
+      "Installable PWA and open source"
     ]
+    {{- end }}
   }
   </script>
 
@@ -162,17 +460,18 @@
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": {{ printf "%s#dailingna" .Permalink }},
+    "@id": {{ $authorId | safeURL }},
     "name": "Dài Líng Nà (黛灵娜)",
     "alternateName": "Dailingna",
     "url": {{ .Permalink }},
     "image": "https://elichingon.com/img/dailingna/dailingna.webp",
-    "inLanguage": "{{ site.Language.Locale }}",
+    "inLanguage": "{{ .Site.Language.Locale }}",
     "description": "{{ .Description | safeJS }}",
     "disambiguatingDescription": "Dài Líng Nà is a digital role or office within the El I Chingón project, analogous to institutional titles such as 'Pope' or 'Dalai Lama'. It is not the name of a specific individual. The role is currently embodied by a digital avatar.",
     "jobTitle": "Digital role — I Ching counselor and researcher",
     "worksFor": {
       "@type": "Organization",
+      "@id": {{ $orgId | safeURL }},
       "name": "El I Chingón",
       "url": "https://elichingon.com/"
     },
@@ -186,7 +485,10 @@
     ],
     "sameAs": [
       "https://www.youtube.com/@ElIChingon",
-      "https://github.com/ichingon/ichingon.github.io"
+      "https://www.trustpilot.com/review/elichingon.com",
+      "https://github.com/ichingon/ichingon.github.io",
+      "https://t.me/ElIChingon",
+      "https://www.reddit.com/user/El_I_Chingon/"
     ]
   }
   </script>
@@ -197,15 +499,21 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
+    "articleSection": "{{ with (site.GetPage .Section) }}{{ .Title | safeJS }}{{ end }}",
     "name": "{{ .Title | safeJS }}",
     "headline": "{{ .Title | safeJS }}",
     {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
-    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
-    "url" : {{ .Permalink }},
-    "author" : {
+    "inLanguage": "{{ .Site.Language.Locale }}",
+    "url": {{ .Permalink }},
+    "author": {
       "@type": "Person",
+      "@id": {{ $authorId | safeURL }},
       "name": "{{ .Site.Params.Author.name | safeJS }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": {{ $orgId | safeURL }},
+      "name": "El I Chingón"
     },
     {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" }}",{{ end }}
     {{ with .Date }}"dateCreated": "{{ .Format $iso8601 }}",{{ end }}
@@ -213,11 +521,14 @@
     {{ with .ExpiryDate }}"expires": "{{ .Format $iso8601 }}",{{ end }}
     {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
     {{ if .Keywords }}
-    {{ with .Keywords }}"keywords": {{ . }},{{ end }}
-    {{ else }}
-    {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
+    "keywords": {{ .Keywords }},
+    {{ else if .Params.tags }}
+    "keywords": {{ .Params.tags }},
     {{ end }}
-    "mainEntityOfPage": "true",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ .Permalink }}
+    },
     "wordCount": "{{ .WordCount }}"
   }{{ if site.Params.enableStructuredBreadcrumbs | default false }},
   {
@@ -231,7 +542,7 @@
           {
             "@type": "ListItem",
             "position": {{ $position }},
-            "name": "{{ .Title }}",
+            "name": "{{ .Title | safeJS }}",
             "item": {{ .Permalink }}
           },
         {{- end -}}
@@ -240,7 +551,7 @@
       {
         "@type": "ListItem",
         "position": {{ $position }},
-        "name": "{{ .Title }}",
+        "name": "{{ .Title | safeJS }}",
         "item": {{ .Permalink }}
       }
     ]
